@@ -1,0 +1,171 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+//*Header of the text*//
+
+header{
+	position:fixed;
+	top:0%;
+	left:0%;
+	width:100%;
+	height: 15%;
+	background-color: rgba(242, 239, 255, .9);
+}
+
+#logo{
+	width:125px;
+    height: auto;
+	position: fixed;
+	top:1%;
+	left:2%;
+}
+
+#user{
+	width:50px;
+    height: auto;
+}
+
+footer{
+	position:absolute;
+	bottom:0%;
+	left:45%;
+	color:#9ac5ff;
+	padding:5%;
+}
+
+//*Body of the text*//
+
+body{
+	position:relative;
+	margin-top:12%;
+	margin-left: 12%;
+	margin-right: 12%;
+	font-family: 'tradegothiclt-condeighteen', sans-serif;
+	display:-webkit-box;
+	-webkit-border-radius: 10px;
+	padding:5%;
+	-webkit-box-orient: vertical;
+	-webkit-box-pack:right;
+	background-color:white;
+	font-size:18px;
+	color:#333333;
+}
+
+p{
+	font-weight: normal;
+}
+
+html{
+	 background-image: url(sky3.jpg);
+}
+
+#airplanes{
+	width:100%;
+}
+
+#planTrip{
+	-webkit-border-radius: 10px;
+	border: solid 2px #3a8dfd;
+	background:#3a8dfd;
+	color: white;
+}
+
+#planTrip a{
+	text-decoration: none;
+	color: white;
+}
+
+#addPlane{
+	border: solid 2px #3a8dfd;
+	-webkit-border-radius: 10px;
+	background:#3a8dfd;
+	color: white;
+}
+
+.delete{
+	-webkit-border-radius: 10px;
+	border: solid 2px #3a8dfd;
+	background:#3a8dfd;
+	color: white;
+}
+
+#addPlane{
+	position: relative;
+	left:20%;
+}
+
+.info{
+	text-align: center;
+}
+
+.small{
+	width:250px;
+	height: auto;
+}
+
+ul {
+	list-style: none;
+	font-size:24px;
+	padding:0px;
+}
+
+li{
+	padding-top:10px;
+}
+
+#newPlaneFields{
+	padding:0%;
+}
+
+#newPlaneFields li{
+	list-style-type: none;
+	display:inline-block;
+	padding:0%;
+}
+
+.smaller{
+	position:relative;
+	width:50px;
+    height: auto;
+}
+
+#addButton{
+	width:50px;
+    height: auto;
+}
+
+#trips{
+	width:100%;
+	border-collapse: separate;
+	border: 4px solid light gray;
+	border-spacing: 3em;	
+	font-weight:normal;
+}
+
+
+input[type=text] {
+	position:relative;
+	left:20%;
+	max-width: 80%;
+	-webkit-border-radius: 30px;
+	border-radius:solid 1px gray;
+	text-align:center;
+	background: white;
+	font-size: 20px;
+	font-family:'tradegothiclt-light',sans-serif;
+}
+
+input[type=submit] {
+	min-width: 75%;
+	-webkit-border-radius: 30px;
+	border:solid 2px #81a5d4;
+	border:none;
+	text-align:center;
+	background: #3a8dfd;
+	color: white;
+	font-size: 20px;
+	font-family:'tradegothiclt-light',sans-serif;
+}
+
+
