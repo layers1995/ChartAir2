@@ -11,12 +11,17 @@ Rails.application.routes.draw do
   get  '/about_us',    to: 'static_pages#about_us'
 
 #user pages
- get '/new_user', to: 'user#new'
- get '/profile', to: 'user#profile'
+  get '/new_user', to: 'users#new'
+  post '/signup',  to: 'users#create'
+  
+  get '/profile', to: 'users#profile'
 
 #login pages
 
 #root page
   root 'static_pages#home'
+  
+#resources
+  resources :users
   
 end
