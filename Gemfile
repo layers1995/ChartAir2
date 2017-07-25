@@ -10,6 +10,8 @@ end
 gem 'rails', '~> 5.0.4'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+# Use for encrypting user passwords
+gem 'bcrypt', '3.1.11'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets

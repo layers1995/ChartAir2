@@ -11,6 +11,8 @@ Rails.application.routes.draw do
   get  '/about_us',    to: 'static_pages#about_us'
 
 #user pages
+ get '/new_user', to: 'user#new'
+ get '/profile', to: 'user#profile'
 
 #login pages
 
