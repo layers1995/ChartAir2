@@ -12,14 +12,17 @@ Rails.application.routes.draw do
 
 #user pages
   get '/new_user', to: 'users#new'
-  post '/signup',  to: 'users#create'
+  post '/new_user',  to: 'users#create'
   
   get '/profile', to: 'users#profile'
 
 #login pages
+  get '/login', to: "sessions#new"
+  post '/login', to: "sessions#create"
+  delete '/logout',  to: 'sessions#destroy'
 
 #root page
-  root 'static_pages#home'
+  root 'sessions#new'
   
 #resources
   resources :users

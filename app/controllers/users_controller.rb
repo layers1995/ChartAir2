@@ -13,6 +13,7 @@ class UsersController < ApplicationController
     
     if @user.save
       flash[:success] = "Thank you for joining ChartAir"
+      log_in @user
       redirect_to profile_url(@user)
     else
       render 'new'

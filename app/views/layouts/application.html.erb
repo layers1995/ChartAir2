@@ -2,10 +2,10 @@
 <html>
   <head>
     <title>ChartAir</title>
+    
     <%= csrf_meta_tags %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
   </head>
 
   <body>
@@ -13,9 +13,8 @@
       <div class="alert alert-<%= message_type %>"><%= message %></div>
     <% end %>
     
-    <%= render 'layouts/header' %>
-    
     <%= yield %>
+    <%= render 'layouts/footer' %>
   </body>
   
 </html>
