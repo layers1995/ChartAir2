@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   end
   
   def profile
-    #get info about current user and show it
+    @user= current_user
   end
   
   def create

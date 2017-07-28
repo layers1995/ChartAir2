@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
 #pages used for the plan trip      
   get '/plantrip', to: 'plan_trip#trip_details'
+  get '/plantripinfo', to: 'plan_trip#plan_trip_info'
   get '/results', to: 'plan_trip#results'
   
 #static pages
