@@ -12,6 +12,8 @@ gem 'rails', '~> 5.0.4'
 gem 'sqlite3'
 # Use for encrypting user passwords
 gem 'bcrypt', '3.1.11'
+#used for controller testing
+gem 'rails-controller-testing'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
