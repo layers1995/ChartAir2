@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'users_airplanes/index'
+
 #pages used for the plan trip      
   get '/plantrip', to: 'plan_trip#trip_details'
   get '/plantripinfo', to: 'plan_trip#plan_trip_info'
@@ -15,7 +17,8 @@ Rails.application.routes.draw do
   get '/new_user', to: 'users#new'
   post '/new_user',  to: 'users#create'
   
-  get '/profile', to: 'users#profile'
+  get '/profile', to: 'users_airplanes#index'
+  post '/profile', to: 'users_airplanes#add_airplane'
 
 #login pages
   get '/login', to: "sessions#new"
@@ -27,5 +30,6 @@ Rails.application.routes.draw do
   
 #resources
   resources :users
+  resources :airplanes
   
 end
