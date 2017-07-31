@@ -1,11 +1,23 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+jetAirOne:
+  fee_type: landing
+  fbo: jetAir
+  category: singleEnginePiston
+  price: 10
 
-# This model initially had no columns defined. If you add columns to the
-# model remove the '{}' from the fixture names and add the columns immediately
-# below each fixture, per the syntax in the comments below
-#
-one: {}
-# column: value
-#
-two: {}
-# column: value
+jetAirTwo:
+  fee_type: landing
+  fbo: jetAir
+  category: twinEngineTurboprop
+  price: 25
+
+signatureOne:
+  fee_type: landing
+  fbo: signature
+  category: singleEnginePiston
+  price: 100
+
+signatureTwo:
+  fee_type: landing
+  fbo: signature
+  category: twinEngineTurboprop
+  price: 250

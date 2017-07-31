@@ -4,8 +4,16 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
-# column: value
-#
-two: {}
-# column: value
+galesburg_airport:
+  cities_id: galesburg
+  airport_code: gbg"
+  name: "galesburg municipal airport"
+  latitude: "30"
+  longitude: "40"
+
+#ohare:
+#  city: "chicago"
+#  airport_code: "ord"
+#  name: 'o'hare international airport'
+#  latitude: "25"
+#  longitude: "35"

@@ -1,11 +1,18 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+cessna172:
+  manufacturer: "cessna"
+  model: "172 skyhawk"
+  engine_class: "single engine piston"
+  weight: 2300
+  height: 107
+  wingspan: 433
+  length: 326
 
-# This model initially had no columns defined. If you add columns to the
-# model remove the '{}' from the fixture names and add the columns immediately
-# below each fixture, per the syntax in the comments below
-#
-one: {}
-# column: value
-#
-two: {}
-# column: value
+cessna425:
+  manufacturer: "cessna"
+  model: "425 conquest 1"
+  engine_class: "twin engine turboprop"
+  weight: 8600
+  height: 151
+  wingspan: 530
+  length: 430
+

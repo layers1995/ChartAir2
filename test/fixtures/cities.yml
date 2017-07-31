@@ -1,11 +1,11 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+galesburg:
+  name: "galesburg"
+  state: "il"
+  latitude: 29
+  longitude: 39
 
-# This model initially had no columns defined. If you add columns to the
-# model remove the '{}' from the fixture names and add the columns immediately
-# below each fixture, per the syntax in the comments below
-#
-one: {}
-# column: value
-#
-two: {}
-# column: value
+chicago:
+  name: "chicago"
+  state: "il"
+  latitude: 26
+  longitude: 36

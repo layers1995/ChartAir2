@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170717224916) do
+ActiveRecord::Schema.define(version: 20170723164123) do
 
   create_table "airplanes", force: :cascade do |t|
     t.string   "model"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20170717224916) do
     t.integer  "length"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
+    t.string   "manufacturer"
   end
 
   create_table "airports", force: :cascade do |t|
@@ -28,7 +29,7 @@ ActiveRecord::Schema.define(version: 20170717224916) do
     t.string   "name"
     t.string   "latitude"
     t.string   "longitude"
-    t.string   "state"
+    t.string   "state" # airports do not need to know which state they're in
     t.string   "ownerPhone"
     t.string   "managerPhone"
     t.datetime "created_at",   null: false
@@ -41,10 +42,10 @@ ActiveRecord::Schema.define(version: 20170717224916) do
     t.string   "category_description"
     t.integer  "minimum"
     t.integer  "maximum"
-    t.datetime "created_at",              null: false
-    t.datetime "updated_at",              null: false
-    t.integer  "classification_types_id"
-    t.index ["classification_types_id"], name: "index_categories_on_classification_types_id"
+    t.datetime "created_at",           null: false
+    t.datetime "updated_at",           null: false
+    t.integer  "classifications_id"
+    t.index ["classifications_id"], name: "index_categories_on_classifications_id"
   end
 
   create_table "cities", force: :cascade do |t|
