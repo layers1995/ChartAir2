@@ -1,7 +1,7 @@
 jetAirOne:
-  fee_types_id: landing
-  fbos_id: jetAir
-  categories_id: singleEnginePiston
+  fee_types: landing
+  fbos: jetAir
+  categories: singleEnginePiston
   price: 10
 
 #jetAirTwo:

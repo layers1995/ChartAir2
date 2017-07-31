@@ -2,8 +2,8 @@ require 'test_helper'
 
 class FeesTest < ActionDispatch::IntegrationTest
 
-	def setup
 =begin
+	def setup
 		@chicago = cities(:chicago)
 		@galesburg = cities(:galesburg)
 		@airportGalesburg = airports(:galesburgAirport)
@@ -14,13 +14,14 @@ class FeesTest < ActionDispatch::IntegrationTest
 		@signature = fbos(:signature)
 		@classEngine = classifications(:engineType)
 		@feeTypeLanding = fee_types(:landing)
-=end
-		@jetAirlanding172 = fees(:jetAirOne)
-		#@signaturelanding172 = fees(:signatureOne)
+		@jetAirLanding172 = fees(:jetAirOne)
+		@signaturelanding172 = fees(:signatureOne)
 	end
+=end
 
 	test "get fee" do
-		assert_equal(@jetAirlanding172.price, 10)
+		@jetAirLanding172 = fees(:jetAirOne)
+		assert_equal(@jetAirLanding172.price, 10)
 	end
 
 end
