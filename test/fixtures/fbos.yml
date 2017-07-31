@@ -5,12 +5,12 @@
 # below each fixture, per the syntax in the comments below
 #
 jetAir:
-  airport: galesburgAirport
+  airports_id: galesburgAirport
   name: "Jet Air, inc."
   phone: "123-456-7890"
 
-signature:
-  airport: ohare
-  name: "O'hare"
-  phone: "098-765-4321"
+#signature:
+#  airport: ohare
+#  name: "O'hare"
+# phone: "098-765-4321"
 

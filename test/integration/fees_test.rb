@@ -16,7 +16,7 @@ class FeesTest < ActionDispatch::IntegrationTest
 		@feeTypeLanding = fee_types(:landing)
 =end
 		@jetAirlanding172 = fees(:jetAirOne)
-		@signaturelanding172 = fees(:signatureOne)
+		#@signaturelanding172 = fees(:signatureOne)
 	end
 
 	test "get fee" do
