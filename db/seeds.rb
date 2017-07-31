@@ -12,6 +12,7 @@ Fbo.delete_all
 Classification.delete_all
 Category.delete_all
 FeeType.delete_all
+Fee.delete_all
 
 # Grab FBOs by a combination of their name and phone number to ensure that it's unique
 def getFboId(fboName, fboPhone)
@@ -53,7 +54,7 @@ feeTypes.each do |curFeeType|
 	FeeType.create({ :fee_type_description => curFeeType.strip })
 end
 
-Fee.create({ :price => 10, :fee_types_id => FeeType.find_by( :fee_type_description => "landing fee").id, :fbos_id => getFboId("Jet Air", "309-342-3134"), 
+Fee.create({ :price => 10, :fee_types_id => FeeType.find_by( :fee_type_description => "landing").id, :fbos_id => getFboId("Jet Air", "309-342-3134"), 
 						 :categories_id => Category.find_by( :category_description => "single engine piston").id })
 
 

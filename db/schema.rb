@@ -36,7 +36,7 @@ ActiveRecord::Schema.define(version: 20170731155527) do
     t.string   "name"
     t.string   "latitude"
     t.string   "longitude"
-    t.string   "state" # airports do not need to know which state they're in
+    t.string   "state"
     t.string   "ownerPhone"
     t.string   "managerPhone"
     t.datetime "created_at",   null: false
