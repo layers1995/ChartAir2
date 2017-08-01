@@ -1,5 +1,5 @@
 class Fee < ApplicationRecord
-	belongs_to :fbos
-	belongs_to :categories
-	belongs_to :fee_types
+	belongs_to :fbo
+	belongs_to :category
+	belongs_to :fee_type
 end

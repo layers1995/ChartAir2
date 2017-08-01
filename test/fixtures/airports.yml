@@ -5,7 +5,7 @@
 # below each fixture, per the syntax in the comments below
 #
 galesburg_airport:
-  cities_id: galesburg
+  city: galesburg
   airport_code: gbg"
   name: "galesburg municipal airport"
   latitude: "30"

@@ -1,4 +1,4 @@
 class Airport < ApplicationRecord
 	has_many :fbos
-	belongs_to :cities
+	belongs_to :city
 end
