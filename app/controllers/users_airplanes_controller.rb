@@ -1,21 +1,23 @@
 class UsersAirplanesController < ApplicationController
   
-  def index
+  def profile
     @user= current_user
     
-    
     @user_airplane= ""
-    
   end
   
-  def add_airplane
-    @user_airplane= user_airplane_params[:name]
+  def add_plane
+    
+    planeName= params[:name]
+    
+    redirect_to "/profile"
+    
   end
   
   private
 
     def user_airplane_params
-      params.require(:name)
+        params.require(:name).permit(:manufacturer)
     end
   
 end
