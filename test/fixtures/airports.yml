@@ -1,19 +1,13 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+galesburg_airport:
+  city: galesburg
+  airport_code: "gbg"
+  name: "galesburg municipal airport"
+  latitude: "30"
+  longitude: "40"
 
-# This model initially had no columns defined. If you add columns to the
-# model remove the '{}' from the fixture names and add the columns immediately
-# below each fixture, per the syntax in the comments below
-#
-#galesburg_airport:
-#  city: galesburg
-#  airport_code: gbg"
-#  name: "galesburg municipal airport"
-#  latitude: "30"
-#  longitude: "40"
-
-#ohare:
-#  city: "chicago"
-#  airport_code: "ord"
-#  name: 'o'hare international airport'
-#  latitude: "25"
-#  longitude: "35"
+ohare:
+  city: "chicago"
+  airport_code: "ord"
+  name: "ohare international airport"
+  latitude: "25"
+  longitude: "35"
