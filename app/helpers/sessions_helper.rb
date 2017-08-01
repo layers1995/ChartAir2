@@ -17,6 +17,10 @@ module SessionsHelper
     @current_user ||= User.find_by(id: session[:user_id])
   end
   
+  def current_airplanes
+    @current_airplanes= UserAirplane.find(:user_id => session[:user_id])
+  end
+  
   def remember(user)
     user.remember
     cookies.permanent.signed[:user_id] = user.id

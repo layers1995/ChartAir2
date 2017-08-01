@@ -1,12 +1,52 @@
 window.addEventListener("load",start,false);
 
 var planeDict= {}
+var addedManu=false;
 
 function start(){
-    //get json package and save it into a good location
-    
-	//adds listeners dropdownlists
 	
+    //get json package and save it into a good location
+    airplanes= gon.airplanes;
+    
+    //creates the dictionary and the list of manufactors
+    startSettings();
+    
+}
+
+function startSettings(){
+	
+	if(!addedManu){
+		
+		//make the dictonary of planes
+	    for(var i=0 ; i<airplanes.length; i++){
+	        if(planeDict[airplanes[i]["manufacturer"]]==null){
+	            planeDict[airplanes[i]["manufacturer"]]= [];
+	            planeDict[airplanes[i]["manufacturer"]].push(airplanes[i]["model"]);
+	        }else{
+	        	planeDict[airplanes[i]["manufacturer"]].push(airplanes[i]["model"]);
+	        }
+	    }
+		
+		//add list of manufatoroers to the manufacture list
+	    var manufacters=document.getElementById("manufacturer");
+	    var keys= Object.keys(planeDict);
+		
+	    for(var i=0; i<keys.length;i++){
+	    	
+	    	var newOption = document.createElement('option');
+	    	
+	    	newOption.text=keys[i];
+	    	newOption.innerHTML=keys[i];
+	    	newOption.value=keys[i];
+	    	
+	    	manufacters.appendChild(newOption);
+	    }
+	    
+	    changePlanes();
+	}
+	
+	addedManu=true;
+    
 }
 
 
@@ -14,49 +54,34 @@ function start(){
 function changePlanes(){
     
 	//get the select table and cities that are going to be added
-	var state=document.getElementById("state");
-	var cityTable=document.getElementById("city");
-	var stateVal=state.options[state.selectedIndex].value;
-	var cities=cityDict[stateVal];
 	
-	//change over the cities, if there are more cities in this state than the last
-	if(cities.length>=cityTable.length)
+	//the two current selectors seen by user
+	var manufacters=document.getElementById("manufacturer");
+	var airplaneList=document.getElementById("model");
 	
-		for(var i=0; i<cities.length;i++){
-			
-			var curCity=cityTable.options[i];
-			
-			//replace the values in the current table
-			if(curCity != null){
-				curCity.text=properCapitlize(cities[i]);
-				curCity.value=properCapitlize(cities[i]);
-				curCity.innerHTML=properCapitlize(cities[i]);
-			}else{
-			//if there are no more spaces in the current table	
-				var newOption = document.createElement('option');
-			    newOption.value = properCapitlize(cities[i]);
-			    newOption.innerHTML = properCapitlize(cities[i]);
-			    cityTable.appendChild(newOption);
-			}
-		}
+	//currently selected manufacter
+	var manuVal=manufacters.options[manufacters.selectedIndex].value;
+	//list of planes made by manufacter
+	var airplanesFromManu=planeDict[manuVal];
+	
+	//remove all the current planes from the list
+	for(var i=airplaneList.length-1; i>=0; i--){
+		airplaneList.remove(i);
+	}
+	
+	//get new airplane list
+	newPlaneList= planeDict[manuVal];
+	
+	//add the new planes to the list
+	for(var i=0; i<newPlaneList.length;i++){
 		
-	else{
-		
-		//put in new city values
-		for(var i=0; i<cities.length;i++){
-			
-			var curCity=cityTable.options[i];
-			
-			//replace the values in the current table
-			curCity.text=;
-			curCity.value=;
-			curCity.innerHTML=;
-		}
-		
-		//delete the old city values
-		for(var i=cities.length; i<cityTable.length;i++){
-			cityTable.remove(i);
-		}
-	}	
+		var newOption = document.createElement('option');
+	    	
+	    newOption.text=newPlaneList[i];
+	    newOption.innerHTML=newPlaneList[i];
+	    newOption.value=newPlaneList[i];
+	    	
+	    airplaneList.appendChild(newOption);
+	}
 	
 }

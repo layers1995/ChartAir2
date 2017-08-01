@@ -2,13 +2,16 @@ class UsersAirplanesController < ApplicationController
   
   def profile
     @user= current_user
-    
+    #@airplanes= current_airplanes
+    gon.airplanes= Airplane.all
     @user_airplane= ""
   end
   
   def add_plane
     
-    planeName= params[:name]
+    addedAirplane= Airplane.where(:model => params[:model])
+    
+    airplanes_users.create(:user_id => current_user.id, :airplane_id => addedAirplane.id)
     
     redirect_to "/profile"
     
