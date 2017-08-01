@@ -1,0 +1,22 @@
+<%= render 'layouts/header' %>
+<%= stylesheet_link_tag 'main'%>
+<%= javascript_include_tag 'addPlane' %>
+
+<h1><%= @user.name %></h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for @user_airplane do |f| %>
+        
+        <%= render 'layouts/error_messages' %>
+        
+        <p class="loginInfo"><%= f.select :manufacturer, [],{}, {class: "form-control", id:'manufacturer', :onchange=> "changePlanes();"} %></p>
+        
+        <p class="loginInfo"><%= f.select :model, [],{}, {class: "form-control", id:'model'} %></p>
+
+        <%= f.submit "Add Plane", class: "btn btn-primary" %>
+      
+    <% end %>
+  </div>
+  
+</div>
