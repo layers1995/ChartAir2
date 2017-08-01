@@ -1,23 +1,23 @@
 jetAirOne:
-  fee_types: landing
-  fbos: jetAir
-  categories: singleEnginePiston
+  fee_type: landing
+  fbo: jetAir
+  category: singleEnginePiston
   price: 10
 
-#jetAirTwo:
-#  fee_type: landing
-#  fbo: jetAir
-#  category: twinEngineTurboprop
-#  price: 25
+jetAirTwo:
+  fee_type: landing
+  fbo: jetAir
+  category: twinEngineTurboprop
+  price: 25
 
-#signatureOne:
-#  fee_type: landing
-#  fbo: signature
-#  category: singleEnginePiston
-#  price: 100
+signatureOne:
+  fee_type: landing
+  fbo: signature
+  category: singleEnginePiston
+  price: 100
 
-#signatureTwo:
-#  fee_type: landing
-#  fbo: signature
-#  category: twinEngineTurboprop
-#  price: 250
+signatureTwo:
+  fee_type: landing
+  fbo: signature
+  category: twinEngineTurboprop
+  price: 250

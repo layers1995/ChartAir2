@@ -5,18 +5,18 @@
 # below each fixture, per the syntax in the comments below
 #
 noFeeCat:
-  classifications_id: noFee
+  classification: noFee
   category_description: "no fee"
 
 
-#flatRateCat:
-#  classification: flatRate
-#  category_description: "flat rate"
+flatRateCat:
+  classification: flatRate
+  category_description: "flat rate"
 
-#singleEnginePiston:
-#  classification: engineType
-#  category_description: "single engine piston"
+singleEnginePiston:
+  classification: engineType
+  category_description: "single engine piston"
 
-#twinEngineTurboprop:
-#  classification: engineType
-#  category_description: "twin engine turboprop"
+twinEngineTurboprop:
+  classification: engineType
+  category_description: "twin engine turboprop"
