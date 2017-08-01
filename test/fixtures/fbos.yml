@@ -4,10 +4,10 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-jetAir:
-  airports_id: galesburgAirport
-  name: "Jet Air, inc."
-  phone: "123-456-7890"
+#jetAir:
+#  airports_id: galesburgAirport
+#  name: "Jet Air, inc."
+#  phone: "123-456-7890"
 
 #signature:
 #  airport: ohare
