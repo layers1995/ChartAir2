@@ -1,0 +1,2 @@
+class AirplaneUser < ApplicationRecord
+end

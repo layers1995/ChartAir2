@@ -43,16 +43,17 @@ footer{
 
 body{
 	position:relative;
-	margin-top:12%;
+	margin-top: 10%;
 	margin-left: 10%;
 	margin-right: 10%;
+	margin-bottom: 12%;
 	font-family: 'tradegothiclt-condeighteen', sans-serif;
 	display:-webkit-box;
 	-webkit-border-radius: 10px;
 	padding-left:5%;
 	padding-right:5%;
 	padding-top:1%;
-	padding-bottom:1%;
+	padding-bottom:3%;
 	-webkit-box-orient: vertical;
 	-webkit-box-pack:right;
 	background-color:white;
@@ -62,6 +63,10 @@ body{
 
 p{
 	font-weight: normal;
+}
+
+.centered{
+	text-align:center;
 }
 
 html{
@@ -100,7 +105,7 @@ html{
 
 #addPlane{
 	position: relative;
-	left:20%;
+	left:45%;
 }
 
 .info{
@@ -147,7 +152,8 @@ li{
 	width:100%;
 	border-collapse: separate;
 	border: 4px solid light gray;
-	border-spacing: 3em;	
+	border-spacing: 1em;	
+	text-align:center;
 	font-weight:normal;
 }
 

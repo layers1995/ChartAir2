@@ -11,6 +11,22 @@ function start(){
     //creates the dictionary and the list of manufactors
     startSettings();
     
+    //add listener to button
+    var addButton= document.getElementById("addPlane");
+    addButton.onclick=function(){showPlaneOptions();};
+    
+    //make orginal section not show
+    var show= document.getElementById("showAfterClick");
+	show.style.display='none'
+}
+
+function showPlaneOptions(){
+	
+	var show= document.getElementById("showAfterClick");
+	show.style.display='block';
+	
+	var addButton= document.getElementById("addPlane");
+	addButton.style.display='none';
 }
 
 function startSettings(){
