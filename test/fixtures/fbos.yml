@@ -1,10 +1,13 @@
-jetAir:
+#need to figure out why I can't use classification_id like in every other fixture
+jet_air:
   airport: galesburg_airport
-  name: "Jet Air, inc."
-  phone: "123-456-7890"
+  classification: engine_type
+  name: Jet Air, inc.
+  phone: 123-456-7890
 
 signature:
   airport: ohare
-  name: "Signature Flight Support"
-  phone: "098-765-4321"
-
+  classification: engine_type
+  name: Signature Flight Support
+  phone: 098-765-4321
+  

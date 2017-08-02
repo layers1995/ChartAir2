@@ -1,15 +1,15 @@
-noFeeCat:
-  classification: noFee
-  category_description: "no fee"
+no_fee_cat:
+  classification: no_fee
+  category_description: no fee
 
-flatRateCat:
-  classification: flatRate
-  category_description: "flat rate"
+flat_rate_cat:
+  classification: flat_rate
+  category_description: flat rate
 
-singleEnginePiston:
-  classification: engineType
-  category_description: "single engine piston"
+single_engine_piston:
+  classification: engine_type
+  category_description: single engine piston
 
-twinEngineTurboprop:
-  classification: engineType
-  category_description: "twin engine turboprop"
+twin_engine_turboprop:
+  classification: engine_type
+  category_description: twin engine turboprop

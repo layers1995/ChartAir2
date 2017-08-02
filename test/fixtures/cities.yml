@@ -1,11 +1,11 @@
 galesburg:
-  name: "galesburg"
-  state: "il"
+  name: galesburg
+  state: il
   latitude: 29
   longitude: 39
 
 chicago:
-  name: "chicago"
-  state: "il"
+  name: chicago
+  state: il
   latitude: 26
   longitude: 36

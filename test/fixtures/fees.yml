@@ -1,23 +1,35 @@
-jetAirOne:
+jet_air_sep_landing:
   fee_type: landing
-  fbo: jetAir
-  category: singleEnginePiston
+  fbo: jet_air
+  category: single_engine_piston
   price: 10
 
-jetAirTwo:
+jet_air_sep_ramp:
+  fee_type: ramp
+  fbo: jet_air
+  category: single_engine_piston
+  price: 5
+
+jet_air_sep_hangar:
+  fee_type: hangar
+  fbo: jet_air
+  category: single_engine_piston
+  price: 20
+
+jet_air_tet_landing:
   fee_type: landing
-  fbo: jetAir
-  category: twinEngineTurboprop
+  fbo: jet_air
+  category: twin_engine_turboprop
   price: 25
 
-signatureOne:
+signature_sep_landing:
   fee_type: landing
   fbo: signature
-  category: singleEnginePiston
+  category: single_engine_piston
   price: 100
 
-signatureTwo:
+signature__tet_landing:
   fee_type: landing
   fbo: signature
-  category: twinEngineTurboprop
+  category: twin_engine_turboprop
   price: 250

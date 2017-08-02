@@ -1,13 +1,13 @@
 galesburg_airport:
   city: galesburg
-  airport_code: "gbg"
-  name: "galesburg municipal airport"
+  airport_code: gbg
+  name: galesburg municipal airport
   latitude: "30"
   longitude: "40"
 
 ohare:
-  city: "chicago"
-  airport_code: "ord"
-  name: "ohare international airport"
+  city: chicago
+  airport_code: ord
+  name: ohare international airport
   latitude: "25"
   longitude: "35"

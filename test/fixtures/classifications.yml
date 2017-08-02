@@ -1,13 +1,13 @@
-noFee:
-  classification_description: "no fee"
+no_fee:
+  classification_description: no fee
 
-flatRate:
-  classification_description: "flat rate"
+flat_rate:
+  classification_description: flat rate
 
-engineType:
-  classification_description: "engine type"
+engine_type:
+  classification_description: engine type
 
-multiEngineTurboprop:
-  classification_description: "weight"
+multi_engine_turboprop:
+  classification_description: weight
 
 
