@@ -2,26 +2,9 @@ require 'test_helper'
 
 class FeesTest < ActionDispatch::IntegrationTest
 
-=begin
-	def setup
-		@chicago = cities(:chicago)
-		@galesburg = cities(:galesburg)
-		@airportGalesburg = airports(:galesburgAirport)
-		@airportOHare = airports(:ohare)
-		@cessna172 = airplanes(:cessna172)
-		@cessna452 = airplanes(:cessna452)
-		@jetAir = fbos(:jetAir)
-		@signature = fbos(:signature)
-		@classEngine = classifications(:engineType)
-		@feeTypeLanding = fee_types(:landing)
-		@jetAirLanding172 = fees(:jetAirOne)
-		@signaturelanding172 = fees(:signatureOne)
-	end
-=end
-
 	test "ensure correct foreign key relations" do
 		# check that the fee is correct
-		@jetAirLanding172 = fees(:jet_air_one)
+		@jetAirLanding172 = fees(:jet_air_sep_landing)
 
 		# check that I can grab the fbo from the fee
 		jetAir = Fbo.find(@jetAirLanding172.fbo_id)
@@ -52,23 +35,27 @@ class FeesTest < ActionDispatch::IntegrationTest
 		@cessna172 = airplanes(:cessna172)
 		@jetAir = fbos(:jet_air)
 		curFees = getFees(@cessna172, @jetAir)
-		targetFees = Fee.where( :category_id => Category.find_by( :category_description => "single engine piston").id,
-														:fbo_id => Fbo.find_by( :) )
-		assert_equals()
+		# targetFees doesn't work... I might be making this too complicated, look into joins
+		targetFees = Fee.where( :category => Category.find_by( :category_description => "single engine piston"),
+														:fbo => Fbo.find_by( :airport => Airport.find_by(:name => "galesurg municipal airport"), :name => "Jet Air, inc."))
+		curFees.each do |curFee|
+			puts curFee.price
+			puts "penis"
+		end
 	end
 
 	test "engine type fees retrievable" do
 		@cessna172 = airplanes(:cessna172)
 		@jetAir = fbos(:jet_air)
 		curFees = getFees(@cessna172, @jetAir)
-		curFee = curFees.find_by( :fee_type_id => FeeType.find_by(:fee_type_description => "landing").id)
-		assert_equal(fees(:jet_air_one).price, curFee.price)
+		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
+		assert_equal(fees(:jet_air_sep_landing).price, curFee.price)
 
 		@cessna425 = airplanes(:cessna425)
 		@signature = fbos(:signature)
 		curFees = getFees(@cessna425, @signature)
-		curFee = curFees.find_by( :fee_type_id => FeeType.find_by(:fee_type_description => "landing").id)
-		assert_equal(fees(:jet_air_one).price, curFee.price)
+		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
+		assert_equal(fees(:signature_tet_landing).price, curFee.price)
 	end
 
 end

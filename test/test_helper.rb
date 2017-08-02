@@ -32,8 +32,11 @@ class ActiveSupport::TestCase
 			puts "That wasn't supposed to happen"
 		end
 		# return all fees where the category and fbo match what we're looking for. Should be up to 6 fees based on the different fee types
-		return Fee.where( :category_id => category.id, :fbo_id => fbo.id)
+		return Fee.where( :category => category, :fbo => fbo )
 	end
 
-	def retrieveFbo()	  
+	def retrieveFbo(airport, fboName)
+		return Fbo.find_by( :airport => airport, :name => fboName )
+	end	
+
 end

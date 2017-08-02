@@ -28,7 +28,7 @@ signature_sep_landing:
   category: single_engine_piston
   price: 100
 
-signature__tet_landing:
+signature_tet_landing:
   fee_type: landing
   fbo: signature
   category: twin_engine_turboprop
