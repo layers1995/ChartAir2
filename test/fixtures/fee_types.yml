@@ -1,19 +1,19 @@
 landing:
-  fee_type_description: "landing"
+  fee_type_description: landing
 
 ramp:
-  fee_type_description: "ramp"
+  fee_type_description: ramp
 
-tieDown:
-  fee_type_description: "tie down"
+tie_down:
+  fee_type_description: tie down
 
 facility:
-  fee_type_description: "facility"
+  fee_type_description: facility
 
-callOut:
-  fee_type_description: "call out"
+call_out:
+  fee_type_description: call out
 
 hangar:
-  fee_type_description: "hangar"
+  fee_type_description: hangar
 
 

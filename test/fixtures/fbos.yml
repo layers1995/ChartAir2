@@ -1,16 +1,13 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+#need to figure out why I can't use classification_id like in every other fixture
+jet_air:
+  airport: galesburg_airport
+  classification: engine_type
+  name: Jet Air, inc.
+  phone: 123-456-7890
 
-# This model initially had no columns defined. If you add columns to the
-# model remove the '{}' from the fixture names and add the columns immediately
-# below each fixture, per the syntax in the comments below
-#
-#jetAir:
-#  airports_id: galesburgAirport
-#  name: "Jet Air, inc."
-#  phone: "123-456-7890"
-
-#signature:
-#  airport: ohare
-#  name: "O'hare"
-# phone: "098-765-4321"
-
+signature:
+  airport: ohare
+  classification: engine_type
+  name: Signature Flight Support
+  phone: 098-765-4321
+  

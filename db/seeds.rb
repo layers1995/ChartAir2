@@ -25,11 +25,11 @@ Airplane.create({ :manufacturer => "cessna", :model => "172 skyhawk", :engine_cl
 
 City.create({ :name => "galesburg", :state => "il", :latitude => "40", :longitude => "40" })
 
-Airport.create({ :cities_id => City.find_by( :name => "galesburg", :state => "il" ).id,
+Airport.create({ :city_id => City.find_by( :name => "galesburg", :state => "il" ).id,
 								 :airport_code => "gbg", :name => "galesburg municipal airport", 
 								 :latitude => "40.5", :longitude => "40.5" })
  
-Fbo.create({ :airports_id => Airport.find_by( :airport_code => "gbg").id, 
+Fbo.create({ :airport_id => Airport.find_by( :airport_code => "gbg").id, 
 						 :name => "Jet Air", :phone => "309-342-3134", :alternate_phone => "" })
 
 classificationTypes = File.open(Rails.root.join("db", "seed_data", "classification_types"))
@@ -37,16 +37,16 @@ classificationTypes.each do |curClassificationType|
 	Classification.create({ :classification_description => curClassificationType.strip })
 end
 
-Category.create({ :classifications_id => Classification.find_by( :classification_description => "no fee").id,
+Category.create({ :classification_id => Classification.find_by( :classification_description => "no fee").id,
 									:category_description => "no fee"})
 
-Category.create({ :classifications_id => Classification.find_by( :classification_description => "flat rate").id,
+Category.create({ :classification_id => Classification.find_by( :classification_description => "flat rate").id,
 									:category_description => "flat rate"})
 
-Category.create({ :classifications_id => Classification.find_by( :classification_description => "engine type").id,
+Category.create({ :classification_id => Classification.find_by( :classification_description => "engine type").id,
 									:category_description => "single engine piston"})
 
-Category.create({ :classifications_id => Classification.find_by( :classification_description => "engine type").id,
+Category.create({ :classification_id => Classification.find_by( :classification_description => "engine type").id,
 									:category_description => "twin engine piston"})
 
 feeTypes = File.open(Rails.root.join("db", "seed_data", "fee_types"))
@@ -54,8 +54,10 @@ feeTypes.each do |curFeeType|
 	FeeType.create({ :fee_type_description => curFeeType.strip })
 end
 
-Fee.create({ :price => 10, :fee_types_id => FeeType.find_by( :fee_type_description => "landing").id, :fbos_id => getFboId("Jet Air", "309-342-3134"), 
-						 :categories_id => Category.find_by( :category_description => "single engine piston").id })
+Fee.create({ :price => 10, :fee_type_id => FeeType.find_by( :fee_type_description => "landing").id, :fbo_id => getFboId("Jet Air", "309-342-3134"), 
+						 :category_id => Category.find_by( :category_description => "single engine piston").id })
+
+
 
 
 

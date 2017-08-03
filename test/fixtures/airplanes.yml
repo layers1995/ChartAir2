@@ -1,16 +1,16 @@
 cessna172:
-  manufacturer: "cessna"
-  model: "172 skyhawk"
-  engine_class: "single engine piston"
+  manufacturer: cessna
+  model: 172 skyhawk
+  engine_class: single engine piston
   weight: 2300
   height: 107
   wingspan: 433
   length: 326
 
 cessna425:
-  manufacturer: "cessna"
-  model: "425 conquest 1"
-  engine_class: "twin engine turboprop"
+  manufacturer: cessna
+  model: 425 conquest 1
+  engine_class: twin engine turboprop
   weight: 8600
   height: 151
   wingspan: 530

@@ -13,4 +13,30 @@ class ActiveSupport::TestCase
     !session[:user_id].nil?
   end
   
+# THIS PROBABLY SHOULDN'T BE HERE BUT I DON'T KNOW HOW TO GET IT IN THE TESTS ANY OTHER WAY
+# make sure to add any updates to the plan_trip_controller
+	def getFees(airplane, fbo)
+	  # get the classification from the fbo, guess Jaime was right
+		classification = Classification.find(fbo.classification_id)
+		# get the category based on the classification and the airplane
+		case classification.classification_description
+		when "no fee"
+			category = Category.find_by( :category_description => "no fee")
+		when "flat rate"
+			category = Category.find_by( :category_description => "flat rate")
+		when "engine type"
+			category = Category.find_by( :category_description => airplane.engine_class)
+		when "make and model"
+			category = Category.find_by( :category_description => airplane.model)
+		else
+			puts "That wasn't supposed to happen"
+		end
+		# return all fees where the category and fbo match what we're looking for. Should be up to 6 fees based on the different fee types
+		return Fee.where( :category => category, :fbo => fbo )
+	end
+
+	def retrieveFbo(airport, fboName)
+		return Fbo.find_by( :airport => airport, :name => fboName )
+	end	
+
 end

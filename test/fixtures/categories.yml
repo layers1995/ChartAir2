@@ -1,22 +1,15 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+no_fee_cat:
+  classification: no_fee
+  category_description: no fee
 
-# This model initially had no columns defined. If you add columns to the
-# model remove the '{}' from the fixture names and add the columns immediately
-# below each fixture, per the syntax in the comments below
-#
-#noFeeCat:
-#  classifications_id: noFee
-#  category_description: "no fee"
+flat_rate_cat:
+  classification: flat_rate
+  category_description: flat rate
 
+single_engine_piston:
+  classification: engine_type
+  category_description: single engine piston
 
-#flatRateCat:
-#  classification: flatRate
-#  category_description: "flat rate"
-
-#singleEnginePiston:
-#  classification: engineType
-#  category_description: "single engine piston"
-
-#twinEngineTurboprop:
-#  classification: engineType
-#  category_description: "twin engine turboprop"
+twin_engine_turboprop:
+  classification: engine_type
+  category_description: twin engine turboprop
