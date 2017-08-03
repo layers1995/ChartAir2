@@ -23,44 +23,43 @@ class UsersAirplanesControllerTest < ActionDispatch::IntegrationTest
   test "user saves plane success" do
     post login_path, params: { session: { name: @user.name, password: 'password' } }
     get profile_path
-    post profile_path, params: { user_airplane_params: { model: "172 skyhawk", manufacturer: "cessna" } }
+    assert_response :success
+    post profile_path, params: { user_airplane_params: {tailnumber: "tailie", model: "172 skyhawk", manufacturer: "cessna" } }
+    follow_redirect!
     assert_response :success
   end
   
-  test "display current plane" do
+  test "multiples of same airplane saved" do
     post login_path, params: { session: { name: @user.name, password: 'password' } }
     get profile_path
-    
-    post profile_path, params: { user_airplane_params: { model: "172 skyhawk", manufacturer: "cessna" } }
+    assert_response :success
+    AirplaneUser.create(:airplane_id => Airplane.first.id, :user_id => User.first.id, :tailnumber => "tailie")
     assert_response :success
     
     assert_template 'users_airplanes/profile'
-    #check if there is an airplane shown
+    
+    AirplaneUser.create(:airplane_id => Airplane.first.id, :user_id => User.first.id, :tailnumber => "tailie2")
+    assert_response :success
+    
+    assert AirplaneUser.all.length==2
+   
   end
   
-  test "displays multiples of same airplane" do
+  test "deletes row from airplane user table" do
+    #creates airplane
     post login_path, params: { session: { name: @user.name, password: 'password' } }
     get profile_path
-    
-    post profile_path, params: { user_airplane_params: { model: "172 skyhawk", manufacturer: "cessna" } }
+    assert_response :success
+    AirplaneUser.create(:airplane_id => Airplane.first.id, :user_id => User.first.id, :tailnumber => "tail123")
     assert_response :success
     
-    assert_template 'users_airplanes/profile'
-    #check if there is an airplane shown
-    
-    post profile_path, params: { user_airplane_params: { model: "172 skyhawk", manufacturer: "cessna" } }
+    #deletes airplane
+    AirplaneUser.find_by(:tailnumber => "tail123").destroy
     assert_response :success
-    
-    assert_template 'users_airplanes/profile'
-    #check if there is two airplanes being shown
   end
   
-  test "deletes airplane from airplane user table" do
-    
-  end
-  
-  test "deleted user also deletes entry in table" do
-    
+  test "delete airplane user rows if user deleted" do
+    assert false
   end
 
 end

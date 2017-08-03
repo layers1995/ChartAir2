@@ -10,11 +10,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170802154907) do
+ActiveRecord::Schema.define(version: 20170802171957) do
 
   create_table "airplane_users", force: :cascade do |t|
     t.integer "airplane_id", null: false
     t.integer "user_id",     null: false
+    t.string  "tailnumber"
     t.index ["airplane_id", "user_id"], name: "index_airplane_users_on_airplane_id_and_user_id"
   end
 

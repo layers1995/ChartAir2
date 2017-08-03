@@ -17,8 +17,8 @@ Rails.application.routes.draw do
   post '/new_user',  to: 'users#create'
   
   get '/profile', to: 'users_airplanes#profile'
+  get '/profileremove', to: 'users_airplanes#remove_plane'
   post '/profile', to: 'users_airplanes#add_plane'
-  post '/profileremove', to: 'users_airplanes#remove_plane'
 
 #login pages
   get '/login', to: "sessions#new"
