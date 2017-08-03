@@ -10,4 +10,7 @@ engine_type:
 multi_engine_turboprop:
   classification_description: weight
 
+make_and_model:
+  classification_description: make and model
+
 

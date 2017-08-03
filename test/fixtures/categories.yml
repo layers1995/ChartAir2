@@ -13,3 +13,11 @@ single_engine_piston:
 twin_engine_turboprop:
   classification: engine_type
   category_description: twin engine turboprop
+
+172skyhawk:
+  classification: make_and_model
+  category_description: 172 skyhawk
+
+425conquest:
+  classification: make_and_model
+  category_description: 425 conquest

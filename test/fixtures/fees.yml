@@ -33,3 +33,15 @@ signature_tet_landing:
   fbo: signature
   category: twin_engine_turboprop
   price: 250
+
+jet_flair_172_landing:
+  fee_type: landing
+  fbo: jet_flair
+  category: 172skyhawk
+  price: 30
+
+jet_flair_425_landing:
+  fee_type: landing
+  fbo: jet_flair
+  category: 425conquest
+  price: 60
