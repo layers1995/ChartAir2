@@ -28,14 +28,14 @@ City.create({ :name => "galesburg", :state => "il", :latitude => "40", :longitud
 Airport.create({ :city_id => City.find_by( :name => "galesburg", :state => "il" ).id,
 								 :airport_code => "gbg", :name => "galesburg municipal airport", 
 								 :latitude => "40.5", :longitude => "40.5" })
- 
-Fbo.create({ :airport_id => Airport.find_by( :airport_code => "gbg").id, 
-						 :name => "Jet Air", :phone => "309-342-3134", :alternate_phone => "" })
 
 classificationTypes = File.open(Rails.root.join("db", "seed_data", "classification_types"))
 classificationTypes.each do |curClassificationType|
 	Classification.create({ :classification_description => curClassificationType.strip })
 end
+
+Fbo.create({ :airport_id => Airport.find_by( :airport_code => "gbg").id, :classification_id => Classification.find_by( :classification_description => "engine type").id,
+						 :name => "Jet Air", :phone => "309-342-3134", :alternate_phone => "" })
 
 Category.create({ :classification_id => Classification.find_by( :classification_description => "no fee").id,
 									:category_description => "no fee"})
