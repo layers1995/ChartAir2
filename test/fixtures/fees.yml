@@ -45,3 +45,16 @@ jet_flair_425_landing:
   fbo: jet_flair
   category: 425conquest
   price: 60
+
+no_fee_fbo_landing:
+  fee_type: landing
+  fbo: no_fee_fbo
+  category: no_fee_cat
+  price: 0
+
+flat_rate_fbo_landing:
+  fee_type: landing
+  fbo: flat_rate_fbo
+  category: flat_rate_cat
+  price: 3
+

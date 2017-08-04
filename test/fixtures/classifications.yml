@@ -7,10 +7,18 @@ flat_rate:
 engine_type:
   classification_description: engine type
 
-multi_engine_turboprop:
+weight:
   classification_description: weight
+
+weight_range:
+  classification_description: weight range
 
 make_and_model:
   classification_description: make and model
+
+square_footage:
+  classification_description: square footage
+  
+
 
 

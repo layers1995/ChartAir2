@@ -1,11 +1,30 @@
 galesburg:
   name: galesburg
   state: il
-  latitude: 29
-  longitude: 39
+  latitude: "29"
+  longitude: "39"
 
 chicago:
   name: chicago
   state: il
-  latitude: 26
-  longitude: 36
+  latitude: "26"
+  longitude: "36"
+
+literally_nowhere:
+  name: there is none
+  state: al
+  latitude: "0"
+  longitude: "0"
+
+technically_somewhere:
+  name: placeholder
+  state: mo
+  latitude: "2"
+  longitude: "1"
+
+gravity_falls:
+  name: gravity falls
+  state: ks
+  latitude: "69"
+  longitude: "80"
+

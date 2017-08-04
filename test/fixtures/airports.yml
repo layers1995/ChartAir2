@@ -11,3 +11,25 @@ ohare:
   name: ohare international airport
   latitude: "25"
   longitude: "35"
+
+nowhere_airport:
+  city: literally_nowhere
+  airport_code: nan
+  name: nowhere municipal airport
+  latitude: "0"
+  longitude: "0"
+
+kinda_somewhere_airport:
+  city: technically_somewhere
+  airport_code: nah
+  name: kinda somewhere municipal airport
+  latitude: "1"
+  longitude: "2"
+
+gravity_falls_airport:
+  city: gravity_falls
+  airport_code: grv
+  name: gravity falls municipal airport
+  latitude: "42"
+  longitude: "666"
+

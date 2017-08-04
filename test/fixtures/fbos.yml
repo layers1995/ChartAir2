@@ -21,4 +21,28 @@ bignature:
   classification: make_and_model
   name: Bignature Flight Support
   phone: 222-222-2222
+
+no_fee_fbo:
+  airport: nowhere_airport
+  classification: no_fee
+  name: small fbo
+  phone: 333-333-3333
+
+flat_rate_fbo:
+  airport: kinda_somewhere_airport
+  classification: flat_rate
+  name: not as small fbo
+  phone: 444-444-4444
+
+weight_range_fbo:
+  airport: gravity_falls_airport
+  classification: weight_range
+  name: weight range operator
+  phone: 555-555-5555
+
+weight_fbo:
+  airport: gravity_falls_airport
+  classification: weight
+  name: weight operator
+  phone: 666-666-6666
   

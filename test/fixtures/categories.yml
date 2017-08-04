@@ -20,4 +20,14 @@ twin_engine_turboprop:
 
 425conquest:
   classification: make_and_model
-  category_description: 425 conquest
+  category_description: 425 conquest 1
+
+low_weight:
+  classification: weight_range
+  minimum: 0
+  maxiumum: 4999
+
+medium_weight:
+  classification: weight_range
+  minimum: 5000
+  maximum: 10000

@@ -35,8 +35,4 @@ class ActiveSupport::TestCase
 		return Fee.where( :category => category, :fbo => fbo )
 	end
 
-	def retrieveFbo(airport, fboName)
-		return Fbo.find_by( :airport => airport, :name => fboName )
-	end	
-
 end

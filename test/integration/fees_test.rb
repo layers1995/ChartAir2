@@ -2,6 +2,11 @@ require 'test_helper'
 
 class FeesTest < ActionDispatch::IntegrationTest
 
+	def setup
+		@cessna172 = airplanes(:cessna172)
+		@cessna425 = airplanes(:cessna425)
+	end
+
 	test "ensure correct foreign key relations" do
 		# check that the fee is correct
 		@jetAirLanding172 = fees(:jet_air_sep_landing)
@@ -33,7 +38,6 @@ class FeesTest < ActionDispatch::IntegrationTest
 	end
 
 	test "multiple fee types retrievable" do
-		@cessna172 = airplanes(:cessna172)
 		@jetAir = fbos(:jet_air)
 		curFees = getFees(@cessna172, @jetAir)
 		targetFees = Fee.joins(:fbo).joins(:category).where('categories.category_description == "single engine piston" and fbos.name == "Jet Air, inc."')
@@ -43,32 +47,53 @@ class FeesTest < ActionDispatch::IntegrationTest
 	end
 
 	test "engine type fees retrievable" do
-		@cessna172 = airplanes(:cessna172)
 		@jetAir = fbos(:jet_air)
+
 		curFees = getFees(@cessna172, @jetAir)
 		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
 		assert_equal(fees(:jet_air_sep_landing).price, curFee.price)
 
-		@cessna425 = airplanes(:cessna425)
 		curFees = getFees(@cessna425, @jetAir)
-		curFee = curFees.joins(:fee_type).where('fee_type_description == "landing"')
-		#curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing" ))
+		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing" ))
 		assert_equal(fees(:jet_air_tet_landing).price, curFee.price)
 	end
 
 	test "model fees retrievable" do
-		@cessna172 = airplanes(:cessna172)
 		@jetFlair = fbos(:jet_flair)
+
 		curFees = getFees(@cessna172, @jetFlair)
-		curFee = curFees.joins(:fee_type).where('fee_type_description == "landing"')
-		#curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
+		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
 		assert_equal(fees(:jet_flair_172_landing).price, curFee.price)
 
-		@cessna425 = airplanes(:cessna425)
 		curFees = getFees(@cessna425, @jetFlair)
-		curFee = curFees.joins(:fee_type).where('fee_type_description == "landing"')
-		#curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
+		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
 		assert_equal(fees(:jet_flair_425_landing).price, curFee.price)
 	end
+
+	test "no fees retrievable" do
+		@noFeeFbo = fbos(:no_fee_fbo)
+
+		curFees = getFees(@cessna172, @noFeeFbo)
+		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
+		assert_equal(0, curFee.price)
+
+		curFees = getFees(@cessna425, @noFeeFbo)
+		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
+		assert_equal(0, curFee.price)
+	end
+
+	test "flat rate fees retrievable" do
+		@flatRateFbo = fbos(:flat_rate_fbo)
+
+		curFees = getFees(@cessna172, @flatRateFbo)
+		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
+		assert_equal(fees(:flat_rate_fbo_landing).price, curFee.price)
+
+		curFees = getFees(@cessna425, @flatRateFbo)
+		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
+		assert_equal(fees(:flat_rate_fbo_landing).price, curFee.price)
+	end
+
+	
 
 end
