@@ -58,3 +58,15 @@ flat_rate_fbo_landing:
   category: flat_rate_cat
   price: 3
 
+weight_range_fbo_small_landing:
+  fee_type: landing
+  fbo: weight_range_fbo
+  category: low_weight
+  price: 17
+
+weight_range_fbo_medium_landing:
+  fee_type: landing
+  fbo: weight_range_fbo
+  category: medium_weight
+  price: 34
+

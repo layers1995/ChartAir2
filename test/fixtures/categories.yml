@@ -25,7 +25,7 @@ twin_engine_turboprop:
 low_weight:
   classification: weight_range
   minimum: 0
-  maxiumum: 4999
+  maximum: 4999
 
 medium_weight:
   classification: weight_range

@@ -28,11 +28,18 @@ class ActiveSupport::TestCase
 			category = Category.find_by( :category_description => airplane.engine_class)
 		when "make and model"
 			category = Category.find_by( :category_description => airplane.model)
+		when "weight range"
+			# I really doubt this will actually work, but that's the idea
+			category = Category.find_by( :minimum < airplane.weight, :maximum > airplane.weight)
+		when "weight"
+			# I think this is where I'm going to need to redesign the schema. Maybe just add a column to category saying how much per x the fee is charged. So if it's $5 every 1000 pounds, that new column would be 1000
 		else
 			puts "That wasn't supposed to happen"
 		end
-		# return all fees where the category and fbo match what we're looking for. Should be up to 6 fees based on the different fee types
+
+			# return all fees where the category and fbo match what we're looking for. Should be up to 6 fees based on the different fee types
 		return Fee.where( :category => category, :fbo => fbo )
+
 	end
 
 end
