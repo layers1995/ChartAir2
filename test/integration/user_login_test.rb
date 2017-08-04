@@ -14,7 +14,7 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
     assert_template 'sessions/new'
     assert_not flash.empty?
     get root_path
-    assert flash.empty? #ERROR HERE! Flash not disappearing
+    assert flash.empty?
   end
   
   
@@ -23,7 +23,7 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
     post login_path, params: { session: { name: @user.name, password: 'password' } }
     assert_redirected_to '/profile'
     follow_redirect!
-    assert_template 'users/profile'
+    assert_template 'users_airplanes/profile'
   end
   
   
@@ -35,7 +35,7 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
     assert is_logged_in?
     assert_redirected_to '/profile'
     follow_redirect!
-    assert_template 'users/profile'
+    assert_template 'users_airplanes/profile'
     assert_select "a[href=?]", login_path, count: 0
     assert_select "a[href=?]", logout_path
     

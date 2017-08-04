@@ -2,7 +2,7 @@ class PlanTripController < ApplicationController
   
   def trip_details
     if not logged_in?
-      redirect_to plantripinfo_url
+      redirect_to home_path
     end
   end
 

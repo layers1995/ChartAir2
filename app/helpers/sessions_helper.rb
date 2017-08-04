@@ -17,9 +17,28 @@ module SessionsHelper
     @current_user ||= User.find_by(id: session[:user_id])
   end
   
+  #returns a list of all the airplanes currenly being used by the user
   def current_airplanes
-    @current_airplanes= UserAirplane.find(:user_id => session[:user_id])
+    
+    if(AirplaneUser.where(:user_id => session[:user_id]))
+      
+      #table all airplanes ids and tailnumbers used by a spicific user
+      airplanes=Array.new(AirplaneUser.where(:user_id => session[:user_id]).length)
+      count=0
+      
+      #creates an array of all the ids from the airplanes
+      for airplane in AirplaneUser.where(:user_id => session[:user_id]) do
+        curAirplane= Airplane.find_by(:id => airplane.airplane_id)
+        airplanes[count]={ "tailnumber" => airplane.tailnumber, "model" => curAirplane.model, "manufacturer" =>  curAirplane.manufacturer}
+        count+=1
+      end
+      
+      @current_airplanes= airplanes
+      
+    end
+    
   end
+
   
   def remember(user)
     user.remember

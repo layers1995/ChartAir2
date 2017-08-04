@@ -2,21 +2,43 @@
 <%= stylesheet_link_tag 'main'%>
 <%= javascript_include_tag 'addPlane' %>
 
-<h1><%= @user.name %></h1>
+<h1 class="centered"><%= @user.name %></h1>
 
-<div class="row">
-  <div class="col-md-6 col-md-offset-3">
-    <%= form_for @user_airplane do |f| %>
-        
-        <%= render 'layouts/error_messages' %>
-        
-        <p class="loginInfo"><%= f.select :manufacturer, [],{}, {class: "form-control", id:'manufacturer', :onchange=> "changePlanes();"} %></p>
-        
-        <p class="loginInfo"><%= f.select :model, [],{}, {class: "form-control", id:'model'} %></p>
+<%if @airplanes!=nil%>
+<h4 class="centered">Your Airplanes</h4>
+  <table id="trips">
+    <% @airplanes.each do |airplane|%>
+        <tr>
+          <td><h3><%=airplane["tailnumber"]%></h3></td>
+          <td><h3><%=airplane["model"]%></h3></td>
+          <td><h3><%=airplane["manufacturer"]%></h3></td>
+          <td><form action="/plantrip"><input type="submit" value="Plan Trip"/></form></td>
+          <td><%= link_to "Remove Airplane", profileremove_path(:tailnumber => airplane["tailnumber"]) %></td>
+        </tr>
+    <%end%>
+  </table>
+<%end%>
 
-        <%= f.submit "Add Plane", class: "btn btn-primary" %>
+<button id="addPlane">Add Plane</button>
+
+<div id="showAfterClick">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <%= form_for @user_airplane do |f| %>
+            
+            <%= render 'layouts/error_messages' %>
+            
+            <table id="tripInfo">
+              <tr>
+                <td><%= f.text_field :tailnumber, {class: "form-control", :placeholder=>"Tailnumber"} %></td>
+                <td><%= f.select :manufacturer, [],{}, {class: "form-control", id:'manufacturer', :onchange=> "changePlanes();"} %></td>
+                <td><%= f.select :model, [],{}, {class: "form-control", id:'model'} %></td>
+                <td><%= f.submit "Add Plane", class: "btn btn-primary" %></td>
+              </tr>
+            </table>
+          
+        <% end %>
+      </div>
       
-    <% end %>
-  </div>
-  
+    </div>
 </div>

@@ -4,7 +4,6 @@ Rails.application.routes.draw do
 
 #pages used for the plan trip      
   get '/plantrip', to: 'plan_trip#trip_details'
-  get '/plantripinfo', to: 'plan_trip#plan_trip_info'
   get '/results', to: 'plan_trip#results'
   
 #static pages
@@ -18,6 +17,7 @@ Rails.application.routes.draw do
   post '/new_user',  to: 'users#create'
   
   get '/profile', to: 'users_airplanes#profile'
+  get '/profileremove', to: 'users_airplanes#remove_plane'
   post '/profile', to: 'users_airplanes#add_plane'
 
 #login pages

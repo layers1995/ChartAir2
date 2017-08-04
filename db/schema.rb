@@ -10,7 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170731191735) do
+ActiveRecord::Schema.define(version: 20170802171957) do
+
+  create_table "airplane_users", force: :cascade do |t|
+    t.integer "airplane_id", null: false
+    t.integer "user_id",     null: false
+    t.string  "tailnumber"
+    t.index ["airplane_id", "user_id"], name: "index_airplane_users_on_airplane_id_and_user_id"
+  end
 
   create_table "airplanes", force: :cascade do |t|
     t.string   "model"
@@ -24,13 +31,6 @@ ActiveRecord::Schema.define(version: 20170731191735) do
     t.string   "manufacturer"
   end
 
-  create_table "airplanes_users", id: false, force: :cascade do |t|
-    t.integer "user_id",     null: false
-    t.integer "airplane_id", null: false
-    t.index ["airplane_id"], name: "index_airplanes_users_on_airplane_id"
-    t.index ["user_id"], name: "index_airplanes_users_on_user_id"
-  end
-
   create_table "airports", force: :cascade do |t|
     t.string   "airport_code"
     t.string   "name"
@@ -41,8 +41,8 @@ ActiveRecord::Schema.define(version: 20170731191735) do
     t.string   "managerPhone"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
-    t.integer  "city_id"
-    t.index ["city_id"], name: "index_airports_on_city_id"
+    t.integer  "cities_id"
+    t.index ["cities_id"], name: "index_airports_on_cities_id"
   end
 
   create_table "categories", force: :cascade do |t|
@@ -51,8 +51,8 @@ ActiveRecord::Schema.define(version: 20170731191735) do
     t.integer  "maximum"
     t.datetime "created_at",           null: false
     t.datetime "updated_at",           null: false
-    t.integer  "classification_id"
-    t.index ["classification_id"], name: "index_categories_on_classification_id"
+    t.integer  "classifications_id"
+    t.index ["classifications_id"], name: "index_categories_on_classifications_id"
   end
 
   create_table "cities", force: :cascade do |t|
@@ -74,12 +74,12 @@ ActiveRecord::Schema.define(version: 20170731191735) do
     t.string   "name"
     t.string   "phone"
     t.string   "alternate_phone"
-    t.datetime "created_at",        null: false
-    t.datetime "updated_at",        null: false
-    t.integer  "airport_id"
-    t.integer  "classification_id"
-    t.index ["airport_id"], name: "index_fbos_on_airport_id"
-    t.index ["classification_id"], name: "index_fbos_on_classification_id"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+    t.integer  "airports_id"
+    t.integer  "classifications_id"
+    t.index ["airports_id"], name: "index_fbos_on_airports_id"
+    t.index ["classifications_id"], name: "index_fbos_on_classifications_id"
   end
 
   create_table "fee_types", force: :cascade do |t|
@@ -90,14 +90,19 @@ ActiveRecord::Schema.define(version: 20170731191735) do
 
   create_table "fees", force: :cascade do |t|
     t.integer  "price"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
-    t.integer  "fee_type_id"
-    t.integer  "fbo_id"
-    t.integer  "category_id"
-    t.index ["category_id"], name: "index_fees_on_category_id"
-    t.index ["fbo_id"], name: "index_fees_on_fbo_id"
-    t.index ["fee_type_id"], name: "index_fees_on_fee_type_id"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+    t.integer  "fee_types_id"
+    t.integer  "fbos_id"
+    t.integer  "categories_id"
+    t.index ["categories_id"], name: "index_fees_on_categories_id"
+    t.index ["fbos_id"], name: "index_fees_on_fbos_id"
+    t.index ["fee_types_id"], name: "index_fees_on_fee_types_id"
+  end
+
+  create_table "user_airplanes", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "users", force: :cascade do |t|
