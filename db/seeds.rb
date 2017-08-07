@@ -24,6 +24,11 @@ end
 Airplane.create({ :manufacturer => "cessna", :model => "172 skyhawk", :engine_class => "single engine piston", :weight => 2300, :height => 107, :wingspan => 433, :length => 326})
 
 City.create({ :name => "galesburg", :state => "il", :latitude => "40", :longitude => "40" })
+City.create({ :name => "chicago", :state => "il", :latitude => "41", :longitude => "41" })
+
+Airport.create({ :city_id => City.find_by( :name => "galesburg", :state => "il" ).id,
+								 :airport_code => "gbg", :name => "galesburg municipal airport", 
+								 :latitude => "40.5", :longitude => "40.5" })
 
 Airport.create({ :city_id => City.find_by( :name => "galesburg", :state => "il" ).id,
 								 :airport_code => "gbg", :name => "galesburg municipal airport", 

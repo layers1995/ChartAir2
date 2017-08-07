@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170802171957) do
+ActiveRecord::Schema.define(version: 20170807000339) do
 
   create_table "airplane_users", force: :cascade do |t|
     t.integer "airplane_id", null: false
@@ -51,8 +51,6 @@ ActiveRecord::Schema.define(version: 20170802171957) do
     t.integer  "maximum"
     t.datetime "created_at",           null: false
     t.datetime "updated_at",           null: false
-    t.integer  "classification_id"
-    t.index ["classification_id"], name: "index_categories_on_classification_id"
   end
 
   create_table "cities", force: :cascade do |t|

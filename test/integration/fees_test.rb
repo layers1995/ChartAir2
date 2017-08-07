@@ -94,15 +94,14 @@ class FeesTest < ActionDispatch::IntegrationTest
 		assert_equal(fees(:flat_rate_fbo_landing).price, curFee.price)
 	end
 
-=begin
 	test "weight range fees retrievable" do
 		@weightRangeFbo = fbos(:weight_range_fbo)
 
-		curFees = getFees(@cessna172, @weight_range_fbo)
+		curFees = getFees(@cessna172, @weightRangeFbo)
 		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
 		assert_equal(fees(:weight_range_fbo_small_landing).price, curFee.price)
 
-		curFees = getFees(@cessna425, @weight_range_fbo)
+		curFees = getFees(@cessna425, @weightRangeFbo)
 		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
 		assert_equal(fees(:weight_range_fbo_medium_landing).price, curFee.price)
 	end
@@ -110,15 +109,14 @@ class FeesTest < ActionDispatch::IntegrationTest
 	test "weight fees retrievable" do
 		@weightFbo = fbos(:weight_fbo)
 
-		curFees = getFees(@cessna172, @weight_fbo)
+		curFees = getFees(@cessna172, @weightFbo)
 		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
 		assert_equal(fees(:flat_rate_fbo_landing).price, curFee.price)
 
-		curFees = getFees(@cessna172, @weight_fbo)
+		curFees = getFees(@cessna172, @weightFbo)
 		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
 		assert_equal(fees(:flat_rate_fbo_landing).price, curFee.price)
 	end
-=end
 
 	
 
