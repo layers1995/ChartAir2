@@ -1,5 +1,5 @@
 def main
-=begin
+
 	Airplane.delete_all
 	FeeType.delete_all
 	City.delete_all
@@ -7,17 +7,14 @@ def main
 	Fbo.delete_all
 	Classification.delete_all
 	Category.delete_all
-=end
 	Fee.delete_all
 
-=begin
 	addAirplanes()
 	addFeeTypes("fee_types")
 	addClassifications("classification_types")
 	addCategories("categories")
 	addAirports("airport_seed_data") # also adds cities
 	addFbos("fbo_seed_data")
-=end
 	addFeesAndUpdateFbos("survey_responses.tsv")
 end
 
@@ -194,7 +191,7 @@ def singleFeeHelper(feePrice, category, fbo, feeType)
 	feePrice = feeToNumber(feePrice)
 	feeType = FeeType.find_by( :fee_type_description => feeType )
 	Fee.create(:fee_type_id => feeType.id, :category => category, :fbo => fbo, :price => feePrice)
-	puts fbo.name + ": " + feeType.fee_type_description + ": " + category.category_description + ": " + feePrice.to_s
+	#puts fbo.name + ": " + feeType.fee_type_description + ": " + category.category_description + ": " + feePrice.to_s
 end
 
 def feeToNumber(fee)
