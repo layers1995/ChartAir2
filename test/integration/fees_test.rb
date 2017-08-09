@@ -33,7 +33,7 @@ class FeesTest < ActionDispatch::IntegrationTest
 		assert_equal(cities(:galesburg).name, galesburg.name)
 
 		# check that I can grab the classification from the category
-		engineType = Classification.find(singleEnginePiston.classification_id)
+		engineType = Classification.find(jetAir.classification_id)
 		assert_equal(classifications(:engine_type).classification_description, engineType.classification_description)
 	end
 
@@ -93,7 +93,7 @@ class FeesTest < ActionDispatch::IntegrationTest
 		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
 		assert_equal(fees(:flat_rate_fbo_landing).price, curFee.price)
 	end
-
+=begin
 	test "weight range fees retrievable" do
 		@weightRangeFbo = fbos(:weight_range_fbo)
 
@@ -117,7 +117,5 @@ class FeesTest < ActionDispatch::IntegrationTest
 		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
 		assert_equal(fees(:flat_rate_fbo_landing).price, curFee.price)
 	end
-
-	
-
+=end
 end

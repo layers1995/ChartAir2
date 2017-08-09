@@ -1,33 +1,25 @@
 no_fee_cat:
-  classification: no_fee
   category_description: no fee
 
 flat_rate_cat:
-  classification: flat_rate
   category_description: flat rate
 
 single_engine_piston:
-  classification: engine_type
   category_description: single engine piston
 
 twin_engine_turboprop:
-  classification: engine_type
   category_description: twin engine turboprop
 
 172skyhawk:
-  classification: make_and_model
   category_description: 172 skyhawk
 
 425conquest:
-  classification: make_and_model
   category_description: 425 conquest 1
 
 low_weight:
-  classification: weight_range
   minimum: 0
   maximum: 4999
 
 medium_weight:
-  classification: weight_range
   minimum: 5000
   maximum: 10000
