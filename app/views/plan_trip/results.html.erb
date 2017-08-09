@@ -1,5 +1,31 @@
 <%= render 'layouts/header' %>
-<%= stylesheet_link_tag 'main', media: 'all', 'data-turbolinks-track': 'reload' %>
+<%= stylesheet_link_tag 'plan_trip_results', media: 'all', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'results' %>
 
-<h1>PlanTrip#results</h1>
-<p>Find me in app/views/plan_trip/results.html.erb</p>
+<section id="filters">
+	<input type="image" src="/assets/costIcon.png" id="costIcon"/>
+		<br/>
+	<input type="image" src="/assets/locationIcon.png" id="locationIcon" />
+</section>
+		
+<section id="fees">
+	<button id="landing">Landing</button>
+	<br/>
+	<button id="tie down">Tie-Down</button>
+	<br/>
+	<button id="ramp">Ramp</button>	
+	<br/>
+	<button id="facility">Facility</button>	
+	<br/>
+	<button id="hanger">Hanger</button>	
+	<br/>
+	<button id="call out">Call Out</button>
+	<br/>
+	<button id="other">Other</button>
+</section>
+
+<h1>Results</h1>
+
+<div id="allResults">
+	
+</div>

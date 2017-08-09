@@ -6,39 +6,46 @@
 
 <%if @airplanes!=nil%>
 <h4 class="centered">Your Airplanes</h4>
+
   <table id="trips">
+    
+        <tr>
+          <td><h2>Tailnumber</h2></td>
+          <td><h2>Manufacturer</h2></td>
+          <td><h2>Model</h2></td>
+          <td><h2>Trip</h2></td>
+          <td><h2>Remove</h2></td>
+        </tr>
+        
     <% @airplanes.each do |airplane|%>
         <tr>
           <td><h3><%=airplane["tailnumber"]%></h3></td>
-          <td><h3><%=airplane["model"]%></h3></td>
           <td><h3><%=airplane["manufacturer"]%></h3></td>
-          <td><form action="/plantrip"><input type="submit" value="Plan Trip"/></form></td>
+          <td><h3><%=airplane["model"]%></h3></td>
+          <td><%= link_to "Plan Trip", plantrip_path(:tailnumber => airplane["tailnumber"]) %></td>
           <td><%= link_to "Remove Airplane", profileremove_path(:tailnumber => airplane["tailnumber"]) %></td>
         </tr>
     <%end%>
-  </table>
-<%end%>
-
-<button id="addPlane">Add Plane</button>
-
-<div id="showAfterClick">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        <%= form_for @user_airplane do |f| %>
+    
+    <div id="showAfterClick">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <%= form_for @user_airplane do |f| %>
+              
+              <%= render 'layouts/error_messages' %>
+              
+                <tr id="tripInfo">
+                  <td><%= f.text_field :tailnumber, {class: "form-control", :placeholder=>"Tailnumber"} %></td>
+                  <td><%= f.select :manufacturer, [],{}, {class: "form-control", id:'manufacturer', :onchange=> "changePlanes();"} %></td>
+                  <td><%= f.select :model, [],{}, {class: "form-control", id:'model'} %></td>
+                  <td><%= f.submit "Add Plane", class: "btn btn-primary" %></td>
+                </tr>
             
-            <%= render 'layouts/error_messages' %>
-            
-            <table id="tripInfo">
-              <tr>
-                <td><%= f.text_field :tailnumber, {class: "form-control", :placeholder=>"Tailnumber"} %></td>
-                <td><%= f.select :manufacturer, [],{}, {class: "form-control", id:'manufacturer', :onchange=> "changePlanes();"} %></td>
-                <td><%= f.select :model, [],{}, {class: "form-control", id:'model'} %></td>
-                <td><%= f.submit "Add Plane", class: "btn btn-primary" %></td>
-              </tr>
-            </table>
-          
-        <% end %>
+          <% end %>
+        </div>
       </div>
-      
     </div>
-</div>
+    
+  </table>
+  
+<%end%>

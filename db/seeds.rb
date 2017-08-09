@@ -21,17 +21,17 @@ end
 
 def addAirplanes()
 	# The following planes are just the fleet owned by Jet Air
-	cessna172 = Airplane.create({ :manufacturer => "cessna", :model => "172 skyhawk", :engine_class => "single engine", :weight => 2300, :height => 107, :wingspan => 433, :length => 326})
-	cessna177 = Airplane.create({ :manufacturer => "cessna", :model => "177 cardinal", :engine_class => "single engine", :weight => 2500, :height => 103, :wingspan => 426, :length => 332})
+	cessna172 = Airplane.create({ :manufacturer => "cessna", :model => "172 skyhawk", :engine_class => "piston single", :weight => 2300, :height => 107, :wingspan => 433, :length => 326})
+	cessna177 = Airplane.create({ :manufacturer => "cessna", :model => "177 cardinal", :engine_class => "piston single", :weight => 2500, :height => 103, :wingspan => 426, :length => 332})
 
-	cessna425 = Airplane.create({ :manufacturer => "cessna", :model => "425 conquest i", :engine_class => "twin engine turboprop", :weight => 8600, :height => 151, :wingspan => 530, :length => 430})
+	cessna425 = Airplane.create({ :manufacturer => "cessna", :model => "425 conquest i", :engine_class => "turboprop twin medium", :weight => 8600, :height => 151, :wingspan => 530, :length => 430})
 
 	# engine class should technically be twin engine turbofan for cessna500 and cessna550, cessna550Bravo, and cessna560 ultra, but I don't want to change the schema right now.
 	cessna500 = Airplane.create({ :manufacturer => "cessna", :model => "500 citation i", :engine_class => "light jet", :weight => 9502, :height => 157, :wingspan => 528, :length => 516})
 	cessna550 = Airplane.create({ :manufacturer => "cessna", :model => "550 citation ii", :engine_class => "light jet", :weight => 13300, :height => 180, :wingspan => 626, :length => 567})
 	
 	# changed to medium and heavy jet for testing purposes
-	cessna550Bravo = Airplane.create({ :manufacturer => "cessna", :model => "550 citation bravo", :engine_class => "medium jet", :weight => 14800, :height => 180, :wingspan => 626, :length => 566})
+	cessna550Bravo = Airplane.create({ :manufacturer => "cessna", :model => "550 citation bravo", :engine_class => "midsize jet", :weight => 14800, :height => 180, :wingspan => 626, :length => 566})
 	cessna560Ultra = Airplane.create({ :manufacturer => "cessna", :model => "560 citation ultra", :engine_class => "heavy jet", :weight => 16630, :height => 182, :wingspan => 649, :length => 587})
 end
 

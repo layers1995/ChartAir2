@@ -1,6 +1,30 @@
 <%= render 'layouts/header' %>
 <%= stylesheet_link_tag 'main', media: 'all', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'planTrip' %>
 
-<h1>PlanTrip#trip_details</h1>
-<p>Find me in app/views/plan_trip/trip_details.html.erb</p>
-<%= link_to "Click here for results", results_path %>
+<h1>PlanTrip</h1>
+
+<table id="planTripTable">
+    
+        <tr>
+            <td><h2>State</h2></td>
+            <td><h2>City</h2></td>
+            <td><h2>Distance</h2></td>
+            <td><h2>Airplane</h2></td>
+            <td><h2>Filter</h2></td>
+        </tr>    
+    <%= form_for(@plan_trip, url: plantrip_path) do |f| %>
+            
+        <tr>
+            <td><h4><%= f.select :state, [],{}, {class: "form-control", id:'states', :onchange=> "changeCities();"}%></h4></td>
+            <td><h4><%= f.select :city, [],{}, {class: "form-control", id:'cities'}%></h4></td>
+            <td><h4><%= f.number_field :distance, id: "input"%></h4></td>
+            <td><h4><%= f.select :airplane,[],{}, {class: "form-control", id:'airplanes'}%></h4></td>
+            <td><h4><%= f.select :filter, ["Cost","Distance"],{}, {class: "form-control", id:'filters'}%></h4></td>
+        </tr>
+
+       <%= f.submit "Plan Trip",class: "btn btn-primary"%>
+    <% end %>
+
+</table>  
+

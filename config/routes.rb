@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
 #pages used for the plan trip      
   get '/plantrip', to: 'plan_trip#trip_details'
-  get '/results', to: 'plan_trip#results'
+  post '/plantrip', to: 'plan_trip#results'
   
 #static pages
   get '/home',  to: 'static_pages#home'

@@ -6,9 +6,12 @@ Rails.application.config.assets.version = '1.0'
 #stylesheets
 Rails.application.config.assets.precompile += %w( sessions.css )
 Rails.application.config.assets.precompile += %w( main.css )
+Rails.application.config.assets.precompile += %w( plan_trip_results.css )
 
 #javascripts
 Rails.application.config.assets.precompile += %w( addPlane.js )
+Rails.application.config.assets.precompile += %w( planTrip.js )
+Rails.application.config.assets.precompile += %w( results.js )
 
 # Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path
