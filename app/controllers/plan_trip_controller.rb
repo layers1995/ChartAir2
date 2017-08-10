@@ -63,19 +63,11 @@ class PlanTripController < ApplicationController
       puts feeRecord.nil?
   	  
   	  if feeRecord!=nil
-<<<<<<< HEAD
           feeRecord.each do |fee|
             #name of the fee and the price
             feeTotal+=fee.price
             feeDict[fbo.name][FeeType.find_by(:id => fee.fee_type_id).fee_type_description]=fee.price
           end
-=======
-        feeRecord.each do |fee|
-          #name of the fee and the price
-          feeTotal+=fee.price
-          feeDict[fbo.name][FeeType.find_by(:id => fee.fee_type_id).fee_type_description]=fee.price
-        end
->>>>>>> 0079090fd93ad787533cc8d96bd1631abc86e069
       end
   	  
   	  #add all other relivant information to dictonary like distance and airport
@@ -96,43 +88,7 @@ class PlanTripController < ApplicationController
   private 
 
   def getFees(airplane, fbo)
-     
-<<<<<<< HEAD
-	    # get the classification from the fbo
-	    if fbo.classification_id!=nil
-	        
-		    classification = Classification.find(fbo.classification_id)
-		    
-    		# get the category based on the classification and the airplane
-    		case classification.classification_description
-    		when "no fee"
-    			category = Category.find_by( :category_description => "no fee")
-    		when "flat rate"
-    			category = Category.find_by( :category_description => "flat rate")
-    		when "engine type"
-    			category = Category.find_by( :category_description => airplane.engine_class)
-    		when "make and model"
-    			category = Category.find_by( :category_description => airplane.model)
-    		when "weight range"
-    			# I really doubt this will actually work, but that's the idea
-    			#category = Category.find_by( :minimum => airplane.weight, :maximum > airplane.weight)
-    		when "weight"
-    			# I think this is where I'm going to need to redesign the schema. Maybe just add a column to category saying how much per x the fee is charged. So if it's $5 every 1000 pounds, that new column would be 1000
-    		else
-    			puts "That wasn't supposed to happen"
-    		end
-    
-    			# return all fees where the category and fbo match what we're looking for. Should be up to 6 fees based on the different fee types
-    		if !category.nil?
-    			retFees = Fee.where( :category => category, :fbo => fbo )
-    			if !retFees.nil?
-    				return retFees
-    			end
-    		end
-    		
-	    end
- end
-=======
+      
     # get the classification from the fbo
     if fbo.classification_id != nil
         
@@ -166,7 +122,6 @@ class PlanTripController < ApplicationController
   		end
     end
   end
->>>>>>> 0079090fd93ad787533cc8d96bd1631abc86e069
  
   #takes an active record of airports and returns an array
   def getAirportIds(airports)
