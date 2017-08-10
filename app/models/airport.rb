@@ -24,6 +24,8 @@ class Airport < ApplicationRecord
           
           #logger.debug "distance IS"
           #logger.debug distance
+          #logger.debug "radius IS"
+          #logger.debug radius
           
           return distance
     end

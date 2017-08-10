@@ -3,7 +3,7 @@ class PlanTripController < ApplicationController
   def trip_details
       
     if not logged_in?
-      redirect_to login_path
+      redirect_to login_path and return
     end
     
     @tailnumber=params[:tailnumber]
@@ -11,6 +11,10 @@ class PlanTripController < ApplicationController
     gon.cities= City.all
     gon.curAirplanes=current_airplanes
     gon.selectedPlane=@tailnumber
+    
+    if current_airplanes.length==0
+        redirect_to profile_path
+    end
     
     @plan_trip=""
     
@@ -21,13 +25,12 @@ class PlanTripController < ApplicationController
     if (params[:distance].to_i)<10
         redirect_to plantrip_path
     end
-    
-  	@city=params[:city]
-  	@state=params[:state]
-  	@tailnumber=params[:airplane]
-  	@distance=params[:distance]
-  	@filter=params[:filter]
   	
+  	@tailnumber=params[:airplane];
+  	@curfilter= params[:filter]
+  
+  	#get the current city
+  	curCity= City.find_by(:name => params[:city])
   	#get a refrence to the airplane being used
   	curAirplane= Airplane.find_by(:id => AirplaneUser.find_by(:tailnumber => @tailnumber).airplane_id)
   	
@@ -36,14 +39,13 @@ class PlanTripController < ApplicationController
   	airportList=Array.new
   	
   	airports.each do |airport|
-  	    if airport.withinRadius(airport.latitude, airport.longitude, params[:distance].to_f) < params[:distance].to_f
+  	    if airport.withinRadius(curCity.latitude, curCity.longitude, params[:distance].to_f)<params[:distance].to_f
   	        airportList.push(airport.id)
   	    end
   	end
   	
   	#find all the Fbos at these airports
-  	#@Fbos= Fbo.where(:airport_id => airportList)
-  	@Fbos=Fbo.all
+  	@Fbos= Fbo.where(:airport_id => airportList)
   	
   	#create dictionary to send to js
   	feeDict= {}
@@ -64,12 +66,13 @@ class PlanTripController < ApplicationController
             feeTotal+=fee.price
             feeDict[fbo.name][FeeType.find_by(:id => fee.fee_type_id).fee_type_description]=fee.price
           end
-     end
+      end
   	  
   	  #add all other relivant information to dictonary like distance and airport
+  	  fboAirport=Airport.find_by(:id => fbo.airport_id)
   	  feeDict[fbo.name]["total"]= feeTotal
-  	  feeDict[fbo.name]["airport"]= Airport.find_by(:id => fbo.airport_id).name
-  	  feeDict[fbo.name]["distance"]= "Distance";
+  	  feeDict[fbo.name]["airport"]= fboAirport.name
+  	  feeDict[fbo.name]["distance"]= fboAirport.withinRadius(curCity.latitude,curCity.longitude,params[:distance].to_f).to_i.to_s + " (mi)";
   	  
   	end
   	
@@ -113,6 +116,7 @@ class PlanTripController < ApplicationController
     				return retFees
     			end
     		end
+    		
 	    end
  end
  
