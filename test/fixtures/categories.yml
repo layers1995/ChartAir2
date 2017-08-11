@@ -4,11 +4,11 @@ no_fee_cat:
 flat_rate_cat:
   category_description: flat rate
 
-single_engine_piston:
-  category_description: single engine piston
+piston_single:
+  category_description: piston single
 
-twin_engine_turboprop:
-  category_description: twin engine turboprop
+turboprop_twin_medium:
+  category_description: turboprop twin medium
 
 172skyhawk:
   category_description: 172 skyhawk

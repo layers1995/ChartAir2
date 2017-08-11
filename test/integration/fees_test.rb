@@ -21,8 +21,8 @@ class FeesTest < ActionDispatch::IntegrationTest
 		assert_equal(fee_types(:landing).fee_type_description, landingFee.fee_type_description)
 
 		# check that I can grab the category from the fee
-		singleEnginePiston = Category.find(@jetAirLanding172.category_id)	
-		assert_equal(categories(:single_engine_piston).category_description, singleEnginePiston.category_description)
+		pistonSingle = Category.find(@jetAirLanding172.category_id)	
+		assert_equal(categories(:piston_single).category_description, pistonSingle.category_description)
 
 		# check that I can grab the airport from the FBO
 		galesburgAirport = Airport.find(jetAir.airport_id)
@@ -40,7 +40,7 @@ class FeesTest < ActionDispatch::IntegrationTest
 	test "multiple fee types retrievable" do
 		@jetAir = fbos(:jet_air)
 		curFees = getFees(@cessna172, @jetAir)
-		targetFees = Fee.joins(:fbo).joins(:category).where('categories.category_description == "single engine piston" and fbos.name == "Jet Air, inc."')
+		targetFees = Fee.joins(:fbo).joins(:category).where('categories.category_description == "piston single" and fbos.name == "Jet Air, inc."')
 		curFees.each do |curFee|
 			assert_includes(targetFees, curFee)
 		end
@@ -93,7 +93,11 @@ class FeesTest < ActionDispatch::IntegrationTest
 		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
 		assert_equal(fees(:flat_rate_fbo_landing).price, curFee.price)
 	end
-=begin
+
+	test "fbo with nil classification" do
+		@noClassFbo = fbos(:nil_classification_fbo)
+	end
+
 	test "weight range fees retrievable" do
 		@weightRangeFbo = fbos(:weight_range_fbo)
 
@@ -106,6 +110,7 @@ class FeesTest < ActionDispatch::IntegrationTest
 		assert_equal(fees(:weight_range_fbo_medium_landing).price, curFee.price)
 	end
 	
+=begin	
 	test "weight fees retrievable" do
 		@weightFbo = fbos(:weight_fbo)
 

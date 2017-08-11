@@ -16,7 +16,6 @@ class ActiveSupport::TestCase
 # THIS PROBABLY SHOULDN'T BE HERE BUT I DON'T KNOW HOW TO GET IT IN THE TESTS ANY OTHER WAY
 # make sure to add any updates to the plan_trip_controller
 	def getFees(airplane, fbo)
-	  # get the classification from the fbo, guess Jaime was right
 		classification = Classification.find(fbo.classification_id)
 		# get the category based on the classification and the airplane
 		case classification.classification_description

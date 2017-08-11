@@ -45,4 +45,9 @@ weight_fbo:
   classification: weight
   name: weight operator
   phone: 666-666-6666
+
+nil_classification_fbo:
+  airport: nowhere_airport
+  name: even smaller fbo
+  phone: 777-777-7777
   

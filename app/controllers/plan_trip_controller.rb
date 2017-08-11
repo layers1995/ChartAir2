@@ -55,21 +55,38 @@ class PlanTripController < ApplicationController
   	  feeTotal=0;
   	  
   	  #get all the fees at a given airport
-  	  feeRecord=getFees(curAirplane, fbo)
-      puts feeRecord.nil?
+      if !fbo.classification_id.nil?
+    	  feeRecord=getFees(curAirplane, fbo)
+      end
   	  
-  	  if feeRecord!=nil
+  	  if !feeRecord.nil?
         feeRecord.each do |fee|
+          puts fee
+# The fees appear here, seems like the issue is getting airports to display?
           #name of the fee and the price
           feeTotal+=fee.price
           feeDict[fbo.name][FeeType.find_by(:id => fee.fee_type_id).fee_type_description]=fee.price
         end
+      else
+        puts "THE FEE RECORD IS NIL"
       end
   	  
   	  #add all other relivant information to dictonary like distance and airport
   	  feeDict[fbo.name]["total"]= feeTotal
-  	  feeDict[fbo.name]["airport"]= Airport.find_by(:id => fbo.airport_id).name
-  	  feeDict[fbo.name]["distance"]= "Distance";
+  	  feeDict[fbo.name]["airport"]= fbo.airport.name
+  	  feeDict[fbo.name]["distance"]= "Distance"
+=begin
+      feeDict.each do |curFbo|
+        curFbo.each do |curKey, curValue|
+          if curKey.nil? or curValue.nil?
+            puts "one of them is nil"
+          else
+            puts curKey + curValue
+          end
+        end
+      end
+      return
+=end
   	  
   	end
 

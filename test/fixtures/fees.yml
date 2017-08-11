@@ -1,44 +1,45 @@
 jet_air_sep_landing:
   fee_type: landing
   fbo: jet_air
-  category: single_engine_piston
+  category: piston_single
   price: 10
 
 jet_air_sep_ramp:
   fee_type: ramp
   fbo: jet_air
-  category: single_engine_piston
+  category: piston_single
   price: 5
 
 jet_air_sep_hangar:
   fee_type: hangar
   fbo: jet_air
-  category: single_engine_piston
+  category: piston_single
   price: 20
 
 jet_air_tet_landing:
   fee_type: landing
   fbo: jet_air
-  category: twin_engine_turboprop
+  category: turboprop_twin_medium
   price: 25
 
 signature_sep_landing:
   fee_type: landing
   fbo: signature
-  category: single_engine_piston
+  category: piston_single
   price: 100
 
 signature_tet_landing:
   fee_type: landing
   fbo: signature
-  category: twin_engine_turboprop
+  category: turboprop_twin_medium
   price: 250
+  price: 30
 
 jet_flair_172_landing:
   fee_type: landing
   fbo: jet_flair
   category: 172skyhawk
-  price: 30
+  price: 40
 
 jet_flair_425_landing:
   fee_type: landing
