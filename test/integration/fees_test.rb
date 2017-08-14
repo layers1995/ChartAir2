@@ -94,10 +94,7 @@ class FeesTest < ActionDispatch::IntegrationTest
 		assert_equal(fees(:flat_rate_fbo_landing).price, curFee.price)
 	end
 
-	test "fbo with nil classification" do
-		@noClassFbo = fbos(:nil_classification_fbo)
-	end
-
+=begin
 	test "weight range fees retrievable" do
 		@weightRangeFbo = fbos(:weight_range_fbo)
 
@@ -109,18 +106,27 @@ class FeesTest < ActionDispatch::IntegrationTest
 		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
 		assert_equal(fees(:weight_range_fbo_medium_landing).price, curFee.price)
 	end
-	
-=begin	
+=end
+		
 	test "weight fees retrievable" do
 		@weightFbo = fbos(:weight_fbo)
 
 		curFees = getFees(@cessna172, @weightFbo)
-		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
-		assert_equal(fees(:flat_rate_fbo_landing).price, curFee.price)
+		curFees = applyMultiplier(@cessna172, curFees)
 
-		curFees = getFees(@cessna172, @weightFbo)
-		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
-		assert_equal(fees(:flat_rate_fbo_landing).price, curFee.price)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "landing"
+				assert_equal(22, curFee.price)
+			end
+		end
+
+		curFees = getFees(@cessna425, @weightFbo)
+		curFees = applyMultiplier(@cessna425, curFees)
+
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "landing"
+				assert_equal(88, curFee.price)
+			end
+		end
 	end
-=end
 end

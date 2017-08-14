@@ -23,3 +23,6 @@ low_weight:
 medium_weight:
   minimum: 5000
   maximum: 10000
+
+weight:
+  category_description: weight

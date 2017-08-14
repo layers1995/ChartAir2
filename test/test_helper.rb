@@ -29,8 +29,9 @@ class ActiveSupport::TestCase
 			category = Category.find_by( :category_description => airplane.model)
 		when "weight range"
 			# I really doubt this will actually work, but that's the idea
-			#category = Category.find_by( :minimum => airplane.weight, :maximum > airplane.weight)
+			#category = Category.find_by("categories.minimum < airplane.weight, categories.maximum > airplane.weight")
 		when "weight"
+			category = Category.find_by( :category_description => "weight")
 			# I think this is where I'm going to need to redesign the schema. Maybe just add a column to category saying how much per x the fee is charged. So if it's $5 every 1000 pounds, that new column would be 1000
 		else
 			puts "That wasn't supposed to happen"
@@ -39,10 +40,22 @@ class ActiveSupport::TestCase
 			# return all fees where the category and fbo match what we're looking for. Should be up to 6 fees based on the different fee types
 		if !category.nil?
 			retFees = Fee.where( :category => category, :fbo => fbo )
-			if !retFees.nil?
-				return retFees
-			end
 		end
+		if !retFees.nil?
+			return retFees
+		else
+			return nil
+		end
+	end
+
+	def applyMultiplier(airplane, fees)
+		retFees = [fees.size]
+		fees.each do |curFee|
+			multiplier = airplane.weight / curFee.unit_magnitude
+			curFee.price += curFee.unit_price * multiplier
+			retFees[0] = curFee
+		end
+		return retFees		
 	end
 
 end

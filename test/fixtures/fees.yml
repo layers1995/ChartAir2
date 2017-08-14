@@ -33,7 +33,6 @@ signature_tet_landing:
   fbo: signature
   category: turboprop_twin_medium
   price: 250
-  price: 30
 
 jet_flair_172_landing:
   fee_type: landing
@@ -71,3 +70,10 @@ weight_range_fbo_medium_landing:
   category: medium_weight
   price: 34
 
+weight_fbo_landing:
+  fee_type: landing
+  fbo: weight_fbo
+  category: weight
+  price: 0
+  unit_price: 11
+  unit_magnitude: 1000

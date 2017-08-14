@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170807000339) do
+ActiveRecord::Schema.define(version: 20170811190946) do
 
   create_table "airplane_users", force: :cascade do |t|
     t.integer "airplane_id", null: false
@@ -88,11 +88,14 @@ ActiveRecord::Schema.define(version: 20170807000339) do
 
   create_table "fees", force: :cascade do |t|
     t.integer  "price"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
     t.integer  "fee_type_id"
     t.integer  "fbo_id"
     t.integer  "category_id"
+    t.string   "time_unit"
+    t.integer  "unit_price"
+    t.integer  "unit_magnitude"
     t.index ["category_id"], name: "index_fees_on_category_id"
     t.index ["fbo_id"], name: "index_fees_on_fbo_id"
     t.index ["fee_type_id"], name: "index_fees_on_fee_type_id"
