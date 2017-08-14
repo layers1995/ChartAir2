@@ -13,18 +13,14 @@
             <td class="center"><h2>Airplane</h2></td>
             <td class="center"><h2>Filter</h2></td>
         </tr>    
-        
-    <%= form_for(@plan_trip, url: plantrip_path) do |f| %>
-            
-        <tr>
-            <td><%= f.select :state, [],{}, {class: "form-control", id:'states', :onchange=> "changeCities();"}%></td>
-            <td><%= f.select :city, [],{}, {class: "form-control", id:'cities'}%></td>
-            <td><%= f.number_field :distance, id: "input"%></h4></td>
-            <td><%= f.select :airplane,[],{}, {class: "form-control", id:'airplanes'}%></td>
-            <td><%= f.select :filter, ["Cost","Distance"],{}, {class: "form-control", id:'filters'}%></td>
-        </tr>
-        
-</table>  
+   
+</table>
 
+<%= form_for(@plan_trip, url: plantrip_path) do |f| %>
+    <%= f.select :state, [],{}, {class: "form-control", id:'states', :onchange=> "changeCities();"}%>
+    <%= f.select :city, [],{}, {class: "form-control", id:'cities'}%>
+    <%= f.number_field :distance, id: "input"%>
+    <%= f.select :airplane,[],{}, {class: "form-control", id:'airplanes'}%>
+    <%= f.select :filter, ["Cost","Distance"],{}, {class: "form-control", id:'filters'}%>
     <%= f.submit "Plan Trip", class: "btn btn-primary" %>
 <% end %>

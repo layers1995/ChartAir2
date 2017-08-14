@@ -8,16 +8,23 @@ var fbos=[];
 var curFilter;
 //dictionary of different fees used by the airports
 var appliedFees= {};
+//destination location
+var destination;
 
 function start(){
-    
+    //alert("start");
     feeDict=gon.dict;
+    destination=gon.destination;
     curFilter=document.getElementById("userFilter").innerHTML.toLocaleLowerCase();
     
     addListeners();
+    //alert("listeners added");
     createFboList();
+    //alert("fbo list created" + fbos.length + " is the lenght");
     fillAppliedFeesDict();
+    //alert("fees applied to dictionary");
     filterButtonClicked(curFilter);
+    //alert("filter button clicked");
 }
 
 //adds listeners to buttons
@@ -42,6 +49,7 @@ function createFboList(){
     var fboNames= Object.keys(feeDict);
     
     if(fboNames.length>fbos.length){
+        
         for(var i=0; i<fboNames.length; i++){
             
             var fbo={name:"",distance: 0, total:0};
@@ -197,8 +205,10 @@ function updateTable(){
     //deletes all entries
     var div = document.getElementById("allResults");
     div.innerHTML = "";
+    var mapDetails="";
     
     if(fbos.length!=0){
+        
         for(var i=0; i<this.fbos.length;i++){
             
             var newDiv= document.createElement("div");
@@ -254,6 +264,9 @@ function updateTable(){
             newDiv.appendChild(table);
             //append div to div
             div.appendChild(newDiv);
+            
+            //add to src strings
+            mapDetails+= "&markers=color:red|label:"+(i+1)+"|" + feeDict[fbos[i].name]["latitude"] + "," + feeDict[fbos[i].name]["longitude"];
         }
     }else{
         //create a result
@@ -269,4 +282,15 @@ function updateTable(){
         div.appendChild(newDiv);
     }
     
+    createGoogleMap(mapDetails);
+    
+}
+
+
+function createGoogleMap(mapDetails){
+    //get the image I want to change
+    var googleMap= document.getElementById("googleMap");
+    var destinationMarker="&markers=color:blue|label:D|"+destination;
+    var finalsrc="http://maps.google.com/maps/api/staticmap?size=512x512&maptype=roadmap&sensor=false" +destinationMarker+ mapDetails;
+    googleMap.src=finalsrc;
 }

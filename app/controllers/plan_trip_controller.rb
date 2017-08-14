@@ -75,12 +75,13 @@ class PlanTripController < ApplicationController
   	  feeDict[fbo.name]["total"]= feeTotal
   	  feeDict[fbo.name]["airport"]= fboAirport.name
   	  feeDict[fbo.name]["distance"]= fboAirport.withinRadius(curCity.latitude,curCity.longitude,params[:distance].to_f).to_i.to_s + " (mi)";
+  	  feeDict[fbo.name]["latitude"]=fboAirport.latitude;
+  	  feeDict[fbo.name]["longitude"]=fboAirport.longitude;
   	  
   	end
-
-    return
   	
   	#send values to js
+  	gon.destination=curCity.latitude.to_s+","+curCity.longitude.to_s
   	gon.dict= feeDict
   	
   end
@@ -113,14 +114,19 @@ class PlanTripController < ApplicationController
   			puts "That wasn't supposed to happen"
   		end
 
-  			# return all fees where the category and fbo match what we're looking for. Should be up to 6 fees based on the different fee types
+  		# return all fees where the category and fbo match what we're looking for. Should be up to 6 fees based on the different fee types
   		if !category.nil?
+  		  
   			retFees = Fee.where( :category => category, :fbo => fbo )
+  			
   			if !retFees.nil?
   				return retFees
   			end
+  			
   		end
+  		
     end
+    
   end
  
   #takes an active record of airports and returns an array
