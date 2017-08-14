@@ -1,0 +1,235 @@
+CA	Agua Dulce	Agua Dulce Airport	L70	Agua Dulce Airport	661-268-0797	60
+CA	Alturas	Alturas Municipal Airport	KAAT	City of Alturas	530-233-5125	1620
+CA	Angwin	Angwin Airport-Parrett Field	2O3	PUC (Pacific Union College) Flight Center	707-965-6219	810
+CA	Apple Valley	Apple Valley Airport	KAPV	 MAG Aviation Fuel	760-617-7599, 760-900-0142	3090
+CA	Arcata/Eureka	Arcata Airport	KACV	Arcata Airport	707-839-5401	3450
+CA	Atwater	Castle Airport	KMER	 Gemini Flight Support	209-725-1455, 209-777-0675	8490
+CA	Auburn	Auburn Municipal Airport	KAUN	Threshold Technologies, Inc.	530-823-0744	5910
+CA	Bakersfield	Meadows Field Airport	KBFL	Bakersfield Jet Center by Loyd's Aviation	661-393-1334	4140
+CA	Bakersfield	Meadows Field Airport	KBFL	Epic Jet Center	661-399-7011	4140
+CA	Bakersfield	Meadows Field Airport	KBFL	Atlantic Aviation	661-391-4900	4140
+CA	Bakersfield	Bakersfield Municipal Airport	L45	Kern Charter Service	661-834-6870, 661-834-2593	2040
+CA	Banning	Banning Municipal Airport	KBNG	City of Banning	951-922-3320	276
+CA	Beckwourth	Nervino Airport	O02	Nervino Aero Service	530-832-6940	990
+CA	Big Bear City	Big Bear City Airport	L35	Big Bear City Airport District	909-585-3219	2460
+CA	Bishop	Bishop Airport	KBIH	Bishop Airport	760-872-2971, 760-937-4017	2130
+CA	Blythe	Blythe Airport	KBLH	Patton Aviation LLC	760-922-6125	2070
+CA	Borrego Springs	Borrego Valley Airport	L08	Borrego Valley Airport	760-767-7415	1770
+CA	Brawley	Brawley Municipal Airport	KBWC	Imperial Flying Service, Inc. Brawley Airport	760-344-4581	420
+CA	Bridgeport	Bryant Field Airport	O57	Bryant Field	760-932-5440	244
+CA	Burbank	Bob Hope Airport	KBUR	Atlantic Aviation	818-841-2966	10800
+CA	Burbank	Bob Hope Airport	KBUR	 Million Air Burbank	818-843-8311	10800
+CA	Byron	Byron Airport	C83	Contra Costa County (FBO)	925-634-0147	5760
+CA	Calexico	Calexico International Airport	KCXL	Calexico International Airport	760-768-2175, 760-357-0739	368
+CA	California City	California City Municipal Airport	L71	 California City Municipal Airport	760-373-4867	272
+CA	Camarillo	Camarillo Airport	KCMA	Western Cardinal, Inc.	805-482-2586	11220
+CA	Camarillo	Camarillo Airport	KCMA	Sun Air Jets	805-389-9301	11220
+CA	Camarillo	Camarillo Airport	KCMA	Air 7	805-383-1100	11220
+CA	Camarillo	Camarillo Airport	KCMA	Channel Islands Aviation	805-987-1301	11220
+CA	Cameron Park	Cameron Airpark	O61	 Cameron Park Airport	530-676-8316	2970
+CA	Carlsbad	Mc Clellan-Palomar Airport	KCRQ	Western Flight, Inc.	760-438-6800	10770
+CA	Carlsbad	Mc Clellan-Palomar Airport	KCRQ	Jet Source	760-438-0877	10770
+CA	Carlsbad	Mc Clellan-Palomar Airport	KCRQ	Magellan Aviation	888-949-0888, 760-438-7603	10770
+CA	Carlsbad	Mc Clellan-Palomar Airport	KCRQ	Atlantic Aviation	760-930-0123	10770
+CA	Chester	Rogers Field Airport	O05	Mt. Lassen Aviation	530-258-3616	1290
+CA	Chico	Chico Municipal Airport	KCIC	 Northgate Aviation Chico Jet Center	530-893-6727	2790
+CA	Chino	Chino Airport	KCNO	Encore Jet Center	800-720-5388, 909-597-6566	13530
+CA	Chino	Chino Airport	KCNO	Threshold Aviation Group	909-606-6164	13530
+CA	Chino	Chino Airport	KCNO	 Flying Tigers Aviation	909-606-3300, 909-606-0100	13530
+CA	Cloverdale	Cloverdale Municipal Airport	O60	 City of Cloverdale	707-694-9355	900
+CA	Coalinga	Harris Ranch Airport	3O8	Harris Ranch Inn & Restaurant	559-935-0717	810
+CA	Coalinga	New Coalinga Municipal Airport	C80	New Coalinga Municipal Airport	559-935-1533	184
+CA	Columbia	Columbia Airport	O22	 Bald Eagle Aviation	209-533-4616	3690
+CA	Colusa	Colusa County Airport	O08	 Colusa County Airport	530-458-2393, 530-458-0580	2310
+CA	Compton	Compton/Woodley Airport	KCPM	 American Airports Corp.	310-631-8140	5430
+CA	Concord	Buchanan Field Airport	KCCR	Pacific States Aviation	925-685-4400	9000
+CA	Concord	Buchanan Field Airport	KCCR	Concord Jet Center	877-690-5387, 925-825-2980	9000
+CA	Concord	Buchanan Field Airport	KCCR	Sterling Aviation	925-676-2100	9000
+CA	Corona	Corona Municipal Airport	KAJO	 Corona Air Ventures	951-737-1300	4110
+CA	Covelo	Round Valley Airport	O09	Mendocino County	707-463-4363	152
+CA	Crescent City	Jack Mc Namara Field Airport	KCEC	Cal-Ore Life Flight	707-465-3804	1020
+CA	Daggett	Barstow-Daggett Airport	KDAG	Daggett Aviation Inc	760-254-2542	3000
+CA	Davis	University Airport	KEDU	University Airport Services	530-752-0100	2010
+CA	Davis/Woodland/Winters	Yolo County Airport	KDWA	Davis Flight Support, LLC	530-759-8766	4950
+CA	Davis/Woodland/Winters	Yolo County Airport	KDWA	 Woodland Aviation	800-442-1333, 530-759-6036	4950
+CA	Davis/Woodland/Winters	Yolo County Airport	KDWA	PreStar / SkyDance SkyDiving	530-753-2651	4950
+CA	Delano	Delano Municipal Airport	KDLO	Delano Municipal Airport	661-721-3338, 661-201-8945	1560
+CA	El Monte	San Gabriel Valley Airport	KEMT	Billion Air Aviation, Inc.	626-208-3708	7350
+CA	El Monte	San Gabriel Valley Airport	KEMT	 American Airports Corp.	626-448-6129	7350
+CA	Eureka	Murray Field Airport	KEKA	Northern Air	707-443-3179	4560
+CA	Fall River Mills	Fall River Mills Airport	O89	County of Shasta (self-serve fuel)	530-225-5661	384
+CA	Fallbrook	Fallbrook Community Airpark	L18	AHM, LLC	760-431-7670	1650
+CA	Fort Jones	Scott Valley Airport	A30	Siskiyou Air Service	530-468-5490	660
+CA	Fortuna	Rohnerville Airport	KFOT	Humboldt County (FBO)	707-839-5401	2250
+CA	Fresno	Fresno Yosemite International Airport	KFAT	Signature Flight Support	559-981-2490	8190
+CA	Fresno	Fresno Yosemite International Airport	KFAT	Ross Aviation	559-251-1555	8190
+CA	Fresno	Fresno Chandler Executive Airport	KFCH	 Fresno Flyers Flying Club	559-264-5324	2040
+CA	Fresno	Fresno Chandler Executive Airport	KFCH	Frank X. Ruiz Avionics	559-233-0700	2040
+CA	Fullerton	Fullerton Municipal Airport	KFUL	Aviation Facilities, Inc.	714-870-9931, 714-773-0741	5160
+CA	Fullerton	Fullerton Municipal Airport	KFUL	General Aviation Co., Inc.	714-526-6611, 714-526-0921	5160
+CA	Garberville	Garberville Airport	O16	Humboldt County Operations	707-839-5401	1350
+CA	Georgetown	Georgetown Airport	E36	County of El Dorado (self-serve fuel)	530-622-0459	1860
+CA	Grass Valley	Nevada County Air Park	KGOO	Nevada County Air Park	530-273-3374	2280
+CA	Groveland	Pine Mountain Lake Airport	E45	Mother Lode Aviation	209-303-5385	1230
+CA	Gustine	Gustine Airport	3O1	Gustine Airport	209-854-6471	660
+CA	Half Moon Bay	Half Moon Bay Airport	KHAF	County of San Mateo (FBO)	650-573-3701	4110
+CA	Hanford	Hanford Municipal Airport	KHJO	Hanford Municipal Airport	559-585-2589	2370
+CA	Hawthorne	Jack Northrop Field/Hawthorne Municipal Airport	KHHR	Jet Center Los Angeles	310-676-4673	6600
+CA	Hawthorne	Jack Northrop Field/Hawthorne Municipal Airport	KHHR	Hawthorne Hangar Operations	310-644-0400, 602-321-3351	6600
+CA	Hayward	Hayward Executive Airport	KHWD	APP Jet Center Hayward	510-259-1347	9630
+CA	Hayward	Hayward Executive Airport	KHWD	Meridian Hayward	510-674-2500	9630
+CA	Healdsburg	Healdsburg Municipal Airport	KHES	City of Healdsburg (automated fuel pump)	707-433-8540	1680
+CA	Hemet	Hemet-Ryan Airport	KHMT	Hemet-Ryan Aviation	951-925-7618	6210
+CA	Hollister	Hollister Municipal Airport	KCVH	Hollister Jet Center, Inc	831-637-9100	4320
+CA	Imperial	Imperial County Airport	KIPL	Imperial Flying Service	760-353-1375, 760-693-0276	1200
+CA	Inyokern	Inyokern Airport	KIYK	Inyokern Airport	760-377-5844	2340
+CA	Jackson	Westover Field / Amador County Airport	KJAQ	Amador County (FBO)	209-223-2376	2040
+CA	King City	Mesa Del Rey Airport	KKIC	Aviation Specialties Unlimited	831-385-6575	660
+CA	La Verne	Brackett Field Airport	KPOC	 American Airports Corp.	909-593-1395	9510
+CA	Lakeport	Lampson Field Airport	1O2	Westgate Petroleum	707-263-6512	6270
+CA	Lancaster	General Wm J Fox Airfield	KWJF	 American Airports Corp.	661-940-1709	6720
+CA	Lincoln	Lincoln Regional Airport/Karl Harder Field	KLHM	Lincoln Regional Airport/Karl Harder Field	916-645-3443	6120
+CA	Little River	Little River Airport	KLLR	Little River Airport	707-937-5129	228
+CA	Livermore	Livermore Municipal Airport	KLVK	 Five Rivers Aviation	925-315-4130	9660
+CA	Lodi	Lodi Airport	1O3	Lodi Airport	209-369-9126	3630
+CA	Lodi	Kingdon Airpark	O20	Kingdon Airpark	209-334-2961	660
+CA	Lompoc	Lompoc Airport	KLPC	City of Lompoc (automated fuel pump)	805-875-8266	2460
+CA	Lone Pine	Lone Pine/Death Valley Airport	O26	Lone Pine Airport	760-937-4017	720
+CA	Long Beach	Long Beach Airport (Daugherty Field)	KLGB	Signature Flight Support	562-997-0700	24240
+CA	Long Beach	Long Beach Airport (Daugherty Field)	KLGB	Ross Aviation	562-490-6200	24240
+CA	Long Beach	Long Beach Airport (Daugherty Field)	KLGB	JFI Jet Center	562-425-8800	24240
+CA	Los Angeles	Los Angeles International Airport	KLAX	Signature Flight Support	310-410-9605	52350
+CA	Los Angeles	Los Angeles International Airport	KLAX	Atlantic Aviation	310-258-9884	52350
+CA	Los Angeles	Whiteman Airport	KWHP	 American Airports Corp.	818-896-5271	9540
+CA	Los Banos	Los Banos Municipal Airport	KLSN	City of Los Banos (FBO)	209-827-7053	1320
+CA	Madera	Madera Municipal Airport	KMAE	Madera Jet Center, Inc.	559-675-1400	4170
+CA	Madera	Madera Municipal Airport	KMAE	Bode Enterprises	559-675-9100, 559-284-9154	4170
+CA	Madera	Madera Municipal Airport	KMAE	Barber Aviation	559-675-0183	4170
+CA	Mammoth Lakes	Mammoth Yosemite Airport	KMMH	Hot Creek Aviation	760-924-9127	480
+CA	Marina	Marina Municipal Airport	KOAR	City of Marina (FBO)	831-582-0102	3450
+CA	Mariposa	Mariposa-Yosemite Airport	KMPI	 Airborrn Aviation Services, LLC	209-966-2143	750
+CA	Marysville	Yuba County Airport	KMYV	Honeycutt Aviation	530-741-1345	2910
+CA	Merced	Merced Regional Airport/Macready Field	KMCE	Gateway Air Center	209-722-7300	4830
+CA	Modesto	Modesto City-County Airport-Harry Sham Field	KMOD	 Sky Trek Aviation	209-577-4654	3660
+CA	Mojave	Mojave Air and Space Port	KMHV	East Kern Airport District	661-824-2433	1440
+CA	Montague	Montague Airport-Yreka Rohrer Field	1O5	Steelman Aviation	530-459-3456	292
+CA	Monterey	Monterey Regional Airport	KMRY	 Del Monte Aviation	831-373-4151	7980
+CA	Monterey	Monterey Regional Airport	KMRY	 Monterey Jet Center	831-373-0100	7980
+CA	Murrieta/Temecula	French Valley Airport	F70	The Jet Center	951-696-9344, 951-696-7299	8070
+CA	Murrieta/Temecula	French Valley Airport	F70	RAS JETPORT - French Valley	951-677-2756, 951-660-6186	8070
+CA	Murrieta/Temecula	French Valley Airport	F70	French Valley Hangars	760-723-1853	8070
+CA	Napa	Napa County Airport	KAPC	Napa Jet Center, Inc.	707-224-0887	4440
+CA	Needles	Needles Airport	KEED	Paradise Aviation	760-326-5263	870
+CA	Novato	Gnoss Field Airport	KDVO	DVO Fuel	415-897-1653	8040
+CA	Oakdale	Oakdale Airport	O27	City of Oakdale	209-845-3600	780
+CA	Oakland	Metropolitan Oakland International Airport	KOAK	KaiserAir, Inc.	510-569-9622	17610
+CA	Oakland	Metropolitan Oakland International Airport	KOAK	Signature Flight Support	510-633-1266	17610
+CA	Oceano	Oceano County Airport	L52	 ACI Jet - Oceano	805-782-9722	810
+CA	Oceanside	Bob Maxwell Memorial Airfield	KOKB	Airport Property Ventures	760-901-4260	960
+CA	Ontario	Ontario International Airport	KONT	Guardian Jet Center	909-605-6366	7530
+CA	Orland	Haigh Field Airport	O37	Haigh Field Airport	530-865-1173	1650
+CA	Oroville	Oroville Municipal Airport	KOVE	 City of Oroville	530-538-4307	2970
+CA	Oxnard	Oxnard Airport	KOXR	Oxnard Aircraft & Jet Center	805-985-2490	6090
+CA	Oxnard	Oxnard Airport	KOXR	Golden West Jet Center	805-382-9333	6090
+CA	Palm Springs	Palm Springs International Airport	KPSP	Signature Flight Support	760-327-1201	4590
+CA	Palm Springs	Palm Springs International Airport	KPSP	Atlantic Aviation	760-320-7704	4590
+CA	Palm Springs	Jacqueline Cochran Regional Airport	KTRM	 Thermal Self Serve	760-399-5961, 760-775-6808	6270
+CA	Palm Springs	Jacqueline Cochran Regional Airport	KTRM	Signature Flight Support	760-399-1855	6270
+CA	Palm Springs	Jacqueline Cochran Regional Airport	KTRM	Desert Jet Center	760-925-5876	6270
+CA	Palm Springs	Jacqueline Cochran Regional Airport	KTRM	Ross Aviation	760-399-4300	6270
+CA	Palm Springs	Bermuda Dunes Airport	KUDD	Bermuda Dunes Airport	760-345-2558	1050
+CA	Palo Alto	Palo Alto Airport	KPAO	Rossi Aircraft	650-493-3326, 650-493-1673	15750
+CA	Palo Alto	Palo Alto Airport	KPAO	Palo Alto Fuel Service	650-856-7640	15750
+CA	Paso Robles	Paso Robles Municipal Airport	KPRB	ACI Jet Paso Robles	805-596-0212	2820
+CA	Petaluma	Petaluma Municipal Airport	O69	Petaluma Municipal Airport	707-778-4404	4380
+CA	Placerville	Placerville Airport	KPVF	El Dorado County (FBO)	530-622-0459	4890
+CA	Porterville	Porterville Municipal Airport	KPTV	Porterville Airport	559-782-7540, 559-781-0305	3570
+CA	Quincy	Gansner Field Airport	2O1	Plumas County (automated fuel pump)	530-283-6299	750
+CA	Ramona	Ramona Airport	KRNM	 Chuck Hall Aviation	760-789-8178	9450
+CA	Ramona	Ramona Airport	KRNM	 Pacific Executive Aviation	760-789-6384	9450
+CA	Rancho Murieta	Rancho Murieta Airport	KRIU	Rancho Murieta Airport	916-354-2940	2190
+CA	Red Bluff	Red Bluff Municipal Airport	KRBL	 Cardan Aircraft Services	530-527-6547	2160
+CA	Redding	Redding Municipal Airport	KRDD	Redding Jet Center	530-224-2300	4500
+CA	Redding	Redding Municipal Airport	KRDD	Air Shasta Rotor and Wing	530-222-0100	4500
+CA	Redding	Benton Field Airport	O85	Benton Air Center	530-241-4204	3030
+CA	Redlands	Redlands Municipal Airport	KREI	Redlands Aviation	909-794-5642	3600
+CA	Reedley	Reedley Municipal Airport	O32	BSMITH Air	559-859-0374	2700
+CA	Rio Linda	Rio Linda Airport	L36	Mauser Aviation	916-991-1725	2460
+CA	Rio Vista	Rio Vista Municipal Airport	O88	Rio Vista Municipal Airport	707-374-2716	2880
+CA	Riverside	Riverside Municipal Airport	KRAL	Riverside Air Service	951-352-2631, 951-352-1043	8640
+CA	Riverside	March Air Reserve Base	KRIV	Million Air	951-247-2111	
+CA	Riverside/Rubidoux	Flabob Airport	KRIR	Flabob Airport	951-683-2309	630
+CA	Rosamond	Rosamond Skypark Airport	L00	Rosamond Skypark	661-256-4500	1230
+CA	Sacramento	Sacramento Executive Airport	KSAC	 Executive Jet Center	916-428-8292	7230
+CA	Sacramento	Sacramento Mather Airport	KMHR	 Mather Jet Center	916-428-8292	8160
+CA	Sacramento	Sacramento International Airport	KSMF	 Capitol Jet Center	916-428-8292	9030
+CA	Sacramento	Mc Clellan Airfield	KMCC	McClellan Jet Services	916-641-8970	1470
+CA	Salinas	Salinas Municipal Airport	KSNS	Jet West Salinas	831-422-9400	6390
+CA	San Andreas	Calaveras County Airport - Maury Rasmussen Field	KCPU	Calaveras County (FBO)	209-736-2501, 209-754-1908	2640
+CA	San Bernardino	San Bernardino International Airport	KSBD	Luxivair SBD	909-382-6068	3930
+CA	San Carlos	San Carlos Airport	KSQL	Rabbit Aviation Services	650-591-5857, 650-716-6579	9180
+CA	San Diego	Montgomery-Gibbs Executive Airport	KMYF	Crownair	858-292-1181	15810
+CA	San Diego	Montgomery-Gibbs Executive Airport	KMYF	 Gibbs Flying Service, Inc.	858-277-0310	15810
+CA	San Diego	Brown Field Municipal Airport	KSDM	 San Diego Jet Center	619-671-9222	7830
+CA	San Diego	Brown Field Municipal Airport	KSDM	First Flight	619-661-6522	7830
+CA	San Diego	San Diego International Airport	KSAN	Signature Flight Support	619-298-7704	15870
+CA	San Diego/El Cajon	Gillespie Field Airport	KSEE	Golden State Aviation	619-368-0065	18630
+CA	San Diego/El Cajon	Gillespie Field Airport	KSEE	Circle Air Group	619-448-5991	18630
+CA	San Diego/El Cajon	Gillespie Field Airport	KSEE	High Performance Aircraft	858-576-5000	18630
+CA	San Francisco	San Francisco International Airport	KSFO	Signature Flight Support	650-877-6800	36840
+CA	San Jose	Norman Y Mineta San Jose International Airport	KSJC	Signature Fight Support	669-800-1992	13470
+CA	San Jose	Norman Y Mineta San Jose International Airport	KSJC	Atlantic Aviation	408-297-7552	13470
+CA	San Jose	Reid-Hillview Airport of Santa Clara County	KRHV	 Nice Air	408-729-3383, 408-729-3384	12330
+CA	San Jose	Reid-Hillview Airport of Santa Clara County	KRHV	San Jose Fuel Company	408-926-4030	12330
+CA	San Jose	Reid-Hillview Airport of Santa Clara County	KRHV	 AeroDynamic Aviation	408-251-4939	12330
+CA	San Jose	Reid-Hillview Airport of Santa Clara County	KRHV	LP Enterprises	408-929-2106	12330
+CA	San Luis Obispo	San Luis County Regional Airport	KSBP	ACI Jet - San Luis Obispo	805-782-9722	6060
+CA	San Martin	San Martin Airport	E16	Magnum Aviation, Inc.	408-683-4102	2730
+CA	Santa Ana	John Wayne-Orange County Airport	KSNA	Atlantic Aviation	949-851-5061	23340
+CA	Santa Ana	John Wayne-Orange County Airport	KSNA	ACI Jet	949-201-2550	23340
+CA	Santa Barbara	Santa Barbara Municipal Airport	KSBA	Signature Flight Support	805-967-5608	8220
+CA	Santa Barbara	Santa Barbara Municipal Airport	KSBA	Atlantic Aviation	805-964-6733	8220
+CA	Santa Barbara	Santa Barbara Municipal Airport	KSBA	 MAG Aviation Fuel	760-900-0142, 760-885-1346	8220
+CA	Santa Maria	Santa Maria Public Airport/Capt G Allan Hancock Field	KSMX	Central Coast Jet Center	805-937-9300	3150
+CA	Santa Monica	Santa Monica Municipal Airport	KSMO	Atlantic Aviation	310-396-6770	13560
+CA	Santa Monica	Santa Monica Municipal Airport	KSMO	 Aeroplex	562-981-2659, 424-303-3800	13560
+CA	Santa Paula	Santa Paula Airport	KSZP	Santa Paula Airport	805-933-1155	7980
+CA	Santa Rosa	Charles M Schulz - Sonoma County Airport	KSTS	KAISERAIR, INC - Santa Rosa Jet Center	707-528-7400	6510
+CA	Santa Rosa	Charles M Schulz - Sonoma County Airport	KSTS	Sonoma Jet Center	707-523-2800	6510
+CA	Santa Ynez	Santa Ynez Airport	KIZA	Santa Ynez Airport	805-688-8390	2490
+CA	Schellville/Sonoma	Sonoma Valley Airport	0Q3	Vintage Aircraft	707-938-2444	1320
+CA	Selma	Selma Airport	0Q4	Selma Aerodrome	559-896-1001	990
+CA	Shafter	Shafter Airport-Minter Field	KMIT	Inland Crop Dusters	661-399-6564	3690
+CA	Sonoma	Sonoma Skypark Airport	0Q9	Sonoma Skypark	707-996-2100	1230
+CA	South Lake Tahoe	Lake Tahoe Airport	KTVL	Mountain West Aviation	530-541-2110	1950
+CA	Stockton	Stockton Metropolitan Airport	KSCK	Atlantic Aviation	209-982-1622	5460
+CA	Susanville	Susanville Municipal Airport	KSVE	Susanville Aviation	530-257-2030	1020
+CA	Taft	Taft-Kern County Airport	L17	CB & RR, LLC	661-765-5330	810
+CA	Tehachapi	Tehachapi Municipal Airport	KTSP	Tehachapi Municipal Airport	661-822-2200	900
+CA	Torrance	Zamperini Field Airport	KTOA	Great American Aviation	310-534-2333	9780
+CA	Torrance	Zamperini Field Airport	KTOA	 Torrance Flite Park, LLC	310-373-2222, 310-378-8948	9780
+CA	Torrance	Zamperini Field Airport	KTOA	South Bay Aviation	310-791-5454	9780
+CA	Tracy	Tracy Municipal Airport	KTCY	Tracy Municipal Airport	209-831-6262	4830
+CA	Truckee	Truckee-Tahoe Airport	KTRK	Truckee Tahoe Airport	530-587-4119, 530-587-4540	2880
+CA	Tulare	Mefford Field Airport	KTLR	Valley Air Crafts	559-686-7401	2160
+CA	Tulelake	Tulelake Municipal Airport	O81	Macy's Flying Service	530-664-2661	1080
+CA	Turlock	Turlock Municipal Airport	O15	Turlock Municipal Airport	209-632-3244	840
+CA	Twentynine Palms	Twentynine Palms Airport	KTNP	Department of Airports	760-247-2371, 909-387-8810	1470
+CA	Ukiah	Ukiah Municipal Airport	KUKI	City of Ukiah (FBO)	707-272-5515	3570
+CA	Upland	Cable Airport	KCCB	Cable Airport	909-982-6021	7560
+CA	Vacaville	Nut Tree Airport	KVCB	Solano County - Nut Tree Airport	707-469-4600	8340
+CA	Van Nuys	Van Nuys Airport	KVNY	Signature Flight Support (West)	818-464-9500	41430
+CA	Van Nuys	Van Nuys Airport	KVNY	Castle & Cooke Aviation Services	818-988-8385	41430
+CA	Van Nuys	Van Nuys Airport	KVNY	Clay Lacy Aviation	818-989-2900	41430
+CA	Van Nuys	Van Nuys Airport	KVNY	Signature Flight Support (East)	818-989-2300	41430
+CA	Van Nuys	Van Nuys Airport	KVNY	Jet Aviation Van Nuys	818-722-5103	41430
+CA	Van Nuys	Van Nuys Airport	KVNY	The Park VNY	818-834-1085	41430
+CA	Victorville	Southern California Logistics Airport	KVCV	 Million Air Victorville	760-246-7794	3420
+CA	Visalia	Visalia Municipal Airport	KVIS	Visalia Municipal Airport	559-713-4642, 559-713-4201	3600
+CA	Watsonville	Watsonville Municipal Airport	KWVI	Watsonville Municipal Airport	831-768-3575, 831-768-3574	4920
+CA	Weed	Weed Airport	O46	Eagles Nest Aviation	530-938-2656	840
+CA	Willits	Ells Field-Willits Municipal Airport	O28	City of Willits (automated fuel pump)	707-841-6252, 707-459-4601	420
+CA	Willows	Willows-Glenn County Airport	KWLW	Glenn County Airport	530-934-6530	2430
+CA	Woodlake	Woodlake Airport	O42	Woodlake Airport	559-564-8055	990
+CA	Woodland	Watts-Woodland Airport	O41	Watts-Woodland Airport, Inc.	866-951-7352, 530-867-6652	1890
+CA	Yuba City	Sutter County Airport	O52	County of Sutter (FBO)	530-674-9645	660
