@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
-  get 'users_airplanes/index'
+#pages for the user to view all of their previous trips
+  get '/trips', to: 'trips#index'
+  get '/report_trip', to: 'trips#report_trip'
 
 #pages used for the plan trip      
   get '/plantrip', to: 'plan_trip#trip_details'
