@@ -112,7 +112,7 @@ class FeesTest < ActionDispatch::IntegrationTest
 		@weightFbo = fbos(:weight_fbo)
 
 		curFees = getFees(@cessna172, @weightFbo)
-		curFees = applyMultiplier(@cessna172, curFees)
+		#curFees = applyMultiplier(@cessna172, curFees)
 
 		curFees.each do |curFee|
 			if curFee.fee_type.fee_type_description == "landing"
