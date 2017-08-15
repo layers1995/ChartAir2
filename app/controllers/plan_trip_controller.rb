@@ -26,7 +26,7 @@ class PlanTripController < ApplicationController
       redirect_to plantrip_path
     end
   	
-  	@tailnumber=params[:airplane];
+  	@tailnumber=params[:airplane]
   	@curfilter= params[:filter]
   
   	#get the current city
@@ -83,6 +83,7 @@ class PlanTripController < ApplicationController
   	#send values to js
   	gon.destination=curCity.latitude.to_s+","+curCity.longitude.to_s
   	gon.dict= feeDict
+  	gon.tailnumber=@tailnumber
   	
   end
   

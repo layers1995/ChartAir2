@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 #pages for the user to view all of their previous trips
   get '/trips', to: 'trips#index'
   get '/report_trip', to: 'trips#report_trip'
+  get '/book_trip', to: 'trips#book_trip'
+  post '/book_trip', to: 'trips#new_trip'
 
 #pages used for the plan trip      
   get '/plantrip', to: 'plan_trip#trip_details'
@@ -34,5 +36,6 @@ Rails.application.routes.draw do
   resources :users
   resources :airplanes
   resources :users_airplanes
+  resources :trips
   
 end

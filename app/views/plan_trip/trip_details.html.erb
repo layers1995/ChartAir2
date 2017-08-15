@@ -19,7 +19,7 @@
 <%= form_for(@plan_trip, url: plantrip_path) do |f| %>
     <%= f.select :state, [],{}, {class: "form-control", id:'states', :onchange=> "changeCities();"}%>
     <%= f.select :city, [],{}, {class: "form-control", id:'cities'}%>
-    <%= f.number_field :distance, id: "input"%>
+    <%= f.number_field :distance,{id: "input", value: 50 }%>
     <%= f.select :airplane,[],{}, {class: "form-control", id:'airplanes'}%>
     <%= f.select :filter, ["Cost","Distance"],{}, {class: "form-control", id:'filters'}%>
     <%= f.submit "Plan Trip", class: "btn btn-primary" %>

@@ -207,10 +207,13 @@ function updateTable(){
     div.innerHTML = "";
     var mapDetails="";
     
+    //creates an array of buttons
+    var buttons= Array(fbos.length);
+    
     if(fbos.length!=0){
         
         for(var i=0; i<this.fbos.length;i++){
-            
+            var curName=fbos[i].name;
             var newDiv= document.createElement("div");
             newDiv.setAttribute('class', 'result')
             
@@ -223,7 +226,7 @@ function updateTable(){
             var c1  = document.createElement('td');
             // Append a text node column
             var c1text= document.createElement("H3");
-            c1text.appendChild(document.createTextNode( (i+1) + "." + " "+ properCapitlize(feeDict[fbos[i].name]["airport"])));
+            c1text.appendChild(document.createTextNode( (i+1) + "." + " "+ properCapitlize(feeDict[curName]["airport"])));
             c1.appendChild(c1text);
             newRow.appendChild(c1);
             
@@ -231,24 +234,27 @@ function updateTable(){
             var c2  = document.createElement('td');
             var c2text=document.createElement("H3");
             c2text.setAttribute('class', 'center');
-            c2text.appendChild(document.createTextNode(feeDict[fbos[i].name]["distance"]));
+            c2text.appendChild(document.createTextNode(feeDict[curName]["distance"]));
             c2.appendChild(c2text);
             newRow.appendChild(c2);
             
             //make a cell for price
             var c3  = document.createElement('td');
             var c3text=document.createElement("H4");
-            c3text.appendChild(document.createTextNode("Total Cost: $" + feeDict[fbos[i].name]["total"]));
+            c3text.appendChild(document.createTextNode("Total Cost: $" + feeDict[curName]["total"]));
             c3.setAttribute("class", "right");
             c3.appendChild(c3text);
             newRow.appendChild(c3);
             
             //make a cell for the button
             var c4  = document.createElement('td');
-            var c4button= document.createElement("button");
-            c4button.innerHTML = 'Book Trip';
+            buttons[i]= document.createElement("button");
+            buttons[i].innerHTML = 'Book Trip';
+            buttons[i].setAttribute("id",i);
+            buttons[i].onclick=function(e){linkToBookTrip(this.id);};
+            //set location of button
             c4.setAttribute("class", "center");
-            c4.appendChild(c4button);
+            c4.appendChild(buttons[i]);
             newRow.appendChild(c4);
             
             // Insert a row in the table at the last row
@@ -256,7 +262,7 @@ function updateTable(){
             var fboc= document.createElement('td');
             //fboc.setAttribute("class", "center");
             var fboName= document.createElement("H4");
-            fboName.appendChild(document.createTextNode("\u00a0\u00a0" + properCapitlize(fbos[i].name)));
+            fboName.appendChild(document.createTextNode("\u00a0\u00a0" + properCapitlize(curName)));
             fboc.appendChild(fboName);
             fboRow.appendChild(fboc);
             
@@ -266,7 +272,7 @@ function updateTable(){
             div.appendChild(newDiv);
             
             //add to src strings
-            mapDetails+= "&markers=color:red|label:"+(i+1)+"|" + feeDict[fbos[i].name]["latitude"] + "," + feeDict[fbos[i].name]["longitude"];
+            mapDetails+= "&markers=color:red|label:"+(i+1)+"|" + feeDict[curName]["latitude"] + "," + feeDict[curName]["longitude"];
         }
     }else{
         //create a result
@@ -286,6 +292,13 @@ function updateTable(){
     
 }
 
+function linkToBookTrip(index){
+    var fboName=fbos[parseInt(index)].name;
+    var airportName=feeDict[fboName]["airport"];
+    var tailnumber=gon.tailnumber;
+    var cost=feeDict[fboName]["total"];
+    window.location='https://chartair-fuzzykitenz.c9users.io/book_trip?fbo='+fboName+'&airport='+airportName+'&cost='+cost+'&tailnumber='+tailnumber;
+}
 
 function createGoogleMap(mapDetails){
     //get the image I want to change
