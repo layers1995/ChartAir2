@@ -12,6 +12,10 @@ module SessionsHelper
   def logged_in?
     !current_user.nil?
   end
+  
+  def admin_logged_in?
+    !current_user.nil? && current_user.name==="OliviaCanEat"
+  end
     
   def current_user
     @current_user ||= User.find_by(id: session[:user_id])

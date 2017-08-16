@@ -1,7 +1,6 @@
-<%= render 'layouts/header' %>
 <%= stylesheet_link_tag 'main'%>
 
-<h1>All Trips</h1>
+<h1>Admin</h1>
 
 <table id="trips">
     <tr>
@@ -11,6 +10,7 @@
         <td><h3>Airplane</h3></td>
         <td><h3>Cost</h3></td>
         <td><h3></h3></td>
+        <td><h3></h3></td>
     </tr>
     <% @trips.each do |trip|%>
         <tr>
@@ -19,19 +19,9 @@
           <td><h3><%=trip["arrival_time"]%></h3></td>
           <td><h3><%=trip["tailnumber"]%></h3></td>
           <td><h3>$<%=trip["cost"]%></h3></td>
-          
-          <%if trip["trip_status"]==="completed"%>
-              <td><%= link_to "Rate Trip", report_trip_path(:trip => trip["id"]) %></td>
-          <%end%>
-          
-          <%if trip["trip_status"]==="issue"%>
-              <td><%= link_to "Resolve Issue", trip_resolution_path(:trip => trip["id"], :reason => "issue") %></td>
-          <%end%>
-          
-          <%if trip["trip_status"]==="canceled"%>
-              <td><%= link_to "Resolve Cancleation", trip_resolution_path(:trip => trip["id"], :reason => "cancled") %></td>
-          <%end%>
-          
+          <td><%= link_to "Confirm Trip", confirm_trip_path(:trip_id => trip["id"]) %></td>
+          <td><%= link_to "Mark Issue", problem_trip_path(:trip_id => trip["id"], :problem => "issue")%></td>
+          <td><%= link_to "Cancel Trip", problem_trip_path(:trip_id => trip["id"], :problem => "canceled")%></td>
         </tr>
     <%end%>
 </table>

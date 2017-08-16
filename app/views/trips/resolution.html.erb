@@ -1,0 +1,28 @@
+<%= render 'layouts/header' %>
+<%= stylesheet_link_tag 'main'%>
+
+<%if @problem==="cancled" %>
+
+    <h2>Your trip has been cancled</h2>
+    <p>We are very sorry for the inconveince, but your flight could not occur because:</p>
+    <p><%=@issue%></p>
+    
+    <%= link_to "You can plan another trip, by clicking here", resolve_trip_path(:resolution => "plan_trip", :trip => @trip) %>
+    </br>
+    <%= link_to "Or you can confirm that you have seen your trip has been cancled and we will remove it from your current trips, by clicking here", resolve_trip_path(:resolution => "remove", :trip => @trip) %>
+
+<%end%>
+
+<% if @problem==="issue" %>
+
+    <h2>There was an issue with your trip</h2>
+    <p>While booking your flight we found that:</p>
+    <p><%=@issue%></p>
+    
+    <%= link_to "If you want to continue with your trip, regardless of this change, click here", resolve_trip_path(:resolution => "confirm", :trip => @trip) %>
+    </br>
+    <%= link_to "If you want to plan a replacement trip, click here", resolve_trip_path(:resolution => "plan_trip", :trip => @trip) %>
+    </br>
+    <%= link_to "If you want to cancle and delete the trip, click here", resolve_trip_path(:resolution => "remove", :trip => @trip) %>
+
+<%end%>
