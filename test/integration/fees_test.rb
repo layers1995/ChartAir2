@@ -11,7 +11,6 @@ class FeesTest < ActionDispatch::IntegrationTest
 		# check that the fee is correct
 		@jetAirLanding172 = fees(:jet_air_sep_landing)
 
-
 		# check that I can grab the fbo from the fee
 		jetAir = Fbo.find(@jetAirLanding172.fbo_id)
 		assert_equal(fbos(:jet_air).name, jetAir.name)
@@ -50,11 +49,13 @@ class FeesTest < ActionDispatch::IntegrationTest
 		@jetAir = fbos(:jet_air)
 
 		curFees = getFees(@cessna172, @jetAir)
-		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
+		curFee = getFeeType(curFees, "landing")
+		#curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
 		assert_equal(fees(:jet_air_sep_landing).price, curFee.price)
 
 		curFees = getFees(@cessna425, @jetAir)
-		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing" ))
+		curFee = getFeeType(curFees, "landing")
+		#curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing" ))
 		assert_equal(fees(:jet_air_tet_landing).price, curFee.price)
 	end
 

@@ -2,16 +2,29 @@ window.addEventListener("load",start,false);
 
 //main dictionary used by the class
 var feeDict;
+//holds the order of a collect of fbo objects;
+var fbos=[];
 //current filter in use
 var curFilter;
 //dictionary of different fees used by the airports
 var appliedFees= {};
+//destination location
+var destination;
 
 function start(){
+    //alert("start");
     feeDict=gon.dict;
+    destination=gon.destination;
+    curFilter=document.getElementById("userFilter").innerHTML.toLocaleLowerCase();
+    
     addListeners();
+    //alert("listeners added");
+    createFboList();
+    //alert("fbo list created" + fbos.length + " is the lenght");
     fillAppliedFeesDict();
-    updateTable();
+    //alert("fees applied to dictionary");
+    filterButtonClicked(curFilter);
+    //alert("filter button clicked");
 }
 
 //adds listeners to buttons
@@ -29,6 +42,26 @@ function addListeners(){
 	document.getElementById("hanger").onclick=function(){feeButtonClicked("hanger");};
 	document.getElementById("call out").onclick=function(){feeButtonClicked("call out");};
 	document.getElementById("other").onclick=function(){feeButtonClicked("other");};
+}
+
+function createFboList(){
+    
+    var fboNames= Object.keys(feeDict);
+    
+    if(fboNames.length>fbos.length){
+        
+        for(var i=0; i<fboNames.length; i++){
+            
+            var fbo={name:"",distance: 0, total:0};
+            
+            fbo.name=fboNames[i];
+            fbo.distance=parseInt(feeDict[fboNames[i]]["distance"].substring(0,feeDict[fboNames[i]]["distance"].length-4));
+            fbo.total=feeDict[fboNames[i]]["total"];
+            
+            this.fbos.push(fbo);
+        }
+    }
+    
 }
 
 //starts by filling the applied fees dictionary
@@ -53,15 +86,17 @@ function filterButtonClicked(buttonClicked){
     
     if(buttonClicked==="cost"){
         //update buttons
+        curFilter="cost";
         costButton.style.opacity=1;
         distanceButton.style.opacity=0.4;
     }else{
          //update buttons
+         curFilter="distance";
         costButton.style.opacity=0.4;
         distanceButton.style.opacity=1;
     }
-    
-    //arrangeResults();
+
+    arrangeResults();
     updateTable();
 }
 
@@ -82,29 +117,28 @@ function feeButtonClicked(buttonClicked){
     
     //updates the current cost and reagranges the results
     updateTotalCost();
-    //arrangeResults();
+    arrangeResults();
     updateTable();
 }
 
 //updates the current full costs of the results
 function updateTotalCost(){
-    
-    var fbos= Object.keys(feeDict);
+
     var fees= Object.keys(appliedFees);
     
-    for(var i=0; i<fbos.length;i++){
+    for(var i=0; i<this.fbos.length;i++){
         
         var tempTotal=0;
         
         for(var k=0; k<fees.length; k++){
             if(appliedFees[fees[k]]){
-                if(feeDict[fbos[i]][fees[k]]!=null){
-                    tempTotal+= feeDict[fbos[i]][fees[k]];
+                if(feeDict[fbos[i].name][fees[k]]!=null){
+                    tempTotal+= feeDict[fbos[i].name][fees[k]];
                 }
             }
         }
-        
-        feeDict[fbos[i]]["total"]=tempTotal;
+        fbos[i].total=tempTotal;
+        feeDict[fbos[i].name]["total"]=tempTotal;
     }
     
 }
@@ -113,73 +147,9 @@ function updateTotalCost(){
 function arrangeResults(){
     
     if(curFilter==="cost"){
-        feeDict.sort(compairPrice);
+        fbos.sort(compairPrice);
     }else{
-        feeDict.sort(compairDistance);
-    }
-    
-}
-
-//adds all entries to the table
-function updateTable(){
-    
-    //deletes all entries
-    var div = document.getElementById("allResults");
-    div.innerHTML = "";
-    
-    var fbos= Object.keys(feeDict);
-    
-    for(var i=0; i<fbos.length;i++){
-        
-        var newDiv= document.createElement("div");
-        newDiv.setAttribute('class', 'result')
-        
-        var table = document.createElement('table');
-        table.setAttribute('class', 'resultTable');
-        // Insert a row in the table at the last row
-        var newRow   = table.insertRow(table.rows.length);
-        
-        // Insert a cell in the row at index 0
-        var c1  = document.createElement('td');
-        // Append a text node column
-        var c1text= document.createElement("H3");
-        c1text.appendChild(document.createTextNode( (i+1) + "." + " "+ properCapitlize(feeDict[fbos]["airport"])));
-        c1.appendChild(c1text);
-        newRow.appendChild(c1);
-        
-        /*insert a blank cell
-        var c2  = document.createElement('td');
-        newRow.appendChild(c2);*/
-        
-        //make a cell for price
-        var c3  = document.createElement('td');
-        var c3text=document.createElement("H4");
-        c3text.appendChild(document.createTextNode("Total Cost: $" + feeDict[fbos]["total"]));
-        c3.setAttribute("class", "right");
-        c3.appendChild(c3text);
-        newRow.appendChild(c3);
-        
-        //make a cell for the button
-        var c4  = document.createElement('td');
-        var c4button= document.createElement("button");
-        c4button.innerHTML = 'Book Trip';
-        c4.setAttribute("class", "center");
-        c4.appendChild(c4button);
-        newRow.appendChild(c4);
-        
-        // Insert a row in the table at the last row
-        var fboRow = table.insertRow(table.rows.length);
-        var fboc= document.createElement('td');
-        //fboc.setAttribute("class", "center");
-        var fboName= document.createElement("H4");
-        fboName.appendChild(document.createTextNode("\u00a0\u00a0\u00a0\u00a0" + fbos[i]));
-        fboc.appendChild(fboName);
-        fboRow.appendChild(fboc);
-        
-        //append table to div
-        newDiv.appendChild(table);
-        //append div to div
-        div.appendChild(newDiv);
+        fbos.sort(compairDistance);
     }
     
 }
@@ -200,8 +170,8 @@ function compairPrice(x, y){
 
 function compairDistance(x, y){
     
-   var xDistance=parseInt(x.distance.substring(0,x.distance.length-4));
-   var yDistance=parseInt(y.distance.substring(0,y.distance.length-4));
+   var xDistance=parseInt(x.distance);
+   var yDistance=parseInt(y.distance);
    
    if (xDistance < yDistance)
       return -1;
@@ -209,7 +179,7 @@ function compairDistance(x, y){
      return 1;
     
    //no forever loop    
-   if(parseInt(x.fee)!= parseInt(y.fee))
+   if(parseInt(x.total)!= parseInt(y.total))
         return compairPrice(x,y);
 }
 
@@ -227,4 +197,113 @@ function properCapitlize(name){
 	
 	tempStr=tempStr.substring(0,tempStr.length);
 	return tempStr;
+}
+
+//adds all entries to the table
+function updateTable(){
+    
+    //deletes all entries
+    var div = document.getElementById("allResults");
+    div.innerHTML = "";
+    var mapDetails="";
+    
+    //creates an array of buttons
+    var buttons= Array(fbos.length);
+    
+    if(fbos.length!=0){
+        
+        for(var i=0; i<this.fbos.length;i++){
+            var curName=fbos[i].name;
+            var newDiv= document.createElement("div");
+            newDiv.setAttribute('class', 'result')
+            
+            var table = document.createElement('table');
+            table.setAttribute('class', 'resultTable');
+            // Insert a row in the table at the last row
+            var newRow   = table.insertRow(table.rows.length);
+            
+            // Insert a cell in the row at index 0
+            var c1  = document.createElement('td');
+            // Append a text node column
+            var c1text= document.createElement("H3");
+            c1text.appendChild(document.createTextNode( (i+1) + "." + " "+ properCapitlize(feeDict[curName]["airport"])));
+            c1.appendChild(c1text);
+            newRow.appendChild(c1);
+            
+            //insert a blank cell
+            var c2  = document.createElement('td');
+            var c2text=document.createElement("H3");
+            c2text.setAttribute('class', 'center');
+            c2text.appendChild(document.createTextNode(feeDict[curName]["distance"]));
+            c2.appendChild(c2text);
+            newRow.appendChild(c2);
+            
+            //make a cell for price
+            var c3  = document.createElement('td');
+            var c3text=document.createElement("H4");
+            c3text.appendChild(document.createTextNode("Total Cost: $" + feeDict[curName]["total"]));
+            c3.setAttribute("class", "right");
+            c3.appendChild(c3text);
+            newRow.appendChild(c3);
+            
+            //make a cell for the button
+            var c4  = document.createElement('td');
+            buttons[i]= document.createElement("button");
+            buttons[i].innerHTML = 'Book Trip';
+            buttons[i].setAttribute("id",i);
+            buttons[i].onclick=function(e){linkToBookTrip(this.id);};
+            //set location of button
+            c4.setAttribute("class", "center");
+            c4.appendChild(buttons[i]);
+            newRow.appendChild(c4);
+            
+            // Insert a row in the table at the last row
+            var fboRow = table.insertRow(table.rows.length);
+            var fboc= document.createElement('td');
+            //fboc.setAttribute("class", "center");
+            var fboName= document.createElement("H4");
+            fboName.appendChild(document.createTextNode("\u00a0\u00a0" + properCapitlize(curName)));
+            fboc.appendChild(fboName);
+            fboRow.appendChild(fboc);
+            
+            //append table to div
+            newDiv.appendChild(table);
+            //append div to div
+            div.appendChild(newDiv);
+            
+            //add to src strings
+            mapDetails+= "&markers=color:red|label:"+(i+1)+"|" + feeDict[curName]["latitude"] + "," + feeDict[curName]["longitude"];
+        }
+    }else{
+        //create a result
+        var newDiv= document.createElement("div");
+        newDiv.setAttribute('class', 'result');
+        
+        //add paragraph saying that nothing was found, try a larger area
+        var newText= document.createElement("H3");
+        newText.appendChild(document.createTextNode("Sadly, it seems there are no airports within the mile radius you selected for this city. Try again with a larger radius, or from another nearby city. Sorry for any inconveince!"));
+    
+        //append the different elements together
+        newDiv.appendChild(newText);
+        div.appendChild(newDiv);
+    }
+    
+    createGoogleMap(mapDetails);
+    
+}
+
+function linkToBookTrip(index){
+    var fboName=fbos[parseInt(index)].name;
+    var airportName=feeDict[fboName]["airport"];
+    var tailnumber=gon.tailnumber;
+    var cost=feeDict[fboName]["total"];
+    window.location='https://chartair-fuzzykitenz.c9users.io/book_trip?fbo='+fboName+'&airport='+airportName+'&cost='+cost+'&tailnumber='+tailnumber;
+}
+
+function createGoogleMap(mapDetails){
+    //get the image I want to change
+    var googleMap= document.getElementById("googleMap");
+    var destinationMarker="&markers=color:blue|label:D|"+destination;
+    var finalsrc="http://maps.google.com/maps/api/staticmap?size=512x512&maptype=roadmap&sensor=false" +destinationMarker+ mapDetails;
+    googleMap.src=finalsrc;
 }

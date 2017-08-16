@@ -151,7 +151,7 @@ if __FILE__ == $0
 =end
 
   $fboSeedData = File.open("fbo_call_data/alabama.txt", "a")
-  crawl('http://airnav.com/airports/us/AL', "Middleton Field Airport")
+  crawl('http://airnav.com/airports/us/AL', "Robbins Field Airport")
   $fboSeedData.close()
 end
 

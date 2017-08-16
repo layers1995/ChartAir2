@@ -3,7 +3,7 @@ class PlanTripController < ApplicationController
   def trip_details
       
     if not logged_in?
-      redirect_to login_path
+      redirect_to login_path and return
     end
     
     @tailnumber=params[:tailnumber]
@@ -11,6 +11,10 @@ class PlanTripController < ApplicationController
     gon.cities= City.all
     gon.curAirplanes=current_airplanes
     gon.selectedPlane=@tailnumber
+    
+    if current_airplanes.length==0
+        redirect_to profile_path
+    end
     
     @plan_trip=""
     
@@ -21,13 +25,12 @@ class PlanTripController < ApplicationController
     if (params[:distance].to_i)<10
       redirect_to plantrip_path
     end
-    
-  	@city=params[:city]
-  	@state=params[:state]
-  	@tailnumber=params[:airplane]
-  	@distance=params[:distance]
-  	@filter=params[:filter]
   	
+  	@tailnumber=params[:airplane]
+  	@curfilter= params[:filter]
+  
+  	#get the current city
+  	curCity= City.find_by(:name => params[:city])
   	#get a refrence to the airplane being used
   	curAirplane= Airplane.find_by(:id => AirplaneUser.find_by(:tailnumber => @tailnumber).airplane_id)
   	
@@ -36,13 +39,14 @@ class PlanTripController < ApplicationController
   	airportList=Array.new
   	
   	airports.each do |airport|
-  	  if airport.withinRadius(airport.latitude, airport.longitude, params[:distance].to_f) < params[:distance].to_f
+
+  	if airport.withinRadius(curCity.latitude, curCity.longitude, params[:distance].to_f)<params[:distance].to_f
   	    airportList.push(airport.id)
-  	  end
+  	end
+
   	end
   	#find all the Fbos at these airports
-  	#@Fbos= Fbo.where(:airport_id => airportList)
-  	@Fbos=Fbo.all
+  	@Fbos= Fbo.where(:airport_id => airportList)
   	
   	#create dictionary to send to js
   	feeDict= {}
@@ -59,48 +63,35 @@ class PlanTripController < ApplicationController
     	  feeRecord=getFees(curAirplane, fbo)
       end
   	  
-  	  if !feeRecord.nil?
-        feeRecord.each do |fee|
-          puts fee
-# The fees appear here, seems like the issue is getting airports to display?
-          #name of the fee and the price
-          feeTotal+=fee.price
-          feeDict[fbo.name][FeeType.find_by(:id => fee.fee_type_id).fee_type_description]=fee.price
-        end
-      else
-        puts "THE FEE RECORD IS NIL"
+  	  if feeRecord!=nil
+          feeRecord.each do |fee|
+            #name of the fee and the price
+            feeTotal+=fee.price
+            feeDict[fbo.name][FeeType.find_by(:id => fee.fee_type_id).fee_type_description]=fee.price
+          end
       end
   	  
   	  #add all other relivant information to dictonary like distance and airport
+  	  fboAirport=Airport.find_by(:id => fbo.airport_id)
   	  feeDict[fbo.name]["total"]= feeTotal
-  	  feeDict[fbo.name]["airport"]= fbo.airport.name
-  	  feeDict[fbo.name]["distance"]= "Distance"
-=begin
-      feeDict.each do |curFbo|
-        curFbo.each do |curKey, curValue|
-          if curKey.nil? or curValue.nil?
-            puts "one of them is nil"
-          else
-            puts curKey + curValue
-          end
-        end
-      end
-      return
-=end
+  	  feeDict[fbo.name]["airport"]= fboAirport.name
+  	  feeDict[fbo.name]["distance"]= fboAirport.withinRadius(curCity.latitude,curCity.longitude,params[:distance].to_f).to_i.to_s + " (mi)";
+  	  feeDict[fbo.name]["latitude"]=fboAirport.latitude;
+  	  feeDict[fbo.name]["longitude"]=fboAirport.longitude;
   	  
   	end
-
-    return
   	
   	#send values to js
+  	gon.destination=curCity.latitude.to_s+","+curCity.longitude.to_s
   	gon.dict= feeDict
+  	gon.tailnumber=@tailnumber
   	
   end
   
   private 
 
   def getFees(airplane, fbo)
-     
+      
     # get the classification from the fbo
     if fbo.classification_id != nil
         
@@ -125,14 +116,19 @@ class PlanTripController < ApplicationController
   			puts "That wasn't supposed to happen"
   		end
 
-  			# return all fees where the category and fbo match what we're looking for. Should be up to 6 fees based on the different fee types
+  		# return all fees where the category and fbo match what we're looking for. Should be up to 6 fees based on the different fee types
   		if !category.nil?
+  		  
   			retFees = Fee.where( :category => category, :fbo => fbo )
+  			
   			if !retFees.nil?
   				return retFees
   			end
+  			
   		end
+  		
     end
+    
   end
  
   #takes an active record of airports and returns an array

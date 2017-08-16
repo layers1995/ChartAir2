@@ -52,3 +52,19 @@ AL	Mobile	Mobile Downtown Airport	KBFM	Signature Flight Support	251-433-2800	372
 AL	Monroeville	Monroe County Airport	KMVC	Monroeville Aviation	251-575-4235	1650
 AL	Montgomery	Montgomery Regional Airport (Dannelly Field)	KMGM	Montgomery Aviation	334-288-7334	5130
 AL	Muscle Shoals	Northwest Alabama Regional Airport	KMSL	Shoals Flight Center	256-383-2270	3660
+AL	Ozark	Blackwell Field Airport	71J	 City of Ozark (FBO)	334-445-5045, 334-618-1613	7530
+AL	Pell City	St Clair County Airport	KPLR	St. Clair County Airport	205-338-9456	2850
+AL	Prattville	Prattville Airport - Grouby Field	1A9	Prattville Aviation, LLC	334-361-0060, 334-361-4546	1800
+AL	Reform	North Pickens Airport	3M8	Peco	205-399-0357	264
+AL	Russellville	Bill Pugh Field Airport	M22	Blue Diamond Aviation	256-331-9000, 256-710-4739	1650
+AL	Scottsboro	Scottsboro Municipal Airport-Word Field	4A6	Scottsboro Municipal Airport	256-259-3702	630
+AL	Selma	Craig Field Airport	KSEM	Southeastern Aviation Services	334-875-2189, 334-651-1511	3180
+AL	St Elmo	St Elmo Airport	2R5	St. Elmo Airport	334-242-6820	1680
+AL	Sylacauga	Merkel Field Sylacauga Municipal Airport	KSCD	Sylacauga Airport	256-245-3246	2340
+AL	Talladega	Talladega Municipal Airport	KASN	Talladega Municipal Airport	256-761-4815	3360
+AL	Troy	Troy Municipal Airport at N Kenneth Campbell Field	KTOI	Pike Aviation	334-566-3470	5670
+AL	Tuscaloosa	Tuscaloosa Regional Airport	KTCL	Dixie Air Services	205-333-3000	4380
+AL	Tuscaloosa	Tuscaloosa Regional Airport	KTCL	Hawthorne Global Aviation Services	205-349-3991	4380
+AL	Tuskegee	Moton Field Municipal Airport	06A	Golden Eagle Aviation	334-727-6485	1590
+AL	Union Springs	Franklin Field Airport	07A	Franklin Field Airport Authority	334-750-2109	500
+AL	Wetumpka	Wetumpka Municipal Airport	08A	Wetumpka Municipal Airport	334-285-5843	3240

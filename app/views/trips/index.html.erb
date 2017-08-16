@@ -1,0 +1,25 @@
+<%= render 'layouts/header' %>
+<%= stylesheet_link_tag 'main'%>
+
+<h1>All Trips</h1>
+
+<table id="trips">
+    <tr>
+        <td><h3>Trip Status</h3></td>
+        <td><h3>Destination</h3></td>
+        <td><h3>Time and Date</h3></td>
+        <td><h3>Airplane</h3></td>
+        <td><h3>Cost</h3></td>
+        <td><h3></h3></td>
+    </tr>
+    <% @trips.each do |trip|%>
+        <tr>
+          <td><h3><%=trip["trip_status"]%></h3></td>
+          <td><h3><%=Airport.find_by(:id => trip["airport_id"]).name%></h3></td>
+          <td><h3><%=trip["arrival_time"]%></h3></td>
+          <td><h3><%=trip["tailnumber"]%></h3></td>
+          <td><h3>$<%=trip["cost"]%></h3></td>
+          <td><%= link_to "Rate Trip", plantrip_path(:tailnumber => trip["id"]) %></td>
+        </tr>
+    <%end%>
+</table>

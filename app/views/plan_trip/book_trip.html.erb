@@ -1,0 +1,25 @@
+<%= render 'layouts/header' %>
+<%= stylesheet_link_tag 'main'%>
+
+<h1>Finish Booking Your Trip</h1>
+
+<h3>Would you like to prepay?</h3>
+<p>Prepaying for your trip garentees the price for when you land at the airport</p>
+
+<h3>Trip Infomation</h3>
+
+<%= @fbo %>
+<%= @airport %>
+<%= @tailnumber %>
+<%= @coast %>
+    
+<h3>When are you taking your trip?</h3>
+
+<%= form_for @trip do |f| %>
+
+<%= f.date_select :date, :order => [:day, :month] %>
+
+<%= f.submit "Book Trip", class: "btn btn-primary" %>
+   
+<%end%>
+

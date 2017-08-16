@@ -1,0 +1,29 @@
+<%= render 'layouts/header' %>
+<%= stylesheet_link_tag 'main'%>
+
+<h1>Finish Booking Your Trip</h1>
+
+<h3>Would you like to prepay?</h3>
+<p>Prepaying for your trip garentees the price for when you land at the airport</p>
+
+<h3>Trip Infomation</h3>
+
+<%= @fbo %>
+<%= @airport %>
+<%= @tailnumber %>
+<%= @coast %>
+    
+<h3>When are you taking your trip?</h3>
+
+<%= form_for @trip do |f| %>
+
+<%= f.datetime_select :start_datetime, :ampm => true, :minute_step => 15 %>
+<%= f.text_field :tailnumber, {class: "invisable", :value=>@tailnumber} %>
+<%= f.text_field :cost, {class: "invisable", :value=>@cost} %>
+<%= f.text_field :fbo, {class: "invisable", :value=>@fbo} %>
+<%= f.text_field :airport, {class: "invisable", :value=>@airport} %>
+
+<%= f.submit "Book Trip", class: "btn btn-primary" %>
+   
+<%end%>
+

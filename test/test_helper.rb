@@ -16,6 +16,7 @@ class ActiveSupport::TestCase
 # THIS PROBABLY SHOULDN'T BE HERE BUT I DON'T KNOW HOW TO GET IT IN THE TESTS ANY OTHER WAY
 # make sure to add any updates to the plan_trip_controller
 	def getFees(airplane, fbo)
+		multiplier = 1
 		classification = Classification.find(fbo.classification_id)
 		# get the category based on the classification and the airplane
 		case classification.classification_description
@@ -43,21 +44,30 @@ class ActiveSupport::TestCase
 			fees = Fee.where( :category => category, :fbo => fbo )
 			feeArray = [fees.size]
 			fees.each do |curFee|
-				curFee.price += curFee.unit_price * multiplier
-				feeArray[0] = curFee
+				if curFee.unit_price
+					curFee.price += curFee.unit_price * multiplier
+					feeArray[0] = curFee
+				end
 			end
 			return feeArray
 		end
 	end
 
-	def applyMultiplier(airplane, fees)
-		retFees = [fees.size]
-		fees.each do |curFee|
-			multiplier = airplane.weight / curFee.unit_magnitude
-			curFee.price += curFee.unit_price * multiplier
-			retFees[0] = curFee
+	def getFeeType(feeArray, feeType)
+		feeArray.each do |curFee|
+			if curFee.fee_type_description == feeType
+				return curFee
+			end
 		end
-		return retFees		
+	end
+
+	def applyMultiplier(airplane, fees, multiplier)
+		feeArray = [fees.size]
+		fees.each do |curFee|
+			curFee.price += curFee.unit_price * multiplier
+			feeArray[0] = curFee
+		end
+		return feeArray	
 	end
 
 end
