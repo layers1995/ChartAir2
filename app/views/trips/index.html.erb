@@ -21,7 +21,7 @@
           <td><h3>$<%=trip["cost"]%></h3></td>
           
           <%if trip["trip_status"]==="completed"%>
-              <td><%= link_to "Rate Trip", report_trip_path(:trip => trip["id"]) %></td>
+              <td><%= link_to "Rate Trip", report_path(:trip_id => trip["id"]) %></td>
           <%end%>
           
           <%if trip["trip_status"]==="issue"%>

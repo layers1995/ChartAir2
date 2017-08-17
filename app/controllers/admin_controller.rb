@@ -29,6 +29,8 @@ class AdminController < ApplicationController
     end
 
     @trips=Trip.where(:trip_status => "pending")
+    @reports=Report.where(:status => nil)
+    @seen_reports=Report.where(:status => "seen")
     
   end
   
@@ -62,6 +64,13 @@ class AdminController < ApplicationController
     trip.issue = params[:reason]
     trip.save
     
+    redirect_to admin_main_path
+  end
+  
+  def seen_report
+    report=Report.find_by(:id => params["id"])
+    report.status="seen"
+    report.save
     redirect_to admin_main_path
   end
   

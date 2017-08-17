@@ -39,10 +39,6 @@ class TripsController < ApplicationController
     end
     
   end
-
-  def report
-    
-  end
   
   def resolution
     @problem= params[:reason]

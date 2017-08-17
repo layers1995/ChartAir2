@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  trip_id: 1
+  trip_rating: 1
+  trip_comments: MyString
+  fbo_rating: 1
+  fbo_comments: MyString
+
+two:
+  trip_id: 1
+  trip_rating: 1
+  trip_comments: MyString
+  fbo_rating: 1
+  fbo_comments: MyString

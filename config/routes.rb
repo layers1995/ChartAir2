@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+#routes for reports on trips/fbos
+  get '/report', to: "report#index"
+  post '/report', to: "report#create"
+
 #admin pages
   get '/admin_login', to: "admin#admin_login"
   post '/admin_create', to: "admin#admin_create"
@@ -7,6 +11,7 @@ Rails.application.routes.draw do
   get '/confirm_trip', to: 'admin#confirm_trip'
   get '/problem_trip', to: "admin#problem_trip"
   post '/post_problem', to: "admin#post_problem"
+  post '/seen_report', to: "admin#seen_report"
 
 #pages for the user to view all of their previous trips
   get '/trips', to: 'trips#index'
