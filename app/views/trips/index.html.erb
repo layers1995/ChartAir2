@@ -19,7 +19,19 @@
           <td><h3><%=trip["arrival_time"]%></h3></td>
           <td><h3><%=trip["tailnumber"]%></h3></td>
           <td><h3>$<%=trip["cost"]%></h3></td>
-          <td><%= link_to "Rate Trip", plantrip_path(:tailnumber => trip["id"]) %></td>
+          
+          <%if trip["trip_status"]==="completed"%>
+              <td><%= link_to "Rate Trip", report_path(:trip_id => trip["id"]) %></td>
+          <%end%>
+          
+          <%if trip["trip_status"]==="issue"%>
+              <td><%= link_to "Resolve Issue", trip_resolution_path(:trip => trip["id"], :reason => "issue") %></td>
+          <%end%>
+          
+          <%if trip["trip_status"]==="canceled"%>
+              <td><%= link_to "Resolve Cancleation", trip_resolution_path(:trip => trip["id"], :reason => "cancled") %></td>
+          <%end%>
+          
         </tr>
     <%end%>
 </table>

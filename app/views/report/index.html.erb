@@ -1,0 +1,20 @@
+<%= render 'layouts/header' %>
+<%= stylesheet_link_tag 'main'%>
+
+<%= form_for(:report, url: report_path) do |f| %>
+     
+    <p class="invisable"><%= f.number_field :trip_id,{id: "input", value: @trip_id}%></p> 
+     
+    <p>How would you rate ChartAir as a service?</p>
+    <p><%= f.number_field :trip_rating, id: "input"%></p>
+    <p>Do you have any comments?</p>
+    <p><%= f.text_field :trip_comments, id: "input"%></p>
+    
+    <p>How would you rate the location you landed at?</p>
+    <p><%= f.number_field :fbo_rating, id: "input"%></p>
+    <p>Do you have any comments?</p>
+    <p><%= f.text_field :fbo_comments, id: "input"%></p>
+    
+    <%= f.submit "Rate Trip"%>
+      
+<% end %>

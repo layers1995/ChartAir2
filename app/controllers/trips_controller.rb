@@ -1,13 +1,49 @@
 class TripsController < ApplicationController
   
   def index
-    
     @trips=Trip.where(:user_id => current_user);
     
-  end
-
-  def report
+    #change trips from pending to completed
+    if @trips!=nil
+     @trips.each do |trip|
+       if(trip.trip_status==="confirmed" && trip.arrival_time.past?)
+         trip.trip_status="completed"
+         trip.save
+       end
+     end
+    end
     
+  end
+  
+  def resolve_trip
+    
+    trip=Trip.find_by(:id => params[:trip])
+    
+    #if the user chooses to remove trip
+    if params[:resolution]==="remove"
+      trip.destroy
+      redirect_to trips_path and return
+    end
+    
+    #if user plans a new trip
+    if params[:resolution]==="plan_trip"
+      trip.destroy
+      redirect_to plantrip_path and return
+    end
+    
+    #if user confirms trip
+    if params[:resolution]==="confirm"
+      trip.trip_status="confirmed"
+      trip.save
+      redirect_to trips_path and return
+    end
+    
+  end
+  
+  def resolution
+    @problem= params[:reason]
+    @trip= params[:trip]
+    @issue= Trip.find_by(:id => params[:trip]).issue
   end
   
   def new_trip

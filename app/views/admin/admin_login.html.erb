@@ -1,0 +1,22 @@
+<%= stylesheet_link_tag 'sessions'%>
+
+<div class="row">
+    
+  <div class="col-md-6 col-md-offset-3" id="loginBox">
+    <h1>Admin Login</h1>  
+    <%= form_for(:session, url: admin_create_path) do |f| %>
+    
+      <div id="loginGroup">
+
+        <p class="loginInfo"><%= f.text_field :name, id: "input", :placeholder=>"Username"%></p>
+        <p class="loginInfo"><%= f.password_field :password, id: "input", :placeholder=>"Password"%></p>
+  
+        <%= f.submit "Log in", class: "loginInfo" %>
+        
+      </div>
+      
+    <% end %>
+    
+  </div>
+  
+</div>
