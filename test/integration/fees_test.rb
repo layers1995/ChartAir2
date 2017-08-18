@@ -45,17 +45,25 @@ class FeesTest < ActionDispatch::IntegrationTest
 		end
 	end
 
+	test "fee time unit retrievable" do
+		@jetAir = fbos(:jet_air)
+		curFees = getFees(@cessna172, @jetAir)
+		tieDown = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "tie down" ))
+		assert_equal(4, tieDown.price)
+		assert_equal("day", tieDown.time_unit)
+	end
+
 	test "engine type fees retrievable" do
 		@jetAir = fbos(:jet_air)
 
 		curFees = getFees(@cessna172, @jetAir)
-		curFee = getFeeType(curFees, "landing")
-		#curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
+		#curFee = getFeeType(curFees, "landing")
+		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
 		assert_equal(fees(:jet_air_sep_landing).price, curFee.price)
 
 		curFees = getFees(@cessna425, @jetAir)
-		curFee = getFeeType(curFees, "landing")
-		#curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing" ))
+		#curFee = getFeeType(curFees, "landing")
+		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing" ))
 		assert_equal(fees(:jet_air_tet_landing).price, curFee.price)
 	end
 
@@ -95,7 +103,6 @@ class FeesTest < ActionDispatch::IntegrationTest
 		assert_equal(fees(:flat_rate_fbo_landing).price, curFee.price)
 	end
 
-=begin
 	test "weight range fees retrievable" do
 		@weightRangeFbo = fbos(:weight_range_fbo)
 
@@ -107,13 +114,12 @@ class FeesTest < ActionDispatch::IntegrationTest
 		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
 		assert_equal(fees(:weight_range_fbo_medium_landing).price, curFee.price)
 	end
-=end
 		
-	test "weight fees retrievable" do
+	test "weight fees retrievable with variable price" do
 		@weightFbo = fbos(:weight_fbo)
 
 		curFees = getFees(@cessna172, @weightFbo)
-		#curFees = applyMultiplier(@cessna172, curFees)
+		curFees = applyMultiplier(@cessna172, curFees)
 
 		curFees.each do |curFee|
 			if curFee.fee_type.fee_type_description == "landing"
@@ -127,6 +133,34 @@ class FeesTest < ActionDispatch::IntegrationTest
 		curFees.each do |curFee|
 			if curFee.fee_type.fee_type_description == "landing"
 				assert_equal(88, curFee.price)
+			end
+		end
+	end
+
+	test "weight fees retrievable with base and variable price" do
+		@weightFbo = fbos(:weight_fbo)
+
+		curFees = getFees(@cessna172, @weightFbo)
+		curFees = applyMultiplier(@cessna172, curFees)
+
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "ramp"
+				assert_equal(19, curFee.price)
+			end
+		end
+	end
+
+	test "multiple weight fee types retrievable" do
+		@weightFbo = fbos(:weight_fbo)
+
+		curFees = getFees(@cessna172, @weightFbo)
+		curFees = applyMultiplier(@cessna172, curFees)
+
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "landing"
+				assert_equal(22, curFee.price)
+			elsif curFee.fee_type.fee_type_description == "ramp"
+				assert_equal(19, curFee.price)
 			end
 		end
 	end

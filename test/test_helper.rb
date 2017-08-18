@@ -21,51 +21,51 @@ class ActiveSupport::TestCase
 		# get the category based on the classification and the airplane
 		case classification.classification_description
 		when "no fee"
-			category = Category.find_by( :category_description => "no fee")
+			category = Category.find_by( :category_description => "no fee" )
 		when "flat rate"
-			category = Category.find_by( :category_description => "flat rate")
+			category = Category.find_by( :category_description => "flat rate" )
 		when "engine type"
-			category = Category.find_by( :category_description => airplane.engine_class)
+			category = Category.find_by( :category_description => airplane.engine_class )
 		when "make and model"
-			category = Category.find_by( :category_description => airplane.model)
+			category = Category.find_by( :category_description => airplane.model )
 		when "weight range"
+			planeWeight = airplane.weight
 			# I really doubt this will actually work, but that's the idea
-			#category = Category.find_by("categories.minimum < airplane.weight, categories.maximum > airplane.weight")
+			category = Category.find_by( "minimum < ? AND maximum > ?", planeWeight, planeWeight )
 		when "weight"
-			category = Category.find_by( :category_description => "weight")
-			multiplier = airplane.weight / curFee.unit_magnitude
+			category = Category.find_by( :category_description => "weight" )
+			#multiplier = airplane.weight / curFee.unit_magnitude
 			# I think this is where I'm going to need to redesign the schema. Maybe just add a column to category saying how much per x the fee is charged. So if it's $5 every 1000 pounds, that new column would be 1000
 		else
 			puts "That wasn't supposed to happen"
 		end
 
-			# return all fees where the category and fbo match what we're looking for. Should be up to 6 fees based on the different fee types
-		if !category.nil?
+		# return all fees where the category and fbo match what we're looking for. Should be up to 6 fees based on the different fee types
+		if !category.nil? # make sure that the category actually exists before trying to return anything
 			fees = Fee.where( :category => category, :fbo => fbo )
-			feeArray = [fees.size]
-			fees.each do |curFee|
-				if curFee.unit_price
-					curFee.price += curFee.unit_price * multiplier
-					feeArray[0] = curFee
-				end
-			end
-			return feeArray
+			return fees
+		else
+			return nil
 		end
 	end
 
-	def getFeeType(feeArray, feeType)
-		feeArray.each do |curFee|
+	def getFeeType(fees, feeType)
+		fees.each do |curFee|
 			if curFee.fee_type_description == feeType
 				return curFee
 			end
 		end
 	end
 
-	def applyMultiplier(airplane, fees, multiplier)
-		feeArray = [fees.size]
+	def applyMultiplier(airplane, fees)
+		feeArray = fees.to_a
+		multiplier = 1
 		fees.each do |curFee|
+			case curFee.category.category_description
+			when "weight"
+				multiplier = airplane.weight / curFee.unit_magnitude
+			end
 			curFee.price += curFee.unit_price * multiplier
-			feeArray[0] = curFee
 		end
 		return feeArray	
 	end

@@ -16,6 +16,13 @@ jet_air_sep_hangar:
   category: piston_single
   price: 20
 
+jet_air_sep_tiedown:
+  fee_type: tie_down
+  fbo: jet_air
+  category: piston_single
+  price: 4
+  time_unit: day
+
 jet_air_tet_landing:
   fee_type: landing
   fbo: jet_air
@@ -76,4 +83,12 @@ weight_fbo_landing:
   category: weight
   price: 0
   unit_price: 11
+  unit_magnitude: 1000
+
+weight_fbo_landing:
+  fee_type: ramp
+  fbo: weight_fbo
+  category: weight
+  price: 5
+  unit_price: 7
   unit_magnitude: 1000
