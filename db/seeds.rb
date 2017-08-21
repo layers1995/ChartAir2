@@ -1,5 +1,6 @@
 def main
 
+=begin
 	Airplane.delete_all
 	FeeType.delete_all
 	City.delete_all
@@ -7,17 +8,18 @@ def main
 	Fbo.delete_all
 	Classification.delete_all
 	Category.delete_all
+=end
 	Fee.delete_all
-
+=begin
 	addAirplanes()
 	addFeeTypes("fee_types")
 	addClassifications("classification_types")
 	addCategories("categories")
 	addAirports("airport_seed_data") # also adds cities
 	addFbos("fbo_seed_data")
+=end
 	addFeesAndUpdateFbos("survey_responses.tsv")
 end
-
 
 def addAirplanes()
 	# The following planes are just the fleet owned by Jet Air
@@ -97,8 +99,6 @@ def addFbos(filename)
 	end
 end
 
-
-
 def addFeesAndUpdateFbos(filename)
 	responseText = open(Rails.root.join("db", "seed_data", filename)).read
 	responseText.each_line do |curResponse|
@@ -131,8 +131,9 @@ def addFeesAndUpdateFbos(filename)
 				FeeType.find_each do |curFeeType|
 					Fee.create( :fee_type => curFeeType, :fbo => curFbo, :category => curCategory, :price => 0)
 				end
-
-			elsif !feeClassification.nil? and classificationDesc == "flat rate"
+			elsif feeClassification.nil?
+				# do nothing
+			elsif classificationDesc == "flat rate"
 				curCategory = Category.find_by( :category_description => "flat rate")
 				curFbo.update( :classification => feeClassification )
 				
@@ -142,19 +143,33 @@ def addFeesAndUpdateFbos(filename)
 				singleFeeHelper(facilityFee, curCategory, curFbo, "facility")
 				singleFeeHelper(callOutFee, curCategory, curFbo, "call out")
 
-			elsif !feeClassification.nil? and classificationDesc == "engine type"
+			elsif classificationDesc == "engine type"
 				curFbo.update( :classification => feeClassification )
 				addFeeByEngineType(landingFee, curFbo, "landing")
 				addFeeByEngineType(rampFee, curFbo, "ramp")
 				addFeeByEngineType(tieDownFee, curFbo, "tie down")
 				addFeeByEngineType(facilityFee, curFbo, "facility")
 				addFeeByEngineType(callOutFee, curFbo, "call out")
+			elsif classificationDesc == "weight"
+				curFbo.update( :classification => feeClassification)
+			elsif classificationDesc == "weight range"
 			end
 
 		else
 			# check where the fboName is different
-			# I think a lot of these are missing because they are at private airports that are open to the public. I need to rerun the airport crawler now that it's fixed.
 			# puts fboName
+		end
+	end
+end
+
+def addWeightFee(feeList, fbo, feeTypeDescription)
+	feeList.split(",").each do |curFee|
+		if curFee =~ /^([0-9]+-[0-9]+: ?[0-9]+)/
+			curFee = curFee.match(/^([0-9]+-[0-9]+: ?[0-9]+)/)[0] # get the fee for the current category
+			feePrice = curFee.match(/[0-9]{1,4}/)[0] # narrow it down to just the fee itself
+			if curFee =~ /[a-z ]+/
+				categoryDesc = curFee.match(/[a-z ]+/)[0].strip # grab the category description as well
+			end
 		end
 	end
 end
