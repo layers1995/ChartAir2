@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170817174116) do
+ActiveRecord::Schema.define(version: 20170821202829) do
 
   create_table "airplane_users", force: :cascade do |t|
     t.integer "airplane_id", null: false
@@ -72,12 +72,10 @@ ActiveRecord::Schema.define(version: 20170817174116) do
     t.string   "name"
     t.string   "phone"
     t.string   "alternate_phone"
-    t.datetime "created_at",        null: false
-    t.datetime "updated_at",        null: false
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
     t.integer  "airport_id"
-    t.integer  "classification_id"
     t.index ["airport_id"], name: "index_fbos_on_airport_id"
-    t.index ["classification_id"], name: "index_fbos_on_classification_id"
   end
 
   create_table "fee_types", force: :cascade do |t|
@@ -88,15 +86,18 @@ ActiveRecord::Schema.define(version: 20170817174116) do
 
   create_table "fees", force: :cascade do |t|
     t.integer  "price"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
     t.integer  "fee_type_id"
     t.integer  "fbo_id"
     t.integer  "category_id"
     t.string   "time_unit"
-    t.integer  "unit_price"
+    t.integer  "price_per_unit"
     t.integer  "unit_magnitude"
+    t.integer  "classification_id"
+    t.integer  "price_per_time"
     t.index ["category_id"], name: "index_fees_on_category_id"
+    t.index ["classification_id"], name: "index_fees_on_classification_id"
     t.index ["fbo_id"], name: "index_fees_on_fbo_id"
     t.index ["fee_type_id"], name: "index_fees_on_fee_type_id"
   end

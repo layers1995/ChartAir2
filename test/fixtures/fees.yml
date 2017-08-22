@@ -2,24 +2,28 @@ jet_air_sep_landing:
   fee_type: landing
   fbo: jet_air
   category: piston_single
+  classification: engine_type
   price: 10
 
 jet_air_sep_ramp:
   fee_type: ramp
   fbo: jet_air
   category: piston_single
+  classification: engine_type
   price: 5
 
 jet_air_sep_hangar:
   fee_type: hangar
   fbo: jet_air
   category: piston_single
+  classification: engine_type
   price: 20
 
 jet_air_sep_tiedown:
   fee_type: tie_down
   fbo: jet_air
   category: piston_single
+  classification: engine_type
   price: 4
   time_unit: day
 
@@ -27,68 +31,79 @@ jet_air_tet_landing:
   fee_type: landing
   fbo: jet_air
   category: turboprop_twin_medium
+  classification: engine_type
   price: 25
 
 signature_sep_landing:
   fee_type: landing
   fbo: signature
   category: piston_single
+  classification: engine_type
   price: 100
 
 signature_tet_landing:
   fee_type: landing
   fbo: signature
   category: turboprop_twin_medium
+  classification: engine_type
   price: 250
 
 jet_flair_172_landing:
   fee_type: landing
   fbo: jet_flair
   category: 172skyhawk
+  classification: make_and_model
   price: 40
 
 jet_flair_425_landing:
   fee_type: landing
   fbo: jet_flair
   category: 425conquest
+  classification: make_and_model
   price: 60
 
 no_fee_fbo_landing:
   fee_type: landing
   fbo: no_fee_fbo
   category: no_fee_cat
+  classification: no_fee
   price: 0
 
 flat_rate_fbo_landing:
   fee_type: landing
-  fbo: flat_rate_fbo
+  fbo: flat_rate_fbos
   category: flat_rate_cat
+  classification: flat_rate
   price: 3
 
 weight_range_fbo_small_landing:
   fee_type: landing
   fbo: weight_range_fbo
   category: low_weight
+  classification: weight_range
   price: 17
 
 weight_range_fbo_medium_landing:
   fee_type: landing
   fbo: weight_range_fbo
   category: medium_weight
+  classification: weight_range
   price: 34
 
 weight_fbo_landing:
   fee_type: landing
   fbo: weight_fbo
   category: weight
+  classification: weight
   price: 0
-  unit_price: 11
+  price_per_unit: 11
   unit_magnitude: 1000
 
 weight_fbo_landing:
   fee_type: ramp
   fbo: weight_fbo
   category: weight
+  classification: weight
   price: 5
-  unit_price: 7
+  price_per_unit: 7
   unit_magnitude: 1000

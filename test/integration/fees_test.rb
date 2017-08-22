@@ -48,9 +48,13 @@ class FeesTest < ActionDispatch::IntegrationTest
 	test "fee time unit retrievable" do
 		@jetAir = fbos(:jet_air)
 		curFees = getFees(@cessna172, @jetAir)
-		tieDown = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "tie down" ))
-		assert_equal(4, tieDown.price)
-		assert_equal("day", tieDown.time_unit)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "tie down"
+				assert_equal(4, curFee.price)
+				assert_equal("day", curFee.time_unit)
+			end
+		end
+		#tieDown = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "tie down" ))
 	end
 
 	test "engine type fees retrievable" do
@@ -58,13 +62,25 @@ class FeesTest < ActionDispatch::IntegrationTest
 
 		curFees = getFees(@cessna172, @jetAir)
 		#curFee = getFeeType(curFees, "landing")
-		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
-		assert_equal(fees(:jet_air_sep_landing).price, curFee.price)
+		curFees.each do |curFee|
+			puts curFee.price
+			if curFee.fee_type.fee_type_description == "landing"
+				assert_equal(10, curFee.price)
+			end
+		end
+
+#		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
+#		assert_equal(fees(:jet_air_sep_landing).price, curFee.price)
 
 		curFees = getFees(@cessna425, @jetAir)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "landing"
+				assert_equal(fees(:jet_air_tet_landing), curFee.price)
+			end
+		end
 		#curFee = getFeeType(curFees, "landing")
-		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing" ))
-		assert_equal(fees(:jet_air_tet_landing).price, curFee.price)
+#		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing" ))
+#		assert_equal(fees(:jet_air_tet_landing).price, curFee.price)
 	end
 
 	test "model fees retrievable" do
