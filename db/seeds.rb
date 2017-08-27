@@ -18,7 +18,7 @@ def main
 	#addFbos("fbo_seed_data")
 	#addFeesAndUpdateFbos("survey_responses.tsv")
 
-	addCallSheetData("survey_responses.tsv")
+	addStartupTermData("survey_responses.tsv")
 end
 
 def addAirplanes()
@@ -64,7 +64,7 @@ def addCities(filename)
 	cities.each do |curCity|
 		curCity = curCity.strip.downcase
 		cityName, cityNameAscii, stateCode, stateName, countyName, countyFips, latitude, longitude, population, source, id = curCity.split(",")
-		City.create({ :name => cityName, :state})
+		City.create({ :name => cityName})
 	end
 end
 
@@ -227,7 +227,7 @@ def addStartupTermData(filename)
 						singleFeeHelper(0, curCategory, curFbo, curFeeType.fee_type_description)
 					end
 				end
-			elsif feeClassification.nil? or classifciationDesc == ""
+			elsif feeClassification.nil? or classificationDesc == ""
 				# do nothing
 			elsif classificationDesc == "flat rate"
 				# If the current FBO has a flat rate fee
