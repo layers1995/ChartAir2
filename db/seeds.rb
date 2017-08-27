@@ -1,21 +1,105 @@
 def main
 
-	Airplane.delete_all
-	FeeType.delete_all
-	City.delete_all
-	Airport.delete_all
+	#Airplane.delete_all
+	#FeeType.delete_all
+	#City.delete_all
+	#Airport.delete_all
 	Fbo.delete_all
-	Classification.delete_all
-	Category.delete_all
+	#Classification.delete_all
+	#Category.delete_all
 	Fee.delete_all
 
-	addAirplanes()
-	addFeeTypes("fee_types")
-	addClassifications("classification_types")
-	addCategories("categories")
-	addAirports("airport_seed_data") # also adds cities
-	addFbos("fbo_seed_data")
-	addFeesAndUpdateFbos("survey_responses.tsv")
+	#addAirplanes()
+	#addFeeTypes("fee_types")
+	#addClassifications("classification_types")
+	#addCategories("categories")
+	#addAirports("airport_seed_data") # also adds cities
+	#addFbos("fbo_seed_data")
+	#addFeesAndUpdateFbos("survey_responses.tsv")
+
+	addCallSheetData("survey_responses.tsv")
+end
+
+def addCallSheetData(filename)
+	responseText = open(Rails.root.join("db", "seed_data", filename)).read
+	responseText.each_line do |curResponse|	
+		curResponse = curResponse.strip.downcase # get rid of new lines and make everything lowercase
+
+		# split the excel sheet into individual variables using split
+		timestamp, city, state, fboName, airportName, airportCode, hasFees, classificationDesc, fuelWaivesFees, landingFee, rampFee, facilityFee, callOutFee, hangarFee, contactPerson, lastContacted, multipleFbos, extraInfo, chartsCollected = curResponse.split("\t")
+
+		# We didn't make a column for tie down fees, so they're in the ramp fee instead. 
+		#getTieDown fee returns an array, where the first index is the ramp fee, and the second is the tiedown fee. that code looks sexy
+		rampFee, tieDownFee = getTieDownFee(rampFee)
+
+		feeClassification = Classification.find_by( :classification_description => classificationDesc )
+
+# Try to find the airport from the airport name. If that doesn't work, then try the airport code
+		curAirport = Airport.find_by( :name => airportName)
+		if curAirport.nil?
+			curAirport = Airport.find_by( :airport_code => airportCode )
+			# If the airport wasn't found, try adding a k to the front of the airport code and try again
+			if curAirport.nil? and airportCode.length == 3
+				newCode = "k" + airportCode
+				curAirport = Airport.find_by( :airport_code => newCode )
+			elsif
+			# If the airport wasn't found, try removing the k from the front and trying again
+				curAirport.nil? and airportCode.length == 4
+				newCode = airportCode[1..3]
+				curAirport = Airport.find_by( :airport_code => newCode )
+			end
+		end
+
+		if curAirport.nil?
+			#puts "name: " + airportName + ", code: " + airportCode
+		end
+
+# Create a new FBO based on the data in the call sheet. There will probably be duplicates in the database, but at least we'll have this info
+
+		if !curAirport.nil?
+			curFbo = Fbo.create( :name => fboName, :airport => curAirport, :classification => feeClassification )
+	# If the FBO has no fees
+			if hasFees.strip == "no"
+				curCategory = Category.find_by( :category_description => "no fee")
+				FeeType.find_each do |curFeeType|
+					if curFeeType.fee_type_description == "call out"
+						singleFeeHelper(callOutFee, curCategory, curFbo, curFeeType.fee_type_description)
+					elsif curFeeType.fee_type_description == "hangar"
+						# do nothing
+					else
+						singleFeeHelper(0, curCategory, curFbo, curFeeType.fee_type_description)
+					end
+				end
+			elsif feeClassification.nil? or feeClassification == ""
+				# do nothing
+			elsif feeClassification == "flat rate"
+				# If the current FBO has a flat rate fee
+				curCategory = Category.find_by( :category_description => "flat rate")
+				
+				singleFeeHelper(landingFee, curCategory, curFbo, "landing")
+				singleFeeHelper(rampFee, curCategory, curFbo, "ramp")
+				singleFeeHelper(tieDownFee, curCategory, curFbo, "tie down")
+				singleFeeHelper(facilityFee, curCategory, curFbo, "facility")
+				singleFeeHelper(callOutFee, curCategory, curFbo, "call out")
+
+			elsif classificationDesc == "engine type"
+				# If the current FBO classifies by engine type
+				addFeeByEngineType(landingFee, curFbo, "landing")
+				addFeeByEngineType(rampFee, curFbo, "ramp")
+				addFeeByEngineType(tieDownFee, curFbo, "tie down")
+				addFeeByEngineType(facilityFee, curFbo, "facility")
+				addFeeByEngineType(callOutFee, curFbo, "call out")
+
+			elsif classificationDesc == "weight"
+				#curFbo.update( :classification => feeClassification)
+
+			elsif classificationDesc == "weight range"
+				# do nothing
+			end
+		else
+			#puts fboName
+		end
+	end
 end
 
 def addAirplanes()
@@ -59,7 +143,7 @@ end
 def addAirports(filename)
 	airports = File.open(Rails.root.join("db", "seed_data", filename))
 	airports.each do |curAirport|
-		curAirport = curAirport.strip
+		curAirport = curAirport.strip.downcase
 		airportCode, airportName, ownerPhone, managerPhone, latitude, longitude, state, city = curAirport.split("\t")
 
 		curCity = City.find_by({ :name => city, :state => state })
@@ -147,13 +231,14 @@ def addFeesAndUpdateFbos(filename)
 				addFeeByEngineType(tieDownFee, curFbo, "tie down")
 				addFeeByEngineType(facilityFee, curFbo, "facility")
 				addFeeByEngineType(callOutFee, curFbo, "call out")
+
 			elsif classificationDesc == "weight"
 				curFbo.update( :classification => feeClassification)
 			elsif classificationDesc == "weight range"
 			end
 
 		else
-			puts fboName
+			#puts fboName
 		end
 	end
 end
@@ -175,9 +260,9 @@ def getTieDownFee(rampFee)
 	# this method separates the tie down fee from the ramp fee.
 	tieDownFee = ""
 	# the length check is to ignore the tie down fees that are tie down: single engine: 10, for example, because those are hard and I don't want to do them.
-	if rampFee.include?("tie down") and rampFee.length < 20
+	if rampFee.include?("tie down")
 		# look for a tie down fee
-		tieDownFee = rampFee.match(/tie down: [0-9]*/)
+		tieDownFee = rampFee.match(/tie down: ?[0-9]+/)
 		# was a tie down fee found?
 		if tieDownFee != nil
 			# if one was found, pull the match from the ramp fee
@@ -186,7 +271,8 @@ def getTieDownFee(rampFee)
 			tieDownFee = tieDownFee.gsub(/tie down: /, "")
 			# remove the tie down fee from the ramp fee
 			# BUG! doesn't account for tie down fees of the format tiedown: single engine: XX
-			rampFee = rampFee.gsub(/tie down: [0-9]*/, "")
+			rampFee = rampFee.gsub(/,?tie down: ?[0-9]+/, "")
+			#puts tieDownFee
 
 
 			# I don't think these are actually needed but I don't want to delete them in case they are.
@@ -195,25 +281,31 @@ def getTieDownFee(rampFee)
 			#end
 		end
 	end
-	return tieDownFee
+	return [rampFee, tieDownFee]
 end
 
 def singleFeeHelper(feePrice, category, fbo, feeType)
 	feePrice = feeToNumber(feePrice)
 	feeType = FeeType.find_by( :fee_type_description => feeType )
-	Fee.create(:fee_type_id => feeType.id, :category => category, :fbo => fbo, :price => feePrice)
-	#puts fbo.name + ": " + feeType.fee_type_description + ": " + category.category_description + ": " + feePrice.to_s
+	if !feeType.nil?
+		Fee.create(:fee_type_id => feeType.id, :category => category, :fbo => fbo, :price => feePrice)
+		#puts fbo.name + ": " + feeType.fee_type_description + ": " + category.category_description + ": " + feePrice.to_s
+	end
 end
 
 def feeToNumber(fee)
-	# If the fee is already an integer, nothing needs to happen
-	if fee.class == Fixnum or fee.nil?
-		return fee
-	end
 
-	# if the fee isn't there, just set it to nil
-	if fee.length == 0
-		fee = nil
+	# If the fee is already an integer, nothing needs to happen
+	if fee.class == Fixnum
+		return fee
+
+	# If the fee isn't there, just return 0.
+	elsif fee.nil? or fee.length == 0
+		return 0
+
+	# If the fee is already an integer, nothing needs to happen
+	elsif fee.class == Fixnum
+		return fee
 
 	# if the fee is 0, change it to the number 0 instead of the string
 	elsif fee == "none" or fee == "no" or fee == "0"
@@ -232,81 +324,95 @@ def feeToNumber(fee)
 end
 
 def addFeeByEngineType(feeList, fbo, feeTypeDescription)
-	feeList.split(",").each do |curFee|
-		if curFee =~ /^([a-z ]+:[ $]+?[0-9]+|[$]?[0-9]+)/
-			curFee = curFee.match(/^([a-z ]+:[ $]+?[0-9]+|[0-9]+)/)[0] # get the fee for the current category
-			feePrice = curFee.match(/[0-9]{1,4}/)[0] # narrow it down to just the fee itself
-			if curFee =~ /[a-z ]+/
-				categoryDesc = curFee.match(/[a-z ]+/)[0].strip # grab the category description as well
-			end
+	if !feeList.nil?
+		feeList.split(",").each do |curFee|
+			if curFee =~ /^([a-z ]+:[ $]+?[0-9]+)/
+				curFee = curFee.match(/^([a-z ]+:[ $]+?[0-9]+)/)[0] # get the fee for the current category
+				feePrice = curFee.match(/[0-9]{1,4}/)[0] # narrow it down to just the fee itself
+				if curFee =~ /[a-z ]+/
+					categoryDesc = curFee.match(/[a-z ]+/)[0].strip # grab the category description as well
+				end
 
-			case categoryDesc
-			when "single engine"
-				categoryDesc = "piston single"
+				case categoryDesc
+				when "single engine"
+					categoryDesc = "piston single"
 
-			when "small twin"
-				categoryDesc = "piston multi light"
+				when "small twin"
+					categoryDesc = "piston multi light"
 
-			when "large twin", "twin engine", "multi engine"
-				categoryDesc = "piston multi heavy"
+				when "large twin", "twin engine", "multi engine"
+					categoryDesc = "piston multi heavy"
 
-			when "turboprop single light"
-				categoryDesc = "turboprop single light"
+				when "turboprop single light"
+					categoryDesc = "turboprop single light"
 
-			when "single engine turboprop"
-				categoryDesc = "turboprop single heavy"
+				when "single engine turboprop"
+					categoryDesc = "turboprop single heavy"
 
-			when "turboprop twin light"
-				categoryDesc = "turboprop twin light"
+				when "turboprop twin light"
+					categoryDesc = "turboprop twin light"
 
-			when "twin engine turboprop"
-				categoryDesc = "turboprop twin medium"
+				when "twin engine turboprop", "turboprop twin medium"
+					categoryDesc = "turboprop twin medium"
 
-			when "turboprop twin heavy"
-				categoryDesc = "turboprop twin heavy"
+				when "turboprop twin heavy"
+					categoryDesc = "turboprop twin heavy"
 
-			when "light jet"
-				categoryDesc = "light jet"
+				when "light jet"
+					categoryDesc = "light jet"
 
-			when "midsize jet", "medium jet", "jet"
-				categoryDesc = "midsize jet"
+				when "midsize jet", "medium jet", "jet"
+					categoryDesc = "midsize jet"
 
-			when "super midsize jet"
-				categoryDesc = "super midsize jet"
+				when "super midsize jet"
+					categoryDesc = "super midsize jet"
 
-			when "heavy jet", "large jet"
-				categoryDesc = "heavy jet"
+				when "heavy jet", "large jet"
+					categoryDesc = "heavy jet"
 
-			else
-				categoryDesc = nil
-			end
+				else
+					categoryDesc = nil
+				end
 
-			
-			if !categoryDesc.nil?
-				#puts categoryDesc + ": " + feePrice
-				category = Category.find_by( :category_description => categoryDesc )
+				
+				if !categoryDesc.nil?
+					#puts categoryDesc + ": " + feePrice
+					category = Category.find_by( :category_description => categoryDesc )
+					singleFeeHelper(feePrice, category, fbo, feeTypeDescription)
+				end
+
+			# If there is a flat rate stuck somewhere in there	
+			elsif curFee =~ /[0-9]+/
+				feePrice = curFee.match(/[0-9]+/)[0]
+				category = Category.find_by( :category_description => "flat rate" )
 				singleFeeHelper(feePrice, category, fbo, feeTypeDescription)
+
+			# If a fee is 0
+			elsif curFee =~ /[none|no|0]/ or curFee.nil? or curFee == ""
+				category = Category.find_by( :category_description => "no fee" )
+				singleFeeHelper(0, category, fbo, feeTypeDescription)
+			else
+				puts curFee
 			end
 		end
 	end
+end
 
-	def addFeeByWeight(feeList, fbo, feeTypeDescription)
-		feeList.split(",").each do |curFee|
-			if curFee =~ /^[0-9.]+ ?per [0-9]+ ?[a-z]+/
-				curFee = curFee.match(/^[0-9.]+ ?per [0-9]+ ?[a-z]+/)[0] # get the fee for the current category
-				unitPrice = curFee.match(/[0-9.]+/)[1] # narrow it down to just the fee itself
-				unitMagnitude = curFee.match(/[0-9.]+/)[2]
-				unitPrice = feeToNumber(unitPrice)
-				unitMagnitude = feeToNumber(unitMagnitude)
+def addFeeByWeight(feeList, fbo, feeTypeDescription)
+	feeList.split(",").each do |curFee|
+		if curFee =~ /^[0-9.]+ ?per [0-9]+ ?[a-z]+/
+			curFee = curFee.match(/^[0-9.]+ ?per [0-9]+ ?[a-z]+/)[0] # get the fee for the current category
+			unitPrice = curFee.match(/[0-9.]+/)[1] # narrow it down to just the fee itself
+			unitMagnitude = curFee.match(/[0-9.]+/)[2]
+			unitPrice = feeToNumber(unitPrice)
+			unitMagnitude = feeToNumber(unitMagnitude)
 
-				feeType = FeeType.find_by( :fee_type_description => feeTypeDescription)
+			feeType = FeeType.find_by( :fee_type_description => feeTypeDescription)
 
-				Fee.create( :fee_type => feeType, :fbo => fbo, :category => Category.find_by( :category_description => "weight" ),
-					:unit_price => unitPrice, :unit_magnitude => unitMagnitude)
-			end
-		end		
-	end
-
+			Fee.create( :fee_type => feeType, :fbo => fbo, :category => Category.find_by( :category_description => "weight" ),
+				:unit_price => unitPrice, :unit_magnitude => unitMagnitude)
+		end
+	end		
 end
 
 main

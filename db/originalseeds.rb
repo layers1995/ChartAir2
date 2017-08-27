@@ -1,5 +1,5 @@
 def main
-=begin
+
 	Airplane.delete_all
 	FeeType.delete_all
 	City.delete_all
@@ -8,8 +8,7 @@ def main
 	Classification.delete_all
 	Category.delete_all
 	Fee.delete_all
-=end
-=begin
+
 	addAirplanes()
 	addFeeTypes("fee_types")
 	addClassifications("classification_types")
@@ -17,34 +16,6 @@ def main
 	addAirports("airport_seed_data") # also adds cities
 	addFbos("fbo_seed_data")
 	addFeesAndUpdateFbos("survey_responses.tsv")
-=end
-	addCallSheetData("survey_responses.tsv")
-end
-
-def addCallSheetData(filename)
-	responseText = open(Rails.root.join("db", "seed_data", filename)).read
-	responseText.each_line do |curResponse|	
-		curResponse = curResponse.strip.downcase # get rid of new lines and make everything lowercase
-
-		# split the excel sheet into individual variables using split
-		timestamp, city, state, fboName, airportName, airportCode, hasFees, feeClassification, fuelWaivesFees, landingFee, rampFee, facilityFee, callOutFee, hangarFee, contactPerson, lastContacted, multipleFbos, extraInfo, chartsCollected = curResponse.split("\t")
-
-		# We didn't make a column for tie down fees, so they're in the ramp fee instead.
-		tieDownFee = getTieDownFee(rampFee)
-
-		classificationDesc = feeClassification
-		feeClassification = Classification.find_by( :classification_description => classificationDesc )
-
-		curAirport = Airport.find_by( :name => airportName)
-		if curAirport.nil?
-			curAirport = Airport.find_by( :airport_code => airportCode)
-		end
-
-		if curAirport.nil?
-			puts airportName
-		end
-
-	end
 end
 
 def addAirplanes()
@@ -182,7 +153,7 @@ def addFeesAndUpdateFbos(filename)
 			end
 
 		else
-			#puts fboName
+			puts fboName
 		end
 	end
 end
