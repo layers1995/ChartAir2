@@ -1,0 +1,67 @@
+WA	Anacortes	Anacortes Airport	74S	Port of Anacortes	360-293-3134	
+WA	Arlington	Arlington Municipal Airport	KAWO	 Arlington Flight Services, Inc.	360-435-5700	
+WA	Arlington	Arlington Municipal Airport	KAWO	Castle & Cooke Aviation Services	425-791-3051	
+WA	Auburn	Auburn Municipal Airport	S50	Airport Management Group, LLC	253-333-6821	
+WA	Bellingham	Bellingham International Airport	KBLI	Bellingham Aviation Services	360-676-7624	
+WA	Bellingham	Bellingham International Airport	KBLI	Command Aviation, Inc.	360-733-3174	
+WA	Bremerton	Bremerton National Airport	KPWT	Avian Flight Center, Inc.	360-674-2111	
+WA	Burlington/Mount Vernon	Skagit Regional Airport	KBVS	 Corporate Air Center LLC	360-757-7757, 360-941-2777	
+WA	Camas	Grove Field Airport	1W1	Port of Camas/Washougal	360-835-2196	
+WA	Chehalis	Chehalis-Centralia Airport	KCLS	 Chehalis-Centralia Airport	360-748-1230	
+WA	Chelan	Lake Chelan Airport	S10	Chelan Municipal Airport	509-682-5976	
+WA	College Place	Martin Field Airport	S95	Cheney Aviation	509-522-1847	
+WA	Colville	Colville Municipal Airport	63S	City of Colville (self-serve fuel)	509-685-9056	
+WA	Davenport	Davenport Airport	68S	 Davenport Municipal Airport	509-725-4352, 509-725-0152	
+WA	Deer Park	Deer Park Airport	KDEW	Deer Park Airport	509-276-3379	
+WA	Eastsound	Orcas Island Airport	KORS	Aeronautical Services	360-378-2640	
+WA	Ellensburg	Bowers Field Airport	KELN	Midstate Aviation	509-962-7850	
+WA	Ephrata	Ephrata Municipal Airport	KEPH	Port of Ephrata	509-754-3508	
+WA	Everett	Snohomish County Airport (Paine Field)	KPAE	Castle & Cooke Aviation	425-355-6600	
+WA	Everett	Snohomish County Airport (Paine Field)	KPAE	 Regal Air - Crown Avionics	425-353-9123	
+WA	Friday Harbor	Friday Harbor Airport	KFHR	Aeronautical Services	360-378-2640	
+WA	Hoquiam	Bowerman Airport	KHQM	Port of Grays Harbor	360-533-9544	
+WA	Kelso	Southwest Washington Regional Airport	KKLS	Kelso Aviation Services	360-414-4333, 360-901-1723	
+WA	Kent	Crest Airpark	S36	Crest Airpark	253-631-7100	
+WA	Lynden	Lynden Municipal Airport Jansen Field	38W	 City of Lynden (self-serve fuel)	360-354-3446	
+WA	Moses Lake	Grant County International Airport	KMWH	 Million Air Moses Lake	509-762-2222	
+WA	Moses Lake	Grant County International Airport	KMWH	Columbia Pacific Aviation, Inc.	509-762-1016	
+WA	Oak Harbor	AJ Eisenberg Airport	KOKH	AJ Eisenberg Airport	866-429-2132	
+WA	Okanogan	Okanogan Legion Airport	S35	Okanogan Legion Airport	509-422-3600	
+WA	Olympia	Olympia Regional Airport	KOLM	Jorgensen Air Service	360-754-4043, 360-705-4300	
+WA	Olympia	Olympia Regional Airport	KOLM	Glacier Jet Center	360-705-3214, 360-753-0943	
+WA	Omak	Omak Airport	KOMK	Omak Airport	509-826-6270	
+WA	Oroville	Dorothy Scott Airport	0S7	City of Oroville (self-serve fuel)	509-476-2106	
+WA	Othello	Othello Municipal Airport	S70	Port of Othello	509-488-2544	
+WA	Pasco	Tri-Cities Airport	KPSC	Bergstrom Aircraft, Inc.	509-547-6271	
+WA	Pasco	Tri-Cities Airport	KPSC	 SullinAir Jet Center	509-545-6524	
+WA	Port Angeles	William R Fairchild International Airport	KCLM	Rite Bros. Aviation	360-452-6226	
+WA	Port Townsend	Jefferson County International Airport	0S9	Tailspin Tommy's Aircraft Repair and Flight School	360-385-1308	
+WA	Prosser	Prosser Airport	S40	Prosser Airport - Port of Benton	509-786-2053	
+WA	Pullman/Moscow	Pullman/Moscow Regional Airport	KPUW	Inter-State Aviation	509-332-6596	
+WA	Puyallup	Pierce County Airport - Thun Field	KPLU	Safety In Motion Flight Center	253-840-5758	
+WA	Renton	Renton Municipal Airport	KRNT	Pro-Flight Aviation	425-228-9510	
+WA	Renton	Renton Municipal Airport	KRNT	 Rainier Flight Service	425-610-6293	
+WA	Richland	Richland Airport	KRLD	 Sundance Aviation	509-946-2515, 509-947-3650	
+WA	Rosalia	Rosalia Municipal Airport	72S	Rosalia Municipal Airport	509-523-5991	
+WA	Seattle	Seattle-Tacoma International Airport	KSEA	Signature Flight Support	206-433-5481	
+WA	Seattle	Boeing Field/King County International Airport	KBFI	Signature Flight Support	206-763-0350	
+WA	Seattle	Boeing Field/King County International Airport	KBFI	Clay Lacy Aviation	206-762-6000	
+WA	Seattle	Boeing Field/King County International Airport	KBFI	Kenmore Aero Services	206-762-6376	
+WA	Sequim	Sequim Valley Airport	W28	Sequim Valley Airport	360-683-4444	
+WA	Shelton	Sanderson Field Airport	KSHN	Pacific Aero, LLC	360-432-8000	
+WA	Snohomish	Harvey Field Airport	S43	Snohomish Flying Service	360-568-1541	
+WA	Spanaway	Spanaway Airport	S44	Spanaway Airport	253-847-2266	
+WA	Spokane	Spokane International Airport	KGEG	Signature Flight Support	866-755-5204	
+WA	Spokane	Felts Field Airport	KSFF	Western Aviation	509-534-7371	
+WA	Sunnyside	Sunnyside Municipal Airport	1S5	Port of Sunnyside	509-837-5206	
+WA	Tacoma	Tacoma Narrows Airport	KTIW	Tacoma Narrows Aviation	253-853-7742	
+WA	Tacoma	Tacoma Narrows Airport	KTIW	Pavco Flight Center	253-851-5577	
+WA	Toledo	Ed Carlson Memorial Field - South Lewis Co Airport	KTDO	Ed Carlson Memorial Field - South Lewis County Airport	360-864-4966, 360-269-6727	
+WA	Vancouver	Pearson Field Airport	KVUO	Aero Maintenance Flight Center	360-735-9441	
+WA	Walla Walla	Walla Walla Regional Airport	KALW	SullinAir Jet Center	509-222-9432	
+WA	Wenatchee	Pangborn Memorial Airport	KEAT	 Pangborn Flight Center	509-886-0233, 509-884-2494	
+WA	Wenatchee	Pangborn Memorial Airport	KEAT	 Executive Flight, Inc.	509-884-1545, 509-670-9304	
+WA	Wilbur	Wilbur Airport	2S8	Greg's Crop Care Corporation	509-647-2441	
+WA	Winthrop	Methow Valley State Airport	S52	Smokejumper Aviation	509-322-1630, 509-996-4133	
+WA	Yakima	Yakima Air Terminal/McAllister Field	KYKM	 McCormick Air Center	509-248-1680	
+WA	Yakima	Yakima Air Terminal/McAllister Field	KYKM	McAllister Museum of Aviation	509-457-4933	

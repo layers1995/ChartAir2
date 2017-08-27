@@ -1,0 +1,65 @@
+AZ	Benson	Benson Municipal Airport	E95	 Southwestern Aviation, LLC	520-586-3262	
+AZ	Bisbee	Bisbee Municipal Airport	P04	City of Bisbee	520-432-6030, 520-249-5401	
+AZ	Buckeye	Buckeye Municipal Airport	KBXK	City of Buckeye	623-349-6880, 623-698-2818	
+AZ	Bullhead City	Laughlin/Bullhead International Airport	KIFP	Signature Flight Support	928-754-3020	
+AZ	Bullhead City	Sun Valley Airport	A20	Sun Valley Airport	760-315-5096, 928-768-3176	
+AZ	Casa Grande	Casa Grande Municipal Airport	KCGZ	Casa Grande Municipal Airport	520-426-3616, 520-251-3366	
+AZ	Chandler	Chandler Municipal Airport	KCHD	 Chandler Air Service	480-963-6420	
+AZ	Chandler	Chandler Municipal Airport	KCHD	Chandler Municipal Airport	480-782-3540	
+AZ	Chandler	Stellar Airpark	P19	Stellar Air	480-961-9050	
+AZ	Colorado City	Colorado City Municipal Airport	KAZC	Escalade Air	435-616-2871	
+AZ	Coolidge	Coolidge Municipal Airport	P08	Skyflight Services	480-620-4965	
+AZ	Cottonwood	Cottonwood Airport	P52	City of Cottonwood	928-340-2777	
+AZ	Douglas	Douglas Municipal Airport	KDGL	 City of Douglas (FBO)	520-368-1447	
+AZ	Douglas/Bisbee	Bisbee Douglas International Airport	KDUG	Bisbee Douglas International Airport	520-364-2771	
+AZ	Eloy	Eloy Municipal Airport	E60	Eloy Municipal Airport	520-466-4721	
+AZ	Flagstaff	Flagstaff Pulliam Airport	KFLG	Wiseman Aviation	928-779-9585	
+AZ	Fort Huachuca / Sierra Vista	Sierra Vista Municipal Airport-Libby Army Airfield	KFHU	City of Sierra Vista (FBO)	520-452-7091	
+AZ	Gila Bend	Gila Bend Municipal Airport	E63	Imperial Flying Service	760-353-1182	
+AZ	Glendale	Glendale Municipal Airport	KGEU	 Glendale Aero Services	623-877-3333	
+AZ	Goodyear	Phoenix Goodyear Airport	KGYR	Lux Air Jet Centers	623-932-1200, 623-932-4550	
+AZ	Grand Canyon	Valle Airport	40G	Valle Airport	928-635-5280	
+AZ	Grand Canyon	Grand Canyon National Park Airport	KGCN	Grand Canyon Airlines	928-638-7117	
+AZ	Holbrook	Holbrook Municipal Airport	P14	Holbrook Municipal Airport	928-524-6225	
+AZ	Kingman	Kingman Airport	KIGM	Air'zona Aircraft Service	928-757-7744	
+AZ	Lake Havasu City	Lake Havasu City Airport	KHII	Desert Skies Executive Air Terminal	928-764-8000	
+AZ	Lake Havasu City	Lake Havasu City Airport	KHII	Havasu Air Center, LLC	928-764-1999	
+AZ	Marana	Marana Regional Airport	KAVQ	 Tucson Aeroservice Center	520-682-2999	
+AZ	Marana	Pinal Airpark	KMZJ	Marana Aerospace Solution Inc.	520-682-4181	
+AZ	Maricopa	Ak-Chin Regional Airport	A39	 Ak-Chin Indian Community	520-568-1683, 520-709-8914	
+AZ	Mesa	Falcon Field Airport	KFFZ	Falcon Executive Aviation, Inc.	480-832-0704	
+AZ	Mesa	Falcon Field Airport	KFFZ	 Heliponents, Inc.	480-981-8300	
+AZ	Nogales	Nogales International Airport	KOLS	 Tiffin Aviation Services	520-287-9120, 520-761-7880	
+AZ	Page	Page Municipal Airport	KPGA	Classic Aviation	928-645-5356	
+AZ	Page	Page Municipal Airport	KPGA	Lake Powell Jet Center	928-645-2987	
+AZ	Page	Page Municipal Airport	KPGA	American Aviation	928-608-1060	
+AZ	Parker	Avi Suquilla Airport	P20	CRIT Air	928-669-2168	
+AZ	Payson	Payson Airport	KPAN	MPG East, Inc.	928-970-0887	
+AZ	Peoria	Pleasant Valley Airport	P48	 Pleasant Valley Airport	623-566-5960	
+AZ	Phoenix	Phoenix Sky Harbor International Airport	KPHX	Cutter Aviation	602-273-1237	
+AZ	Phoenix	Phoenix Sky Harbor International Airport	KPHX	Swift Aviation	602-273-3770	
+AZ	Phoenix	Phoenix Deer Valley Airport	KDVT	Cutter Aviation	623-581-1444	
+AZ	Phoenix	Phoenix Deer Valley Airport	KDVT	Sibran - Deer Valley	970-231-6114	
+AZ	Phoenix	Phoenix-Mesa Gateway Airport	KIWA	Gateway Aviation Services	480-988-7700	
+AZ	Prescott	Ernest A Love Field Airport	KPRC	Legend Aviation	928-443-9333, 928-443-1706	
+AZ	Safford	Safford Regional Airport	KSAD	 Ponderosa Aviation	928-428-7820	
+AZ	San Manuel	San Manuel Airport	E77	San Manuel-Ray Blair Airport	520-866-6545	
+AZ	Scottsdale	Scottsdale Airport	KSDL	Signature Flight Support	480-951-2525	
+AZ	Scottsdale	Scottsdale Airport	KSDL	Ross Aviation	480-948-2400	
+AZ	Sedona	Sedona Airport	KSEZ	 Red Rock Aviation	928-282-1046	
+AZ	Show Low	Show Low Regional Airport	KSOW	 Show Low Regional Airport	928-532-4190	
+AZ	Springerville	Springerville Municipal Airport	KJTC	Town of Springerville	928-333-5746, 928-245-0151	
+AZ	St Johns	St Johns Industrial Air Park	KSJN	St. Johns Industrial Air Park	928-337-4254	
+AZ	Taylor	Taylor Airport	KTYL	Ray's Aircraft Services	928-536-4811, 928-536-7366	
+AZ	Tucson	Tucson International Airport	KTUS	Million Air Tucson	520-445-6300	
+AZ	Tucson	Tucson International Airport	KTUS	Premier Aviation	520-889-6327	
+AZ	Tucson	Tucson International Airport	KTUS	Tucson Jet Center	520-746-1411	
+AZ	Tucson	Tucson International Airport	KTUS	Atlantic Aviation	520-889-0593	
+AZ	Tucson	Tucson International Airport	KTUS	 Bombardier Aerospace	520-746-5234, 520-746-5600	
+AZ	Tucson	Tucson International Airport	KTUS	 Velocity Air	866-267-5350	
+AZ	Tucson	Ryan Field Airport	KRYN	 Velocity Air	520-744-7474	
+AZ	Wickenburg	Wickenburg Municipal Airport	E25	Town of Wickenburg	928-684-0754	
+AZ	Willcox	Cochise County Airport	P33	Walden Aviation	520-384-2908	
+AZ	Williams	H A Clark Memorial Field Airport	KCMR	City of Williams	928-635-1280, 928-635-1278	
+AZ	Winslow	Winslow-Lindbergh Regional Airport	KINW	Wiseman Aviation, Inc.	928-289-0100	
+AZ	Yuma	Yuma Marine Corps Air Station/Yuma International Airport	KNYL	 Million Air Yuma	928-247-9571	

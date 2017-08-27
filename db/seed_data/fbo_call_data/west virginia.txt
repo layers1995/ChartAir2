@@ -1,0 +1,23 @@
+WV	Beckley	Raleigh County Memorial Airport	KBKW	Raleigh County Memorial Airport	304-255-0476	
+WV	Bluefield	Mercer County Airport	KBLF	Mercer County Airport Authority	304-327-5308	
+WV	Buckhannon	Upshur County Regional Airport	W22	Buckhannon Upshur Airport Authority	304-472-9437, 304-613-7989	
+WV	Charleston	Yeager Airport	KCRW	Executive Air Terminal	304-343-8818	
+WV	Clarksburg	North Central West Virginia Airport	KCKB	V1 Aviation	304-848-6700	
+WV	Elkins	Elkins-Randolph County Airport-Jennings Randolph Field	KEKN	Elkins-Randolph County Airport	304-636-2726	
+WV	Fairmont	Fairmont Municipal Airport-Frankman Field	4G7	Fairmont-Marion County Regional Airport Authority	304-363-1468	
+WV	Huntington	Tri-State Airport/Milton J. Ferguson Field	KHTS	Huntington Jet Center	304-453-6165	
+WV	Lewisburg	Greenbrier Valley Airport	KLWB	Greenbrier Valley Airport	304-645-3961	
+WV	Logan	Logan County Airport	6L4	Logan County Airport Authority	304-752-0975	
+WV	Martinsburg	Eastern WV Regional Airport/Shepherd Field	KMRB	 Aero-Smith, Inc.	304-262-2507	
+WV	Milton	Ona Airpark	12V	Ona Airpark	304-710-5650	
+WV	Morgantown	Morgantown Municipal Airport-Walter L. Bill Hart Field	KMGW	Morgantown Municipal Airport & FBO	304-296-2359	
+WV	New Cumberland	Herron Airport	7G1	Herron Airport	304-387-0191	
+WV	Parkersburg	Mid-Ohio Valley Regional Airport	KPKB	Mid-Ohio Valley Regional Airport	304-464-5115	
+WV	Petersburg	Grant County Airport	W99	Stahl Flying Services	304-257-4435	
+WV	Philippi	Philippi/Barbour County Regional Airport	79D	Philippi-Barbour County Regional Airport	304-457-1225	
+WV	Pineville	Kee Field Airport	I16	Kee Field	304-732-9160	
+WV	Point Pleasant	Mason County Airport	3I2	Raven Aviation	304-675-7765	
+WV	Ravenswood	Jackson County Airport	I18	Jackson County Airport	304-273-8114	
+WV	Spencer	Boggs Field Airport	KUSW	Boggs Aviation	304-927-4045	
+WV	Sutton	Braxton County Airport	48I	Braxton County Airport	304-765-0186, 304-542-3311	
+WV	Wheeling	Wheeling Ohio County Airport	KHLG	Wheeling Ohio County Airport Aviation Center	304-277-3499	

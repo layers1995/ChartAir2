@@ -1,53 +1,52 @@
-KY	Ashland	Ashland Regional Airport	KDWU	Ashland Regional Airport	606-494-2034	528
-KY	Bardstown	Samuels Field Airport	KBRY	 Bluegrass Aviation	502-348-2099	1350
-KY	Bowling Green	Bowling Green-Warren County Regional Airport	KBWG	Co-Mar Aviation	270-781-9797	5130
-KY	Bowling Green	Bowling Green-Warren County Regional Airport	KBWG	 Bowling Green/Warren County Regional Airport	270-842-1101	5130
-KY	Campbellsville	Taylor County Airport	KAAS	 Taylor County Airport	270-789-4182	840
-KY	Columbia	Columbia-Adair County Airport	I96	Columbia-Adair County Airport	270-384-0601	392
-KY	Covington	Cincinnati/Northern Kentucky International Airport	KCVG	Delta Jet Center	859-534-4301	11280
-KY	Cynthiana	Cynthiana-Harrison County Airport	0I8	Cynthiana-Harrison County Airport	859-234-8477	930
-KY	Danville	Stuart Powell Field Airport	KDVK	Danville Boyle County Airport	859-854-5994	1770
-KY	Elizabethtown	Addington Field Airport	KEKX	Elizabethtown Flying Service	270-737-8388	1320
-KY	Falmouth	Gene Snyder Airport	K62	Gene Snyder Airport	859-654-1200	368
-KY	Flemingsburg	Fleming-Mason Airport	KFGX	Coleman Aviation	606-742-2411	1410
-KY	Frankfort	Capital City Airport	KFFT	Capital City Airport	502-564-3714	3210
-KY	Fulton	Fulton Airport	1M7	Fulton Airport/Virgil Craven Memorial Field	270-621-1134	750
-KY	Georgetown	Georgetown Scott County Airport-Marshall Field	27K	Georgetown Scott County Airport	502-863-6320	1410
-KY	Gilbertsville	Kentucky Dam State Park Airport	M34	Kentucky Dam Village State Resort Park	270-362-4271	1320
-KY	Glasgow	Glasgow Municipal Airport	KGLW	Glasgow Aviation	270-678-4469	1080
-KY	Greenville	Muhlenberg County Airport	M21	Muhlenberg County Airport	270-338-9419	720
-KY	Hardinsburg	Breckinridge County Airport	I93	Breckinridge County Airport	270-617-1111	100
-KY	Harlan	Tucker-Guthrie Memorial Airport	I35	Harlan County Airport Board	606-573-9140, 606-573-7499	492
-KY	Hazard	Wendell H Ford Airport	KCPF	Friendship Flying Service	606-439-5140	840
-KY	Henderson	Henderson City-County Airport	KEHR	 Don Davis Aviation	270-826-6000	2550
-KY	Hopkinsville	Hopkinsville-Christian County Airport	KHVC	City of Hopkinsville	270-887-4157	3360
-KY	Jamestown	Russell County Airport	K24	Russell County Airport	270-343-6644	690
-KY	Leitchfield	Grayson County Airport	M20	Grayson County Airport	270-242-7700	524
-KY	Lewisport	Hancock County Airport-Ron Lewis Field	KY8	Hancock County Airport / Eagle Flight Academy, LLC	270-922-0934, 270-295-4100	840
-KY	Lexington	Blue Grass Airport	KLEX	 TAC Air	859-255-7724	5700
-KY	Lexington	Blue Grass Airport	KLEX	Blue Grass Airport (self-serve fuel)	859-425-3200	5700
-KY	London	London-Corbin Airport-Magee Field	KLOZ	London-Corbin Airport	606-878-9100	1920
-KY	Louisville	Louisville International Airport-Standiford Field	KSDF	Atlantic Aviation	502-368-1515	12420
-KY	Louisville	Bowman Field Airport	KLOU	Louisville Executive Aviation	866-292-8401, 502-292-4800	6870
-KY	Louisville	Bowman Field Airport	KLOU	Central American Airways	502-458-3211	6870
-KY	Madisonville	Madisonville Regional Airport	2I0	Madisonville Municipal Airport	270-821-3453	1290
-KY	Marion	Marion-Crittenden County Airport	5M9	Marion-Crittenden County Airport	270-965-4242	460
-KY	Mayfield	Mayfield Graves County Airport	M25	Mayfield Graves County Airport	270-247-6878	1200
-KY	Middlesboro	Middlesboro-Bell County Airport	1A6	Middlesboro-Bell County Airport Board	606-242-3134, 606-248-2551	1560
-KY	Monticello	Wayne County Airport	KEKQ	Wayne County Airport	606-348-7700	720
-KY	Mount Sterling	Mount Sterling-Montgomery County Airport	KIOB	Kentucky Airmotive	859-498-1000	2790
-KY	Murray	Kyle-Oakley Field Airport	KCEY	Kyle-Oakley Field (Murray-Calloway County)	270-489-2414	1320
-KY	Owensboro	Owensboro-Daviess County Airport	KOWB	MidAmerica Jet	270-926-6700	1650
-KY	Paducah	Barkley Regional Airport	KPAH	Midwest Aviation	270-744-8600	1860
-KY	Pikeville	Pike County Airport-Hatcher Field	KPBX	Pike County Airport	606-437-9548	750
-KY	Pine Knot	Mc Creary County Airport	18I	McCreary County Airport	606-354-2740	70
-KY	Prestonsburg	Big Sandy Regional Airport	KSJS	Cox Aviation	606-298-5930, 606-371-3973	630
-KY	Princeton	Princeton-Caldwell County Airport	2M0	Princeton Caldwell Airport	270-625-0871	484
-KY	Richmond	Central Kentucky Regional Airport	KRGA	 Madison Airport/Eastern Kentucky University	859-986-3913, 859-699-6031	3180
-KY	Russellville	Russellville-Logan County Airport	4M7	Russellville-Logan County Airport	270-726-3214, 270-847-5998	1530
-KY	Somerset	Lake Cumberland Regional Airport	KSME	 Somerset-Pulaski County Airport Board	606-679-7908, 606-679-6705	2100
-KY	Springfield	Lebanon Springfield Airport-George Hoerter Field	6I2	Lebanon / Springfield Airport	859-336-3818	780
-KY	Stanton	Stanton Airport	I50	Stanton Airport	606-663-9430, 606-663-2541	396
-KY	Sturgis	Sturgis Municipal Airport	KTWT	Sturgis Municipal Airport	270-333-4487	720
-KY	Tompkinsville	Tompkinsville-Monroe County Airport	KTZV	Tompkinsville-Monroe County Airport	270-487-0678	900
-KY	Williamsburg	Williamsburg-Whitley County Airport	KBYL	Williamsburg-Whitley County Airport	606-549-2688, 606-261-1527	280
+KY	Ashland	Ashland Regional Airport	KDWU	Ashland Regional Airport	606-494-2034	
+KY	Bardstown	Samuels Field Airport	KBRY	 Bluegrass Aviation	502-348-2099	
+KY	Bowling Green	Bowling Green-Warren County Regional Airport	KBWG	Co-Mar Aviation	270-781-9797	
+KY	Bowling Green	Bowling Green-Warren County Regional Airport	KBWG	 Bowling Green/Warren County Regional Airport	270-842-1101	
+KY	Campbellsville	Taylor County Airport	KAAS	 Taylor County Airport	270-789-4182	
+KY	Columbia	Columbia-Adair County Airport	I96	Columbia-Adair County Airport	270-384-0601	
+KY	Covington	Cincinnati/Northern Kentucky International Airport	KCVG	Delta Jet Center	859-534-4301	
+KY	Cynthiana	Cynthiana-Harrison County Airport	0I8	Cynthiana-Harrison County Airport	859-234-8477	
+KY	Danville	Stuart Powell Field Airport	KDVK	Danville Boyle County Airport	859-854-5994	
+KY	Elizabethtown	Addington Field Airport	KEKX	Elizabethtown Flying Service	270-737-8388	
+KY	Falmouth	Gene Snyder Airport	K62	Gene Snyder Airport	859-654-1200	
+KY	Flemingsburg	Fleming-Mason Airport	KFGX	Coleman Aviation	606-742-2411	
+KY	Frankfort	Capital City Airport	KFFT	Capital City Airport	502-564-3714	
+KY	Fulton	Fulton Airport	1M7	Fulton Airport/Virgil Craven Memorial Field	270-621-1134	
+KY	Georgetown	Georgetown Scott County Airport-Marshall Field	27K	Georgetown Scott County Airport	502-863-6320	
+KY	Gilbertsville	Kentucky Dam State Park Airport	M34	Kentucky Dam Village State Resort Park	270-362-4271	
+KY	Glasgow	Glasgow Municipal Airport	KGLW	Glasgow Aviation	270-678-4469	
+KY	Greenville	Muhlenberg County Airport	M21	Muhlenberg County Airport	270-338-9419	
+KY	Hardinsburg	Breckinridge County Airport	I93	Breckinridge County Airport	270-617-1111	
+KY	Harlan	Tucker-Guthrie Memorial Airport	I35	Harlan County Airport Board	606-573-9140, 606-573-7499	
+KY	Hazard	Wendell H Ford Airport	KCPF	Friendship Flying Service	606-439-5140	
+KY	Henderson	Henderson City-County Airport	KEHR	 Don Davis Aviation	270-826-6000	
+KY	Jamestown	Russell County Airport	K24	Russell County Airport	270-343-6644	
+KY	Leitchfield	Grayson County Airport	M20	Grayson County Airport	270-242-7700	
+KY	Lewisport	Hancock County Airport-Ron Lewis Field	KY8	Hancock County Airport / Eagle Flight Academy, LLC	270-922-0934, 270-295-4100	
+KY	Lexington	Blue Grass Airport	KLEX	 TAC Air	859-255-7724	
+KY	Lexington	Blue Grass Airport	KLEX	Blue Grass Airport (self-serve fuel)	859-425-3200	
+KY	London	London-Corbin Airport-Magee Field	KLOZ	London-Corbin Airport	606-878-9100	
+KY	Louisville	Louisville International Airport-Standiford Field	KSDF	Atlantic Aviation	502-368-1515	
+KY	Louisville	Bowman Field Airport	KLOU	Louisville Executive Aviation	866-292-8401, 502-292-4800	
+KY	Louisville	Bowman Field Airport	KLOU	Central American Airways	502-458-3211	
+KY	Madisonville	Madisonville Regional Airport	2I0	Madisonville Municipal Airport	270-821-3453	
+KY	Marion	Marion-Crittenden County Airport	5M9	Marion-Crittenden County Airport	270-965-4242	
+KY	Mayfield	Mayfield Graves County Airport	M25	Mayfield Graves County Airport	270-247-6878	
+KY	Middlesboro	Middlesboro-Bell County Airport	1A6	Middlesboro-Bell County Airport Board	606-242-3134, 606-248-2551	
+KY	Monticello	Wayne County Airport	KEKQ	Wayne County Airport	606-348-7700	
+KY	Mount Sterling	Mount Sterling-Montgomery County Airport	KIOB	Kentucky Airmotive	859-498-1000	
+KY	Murray	Kyle-Oakley Field Airport	KCEY	Kyle-Oakley Field (Murray-Calloway County)	270-489-2414	
+KY	Owensboro	Owensboro-Daviess County Airport	KOWB	MidAmerica Jet	270-926-6700	
+KY	Paducah	Barkley Regional Airport	KPAH	Midwest Aviation	270-744-8600	
+KY	Pikeville	Pike County Airport-Hatcher Field	KPBX	Pike County Airport	606-437-9548	
+KY	Pine Knot	Mc Creary County Airport	18I	McCreary County Airport	606-354-2740	
+KY	Prestonsburg	Big Sandy Regional Airport	KSJS	Cox Aviation	606-298-5930, 606-371-3973	
+KY	Princeton	Princeton-Caldwell County Airport	2M0	Princeton Caldwell Airport	270-625-0871	
+KY	Richmond	Central Kentucky Regional Airport	KRGA	 Madison Airport/Eastern Kentucky University	859-986-3913, 859-699-6031	
+KY	Russellville	Russellville-Logan County Airport	4M7	Russellville-Logan County Airport	270-726-3214, 270-847-5998	
+KY	Somerset	Lake Cumberland Regional Airport	KSME	 Somerset-Pulaski County Airport Board	606-679-7908, 606-679-6705	
+KY	Springfield	Lebanon Springfield Airport-George Hoerter Field	6I2	Lebanon / Springfield Airport	859-336-3818	
+KY	Stanton	Stanton Airport	I50	Stanton Airport	606-663-9430, 606-663-2541	
+KY	Sturgis	Sturgis Municipal Airport	KTWT	Sturgis Municipal Airport	270-333-4487	
+KY	Tompkinsville	Tompkinsville-Monroe County Airport	KTZV	Tompkinsville-Monroe County Airport	270-487-0678	
+KY	Williamsburg	Williamsburg-Whitley County Airport	KBYL	Williamsburg-Whitley County Airport	606-549-2688, 606-261-1527	

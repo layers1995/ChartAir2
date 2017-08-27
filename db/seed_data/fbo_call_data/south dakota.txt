@@ -1,0 +1,44 @@
+SD	Aberdeen	Aberdeen Regional Airport	KABR	 Hangar 9 Inc	605-725-4774	
+SD	Aberdeen	Aberdeen Regional Airport	KABR	 Quest Aviation	605-225-8008	
+SD	Aberdeen	Aberdeen Regional Airport	KABR	 Aberdeen Flying Service	605-225-1384	
+SD	Belle Fourche	Belle Fourche Municipal Airport	KEFC	Belle Fourche Aero	605-892-6345	
+SD	Bison	Bison Municipal Airport	6V5	City of Bison	605-244-5677	
+SD	Britton	Britton Municipal Airport	KBTN	Dakota Ag Service	605-448-2264	
+SD	Brookings	Brookings Regional Airport	KBKX	 Pheasant's Fury Aviation	605-692-2779	
+SD	Buffalo	Harding County Airport	9D2	Henderson Oil	605-375-3255	
+SD	Canton	Canton Municipal Airport	7G9	Canton Municipal Airport	605-987-9010, 605-940-2241	
+SD	Chamberlain	Chamberlain Municipal Airport	9V9	Automated Fueling Systems, Inc.	605-234-6018	
+SD	Clark	Clark County Airport	8D7	Clark County Airport	605-532-3462	
+SD	Custer	Custer County Airport	KCUT	Custer County Airport	605-673-3874, 605-517-9101	
+SD	Faith	Faith Municipal Airport	D07	City of Faith	605-967-2261, 605-967-2222	
+SD	Flandreau	Flandreau Municipal Airport	4P3	Flandreau Municipal Airport	605-997-2492	
+SD	Gettysburg	Gettysburg Municipal Airport	0D8	AirKraft Spraying	605-848-1268	
+SD	Gregory	Gregory Municipal Airport - Flynn Field	9D1	Gregory Municipal Airport	605-835-9978, 605-835-8270	
+SD	Hot Springs	Hot Springs Municipal Airport	KHSR	HSR Fueling LLC	605-891-1290, 605-745-3135	
+SD	Hoven	Hoven Municipal Airport	9F8	Lowinske Flight Service	605-948-2256	
+SD	Huron	Huron Regional Airport	KHON	Skyways	605-352-9262	
+SD	Lemmon	Lemmon Municipal Airport	KLEM	Lemmon Air	605-374-5281	
+SD	Madison	Madison Municipal Airport	KMDS	City of Madison	605-256-7524	
+SD	Milbank	Milbank Municipal Airport	1D1	City of Milbank	605-432-4800	
+SD	Mitchell	Mitchell Municipal Airport	KMHE	 Wright Brothers Aviation	605-996-1228	
+SD	Mobridge	Mobridge Municipal Airport	KMBG	City of Mobridge	605-216-6565	
+SD	Onida	Onida Municipal Airport	98D	Onida Municipal Airport	605-258-2743	
+SD	Parkston	Parkston Municipal Airport	8V3	City of Parkston	605-928-3321	
+SD	Philip	Philip Airport	KPHP	Automated Fuel Systems/City of Philip	605-859-2175	
+SD	Pierre	Pierre Regional Airport	KPIR	 Mustang Aviation	605-224-9000	
+SD	Platte	Platte Municipal Airport	1D3	City of Platte	605-337-3921	
+SD	Rapid City	Rapid City Regional Airport	KRAP	 Rapid Fuel, LLC (Self-Service Fueling Facility)	605-209-5466, 605-393-2254	
+SD	Rapid City	Rapid City Regional Airport	KRAP	 Westjet Air Center	605-393-2500	
+SD	Redfield	Redfield Municipal Airport	1D8	City of Redfield	605-472-4550	
+SD	Sioux Falls	Joe Foss Field Airport	KFSD	Signature Flight Support	605-336-7791	
+SD	Sioux Falls	Joe Foss Field Airport	KFSD	Maverick Air Center	605-312-5680	
+SD	Sisseton	Sisseton Municipal Airport	8D3	City of Sisseton	605-698-3391, 303-204-0180	
+SD	Spearfish	Black Hills Airport-Clyde Ice Field	KSPF	Eagle Aviation	605-642-4112	
+SD	Springfield	Springfield Municipal Airport	Y03	Springfield Municipal Airport	605-369-2309	
+SD	Sturgis	Sturgis Municipal Airport	49B	CB&B Aviation	605-347-3356	
+SD	Tea	Marv Skie-Lincoln County Airport	Y14	 Legacy Aviation, LLC	605-368-2841	
+SD	Vermillion	Harold Davidson Field Airport	KVMR	City of Vermillion	605-624-4606	
+SD	Wagner	Wagner Municipal Airport	KAGZ	Dakota Aircare	605-384-5858	
+SD	Wessington Springs	Wessington Springs Airport	4X4	City of Wessington Springs	605-539-1691	
+SD	Winner	Winner Regional Airport	KICR	Howard Aviation	605-842-0740	
+SD	Yankton	Chan Gurney Municipal Airport	KYKN	City of Yankton (FBO)	605-668-5280, 605-661-9223	

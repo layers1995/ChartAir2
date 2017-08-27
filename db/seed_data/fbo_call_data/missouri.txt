@@ -1,97 +1,96 @@
-MO	Albany	Albany Municipal Airport	K19	Albany Municipal Airport	660-726-3935	252
-MO	Aurora	Jerry Sumners Sr. Aurora Municipal Airport	2H2	Aurora Aviation	417-678-3000	900
-MO	Ava	Ava Bill Martin Memorial Airport	KAOV	City of Ava, Missouri	417-840-2301, 417-683-5516	372
-MO	Bolivar	Bolivar Municipal Airport	M17	Service Oriented Aviation Readiness (S.O.A.R.)	417-777-6800	1050
-MO	Bonne Terre	Bonne Terre Municipal Airport	1BT	Bonne Terre Airport	573-454-1266	62
-MO	Boonville	Jesse Viertel Memorial Airport	KVER	Tig-Air Aviation	660-882-7441	870
-MO	Bowling Green	Bowling Green Municipal Airport	H19	City of Bowling Green	573-324-5451	152
-MO	Branson	Branson Airport	KBBG	Branson Jet Center	417-334-8234	460
-MO	Branson	M Graham Clark Downtown Airport	KPLK	M. Graham Clark Downtown Airport	417-332-1848	930
-MO	Branson West	Branson West Municipal Airport - Emerson Field	KFWB	City of Branson West	417-272-3313, 417-272-3921	252
-MO	Brookfield	North Central Missouri Regional Airport	MO8	North Central Missouri Regional Airport	660-258-7317, 660-734-2505	136
-MO	Butler	Butler Memorial Airport	KBUM	Skydive Kansas City	816-529-5867	432
-MO	Cabool	Cabool Memorial Airport	KTVB	Cabool Memorial Airport	417-962-3136	268
-MO	Camdenton	Camdenton Memorial-Lake Regional Airport	KOZS	Lake Aviation Center	573-346-0300	810
-MO	Cameron	Cameron Memorial Airport	KEZZ	Cameron Memorial Airport	816-284-3136	540
-MO	Cape Girardeau	Cape Girardeau Regional Airport	KCGI	 Cape Aviation	573-335-6632	2280
-MO	Carrollton	Carrollton Memorial Airport	K26	Carrollton Memorial Airport	660-542-1414	340
-MO	Caruthersville	Caruthersville Memorial Airport	M05	Dyersburg Avionics of Caruthersville	573-333-4296	288
-MO	Cassville	Cassville Municipal Airport	94K	City of Cassville	417-847-4441	196
-MO	Chillicothe	Chillicothe Municipal Airport	KCHT	Chillicothe Municipal Airport	660-646-5270	480
-MO	Clinton	Clinton Regional Airport	KGLY	Clinton Memorial Airport	660-885-8889	840
-MO	Columbia	Columbia Regional Airport	KCOU	Central Missouri Aviation	573-443-1576	1530
-MO	Cuba	Cuba Municipal Airport	KUBX	Cuba Municipal Airport (Mosby Field)	573-885-2479	284
-MO	Dearborn	Triple R Airport	0C1	Triple R Air	816-935-9156	34
-MO	Dexter	Dexter Municipal Airport	KDXE	Dexter Municipal Airport	573-624-4377	400
-MO	Eldon	Eldon Model Airpark	H79	City of Eldon (FBO)	573-392-2291	840
-MO	Farmington	Farmington Regional Airport	KFAM	Farmington Regional Airport	573-756-4502, 573-631-1852	960
-MO	Festus	Festus Memorial Airport	KFES	Festus Airport Services / CAEE	636-937-2228	990
-MO	Fort Leonard Wood	Waynesville-St. Robert Regional Airport-Forney Field	KTBN	Waynesville-St. Robert Cities Aviation	573-329-4216	2130
-MO	Fredericktown	A Paul Vance Fredericktown Regional Airport	H88	Fredericktown Regional Airport	573-783-4040	188
-MO	Fulton	Elton Hensley Memorial Airport	KFTT	City of Fulton	573-642-6222, 573-592-3161	1020
-MO	Grain Valley	East Kansas City Airport	3GV	Grain Valley Airport Corp.	816-229-8868	990
-MO	Hannibal	Hannibal Regional Airport	KHAE	Barron Aviation	573-221-3230	492
-MO	Harrisonville	Lawrence Smith Memorial Airport	KLRY	City of Harrisonville	816-380-5039	540
-MO	Higginsville	Higginsville Industrial Municipal Airport	KHIG	City of Higginsville	660-584-3339	276
-MO	Houston	Houston Memorial Airport	M48	City of Houston	417-967-3348	296
-MO	Jefferson City	Jefferson City Memorial Airport	KJEF	Jefferson City Flying Service	573-636-5118	2460
-MO	Joplin	Joplin Regional Airport	KJLN	Alpha Air Center	417-623-3113	2100
-MO	Joplin	Joplin Regional Airport	KJLN	Mizzou Aviation	417-623-1331	2100
-MO	Kaiser/Lake Ozark	Lee C Fine Memorial Airport	KAIZ	 City of Osage Beach (FBO)	573-348-5251	360
-MO	Kansas City	Charles B Wheeler Downtown Airport	KMKC	Signature Flight Support	816-842-8484	5850
-MO	Kansas City	Charles B Wheeler Downtown Airport	KMKC	Atlantic Aviation	816-949-8900	5850
-MO	Kansas City	Charles B Wheeler Downtown Airport	KMKC	City of Kansas City	816-859-7600, 816-289-2718	5850
-MO	Kansas City	Kansas City International Airport	KMCI	Signature Flight Support	816-243-6440	10650
-MO	Kennett	Kennett Memorial Airport	KTKX	City of Kennett (FBO)	573-888-1339, 573-888-5846	1380
-MO	Kirksville	Kirksville Regional Airport	KIRK	Kirksville Regional Airport	660-665-5020	488
-MO	Lamar	Lamar Municipal Airport	KLLU	MBMB	417-483-7729	284
-MO	Lebanon	Floyd W Jones Lebanon Airport	KLBO	City of Lebanon (FBO)	417-532-7879	1050
-MO	Lee's Summit	Lee's Summit Municipal Airport	KLXT	Lee's Summit Municipal Airport	816-969-1186, 816-969-1180	4320
-MO	Liberty	Roosterville Airport	0N0	Aire Kare	816-781-7194	268
-MO	Linn	State Technical College of Missouri Airport	1H3	State Technical College of Missouri	573-897-5000	116
-MO	Macon	Macon-Fower Memorial Airport	K89	Macon-Fower Memorial Airport	660-385-6208	260
-MO	Malden	Malden Regional Airport	KMAW	First Flight	573-776-4406	750
-MO	Marshall	Marshall Memorial Municipal Airport	KMHL	Marshall Memorial Municipal Airport	660-886-3320	420
-MO	Maryville	Northwest Missouri Regional Airport	KEVU	City of Maryville	660-562-8001	1050
-MO	Memphis	Memphis Memorial Airport	03D	Memphis Memorial Airport	660-465-7285	168
-MO	Mexico	Mexico Memorial Airport	KMYJ	Mexico Memorial Airport	573-581-0162	1020
-MO	Miller	Kingsley Airfield	MO9	Plane Cents Aviation	417-452-3831	2850
-MO	Moberly	Omar N Bradley Airport	KMBY	Bradley Airport	660-263-4835	630
-MO	Monett	Monett Regional Airport	KHFJ	Monett Municipal Airport	417-476-5112	1500
-MO	Monroe City	Capt Ben Smith Airfield - Monroe City	K52	Monroe City Regional Airport	573-735-4845	156
-MO	Mosby	Midwest National Air Center Airport	KGPH	Midwest National Air Center	816-407-3390, 816-718-0968	990
-MO	Mountain View	Mountain View Airport	KMNF	City of Mountain View (FBO)	417-934-6806	61
-MO	Neosho	Neosho Hugh Robinson Airport	KEOS	Neosho Hugh Robinson Airport	417-451-8098	224
-MO	Nevada	Nevada Municipal Airport	KNVD	Aero B Service	417-448-5107, 417-448-4488	220
-MO	New Madrid	County Memorial Airport	KEIW	Hampton's Flying Service	573-934-3734	1410
-MO	Osage Beach	Grand Glaize-Osage Beach Airport	K15	 City of Osage Beach (FBO)	573-348-4469	508
-MO	Perryville	Perryville Regional Airport	KPCD	Perryville Municipal Airport	618-978-1404	600
-MO	Piedmont	Piedmont Municipal Airport	KPYN	City of Piedmont (self-serve fuel)	573-223-4528	104
-MO	Poplar Bluff	Poplar Bluff Municipal Airport	KPOF	 City of Poplar Bluff	573-686-8669	1380
-MO	Potosi	Washington County Airport	8WC	Washington County Airport	573-438-3582	104
-MO	Rolla/Vichy	Rolla National Airport	KVIH	Rolla National Airport	573-299-4498	2910
-MO	Salem	Salem Memorial Airport	K33	City of Salem	573-729-5900	348
-MO	Sedalia	Sedalia Regional Airport	KDMO	Sedalia Regional Airport	660-826-4128, 660-851-7650	900
-MO	Sikeston	Sikeston Memorial Municipal Airport	KSIK	City of Sikeston, FBO	573-471-2037	484
-MO	Springfield	Springfield-Branson National Airport	KSGF	Springfield/Branson National Airport-Midwest Premier SGF	417-868-0590	3870
-MO	Springfield	Downtown Airport	3DW	 Springfield Flying Service	417-862-2418	780
-MO	St Charles	St Charles County Smartt Airport	KSET	Commemorative Air Force, Missouri Wing	636-250-4515	4980
-MO	St Charles	St Charles County Smartt Airport	KSET	St. Charles Flying Service	800-447-6066, 636-250-4500	4980
-MO	St Charles	St Charles County Smartt Airport	KSET	Skylink Aviation	636-250-4121	4980
-MO	St Joseph	Rosecrans Memorial Airport	KSTJ	Express Flight, Inc.	816-233-3444	1530
-MO	St Louis	Spirit of St Louis Airport	KSUS	Aero Charter, Inc.	800-535-1445, 636-449-5150	7950
-MO	St Louis	Spirit of St Louis Airport	KSUS	TAC Air	636-532-8882	7950
-MO	St Louis	Spirit of St Louis Airport	KSUS	 Million Air St. Louis	636-532-0404	7950
-MO	St Louis	Lambert-St Louis International Airport	KSTL	Signature Flight Support	314-731-7111	15240
-MO	St Louis	Lambert-St Louis International Airport	KSTL	ATS JetCenter	314-895-8788	15240
-MO	St Louis	Creve Coeur Airport	1H0	Creve Coeur Airport	314-878-6400	3360
-MO	Stockton	Stockton Municipal Airport	MO3	Stockton Municipal Airport	417-276-5210	92
-MO	Sullivan	Sullivan Regional Airport	KUUV	Sullivan Regional Airport	573-468-2631	1500
-MO	Tarkio	Gould Peterson Municipal Airport	K57	Wing Nuts Flying Circus Aviation	816-244-6927, 660-736-4322	380
-MO	Trenton	Trenton Municipal Airport	KTRX	Trenton Aviation	660-359-2013	196
-MO	Versailles	Roy Otten Memorial Airfield	3VS	Anna Aviation, LLC	573-372-1087	660
-MO	Warrensburg	Skyhaven Airport	KRCM	 UCM Aviation	660-543-4921, 660-543-4947	2430
-MO	Warsaw	Warsaw Municipal Airport	KRAW	Warsaw Municipal Airport	660-438-5522, 660-723-1944	256
-MO	Washington	Washington Regional Airport	KFYG	Washington Aviation Inc.	636-433-5454	1770
-MO	West Plains	West Plains Regional Airport	KUNO	West Plains Regional Airport	417-257-1530	212
-MO	Willow Springs	Willow Springs Memorial Airport	1H5	Willow Springs Memorial Airport	417-469-2107	312
+MO	Albany	Albany Municipal Airport	K19	Albany Municipal Airport	660-726-3935, 660-726-9511	
+MO	Aurora	Jerry Sumners Sr. Aurora Municipal Airport	2H2	Aurora Aviation	417-678-3000	
+MO	Ava	Ava Bill Martin Memorial Airport	KAOV	City of Ava, Missouri	417-840-2301, 417-683-5516	
+MO	Bolivar	Bolivar Municipal Airport	M17	Service Oriented Aviation Readiness (S.O.A.R.)	417-777-6800	
+MO	Bonne Terre	Bonne Terre Municipal Airport	1BT	Bonne Terre Airport	573-454-1266	
+MO	Boonville	Jesse Viertel Memorial Airport	KVER	Tig-Air Aviation	660-882-7441	
+MO	Bowling Green	Bowling Green Municipal Airport	H19	City of Bowling Green	573-324-5451	
+MO	Branson	Branson Airport	KBBG	Branson Jet Center	417-334-8234	
+MO	Branson	M Graham Clark Downtown Airport	KPLK	M. Graham Clark Downtown Airport	417-332-1848	
+MO	Branson West	Branson West Municipal Airport - Emerson Field	KFWB	City of Branson West	417-272-3313, 417-272-3921	
+MO	Brookfield	North Central Missouri Regional Airport	MO8	North Central Missouri Regional Airport	660-258-7317, 660-734-2505	
+MO	Butler	Butler Memorial Airport	KBUM	Skydive Kansas City	816-529-5867	
+MO	Cabool	Cabool Memorial Airport	KTVB	Cabool Memorial Airport	417-962-3136	
+MO	Camdenton	Camdenton Memorial-Lake Regional Airport	KOZS	Lake Aviation Center	573-346-0300	
+MO	Cameron	Cameron Memorial Airport	KEZZ	Cameron Memorial Airport	816-284-3136	
+MO	Cape Girardeau	Cape Girardeau Regional Airport	KCGI	 Cape Aviation	573-335-6632	
+MO	Carrollton	Carrollton Memorial Airport	K26	Carrollton Memorial Airport	660-542-1414	
+MO	Caruthersville	Caruthersville Memorial Airport	M05	Dyersburg Avionics of Caruthersville	573-333-4296	
+MO	Cassville	Cassville Municipal Airport	94K	City of Cassville	417-847-4441	
+MO	Chillicothe	Chillicothe Municipal Airport	KCHT	Chillicothe Municipal Airport	660-646-5270	
+MO	Clinton	Clinton Regional Airport	KGLY	Clinton Memorial Airport	660-885-8889	
+MO	Columbia	Columbia Regional Airport	KCOU	Central Missouri Aviation	573-443-1576	
+MO	Cuba	Cuba Municipal Airport	KUBX	Cuba Municipal Airport (Mosby Field)	573-885-2479	
+MO	Dearborn	Triple R Airport	0C1	Triple R Air	816-935-9156	
+MO	Dexter	Dexter Municipal Airport	KDXE	Dexter Municipal Airport	573-624-4377	
+MO	Eldon	Eldon Model Airpark	H79	City of Eldon (FBO)	573-392-2291	
+MO	Farmington	Farmington Regional Airport	KFAM	Farmington Regional Airport	573-756-4502, 573-631-1852	
+MO	Festus	Festus Memorial Airport	KFES	Festus Airport Services / CAEE	636-937-2228	
+MO	Fort Leonard Wood	Waynesville-St. Robert Regional Airport-Forney Field	KTBN	Waynesville-St. Robert Cities Aviation	573-329-4216	
+MO	Fredericktown	A Paul Vance Fredericktown Regional Airport	H88	Fredericktown Regional Airport	573-783-4040	
+MO	Fulton	Elton Hensley Memorial Airport	KFTT	City of Fulton	573-642-6222, 573-592-3161	
+MO	Grain Valley	East Kansas City Airport	3GV	Grain Valley Airport Corp.	816-229-8868	
+MO	Hannibal	Hannibal Regional Airport	KHAE	Barron Aviation	573-221-3230	
+MO	Harrisonville	Lawrence Smith Memorial Airport	KLRY	City of Harrisonville	816-380-5039	
+MO	Higginsville	Higginsville Industrial Municipal Airport	KHIG	City of Higginsville	660-584-3339	
+MO	Houston	Houston Memorial Airport	M48	City of Houston	417-967-3348	
+MO	Jefferson City	Jefferson City Memorial Airport	KJEF	Jefferson City Flying Service	573-636-5118	
+MO	Joplin	Joplin Regional Airport	KJLN	Alpha Air Center	417-623-3113	
+MO	Joplin	Joplin Regional Airport	KJLN	Mizzou Aviation	417-623-1331	
+MO	Kaiser/Lake Ozark	Lee C Fine Memorial Airport	KAIZ	 City of Osage Beach (FBO)	573-348-5251	
+MO	Kansas City	Charles B Wheeler Downtown Airport	KMKC	Signature Flight Support	816-842-8484	
+MO	Kansas City	Charles B Wheeler Downtown Airport	KMKC	Atlantic Aviation	816-949-8900	
+MO	Kansas City	Charles B Wheeler Downtown Airport	KMKC	City of Kansas City	816-859-7600, 816-289-2718	
+MO	Kansas City	Kansas City International Airport	KMCI	Signature Flight Support	816-243-6440	
+MO	Kennett	Kennett Memorial Airport	KTKX	City of Kennett (FBO)	573-888-1339, 573-888-5846	
+MO	Kirksville	Kirksville Regional Airport	KIRK	Kirksville Regional Airport	660-665-5020	
+MO	Lamar	Lamar Municipal Airport	KLLU	MBMB	417-483-7729	
+MO	Lebanon	Floyd W Jones Lebanon Airport	KLBO	City of Lebanon (FBO)	417-532-7879	
+MO	Lee's Summit	Lee's Summit Municipal Airport	KLXT	Lee's Summit Municipal Airport	816-969-1186, 816-969-1180	
+MO	Liberty	Roosterville Airport	0N0	Aire Kare	816-781-7194	
+MO	Linn	State Technical College of Missouri Airport	1H3	State Technical College of Missouri	573-897-5000	
+MO	Macon	Macon-Fower Memorial Airport	K89	Macon-Fower Memorial Airport	660-385-6208	
+MO	Malden	Malden Regional Airport	KMAW	First Flight	573-776-4406	
+MO	Marshall	Marshall Memorial Municipal Airport	KMHL	Marshall Memorial Municipal Airport	660-886-3320	
+MO	Maryville	Northwest Missouri Regional Airport	KEVU	City of Maryville	660-562-8001	
+MO	Memphis	Memphis Memorial Airport	03D	Memphis Memorial Airport	660-465-7285	
+MO	Mexico	Mexico Memorial Airport	KMYJ	Mexico Memorial Airport	573-581-0162	
+MO	Miller	Kingsley Airfield	MO9	Plane Cents Aviation	417-452-3831	
+MO	Moberly	Omar N Bradley Airport	KMBY	Bradley Airport	660-263-4835	
+MO	Monett	Monett Regional Airport	KHFJ	Monett Municipal Airport	417-476-5112	
+MO	Monroe City	Capt Ben Smith Airfield - Monroe City	K52	Monroe City Regional Airport	573-735-4845	
+MO	Mosby	Midwest National Air Center Airport	KGPH	Midwest National Air Center	816-407-3390, 816-718-0968	
+MO	Mountain View	Mountain View Airport	KMNF	City of Mountain View (FBO)	417-934-6806	
+MO	Neosho	Neosho Hugh Robinson Airport	KEOS	Neosho Hugh Robinson Airport	417-451-8098	
+MO	Nevada	Nevada Municipal Airport	KNVD	Aero B Service	417-448-5107, 417-448-4488	
+MO	New Madrid	County Memorial Airport	KEIW	Hampton's Flying Service	573-934-3734	
+MO	Osage Beach	Grand Glaize-Osage Beach Airport	K15	 City of Osage Beach (FBO)	573-348-4469	
+MO	Perryville	Perryville Regional Airport	KPCD	Perryville Municipal Airport	618-978-1404	
+MO	Piedmont	Piedmont Municipal Airport	KPYN	City of Piedmont (self-serve fuel)	573-223-4528	
+MO	Poplar Bluff	Poplar Bluff Municipal Airport	KPOF	 City of Poplar Bluff	573-686-8669	
+MO	Potosi	Washington County Airport	8WC	Washington County Airport	573-438-3582	
+MO	Rolla/Vichy	Rolla National Airport	KVIH	Rolla National Airport	573-299-4498	
+MO	Salem	Salem Memorial Airport	K33	City of Salem	573-729-5900	
+MO	Sedalia	Sedalia Regional Airport	KDMO	Sedalia Regional Airport	660-826-4128, 660-851-7650	
+MO	Sikeston	Sikeston Memorial Municipal Airport	KSIK	City of Sikeston, FBO	573-471-2037	
+MO	Springfield	Springfield-Branson National Airport	KSGF	Springfield/Branson National Airport-Midwest Premier SGF	417-868-0590	
+MO	Springfield	Downtown Airport	3DW	 Springfield Flying Service	417-862-2418	
+MO	St Charles	St Charles County Smartt Airport	KSET	St. Charles Flying Service	800-447-6066, 636-250-4500	
+MO	St Charles	St Charles County Smartt Airport	KSET	Commemorative Air Force, Missouri Wing	636-250-4515	
+MO	St Charles	St Charles County Smartt Airport	KSET	Skylink Aviation	636-250-4121	
+MO	St Joseph	Rosecrans Memorial Airport	KSTJ	Express Flight, Inc.	816-233-3444	
+MO	St Louis	Spirit of St Louis Airport	KSUS	Aero Charter, Inc.	800-535-1445, 636-449-5150	
+MO	St Louis	Spirit of St Louis Airport	KSUS	TAC Air	636-532-8882	
+MO	St Louis	Spirit of St Louis Airport	KSUS	 Million Air St. Louis	636-532-0404	
+MO	St Louis	Lambert-St Louis International Airport	KSTL	Signature Flight Support	314-731-7111	
+MO	St Louis	Creve Coeur Airport	1H0	Creve Coeur Airport	314-878-6400	
+MO	Stockton	Stockton Municipal Airport	MO3	Stockton Municipal Airport	417-276-5210	
+MO	Sullivan	Sullivan Regional Airport	KUUV	Sullivan Regional Airport	573-468-2631	
+MO	Tarkio	Gould Peterson Municipal Airport	K57	Wing Nuts Flying Circus Aviation	816-244-6927, 660-736-4322	
+MO	Trenton	Trenton Municipal Airport	KTRX	Trenton Aviation	660-359-2013	
+MO	Versailles	Roy Otten Memorial Airfield	3VS	Anna Aviation, LLC	573-372-1087	
+MO	Warrensburg	Skyhaven Airport	KRCM	 UCM Aviation	660-543-4921, 660-543-4947	
+MO	Warsaw	Warsaw Municipal Airport	KRAW	Warsaw Municipal Airport	660-438-5522, 660-723-1944	
+MO	Washington	Washington Regional Airport	KFYG	Washington Aviation Inc.	636-433-5454	
+MO	West Plains	West Plains Regional Airport	KUNO	West Plains Regional Airport	417-257-1530	
+MO	Willow Springs	Willow Springs Memorial Airport	1H5	Willow Springs Memorial Airport	417-469-2107	

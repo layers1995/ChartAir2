@@ -1,0 +1,26 @@
+NV	Battle Mountain	Battle Mountain Airport	KBAM	Fallon Airmotive	775-635-2245	
+NV	Boulder City	Boulder City Municipal Airport	KBVU	 Boulder City Aviation Services FBO	702-638-3205, 702-882-6909	
+NV	Boulder City	Boulder City Municipal Airport	KBVU	B.F.E. L.L.C.	702-228-0455	
+NV	Carson City	Carson Airport	KCXP	Mountain West Aviation	775-883-1500	
+NV	Elko	Elko Regional Airport	KEKO	Mountain West Aviation	775-738-7123	
+NV	Ely	Ely Airport (Yelland Field)	KELY	Ely Jet Center, LLC	775-289-8804	
+NV	Eureka	Eureka Airport	05U	Eureka Airport	775-237-5372	
+NV	Fallon	Fallon Municipal Airport	KFLX	Fallon Airmotive Co.	775-423-3756	
+NV	Hawthorne	Hawthorne Industrial Airport	KHTH	Hawthorne Industrial Airport	775-945-3897, 775-945-9286	
+NV	Jean	Jean Airport	0L7	Jean Airport	702-261-4802, 702-261-4800	
+NV	Las Vegas	Mc Carran International Airport	KLAS	Signature Flight Support	702-739-1100	
+NV	Las Vegas	Mc Carran International Airport	KLAS	Atlantic Aviation	702-736-1830	
+NV	Las Vegas	Henderson Executive Airport	KHND	 Henderson Executive Airport	702-261-4806	
+NV	Las Vegas	North Las Vegas Airport	KVGT	 North Las Vegas Airport	702-261-3803	
+NV	Lovelock	Derby Field Airport	KLOL	Lovelock Airport	775-273-4922, 775-857-8127	
+NV	Mesquite	Mesquite Airport	67L	City of Mesquite (FBO)	702-346-2841	
+NV	Minden	Minden-Tahoe Airport	KMEV	Hutt Aviation, Inc.	775-782-8277	
+NV	Minden	Minden-Tahoe Airport	KMEV	 Minden-Tahoe Aviation	775-309-4423	
+NV	Overton	Perkins Field Airport	U08	Perkins Field	702-397-2716	
+NV	Reno	Reno/Tahoe International Airport	KRNO	Atlantic Aviation	775-858-7300	
+NV	Reno	Reno/Stead Airport	KRTS	 Aviation Classics	775-972-5540	
+NV	Silver Springs	Silver Springs Airport	KSPZ	Silver Springs Airport, LLC	775-577-2111, 775-230-1877	
+NV	Tonopah	Tonopah Airport	KTPH	Desert Flying Service	775-482-3626, 775-482-5107	
+NV	Wells	Wells Municipal Airport/Harriet Field	KLWL	City of Wells	775-752-3120	
+NV	Winnemucca	Winnemucca Municipal Airport	KWMC	 Winnemucca Air Service	775-623-5091	
+NV	Yerington	Yerington Municipal Airport	O43	City of Yerington	775-463-3511, 775-463-2729	

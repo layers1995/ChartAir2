@@ -1,0 +1,91 @@
+KS	Abilene	Abilene Municipal Airport	K78	Abilene Flying Service	785-263-3970	
+KS	Anthony	Anthony Municipal Airport	KANY	City of Anthony	620-842-5434	
+KS	Ashland	Harold Krier Field Airport	K58	City of Ashland	620-635-2531	
+KS	Atwood	Atwood-Rawlins County City-County Airport	KADT	Atwood/Rawlins County Airport	785-626-9014, 785-626-9462	
+KS	Augusta	Augusta Municipal Airport	3AU	Augusta Municipal Airport	316-733-1326, 316-733-1327	
+KS	Baldwin City	Vinland Valley Aerodrome	K64	Vinland Valley Aerodrome	785-594-2741	
+KS	Belleville	Belleville Municipal Airport	KRPB	Belleville Airport	785-527-2288	
+KS	Beloit	Moritz Memorial Airport	K61	Lattin Aviation	785-738-7437	
+KS	Benton	Lloyd Stearman Field Airport	1K1	Stearman Field	316-648-0132, 316-778-1035	
+KS	Burlington	Coffey County Airport	KUKL	 Coffey County Airport	620-364-5346	
+KS	Chanute	Chanute Martin Johnson Airport	KCNU	City of Chanute	620-431-5296	
+KS	Coffeyville	Coffeyville Municipal Airport	KCFV	Coffeyville Aircraft	620-251-4310	
+KS	Colby	Shalz Field Airport	KCBK	M.C. Aviation Services LLC.	785-460-4438, 785-443-4000	
+KS	Coldwater	Comanche County Airport	3K8	Comanche County Airport	620-622-7460	
+KS	Concordia	Blosser Municipal Airport	KCNK	City of Concordia	785-243-3048	
+KS	Dodge City	Dodge City Regional Airport	KDDC	 Crotts Aircraft Service	620-227-3553	
+KS	El Dorado	El Dorado/Captain Jack Thomas Memorial Airport	KEQA	El Dorado Airport	316-321-1327	
+KS	Elkhart	Elkhart-Morton County Airport	KEHA	Morton County Airport	620-360-3600	
+KS	Ellsworth	Ellsworth Municipal Airport	9K7	Ellsworth Municipal Airport	785-472-5608, 785-472-5566	
+KS	Emporia	Emporia Municipal Airport	KEMP	Emporia Aviation / City of Emporia	620-343-5600	
+KS	Eureka	Lt. William M. Milliken Airport	13K	Captain D Aviation	620-583-7732	
+KS	Fort Leavenworth	Sherman Army Airfield	KFLV	Leavenworth Aviation Services	913-651-0111	
+KS	Fort Scott	Fort Scott Municipal Airport	KFSK	Fort Scott Municipal Airport	620-223-5490, 620-224-6688	
+KS	Garden City	Garden City Regional Airport	KGCK	Saker Aviation	620-275-5055, 620-272-1933	
+KS	Gardner	Gardner Municipal Airport	K34	Gardner Municipal Airport	913-221-5099	
+KS	Garnett	Garnett Municipal Airport	K68	City of Garnett	785-448-6931	
+KS	Goodland	Renner Field (Goodland Municipal Airport)	KGLD	Butterfly Aviation Inc	785-890-7531	
+KS	Great Bend	Great Bend Municipal Airport	KGBD	Centerline Aviation, LLC	620-796-2130	
+KS	Harper	Harper Municipal Airport	8K2	City of Harper	620-896-2511	
+KS	Hays	Hays Regional Airport	KHYS	 Hays Aircraft LLC	785-628-8881	
+KS	Herington	Herington Regional Airport	KHRU	City of Herington (self-serve fuel)	785-258-3822	
+KS	Hill City	Hill City Municipal Airport	KHLC	City of Hill City	785-421-5613	
+KS	Hillsboro	Alfred Schroeder Field Airport	M66	City of Hillsboro	620-947-3162	
+KS	Hugoton	Hugoton Municipal Airport	KHQG	Hugoton Airport	620-544-7600	
+KS	Hutchinson	Hutchinson Regional Airport	KHUT	 Wells Aircraft	620-663-1546	
+KS	Hutchinson	Hutchinson Regional Airport	KHUT	100 Low Lead, LLC	620-728-1356	
+KS	Independence	Independence Municipal Airport	KIDP	City of Independence (FBO)	620-332-2531	
+KS	Iola	Allen County Airport	K88	Allen County (FBO)	620-365-1465, 620-363-6405	
+KS	Johnson	Stanton County Municipal Airport	KJHN	Bear Creek Aviation	620-492-2414	
+KS	Junction City	Freeman Field Airport	3JC	Kansas Jet Center	785-776-1991	
+KS	Kingman	Kingman Airport - Clyde Cessna Field	9K8	City of Kingman	620-532-1279	
+KS	Kinsley	Kinsley Municipal Airport	33K	Tyree Ag	620-659-2208	
+KS	Lakin	Kearny County Airport	36K	Kearny County Airport	620-355-9302	
+KS	Larned	Larned-Pawnee County Airport	KLQR	Larned-Pawnee County Airport Authority	620-285-8580, 620-285-5609	
+KS	Lawrence	Lawrence Municipal Airport	KLWC	Hetrick Air Services, Inc.	785-842-0000	
+KS	Liberal	Liberal Mid-America Regional Airport	KLBL	Lyddon Aero Center	620-624-1646	
+KS	Lincoln	Lincoln Municipal Airport	K71	Post Rock Aviation	785-524-5240	
+KS	Lyons	Lyons-Rice County Municipal Airport	KLYO	Rice County Aviation	620-257-5002	
+KS	Manhattan	Manhattan Regional Airport	KMHK	Kansas Jet Center	785-776-1991	
+KS	Manhattan	Manhattan Regional Airport	KMHK	Heartland Aviation Inc	785-537-9200	
+KS	Mc Pherson	Mc Pherson Airport	KMPR	McPherson Airport Authority	620-241-0684	
+KS	Meade	Meade Municipal Airport	KMEJ	City of Meade	620-873-2091	
+KS	Moundridge	Moundridge Municipal Airport	47K	City of Moundridge	620-345-2661, 620-345-8246	
+KS	Newton	Newton City/County Airport	KEWK	 Metro North Flight Support	800-899-2485, 316-284-6084	
+KS	Norton	Norton Municipal Airport	KNRN	Miller Aviation	785-877-2201	
+KS	Oakley	Oakley Municipal Airport	KOEL	Nusser Aerospace Services	785-443-4950, 785-671-4621	
+KS	Oberlin	Oberlin Municipal Airport	KOIN	Oberlin Municipal Airport	785-475-7017	
+KS	Olathe	New Century AirCenter Airport	KIXD	Signature Flight Support	913-782-9003	
+KS	Olathe	New Century AirCenter Airport	KIXD	Advanced Aviation Jet Center	913-768-1500	
+KS	Olathe	New Century AirCenter Airport	KIXD	QuickTurn Central	913-768-1500	
+KS	Olathe	Johnson County Executive Airport	KOJC	 KCAC Aviation	913-782-0530	
+KS	Olathe	Johnson County Executive Airport	KOJC	 Air Associates	913-764-4800	
+KS	Osage City	Osage City Municipal Airport	53K	City of Osage	785-224-4000	
+KS	Osborne	Osborne Municipal Airport	K75	Curry's Flying Service Inc.	785-346-2926	
+KS	Oswego	Oswego Municipal Airport	K67	Oswego Municipal Airport	620-795-4433, 620-795-2565	
+KS	Ottawa	Ottawa Municipal Airport	KOWI	City of Ottawa/OWI Aviation Services	785-242-5310	
+KS	Paola	Miami County Airport	K81	Miami County Airport	913-731-4634, 913-755-3249	
+KS	Parsons	Tri-City Airport	KPPF	Galaxy Travellaire	620-336-3440	
+KS	Phillipsburg	Phillipsburg Municipal Airport	KPHG	Phillipsburg Municipal Airport	785-543-5424	
+KS	Pittsburg	Atkinson Municipal Airport	KPTS	Atkinson Municipal Airport	620-231-5760	
+KS	Pratt	Pratt Regional Airport	KPTT	Pratt Air	620-672-3601	
+KS	Rose Hill	Cook Airfield	K50	Crosswinds Aviation, Inc.	316-706-6131	
+KS	Russell	Russell Municipal Airport	KRSL	City of Russell (FBO)	785-483-6911	
+KS	Sabetha	Sabetha Municipal Airport	K83	City of Sabetha (FBO)	785-284-2158	
+KS	Salina	Salina Regional Airport	KSLN	 Avflight Salina	785-825-6739	
+KS	Satanta	Satanta Municipal Airport	1K9	Corner Express	620-649-2956	
+KS	Scott City	Scott City Municipal Airport	KTQK	Frontier Ag Inc	620-872-5620	
+KS	Smith Center	Smith Center Municipal Airport	K82	City of Smith Center	785-282-3812	
+KS	St Francis	Cheyenne County Municipal Airport	KSYF	Grace Flying Service	785-332-2251	
+KS	Stockton	Rooks County Regional Airport	KRCP	Rooks County Regional Airport	785-425-6881	
+KS	Syracuse	Syracuse-Hamilton County Municipal Airport	3K3	Crosswind Flight Services	620-384-5835	
+KS	Topeka	Topeka Regional Airport	KFOE	 Million Air Topeka	785-862-0950	
+KS	Topeka	Philip Billard Municipal Airport	KTOP	Kaw Valley Aviation	785-234-2602	
+KS	Tribune	Tribune Municipal Airport	5K2	Tribune Municipal Airport	620-376-2552	
+KS	Ulysses	Ulysses Airport	KULS	 North Star Aviation, Inc.	620-356-4528	
+KS	Wellington	Wellington Municipal Airport	KEGT	 Wellington Airport	620-326-5717	
+KS	Wichita	Wichita Dwight D Eisenhower National Airport	KICT	Yingling Aviation	316-943-3246	
+KS	Wichita	Wichita Dwight D Eisenhower National Airport	KICT	Signature Flight Support	316-522-2010	
+KS	Wichita	Colonel James Jabara Airport	KAAO	Midwest Corporate Aviation	316-636-9700	
+KS	Wichita	Westport Airport	71K	Westport Ag Sales and Service	316-943-5510	
+KS	Winfield/Arkansas City	Strother Field Airport	KWLD	B Four Flying	620-221-7055	

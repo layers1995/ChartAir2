@@ -1,0 +1,43 @@
+MA	Bedford	Laurence G Hanscom Field Airport	KBED	Jet Aviation	781-274-0030	
+MA	Bedford	Laurence G Hanscom Field Airport	KBED	Signature Flight Support	781-274-0010	
+MA	Bedford	Laurence G Hanscom Field Airport	KBED	Rectrix Aerodrome Centers, Inc. at BED	978-341-8400	
+MA	Beverly	Beverly Regional Airport	KBVY	North Atlantic Air, Inc.	800-541-1745	
+MA	Boston	General Edward Lawrence Logan International Airport	KBOS	Signature Flight Support	617-561-2500	
+MA	Chatham	Chatham Municipal Airport	KCQX	Cape Cod Flying Circus	508-945-9000	
+MA	Edgartown	Katama Airpark	1B2	Katama Airfield	508-627-9018	
+MA	Falmouth	Falmouth Airpark	5B6	Falmouth Airpark Homeowners Association, Inc.	508-548-9617	
+MA	Fitchburg	Fitchburg Municipal Airport	KFIT	City of Fitchburg (FBO)	978-345-9580	
+MA	Gardner	Gardner Municipal Airport	KGDM	Gardner Aviation Services, Inc.	978-821-2803	
+MA	Great Barrington	Walter J Koladza Airport	KGBR	Berkshire Aviation Enterprises	413-528-1010	
+MA	Hyannis	Barnstable Municipal Airport-Boardman/Polando Field	KHYA	Rectrix Aerodrome Centers, Inc.	508-771-7520	
+MA	Hyannis	Barnstable Municipal Airport-Boardman/Polando Field	KHYA	Town of Barnstable (Airport Operations)	508-778-7770	
+MA	Hyannis	Barnstable Municipal Airport-Boardman/Polando Field	KHYA	Air Cape Cod	508-771-5725	
+MA	Hyannis	Barnstable Municipal Airport-Boardman/Polando Field	KHYA	Griffin Aviation Services	508-771-2865	
+MA	Lawrence	Lawrence Municipal Airport	KLWM	Eagle East Aviation	978-683-3314	
+MA	Lawrence	Lawrence Municipal Airport	KLWM	Lawrence Jet Center	978-685-7500, 978-770-8276	
+MA	Lawrence	Lawrence Municipal Airport	KLWM	 Falcon Air	978-689-4492	
+MA	Lawrence	Lawrence Municipal Airport	KLWM	 Four Star Aviation Jet Center	978-686-3412, 978-686-3413	
+MA	Mansfield	Mansfield Municipal Airport	1B9	 Aero Fuel Management	508-339-3001	
+MA	Marshfield	Marshfield Municipal Airport - George Harlow Field	KGHG	Shoreline Aviation, Inc.	781-834-4928	
+MA	Marstons Mills	Cape Cod Airport	2B1	Cape Cod Airport	508-428-8732	
+MA	Montague	Turners Falls Airport	0B5	Pioneer Aviation	413-863-9391	
+MA	Nantucket	Nantucket Memorial Airport	KACK	Nantucket Memorial Airport	508-325-5307	
+MA	New Bedford	New Bedford Regional Airport	KEWB	 Colonial Air	508-997-0620	
+MA	New Bedford	New Bedford Regional Airport	KEWB	 Nor East Aviation Services	508-996-1832	
+MA	New Bedford	New Bedford Regional Airport	KEWB	Sandpiper Air	508-991-7660	
+MA	Newburyport	Plum Island Airport	2B2	Plum Island Aerodrome Inc.	978-463-4222	
+MA	North Adams	Harriman-and-West Airport	KAQW	North Adams FBO	413-207-2020	
+MA	Northampton	Northampton Airport	7B2	Northampton Aeronautics Inc.	413-584-7980	
+MA	Norwood	Norwood Memorial Airport	KOWD	FlightLevel Norwood	781-769-8680	
+MA	Orange	Orange Municipal Airport	KORE	Orange Municipal Airport	978-544-8189	
+MA	Pittsfield	Pittsfield Municipal Airport	KPSF	 Lyon Aviation	413-443-6700	
+MA	Plymouth	Plymouth Municipal Airport	KPYM	Plymouth Airport	508-746-2020	
+MA	Provincetown	Provincetown Municipal Airport	KPVC	Cape Air	508-487-0241	
+MA	Southbridge	Southbridge Municipal Airport	3B0	Southbridge Municipal Airport	508-764-2155	
+MA	Spencer	Spencer Airport	60M	Andrews Aviation	508-885-5060	
+MA	Springfield/Chicopee	Westover Air Reserve Base/Metropolitan Airport	KCEF	 Metro Air Services	413-593-5543	
+MA	Sterling	Sterling Airport	3B3	Sterling Air	978-422-8860	
+MA	Stow	Minute Man Air Field	6B6	Stow Aviation Services	978-897-3933	
+MA	Taunton	Taunton Municipal Airport - King Field	KTAN	Taunton Municipal Airport Commission	508-821-2973	
+MA	Westfield/Springfield	Westfield-Barnes Regional Airport	KBAF	Rectrix Aerodrome Centers, Inc	413-485-0078	
+MA	Worcester	Worcester Regional Airport	KORH	Rectrix Aerodrome Centers, Inc.	508-755-5870	

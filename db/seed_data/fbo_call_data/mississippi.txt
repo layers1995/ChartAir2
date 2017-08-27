@@ -1,0 +1,57 @@
+MS	Aberdeen/Amory	Monroe County Airport	M40	Monroe County Airport	662-369-4800	
+MS	Batesville	Panola County Airport	KPMU	Turman Aviation	662-654-0389	
+MS	Bay St Louis	Stennis International Airport	KHSA	 Million Air - Bay St. Louis	228-463-2389	
+MS	Belmont	Tishomingo County Airport	01M	Nix Flying Service	662-454-9989	
+MS	Booneville/Baldwyn	Booneville/Baldwyn Airport	8M1	Booneville-Baldwyn Airport	662-365-8811	
+MS	Brookhaven	Brookhaven-Lincoln County Airport	1R7	Brookhaven-Lincoln County Airport	601-833-0999, 601-918-3671	
+MS	Carthage	Carthage-Leake County Airport	08M	Carthage-Leake County Airport	601-267-9327	
+MS	Clarksdale	Fletcher Field Airport	KCKM	Red Panther Aero LLC	662-624-5554	
+MS	Cleveland	Cleveland Municipal Airport	KRNV	Air Repair, Inc.	662-846-0228	
+MS	Columbia	Columbia-Marion County Airport	0R0	Columbia-Marion County	601-736-9295	
+MS	Columbus/West Point/Starkville	Golden Triangle Regional Airport	KGTR	 Avflight Columbus	662-328-9312	
+MS	Corinth	Roscoe Turner Airport	KCRX	Roscoe Turner Airport	662-287-3223	
+MS	Crystal Springs	Copiah County Airport	M11	Grassroots Aviation Inc.	601-647-0727, 601-988-2788	
+MS	Greenville	Greenville Mid-Delta Airport	KGLH	Mid-Delta Aviation	662-334-6444	
+MS	Greenwood	Greenwood-Leflore Airport	KGWO	 Cotton Belt Aviation	662-455-4111, 662-392-3988	
+MS	Grenada	Grenada Municipal Airport	KGNF	Grenada Municipal Airport	662-227-8402, 662-307-0496	
+MS	Gulfport	Gulfport-Biloxi International Airport	KGPT	Million Air Gulfport-Biloxi	228-701-0400	
+MS	Hattiesburg	Hattiesburg Bobby L Chain Municipal Airport	KHBG	 Southeast Aviation	601-544-8661	
+MS	Hattiesburg-Laurel	Hattiesburg-Laurel Regional Airport	KPIB	U.S. Aviation	601-544-0951	
+MS	Holly Springs	Holly Springs-Marshall County Airport	M41	John Jewell Aircraft	662-252-6377	
+MS	Indianola	Indianola Municipal Airport	KIDL	Valley Air Applicators	662-887-2861	
+MS	Iuka	Iuka Airport	15M	Iuka Airport	662-423-3037	
+MS	Jackson	Jackson-Medgar Wiley Evers International Airport	KJAN	Atlantic Aviation	601-939-9366	
+MS	Jackson	Hawkins Field Airport	KHKS	Hawkins Jet Center	601-948-8778	
+MS	Kosciusko	Kosciusko-Attala County Airport	KOSX	Kosciusko-Attala County Airport	662-289-2611	
+MS	Louisville	Louisville Winston County Airport	KLMS	Louisville/Winston County Airport Authority	662-705-1446	
+MS	Madison	Bruce Campbell Field Airport	KMBO	Madison Air Center	601-853-1960	
+MS	Magee	Magee Municipal Airport	17M	Magee Municipal Airport	601-849-3571	
+MS	Mc Comb	Mc Comb (Pike County) Airport/John E Lewis Field	KMCB	Air Services of Mississippi	601-684-8950, 601-684-4377	
+MS	Meridian	Key Field Airport	KMEI	 Meridian Aviation	601-693-7282	
+MS	Natchez	Hardy-Anders Field Natchez-Adams County Airport	KHEZ	Natchez-Adams County Airport	601-442-3142	
+MS	New Albany	New Albany-Union County Airport	M72	New Albany/Union County Airport	662-534-1050	
+MS	Newton	James H Easom Field Airport	M23	City of Newton	601-683-2664	
+MS	Ocean Springs	Ocean Springs Airport	5R2	Romac Aero Services Co.	228-872-1962	
+MS	Okolona	Okolona Municipal Airport-Richard Stovall Field	5A4	Okolona Municipal Airport	662-869-1419, 662-255-5066	
+MS	Olive Branch	Olive Branch Airport	KOLV	 Metro Aviation Services	662-895-2978, 901-521-9439	
+MS	Oxford	University-Oxford Airport	KUOX	General Aviation Services	662-234-2036	
+MS	Pascagoula	Trent Lott International Airport	KPQL	 SkyWarrior Flight Support	228-474-1000	
+MS	Philadelphia	Philadelphia Municipal Airport	KMPE	Express Aviation	601-656-0203	
+MS	Picayune	Picayune Municipal Airport	KMJD	Phillips Aviation	601-749-4449, 601-749-9595	
+MS	Pittsboro	Calhoun County Airport	04M	Calhoun County Airport Board	662-412-3126	
+MS	Pontotoc	Pontotoc County Airport	22M	Pontotoc County Airport	662-489-3900	
+MS	Poplarville	Poplarville-Pearl River County Airport	M13	City of Poplarville	601-795-9371	
+MS	Prentiss	Prentiss-Jefferson Davis County Airport	M43	Steverson Aviation L.L.C.	601-466-4959, 601-792-2243	
+MS	Quitman	Clarke County Airport	23M	Clarke County Airport	601-776-6312	
+MS	Raymond	John Bell Williams Airport	KJVW	Hinds Community College	601-857-3884	
+MS	Ripley	Ripley Airport	25M	Ripley Airport	662-587-7070	
+MS	Starkville	George M Bryan Airport	KSTF	City of Starkville	662-615-1848, 662-418-5900	
+MS	Tunica	Tunica Municipal Airport	KUTA	Tunica Air Center	662-357-7330	
+MS	Tupelo	Tupelo Regional Airport	KTUP	Tupelo Aviation Unlimited	662-823-4359	
+MS	Tylertown	Paul Pittman Memorial Airport	T36	Walthall Co. Airport	601-876-4500	
+MS	Vicksburg	Vicksburg Municipal Airport	KVKS	Vicksburg Municipal Airport	601-636-4925	
+MS	Water Valley	Water Valley Municipal Airport	33M	City of Water Valley	662-473-2431	
+MS	Waynesboro	Waynesboro Municipal Airport	2R0	Waynesboro Municipal Airport	601-735-9682	
+MS	West Point	McCharen Field Airport	M83	City of West Point	662-524-0039	
+MS	Wiggins	Dean Griffin Memorial Airport	M24	Dean Griffin Memorial Airport	601-928-6495	
+MS	Winona	Winona-Montgomery County Airport	5A6	Heath Aviation	662-283-9833	

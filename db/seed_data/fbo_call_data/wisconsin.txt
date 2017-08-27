@@ -1,0 +1,90 @@
+WI	Amery	Amery Municipal Airport	KAHH	City of Amery	612-803-2318	
+WI	Antigo	Langlade County Airport	KAIG	Walker Aviation LLC	715-623-4525	
+WI	Appleton	Appleton International Airport	KATW	 Platinum Flight Center	920-738-3034	
+WI	Appleton	Appleton International Airport	KATW	Gulfstream Aerospace Corporation	920-735-7000	
+WI	Ashland	John F Kennedy Memorial Airport	KASX	John F. Kennedy Memorial Airport	715-682-7070, 715-292-7070	
+WI	Baraboo	Baraboo Wisconsin Dells Airport	KDLL	Baraboo-Dells Flight Center Inc.	608-356-2270	
+WI	Beloit	Beloit Airport	44C	Beloit Airport	608-365-2998	
+WI	Black River Falls	Black River Falls Area Airport	KBCK	Black River Falls Area Airport	715-284-5514	
+WI	Boscobel	Boscobel Airport	KOVS	Boscobel Municipal Airport	608-375-5232, 608-375-5001	
+WI	Brookfield	Capitol Airport	02C	Brookfield Aero	262-781-4213	
+WI	Burlington	Burlington Municipal Airport	KBUU	City of Burlington	262-763-6600	
+WI	Cable	Cable Union Airport	3CU	Cable Union Airport	715-798-3240	
+WI	Chetek	Chetek Municipal-Southworth Airport	Y23	City of Chetek	715-924-4838	
+WI	Clintonville	Clintonville Municipal Airport	KCLI	Clintonville Municipal Airport	715-823-7685, 715-823-7600	
+WI	Cumberland	Cumberland Municipal Airport	KUBE	City of Cumberland	715-205-4474	
+WI	Eagle River	Eagle River Union Airport	KEGV	 Eagle River Union Airport	715-479-7442	
+WI	East Troy	East Troy Municipal Airport	57C	Aviator Services LLC	262-642-5008, 262-215-2949	
+WI	Eau Claire	Chippewa Valley Regional Airport	KEAU	 Hawthorne Global Aviation Services	715-835-3181	
+WI	Edgerton	Jana Airport	58C	Jana Airport	608-884-3403	
+WI	Ephraim	Ephraim-Gibraltar Airport	3D2	Ephraim-Gibraltar Airport	920-854-9711	
+WI	Fond du Lac	Fond Du Lac County Airport	KFLD	Fond du Lac Skyport	920-922-6000	
+WI	Franksville	Cindy Guntly Memorial Airport	62C	Guntly Aircraft Repair	262-895-2948	
+WI	Friendship (Adams)	Adams County Airport-Legion Field	63C	Adams County Airport-Legion Field	608-339-3919	
+WI	Green Bay	Green Bay-Austin Straubel International Airport	KGRB	Jet Air Group	920-494-2669	
+WI	Green Bay	Green Bay-Austin Straubel International Airport	KGRB	Executive Air	920-498-4880	
+WI	Hartford	Hartford Municipal Airport	KHXF	City of Hartford (automated fuel pump)	262-673-8225	
+WI	Hayward	Sawyer County Airport	KHYR	L & L Aviation	715-634-4624	
+WI	Janesville	Southern Wisconsin Regional Airport	KJVL	Janesville Jet Center	888-201-9055, 608-758-1037	
+WI	Juneau	Dodge County Airport	KUNU	Wisconsin Aviation-Dodge County	920-386-2402	
+WI	Kenosha	Kenosha Regional Airport	KENW	Stein's Aircraft Services	262-597-1087	
+WI	Kenosha	Kenosha Regional Airport	KENW	AVP/Kenosha Aviation, LLC	262-605-0474, 262-605-9570	
+WI	La Crosse	La Crosse Regional Airport	KLSE	Colgan Air Services	608-783-8359	
+WI	Ladysmith	Rusk County Airport	KRCX	 Rusk County Airport	715-532-2635	
+WI	Lancaster	Lancaster Municipal Airport	73C	Lancaster Aviation	608-723-4246	
+WI	Land O' Lakes	Kings Land O' Lakes Airport	KLNL	Kings Land O' Lakes Airport	715-547-3337	
+WI	Lone Rock	Tri-County Regional Airport	KLNR	Tri-County Regional Airport	608-583-2600	
+WI	Madison	Dane County Regional Airport-Truax Field	KMSN	Wisconsin Aviation-Madison	608-268-5000	
+WI	Manitowish Waters	Manitowish Waters Airport	D25	Manitowish Waters Airport	715-543-8320, 262-994-6706	
+WI	Manitowoc	Manitowoc County Airport	KMTW	 Manitowoc County Airport	920-683-4594	
+WI	Marshfield	Marshfield Municipal Airport	KMFI	Duffy's Aircraft Sales and Leasing	715-389-9385, 715-387-2211	
+WI	Medford	Taylor County Airport	KMDZ	Taylor County Airport	715-678-2152	
+WI	Menomonie	Menomonie Municipal Airport-Score Field	KLUM	Gibson Aviation Services LLC	715-220-6549	
+WI	Merrill	Merrill Municipal Airport	KRRL	Merrill Municipal Airport	715-536-2024, 715-218-1078	
+WI	Middleton	Middleton Municipal Airport - Morey Field	C29	Morey Airplane Co.	608-836-1711	
+WI	Milwaukee	General Mitchell International Airport	KMKE	Signature Flight Support	414-747-5100	
+WI	Milwaukee	Lawrence J Timmerman Airport	KMWC	 Spring City Aviation - Milwaukee	414-461-3222	
+WI	Mineral Point	Iowa County Airport	KMRJ	Iowa County Airport	608-987-9931	
+WI	Minocqua-Woodruff	Lakeland Airport/Noble F. Lee Memorial Field	KARV	Lakeland Aviation	715-356-3891	
+WI	Monroe	Monroe Municipal Airport	KEFT	City of Monroe (FBO)	608-329-7777	
+WI	Neenah	Brennand Airport	79C	Brennand Airport LLC	920-376-0064	
+WI	Neillsville	Neillsville Municipal Airport	KVIQ	Duffy's Aircraft Sales and Leasing	715-387-2211	
+WI	New Holstein	New Holstein Municipal Airport	8D1	Welch's Aviation Service, LLC	920-219-0015, 920-898-5766	
+WI	New Lisbon	Mauston-New Lisbon Union Airport	82C	Mauston-New Lisbon Union Airport	608-547-6503	
+WI	New Richmond	New Richmond Regional Airport	KRNH	East Metro Aviation	715-246-5338, 715-760-5055	
+WI	Oconto	Oconto-J Douglas Bake Municipal Airport	KOCQ	Oconto Municipal Airport	920-834-7727	
+WI	Osceola	L O Simenstad Municipal Airport	KOEO	Osceola AeroSport	715-294-4500, 715-417-2610	
+WI	Oshkosh	Wittman Regional Airport	KOSH	 Basler Flight Service	920-236-7827	
+WI	Park Falls	Park Falls Municipal Airport	KPKF	Park Falls Municipal Airport	715-762-3971	
+WI	Phillips	Price County Airport	KPBH	Price County Airport	715-339-3701	
+WI	Platteville	Platteville Municipal Airport	KPVB	 A&A Aviation LLC	608-988-6864, 303-257-6415	
+WI	Portage	Portage Municipal Airport	C47	Air Portage	608-742-3300	
+WI	Prairie du Chien	Prairie du Chien Municipal Airport	KPDC	Prairie du Chien Municipal Airport	608-326-2118	
+WI	Racine	Batten International Airport	KRAC	 Racine Commercial Airport Corp.	262-631-5620	
+WI	Reedsburg	Reedsburg Municipal Airport	C35	Reedsburg Municipal Airport	608-524-2322	
+WI	Rhinelander	Rhinelander-Oneida County Airport	KRHI	Rhinelander Flying Service	715-365-3456	
+WI	Rice Lake	Rice Lake Regional Airport - Carl's Field	KRPD	 Rice Lake Air Center	715-458-4400	
+WI	Richland Center	Richland Airport	93C	Richland Center Municipal Airport	608-649-2234, 608-647-3466	
+WI	Shawano	Shawano Municipal Airport	KEZS	Shawano Flying Service	715-526-2465	
+WI	Sheboygan	Sheboygan County Memorial Airport	KSBM	 Burrows Aviation	920-467-6151	
+WI	Shiocton	Shiocton Airport	W34	Shiocton Flyers Club, Inc.	920-986-3690	
+WI	Siren	Burnett County Airport	KRZN	Burnett County Airport	715-349-7076	
+WI	Solon Springs	Solon Springs Municipal Airport	KOLG	Solon Springs Airport Commission	218-348-3176, 715-378-2114	
+WI	Sparta	Sparta/Fort Mc Coy Airport	KCMY	City of Sparta (FBO)	608-269-4340	
+WI	Stevens Point	Stevens Point Municipal Airport	KSTE	Stevens Point Municipal Airport	715-345-8989	
+WI	Sturgeon Bay	Door County Cherryland Airport	KSUE	Tailwind Flight Center - Sturgeon Bay	920-746-2581	
+WI	Sturtevant	Sylvania Airport	C89	Aeris Aviation	888-882-3747	
+WI	Superior	Richard I Bong Airport	KSUW	Superior Flying Services	715-394-6444	
+WI	Suring	Piso Airport	7P5	Rhode's Oasis	920-842-2955	
+WI	Tomah	Bloyer Field Airport	Y72	City of Tomah	608-374-7430	
+WI	Tomahawk	Tomahawk Regional Airport	KTKV	Tomahawk Regional Airport	715-453-1874	
+WI	Viroqua	Viroqua Municipal Airport	Y51	Viroqua Municipal Airport	608-606-9563	
+WI	Watertown	Watertown Municipal Airport	KRYV	Wisconsin Aviation-Watertown	920-261-4567	
+WI	Waukesha	Waukesha County Airport	KUES	Stein's Aircraft Services	262-544-2031	
+WI	Waukesha	Waukesha County Airport	KUES	Atlantic Aviation	888-277-1099, 262-549-6150	
+WI	Waunakee	Waunakee Airport	6P3	Waunakee Airpark, LLC	608-849-4318	
+WI	Waupaca	Waupaca Municipal Airport	KPCZ	Plane Guys Aviation LLC	920-867-3070	
+WI	Wausau	Wausau Downtown Airport	KAUW	Wausau Flying Service	715-848-6000	
+WI	Wautoma	Wautoma Municipal Airport	Y50	City of Wautoma (FBO)	920-787-3030	
+WI	West Bend	West Bend Municipal Airport	KETB	 West Bend Air	262-334-5603	
+WI	Wisconsin Rapids	Alexander Field South Wood County Airport	KISW	Alexander Field	715-423-0330	

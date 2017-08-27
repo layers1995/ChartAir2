@@ -1,86 +1,87 @@
-NY	Akron	Akron Airport	9G3	 Christian Airmen	716-542-4607	4170
-NY	Albany	Albany International Airport	KALB	Million Air Albany	518-242-2444	5310
-NY	Batavia	Genesee County Airport	KGVQ	 Genesee County Airport	585-344-8534, 585-344-8532	3300
-NY	Binghamton	Greater Binghamton Airport/Edwin A Link Field	KBGM	FirstAIR	607-644-1062	1290
-NY	Brockport	Ledgedale Airpark	7G0	Big Fella Enterprises / Ledgedale Airpark	585-637-5050	1320
-NY	Buffalo	Buffalo Niagara International Airport	KBUF	Prior Aviation	716-633-1000	9480
-NY	Buffalo	Buffalo Airfield	9G0	Lindsay Aviation	716-668-4900	4530
-NY	Canandaigua	Canandaigua Airport	D38	MFC Aviation Services	585-394-4780, 585-396-0584	1770
-NY	Cooperstown	Cooperstown-Westville Airport	K23	BoDee Aviation	607-287-7032	184
-NY	Corning	Corning-Painted Post Airport	7N1	Costa Flying Service	607-962-0053	750
-NY	Dansville	Dansville Municipal Airport	KDSV	Dansville Aero, Inc	585-330-8840	3960
-NY	Duanesburg	Duanesburg Airport	4B1	Duanesburg NuEagle LLC	518-421-8881	67
-NY	Dunkirk	Chautauqua County/Dunkirk Airport	KDKK	 Dunkirk Aviation Sales & Service	716-366-6938	2130
-NY	East Hampton	East Hampton Airport	KHTO	Sound Aircraft Services	631-537-2202	2070
-NY	East Hampton	East Hampton Airport	KHTO	Myers Aero Fuels	631-537-3737	2070
-NY	Ellenville	Joseph Y Resnick Airport	N89	Town of Wawarsing	845-647-8401	452
-NY	Elmira/Corning	Elmira/Corning Regional Airport	KELM	Atlantic Aviation	607-739-3597	1770
-NY	Endicott	Tri-Cities Airport	KCZG	Village of Endicott	607-785-0467	500
-NY	Farmingdale	Republic Airport	KFRG	Sheltair Farmingdale	631-843-9488	16230
-NY	Farmingdale	Republic Airport	KFRG	Republic Jet Center (f/k/a Talon Air FBO)	631-881-9520	16230
-NY	Farmingdale	Republic Airport	KFRG	Atlantic Aviation	631-752-9022	16230
-NY	Fulton	Oswego County Airport	KFZY	Oswego County Airport	315-591-9130	1680
-NY	Gasport	Royalton Airport	9G5	Tanger-Aire	716-804-6857	468
-NY	Glens Falls	Floyd Bennett Memorial Airport	KGFL	Rich Air	518-798-3091	2040
-NY	Gowanda	Gowanda Airport	D59	Gernatt Asphalt Products	716-532-3371	276
-NY	Hamburg	Hamburg Inc Airport	4G2	Hamburg Airport	716-627-2440	990
-NY	Hamilton	Hamilton Municipal Airport	KVGC	Village of Hamilton	315-824-6681	1410
-NY	Hudson	Columbia County Airport	1B1	Richmor Aviation	518-828-9461	1590
-NY	Ithaca	Ithaca Tompkins Regional Airport	KITH	 Taughannock Aviation	607-257-7500	2940
-NY	Jamestown	Chautauqua County/Jamestown Airport	KJHW	 Jamestown Aviation Company	716-665-4800	2850
-NY	Johnstown	Fulton County Airport	NY0	The 195 Factory	518-882-6392	930
-NY	Kingston	Kingston-Ulster Airport	20N	Richmor Aviation	845-336-8400	660
-NY	Lake Placid	Lake Placid Airport	KLKP	Adirondack Flying Service	518-523-2473	990
-NY	Lancaster	Buffalo-Lancaster Regional Airport	KBQR	Lancaster Airport, Inc.	716-860-6044	3690
-NY	Le Roy	Le Roy Airport	5G0	 Le Roy Aviation Services, Inc.	585-768-4560, 585-259-9308	1200
-NY	Lockport	North Buffalo Suburban Airport	0G0	North Buffalo Suburban Airport	716-625-8111	276
-NY	Malone	Malone-Dufort Airport	KMAL	Malone-Dufort Airport	518-483-5073	720
-NY	Massena	Massena International Airport-Richards Field	KMSS	Town of Massena (FBO)	315-769-7605	750
-NY	Middletown	Randall Airport	06N	Randall Airport	845-343-5965	1860
-NY	Millbrook	Sky Acres Airport	44N	 HerGin Aviation, Inc.	845-677-5010	3960
-NY	Montgomery	Orange County Airport	KMGJ	 Orange County Airport	845-457-4944, 845-457-4925	9870
-NY	Monticello	Sullivan County International Airport	KMSV	Private Flight Maintenance	845-583-5200	1770
-NY	New York	Long Island Mac Arthur Airport	KISP	Hawthorne Global Aviation Services	631-913-7102	9360
-NY	New York	Long Island Mac Arthur Airport	KISP	New York Jet / Mid Island Air Service	631-588-4800, 631-588-5400	9360
-NY	New York	Long Island Mac Arthur Airport	KISP	Sheltair Islip	631-588-0303	9360
-NY	New York	Stewart International Airport	KSWF	Atlantic Aviation	845-567-9800	3930
-NY	New York	Stewart International Airport	KSWF	Signature Flight Support	845-567-2601	3930
-NY	New York	John F Kennedy International Airport	KJFK	Sheltair JFK	347-566-6620	37680
-NY	New York	LaGuardia Airport	KLGA	Sheltair LaGuardia	718-779-4040	30330
-NY	Niagara Falls	Niagara Falls International Airport	KIAG	Calspan Air Services	716-298-9307	1590
-NY	Norwich	LT Warren Eaton Airport	KOIC	Chenango County Airport	607-334-9430	1410
-NY	Ogdensburg	Ogdensburg International Airport	KOGS	 Volo Aviation	315-393-4721	112
-NY	Olean	Cattaraugus County-Olean Airport	KOLE	Cattaraugus County-Olean Airport	716-557-8800	2100
-NY	Oneonta	Oneonta Municipal Airport	N66	Bentley Aviation	607-431-1076	1770
-NY	Penn Yan	Penn Yan Airport	KPEO	Seneca Flight Operations	315-536-4471	1590
-NY	Perry	Perry-Warsaw Airport	01G	Town of Perry	585-353-4666	1200
-NY	Piseco	Piseco Airport	K09	Piseco Airport	518-548-8794	240
-NY	Plattsburgh	Plattsburgh International Airport	KPBG	 Volo Aviation	518-324-4300	1020
-NY	Potsdam	Potsdam Municipal Airport (Damon Field)	KPTD	Village of Potsdam	315-265-7480	460
-NY	Poughkeepsie	Hudson Valley Regional Airport	KPOU	FlightLevel Dutchess	845-849-3770	6360
-NY	Rochester	Greater Rochester International Airport	KROC	 USAirports Flight Support	585-527-6835	6360
-NY	Rochester	Greater Rochester International Airport	KROC	 Avflight Rochester	585-235-9040	6360
-NY	Rome	Griffiss International Airport	KRME	Million Air Rome	315-736-9404	2340
-NY	Saranac Lake	Adirondack Regional Airport	KSLK	Adirondack Regional Airport	518-891-4600	488
-NY	Saratoga Springs	Saratoga County Airport	5B2	North American Flight Services	518-885-5470	3180
-NY	Schenectady	Schenectady County Airport	KSCH	Richmor Aviation	518-399-8171	4560
-NY	Seneca Falls	Finger Lakes Regional Airport	0G7	Finger Lakes Regional Airport	315-568-0110	1050
-NY	Shirley	Brookhaven Airport	KHWV	 Northeast Airpark/Northeast Aviation Fueling	631-521-7033, 631-399-3348	3240
-NY	Shirley	Brookhaven Airport	KHWV	Mid-Island Air Service	631-281-5400	3240
-NY	Sidney	Sidney Municipal Airport	N23	Sidney Municipal Airport	607-561-2346	630
-NY	Skaneateles	Skaneateles Aero Drome	6B9	Skaneateles Airport	800-272-3681	750
-NY	South Bethlehem	South Albany Airport	4B0	South Albany Airport Corp.	518-767-9189	2340
-NY	Syracuse	Syracuse Hancock International Airport	KSYR	Signature Flight Support	315-455-7951	5400
-NY	Ticonderoga	Ticonderoga Municipal Airport	4B6	Town of Ticonderoga	518-585-6265, 518-585-6677	930
-NY	Utica/Frankfort	Frankfort-Highland Airport	6B4	Davand Aviation	718-455-6600	990
-NY	Warwick	Warwick Municipal Airport	N72	Warwick Municipal Airport	845-986-9544	344
-NY	Watertown	Watertown International Airport	KART	County of Jefferson (FBO)	315-786-6001	3990
-NY	Weedsport	Whitfords Airport	B16	Whitford's Airport, LLC	315-834-9950	468
-NY	Wellsville	Wellsville Municipal Airport, Tarantine Field	KELZ	Wellsville Municipal Airport	585-593-3350	780
-NY	Westhampton Beach	Francis S Gabreski Airport	KFOK	Sheltair Westhampton Beach	631-288-9866	4800
-NY	White Plains	Westchester County Airport	KHPN	Signature Flight Support (East)	914-682-7770	12210
-NY	White Plains	Westchester County Airport	KHPN	Million Air White Plains	914-946-0100	12210
-NY	White Plains	Westchester County Airport	KHPN	Signature Flight Support (west)	914-428-3730	12210
-NY	White Plains	Westchester County Airport	KHPN	Ross Aviation (West)	914-328-9800	12210
-NY	White Plains	Westchester County Airport	KHPN	Ross Aviation (East)	914-761-3000	12210
-NY	Williamson/Sodus	Williamson-Sodus Airport	KSDC	Williamson Flying Club	315-483-6011	2190
+NY	Akron	Akron Airport	9G3	 Christian Airmen	716-542-4607	
+NY	Albany	Albany International Airport	KALB	Million Air Albany	518-242-2444	
+NY	Batavia	Genesee County Airport	KGVQ	 Genesee County Airport	585-344-8534, 585-344-8532	
+NY	Binghamton	Greater Binghamton Airport/Edwin A Link Field	KBGM	FirstAIR	607-644-1062	
+NY	Brockport	Ledgedale Airpark	7G0	Big Fella Enterprises / Ledgedale Airpark	585-637-5050	
+NY	Buffalo	Buffalo Niagara International Airport	KBUF	Prior Aviation	716-633-1000	
+NY	Buffalo	Buffalo Airfield	9G0	Lindsay Aviation	716-668-4900	
+NY	Canandaigua	Canandaigua Airport	D38	MFC Aviation Services	585-394-4780, 585-396-0584	
+NY	Cooperstown	Cooperstown-Westville Airport	K23	BoDee Aviation	607-287-7032	
+NY	Corning	Corning-Painted Post Airport	7N1	Costa Flying Service	607-962-0053	
+NY	Cortland	Cortland County Airport-Chase Field	N03	Cortland County Airport-Chase Field	607-745-2477	
+NY	Dansville	Dansville Municipal Airport	KDSV	Dansville Aero, Inc	585-330-8840	
+NY	Duanesburg	Duanesburg Airport	4B1	Duanesburg NuEagle LLC	518-421-8881	
+NY	Dunkirk	Chautauqua County/Dunkirk Airport	KDKK	 Dunkirk Aviation Sales & Service	716-366-6938	
+NY	East Hampton	East Hampton Airport	KHTO	Sound Aircraft Services	631-537-2202	
+NY	East Hampton	East Hampton Airport	KHTO	Myers Aero Fuels	631-537-3737	
+NY	Ellenville	Joseph Y Resnick Airport	N89	Town of Wawarsing	845-647-8401	
+NY	Elmira/Corning	Elmira/Corning Regional Airport	KELM	Atlantic Aviation	607-739-3597	
+NY	Endicott	Tri-Cities Airport	KCZG	Village of Endicott	607-785-0467	
+NY	Farmingdale	Republic Airport	KFRG	Sheltair Farmingdale	631-843-9488	
+NY	Farmingdale	Republic Airport	KFRG	Republic Jet Center (f/k/a Talon Air FBO)	631-881-9520	
+NY	Farmingdale	Republic Airport	KFRG	Atlantic Aviation	631-752-9022	
+NY	Fulton	Oswego County Airport	KFZY	Oswego County Airport	315-591-9130	
+NY	Gasport	Royalton Airport	9G5	Tanger-Aire	716-804-6857	
+NY	Glens Falls	Floyd Bennett Memorial Airport	KGFL	Rich Air	518-798-3091	
+NY	Gowanda	Gowanda Airport	D59	Gernatt Asphalt Products	716-532-3371	
+NY	Hamburg	Hamburg Inc Airport	4G2	Hamburg Airport	716-627-2440	
+NY	Hamilton	Hamilton Municipal Airport	KVGC	Village of Hamilton	315-824-6681	
+NY	Hudson	Columbia County Airport	1B1	Richmor Aviation	518-828-9461	
+NY	Ithaca	Ithaca Tompkins Regional Airport	KITH	 Taughannock Aviation	607-257-7500	
+NY	Jamestown	Chautauqua County/Jamestown Airport	KJHW	 Jamestown Aviation Company	716-665-4800	
+NY	Johnstown	Fulton County Airport	NY0	The 195 Factory	518-882-6392	
+NY	Kingston	Kingston-Ulster Airport	20N	Richmor Aviation	845-336-8400	
+NY	Lake Placid	Lake Placid Airport	KLKP	Adirondack Flying Service	518-523-2473	
+NY	Lancaster	Buffalo-Lancaster Regional Airport	KBQR	Lancaster Airport, Inc.	716-860-6044	
+NY	Le Roy	Le Roy Airport	5G0	 Le Roy Aviation Services, Inc.	585-768-4560, 585-259-9308	
+NY	Lockport	North Buffalo Suburban Airport	0G0	North Buffalo Suburban Airport	716-625-8111	
+NY	Malone	Malone-Dufort Airport	KMAL	Malone-Dufort Airport	518-483-5073	
+NY	Massena	Massena International Airport-Richards Field	KMSS	Town of Massena (FBO)	315-769-7605	
+NY	Middletown	Randall Airport	06N	Randall Airport	845-343-5965	
+NY	Millbrook	Sky Acres Airport	44N	 HerGin Aviation, Inc.	845-677-5010	
+NY	Montgomery	Orange County Airport	KMGJ	 Orange County Airport	845-457-4944, 845-457-4925	
+NY	Monticello	Sullivan County International Airport	KMSV	Private Flight Maintenance	845-583-5200	
+NY	New York	Long Island Mac Arthur Airport	KISP	Hawthorne Global Aviation Services	631-913-7102	
+NY	New York	Long Island Mac Arthur Airport	KISP	New York Jet / Mid Island Air Service	631-588-4800, 631-588-5400	
+NY	New York	Long Island Mac Arthur Airport	KISP	Sheltair Islip	631-588-0303	
+NY	New York	Stewart International Airport	KSWF	Atlantic Aviation	845-567-9800	
+NY	New York	Stewart International Airport	KSWF	Signature Flight Support	845-567-2601	
+NY	New York	John F Kennedy International Airport	KJFK	Sheltair JFK	347-566-6620	
+NY	New York	LaGuardia Airport	KLGA	Sheltair LaGuardia	718-779-4040	
+NY	Niagara Falls	Niagara Falls International Airport	KIAG	Calspan Air Services	716-298-9307	
+NY	Norwich	LT Warren Eaton Airport	KOIC	Chenango County Airport	607-334-9430	
+NY	Ogdensburg	Ogdensburg International Airport	KOGS	 Volo Aviation	315-393-4721	
+NY	Olean	Cattaraugus County-Olean Airport	KOLE	Cattaraugus County-Olean Airport	716-557-8800	
+NY	Oneonta	Oneonta Municipal Airport	N66	Bentley Aviation	607-431-1076	
+NY	Penn Yan	Penn Yan Airport	KPEO	Seneca Flight Operations	315-536-4471	
+NY	Perry	Perry-Warsaw Airport	01G	Town of Perry	585-353-4666	
+NY	Piseco	Piseco Airport	K09	Piseco Airport	518-548-8794	
+NY	Plattsburgh	Plattsburgh International Airport	KPBG	 Volo Aviation	518-324-4300	
+NY	Potsdam	Potsdam Municipal Airport (Damon Field)	KPTD	Village of Potsdam	315-265-7480	
+NY	Poughkeepsie	Hudson Valley Regional Airport	KPOU	FlightLevel Dutchess	845-849-3770	
+NY	Rochester	Greater Rochester International Airport	KROC	 USAirports Flight Support	585-527-6835	
+NY	Rochester	Greater Rochester International Airport	KROC	 JetSmart Aviation Services	585-235-9040	
+NY	Rome	Griffiss International Airport	KRME	Million Air Rome	315-736-9404	
+NY	Saranac Lake	Adirondack Regional Airport	KSLK	Adirondack Regional Airport	518-891-4600	
+NY	Saratoga Springs	Saratoga County Airport	5B2	North American Flight Services	518-885-5470	
+NY	Schenectady	Schenectady County Airport	KSCH	Richmor Aviation	518-399-8171	
+NY	Seneca Falls	Finger Lakes Regional Airport	0G7	Finger Lakes Regional Airport	315-568-0110	
+NY	Shirley	Brookhaven Airport	KHWV	 Northeast Airpark/Northeast Aviation Fueling	631-521-7033, 631-399-3348	
+NY	Shirley	Brookhaven Airport	KHWV	Mid-Island Air Service	631-281-5400	
+NY	Sidney	Sidney Municipal Airport	N23	Sidney Municipal Airport	607-561-2346	
+NY	Skaneateles	Skaneateles Aero Drome	6B9	Skaneateles Airport	800-272-3681	
+NY	South Bethlehem	South Albany Airport	4B0	South Albany Airport Corp.	518-767-9189	
+NY	Syracuse	Syracuse Hancock International Airport	KSYR	Signature Flight Support	315-455-7951	
+NY	Ticonderoga	Ticonderoga Municipal Airport	4B6	Town of Ticonderoga	518-585-6265, 518-585-6677	
+NY	Utica/Frankfort	Frankfort-Highland Airport	6B4	Davand Aviation	718-455-6600	
+NY	Warwick	Warwick Municipal Airport	N72	Warwick Municipal Airport	845-986-9544	
+NY	Watertown	Watertown International Airport	KART	County of Jefferson (FBO)	315-786-6001	
+NY	Weedsport	Whitfords Airport	B16	Whitford's Airport, LLC	315-834-9950	
+NY	Wellsville	Wellsville Municipal Airport, Tarantine Field	KELZ	Wellsville Municipal Airport	585-593-3350	
+NY	Westhampton Beach	Francis S Gabreski Airport	KFOK	Sheltair Westhampton Beach	631-288-9866	
+NY	White Plains	Westchester County Airport	KHPN	Signature Flight Support (East)	914-682-7770	
+NY	White Plains	Westchester County Airport	KHPN	Million Air White Plains	914-946-0100	
+NY	White Plains	Westchester County Airport	KHPN	Signature Flight Support (west)	914-428-3730	
+NY	White Plains	Westchester County Airport	KHPN	Ross Aviation (West)	914-328-9800	
+NY	White Plains	Westchester County Airport	KHPN	Ross Aviation (East)	914-761-3000	
+NY	Williamson/Sodus	Williamson-Sodus Airport	KSDC	Williamson Flying Club	315-483-6011	

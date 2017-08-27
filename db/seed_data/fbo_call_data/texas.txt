@@ -1,297 +1,296 @@
-TX	Abilene	Abilene Regional Airport	KABI	 Abilene Aero	325-677-2601	4470
-TX	Albany	Albany Municipal Airport	T23	Albany Municipal Airport	325-762-3133, 325-762-0413	216
-TX	Alice	Alice International Airport	KALI	 KALI Aviation, LLC.	361-664-2656	2190
-TX	Alpine	Alpine-Casparis Municipal Airport	E38	City of Alpine (FBO)	432-837-5929	870
-TX	Amarillo	Rick Husband Amarillo International Airport	KAMA	 TAC Air	806-335-3551	4980
-TX	Amarillo	Tradewind Airport	KTDW	 Tradewind Airport	806-376-1008	3630
-TX	Anahuac	Chambers County Airport	T00	Chambers County Anahuac Airport	409-267-2719	184
-TX	Andrews	Andrews County Airport	E11	Andrews County Airport	432-524-1447	840
-TX	Angleton/Lake Jackson	Texas Gulf Coast Regional Airport	KLBX	Texas Gulf Coast Regional Airport (FBO)	979-849-5755	6420
-TX	Arlington	Arlington Municipal Airport	KGKY	Harrison Aviation	817-557-0350	7260
-TX	Athens	Athens Municipal Airport	F44	 Athens Jet Center	903-675-0086, 903-288-4455	960
-TX	Athens	Athens Municipal Airport	F44	Dyson Aviation	903-677-0669	960
-TX	Atlanta	Hall-Miller Municipal Airport	KATA	Flyin JN LLC	903-932-1767	1650
-TX	Austin	Austin-Bergstrom International Airport	KAUS	Signature Flight Support	512-530-5451	15780
-TX	Austin	Austin-Bergstrom International Airport	KAUS	Atlantic Aviation	512-382-8810	15780
-TX	Austin	San Marcos Regional Airport	KHYI	Berry Aviation, Inc.	512-353-2379	3690
-TX	Austin	San Marcos Regional Airport	KHYI	Redbird Skyport, Inc.	512-878-6670	3690
-TX	Austin	Austin Executive Airport	KEDC	Henriksen Jet Center	512-247-7678	3360
-TX	Ballinger	Bruce Field Airport	E30	Bruce Field Airport	325-365-3907	220
-TX	Bay City	Bay City Regional Airport	KBYY	Bay City Regional Airport	979-244-5037	1170
-TX	Baytown	Baytown Airport	KHPY	 Raceco Inc.	281-421-1671, 713-303-8638	780
-TX	Baytown	RWJ Airpark	54T	Bay Area Aviation	281-383-2320	750
-TX	Beaumont	Beaumont Municipal Airport	KBMT	Beaumont Wings	409-866-0084	1080
-TX	Beaumont/Port Arthur	Jack Brooks Regional Airport	KBPT	Jack Brooks Regional Airport	409-719-4950	1200
-TX	Beeville	Beeville Municipal Airport	KBEA	Beeville Air Services	361-358-0410	930
-TX	Beeville	Chase Field Industrial Airport	TX2	Beeville Air Services	361-358-0410, 361-358-2023	15
-TX	Big Lake	Reagan County Airport	E41	Reagan County Airport	325-650-1314	308
-TX	Big Spring	Big Spring Mc Mahon-Wrinkle Airport	KBPG	Lone Star Aviation	432-264-7124	1920
-TX	Bishop	Bishop Municipal Airport	07R	Bishop Airport	361-595-5382	92
-TX	Bonham	Jones Field Airport	F00	Jones Field	903-583-8623	1110
-TX	Borger	Hutchinson County Airport	KBGD	Hutchinson County Airport	806-273-0137	810
-TX	Bowie	Bowie Municipal Airport	0F2	Bowie Municipal Airport	940-872-6357, 940-841-4156	1140
-TX	Brady	Curtis Field Airport	KBBD	 City of Brady (FBO)	325-597-1461, 325-456-1595	2160
-TX	Breckenridge	Stephens County Airport	KBKD	Breck Airways	254-559-2515	1260
-TX	Brenham	Brenham Municipal Airport	11R	Southern Flyer	979-836-5462	2280
-TX	Bridgeport	Bridgeport Municipal Airport	KXBP	Bridgeport Municipal Airport	940-683-3400	1830
-TX	Brownfield	Terry County Airport	KBFE	Terry County Airport	806-543-9840	520
-TX	Brownsville	Brownsville/South Padre Island International Airport	KBRO	 Southmost Aviation	956-542-5852	2220
-TX	Brownsville	Brownsville/South Padre Island International Airport	KBRO	 Hunt Pan Am Aviation	956-542-9111	2220
-TX	Brownwood	Brownwood Regional Airport	KBWD	Brownwood Regional Airport	325-643-1482, 325-642-0868	2040
-TX	Bryan	Coulter Field Airport	KCFD	City of Bryan (FBO)	979-209-5233	1320
-TX	Burnet	Burnet Municipal Airport-Kate Craddock Field	KBMQ	Faulkner's Air Shop	512-756-6655	1710
-TX	Caddo Mills	Caddo Mills Municipal Airport	7F3	Blink Design and Manufacturing, LLC	903-527-3888	1140
-TX	Caldwell	Caldwell Municipal Airport	KRWV	 Caldwell Flying Service	979-567-3003, 979-595-6666	544
-TX	Cameron	Cameron Municipal Airpark	T35	 City of Cameron	254-697-6646	276
-TX	Canadian	Hemphill County Airport	KHHF	Hemphill County Airport	806-679-4774	492
-TX	Carrizo Springs	Dimmit County Airport	KCZT	Dimmit County Airport	830-876-9339, 830-255-1312	216
-TX	Carthage	Panola County Airport-Sharpe Field	4F2	 Panola County Airport-Sharpe Field	903-693-7856	900
-TX	Castroville	Castroville Municipal Airport	KCVB	 Castroville Municipal Airport	830-931-0234, 830-538-4260	1350
-TX	Center	Center Municipal Airport	F17	Center Municipal Airport	936-598-8119	2010
-TX	Childress	Childress Municipal Airport	KCDS	Boedeker Flying Service	940-937-8309, 325-374-0439	372
-TX	Cisco	Gregory M Simmons Memorial Airport	KGZN	Cisco Aviation	817-850-3670, 254-433-1874	42
-TX	Cleburne	Cleburne Regional Airport	KCPT	Cleburne Regional Airport	817-641-5456	2730
-TX	Cleveland	Cleveland Municipal Airport	6R3	Aviation Services	281-592-1282	1170
-TX	Clifton	Clifton Municipal Airport/Isenhower Field	7F7	Clifton Aero	254-675-3771	492
-TX	Coleman	Coleman Municipal Airport	KCOM	City of Coleman Municipal Airport	325-625-2293, 325-625-5114	630
-TX	College Station	Easterwood Field Airport	KCLL	Astin Aviation	979-775-5255	3840
-TX	Columbus	Robert R Wells Jr. Airport	66R	Colorado County	979-732-9500, 979-732-2604	308
-TX	Comanche	Comanche County-City Airport	KMKN	Comanche County-City Airport	325-356-2175	750
-TX	Commerce	Commerce Municipal Airport	2F7	City of Commerce	903-886-1128	384
-TX	Corpus Christi	Corpus Christi International Airport	KCRP	Signature Flight Support	361-289-0585	4860
-TX	Corpus Christi	Corpus Christi International Airport	KCRP	Atlantic Aviation	361-289-1881	4860
-TX	Corsicana	C David Campbell Field-Corsicana Municipal Airport	KCRS	Corsicana Aviation Services	903-654-4847	2070
-TX	Cotulla	Cotulla-La Salle County Airport	KCOT	Page Aviation	830-879-3858	1110
-TX	Crockett	Houston County Airport	KDKR	Houston County Airport	936-544-3255, 936-544-2862	720
-TX	Dalhart	Dalhart Municipal Airport	KDHT	 Larsen Aviation	806-244-5521, 806-249-5521	930
-TX	Dalhart	Dalhart Municipal Airport	KDHT	Bailey Flying Service, Inc.	806-244-6511	930
-TX	Dallas	Dallas Love Field Airport	KDAL	Textar Aviation	214-654-0994	18390
-TX	Dallas	Dallas Love Field Airport	KDAL	Business Jet Center	214-654-1600	18390
-TX	Dallas	Dallas Love Field Airport	KDAL	Signature Flight Support (Terminal 3)	214-351-1872	18390
-TX	Dallas	Dallas Love Field Airport	KDAL	Jet Aviation	214-350-8523	18390
-TX	Dallas	Dallas Love Field Airport	KDAL	Signature Flight Support (Terminal 1)	214-956-1000	18390
-TX	Dallas	Dallas Love Field Airport	KDAL	Dalfort Fueling	214-353-7000	18390
-TX	Dallas	Addison Airport	KADS	Atlantic Aviation	972-713-7000	7920
-TX	Dallas	Addison Airport	KADS	 Million Air Dallas	972-248-1600	7920
-TX	Dallas	McKinney National Airport	KTKI	McKinney Air Center	972-547-3401, 972-984-1200	8940
-TX	Dallas	Dallas Executive Airport	KRBD	Ambassador Jet Center	214-623-8800, 214-251-6512	3540
-TX	Dallas	Air Park-Dallas Airport	F69	Sprinx Aviation	214-909-5999	1470
-TX	Dallas-Fort Worth	Dallas-Fort Worth International Airport	KDFW	DFW Corporate Aviation	972-973-3700, 972-973-3701	55590
-TX	Decatur	Decatur Municipal Airport	KLUD	Decatur Jet Center	940-627-1050	1470
-TX	Del Rio	Del Rio International Airport	KDRT	 Pico Aviation	830-768-0898, 830-734-3379	1260
-TX	Denton	Denton Enterprise Airport	KDTO	US Jet Center	866-383-2400, 940-297-6411	13560
-TX	Denver City	Denver City Airport	E57	Denver City Airport	806-592-3820	336
-TX	Dimmitt	Dimmitt Municipal Airport	T55	B & W Aerial Spray	806-647-2550	200
-TX	Dryden	Terrell County Airport	6R6	Terrell County Airport	432-345-6731	25
-TX	Dumas	Moore County Airport	KDUX	Moore County Airport	806-935-6995	900
-TX	Eagle Lake	Eagle Lake Airport	KELA	Eagle Lake Aviation	713-502-4064	840
-TX	Eagle Pass	Maverick County Memorial International Airport	5T9	Bravo Aero Service	830-773-9636	84
-TX	Eastland	Eastland Municipal Airport	KETN	Eastland Aero	254-629-1588, 254-488-1055	900
-TX	Edinburg	South Texas International Airport at Edinburg	KEBG	 City of Edinburg	956-522-3580, 956-292-2047	316
-TX	Edna	Jackson County Airport	26R	Jackson County Airport	361-652-4163	630
-TX	El Paso	El Paso International Airport	KELP	Atlantic Aviation	915-779-2831	8250
-TX	Eldorado	Eldorado Airport	27R	Schleicher County Airport	325-650-9553	184
-TX	Ennis	Ennis Municipal Airport	F41	Hammock Aviation Services	972-875-4279	284
-TX	Fabens	Fabens Airport	E35	Olivas Aviation	915-764-3549	870
-TX	Falfurrias	Brooks County Airport	KBKS	Mabo, Inc.	361-325-2909	660
-TX	Floydada	Floydada Municipal Airport	41F	Probasco Flying Service	806-983-2314	484
-TX	Fort Hood (Killeen)	Robert Gray Army Airfield	KGRK	Killeen-Fort Hood Regional Airport	254-501-6100	2070
-TX	Fort Stockton	Fort Stockton-Pecos County Airport	KFST	Fort Stockton Aviation	432-336-9900, 432-336-9901	690
-TX	Fort Worth	Fort Worth Meacham International Airport	KFTW	Texas Jet	817-624-8438	10380
-TX	Fort Worth	Fort Worth Meacham International Airport	KFTW	American Aero FTW - Signature Select	817-625-2366	10380
-TX	Fort Worth	Fort Worth Meacham International Airport	KFTW	Cornerstone Air Center	817-625-5700	10380
-TX	Fort Worth	Fort Worth Alliance Airport	KAFW	Alliance Aviation Services	817-890-1000	9810
-TX	Fort Worth	Fort Worth Spinks Airport	KFWS	Harrison Aviation	817-447-8016	5550
-TX	Fort Worth	Hicks Airfield	T67	Rio Concho Aviation	817-233-1058	8880
-TX	Fort Worth	Bourland Field Airport	50F	Bourland Field	817-396-4554	3840
-TX	Fort Worth	Sycamore Strip Airport	9F9	A & W Aircraft	817-293-0510	77
-TX	Fredericksburg	Gillespie County Airport	T82	Fredericksburg FBO	830-997-3313	1230
-TX	Friona	Benger Air Park	X54	Berger Aero Spraying	806-250-2861	600
-TX	Gainesville	Gainesville Municipal Airport	KGLE	City of Gainesville (FBO)	940-668-4565	2010
-TX	Galveston	Scholes International Airport at Galveston	KGLS	Galveston Aviation Services, Inc.	877-744-9003, 409-744-9000	2550
-TX	Gatesville	Gatesville Municipal Airport	KGOP	City of Gatesville	254-865-8951	1200
-TX	George West	Live Oak County Airport	8T6	Live Oak County Airport	361-449-2733	116
-TX	Georgetown	Georgetown Municipal Airport	KGTU	GTU Jet	512-869-0900	8010
-TX	Georgetown	Georgetown Municipal Airport	KGTU	 City of Georgetown Terminal	512-930-3666, 512-930-2573	8010
-TX	Georgetown	Georgetown Municipal Airport	KGTU	 AeroJet Center	512-863-5530, 512-863-5530	8010
-TX	Giddings	Giddings-Lee County Airport	KGYB	Sills Aviation Services LLC	979-542-6081	1080
-TX	Gilmer	Fox Stephens Field - Gilmer Municipal Airport	KJXI	J L Aero	903-734-6601	1440
-TX	Gladewater	Gladewater Municipal Airport	07F	Gladewater Municipal Airport	903-845-2116	1440
-TX	Gonzales	Roger M Dreyer Memorial Airport	T20	City of Gonzales (self-serve fuel)	830-672-2815	244
-TX	Graham	Graham Municipal Airport	KRPH	City of Graham (FBO)	940-549-6150	1110
-TX	Granbury	Granbury Regional Airport	KGDJ	 Granbury Regional Airport	817-579-8533	2730
-TX	Grand Prairie	Grand Prairie Municipal Airport	KGPM	 Aviator Air	972-988-8609	5400
-TX	Grand Prairie	Grand Prairie Municipal Airport	KGPM	 City of Grand Prairie	972-237-7592	5400
-TX	Greenville	Majors Airport	KGVT	Greenville Aviation	903-457-2960	1560
-TX	Hallettsville	Hallettsville Municipal Airport	34R	Hallettsville Municipal Airport	361-798-3681	160
-TX	Hamilton	Hamilton Municipal Airport	KMNZ	City of Hamilton	254-386-3939	528
-TX	Harlingen	Valley International Airport	KHRL	Sun Valley Aviation	956-421-4545	2760
-TX	Harlingen	Valley International Airport	KHRL	Gulf Aviation, Inc.	956-423-7317	2760
-TX	Haskell	Haskell Municipal Airport	15F	City of Haskell	940-864-2333	184
-TX	Hearne	Hearne Municipal Airport	KLHB	 City of Hearne	979-412-1031, 979-279-3461	244
-TX	Henderson	Rusk County Airport	KRFI	Rusk County Airport	903-657-7081	1020
-TX	Hereford	Hereford Municipal Airport	KHRX	City of Hereford (FBO)	806-258-7289	1110
-TX	Hillsboro	Hillsboro Municipal Airport	KINJ	Hillsboro Municipal Airport	254-582-3731	900
-TX	Hondo	South Texas Regional Airport at Hondo	KHDO	South Texas Regional Airport at Hondo	830-426-3810	2040
-TX	Horseshoe Bay	Horseshoe Bay Resort Airport	KDZB	 Horseshoe Bay Resort Jet Center	830-598-6386	536
-TX	Houston	William P Hobby Airport	KHOU	Wilson Air Center	713-649-8700	16800
-TX	Houston	William P Hobby Airport	KHOU	Million Air Houston	713-640-4000	16800
-TX	Houston	William P Hobby Airport	KHOU	Signature Flight Support	713-353-5300	16800
-TX	Houston	William P Hobby Airport	KHOU	Jet Aviation	713-358-9100	16800
-TX	Houston	William P Hobby Airport	KHOU	Atlantic Aviation	713-644-6431	16800
-TX	Houston	David Wayne Hooks Memorial Airport	KDWH	Gill Aviation	281-376-5436	8160
-TX	Houston	David Wayne Hooks Memorial Airport	KDWH	 Tomball Jet Center	281-251-2800	8160
-TX	Houston	George Bush Intercontinental/Houston Airport	KIAH	Signature Flight Support	281-209-2673	38550
-TX	Houston	George Bush Intercontinental/Houston Airport	KIAH	Atlantic Aviation	281-443-3434	38550
-TX	Houston	Sugar Land Regional Airport	KSGR	GlobalSelect	281-275-2400	6030
-TX	Houston	Conroe-North Houston Regional Airport	KCXO	General Aviation Services FBO	936-760-1717	5190
-TX	Houston	Conroe-North Houston Regional Airport	KCXO	Galaxy FBO	936-494-4252	5190
-TX	Houston	Ellington Airport	KEFD	Signature Flight Support	281-484-6551	8400
-TX	Houston	Ellington Airport	KEFD	 On the Fly Self-Fueling Station	713-847-4234	8400
-TX	Houston	Houston Executive Airport	KTME	Henriksen Jet Center	866-936-2626, 281-945-5000	1380
-TX	Houston	West Houston Airport	KIWS	West Houston Airport	281-492-2130	8460
-TX	Houston	Pearland Regional Airport	KLVJ	 Pearland Regional Airport FBO	281-482-7551	4920
-TX	Houston	Houston Southwest Airport	KAXH	Houston Southwest Airport	281-431-2581	3510
-TX	Houston	Weiser Air Park	KEYQ	Weiser Airpark	281-469-8227	3120
-TX	Houston	North Houston Airport	9X1	North Houston Airport	281-572-1111	810
-TX	Houston	Dan Jones International Airport	T51	Dan Jones International Airport	936-521-9887	630
-TX	Huntsville	Huntsville Municipal Airport	KUTS	Huntsville Aviation	936-295-8136	2430
-TX	Ingleside	McCampbell-Porter Airport	KTFP	Corpus Christi Jet Center	361-758-2000	2550
-TX	Iraan	Iraan Municipal Airport	2F0	Iraan Municipal Airport	432-639-2841	124
-TX	Jacksonville	Cherokee County Airport	KJSO	Cherokee County Airport	903-586-8219	1650
-TX	Jasper	Jasper County Airport-Bell Field	KJAS	Bravo Aviation	409-381-8151	1320
-TX	Jefferson	Cypress River Airport	24F	Cypress River Airport	903-665-8067	244
-TX	Junction	Kimble County Airport	KJCT	Kimble County Airport	325-446-2820, 325-446-6494	630
-TX	Kenedy	Karnes County Airport	2R9	Stetson Aviation, Inc.	830-583-9884, 830-583-5930	228
-TX	Kerrville	Kerrville Municipal Airport/Louis Schreiner Field	KERV	Kerrville Aviation	830-257-8840	4290
-TX	Kingsville	Kleberg County Airport	KIKG	Mike's Aircraft Shop	361-592-1225	47
-TX	Kirbyville	Kirbyville Airport	T12	J & J Aviation	409-423-2166	810
-TX	Kountze/Silsbee	Hawthorne Field Airport	45R	Hardin County Aviation	409-782-7620	320
-TX	Kress	Joe Vaughn Spraying Airport	29F	Joe Vaughn Spraying	806-684-2732	152
-TX	La Grange	Fayette Regional Air Center Airport	3T5	Fayette Aero	979-242-3316	750
-TX	La Porte	La Porte Municipal Airport	T41	Tri-Star Aviation	281-470-7827, 281-471-5850	2400
-TX	La Porte	La Porte Municipal Airport	T41	Harvey & Rihn Aviation	281-471-1675	2400
-TX	Lago Vista	Lago Vista TX - Rusty Allen Airport	KRYW	Lago Vista Airport	512-267-4573	3120
-TX	Lakeway	Lakeway Airpark	3R9	Lakeway Airpark	512-261-4385	750
-TX	Lamesa	Lamesa Municipal Airport	2F5	City of Lamesa (self-serve fuel)	806-759-9270, 806-759-7747	1110
-TX	Lampasas	Lampasas Airport	KLZZ	 City of Lampasas (FBO)	512-556-6640, 512-556-6831	900
-TX	Lancaster	Lancaster Regional Airport	KLNC	Lancaster Regional Airport	972-227-5721	5520
-TX	Laredo	Laredo International Airport	KLRD	Signature Flight Support	956-723-2031	8280
-TX	Laredo	Laredo International Airport	KLRD	Barker Ground Services, Inc.	956-728-7540, 956-724-7897	8280
-TX	Laredo	Laredo International Airport	KLRD	 Laredo Jet Center	956-791-3500, 956-436-4566	8280
-TX	Levelland	Levelland Municipal Airport	KLLN	Levelland Aero Services, Inc.	806-897-4774	1140
-TX	Liberty	Liberty Municipal Airport	T78	Liberty Municipal Airport	281-660-2337, 936-336-3684	480
-TX	Littlefield	Littlefield Taylor Brown Municipal Airport	KLIU	Brown Flying Service	806-777-5030	540
-TX	Livingston	Livingston Municipal Airport	00R	Burrows Air	936-967-5858	750
-TX	Llano	Llano Municipal Airport	KAQO	City of Llano	325-247-5635, 325-247-4158	810
-TX	Lockhart	Lockhart Municipal Airport	50R	Martin & Martin Aviation	512-376-9608	1290
-TX	Longview	East Texas Regional Airport	KGGG	KRS Jet Center	903-643-2010	4980
-TX	Longview	East Texas Regional Airport	KGGG	 Stebbins Aviation, Inc.	903-643-2621	4980
-TX	Lubbock	Lubbock Preston Smith International Airport	KLBB	Lubbock Aero	806-747-5101	5700
-TX	Lubbock	Lubbock Preston Smith International Airport	KLBB	 Chaparral Jet Center	806-762-6670	5700
-TX	Lubbock	Lubbock Executive Airpark	F82	Lubbock Executive Airpark	806-745-4967, 806-789-6437	2220
-TX	Lufkin	Angelina County Airport	KLFK	 Angelina County (FBO)	936-634-7511	1890
-TX	Marfa	Marfa Municipal Airport	KMRF	Presidio County	432-295-3906, 832-588-8888	1320
-TX	Marshall	Harrison County Airport	KASL	Central Jet Service	903-938-1394, 903-938-3908	1320
-TX	Mason	Mason County Airport	T92	Mason County Airport	325-347-8255	152
-TX	Mc Allen	Mc Allen Miller International Airport	KMFE	McCreery Aviation Co.	956-686-1774	4560
-TX	Mc Kinney	Aero Country Airport	T31	AC Fuels, LLC	281-513-6590	750
-TX	Mesquite	Mesquite Metro Airport	KHQZ	 Mesquite Metro Airport	972-216-4130, 972-216-4132	5850
-TX	Mexia	Mexia-Limestone County Airport	KLXY	Trim-Aire Aviation	254-562-2857	336
-TX	Midland	Midland International Air and Space Port Airport	KMAF	Signature Flight Support	432-563-2033	5190
-TX	Midland	Midland Airpark	KMDD	Basin Aviation	432-685-7000	2220
-TX	Midland	Skywest Airport Inc.	7T7	Skywest Airport, Inc.	432-570-5983	1530
-TX	Midlothian/Waxahachie	Mid-Way Regional Airport	KJWY	 Southern Star Aviation	972-937-5515, 972-923-0080	2640
-TX	Mineola	Mineola Airport-Wisener Field	3F9	Wisener Field Airport	903-569-5275	690
-TX	Mineola/Quitman	Wood County Airport	KJDD	East Texas Flying Service Inc.	903-571-0116	1650
-TX	Mineral Wells	Mineral Wells Airport	KMWL	 City of Mineral Wells (FBO)	940-328-7808	2640
-TX	Mount Pleasant	Mount Pleasant Regional Airport	KOSA	Mount Pleasant Regional Airport	903-575-4020	1350
-TX	Mount Vernon	Franklin County Airport	F53	Franklin County Airport	903-767-0602	600
-TX	Muleshoe	Muleshoe Municipal Airport	2T1	City of Muleshoe	806-272-4528	184
-TX	Munday	Munday Municipal Airport	37F	Petty Flying Service	940-422-4511	92
-TX	Nacogdoches	Nacogdoches A L Mangham Jr. Regional Airport	KOCH	 City of Nacogdoches	936-560-9567	2490
-TX	Navasota	Navasota Municipal Airport	60R	Spinner Aviation	979-429-3835	1050
-TX	New Braunfels	New Braunfels Regional Airport	KBAZ	City Terminal Flight Services	830-221-4290	4320
-TX	Odessa	Odessa Airport-Schlemeyer Field	KODO	Wildcatter Aviation	432-367-5881	4170
-TX	Olney	Olney Municipal Airport	KONY	City of Olney	940-564-2102	328
-TX	Orange	Orange County Airport	KORG	Sabine Aviation	409-883-6964	1020
-TX	Ozona	Ozona Municipal Airport	KOZA	McCleary Aircraft	325-392-2030, 325-226-2628	660
-TX	Palacios	Palacios Municipal Airport	KPSX	Palacios Municipal Airport	361-972-2400	540
-TX	Palestine	Palestine Municipal Airport	KPSN	Palestine Jet Center, LLC	903-723-0111	1050
-TX	Palmer	Dallas South Port Airport	T13	Pumpkin Air	214-926-3457, 214-926-3458	136
-TX	Pampa	Perry Lefors Field Airport	KPPA	Pampa Aircraft	806-665-1881	1800
-TX	Panhandle	Panhandle-Carson County Airport	T45	Panhandle/Carson County Airport	806-537-3517	252
-TX	Paris	Cox Field Airport	KPRX	J R Aviation	903-784-4648	900
-TX	Pearsall	Mc Kinley Field Airport	T30	Mc Kinley Aerial Service	830-334-7789	296
-TX	Pecos	Pecos Municipal Airport	KPEQ	Pecos Air Center	432-447-2488	1950
-TX	Perryton	Perryton Ochiltree County Airport	KPYX	Kelly & Company Aviation	806-435-4226	1590
-TX	Plains	Yoakum County Airport	F98	Sandy Land UWCD	806-456-2155	630
-TX	Plainview	Hale County Airport	KPVW	Rocket Aviation, LP	806-293-4121, 806-685-3682	1950
-TX	Pleasanton	Pleasanton Municipal Airport	KPEZ	Pleasanton Municipal Airport	830-569-3155	750
-TX	Port Isabel	Port Isabel-Cameron County Airport	KPIL	Hunt Pan Am Aviation	956-233-4424	2430
-TX	Port Lavaca	Calhoun County Airport	KPKV	 Calhoun Air Center	361-552-1228	720
-TX	Port Mansfield	Charles R Johnson Airport	T05	Willacy County Navigation District	956-944-2325	8
-TX	Presidio	Presidio Lely International Airport	KPRS	Presidio County	832-588-8888, 432-229-2514	75
-TX	Quanah	Quanah Municipal Airport	F01	Quanah Municipal Airport	970-219-6631	336
-TX	Refugio	Rooke Field Airport	KRFG	VanAir Aviation	361-526-4241	300
-TX	Roanoke	Northwest Regional Airport	52F	Northwest Regional Airport	817-430-1905	13620
-TX	Robstown	Nueces County Airport	KRBO	Nueces County Airport	361-387-1700	750
-TX	Rockdale	H H Coffield Regional Airport	KRCK	City of Rockdale	512-446-2511	244
-TX	Rockport	Aransas County Airport	KRKP	Aransas Co. Airport Services	361-790-0141	3930
-TX	Rosenberg	Lane Airpark	T54	Lane Aviation	281-232-5401	152
-TX	San Angelo	San Angelo Regional Airport/Mathis Field	KSJT	 Ranger Aviation Enterprises	325-949-3773	5790
-TX	San Angelo	San Angelo Regional Airport/Mathis Field	KSJT	Skyline Aviation	325-944-8858	5790
-TX	San Antonio	San Antonio International Airport	KSAT	Signature Flight Support (north)	210-828-0551	13560
-TX	San Antonio	San Antonio International Airport	KSAT	Signature Flight Support (south)	210-625-9100	13560
-TX	San Antonio	San Antonio International Airport	KSAT	Skyplace FBO	210-805-3130	13560
-TX	San Antonio	San Antonio International Airport	KSAT	 Million Air San Antonio	210-828-8181	13560
-TX	San Antonio	Stinson Municipal Airport	KSSF	GateONE	210-922-1203	7650
-TX	San Antonio	Kelly Field Airport	KSKF	Atlantic Aviation	210-921-6100	71
-TX	San Antonio	Boerne Stage Field Airport	5C1	 Boerne Stage Field	830-981-2345	3540
-TX	San Antonio	Bulverde Airpark	1T8	 Anderson Aviation	210-287-9073	1980
-TX	San Antonio	Kestrel Airpark	1T7	 Aloha Aviation Services	830-522-1885	532
-TX	San Saba	San Saba County Municipal Airport	81R	San Saba County Municipal Airport	325-372-3380	216
-TX	Seguin	Huber Airpark Civic Club LLC Airport	E70	 Veracity Aviation	830-379-9800	384
-TX	Seguin	Huber Airpark Civic Club LLC Airport	E70	 SVT Aviation Maintenance, LLC	210-744-8631	384
-TX	Seminole	Gaines County Airport	KGNC	Aero Clinic, Inc.	432-758-6455	870
-TX	Shamrock	Shamrock Municipal Airport	2F1	City of Shamrock	806-256-2136	92
-TX	Sherman	Sherman Municipal Airport	KSWI	City of Sherman (FBO)	903-891-4035	690
-TX	Sherman/Denison	North Texas Regional Airport/Perrin Field	KGYI	Lake Texoma Jet Center	903-786-2666	6570
-TX	Sinton	Alfred C 'Bubba' Thomas Airport	T69	Sky Park Aviation	361-364-3200	228
-TX	Slaton	Slaton Municipal Airport	F49	Neal Aircraft	806-828-5892	990
-TX	Smithville	Smithville Crawford Municipal Airport	84R	Fayette Aero LLC	979-242-3316, 210-241-3704	1380
-TX	Snyder	Winston Field Airport	KSNK	Winston Field	325-573-1122	930
-TX	Sonora	Sonora Municipal Airport	KSOA	Sonora Municipal Airport	325-387-2447, 325-387-2558	184
-TX	Spearman	Major Samuel B Cornelius Field Airport	E42	City of Spearman (FBO)	806-659-2524	600
-TX	Spicewood	Spicewood Airport	88R	Spicewood Airport	830-201-3111	1350
-TX	Stamford	Arledge Field Airport	F56	City of Stamford	325-370-7986	336
-TX	Stephenville	Stephenville Clark Regional Airport	KSEP	Stephenville Aviation	254-965-2795	1710
-TX	Sulphur Springs	Sulphur Springs Municipal Airport	KSLR	City of Sulphur Springs	903-885-4911	2790
-TX	Sweetwater	Avenger Field Airport	KSWW	Avenger Aviation Services	325-235-8478	810
-TX	Taylor	Taylor Municipal Airport	T74	Taylor Municipal Airport	512-352-5747, 512-352-3675	990
-TX	Temple	Draughon-Miller Central Texas Regional Airport	KTPL	 General Aviation Terminal	254-298-5770	3390
-TX	Terrell	Terrell Municipal Airport	KTRL	Terrell Aviation	972-524-1601, 972-563-2552	2760
-TX	Tulia	City of Tulia/Swisher County Municipal Airport	I06	City of Tulia (FBO)	806-995-3504	368
-TX	Tyler	Tyler Pounds Regional Airport	KTYR	 Jet Center of Tyler	903-597-1334	3360
-TX	Tyler	Tyler Pounds Regional Airport	KTYR	Johnson Aviation	903-593-4343	3360
-TX	Uvalde	Garner Field Airport	KUVA	Uvalde Flight Center	830-279-0877	1020
-TX	Van Horn	Culberson County Airport	KVHN	West Texas Aviation	432-283-2237	50
-TX	Vega	Oldham County Airport	E52	Oldham County Airport	806-267-2722	336
-TX	Vernon	Wilbarger County Airport	F05	Wilbarger County Airport	940-552-2182, 940-839-6365	1350
-TX	Victoria	Victoria Regional Airport	KVCT	Victoria Jet Center	361-578-1221	4500
-TX	Waco	Waco Regional Airport	KACT	Waco Jet Center, LLC	254-752-4100	3030
-TX	Waco	Waco Regional Airport	KACT	Texas Aero	254-752-9731	3030
-TX	Waco	Mc Gregor Executive Airport	KPWG	 Jag Aviation	254-848-2345, 254-379-8204	3000
-TX	Weatherford	Parker County Airport	KWEA	Chief Aero, LLC	817-599-9210, 682-249-1755	2070
-TX	Wellington	Marian Airpark	F06	City of Wellington	806-447-2544	312
-TX	Weslaco	Mid Valley Airport	T65	Weslaco Mid Valley Aviation	956-969-0291	51
-TX	Wharton	Wharton Regional Airport	KARM	City of Wharton	979-532-3210	344
-TX	Wheeler	Wheeler Municipal Airport	T59	City of Wheeler	806-826-3222	33
-TX	Wichita Falls	Sheppard Air Force Base/Wichita Falls Municipal Airport	KSPS	Signature Flight Support	940-855-5460	8640
-TX	Wichita Falls	Kickapoo Downtown Airport	KCWC	Kickapoo Downtown Airport	940-766-1735	2790
-TX	Wichita Falls	Wichita Valley Airport	F14	Wichita Valley Airport	940-781-7246	1740
-TX	Wills Point	Van Zandt County Regional Airport	76F	Van Zandt County Regional Airport	903-873-3381, 214-803-5621	368
-TX	Wink	Winkler County Airport	KINK	KW Aviation	432-527-3481	100
-TX	Winnie/Stowell	Chambers County-Winnie Stowell Airport	T90	Chambers County-Winnie Stowell Airport	409-267-2719	460
-TX	Winnsboro	Winnsboro Municipal Airport	F51	City of Winnsboro (FBO)	903-342-3654, 903-243-4876	224
-TX	Zapata	Zapata County Airport	KAPY	Zapata County Airport	956-765-4453	228
+TX	Abilene	Abilene Regional Airport	KABI	 Abilene Aero	325-677-2601	
+TX	Albany	Albany Municipal Airport	T23	Albany Municipal Airport	325-762-3133, 325-762-0413	
+TX	Alice	Alice International Airport	KALI	 KALI Aviation, LLC.	361-664-2656	
+TX	Alpine	Alpine-Casparis Municipal Airport	E38	City of Alpine (FBO)	432-837-5929	
+TX	Amarillo	Rick Husband Amarillo International Airport	KAMA	 TAC Air	806-335-3551	
+TX	Amarillo	Tradewind Airport	KTDW	 Tradewind Airport	806-376-1008	
+TX	Anahuac	Chambers County Airport	T00	Chambers County Anahuac Airport	409-267-2719	
+TX	Andrews	Andrews County Airport	E11	Andrews County Airport	432-524-1447	
+TX	Angleton/Lake Jackson	Texas Gulf Coast Regional Airport	KLBX	Texas Gulf Coast Regional Airport (FBO)	979-849-5755	
+TX	Arlington	Arlington Municipal Airport	KGKY	Harrison Aviation	817-557-0350	
+TX	Athens	Athens Municipal Airport	F44	 Athens Jet Center	903-675-0086, 903-288-4455	
+TX	Athens	Athens Municipal Airport	F44	Dyson Aviation	903-677-0669	
+TX	Atlanta	Hall-Miller Municipal Airport	KATA	Flyin JN LLC	903-932-1767	
+TX	Austin	Austin-Bergstrom International Airport	KAUS	Signature Flight Support	512-530-5451	
+TX	Austin	Austin-Bergstrom International Airport	KAUS	Atlantic Aviation	512-382-8810	
+TX	Austin	San Marcos Regional Airport	KHYI	Berry Aviation, Inc.	512-353-2379	
+TX	Austin	San Marcos Regional Airport	KHYI	Redbird Skyport, Inc.	512-878-6670	
+TX	Austin	Austin Executive Airport	KEDC	Henriksen Jet Center	512-247-7678	
+TX	Ballinger	Bruce Field Airport	E30	Bruce Field Airport	325-365-3907	
+TX	Bay City	Bay City Regional Airport	KBYY	Bay City Regional Airport	979-244-5037	
+TX	Baytown	Baytown Airport	KHPY	 Raceco Inc.	281-421-1671, 713-303-8638	
+TX	Baytown	RWJ Airpark	54T	Bay Area Aviation	281-383-2320	
+TX	Beaumont	Beaumont Municipal Airport	KBMT	Beaumont Wings	409-866-0084	
+TX	Beaumont/Port Arthur	Jack Brooks Regional Airport	KBPT	Jack Brooks Regional Airport	409-719-4950	
+TX	Beeville	Beeville Municipal Airport	KBEA	Beeville Air Services	361-358-0410	
+TX	Beeville	Chase Field Industrial Airport	TX2	Beeville Air Services	361-358-0410, 361-358-2023	
+TX	Big Lake	Reagan County Airport	E41	Reagan County Airport	325-650-1314	
+TX	Big Spring	Big Spring Mc Mahon-Wrinkle Airport	KBPG	Lone Star Aviation	432-264-7124	
+TX	Bishop	Bishop Municipal Airport	07R	Bishop Airport	361-595-5382	
+TX	Bonham	Jones Field Airport	F00	Jones Field	903-583-8623	
+TX	Borger	Hutchinson County Airport	KBGD	Hutchinson County Airport	806-273-0137	
+TX	Bowie	Bowie Municipal Airport	0F2	Bowie Municipal Airport	940-872-6357, 940-841-4156	
+TX	Brady	Curtis Field Airport	KBBD	 City of Brady (FBO)	325-597-1461, 325-456-1595	
+TX	Breckenridge	Stephens County Airport	KBKD	Breck Airways	254-559-2515	
+TX	Brenham	Brenham Municipal Airport	11R	Southern Flyer	979-836-5462	
+TX	Bridgeport	Bridgeport Municipal Airport	KXBP	Bridgeport Municipal Airport	940-683-3400	
+TX	Brownfield	Terry County Airport	KBFE	Terry County Airport	806-543-9840	
+TX	Brownsville	Brownsville/South Padre Island International Airport	KBRO	 Southmost Aviation	956-542-5852	
+TX	Brownsville	Brownsville/South Padre Island International Airport	KBRO	 Hunt Pan Am Aviation	956-542-9111	
+TX	Brownwood	Brownwood Regional Airport	KBWD	Brownwood Regional Airport	325-643-1482, 325-642-0868	
+TX	Bryan	Coulter Field Airport	KCFD	City of Bryan (FBO)	979-209-5233	
+TX	Burnet	Burnet Municipal Airport-Kate Craddock Field	KBMQ	Faulkner's Air Shop	512-756-6655	
+TX	Caddo Mills	Caddo Mills Municipal Airport	7F3	Blink Design and Manufacturing, LLC	903-527-3888	
+TX	Caldwell	Caldwell Municipal Airport	KRWV	 Caldwell Flying Service	979-567-3003, 979-595-6666	
+TX	Cameron	Cameron Municipal Airpark	T35	 City of Cameron	254-697-6646	
+TX	Canadian	Hemphill County Airport	KHHF	Hemphill County Airport	806-679-4774	
+TX	Carrizo Springs	Dimmit County Airport	KCZT	Dimmit County Airport	830-876-9339, 830-255-1312	
+TX	Carthage	Panola County Airport-Sharpe Field	4F2	 Panola County Airport-Sharpe Field	903-693-7856	
+TX	Castroville	Castroville Municipal Airport	KCVB	 Castroville Municipal Airport	830-931-0234, 830-538-4260	
+TX	Center	Center Municipal Airport	F17	Center Municipal Airport	936-598-8119	
+TX	Childress	Childress Municipal Airport	KCDS	Boedeker Flying Service	940-937-8309, 325-374-0439	
+TX	Cisco	Gregory M Simmons Memorial Airport	KGZN	Cisco Aviation	817-850-3670, 254-433-1874	
+TX	Cleburne	Cleburne Regional Airport	KCPT	Cleburne Regional Airport	817-641-5456	
+TX	Cleveland	Cleveland Municipal Airport	6R3	Aviation Services	281-592-1282	
+TX	Clifton	Clifton Municipal Airport/Isenhower Field	7F7	Clifton Aero	254-675-3771	
+TX	Coleman	Coleman Municipal Airport	KCOM	City of Coleman Municipal Airport	325-625-2293, 325-625-5114	
+TX	College Station	Easterwood Field Airport	KCLL	Astin Aviation	979-775-5255	
+TX	Columbus	Robert R Wells Jr. Airport	66R	Colorado County	979-732-9500, 979-732-2604	
+TX	Comanche	Comanche County-City Airport	KMKN	Comanche County-City Airport	325-356-2175	
+TX	Commerce	Commerce Municipal Airport	2F7	City of Commerce	903-886-1128	
+TX	Corpus Christi	Corpus Christi International Airport	KCRP	Signature Flight Support	361-289-0585	
+TX	Corpus Christi	Corpus Christi International Airport	KCRP	Atlantic Aviation	361-289-1881	
+TX	Corsicana	C David Campbell Field-Corsicana Municipal Airport	KCRS	Corsicana Aviation Services	903-654-4847	
+TX	Cotulla	Cotulla-La Salle County Airport	KCOT	Page Aviation	830-879-3858	
+TX	Crockett	Houston County Airport	KDKR	Houston County Airport	936-544-3255, 936-544-2862	
+TX	Dalhart	Dalhart Municipal Airport	KDHT	 Larsen Aviation	806-244-5521, 806-249-5521	
+TX	Dalhart	Dalhart Municipal Airport	KDHT	Bailey Flying Service, Inc.	806-244-6511	
+TX	Dallas	Dallas Love Field Airport	KDAL	Textar Aviation	214-654-0994	
+TX	Dallas	Dallas Love Field Airport	KDAL	Business Jet Center	214-654-1600	
+TX	Dallas	Dallas Love Field Airport	KDAL	Signature Flight Support (Terminal 3)	214-351-1872	
+TX	Dallas	Dallas Love Field Airport	KDAL	Jet Aviation	214-350-8523	
+TX	Dallas	Dallas Love Field Airport	KDAL	Signature Flight Support (Terminal 1)	214-956-1000	
+TX	Dallas	Dallas Love Field Airport	KDAL	Dalfort Fueling	214-353-7000	
+TX	Dallas	Addison Airport	KADS	Atlantic Aviation	972-713-7000	
+TX	Dallas	Addison Airport	KADS	 Million Air Dallas	972-248-1600	
+TX	Dallas	McKinney National Airport	KTKI	McKinney Air Center	972-547-3401, 972-984-1200	
+TX	Dallas	Dallas Executive Airport	KRBD	Ambassador Jet Center	214-623-8800, 214-251-6512	
+TX	Dallas-Fort Worth	Dallas-Fort Worth International Airport	KDFW	DFW Corporate Aviation	972-973-3700, 972-973-3701	
+TX	Decatur	Decatur Municipal Airport	KLUD	Decatur Jet Center	940-627-1050	
+TX	Del Rio	Del Rio International Airport	KDRT	 Pico Aviation	830-768-0898, 830-734-3379	
+TX	Denton	Denton Enterprise Airport	KDTO	US Jet Center	866-383-2400, 940-297-6411	
+TX	Denver City	Denver City Airport	E57	Denver City Airport	806-592-3820	
+TX	Dimmitt	Dimmitt Municipal Airport	T55	B & W Aerial Spray	806-647-2550	
+TX	Dryden	Terrell County Airport	6R6	Terrell County Airport	432-345-6731	
+TX	Dumas	Moore County Airport	KDUX	Moore County Airport	806-935-6995	
+TX	Eagle Lake	Eagle Lake Airport	KELA	Eagle Lake Aviation	713-502-4064	
+TX	Eagle Pass	Maverick County Memorial International Airport	5T9	Bravo Aero Service	830-773-9636	
+TX	Eastland	Eastland Municipal Airport	KETN	Eastland Aero	254-629-1588, 254-488-1055	
+TX	Edinburg	South Texas International Airport at Edinburg	KEBG	 City of Edinburg	956-522-3580, 956-292-2047	
+TX	Edna	Jackson County Airport	26R	Jackson County Airport	361-652-4163	
+TX	El Paso	El Paso International Airport	KELP	Atlantic Aviation	915-779-2831	
+TX	Eldorado	Eldorado Airport	27R	Schleicher County Airport	325-650-9553	
+TX	Ennis	Ennis Municipal Airport	F41	Hammock Aviation Services	972-875-4279	
+TX	Fabens	Fabens Airport	E35	Olivas Aviation	915-764-3549	
+TX	Falfurrias	Brooks County Airport	KBKS	Mabo, Inc.	361-325-2909	
+TX	Floydada	Floydada Municipal Airport	41F	Probasco Flying Service	806-983-2314	
+TX	Fort Hood (Killeen)	Robert Gray Army Airfield	KGRK	Killeen-Fort Hood Regional Airport	254-501-6100	
+TX	Fort Stockton	Fort Stockton-Pecos County Airport	KFST	Fort Stockton Aviation	432-336-9900, 432-336-9901	
+TX	Fort Worth	Fort Worth Meacham International Airport	KFTW	Texas Jet	817-624-8438	
+TX	Fort Worth	Fort Worth Meacham International Airport	KFTW	American Aero FTW - Signature Select	817-625-2366	
+TX	Fort Worth	Fort Worth Meacham International Airport	KFTW	Cornerstone Air Center	817-625-5700	
+TX	Fort Worth	Fort Worth Alliance Airport	KAFW	Alliance Aviation Services	817-890-1000	
+TX	Fort Worth	Fort Worth Spinks Airport	KFWS	Harrison Aviation	817-447-8016	
+TX	Fort Worth	Hicks Airfield	T67	Rio Concho Aviation	817-233-1058	
+TX	Fort Worth	Bourland Field Airport	50F	Bourland Field	817-396-4554	
+TX	Fort Worth	Sycamore Strip Airport	9F9	A & W Aircraft	817-293-0510	
+TX	Fredericksburg	Gillespie County Airport	T82	Fredericksburg FBO	830-997-3313	
+TX	Friona	Benger Air Park	X54	Berger Aero Spraying	806-250-2861	
+TX	Gainesville	Gainesville Municipal Airport	KGLE	City of Gainesville (FBO)	940-668-4565	
+TX	Galveston	Scholes International Airport at Galveston	KGLS	Galveston Aviation Services, Inc.	877-744-9003, 409-744-9000	
+TX	Gatesville	Gatesville Municipal Airport	KGOP	City of Gatesville	254-865-8951	
+TX	George West	Live Oak County Airport	8T6	Live Oak County Airport	361-449-2733	
+TX	Georgetown	Georgetown Municipal Airport	KGTU	GTU Jet	512-869-0900	
+TX	Georgetown	Georgetown Municipal Airport	KGTU	 City of Georgetown Terminal	512-930-3666, 512-930-2573	
+TX	Georgetown	Georgetown Municipal Airport	KGTU	 AeroJet Center	512-863-5530, 512-863-5530	
+TX	Giddings	Giddings-Lee County Airport	KGYB	Sills Aviation Services LLC	979-542-6081	
+TX	Gilmer	Fox Stephens Field - Gilmer Municipal Airport	KJXI	J L Aero	903-734-6601	
+TX	Gladewater	Gladewater Municipal Airport	07F	Gladewater Municipal Airport	903-845-2116	
+TX	Gonzales	Roger M Dreyer Memorial Airport	T20	City of Gonzales (self-serve fuel)	830-672-2815	
+TX	Graham	Graham Municipal Airport	KRPH	City of Graham (FBO)	940-549-6150	
+TX	Granbury	Granbury Regional Airport	KGDJ	 Granbury Regional Airport	817-579-8533	
+TX	Grand Prairie	Grand Prairie Municipal Airport	KGPM	 Aviator Air	972-988-8609	
+TX	Grand Prairie	Grand Prairie Municipal Airport	KGPM	 City of Grand Prairie	972-237-7592	
+TX	Greenville	Majors Airport	KGVT	Greenville Aviation	903-457-2960	
+TX	Hallettsville	Hallettsville Municipal Airport	34R	Hallettsville Municipal Airport	361-798-3681	
+TX	Hamilton	Hamilton Municipal Airport	KMNZ	City of Hamilton	254-386-3939	
+TX	Harlingen	Valley International Airport	KHRL	Sun Valley Aviation	956-421-4545	
+TX	Harlingen	Valley International Airport	KHRL	Gulf Aviation, Inc.	956-423-7317	
+TX	Haskell	Haskell Municipal Airport	15F	City of Haskell	940-864-2333	
+TX	Hearne	Hearne Municipal Airport	KLHB	 City of Hearne	979-412-1031, 979-279-3461	
+TX	Henderson	Rusk County Airport	KRFI	Rusk County Airport	903-657-7081	
+TX	Hereford	Hereford Municipal Airport	KHRX	City of Hereford (FBO)	806-258-7289	
+TX	Hillsboro	Hillsboro Municipal Airport	KINJ	Hillsboro Municipal Airport	254-582-3731	
+TX	Hondo	South Texas Regional Airport at Hondo	KHDO	South Texas Regional Airport at Hondo	830-426-3810	
+TX	Horseshoe Bay	Horseshoe Bay Resort Airport	KDZB	 Horseshoe Bay Resort Jet Center	830-598-6386	
+TX	Houston	William P Hobby Airport	KHOU	Wilson Air Center	713-649-8700	
+TX	Houston	William P Hobby Airport	KHOU	Million Air Houston	713-640-4000	
+TX	Houston	William P Hobby Airport	KHOU	Signature Flight Support	713-353-5300	
+TX	Houston	William P Hobby Airport	KHOU	Jet Aviation	713-358-9100	
+TX	Houston	William P Hobby Airport	KHOU	Atlantic Aviation	713-644-6431	
+TX	Houston	David Wayne Hooks Memorial Airport	KDWH	Gill Aviation	281-376-5436	
+TX	Houston	David Wayne Hooks Memorial Airport	KDWH	 Tomball Jet Center	281-251-2800	
+TX	Houston	George Bush Intercontinental/Houston Airport	KIAH	Signature Flight Support	281-209-2673	
+TX	Houston	George Bush Intercontinental/Houston Airport	KIAH	Atlantic Aviation	281-443-3434	
+TX	Houston	Sugar Land Regional Airport	KSGR	GlobalSelect	281-275-2400	
+TX	Houston	Conroe-North Houston Regional Airport	KCXO	General Aviation Services FBO	936-760-1717	
+TX	Houston	Conroe-North Houston Regional Airport	KCXO	Galaxy FBO	936-494-4252	
+TX	Houston	Ellington Airport	KEFD	Signature Flight Support	281-484-6551	
+TX	Houston	Ellington Airport	KEFD	 On the Fly Self-Fueling Station	713-847-4234	
+TX	Houston	Houston Executive Airport	KTME	Henriksen Jet Center	866-936-2626, 281-945-5000	
+TX	Houston	West Houston Airport	KIWS	West Houston Airport	281-492-2130	
+TX	Houston	Pearland Regional Airport	KLVJ	 Pearland Regional Airport FBO	281-482-7551	
+TX	Houston	Houston Southwest Airport	KAXH	Houston Southwest Airport	281-431-2581	
+TX	Houston	Weiser Air Park	KEYQ	Weiser Airpark	281-469-8227	
+TX	Houston	North Houston Airport	9X1	North Houston Airport	281-572-1111	
+TX	Houston	Dan Jones International Airport	T51	Dan Jones International Airport	936-521-9887	
+TX	Huntsville	Huntsville Municipal Airport	KUTS	Huntsville Aviation	936-295-8136	
+TX	Ingleside	McCampbell-Porter Airport	KTFP	Corpus Christi Jet Center	361-758-2000	
+TX	Iraan	Iraan Municipal Airport	2F0	Iraan Municipal Airport	432-639-2841	
+TX	Jacksonville	Cherokee County Airport	KJSO	Cherokee County Airport	903-586-8219	
+TX	Jasper	Jasper County Airport-Bell Field	KJAS	Bravo Aviation	409-381-8151	
+TX	Jefferson	Cypress River Airport	24F	Cypress River Airport	903-665-8067	
+TX	Junction	Kimble County Airport	KJCT	Kimble County Airport	325-446-2820, 325-446-6494	
+TX	Kenedy	Karnes County Airport	2R9	Stetson Aviation, Inc.	830-583-9884, 830-583-5930	
+TX	Kerrville	Kerrville Municipal Airport/Louis Schreiner Field	KERV	Kerrville Aviation	830-257-8840	
+TX	Killeen	Skylark Field Airport	KILE	 Flight Line Services	254-501-8728, 254-501-8708	
+TX	Kingsville	Kleberg County Airport	KIKG	Mike's Aircraft Shop	361-592-1225	
+TX	Kirbyville	Kirbyville Airport	T12	J & J Aviation	409-423-2166	
+TX	Kountze/Silsbee	Hawthorne Field Airport	45R	Hardin County Aviation	409-782-7620	
+TX	Kress	Joe Vaughn Spraying Airport	29F	Joe Vaughn Spraying	806-684-2732	
+TX	La Grange	Fayette Regional Air Center Airport	3T5	Fayette Aero	979-242-3316	
+TX	La Porte	La Porte Municipal Airport	T41	Harvey & Rihn Aviation	281-471-1675	
+TX	La Porte	La Porte Municipal Airport	T41	Tri-Star Aviation	281-470-7827, 281-471-5850	
+TX	Lago Vista	Lago Vista TX - Rusty Allen Airport	KRYW	Lago Vista Airport	512-267-4573	
+TX	Lakeway	Lakeway Airpark	3R9	Lakeway Airpark	512-261-4385	
+TX	Lamesa	Lamesa Municipal Airport	2F5	City of Lamesa (self-serve fuel)	806-759-9270, 806-759-7747	
+TX	Lampasas	Lampasas Airport	KLZZ	 City of Lampasas (FBO)	512-556-6640, 512-556-6831	
+TX	Lancaster	Lancaster Regional Airport	KLNC	Lancaster Regional Airport	972-227-5721	
+TX	Laredo	Laredo International Airport	KLRD	Signature Flight Support	956-723-2031	
+TX	Laredo	Laredo International Airport	KLRD	Barker Ground Services, Inc.	956-728-7540, 956-724-7897	
+TX	Laredo	Laredo International Airport	KLRD	 Laredo Jet Center	956-791-3500, 956-436-4566	
+TX	Levelland	Levelland Municipal Airport	KLLN	Levelland Aero Services, Inc.	806-897-4774	
+TX	Liberty	Liberty Municipal Airport	T78	Liberty Municipal Airport	281-660-2337, 936-336-3684	
+TX	Littlefield	Littlefield Taylor Brown Municipal Airport	KLIU	Brown Flying Service	806-777-5030	
+TX	Livingston	Livingston Municipal Airport	00R	Burrows Air	936-967-5858	
+TX	Llano	Llano Municipal Airport	KAQO	City of Llano	325-247-5635, 325-247-4158	
+TX	Lockhart	Lockhart Municipal Airport	50R	Martin & Martin Aviation	512-376-9608	
+TX	Longview	East Texas Regional Airport	KGGG	KRS Jet Center	903-643-2010	
+TX	Longview	East Texas Regional Airport	KGGG	 Stebbins Aviation, Inc.	903-643-2621	
+TX	Lubbock	Lubbock Preston Smith International Airport	KLBB	Lubbock Aero	806-747-5101	
+TX	Lubbock	Lubbock Preston Smith International Airport	KLBB	 Chaparral Jet Center	806-762-6670	
+TX	Lubbock	Lubbock Executive Airpark	F82	Lubbock Executive Airpark	806-745-4967, 806-789-6437	
+TX	Lufkin	Angelina County Airport	KLFK	 Angelina County (FBO)	936-634-7511	
+TX	Marfa	Marfa Municipal Airport	KMRF	Presidio County	432-295-3906, 832-588-8888	
+TX	Marshall	Harrison County Airport	KASL	Central Jet Service	903-938-1394, 903-938-3908	
+TX	Mason	Mason County Airport	T92	Mason County Airport	325-347-8255	
+TX	Mc Allen	Mc Allen Miller International Airport	KMFE	McCreery Aviation Co.	956-686-1774	
+TX	Mc Kinney	Aero Country Airport	T31	AC Fuels, LLC	281-513-6590	
+TX	Mesquite	Mesquite Metro Airport	KHQZ	 Mesquite Metro Airport	972-216-4130, 972-216-4132	
+TX	Mexia	Mexia-Limestone County Airport	KLXY	Trim-Aire Aviation	254-562-2857	
+TX	Midland	Midland International Air and Space Port Airport	KMAF	Signature Flight Support	432-563-2033	
+TX	Midland	Midland Airpark	KMDD	Basin Aviation	432-685-7000	
+TX	Midland	Skywest Airport Inc.	7T7	Skywest Airport, Inc.	432-570-5983	
+TX	Midlothian/Waxahachie	Mid-Way Regional Airport	KJWY	 Southern Star Aviation	972-937-5515, 972-923-0080	
+TX	Mineola	Mineola Airport-Wisener Field	3F9	Wisener Field Airport	903-569-5275	
+TX	Mineola/Quitman	Wood County Airport	KJDD	East Texas Flying Service Inc.	903-571-0116	
+TX	Mineral Wells	Mineral Wells Airport	KMWL	 City of Mineral Wells (FBO)	940-328-7808	
+TX	Mount Pleasant	Mount Pleasant Regional Airport	KOSA	Mount Pleasant Regional Airport	903-575-4020	
+TX	Mount Vernon	Franklin County Airport	F53	Franklin County Airport	903-767-0602	
+TX	Muleshoe	Muleshoe Municipal Airport	2T1	City of Muleshoe	806-272-4528	
+TX	Munday	Munday Municipal Airport	37F	Petty Flying Service	940-422-4511	
+TX	Nacogdoches	Nacogdoches A L Mangham Jr. Regional Airport	KOCH	 City of Nacogdoches	936-560-9567	
+TX	Navasota	Navasota Municipal Airport	60R	Spinner Aviation	979-429-3835	
+TX	New Braunfels	New Braunfels Regional Airport	KBAZ	City Terminal Flight Services	830-221-4290	
+TX	Odessa	Odessa Airport-Schlemeyer Field	KODO	Wildcatter Aviation	432-367-5881	
+TX	Olney	Olney Municipal Airport	KONY	City of Olney	940-564-2102	
+TX	Orange	Orange County Airport	KORG	Sabine Aviation	409-883-6964	
+TX	Ozona	Ozona Municipal Airport	KOZA	McCleary Aircraft	325-392-2030, 325-226-2628	
+TX	Palacios	Palacios Municipal Airport	KPSX	Palacios Municipal Airport	361-972-2400	
+TX	Palestine	Palestine Municipal Airport	KPSN	Palestine Jet Center, LLC	903-723-0111	
+TX	Palmer	Dallas South Port Airport	T13	Pumpkin Air	214-926-3457, 214-926-3458	
+TX	Pampa	Perry Lefors Field Airport	KPPA	Pampa Aircraft	806-665-1881	
+TX	Panhandle	Panhandle-Carson County Airport	T45	Panhandle/Carson County Airport	806-537-3517	
+TX	Paris	Cox Field Airport	KPRX	J R Aviation	903-784-4648	
+TX	Pearsall	Mc Kinley Field Airport	T30	Mc Kinley Aerial Service	830-334-7789	
+TX	Pecos	Pecos Municipal Airport	KPEQ	Pecos Air Center	432-447-2488	
+TX	Perryton	Perryton Ochiltree County Airport	KPYX	Kelly & Company Aviation	806-435-4226	
+TX	Plains	Yoakum County Airport	F98	Sandy Land UWCD	806-456-2155	
+TX	Plainview	Hale County Airport	KPVW	Rocket Aviation, LP	806-293-4121, 806-685-3682	
+TX	Pleasanton	Pleasanton Municipal Airport	KPEZ	Pleasanton Municipal Airport	830-569-3155	
+TX	Port Isabel	Port Isabel-Cameron County Airport	KPIL	Hunt Pan Am Aviation	956-233-4424	
+TX	Port Lavaca	Calhoun County Airport	KPKV	 Calhoun Air Center	361-552-1228	
+TX	Port Mansfield	Charles R Johnson Airport	T05	Willacy County Navigation District	956-944-2325	
+TX	Presidio	Presidio Lely International Airport	KPRS	Presidio County	832-588-8888, 432-229-2514	
+TX	Quanah	Quanah Municipal Airport	F01	Quanah Municipal Airport	970-219-6631	
+TX	Refugio	Rooke Field Airport	KRFG	VanAir Aviation	361-526-4241	
+TX	Roanoke	Northwest Regional Airport	52F	Northwest Regional Airport	817-430-1905	
+TX	Robstown	Nueces County Airport	KRBO	Nueces County Airport	361-387-1700	
+TX	Rockdale	H H Coffield Regional Airport	KRCK	City of Rockdale	512-446-2511	
+TX	Rockport	Aransas County Airport	KRKP	Aransas Co. Airport Services	361-790-0141	
+TX	Rosenberg	Lane Airpark	T54	Lane Aviation	281-232-5401	
+TX	San Angelo	San Angelo Regional Airport/Mathis Field	KSJT	 Ranger Aviation Enterprises	325-949-3773	
+TX	San Angelo	San Angelo Regional Airport/Mathis Field	KSJT	Skyline Aviation	325-944-8858	
+TX	San Antonio	San Antonio International Airport	KSAT	Signature Flight Support (north)	210-828-0551	
+TX	San Antonio	San Antonio International Airport	KSAT	Signature Flight Support (south)	210-625-9100	
+TX	San Antonio	San Antonio International Airport	KSAT	Skyplace FBO	210-805-3130	
+TX	San Antonio	San Antonio International Airport	KSAT	 Million Air San Antonio	210-828-8181	
+TX	San Antonio	Stinson Municipal Airport	KSSF	GateONE	210-922-1203	
+TX	San Antonio	Kelly Field Airport	KSKF	Atlantic Aviation	210-921-6100	
+TX	San Antonio	Boerne Stage Field Airport	5C1	 Boerne Stage Field	830-981-2345	
+TX	San Antonio	Bulverde Airpark	1T8	 Anderson Aviation	210-287-9073	
+TX	San Antonio	Kestrel Airpark	1T7	 Aloha Aviation Services	830-522-1885	
+TX	San Saba	San Saba County Municipal Airport	81R	San Saba County Municipal Airport	325-372-3380	
+TX	Seguin	Huber Airpark Civic Club LLC Airport	E70	 Veracity Aviation	830-379-9800	
+TX	Seguin	Huber Airpark Civic Club LLC Airport	E70	 SVT Aviation Maintenance, LLC	210-744-8631	
+TX	Seminole	Gaines County Airport	KGNC	Aero Clinic, Inc.	432-758-6455	
+TX	Shamrock	Shamrock Municipal Airport	2F1	City of Shamrock	806-256-2136	
+TX	Sherman	Sherman Municipal Airport	KSWI	City of Sherman (FBO)	903-891-4035	
+TX	Sherman/Denison	North Texas Regional Airport/Perrin Field	KGYI	Lake Texoma Jet Center	903-786-2666	
+TX	Sinton	Alfred C 'Bubba' Thomas Airport	T69	Sky Park Aviation	361-364-3200	
+TX	Slaton	Slaton Municipal Airport	F49	Neal Aircraft	806-828-5892	
+TX	Smithville	Smithville Crawford Municipal Airport	84R	Fayette Aero LLC	979-242-3316, 210-241-3704	
+TX	Snyder	Winston Field Airport	KSNK	Winston Field	325-573-1122	
+TX	Sonora	Sonora Municipal Airport	KSOA	Sonora Municipal Airport	325-387-2447, 325-387-2558	
+TX	Spearman	Major Samuel B Cornelius Field Airport	E42	City of Spearman (FBO)	806-659-2524	
+TX	Stamford	Arledge Field Airport	F56	City of Stamford	325-370-7986	
+TX	Stephenville	Stephenville Clark Regional Airport	KSEP	Stephenville Aviation	254-965-2795	
+TX	Sulphur Springs	Sulphur Springs Municipal Airport	KSLR	City of Sulphur Springs	903-885-4911	
+TX	Sweetwater	Avenger Field Airport	KSWW	Avenger Aviation Services	325-235-8478	
+TX	Taylor	Taylor Municipal Airport	T74	Taylor Municipal Airport	512-352-5747, 512-352-3675	
+TX	Temple	Draughon-Miller Central Texas Regional Airport	KTPL	 General Aviation Terminal	254-298-5770	
+TX	Terrell	Terrell Municipal Airport	KTRL	Terrell Aviation	972-524-1601, 972-563-2552	
+TX	Tulia	City of Tulia/Swisher County Municipal Airport	I06	City of Tulia (FBO)	806-995-3504	
+TX	Tyler	Tyler Pounds Regional Airport	KTYR	 Jet Center of Tyler	903-597-1334	
+TX	Tyler	Tyler Pounds Regional Airport	KTYR	Johnson Aviation	903-593-4343	
+TX	Uvalde	Garner Field Airport	KUVA	Uvalde Flight Center	830-279-0877	
+TX	Van Horn	Culberson County Airport	KVHN	West Texas Aviation	432-283-2237	
+TX	Vega	Oldham County Airport	E52	Oldham County Airport	806-267-2722	
+TX	Vernon	Wilbarger County Airport	F05	Wilbarger County Airport	940-552-2182, 940-839-6365	
+TX	Victoria	Victoria Regional Airport	KVCT	Victoria Jet Center	361-578-1221	
+TX	Waco	Waco Regional Airport	KACT	Waco Jet Center, LLC	254-752-4100	
+TX	Waco	Waco Regional Airport	KACT	Texas Aero	254-752-9731	
+TX	Waco	Mc Gregor Executive Airport	KPWG	 Jag Aviation	254-848-2345, 254-379-8204	
+TX	Weatherford	Parker County Airport	KWEA	Chief Aero, LLC	817-599-9210, 682-249-1755	
+TX	Wellington	Marian Airpark	F06	City of Wellington	806-447-2544	
+TX	Weslaco	Mid Valley Airport	T65	Weslaco Mid Valley Aviation	956-969-0291	
+TX	Wharton	Wharton Regional Airport	KARM	City of Wharton	979-532-3210	
+TX	Wheeler	Wheeler Municipal Airport	T59	City of Wheeler	806-826-3222	
+TX	Wichita Falls	Sheppard Air Force Base/Wichita Falls Municipal Airport	KSPS	Signature Flight Support	940-855-5460	
+TX	Wichita Falls	Kickapoo Downtown Airport	KCWC	Kickapoo Downtown Airport	940-766-1735	
+TX	Wichita Falls	Wichita Valley Airport	F14	Wichita Valley Airport	940-781-7246	
+TX	Wills Point	Van Zandt County Regional Airport	76F	Van Zandt County Regional Airport	903-873-3381, 214-803-5621	
+TX	Wink	Winkler County Airport	KINK	KW Aviation	432-527-3481	
+TX	Winnie/Stowell	Chambers County-Winnie Stowell Airport	T90	Chambers County-Winnie Stowell Airport	409-267-2719	
+TX	Winnsboro	Winnsboro Municipal Airport	F51	City of Winnsboro (FBO)	903-342-3654, 903-243-4876	
+TX	Zapata	Zapata County Airport	KAPY	Zapata County Airport	956-765-4453	

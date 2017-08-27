@@ -1,0 +1,92 @@
+PA	Allentown	Lehigh Valley International Airport	KABE	Lehigh Valley Aviation Services	610-266-7343	
+PA	Allentown	Allentown Queen City Municipal Airport	KXLL	 Lehigh Valley Aviation Services	610-791-5193	
+PA	Altoona	Altoona-Blair County Airport	KAOO	 IG Flight Services LLC	814-793-2164	
+PA	Beaver Falls	Beaver County Airport	KBVI	 AirQuest Aviation	724-624-8100	
+PA	Beaver Falls	Beaver County Airport	KBVI	Moore Aviation Inc.	724-843-4800	
+PA	Bedford	Bedford County Airport	KHMZ	 Bun Air Corporation	814-623-8171	
+PA	Bellefonte	Bellefonte Airport	N96	Pleasant Valley Aviation	814-355-7407	
+PA	Bloomsburg	Bloomsburg Municipal Airport	N13	Town of Bloomsburg	570-784-7703	
+PA	Bradford	Bradford Regional Airport	KBFD	 Bradford Regional Airport	814-368-5928	
+PA	Brogue	Baublitz Commercial Airport	9W8	Chanceford Aviation	717-870-4076	
+PA	Butler	Butler County Airport/K W Scholter Field	KBTP	 AirQuest Aviation	724-586-6023	
+PA	Butler	Butler County Airport/K W Scholter Field	KBTP	The Pittsburgh-Butler Regional Airport	724-586-6665	
+PA	Butler	Butler Farm Show Airport	3G9	Butler Farm Show Airport	724-482-4626	
+PA	Carlisle	Carlisle Airport	N94	Carlisle Airport	717-243-2133	
+PA	Clarion	Clarion County Airport	KAXQ	 Clarion County Airport	814-226-9993	
+PA	Clearfield	Clearfield-Lawrence Airport	KFIG	Clearfield-Lawrence Airport Authority	814-768-7712	
+PA	Coatesville	Chester County G O Carlson Airport	KMQS	Signature Flight Support	610-384-9000	
+PA	Connellsville	Joseph A Hardy Connellsville Airport	KVVS	Fayette County Aviation	724-628-2276	
+PA	Corry	Corry-Lawrence Airport	8G2	Corry-Lawrence Airport	814-664-4508	
+PA	Danville	Danville Airport	8N8	Mountain Aviation	570-284-4545	
+PA	Doylestown	Doylestown Airport	KDYL	Leading Edge Aviation	215-340-0707	
+PA	Dubois	Dubois Regional Airport	KDUJ	Clearfield-Jefferson Counties Regional Airport Authority	814-328-5311, 814-328-2622	
+PA	East Stroudsburg	Stroudsburg-Pocono Airport	N53	R & R Fuels	570-420-1011	
+PA	Easton	Braden Airpark	N43	Lehigh-Northampton Airport Authority	610-231-5270	
+PA	Erie	Erie International Airport/Tom Ridge Field	KERI	 North Coast Air	814-836-9220	
+PA	Erwinna	Vansant Airport	9N1	The Bird of Paradise at Van Sant	610-847-1119, 251-609-2043	
+PA	Factoryville	Seamans Field Airport	9N3	Endless Mountains Air	570-945-5125	
+PA	Finleyville	Finleyville Airpark	G05	Finleyville Airport	724-348-7202	
+PA	Franklin	Venango Regional Airport	KFKL	County of Venango (FBO)	814-432-5333	
+PA	Freeport	McVille Airport	6P7	McVille Airport	724-294-2359	
+PA	Greenville	Greenville Municipal Airport	4G1	Elbow Street Aviation Services	724-588-1665	
+PA	Grove City	Grove City Airport	29D	Silent Wings Soaring	724-748-5530	
+PA	Harrisburg	Capital City Airport	KCXY	Skyport Aviation	717-525-9999	
+PA	Harrisburg	Harrisburg International Airport	KMDT	 Avflight Harrisburg	855-944-4666, 717-944-4666	
+PA	Hazleton	Hazleton Regional Airport	KHZL	Hazleton Municipal Airport	570-455-7641	
+PA	Honesdale	Cherry Ridge Airport	N30	Earlynn Aviation Inc	570-253-5833	
+PA	Indiana	Indiana County Airport (Jimmy Stewart Field)	KIDI	Indiana County Airport	724-463-3883	
+PA	Johnstown	John Murtha Johnstown-Cambria County Airport	KJST	 Nulton Aviation Services	814-361-3500	
+PA	Lancaster	Lancaster Airport	KLNS	 LNS Alliance Aviation	717-735-9507	
+PA	Latrobe	Arnold Palmer Regional Airport	KLBE	Vee Neal Aviation	724-539-4533	
+PA	Latrobe	Arnold Palmer Regional Airport	KLBE	 L.J. Aviation	724-537-0520	
+PA	Lebanon	Keller Brothers Airport	08N	Keller Brothers Airport	717-949-2424	
+PA	Lehighton	Jake Arner Memorial Airport	22N	Carbon County Airport Authority	570-386-5025, 570-778-4783	
+PA	Lock Haven	William T Piper Memorial Airport	KLHV	William T. Piper Memorial Airport	570-748-5123, 570-971-7545	
+PA	Meadville	Port Meadville Airport	KGKJ	Port Meadville Airport	814-333-2677	
+PA	Mifflintown	Mifflintown Airport	P34	Mifflintown Airpark LLC	717-436-2725	
+PA	Monongahela	Rostraver Airport	KFWQ	Rostraver Airport	724-379-6980	
+PA	Mount Joy/Marietta	Donegal Springs Airpark	N71	N71, Inc.	301-904-0299	
+PA	Mount Pocono	Pocono Mountains Municipal Airport	KMPO	Pocono Mountains Municipal Airport	570-839-0258	
+PA	Myerstown	Deck Airport	9D4	Air Deck	717-866-6529	
+PA	New Castle	New Castle Municipal Airport	KUCP	Haski Aviation, Inc.	724-652-5546	
+PA	Newry	Blue Knob Valley Airport	7G4	Blue Knob Valley Airport	814-695-7705	
+PA	Palmyra	Reigle Field Airport	58N	Reigle Aviation	717-838-5319	
+PA	Philadelphia	Northeast Philadelphia Airport	KPNE	Atlantic Aviation	215-698-3100	
+PA	Philadelphia	Northeast Philadelphia Airport	KPNE	 North Philadelphia Jet Center	215-673-9000	
+PA	Philadelphia	Philadelphia International Airport	KPHL	Atlantic Aviation	215-492-7060	
+PA	Philadelphia	Wings Field Airport	KLOM	 flyADVANCED	215-646-0400	
+PA	Pittsburgh	Allegheny County Airport	KAGC	Voyager Jet Center	412-267-8000, 412-267-8080	
+PA	Pittsburgh	Allegheny County Airport	KAGC	Corporate Air	412-469-6800	
+PA	Pittsburgh	Pittsburgh International Airport	KPIT	Atlantic Aviation	412-472-6700	
+PA	Pittsfield	Brokenstraw Airport	P15	Brokenstraw Airport	814-563-4949	
+PA	Pottstown	Heritage Field Airport	KPTW	 Penn Airways Inc	610-495-7000, 610-495-5851	
+PA	Pottstown	Pottstown Municipal Airport	N47	flyELITE	610-495-6366	
+PA	Pottsville	Schuylkill County (Joe Zerbey) Airport	KZER	Schuylkill County Airport	570-544-6002	
+PA	Punxsutawney	Punxsutawney Municipal Airport	N35	Punxsutawney Municipal Airport	814-938-9946	
+PA	Quakertown	Quakertown Airport	KUKT	Heartwood Aviation	215-538-3055	
+PA	Reading	Reading Regional Airport/Carl A Spaatz Field	KRDG	Millennium Aviation	610-372-4728, 610-207-7368	
+PA	Reading	Reading Regional Airport/Carl A Spaatz Field	KRDG	Reading Jet Center, Inc	610-373-3000	
+PA	Reading	Reading Regional Airport/Carl A Spaatz Field	KRDG	 Reading Air Service	610-288-2496	
+PA	Reedsville	Mifflin County Airport	KRVL	Mifflin County Airport	717-667-6829	
+PA	Selinsgrove	Penn Valley Airport	KSEG	Energy Aviation	570-374-7671	
+PA	Shamokin	Northumberland County Airport	N79	Northumberland County Airport	570-672-1321, 570-898-8588	
+PA	Slatington	Slatington Airport	69N	Roger Sell, Inc.	610-767-5881	
+PA	Smoketown	Smoketown Airport	S37	Smoketown Aviation LLC	717-394-6476, 717-354-3059	
+PA	Somerset	Somerset County Airport	2G9	 Somerset County Airport	814-445-1599	
+PA	St Marys	St Marys Municipal Airport	KOYM	St. Marys Municipal Airport	814-834-4671	
+PA	State College	University Park Airport	KUNV	 University Park Airport	814-865-4042	
+PA	Sterling	Spring Hill Airport	70N	Spring Hill Airport	570-689-9316	
+PA	Titusville	Titusville Airport	6G1	City of Titusville	814-827-0400	
+PA	Toughkenamon	New Garden Airport	N57	New Garden Flying Field	610-268-2619	
+PA	Towanda	Bradford County Airport	N27	Bradford County Airport Authority	570-265-4900	
+PA	Tunkhannock	Skyhaven Airport	76N	Skyhaven Inc.	570-836-4800	
+PA	Washington	Washington County Airport	KAFJ	Skyward Aviation FBO	724-228-8000	
+PA	Waynesburg	Greene County Airport	KWAY	Greene County Airport	724-627-8029	
+PA	Wellsboro	Wellsboro Johnston Airport	N38	Grand Canyon Airport Authority	570-724-3746	
+PA	Wellsville	Kampel Airport	2N5	Kampel Enterprises	717-432-9688	
+PA	West Chester	Brandywine Airport	KOQN	New Brandywine Aero	610-692-6100	
+PA	Wilkes-Barre	Wilkes-Barre Wyoming Valley Airport	KWBW	Valley Aviation, Inc.	570-288-3257	
+PA	Wilkes-Barre/Scranton	Wilkes-Barre/Scranton International Airport	KAVP	 Aviation Technologies Inc	570-655-5999, 570-457-4485	
+PA	Williamsport	Williamsport Regional Airport	KIPT	Energy Aviation	800-872-3599, 570-368-2651	
+PA	York	York Airport	KTHV	York Aviation	717-792-5566	
+PA	Zelienople	Zelienople Municipal Airport	KPJC	Pittsburgh Jet Center	724-452-4719	

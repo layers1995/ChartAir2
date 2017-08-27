@@ -1,0 +1,60 @@
+LA	Abbeville	Abbeville Chris Crusta Memorial Airport	KIYA	 Vector Aviation, LLC	337-898-2268	
+LA	Alexandria	Alexandria International Airport	KAEX	Million Air Alexandria	318-443-5566	
+LA	Alexandria	Esler Regional Airport	KESF	Freeman Holdings	318-290-6281	
+LA	Bastrop	Morehouse Memorial Airport	KBQP	City of Bastrop	318-281-2018	
+LA	Baton Rouge	Baton Rouge Metropolitan Airport, Ryan Field	KBTR	Signature Flight Support	225-356-1401	
+LA	Baton Rouge	Baton Rouge Metropolitan Airport, Ryan Field	KBTR	BTR Jet Center	225-355-9052	
+LA	Baton Rouge	Baton Rouge Metropolitan Airport, Ryan Field	KBTR	Executive Aviation	225-355-5183	
+LA	Bogalusa	George R Carr Memorial Air Field	KBXA	Bogalusa Airport	985-732-4521	
+LA	Covington	St Tammany Regional Airport	L31	St. Tammany Parish Government	985-875-2601	
+LA	De Quincy	De Quincy Industrial Airpark	5R8	DeQuincy Industrial Airpark	337-786-8241	
+LA	De Ridder	Beauregard Regional Airport	KDRI	Beauregard Regional Airport	337-463-8250, 337-462-3364	
+LA	Eunice	Eunice Airport	4R7	Eunice Flying Service	337-457-6585	
+LA	Farmerville	Union Parish Airport	F87	Union Parish	318-366-0325	
+LA	Galliano	South Lafourche Leonard Miller Jr.. Airport	KGAO	GAO FBO	985-475-6701	
+LA	Gonzales	Louisiana Regional Airport	KREG	Louisiana Regional Airport	225-644-1959, 225-717-2077	
+LA	Hammond	Hammond Northshore Regional Airport	KHDC	Top Gun Aviation	985-542-0719, 985-542-7801	
+LA	Hammond	Hammond Northshore Regional Airport	KHDC	Hammond Air Center	985-345-3030, 985-429-7924	
+LA	Houma	Houma-Terrebonne Airport	KHUM	Houma Jet Center	985-868-7858	
+LA	Houma	Houma-Terrebonne Airport	KHUM	Butler Aviation	877-851-5737, 985-851-5737	
+LA	Houma	Houma-Terrebonne Airport	KHUM	Hammonds Aircraft Maintenance	985-346-8489, 985-709-9237	
+LA	Houma	Houma-Terrebonne Airport	KHUM	Houma Avionics	985-868-4648	
+LA	Jeanerette	Le Maire Memorial Airport	2R1	Iberia Parish Airport Commission	337-365-7202	
+LA	Jennings	Jennings Airport	3R7	 Gulf Air	337-824-8248, 337-278-0696	
+LA	Jennings	Jennings Airport	3R7	Riceland Aviation	337-824-1567	
+LA	Jonesville	Jonesville Airport	L32	Jonesville Municipal Airport	318-339-4747	
+LA	Lafayette	Lafayette Regional Airport/Paul Fournet Field	KLFT	Signature Flight Support	337-234-3100	
+LA	Lake Charles	Chennault International Airport	KCWF	Million Air Lake Charles	337-436-4877	
+LA	Lake Charles	Lake Charles Regional Airport	KLCH	 Freeman Jet Center	337-478-7722, 337-478-7723	
+LA	Leesville	Leesville Airport	L39	Leesville City Airport	337-238-5968, 337-208-2219	
+LA	Mansfield	C E 'Rusty' Williams Airport	3F3	City of Mansfield	318-871-7915	
+LA	Many	Hart Airport	3R4	Many Hart Airport	318-256-5857	
+LA	Marksville	Marksville Municipal Airport	KMKV	Marksville Municipal Airport	318-240-3088, 318-253-7291	
+LA	Minden	Minden Airport	KMNE	 City of Minden (FBO)	318-371-7862	
+LA	Monroe	Monroe Regional Airport	KMLU	 Avflight Monroe	318-387-0222	
+LA	Natchitoches	Natchitoches Regional Airport	KIER	 City of Natchitoches (FBO)	318-352-0994	
+LA	New Iberia	Acadiana Regional Airport	KARA	Pelican Aviation	337-367-1401	
+LA	New Orleans	Lakefront Airport	KNEW	Signature Flight Support	504-241-2800	
+LA	New Orleans	Lakefront Airport	KNEW	Flightline First	504-244-4448	
+LA	New Orleans	Louis Armstrong New Orleans International Airport	KMSY	Signature Flight Support	504-468-7722	
+LA	New Orleans	Louis Armstrong New Orleans International Airport	KMSY	Atlantic Aviation	504-466-1700	
+LA	New Roads	False River Regional Airport	KHZR	False River Regional Airport	225-638-3192, 225-978-8367	
+LA	Oak Grove	Kelly-Dumas Airport	9M6	Kelly-Dumas Airport	318-428-3129, 318-732-7110	
+LA	Oakdale	Allen Parish Airport	KACP	Allen Parish Airport	318-215-0090, 337-639-4328	
+LA	Opelousas	St Landry Parish Airport-Ahart Field	KOPL	 St. Landry Parish Airport	337-407-1551, 337-351-0025	
+LA	Patterson	Harry P Williams Memorial Airport	KPTN	 Perry Flying Center	985-395-4501, 985-395-4502	
+LA	Pineville	Pineville Municipal Airport	2L0	Flightline Air Service, LLC	318-448-3934	
+LA	Reserve	Port of South Louisiana Executive Regional Airport	KAPS	Port of South Louisiana	985-536-1999, 985-212-1712	
+LA	Ruston	Ruston Regional Airport	KRSN	Ruston Aviation	318-251-9098	
+LA	Shreveport	Shreveport Regional Airport	KSHV	TAC Air	318-636-1000	
+LA	Shreveport	Shreveport Downtown Airport	KDTN	 S3 Executive Air	318-220-7034	
+LA	Shreveport	Shreveport Downtown Airport	KDTN	 Tubreaux Aviation	318-510-4330	
+LA	Slidell	Slidell Airport	KASD	Slidell Municipal Airport	985-641-7590, 985-259-2460	
+LA	Springhill	Springhill Airport	KSPH	City of Springhill (FBO)	318-539-4568	
+LA	Sulphur	Southland Field Airport	KUXL	Southland Aviation	337-583-9144	
+LA	Tallulah	Vicksburg Tallulah Regional Airport	KTVR	Vicksburg Tallulah Regional Airport	318-574-5841	
+LA	Thibodaux	Thibodaux Municipal Airport	L83	Golden Ranch Aviation	985-447-6124	
+LA	Vidalia	Concordia Parish Airport	0R4	Concordia Parish Airport Authority	318-336-8537	
+LA	Vivian	Vivian Airport	3F4	 Town of Vivian	318-375-3856	
+LA	Welsh	Welsh Airport	6R1	Lyon Flying Service	337-734-2594	
+LA	Winnsboro	Winnsboro Municipal Airport	F89	Southern Air	318-282-4524	

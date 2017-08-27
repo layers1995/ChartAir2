@@ -1,0 +1,19 @@
+NH	Berlin	Berlin Regional Airport	KBML	Berlin Regional Airport	603-449-2168	
+NH	Claremont	Claremont Municipal Airport	KCNH	Claremont Municipal Airport	603-542-7032	
+NH	Hampton	Hampton Airfield	7B3	Hampton Airfield	603-964-6749	
+NH	Haverhill	Dean Memorial Airport	5B9	Dean Memorial Airport	603-989-5845	
+NH	Hillsboro	Hawthorne-Feather Airpark	8B1	Rymes Oil	603-588-6868	
+NH	Jaffrey	Jaffrey Airport-Silver Ranch	KAFN	Silver Ranch Airpark	603-532-8870	
+NH	Keene	Dillant-Hopkins Airport	KEEN	Monadnock Aviation	603-357-7600	
+NH	Laconia	Laconia Municipal Airport	KLCI	Sky Bright	603-528-6818	
+NH	Laconia	Laconia Municipal Airport	KLCI	Emerson Aviation	603-293-7980	
+NH	Lebanon	Lebanon Municipal Airport	KLEB	Granite Air Center, LLC	603-298-6555	
+NH	Manchester	Manchester Airport	KMHT	Signature Flight Support	603-782-0151	
+NH	Moultonboro	Moultonboro Airport	5M3	Moultonboro Air Base LLC	603-986-7338	
+NH	Nashua	Boire Field Airport	KASH	Infinity Aviation Services	603-598-4526	
+NH	Nashua	Boire Field Airport	KASH	 Nashua Jet Aviation	603-204-5632	
+NH	Newport	Parlin Field Airport	2B3	Parlin Field	603-863-1220	
+NH	Portsmouth	Portsmouth International Airport at Pease	KPSM	 Port City Air, Inc.	603-430-1111	
+NH	Rochester	Skyhaven Airport	KDAW	Pease Development Authority	603-332-0005	
+NH	Twin Mountain	Twin Mountain Airport	8B2	Twin Mountain Airport	603-846-5505	
+NH	Whitefield	Mount Washington Regional Airport	KHIE	Mt. Washington Regional Airport	603-837-9532	

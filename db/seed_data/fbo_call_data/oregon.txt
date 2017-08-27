@@ -1,0 +1,58 @@
+OR	Albany	Albany Municipal Airport	S12	 Infinite Air Center, LLC	541-730-3345	
+OR	Ashland	Ashland Municipal Airport-Sumner Parker Field	S03	Skinner Aviation	541-482-7675	
+OR	Astoria	Astoria Regional Airport	KAST	Port of Astoria	503-861-1222	
+OR	Aurora	Aurora State Airport	KUAO	Lynx FBO	503-678-1336	
+OR	Aurora	Aurora State Airport	KUAO	Willamette Aviation Service, LLC	503-678-2252	
+OR	Baker City	Baker City Municipal Airport	KBKE	Baker Aircraft	541-523-5663	
+OR	Bandon	Bandon State Airport	S05	Bandon Aero Club	541-347-2022	
+OR	Bend	Bend Municipal Airport	KBDN	Professional Air	541-388-0019	
+OR	Bend	Bend Municipal Airport	KBDN	 Leading Edge Aviation	541-383-8825, 541-598-4630	
+OR	Brookings	Brookings Airport	KBOK	Brookings Flying Club	541-412-8682	
+OR	Burns	Burns Municipal Airport	KBNO	City of Burns (FBO)	541-573-6139, 541-620-4188	
+OR	Cave Junction	Illinois Valley Airport	3S4	The Flying Machine	541-592-2001, 541-660-3176	
+OR	Corvallis	Corvallis Municipal Airport	KCVO	Corvallis Aero Service	541-753-4466	
+OR	Cottage Grove	Cottage Grove State Airport	61S	Oregon Department of Aviation (self-serve fuel)	503-378-4880	
+OR	Creswell	Hobby Field Airport	77S	Creswell Airport	541-895-2913	
+OR	Enterprise	Enterprise Municipal Airport	8S4	Stangel Flight Service	541-426-3562	
+OR	Eugene	Mahlon Sweet Field Airport	KEUG	Atlantic Aviation	541-688-9291	
+OR	Florence	Florence Municipal Airport	6S2	Florence Airport Volunteer Group	541-997-8069	
+OR	Gold Beach	Gold Beach Municipal Airport	4S1	Port of Gold Beach	541-247-6269	
+OR	Grants Pass	Grants Pass Airport	3S8	 Pacific Aviation Northwest, Inc.	541-479-2230	
+OR	Hermiston	Hermiston Municipal Airport	KHRI	Hermiston Aviation	541-567-3694	
+OR	Hillsboro	Stark's Twin Oaks Airpark	7S3	Twin Oaks Airpark	503-451-3480, 503-522-8952	
+OR	Hood River	Ken Jernstedt Airfield	4S2	TacAero	541-386-1133	
+OR	Hubbard	Lenhardt Airpark	7S9	Lenair Corporation	503-651-2187	
+OR	Independence	Independence State Airport	7S5	Nutsch Aviation	503-428-7209, 503-428-7210	
+OR	Independence	Independence State Airport	7S5	Independence Aviation LLC	503-606-2923	
+OR	John Day	Grant County Regional Airport/Ogilvie Field	KGCD	Grant County Regional Airport	541-575-1151	
+OR	Joseph	Joseph State Airport	KJSY	Oregon Department of Aviation	503-378-4880	
+OR	Klamath Falls	Crater Lake-Klamath Regional Airport	KLMT	Century Aviation Services	541-882-4681	
+OR	La Grande	La Grande/Union County Airport	KLGD	La Grande/Union County Airport	541-963-6615	
+OR	Lakeview	Lake County Airport	KLKV	Lake County Airport	541-947-4222, 541-951-8883	
+OR	Lebanon	Lebanon State Airport	S30	LebanAir Aviation	541-258-5029	
+OR	Lexington	Lexington Airport	9S9	Lexington Airport	541-989-9500	
+OR	Madras	Madras Municipal Airport	S33	Berg Air LLC	541-475-4899	
+OR	Malin	Malin Airport	4S7	City of Malin	541-723-2021, 541-892-1572	
+OR	Mc Minnville	Mc Minnville Municipal Airport	KMMV	Konect Aviation Oregon, LLC	503-376-0190	
+OR	Medford	Rogue Valley International - Medford Airport	KMFR	Million Air Medford	541-842-2254	
+OR	Newberg	Sportsman Airpark	2S6	Sportsman Airpark	503-538-2134	
+OR	Newberg	Chehalem Airpark	17S	Precision Helicopters	503-537-0108	
+OR	Newport	Newport Municipal Airport	KONP	Newport Municipal Airport	541-867-7422	
+OR	North Bend	Southwest Oregon Regional Airport	KOTH	 Coos Aviation	541-756-5181	
+OR	Ontario	Ontario Municipal Airport	KONO	Frazier Aviation LLC	541-889-9197	
+OR	Pendleton	Eastern Oregon Regional Airport at Pendleton	KPDT	Pendleton Aviation	541-276-3313	
+OR	Portland	Portland-Hillsboro Airport	KHIO	 Aero Air	503-640-3711	
+OR	Portland	Portland-Hillsboro Airport	KHIO	Global Aviation	503-648-6403	
+OR	Portland	Portland-Hillsboro Airport	KHIO	Hillsboro Aviation	503-648-2831	
+OR	Portland	Portland International Airport	KPDX	Atlantic Aviation	503-331-4220	
+OR	Portland	Portland-Troutdale Airport	KTTD	Gorge Winds Aviation	503-661-1044	
+OR	Portland-Mulino	Mulino State Airport	4S9	Infinite Air Center, LLC	541-730-3345	
+OR	Prineville	Prineville Airport	S39	Prineville Airport	541-416-0805	
+OR	Redmond	Roberts Field Airport	KRDM	Leading Edge Jet Center	541-504-3848	
+OR	Roseburg	Roseburg Regional Airport	KRBG	Western Oregon Flying Services LLC	541-673-4722, 541-430-8339	
+OR	Salem	McNary Field Airport	KSLE	 Salem Aviation Fueling @ Salem Air Center	503-364-4158, 503-364-0111	
+OR	Scappoose	Scappoose Industrial Airpark	KSPB	Transwestern Aviation	503-543-3121	
+OR	Sisters	Sisters Eagle Air Airport	6K5	Sisters Eagle Air, Inc	541-719-0602	
+OR	Sunriver	Sunriver Airport	S21	Sunriver Resort	541-593-4603	
+OR	The Dalles	Columbia Gorge Regional/The Dalles Municipal Airport	KDLS	 Gorge Aviation Services, LLC	509-767-0005, 509-767-2272	
+OR	Tillamook	Tillamook Airport	KTMK	Tillamook Airport	503-842-7152	
