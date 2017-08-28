@@ -4,7 +4,7 @@ def main
 	#Airplane.delete_all
 	#FeeType.delete_all
 	#City.delete_all
-	#Airport.delete_all
+	Airport.delete_all
 	Fbo.delete_all
 	#Classification.delete_all
 	#Category.delete_all
@@ -14,11 +14,14 @@ def main
 	#addFeeTypes("fee_types")
 	#addClassifications("classification_types")
 	#addCategories("categories")
-	#addAirports("airport_seed_data") # also adds cities
+	#addCities("uscitiesv1.3.csv")
+	addAirports("airport_seed_data") # also adds cities
 	#addFbos("fbo_seed_data")
 	#addFeesAndUpdateFbos("survey_responses.tsv")
 
 	addStartupTermData("survey_responses.tsv")
+
+# TODO addFbos and addStartupTermData both add FBOs to the database, figure it out.
 end
 
 def addAirplanes()
@@ -73,12 +76,18 @@ def addAirports(filename)
 	airports.each do |curAirport|
 		curAirport = curAirport.strip.downcase
 		airportCode, airportName, ownerPhone, managerPhone, latitude, longitude, state, city = curAirport.split("\t")
-
 		curCity = City.find_by({ :name => city, :state => state })
+# this will create a city if it's not found, but because we don't actually care about the city, it doesn't matter much, and commenting this out avoids duplicates
+=begin
 		if curCity.nil?
 			curCity = City.create({ :name => city, :state => state, :latitude => latitude, :longitude => longitude })
 		end
-		airports = Airport.create({ :airport_code => airportCode, :name => airportName.strip.downcase, :latitude => latitude, :longitude => longitude, :state => state, :ownerPhone => ownerPhone, :managerPhone => managerPhone, :city_id => curCity.id })
+=end
+		if curCity.nil?
+			airports = Airport.create({ :airport_code => airportCode, :name => airportName.strip.downcase, :latitude => latitude, :longitude => longitude, :state => state, :ownerPhone => ownerPhone, :managerPhone => managerPhone})
+		else
+			airports = Airport.create({ :airport_code => airportCode, :name => airportName.strip.downcase, :latitude => latitude, :longitude => longitude, :state => state, :ownerPhone => ownerPhone, :managerPhone => managerPhone, :city => curCity })
+		end
 	end
 end
 
@@ -227,7 +236,7 @@ def addStartupTermData(filename)
 						singleFeeHelper(0, curCategory, curFbo, curFeeType.fee_type_description)
 					end
 				end
-			elsif feeClassification.nil? or classificfationDesc == ""
+			elsif feeClassification.nil? or classificationDesc == ""
 				# do nothing
 			elsif classificationDesc == "flat rate"
 				# If the current FBO has a flat rate fee
