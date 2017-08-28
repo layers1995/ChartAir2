@@ -64,7 +64,7 @@ def addCities(filename)
 	cities.each do |curCity|
 		curCity = curCity.strip.downcase
 		cityName, cityNameAscii, stateCode, stateName, countyName, countyFips, latitude, longitude, population, source, id = curCity.split(",")
-		City.create({ :name => cityName})
+		City.create({ :name => cityName, :state => stateCode, :latitude => latitude, :longitude => longitude })
 	end
 end
 
@@ -227,7 +227,7 @@ def addStartupTermData(filename)
 						singleFeeHelper(0, curCategory, curFbo, curFeeType.fee_type_description)
 					end
 				end
-			elsif feeClassification.nil? or classificationDesc == ""
+			elsif feeClassification.nil? or classificfationDesc == ""
 				# do nothing
 			elsif classificationDesc == "flat rate"
 				# If the current FBO has a flat rate fee
