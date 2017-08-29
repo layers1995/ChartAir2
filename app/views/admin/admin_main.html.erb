@@ -25,6 +25,7 @@
           <td><h3><%=trip["arrival_time"]%></h3></td>
           <td><h3><%=Airplane.find_by(:id => AirplaneUser.find_by(:tailnumber =>trip["tailnumber"]).airplane_id).model%></h3></td>
           <td><h3><%=trip["tailnumber"]%></h3></td>
+          <td><h3><%=trip["detail"]%></h3></td>
           <td><h3>$<%=trip["cost"]%></h3></td>
           <td><%= link_to "Confirm Trip", confirm_trip_path(:trip_id => trip["id"]), method: :post%></td>
           <td><%= link_to "Mark Issue", problem_trip_path(:trip_id => trip["id"], :problem => "issue")%></td>

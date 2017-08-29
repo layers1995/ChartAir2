@@ -3,6 +3,9 @@ class UsersAirplanesController < ApplicationController
   def profile
     
     @user= current_user
+    if @user==nil
+      redirect_to '/login'
+    end
     
     #user has planes
     if(current_airplanes!=nil)

@@ -26,10 +26,18 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
-  # Don't care if the mailer can't send.
-  config.action_mailer.raise_delivery_errors = false
-
+  # Make sure the mailer can send mail
+  config.action_mailer.raise_delivery_errors = true
   config.action_mailer.perform_caching = false
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.delivery_method = :sendmail
+  config.action_mailer.default_url_options = { :host => 'chartair-fuzzykitenz.c9users.io' }
+  config.action_mailer.smtp_settings = { 
+    :port => 587,
+    :address => "smtp.sendgrid.net",
+    :user_name => "blah",
+    :password => "blah, blah",
+  }
 
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
