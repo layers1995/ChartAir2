@@ -177,8 +177,8 @@ if __FILE__ == $0
   #crawl('http://airnav.com/airports/us/MN')
   #crawl('http://airnav.com/airports/us/OH')
 
-  #crawl('http://airnav.com/airports/us/PA', "Husky Haven Airport")
+  #crawl('http://airnav.com/airports/us/TX', "Lackey Aviation Airport")
 
-  eachState("http://airnav.com/airports/us", 40)
+  eachState("http://airnav.com/airports/us", 44)
   $airportSeedData.close()
 end
