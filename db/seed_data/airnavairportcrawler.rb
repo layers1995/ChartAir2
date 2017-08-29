@@ -5,6 +5,7 @@ require 'fileutils'
 
 
 def parse(state, city, airportName, url)
+  sleep(0.8)
 
   # TODO This program does not do the following: 
   # Get information from private airports
@@ -92,6 +93,7 @@ def parse(state, city, airportName, url)
   end
 end
 
+=begin
 def crawl(url)
   state = url[url.rindex('/')+1..-1].strip()
   page = Nokogiri::HTML(open(url))
@@ -108,6 +110,39 @@ def crawl(url)
     city = cols[2].text.strip()
     airport = cols[4].text.strip()
     parse(state, city, airport, link)
+  end
+end
+=end
+
+def crawl(url, startAirport = nil)
+
+  # if the start airport is nil, begin at the top of the page
+  beginParsing = startAirport.nil? ? true : false
+
+  state = url[url.rindex('/')+1..-1]
+  page = Nokogiri::HTML(open(url))
+
+  rows = page.css("table[cellspacing='2'] tr")
+  rows[1..-1].each do |tr|
+    cols = tr.css('td')
+    link = cols[0].css('a')[0]["href"]
+
+    if link[1] == 'a'
+      link = 'http://www.airnav.com' + link
+    end
+
+    city = cols[2].text
+    airport = cols[4].text
+
+    # if we've reached the airport that we wanted to start at, begin parsing data
+    if airport == startAirport
+      beginParsing = true
+    end
+
+    # if we're supposed to be parsing data, then do it.
+    if beginParsing
+      parse(state, city, airport, link)
+    end
   end
 end
 
@@ -142,9 +177,8 @@ if __FILE__ == $0
   #crawl('http://airnav.com/airports/us/MN')
   #crawl('http://airnav.com/airports/us/OH')
 
-  #crawl('http://airnav.com/airports/us/NJ')
+  #crawl('http://airnav.com/airports/us/PA', "Husky Haven Airport")
 
-
-  eachState("http://airnav.com/airports/us", 0)
+  eachState("http://airnav.com/airports/us", 40)
   $airportSeedData.close()
 end

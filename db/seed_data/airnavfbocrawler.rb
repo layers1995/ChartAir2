@@ -126,33 +126,17 @@ end
 
 if __FILE__ == $0
   #parseFbos('IL', 'Chicago', 'Midway', 'http://www.airnav.com/airport/KCIU')
-  #parseFbos('IL', 'Galesburg', 'Galesburg Municipal', 'http://www.airnav.com/airport/c00')
-  #parseFbos('IL', 'Galesburg', 'Galesburg Municipal', 'http://www.airnav.com/airport/2RR')
-=begin
-  $fboSeedData = File.open("fbo_call_data/california.txt", "a")
-  crawl('http://airnav.com/airports/us/CA')
+
+  $fboSeedData = File.open("fbo_call_data_prioritized/wyoming.txt", "a")
+  crawl('http://airnav.com/airports/us/WY')
   $fboSeedData.close()
 
-  $fboSeedData = File.open("fbo_call_data/oklahoma.txt", "a")
-  crawl('http://airnav.com/airports/us/OK')
+  $fboSeedData = File.open("fbo_call_data_prioritized/nebraska.txt", "a")
+  crawl('http://airnav.com/airports/us/NE')
   $fboSeedData.close()
 
-  $fboSeedData = File.open("fbo_call_data/missouri.txt", "a")
-  crawl('http://airnav.com/airports/us/MO')
+  $fboSeedData = File.open("fbo_call_data_prioritized/idaho.txt", "a")
+  crawl('http://airnav.com/airports/us/ID')
   $fboSeedData.close()
 
-  $fboSeedData = File.open("fbo_call_data/new york.txt", "a")
-  crawl('http://airnav.com/airports/us/NY')
-  $fboSeedData.close()
-
-  $fboSeedData = File.open("fbo_call_data/georgia.txt", "a")
-  crawl('http://airnav.com/airports/us/GA', "Jekyll Island Airport")
-  $fboSeedData.close()
-=end
-
-  $fboSeedData = File.open("fbo_call_data/alabama.txt", "a")
-  crawl('http://airnav.com/airports/us/AL', "Robbins Field Airport")
-  $fboSeedData.close()
 end
-
-# Get the free amazon credit ASAP

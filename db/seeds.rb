@@ -15,8 +15,8 @@ def main
 	#addClassifications("classification_types")
 	#addCategories("categories")
 	#addCities("uscitiesv1.3.csv")
-	addAirports("airport_seed_data") # also adds cities
-	#addFbos("fbo_seed_data")
+	addAirports("airport_seed_data")
+	addFbos("fbo_seed_data")
 	#addFeesAndUpdateFbos("survey_responses.tsv")
 
 	addStartupTermData("survey_responses.tsv")
