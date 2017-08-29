@@ -39,7 +39,7 @@ class AdminController < ApplicationController
     trip = Trip.find_by(:id => params[:trip_id])
     trip.trip_status="confirmed"
     trip.save
-    
+    UserMailer.confirm_email(current_user, trip)
     redirect_to "/admin_main"
     
   end
