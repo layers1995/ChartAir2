@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get '/admin_login', to: "admin#admin_login"
   post '/admin_create', to: "admin#admin_create"
   get '/admin_main', to: "admin#admin_main"
-  get '/confirm_trip', to: 'admin#confirm_trip'
+  post '/confirm_trip', to: 'admin#confirm_trip'
   get '/problem_trip', to: "admin#problem_trip"
   post '/post_problem', to: "admin#post_problem"
   post '/seen_report', to: "admin#seen_report"
@@ -19,7 +19,7 @@ Rails.application.routes.draw do
   get '/book_trip', to: 'trips#book_trip'
   post '/book_trip', to: 'trips#new_trip'
   get '/trip_resolution', to: "trips#resolution"
-  get '/resolve_trip', to: "trips#resolve_trip"
+  post '/resolve_trip', to: "trips#resolve_trip"
 
 #pages used for the plan trip      
   get '/plantrip', to: 'plan_trip#trip_details'
@@ -29,14 +29,15 @@ Rails.application.routes.draw do
   get '/home',  to: 'static_pages#home'
   get '/help',  to:'static_pages#help'
   get '/feedback',  to: 'static_pages#feedback'
-  get  '/about_us',    to: 'static_pages#about_us'
+  get '/about_us',    to: 'static_pages#about_us'
 
 #user pages
   get '/new_user', to: 'users#new'
+  get '/terms', to: 'users#terms'
   post '/new_user',  to: 'users#create'
   
   get '/profile', to: 'users_airplanes#profile'
-  get '/profileremove', to: 'users_airplanes#remove_plane'
+  post '/profileremove', to: 'users_airplanes#remove_plane'
   post '/profile', to: 'users_airplanes#add_plane'
 
 #login pages

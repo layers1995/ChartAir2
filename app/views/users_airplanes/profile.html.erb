@@ -1,51 +1,55 @@
+<%= include_gon %>
 <%= render 'layouts/header' %>
-<%= stylesheet_link_tag 'main'%>
+<%= stylesheet_link_tag 'base'%>
 <%= javascript_include_tag 'addPlane' %>
 
-<h1 class="centered"><%= @user.name %></h1>
+<div class="body">
+<h1 class="title"><%= @user.name %>'s Airplanes</h1>
 
+
+<div class="floated"> 
 <%if @airplanes!=nil%>
-<h4 class="centered">Your Airplanes</h4>
 
-  <table id="trips">
+  <table>
     
         <tr>
-          <td><h2>Tailnumber</h2></td>
-          <td><h2>Manufacturer</h2></td>
-          <td><h2>Model</h2></td>
-          <td><h2>Trip</h2></td>
-          <td><h2>Remove</h2></td>
+          <td class="columnTitles">Tailnumber</td>
+          <td class="columnTitles">Manufacturer</td>
+          <td class="columnTitles">Model</td>
+          <td class="columnTitles">Trip</td>
+          <td class="columnTitles">Remove</td>
         </tr>
         
-    <% @airplanes.each do |airplane|%>
-        <tr>
-          <td><h3><%=airplane["tailnumber"]%></h3></td>
-          <td><h3><%=airplane["manufacturer"]%></h3></td>
-          <td><h3><%=airplane["model"]%></h3></td>
-          <td><%= link_to "Plan Trip", plantrip_path(:tailnumber => airplane["tailnumber"]) %></td>
-          <td><%= link_to "Remove Airplane", profileremove_path(:tailnumber => airplane["tailnumber"]) %></td>
-        </tr>
-    <%end%>
+        <% @airplanes.each do |airplane|%>
+            <tr class=tableItems>
+              <td><%=airplane["tailnumber"]%></td>
+              <td><%=airplane["manufacturer"]%></td>
+              <td><%=airplane["model"]%></td>
+              <td><%= link_to "Plan Trip", plantrip_path(:tailnumber => airplane["tailnumber"]), method: :get %></td>
+              <td><%= link_to "Remove Airplane", profileremove_path(:tailnumber => airplane["tailnumber"]), method: :post, data: {confirm: "Are you sure you want to delete this airplane?"} %></td>
+            </tr>
+        <%end%>
     
-    <div id="showAfterClick">
-      <div class="row">
-        <div class="col-md-6 col-md-offset-3">
+  </table>    
+  
+</div> 
+    
+    <div class="formProfile">
+      <div class="col-md-6 col-md-offset-3">
           <%= form_for @user_airplane do |f| %>
-              
-              <%= render 'layouts/error_messages' %>
-              
-                <tr id="tripInfo">
-                  <td><%= f.text_field :tailnumber, {class: "form-control", :placeholder=>"Tailnumber"} %></td>
-                  <td><%= f.select :manufacturer, [],{}, {class: "form-control", id:'manufacturer', :onchange=> "changePlanes();"} %></td>
-                  <td><%= f.select :model, [],{}, {class: "form-control", id:'model'} %></td>
-                  <td><%= f.submit "Add Plane", class: "btn btn-primary" %></td>
-                </tr>
+          
+            <p class="formTitle">New Airplane</p>  
+            <%= render 'layouts/error_messages' %>
+            <p class="formLable">Tail Number</p>  
+            <%= f.text_field :tailnumber, {class: "form-control", :placeholder=>"Tailnumber"} %>
+            <p class="formLable">Manufacturer</p>
+            <%= f.select :manufacturer, [],{}, {class: "form-control", id:'manufacturer', :onchange=> "changePlanes();"} %>
+            <p class="formLable">Model</p>
+            <%= f.select :model, [],{}, {class: "form-control", id:'model'} %>
+            <p class="center"><%= f.submit "Add Plane", class: "submit" %></p>
             
           <% end %>
-        </div>
       </div>
+      <%end%>
     </div>
-    
-  </table>
-  
-<%end%>
+</div>

@@ -15,6 +15,7 @@ function start(){
     //alert("start");
     feeDict=gon.dict;
     destination=gon.destination;
+    
     curFilter=document.getElementById("userFilter").innerHTML.toLocaleLowerCase();
     
     addListeners();
@@ -39,7 +40,7 @@ function addListeners(){
 	document.getElementById("tie down").onclick=function(){feeButtonClicked("tie down");};
 	document.getElementById("ramp").onclick=function(){feeButtonClicked("ramp");};
 	document.getElementById("facility").onclick=function(){feeButtonClicked("facility");};
-	document.getElementById("hanger").onclick=function(){feeButtonClicked("hanger");};
+	//document.getElementById("hanger").onclick=function(){feeButtonClicked("hanger");};
 	document.getElementById("call out").onclick=function(){feeButtonClicked("call out");};
 	document.getElementById("other").onclick=function(){feeButtonClicked("other");};
 }
@@ -71,8 +72,11 @@ function fillAppliedFeesDict(){
     appliedFees["ramp"]= true;
     appliedFees["facility"]=true;
     appliedFees["call out"]=true;
-    appliedFees["hanger"]=true;
+    //appliedFees["hanger"]=true;
     appliedFees["other"]=true;
+    
+    feeButtonClicked("tie down");
+    feeButtonClicked("call out");
 }
 
 //listens for when a filter button is clicked
@@ -128,17 +132,27 @@ function updateTotalCost(){
     
     for(var i=0; i<this.fbos.length;i++){
         
+        var hasKnownFees=false;
         var tempTotal=0;
         
         for(var k=0; k<fees.length; k++){
-            if(appliedFees[fees[k]]){
-                if(feeDict[fbos[i].name][fees[k]]!=null){
+            if(feeDict[fbos[i].name][fees[k]]!=null){
+                hasKnownFees=true;
+                if(appliedFees[fees[k]]){
                     tempTotal+= feeDict[fbos[i].name][fees[k]];
                 }
             }
         }
-        fbos[i].total=tempTotal;
-        feeDict[fbos[i].name]["total"]=tempTotal;
+        
+        //gives a certain price if the fbo has unknown fees
+        if(hasKnownFees){
+            fbos[i].total=tempTotal;
+            feeDict[fbos[i].name]["total"]=tempTotal;
+        }else{
+            fbos[i].total=1000001;
+            feeDict[fbos[i].name]["total"]=1000001;
+        }
+        
     }
     
 }
@@ -168,10 +182,18 @@ function compairPrice(x, y){
    return compairDistance(x,y);
 }
 
+//edited to allow for unknow fees to sink to bottom
 function compairDistance(x, y){
     
    var xDistance=parseInt(x.distance);
    var yDistance=parseInt(y.distance);
+   
+   if(parseInt(x.total)==1000001 || parseInt(y.total)==1000001){
+       if (parseInt(x.total) < parseInt(y.total))
+          return -1;
+       if (parseInt(x.total) > parseInt(y.total))
+         return 1;
+   }
    
    if (xDistance < yDistance)
       return -1;
@@ -241,7 +263,13 @@ function updateTable(){
             //make a cell for price
             var c3  = document.createElement('td');
             var c3text=document.createElement("H4");
-            c3text.appendChild(document.createTextNode("Total Cost: $" + feeDict[curName]["total"]));
+            
+            if(feeDict[curName]["total"]==1000001){
+                c3text.appendChild(document.createTextNode("Unknown Cost"));
+            }else{
+                c3text.appendChild(document.createTextNode("Total Cost: $" + feeDict[curName]["total"]));
+            }
+            
             c3.setAttribute("class", "right");
             c3.appendChild(c3text);
             newRow.appendChild(c3);

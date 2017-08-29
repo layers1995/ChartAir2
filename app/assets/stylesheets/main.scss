@@ -6,11 +6,11 @@
 
 header{
 	position:fixed;
-	top:0%;
+	top:1%;
 	right:0%;
 	width:100%;
-	height: 7%;
-	background-color: white;
+	height: 5%;
+	background-color: rgba(255,255,255, 0.5);
 }
 
 #navBar{
@@ -35,7 +35,7 @@ header{
 	width:auto;
     height: 50px;
 	position: fixed;
-	top:0%;
+	top:.5%;
 	left:3%;
 }
 
@@ -47,23 +47,29 @@ header{
 //*Body of the text*//
 
 body{
-	position:relative;
-	margin-top: 10%;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-bottom: 12%;
+	margin: 0px;
+   	min-height: 100%;
+   	width: 100%;
 	font-family: 'tradegothiclt-condeighteen', sans-serif;
 	display:-webkit-box;
-	-webkit-border-radius: 10px;
-	padding-left:5%;
-	padding-right:5%;
-	padding-top:1%;
-	padding-bottom:3%;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top: 5%;
+	padding-bottom: 3%;
 	-webkit-box-orient: vertical;
 	-webkit-box-pack:right;
-	background-color:white;
+	background-color: rgba(255,255,255, 0);
 	font-size:18px;
 	color:#333333;
+}
+
+.body{
+	background-color: white;
+	padding-left: 3%;
+	padding-top: 2%;
+	padding-right: 3%;
+	padding-bottom: 2%;
+  	min-height: 100%;
 }
 
 p{
@@ -72,6 +78,15 @@ p{
 
 .center{
 	text-align:center;
+}
+
+.right{
+	position: relative;
+	text-align:right;
+}
+
+#ourTeam{
+	width:100%;
 }
 
 html{
@@ -117,8 +132,29 @@ html{
 	left:45%;
 }
 
-.info{
+#ourTeam{
+	min-width:30%;
 	text-align: center;
+}
+
+#ourStory{
+	max-width:30%;
+	text-align: center;
+}
+
+#ourTeamTable{
+	table-layout: fixed;
+	margin-left: 0%;
+	width: 100%;
+	text-align: center;
+}
+
+#missionStatement{
+	padding: 5%;
+}
+
+td{
+    padding: 0% 5% 0% 5%;
 }
 
 .small{
@@ -170,14 +206,6 @@ li{
 	border-spacing: 3em;
 }
 
-#planTripTable{
-	width:100%;
-	float:left;
-	border-collapse: separate;
-	border-spacing: 3em;
-}
-
-
 input[type=text] {
 	position:relative;
 	left:20%;
@@ -203,12 +231,16 @@ input[type=submit] {
 }
 
 footer{
-  position: absolute;
   right: 0%;
   bottom: 0%;
   left: 0%;
-  background-color: #efefef;
+  background: radial-gradient(circle, rgba(255,255,255, .75), rgba(255,255,255, 0)); 
   text-align: center;
+}
+
+#footContainer{
+	position:relative;
+	min-height: 100%;
 }
 
 .invisable{

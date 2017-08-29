@@ -1,6 +1,6 @@
 class User < ApplicationRecord
     
-    attr_accessor :remember_token
+    attr_accessor :remember_token, :betakey, :email_confirm, :confirm_user_agreement
     
     before_save { self.email = email.downcase }
     validates :name, presence: true, length: { maximum: 50 }

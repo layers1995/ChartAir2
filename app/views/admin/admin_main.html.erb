@@ -8,8 +8,11 @@
     <tr>
         <td><h3>Trip Status</h3></td>
         <td><h3>Destination</h3></td>
+        <td><h3>Phone Number</h3></td>
         <td><h3>Time and Date</h3></td>
         <td><h3>Airplane</h3></td>
+        <td><h3>Tail number</h3></td>
+        <td><h3>Trip Details</h3></td>
         <td><h3>Cost</h3></td>
         <td><h3></h3></td>
         <td><h3></h3></td>
@@ -18,10 +21,12 @@
         <tr>
           <td><h3><%=trip["trip_status"]%></h3></td>
           <td><h3><%=Airport.find_by(:id => trip["airport_id"]).name%></h3></td>
+          <td><h3><%=Airport.find_by(:id => trip["airport_id"]).managerPhone%></h3></td>
           <td><h3><%=trip["arrival_time"]%></h3></td>
+          <td><h3><%=Airplane.find_by(:id => AirplaneUser.find_by(:tailnumber =>trip["tailnumber"]).airplane_id).model%></h3></td>
           <td><h3><%=trip["tailnumber"]%></h3></td>
           <td><h3>$<%=trip["cost"]%></h3></td>
-          <td><%= link_to "Confirm Trip", confirm_trip_path(:trip_id => trip["id"]) %></td>
+          <td><%= link_to "Confirm Trip", confirm_trip_path(:trip_id => trip["id"]), method: :post%></td>
           <td><%= link_to "Mark Issue", problem_trip_path(:trip_id => trip["id"], :problem => "issue")%></td>
           <td><%= link_to "Cancel Trip", problem_trip_path(:trip_id => trip["id"], :problem => "canceled")%></td>
         </tr>

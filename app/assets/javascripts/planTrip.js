@@ -1,6 +1,9 @@
 window.addEventListener("load",start,false);
 
 var cityDict= {}
+var citiess;
+var curAirplanes;
+var selectedAirplane;
 var addedManu=false;
 
 function start(){
