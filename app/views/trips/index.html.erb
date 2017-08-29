@@ -1,24 +1,49 @@
 <%= render 'layouts/header' %>
-<%= stylesheet_link_tag 'main'%>
+<%= stylesheet_link_tag 'base'%>
 
-<h1>All Trips</h1>
+<div class="body">
+<h1 class= "title">All Trips</h1>
 
-<table id="trips">
+<table>
     <tr>
-        <td><h3>Trip Status</h3></td>
-        <td><h3>Destination</h3></td>
-        <td><h3>Time and Date</h3></td>
-        <td><h3>Airplane</h3></td>
-        <td><h3>Cost</h3></td>
-        <td><h3></h3></td>
+        <td class="columnTitles">Trip Status</td>
+        <td class="columnTitles">Destination</td>
+        <td class="columnTitles">Time and Date</td>
+        <td class="columnTitles">Airplane</td>
+        <td class="columnTitles">Cost</td>
+        <td class="columnTitles"></td>
     </tr>
-    <% @trips.each do |trip|%>
-        <tr>
-          <td><h3><%=trip["trip_status"]%></h3></td>
-          <td><h3><%=Airport.find_by(:id => trip["airport_id"]).name%></h3></td>
-          <td><h3><%=trip["arrival_time"]%></h3></td>
-          <td><h3><%=trip["tailnumber"]%></h3></td>
-          <td><h3>$<%=trip["cost"]%></h3></td>
+    <% @nextTrips.each do |trip|%>
+        <tr class="tableItems">
+          
+          <td><%=trip["trip_status"]%></td>
+          <td><%=Airport.find_by(:id => trip["airport_id"]).name%></td>
+          <td><%=trip["arrival_time"]%></td>
+          <td><%=trip["tailnumber"]%></td>
+          <td>$<%=trip["cost"]%></td>
+          
+          <%if trip["trip_status"]==="completed"%>
+              <td><%= link_to "Rate Trip", report_path(:trip_id => trip["id"]) %></td>
+          <%end%>
+          
+          <%if trip["trip_status"]==="issue"%>
+              <td><%= link_to "Resolve Issue", trip_resolution_path(:trip => trip["id"], :reason => "issue") %></td>
+          <%end%>
+          
+          <%if trip["trip_status"]==="canceled"%>
+              <td><%= link_to "Resolve Cancleation", trip_resolution_path(:trip => trip["id"], :reason => "cancled") %></td>
+          <%end%>
+          
+        </tr>
+    <%end%>
+    <% @prevTrips.each do |trip|%>
+        <tr class="tableItems">
+            
+          <td>Confirmed</td>
+          <td><%=Airport.find_by(:id => trip["airport_id"]).name%></td>
+          <td><%=trip["arrival_time"]%></td>
+          <td><%=trip["tailnumber"]%></td>
+          <td>$<%=trip["cost"]%></td>
           
           <%if trip["trip_status"]==="completed"%>
               <td><%= link_to "Rate Trip", report_path(:trip_id => trip["id"]) %></td>
@@ -35,3 +60,4 @@
         </tr>
     <%end%>
 </table>
+</div>

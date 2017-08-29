@@ -2,10 +2,14 @@
 
 # Version of your assets, change this if you want to expire all your assets.
 Rails.application.config.assets.version = '1.0'
+Rails.application.config.assets.compress = true
+Rails.application.config.assets.js_compressor = :uglifier
 
 #stylesheets
 Rails.application.config.assets.precompile += %w( sessions.css )
 Rails.application.config.assets.precompile += %w( main.css )
+Rails.application.config.assets.precompile += %w( base.css )
+Rails.application.config.assets.precompile += %w( plan_trip.css )
 Rails.application.config.assets.precompile += %w( plan_trip_results.css )
 
 #javascripts

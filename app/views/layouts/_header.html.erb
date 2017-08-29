@@ -1,12 +1,9 @@
 <header>
-	<%= image_tag "header_logo", id: "logo"%>
+	<!--<%= image_tag("ChartAir_Header.png", :id => "logo") %>-->
 	<div id="navBar">
 		<ul id="headerNavItems">
-				<li class="item"><%= link_to "Plan Trip", plantrip_path %></li>
+				<li class="item"><%= link_to "Plan Trip", plantrip_path,  method: :get %></li>
 				<li class="item"><%= link_to "About Us", about_us_path %></li>
-				<% if logged_in? %>
-					<li class="item"><%= link_to "Feedback", feedback_path %></li>
-				<% end %>
 				<li class="item"><%= link_to "Help", help_path %></li>
 				
 				<% if logged_in? %>
@@ -15,8 +12,8 @@
 		              Account <b class="caret"></b>
 		            </a>
 		            <ul class="dropdown-menu">
-		              <li class="item"><%= link_to "Profile", profile_path %></li>
-		              <li class="item"><%= link_to "Trips", trips_path %></li>
+		              <li class="item"><%= link_to "Profile", profile_path,  method: :get %></li>
+		              <li class="item"><%= link_to "Trips", trips_path,  method: :get %></li>
 		              <li class="divider"></li>
 		              <li class="item">
 		                <%= link_to "Log out", logout_path, method: :delete %>

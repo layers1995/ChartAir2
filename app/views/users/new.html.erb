@@ -13,10 +13,18 @@
         <p class="loginInfo"><%= f.text_field :name, class: 'form-control', id: "input", :placeholder=>"Username" %></p>
 
         <p class="loginInfo"><%= f.email_field :email, class: 'form-control', id: "input", :placeholder=>"Email" %></p>
+        
+        <p class="loginInfo"><%= f.email_field :email_confirm, class: 'form-control', id: "input", :placeholder=>"Email Confirmation" %></p>
+        
+        <p class="loginInfo"><%= f.text_field :betakey, class: 'form-control', id: "input", :placeholder=>"Beta Key" %></p>
 
         <p class="loginInfo"><%= f.password_field :password, class: 'form-control', id: "input", :placeholder=>"Password" %></p>
 
         <p class="loginInfo"><%= f.password_field :password_confirmation, class: 'form-control',id: "input", :placeholder=>"Password Confirmation" %></p>
+        
+        <%= link_to "Terms of Agreement", terms_path, :target => "_blank" %>
+        
+        <p class="loginInfo"><%= f.check_box :confirm_user_agreement, class: 'form-control', id: "input"%>I have read and agree to the user terms</p>
 
         <%= f.submit "Create my account", class: "btn btn-primary" %>
       
@@ -25,4 +33,10 @@
     <% end %>
   </div>
   
+</div>
+
+<div id="footContainer">
+    <footer>
+    	<p>&copy; 2017 ChartAir, Inc &emsp; <a href="http://sed-rah-stock.deviantart.com/">sed-rah-stock</a> <p>
+    </footer>
 </div>

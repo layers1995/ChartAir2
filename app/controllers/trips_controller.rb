@@ -1,11 +1,11 @@
 class TripsController < ApplicationController
   
   def index
-    @trips=Trip.where(:user_id => current_user);
+    temptrips=Trip.where(:user_id => current_user).order(arrival_time: :asc)
     
     #change trips from pending to completed
-    if @trips!=nil
-     @trips.each do |trip|
+    if temptrips!=nil
+     temptrips.each do |trip|
        if(trip.trip_status==="confirmed" && trip.arrival_time.past?)
          trip.trip_status="completed"
          trip.save
@@ -13,6 +13,8 @@ class TripsController < ApplicationController
      end
     end
     
+    @nextTrips= Trip.where(:user_id => current_user, :trip_status => ["issue","pending", "cancled", "confirmed"]).order(arrival_time: :asc)
+    @prevTrips= Trip.where(:user_id => current_user, :trip_status => "completed").order(arrival_time: :asc)
   end
   
   def resolve_trip

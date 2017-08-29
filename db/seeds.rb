@@ -1,21 +1,21 @@
 include SeedsHelper # located at lib/seeds_helper.rb
 
 def main
-	#Airplane.delete_all
-	#FeeType.delete_all
-	#City.delete_all
-	#Airport.delete_all
+	Airplane.delete_all
+	FeeType.delete_all
+	City.delete_all
+	Airport.delete_all
 	Fbo.delete_all
-	#Classification.delete_all
-	#Category.delete_all
+	Classification.delete_all
+	Category.delete_all
 	Fee.delete_all
 
-	#addAirplanes()
-	#addFeeTypes("fee_types")
-	#addClassifications("classification_types")
-	#addCategories("categories")
-	#addAirports("airport_seed_data") # also adds cities
-	#addFbos("fbo_seed_data")
+	addAirplanes()
+	addFeeTypes("fee_types")
+	addClassifications("classification_types")
+	addCategories("categories")
+	addAirports("airport_seed_data") # also adds cities
+	addFbos("fbo_seed_data")
 	#addFeesAndUpdateFbos("survey_responses.tsv")
 
 	addStartupTermData("survey_responses.tsv")

@@ -59,6 +59,8 @@ GEM
     concurrent-ruby (1.0.5)
     erubis (2.7.0)
     execjs (2.7.0)
+    faker (1.8.4)
+      i18n (~> 0.5)
     ffi (1.9.18)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
@@ -98,6 +100,9 @@ GEM
     nio4r (2.1.0)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
+    obfuscator (0.0.2)
+      activerecord
+      faker
     puma (3.9.1)
     rack (2.0.3)
     rack-test (0.6.3)
@@ -191,6 +196,7 @@ DEPENDENCIES
   jquery-rails
   listen (~> 3.0.5)
   minitest-reporters (= 1.1.14)
+  obfuscator (~> 0.0.2)
   puma (~> 3.0)
   rails (~> 5.0.4)
   rails-controller-testing

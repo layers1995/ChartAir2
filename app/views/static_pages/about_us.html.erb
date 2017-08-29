@@ -1,37 +1,68 @@
 <%= render 'layouts/header' %>
 <%= stylesheet_link_tag 'main'%>
 
-<section>
-		<ul class="ourStory">
-			<h1 id="ourStoryTitle">OUR STORY</h1>
+<div class="body">
+	<div class="center" id="missionStatement">
+			<h1 class="center">Mission Statement</h1>
+			</br>
 			<p>ChartAir streamlines communication within the aviation industry by increasing visibility of airport expenses, saving you both time and money. 
 			<p> This information is fundamental for establishing the cost of a trip, yet tedious to gather. </p>
 			<p>Our digital platform provides pilots, businesses, and operators instant access to fees without the hassle of calling. </p>
 			<p>ChartAir exists to simplify the overall flight process from planning to parking. </p>
-			<p>ChartAir started as a school project with Olivia Keneipp, Logan Ayers, Madison Belka, Clare Colt, and Cortney Hill. Cortney Hill discovered a pain point in the avation industry after reaching out and talking to a local charter opperator. ChartAir has continued on past a school project and is working hard to make it as a start up compnay.</p>
-		</ul>
-	</section>
+	</div>
+	
+	<table id="ourTeamTable">
+		<tr>
+			<td>
+				<h2>OUR TEAM</h2>
+			</td>
+			
+			<td>
+				<h2>OUR STORY</h2>
+			</td>
+		</tr>
 		
-	<section>
-			<h2 id="ourTeamTitle">OUR TEAM</h2>
-				
-			<section class="info">
-				<%= image_tag "olivia", class: "small"%>
-				<p>Olivia Keneipp, CEO of ChartAir, orginizes, presents, and communicates our company both internally and externally.</p>
-			</section>
-				
-			<section class="info">
-				<%= image_tag "logan", class: "small"%>
-				<p>Logan Ayers is both effective and detailed in his work on the backend database of our product.</p>
-			</section>
+		<tr>
+			<td>
+				<section class="info">
+					<%= image_tag "olivia", class: "small"%>
+					<p>Olivia Keneipp, CEO of ChartAir, orginizes, presents, and communicates our company both internally and externally.</p>
+				</section>
+			</td>
+			<td>
+				<p>ChartAir started as a school project with Olivia Keneipp, Logan Ayers, Madison Belka, Clare Colt, and Cortney Hill. Cortney Hill discovered a pain point in the avation industry after reaching out and talking to a local charter opperator. ChartAir has continued on past a school project and is working hard to make it as a start up compnay.</p>	
+			</td>
+		</tr>
 			
-			<section class="info">
-				<%= image_tag "madison", class: "small"%>
-				<p>Madison Belka, a fanastic software developer designs, tests, and builds the front end of our product.</p>
-			</section>
+		<tr>
+			<td>
+				<section class="info">
+					<%= image_tag "madison", class: "small"%>
+					<p>Madison Belka, a fanastic software developer designs, tests, and builds the front end of our product.</p>
+				</section>	
+			</td>
+			<td></td>
+		</tr>
 			
+		<tr>
+			<td>
+				<section class="info">
+					<%= image_tag "logan", class: "small"%>
+					<p>Logan Ayers is both effective and detailed in his work on the backend database of our product.</p>
+				</section>
+			</td>
+			<td></td>
+		</tr>
+			
+		<tr>
+			<td>
 			<section class="info">
-				<%= image_tag "clare", class: "small"%>
-				<p>Clare Colt is a master of finance and buiness, who helps inform our planning and direction of the company.</p>
+					<%= image_tag "clare", class: "small"%>
+					<p>Clare Colt is a master of finance and buiness, who helps inform our planning and direction of the company.</p>
 			</section>
-</section>
+			</td>
+			<td></td>
+		</tr>
+		
+	</table>
+</div>

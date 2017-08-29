@@ -17,8 +17,9 @@ class UsersAirplanesController < ApplicationController
   def add_plane
 
     addedAirplane= Airplane.where(:model => params[:model])
+    tailnumber= params[:tailnumber].upcase
     
-    AirplaneUser.create(:airplane_id => addedAirplane.ids.first, :user_id => current_user.id, :tailnumber => params[:tailnumber])
+    AirplaneUser.create(:airplane_id => addedAirplane.ids.first, :user_id => current_user.id, :tailnumber => tailnumber)
     
     redirect_to "/profile"
     

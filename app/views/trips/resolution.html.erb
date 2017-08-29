@@ -1,15 +1,16 @@
 <%= render 'layouts/header' %>
 <%= stylesheet_link_tag 'main'%>
 
+<div class="body">
 <%if @problem==="cancled" %>
 
     <h2>Your trip has been cancled</h2>
     <p>We are very sorry for the inconveince, but your flight could not occur because:</p>
     <p><%=@issue%></p>
     
-    <%= link_to "You can plan another trip, by clicking here", resolve_trip_path(:resolution => "plan_trip", :trip => @trip) %>
+    <button><%= link_to "Replace Trip", resolve_trip_path(:resolution => "plan_trip", :trip => @trip), method: :post%></button>
     </br>
-    <%= link_to "Or you can confirm that you have seen your trip has been cancled and we will remove it from your current trips, by clicking here", resolve_trip_path(:resolution => "remove", :trip => @trip) %>
+    <button><%= link_to "Cancel Trip", resolve_trip_path(:resolution => "remove", :trip => @trip), method: :post%></button>
 
 <%end%>
 
@@ -19,10 +20,11 @@
     <p>While booking your flight we found that:</p>
     <p><%=@issue%></p>
     
-    <%= link_to "If you want to continue with your trip, regardless of this change, click here", resolve_trip_path(:resolution => "confirm", :trip => @trip) %>
+    <button><%= link_to "Confirm Trip Anyways", resolve_trip_path(:resolution => "confirm", :trip => @trip), method: :post%></button>
     </br>
-    <%= link_to "If you want to plan a replacement trip, click here", resolve_trip_path(:resolution => "plan_trip", :trip => @trip) %>
+    <button><%= link_to "Replace Trip", resolve_trip_path(:resolution => "plan_trip", :trip => @trip), method: :post%></button>
     </br>
-    <%= link_to "If you want to cancle and delete the trip, click here", resolve_trip_path(:resolution => "remove", :trip => @trip) %>
+    <button><%= link_to "Cancel Trip", resolve_trip_path(:resolution => "remove", :trip => @trip), method: :post%></button>
 
 <%end%>
+</div>

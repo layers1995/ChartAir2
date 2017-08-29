@@ -1,26 +1,38 @@
+<%= include_gon %>
 <%= render 'layouts/header' %>
-<%= stylesheet_link_tag 'main', media: 'all', 'data-turbolinks-track': 'reload' %>
+<%= stylesheet_link_tag 'base', media: 'all', 'data-turbolinks-track': 'reload' %>
+<%= stylesheet_link_tag 'plan_trip', media: 'all', 'data-turbolinks-track': 'reload' %>
 <%= javascript_include_tag 'planTrip' %>
 
-<h1>PlanTrip</h1>
+<div class="body">
+<h1 class="title">Plan Your Trip</h1>
 
-<table id="planTripTable">
-    
-        <tr>
-            <td class="center"><h2>State</h2></td>
-            <td class="center"><h2>City</h2></td>
-            <td class="center"><h2>Distance</h2></td>
-            <td class="center"><h2>Airplane</h2></td>
-            <td class="center"><h2>Filter</h2></td>
-        </tr>    
-   
-</table>
+        <div class="form">
+            
+            <%= form_for(@plan_trip, url: plantrip_path) do |f| %>
+                            
+                            <div id="locationInfo">
+                                <p class="formLable">State</p>
+                                <%= f.select :state, [],{}, {class: "form-control", id:'states', :onchange=> "changeCities();"}%>
+                                <p class="formLable">City</p>
+                                <%= f.select :city, [],{}, {class: "form-control", id:'cities'}%>
+                                <p class="formLable">Distance (mi)</p>
+                                <p class="center"><%= f.number_field :distance,{id: "input", value: 50 }%></p>
+                            </div>
+                            <p></p>
+                            <div id="otherInfo">
+                                <p class="formLable">Airplane</p>
+                                <%= f.select :tailnumber,[],{}, {class: "form-control", id:'airplanes'}%>
+                                <p class="formLable">Nights Staying</p>
+                                <p class="center"><%= f.number_field :nights, {id: "input", value: 0 }%></p>
+                                <p class="formLable">Filter By</p>
+                                <%= f.select :filter, ["Cost","Distance"],{}, {class: "form-control", id:'filters'}%>
+                                <p class="center"><%= image_submit_tag("arrowImage.png", :class => "planTripGo") %></p>
+                            </div>
+                            
+        
+                <div style="clear: both;">&nbsp;</div>
+            <% end %>
+        </div>
 
-<%= form_for(@plan_trip, url: plantrip_path) do |f| %>
-    <%= f.select :state, [],{}, {class: "form-control", id:'states', :onchange=> "changeCities();"}%>
-    <%= f.select :city, [],{}, {class: "form-control", id:'cities'}%>
-    <%= f.number_field :distance,{id: "input", value: 50 }%>
-    <%= f.select :airplane,[],{}, {class: "form-control", id:'airplanes'}%>
-    <%= f.select :filter, ["Cost","Distance"],{}, {class: "form-control", id:'filters'}%>
-    <%= f.submit "Plan Trip", class: "btn btn-primary" %>
-<% end %>
+</div>
