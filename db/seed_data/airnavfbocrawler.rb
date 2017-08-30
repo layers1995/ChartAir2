@@ -86,7 +86,8 @@ def parseFbos(state, city, airportName, url)
 
   fboData.each do |curFbo|
     printf("%s\t%s\t%s\t%s\t%s\t%s\n", city, curFbo[0].strip, curFbo[1].strip, airportName.strip, state, averageOperations)
-    $fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[0].strip, curFbo[1].strip, averageOperations)
+    #$fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[0].strip, curFbo[1].strip, averageOperations)
+    $fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[0].strip, curFbo[1].strip)
   end
 
 end
@@ -126,17 +127,30 @@ end
 
 if __FILE__ == $0
   #parseFbos('IL', 'Chicago', 'Midway', 'http://www.airnav.com/airport/KCIU')
+=begin
+  $fboSeedData = File.open("fbo_call_data_prioritized/minnesota.txt", "a")
+  crawl('http://airnav.com/airports/us/MN')
+  $fboSeedData.close()
+=end
 
-  $fboSeedData = File.open("fbo_call_data_prioritized/wyoming.txt", "a")
-  crawl('http://airnav.com/airports/us/WY')
+  $fboSeedData = File.open("fbo_call_data/illinois.txt", "a")
+  crawl('http://airnav.com/airports/us/IL')
   $fboSeedData.close()
 
-  $fboSeedData = File.open("fbo_call_data_prioritized/nebraska.txt", "a")
-  crawl('http://airnav.com/airports/us/NE')
+  $fboSeedData = File.open("fbo_call_data/ohio.txt", "a")
+  crawl('http://airnav.com/airports/us/OH')
   $fboSeedData.close()
 
-  $fboSeedData = File.open("fbo_call_data_prioritized/idaho.txt", "a")
-  crawl('http://airnav.com/airports/us/ID')
+  $fboSeedData = File.open("fbo_call_data/michigan.txt", "a")
+  crawl('http://airnav.com/airports/us/MI')
+  $fboSeedData.close()
+
+  $fboSeedData = File.open("fbo_call_data/indiana.txt", "a")
+  crawl('http://airnav.com/airports/us/IN')
+  $fboSeedData.close()
+
+  $fboSeedData = File.open("fbo_call_data/minnesota.txt", "a")
+  crawl('http://airnav.com/airports/us/MN')
   $fboSeedData.close()
 
 end

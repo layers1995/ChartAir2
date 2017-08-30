@@ -1,22 +1,23 @@
 include SeedsHelper # located at lib/seeds_helper.rb
 
 def main
-	#Airplane.delete_all
-	#FeeType.delete_all
+	Airplane.delete_all
+	FeeType.delete_all
 	#City.delete_all
-	Airport.delete_all
+	#Airport.delete_all
 	Fbo.delete_all
-	#Classification.delete_all
-	#Category.delete_all
+	Classification.delete_all
+	Category.delete_all
 	Fee.delete_all
 
-	#addAirplanes()
-	#addFeeTypes("fee_types")
-	#addClassifications("classification_types")
-	#addCategories("categories")
+	addAirplanes()
+	addFeeTypes("fee_types")
+	addClassifications("classification_types")
+	addCategories("categories")
 	#addCities("uscitiesv1.3.csv")
-	addAirports("airport_seed_data")
-	addFbos("fbo_seed_data")
+	#addAirports("full_airport_data")
+	#addFbos("fbo_seed_data")
+	addFboFolder("fbo_call_data")
 	#addFeesAndUpdateFbos("survey_responses.tsv")
 
 	addStartupTermData("survey_responses.tsv")
@@ -91,13 +92,23 @@ def addAirports(filename)
 	end
 end
 
-def addFbos(filename)
-	fbos = open(Rails.root.join("db", "seed_data", filename)).read
+# Add every FBO in a folder to the database
+def addFboFolder(folderName)
+	folderPath = Rails.root.join("db", "seed_data", folderName)
+	Dir.foreach(folderPath) do |curFile|
+	  next if curFile == '.' or curFile == '..' # do work on real items
+	  filePath = Rails.root.join("db", "seed_data", "fbo_call_data", curFile)
+	  addFbos(filePath)
+	end
+end
+
+def addFbos(filePath)
+	fbos = open(filePath).read
 	
 	fbos.each_line do |curFbo|
 		curFbo = curFbo.strip.downcase
 
-		fboName, phone, airportName = curFbo.split("\t")
+		state, city, airportName, airportCode, fboName, phone = curFbo.split("\t")
 		phone1 = phone.split(", ")[0]
 		phone2 = phone.split(", ")[1]
 
@@ -110,9 +121,11 @@ def addFbos(filename)
 		curAirport = Airport.find_by(:name => airportName)
 
 		if curAirport.nil?
-			#curAirport = Airport.find_by(:airport_code => )
-		else
-			Fbo.create({ :name => fboName, :airport_id => Airport.find_by(:name => airportName).id })
+			curAirport = Airport.find_by(:airport_code => airportCode)
+		end
+
+		if !curAirport.nil?
+			Fbo.create({ :name => fboName, :phone => phone1, :alternate_phone => phone2, :airport => curAirport })
 		end
 	end
 end

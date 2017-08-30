@@ -1,0 +1,93 @@
+IL	Alton/St Louis	St Louis Regional Airport	KALN	West Star Aviation, Inc.	618-259-3230
+IL	Belleville	Scott Air Force Base/MidAmerica Airport	KBLV	AVMATS MidAmerica	636-812-1525, 314-565-6076
+IL	Benton	Benton Municipal Airport	H96	Benton Municipal Airport	618-435-3526
+IL	Bloomington/Normal	Central Illinois Regional Airport at Bloomington-Normal	KBMI	Synergy Flight Center	309-828-4448
+IL	Bloomington/Normal	Central Illinois Regional Airport at Bloomington-Normal	KBMI	Image Air	309-663-2303
+IL	Bolingbrook	Bolingbrook's Clow International Airport	1C5	A&M Aviation, Inc.	630-759-1555
+IL	Cahokia/St Louis	St Louis Downtown Airport	KCPS	Jet Aviation	618-646-8000
+IL	Cahokia/St Louis	St Louis Downtown Airport	KCPS	Ideal Aviation	618-337-3400
+IL	Cairo	Cairo Regional Airport	KCIR	Cairo Regional Airport	618-734-0600
+IL	Canton	Ingersoll Airport	KCTK	Canton Park District	309-647-2072
+IL	Carbondale/Murphysboro	Southern Illinois Airport	KMDH	 Flightline	618-529-3377
+IL	Carmi	Carmi Municipal Airport	KCUL	Carmi Municipal Airport	618-380-4211
+IL	Casey	Casey Municipal Airport	1H8	Sky's the Limit	217-932-2078
+IL	Centralia	Centralia Municipal Airport	KENL	Airgo	618-533-1643
+IL	Champaign/Urbana	University of Illinois-Willard Airport	KCMI	Flightstar	217-351-7700
+IL	Chicago	Chicago O'Hare International Airport	KORD	Signature Flight Support	773-686-7000
+IL	Chicago	Chicago Midway International Airport	KMDW	Signature Flight Support	773-767-4400
+IL	Chicago	Chicago Midway International Airport	KMDW	Atlantic Aviation	773-582-5720
+IL	Chicago	Lansing Municipal Airport	KIGQ	Lansing Municipal Airport	708-418-5888
+IL	Chicago/Aurora	Aurora Municipal Airport	KARR	J.A. Air Center	630-549-2100, 630-549-2106
+IL	Chicago/Aurora	Aurora Municipal Airport	KARR	 Lumanair Aviation Services	630-466-4866
+IL	Chicago/Lake In The Hills	Lake in the Hills Airport	3CK	 Village of Lake in the Hills	815-479-7960, 847-960-7500
+IL	Chicago/Prospect Heights/Wheeling	Chicago Executive Airport	KPWK	Signature Flight Support	847-537-1200
+IL	Chicago/Prospect Heights/Wheeling	Chicago Executive Airport	KPWK	Hawthorne Global Aviation Services	847-325-0566
+IL	Chicago/Prospect Heights/Wheeling	Chicago Executive Airport	KPWK	Atlantic Aviation	847-808-0812
+IL	Chicago/Rockford	Chicago/Rockford International Airport	KRFD	 North American - Pride	815-969-7743
+IL	Chicago/Rockford	Chicago/Rockford International Airport	KRFD	Emery Air	815-968-8287
+IL	Chicago/Romeoville	Lewis University Airport	KLOT	Lewis University Airport	815-838-9497
+IL	Chicago/Schaumburg	Schaumburg Regional Airport	06C	Northwest Flyers	847-985-9778
+IL	Chicago/Waukegan	Waukegan Regional Airport	KUGN	Signature Flight Support	847-336-9220
+IL	Chicago/West Chicago	DuPage Airport	KDPA	DuPage Flight Center	630-208-5600
+IL	Danville	Vermilion Regional Airport	KDNV	Midwest Aero	217-431-1998
+IL	De Kalb	De Kalb Taylor Municipal Airport	KDKB	 DeKalb Flight Center	815-758-3521
+IL	Decatur	Decatur Airport	KDEC	Gaitros Aviation	217-423-9903
+IL	Dixon	Dixon Municipal Airport-Charles R. Walgreen Field	C73	Breneman Aircraft Service	815-284-0292
+IL	Dwight	Dwight Airport	KDTG	Dwight Aero Service	815-584-2486
+IL	Effingham	Effingham County Memorial Airport	1H2	Tate's Flying Service	217-536-5312
+IL	Fairfield	Fairfield Municipal Airport	KFWC	Fairfield Municipal Airport	618-842-9587
+IL	Flora	Flora Municipal Airport	KFOA	Flora Municipal Airport	618-662-2823
+IL	Freeport	Albertus Airport	KFEP	Freeport Flite Center	815-232-1078
+IL	Galesburg	Galesburg Municipal Airport	KGBG	 Jet Air, Inc.	309-342-3134
+IL	Greenville	Greenville Airport	KGRE	Greenville Airport	618-664-0926
+IL	Greenwood/Wonder Lake	Galt Field Airport	10C	 Galt Airport LLC	815-648-2433
+IL	Harrisburg	Harrisburg-Raleigh Airport	KHSB	Harrisburg-Raleigh Airport	618-253-7806
+IL	Harvard	Dacy Airport	0C0	Dacy Airshows	815-943-9876
+IL	Havana	Havana Regional Airport	9I0	Havana Regional Airport	309-696-4836
+IL	Jacksonville	Jacksonville Municipal Airport	KIJX	Jacksonville Municipal Airport	217-243-5824
+IL	Joliet	Joliet Regional Airport	KJOT	Joliet Park District	815-741-7267
+IL	Kankakee	Greater Kankakee Airport	KIKK	Kankakee Valley Airport Authority	815-939-3400
+IL	Kankakee	Kankakee Airport	3KK	Koerner Aviation	815-932-4222
+IL	Kewanee	Kewanee Municipal Airport	KEZI	Anderson Flying Service	309-853-8222
+IL	Lacon	Marshall County Airport	C75	Marshall County Airport	309-246-2870
+IL	Lawrenceville	Lawrenceville-Vincennes International Airport	KLWV	Mid-American Air Center	618-943-5733
+IL	Lincoln	Logan County Airport	KAAA	Logan County (FBO)	217-732-6400
+IL	Litchfield	Litchfield Municipal Airport	3LF	Litchfield Airport Authority	217-556-4299, 217-324-4731
+IL	Litchfield	Litchfield Municipal Airport	3LF	Central Air Services	217-324-3620
+IL	Macomb	Macomb Municipal Airport	KMQB	Cobb Aviation Services	309-833-3324, 309-836-3264
+IL	Marion	Veterans Airport of Southern Illinois	KMWA	Midwest Aviation	618-993-2764
+IL	Mattoon/Charleston	Coles County Memorial Airport	KMTO	 Aerinova	217-234-8146
+IL	Metropolis	Metropolis Municipal Airport	M30	Metropolis Municipal Airport	618-524-8970
+IL	Moline	Quad City International Airport	KMLI	Elliott Aviation	309-799-3183
+IL	Monee	Bult Field Airport	C56	 Bult Field	708-534-8282
+IL	Monmouth	Monmouth Municipal Airport	C66	Monmouth Municipal Airport	309-734-3411
+IL	Monticello	Piatt County Airport	2K0	Monticello Aviation	217-762-9091
+IL	Morris	Morris Municipal Airport-James R. Washburn Field	C09	Morris Municipal Airport	815-942-1600
+IL	Mount Carmel	Mount Carmel Municipal Airport	KAJG	City of Mt. Carmel	618-948-2413
+IL	Mount Sterling	Mount Sterling Municipal Airport	I63	Dot Foods	217-773-4411
+IL	Mount Vernon	Mount Vernon Airport	KMVN	 SRT Aviation, Inc	618-244-7746
+IL	Olney-Noble	Olney-Noble Airport	KOLY	TDB Aviation	618-393-2967
+IL	Paris	Edgar County Airport	KPRG	Edgar County Airport	217-465-8474
+IL	Pekin	Pekin Municipal Airport	C15	 Pekin Municipal Airport	309-348-3692
+IL	Peoria	General Downing - Peoria International Airport	KPIA	Byerly Aviation	309-697-6300
+IL	Peoria	Mount Hawley Auxiliary Airport	3MY	Mount Hawley Auxiliary Airport	309-693-2372, 309-303-1001
+IL	Peru	Illinois Valley Regional Airport-Walter A Duncan Field	KVYS	Midwest Avtech	815-223-2003
+IL	Pinckneyville	Pinckneyville-Du Quoin Airport	KPJY	Sparta Aero Service/Beaucoup Aviation	618-443-2002
+IL	Pittsfield	Pittsfield Penstone Municipal Airport	KPPQ	Pittsfield Penstone Municipal Airport	217-285-6027
+IL	Pontiac	Pontiac Municipal Airport	KPNT	Pontiac Flying Service	815-842-3738, 815-844-2707
+IL	Poplar Grove	Poplar Grove Airport	C77	 Poplar Grove Airmotive	815-544-3471
+IL	Quincy	Quincy Regional Airport-Baldwin Field	KUIN	 Great River Aviation	217-885-3353
+IL	Rantoul	Rantoul National Aviation Center Airport-Frank Elliott Field	KTIP	The Village of Rantoul	217-979-2479
+IL	Robinson	Crawford County Airport	KRSV	Sky's the Limit	618-586-2121
+IL	Rochelle	Rochelle Municipal Airport-Koritz Field	KRPJ	Rochelle Municipal Airport	815-562-8619
+IL	Salem	Salem-Leckrone Airport	KSLO	Tate's Flying Service	618-548-2411
+IL	Savanna	Tri-Township Airport	KSFY	Tri-Township Airport	815-273-3555
+IL	Shelbyville	Shelby County Airport	2H0	Shelby County	217-774-5111
+IL	Sparta	Sparta Community Airport-Hunter Field	KSAR	Sparta Aero Services	618-443-2002, 618-443-5321
+IL	Springfield	Abraham Lincoln Capital Airport	KSPI	 Stellar Aviation of Springfield	217-523-5080
+IL	St Jacob	St Louis Metro-East Airport/Shafer Field	3K6	Shafer Flying Service	618-644-5411
+IL	Sterling/Rockfalls	Whiteside County Airport-Jos H Bittorf Field	KSQI	 M & M Aviation Services	815-622-3591
+IL	Taylorville	Taylorville Municipal Airport	KTAZ	Taylorville Municipal Airport	217-824-9313, 217-824-2101
+IL	Tuscola	Tuscola Airport	K96	Tuscola Airport	217-840-3934
+IL	Urbana	Frasca Field Airport	C16	Frasca Air Services	217-367-8441
+IL	Vandalia	Vandalia Municipal Airport	KVLA	Vandalia Park District	618-267-8035

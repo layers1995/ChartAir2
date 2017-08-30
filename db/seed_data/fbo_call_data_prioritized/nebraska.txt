@@ -1,0 +1,74 @@
+NE	Ainsworth	Ainsworth Regional Airport	KANW	Ainsworth Airport Authority	402-387-1491	308
+NE	Albion	Albion Municipal Airport	KBVN	Albion Municipal Airport	402-395-2001	392
+NE	Alliance	Alliance Municipal Airport	KAIA	 Heartland Aviation, Inc.	308-762-5311	1080
+NE	Alma	Alma Municipal Airport	4D9	Alma Municipal Airport	308-928-2242	136
+NE	Arapahoe	Arapahoe Municipal Airport	37V	Arapahoe Airport Authority	308-962-4654	288
+NE	Atkinson	Stuart-Atkinson Municipal Airport	8V2	Stuart-Atkinson Municipal Airport	402-340-5143	224
+NE	Auburn	Farington Field Airport	K01	Farington Field	402-274-3185	152
+NE	Aurora	Aurora Municipal Airport - Al Potter Field	KAUH	Aurora Municipal Airport	402-694-3633	1320
+NE	Bassett	Rock County Airport	KRBE	Rock County Airport	402-684-3436	152
+NE	Beatrice	Beatrice Municipal Airport	KBIE	Beatrice Municipal Airport	402-223-5349	990
+NE	Blair	Blair Municipal Airport	KBTA	SkyWerx Aviation	402-533-2247	1260
+NE	Broken Bow	Broken Bow Municipal Airport/Keith Glaze Field	KBBW	Broken Bow Airport Authority	308-872-2875	900
+NE	Cambridge	Cambridge Municipal Airport	KCSB	Golden Plains Aviation	308-697-8624	536
+NE	Central City	Central City Municipal Airport - Larry Reineke Field	07K	Central Nebraska Airmotive	308-946-3450	432
+NE	Chadron	Chadron Municipal Airport	KCDR	A&M Aviation, LLC	308-432-8128	630
+NE	Columbus	Columbus Municipal Airport	KOLU	Avcraft, Inc.	402-564-7884	630
+NE	Cozad	Cozad Municipal Airport	KCZD	Midstate Aviation	308-784-3868	1080
+NE	Creighton	Creighton Municipal Airport	6K3	Creighton Municipal Airport	402-358-5252	176
+NE	Crete	Crete Municipal Airport	KCEK	Crete Aviation	402-826-4402	1920
+NE	Curtis	Curtis Municipal Airport	47V	Brown Plumbing & Electric	308-367-8772	404
+NE	David City	David City Municipal Airport	93Y	City of David City	402-367-3109	260
+NE	Fairbury	Fairbury Municipal Airport	KFBY	Fairbury Municipal Airport	402-729-2250	512
+NE	Fairmont	Fairmont State Airfield	KFMZ	Fairmont State Airfield	402-268-4521	124
+NE	Falls City	Brenner Field Airport	KFNB	Falls City Aero Service	402-245-3715	380
+NE	Fremont	Fremont Municipal Airport	KFET	Fremont Aviation	402-721-4520	1830
+NE	Genoa	Genoa Municipal Airport	97Y	Genoa Municipal Airport	402-993-6000	80
+NE	Gordon	Gordon Municipal Airport	KGRN	Gordon Municipal Airport	308-282-0837	392
+NE	Gothenburg	Gothenburg Municipal Airport	KGTE	Gothenburg Aviation	308-537-2384	50
+NE	Grand Island	Central Nebraska Regional Airport	KGRI	Trego/Dugan Aviation of Grand Island	308-382-5788	2070
+NE	Grant	Grant Municipal Airport	KGGF	Hill Aviation	308-280-2000	1200
+NE	Hartington	Hartington Municipal Airport / Bud Becker Field	0B4	Becker Flying Service	402-254-7316	488
+NE	Harvard	Harvard State Airport	08K	Harvard State Airport	402-772-3291	384
+NE	Hastings	Hastings Municipal Airport	KHSI	Hastings Municipal Airport	402-461-3060, 402-461-2330	1410
+NE	Hebron	Hebron Municipal Airport	KHJH	Hebron Municipal Airport	402-768-6792	420
+NE	Holdrege	Brewster Field Airport	KHDE	Holdrege Aviation	308-995-8446	870
+NE	Hyannis	Grant County Airport	1V2	Sandhill Oil Co.	308-458-2237	140
+NE	Imperial	Imperial Municipal Airport	KIML	Imperial Airport Authority	308-883-1593	810
+NE	Kearney	Kearney Regional Airport	KEAR	 Kearney Aviation Center	308-233-5800, 308-520-4209	2460
+NE	Kimball	Kimball Municipal Airport/Robert E Arraj Field	KIBM	Kimball Municipal Airport	308-249-2649, 970-217-1778	380
+NE	Lexington	Jim Kelly Field Airport	KLXN	Lexington Airport Authority	308-324-8770	870
+NE	Lincoln	Lincoln Airport	KLNK	Silverhawk Aviation	402-475-8600	5100
+NE	Lincoln	Lincoln Airport	KLNK	Duncan Aviation	402-475-2611	5100
+NE	Loup City	Loup City Municipal Airport	0F4	Loup City Municipal Airport	308-745-1244	116
+NE	Mc Cook	Mc Cook Ben Nelson Regional Airport	KMCK	Red Willow Aviation	308-345-2886	1380
+NE	Minden	Pioneer Village Field Airport	0V3	Minden Airport Authority	308-830-2727	536
+NE	Nebraska City	Nebraska City Municipal Airport	KAFK	Infinity Aviation	402-873-6646	408
+NE	Neligh	Antelope County Airport	4V9	Antelope County Airport Authority	402-887-4326	1020
+NE	Norfolk	Norfolk Regional Airport/Karl Stefan Memorial Field	KOFK	Norfolk Airport Services	402-379-7810	900
+NE	North Platte	North Platte Regional Airport Lee Bird Field	KLBF	Trego/Dugan Aviation	308-532-5864	3120
+NE	O'Neill	The O'Neill Municipal Airport-John L Baker Field	KONL	O'Neill Airport Authority	402-336-3377	600
+NE	Ogallala	Searle Field Airport	KOGA	Searle Field Airport	308-284-3848	376
+NE	Omaha	Eppley Airfield	KOMA	TAC Air	402-422-6633	7920
+NE	Omaha	Eppley Airfield	KOMA	Signature Flight Support	402-422-6789	7920
+NE	Omaha	Millard Airport	KMLE	 Oracle Aviation	402-934-5300	5940
+NE	Omaha	North Omaha Airport	3NO	North Omaha Airport	402-681-5324	1170
+NE	Ord	Evelyn Sharp Field Airport	KODX	Williams Flying Service	308-728-3913	600
+NE	Oshkosh	Garden County Airport	KOKS	Garden County Airport	308-778-5322	480
+NE	Pawnee City	Pawnee City Municipal Airport	50K	Pawnee City Municipal Airport	402-335-0256	70
+NE	Pender	Pender Municipal Airport	0C4	Pender Municipal Airport	402-385-3229	208
+NE	Plattsmouth	Plattsmouth Municipal Airport	KPMV	Plattsmouth Airport Authority	402-298-8468	1680
+NE	Red Cloud	Red Cloud Municipal Airport	7V7	Red Cloud Municipal Airport	402-746-3297	396
+NE	Rushville	Modisett Airport	9V5	Rushville Airport Authority	308-327-2221	248
+NE	Scottsbluff	Western Nebraska Regional Airport/William B. Heilig Field	KBFF	Valley Airways	308-635-1331	2490
+NE	Scribner	Scribner State Airport	KSCB	Scribner State Airport	402-654-2200	196
+NE	Seward	Seward Municipal Airport	KSWT	Whisler Aviation	402-643-2226	1050
+NE	Sidney	Sidney Municipal Airport/Lloyd W. Carr Field	KSNY	L&L Aviation LLC.	308-254-5058, 308-641-2584	316
+NE	Superior	Superior Municipal Airport	12K	Meyers Aerial Service	402-879-3006	1020
+NE	Tecumseh	Tecumseh Municipal Airport	0G3	Tecumseh Municipal Airport	402-335-3303	420
+NE	Tekamah	Tekamah Municipal Airport	KTQE	Tekamah Municipal Airport	402-374-1700	1950
+NE	Thedford	Thomas County Airport	KTIF	City of Thedford (FBO)	308-645-2233	156
+NE	Valentine	Miller Field Airport	KVTN	Sandhills Aero	402-376-1611	376
+NE	Wahoo	Wahoo Municipal Airport	KAHQ	Wahoo Airport Authority	402-443-3222	1350
+NE	Wayne	Wayne Municipal Airport / Stan Morris Field	KLCG	Wayne Municipal Airport	402-375-1984	660
+NE	York	York Municipal Airport	KJYR	York Municipal Airport	402-363-2660	870

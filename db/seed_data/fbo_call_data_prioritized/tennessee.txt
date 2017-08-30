@@ -1,0 +1,75 @@
+TN	Athens	McMinn County Airport	KMMI	Athens Air, LLC	423-745-4939	1860
+TN	Bolivar	William L Whitehurst Field Airport	M08	Hardeman County	731-658-7556	196
+TN	Bristol/Johnson/Kingsport	Tri-Cities Airport	KTRI	 Tri-City Aviation	423-325-6261, 423-325-6275	4110
+TN	Camden	Benton County Airport	0M4	Benton County Airport	731-584-5343	308
+TN	Centerville	Centerville Municipal Airport	KGHM	Centerville Municipal Airport	931-729-3032, 615-418-2164	240
+TN	Chattanooga	Lovell Field Airport	KCHA	 Wilson Air Center - Chattanooga	423-855-2299	4500
+TN	Chattanooga	Dallas Bay Sky Park Airport	1A0	Hixson Aviation	423-842-9845	356
+TN	Clarksville	Outlaw Field Airport	KCKV	Clarksville Regional Airport	931-431-2080	2670
+TN	Cleveland	Cleveland Regional Jetport	KRZR	 Contour Flight Support	423-472-4343	416
+TN	Collegedale	Collegedale Municipal Airport	KFGU	Collegedale Municipal Airport	423-236-5008	1200
+TN	Columbia/Mount Pleasant	Maury County Airport	KMRC	Maury County Regional Airport	931-379-5511	2070
+TN	Copperhill	Martin Campbell Field Airport	1A3	Whitewater Aviation Corporation	423-496-9465, 423-210-7681	284
+TN	Covington	Covington Municipal Airport	M04	Covington Municipal Airport	901-476-1392	1080
+TN	Crossville	Crossville Memorial Airport-Whitson Field	KCSV	Crossville Aero	931-484-5016	2340
+TN	Dayton	Mark Anton Airport	2A0	City of Dayton (FBO)	423-775-8407	660
+TN	Dickson	Dickson Municipal Airport	M02	Dickson County Municipal Airport Authority	615-446-6611	900
+TN	Dyersburg	Dyersburg Regional Airport	KDYR	Dyersburg Regional Airport	731-287-8181, 731-287-8183	630
+TN	Elizabethton	Elizabethton Municipal Airport	0A9	Elizabethton Municipal Airport	423-543-2801	2370
+TN	Fayetteville	Fayetteville Municipal Airport	KFYM	Fayetteville Aviation	931-433-1960	2610
+TN	Gallatin	Sumner County Regional Airport	M33	Sumner County Regional Airport Authority	615-451-1490	2760
+TN	Greeneville	Greeneville-Greene County Municipal Airport	KGCY	Greeneville Aviation Services	423-639-6275	2790
+TN	Halls	Arnold Field Airport	M31	Arnold Field Airport	731-836-9673	810
+TN	Hohenwald	John A Baker Field Airport	0M3	John A. Baker Field	931-628-6928, 931-796-5645	212
+TN	Humboldt	Humboldt Municipal Airport	M53	City of Humboldt	731-618-9089	212
+TN	Huntingdon	Carroll County Airport	KHZD	Swor Aviation	731-352-7278	1140
+TN	Jacksboro	Campbell County Airport	KJAU	Campbell County Aviation, Inc.	423-562-9966	476
+TN	Jackson	Mc Kellar-Sipes Regional Airport	KMKL	 Mc Kellar-Sipes FBO	731-427-0191, 731-423-0995	1410
+TN	Jamestown	Jamestown Municipal Airport	2A1	Jamestown Municipal Airport	931-879-8948	156
+TN	Jasper	Marion County Airport-Brown Field	KAPT	Marion County Airport	423-942-5234	690
+TN	Knoxville	Mc Ghee Tyson Airport	KTYS	TAC Air	865-970-9000	7950
+TN	Knoxville	Knoxville Downtown Island Airport	KDKX	Metropolitan Knoxville Airport Authority	865-577-4461	5850
+TN	Lafayette	Lafayette Municipal Airport	3M7	Sky Chaser Aviation	615-666-6542	840
+TN	Lawrenceburg	Lawrenceburg-Lawrence County Airport	2M2	Lawrenceburg/Lawrence County Airport	931-762-5133	630
+TN	Lebanon	Lebanon Municipal Airport	M54	 Direct Flight Solutions	615-444-0031, 615-443-2117	1320
+TN	Lewisburg	Ellington Airport	KLUG	Stewmon Aircraft	931-359-5003, 931-637-3680	1320
+TN	Lexington-Parsons	Beech River Regional Airport	KPVE	Beech River Airport	731-845-5740, 731-845-4937	232
+TN	Livingston	Livingston Municipal Airport	8A3	Livingston Municipal Airport	931-823-3671	316
+TN	Madisonville	Monroe County Airport	KMNV	Monroe County	423-420-0563	1620
+TN	Mc Kinnon	Houston County Airport	M93	McKinnon Airport	931-289-3633	160
+TN	Mc Minnville	Warren County Memorial Airport	KRNC	Warren County Memorial Airport	931-668-7050	2130
+TN	Memphis	Memphis International Airport	KMEM	Wilson Air Center	901-345-2992	18360
+TN	Memphis	Memphis International Airport	KMEM	Signature Flight Support	901-345-4700	18360
+TN	Memphis	General Dewitt Spain Airport	M01	Memphis Shelby County Airport Authority	901-358-0028	2310
+TN	Millington	Millington Regional Jetport Airport	KNQA	CTI Aviation Services	901-873-4359	2220
+TN	Millington	Millington Regional Jetport Airport	KNQA	 Tulsair Beechcraft - Memphis	901-873-4144	2220
+TN	Millington	Charles W Baker Airport	2M8	Memphis/Shelby County Airport Authority	901-873-1768	2310
+TN	Morristown	Moore-Murrell Airport	KMOR	Morristown Flying Service	423-586-2483	4080
+TN	Mountain City	Johnson County Airport	6A4	Doe Mountain Aviation Services	423-727-1223	160
+TN	Murfreesboro	Murfreesboro Municipal Airport	KMBT	Murfreesboro Municipal Airport	615-848-3254	4440
+TN	Nashville	Nashville International Airport	KBNA	Signature Flight Support	615-361-3000	15990
+TN	Nashville	Nashville International Airport	KBNA	Atlantic Aviation	615-360-8109	15990
+TN	Nashville	John C Tune Airport	KJWN	Contour Flight Support	615-350-5000	6900
+TN	Oneida	Scott Municipal Airport	KSCX	Scott County Airport	423-569-8270	484
+TN	Oneida	Scott Municipal Airport	KSCX	Big South Fork Airpark	423-286-2727	484
+TN	Paris	Henry County Airport	KPHT	Henry County (FBO)	731-644-7933	600
+TN	Portland	Portland Municipal Airport	1M5	J.R. Services	615-323-7500	1050
+TN	Pulaski	Abernathy Field Airport	KGZS	City of Pulaski (FBO)	931-363-6827	720
+TN	Rockwood	Rockwood Municipal Airport	KRKW	Rockwood Aviation, LLC	865-354-3023, 423-369-4880	1440
+TN	Rogersville	Hawkins County Airport	KRVN	Hawkins County Airport	423-345-0219	900
+TN	Savannah	Savannah-Hardin County Airport	KSNH	Savannah-Hardin County Airport	731-925-6380, 731-925-8670	780
+TN	Selmer	Robert Sibley Airport	KSZY	Robert Sibley Airport	731-645-3014	600
+TN	Sevierville	Gatlinburg-Pigeon Forge Airport	KGKT	 Gatlinburg Pigeon Forge Airport	865-453-8393, 865-453-8399	9060
+TN	Shelbyville	Bomar Field-Shelbyville Municipal Airport	KSYI	Shelbyville Municipal Airport	931-684-1669	4230
+TN	Smithville	Smithville Municipal Airport	0A3	Smithville Municipal Airport	615-597-4940	276
+TN	Smyrna	Smyrna Airport	KMQY	Hollingshead Aviation (formerly Smyrna Air Center)	615-459-3337	6150
+TN	Smyrna	Smyrna Airport	KMQY	Contour Flight Support	615-220-2957	6150
+TN	Somerville	Fayette County Airport	KFYE	Fayette County Airport	901-466-7007	810
+TN	Sparta	Upper Cumberland Regional Airport	KSRB	Upper Cumberland Regional Airport	931-739-7000	2130
+TN	Springfield	Springfield Robertson County Airport	M91	Wingnuts Aviation, LLC	615-384-3200	1170
+TN	Tazewell	New Tazewell Municipal Airport	3A2	Twin Cities Aviation	423-489-9256	960
+TN	Trenton	Gibson County Airport	KTGC	Gibson County Airport	731-723-9596	750
+TN	Tullahoma	Tullahoma Regional Airport/William Northern Field	KTHA	 Tullahoma Municipal Airport Authority	931-455-3884, 931-581-5111	2190
+TN	Union City	Everett-Stewart Regional Airport	KUCY	 Everett-Stewart Regional Airport	731-885-1221	2340
+TN	Waverly	Humphreys County Airport	0M5	Humphreys County Airport	931-296-2719	480
+TN	Winchester	Winchester Municipal Airport	KBGF	 Winchester Municipal Airport Authority	931-967-3148	1080

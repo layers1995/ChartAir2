@@ -172,13 +172,11 @@ if __FILE__ == $0
   #parse('IL', 'Chicago', 'Midway', 'http://www.airnav.com/airport/44IN')
 
   #crawl('http://airnav.com/airports/us/IL')
-  #crawl('http://airnav.com/airports/us/IN')
-  #crawl('http://airnav.com/airports/us/MI')
-  #crawl('http://airnav.com/airports/us/MN')
-  #crawl('http://airnav.com/airports/us/OH')
 
-  #crawl('http://airnav.com/airports/us/TX', "Lackey Aviation Airport")
 
-  eachState("http://airnav.com/airports/us", 44)
+  crawl('http://airnav.com/airports/us/WI', "Ephraim-Gibraltar Airport")
+  crawl('http://airnav.com/airports/us/WY')
+
+  #eachState("http://airnav.com/airports/us", 44)
   $airportSeedData.close()
 end

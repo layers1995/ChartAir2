@@ -1,0 +1,100 @@
+OH	Akron	Akron-Canton Regional Airport	KCAK	McKinley Air Transport	330-499-3316
+OH	Akron	Akron-Canton Regional Airport	KCAK	Avflight Akron-Canton	844-383-5225
+OH	Akron	Akron Fulton International Airport	KAKR	Summit Airport Services	330-733-4760
+OH	Ashland	Ashland County Airport	3G4	Tailwinds Aviation	419-281-3966
+OH	Ashtabula	Northeast Ohio Regional Airport	KHZY	Northeast Ohio Regional Airport	440-576-9271
+OH	Athens/Albany	Ohio University Airport	KUNI	Ohio University Airport	740-597-2600
+OH	Barnesville	Barnesville-Bradfield Airport	6G5	Belmont County Regional Airport Authority	740-582-2699
+OH	Batavia	Clermont County Airport	I69	Eastern Cincinnati Aviation	513-735-9500
+OH	Bellefontaine	Bellefontaine Regional Airport	KEDJ	Midwest Corporate Air	937-593-8210
+OH	Bluffton	Bluffton Airport	5G7	Bluffton Flying Service Co.	419-358-7045
+OH	Bowling Green	Wood County Airport	1G0	Wood County Regional Airport	419-354-2908
+OH	Bryan	Williams County Airport	0G6	 Williams County Regional Airport	419-553-7414
+OH	Bucyrus	Port Bucyrus-Crawford County Airport	17G	DeTray Aviation	419-562-7596
+OH	Cadiz	Harrison County Airport	8G6	DESAPI Air Services	740-942-2316
+OH	Cambridge	Cambridge Municipal Airport	KCDI	Cambridge Flight Center	740-432-3726
+OH	Carrollton	Carroll County-Tolson Airport	KTSO	Carroll County Airport Authority	330-936-7979
+OH	Chesapeake/Huntington WV	Lawrence County Airpark	KHTW	Attitude Aviation	740-894-4414
+OH	Chillicothe	Ross County Airport	KRZT	TRM Aviation	740-773-4788
+OH	Cincinnati	Cincinnati Municipal Airport-Lunken Field	KLUK	Signature Flight Support	513-871-8600
+OH	Cincinnati	Cincinnati Municipal Airport-Lunken Field	KLUK	Waypoint Aviation	800-769-4765
+OH	Circleville	Pickaway County Memorial Airport	KCYO	Pickaway County Memorial Airport	740-474-5145
+OH	Cleveland	Burke Lakefront Airport	KBKL	Signature Flight Support	216-861-2030
+OH	Cleveland	Cleveland-Hopkins International Airport	KCLE	Atlantic Aviation	216-362-1500
+OH	Cleveland	Cuyahoga County Airport	KCGF	The Cleveland Jet Center	216-261-8800
+OH	Columbus	John Glenn Columbus International Airport	KCMH	Lane Aviation	614-237-3747
+OH	Columbus	John Glenn Columbus International Airport	KCMH	Signature Flight Support	614-238-3900
+OH	Columbus	Ohio State University Airport	KOSU	The Ohio State University Airport	614-292-5580
+OH	Columbus	Rickenbacker International Airport	KLCK	Rickenbacker Aviation	614-409-3660
+OH	Columbus	Bolton Field Airport	KTZR	Columbus Jet Center	614-878-1200
+OH	Coshocton	Richard Downing Airport	I40	 Richard Downing Airport	740-622-2252
+OH	Dayton	James M Cox Dayton International Airport	KDAY	Wright Bros. Aero	937-890-8900
+OH	Dayton	James M Cox Dayton International Airport	KDAY	Aviation Sales, Inc.	937-898-3927
+OH	Dayton	James M Cox Dayton International Airport	KDAY	Stevens Aviation	937-454-3400, 937-219-5187
+OH	Dayton	Dayton-Wright Brothers Airport	KMGY	Aviation Sales Inc.	937-885-3662
+OH	Dayton	Dayton-Wright Brothers Airport	KMGY	 Commander-Aero	937-885-5580, 937-313-6573
+OH	Dayton	Greene County-Lewis A Jackson Regional Airport	I19	 MacAir Aviation	937-347-1302
+OH	Dayton	Moraine Air Park	I73	Moraine Airpark	937-866-2489
+OH	Defiance	Defiance Memorial Airport	KDFI	TAS Aviation	419-658-4444
+OH	Delaware	Delaware Municipal Airport - Jim Moore Field	KDLZ	 City of Delaware (FBO)	740-203-1870
+OH	East Liverpool	Columbiana County Airport	02G	Columbiana County Airport Authority	330-386-9301
+OH	Elyria	Elyria Airport	1G1	Elyria Airport	440-336-0215
+OH	Findlay	Findlay Airport	KFDY	 City of Findlay (FBO)	419-422-4182
+OH	Fostoria	Fostoria Metropolitan Airport	KFZI	Fostoria Metro Aviation	419-435-0157
+OH	Fremont	Sandusky County Regional Airport	S24	Sandusky County Airport Authority	419-547-0131
+OH	Fremont	Fremont Airport	14G	Damschroder Sales	419-332-8037
+OH	Galion	Galion Municipal Airport	KGQQ	City of Galion (FBO)	419-468-8487, 419-295-1821
+OH	Gallipolis	Gallia-Meigs Regional Airport	KGAS	Gallia-Meigs Regional Airport	740-446-9004
+OH	Geneva	Germack Airport	7D9	Titan Aircraft	440-275-3205
+OH	Georgetown	Brown County Airport	KGEO	Brown County Pilots Association	937-379-1055
+OH	Hamilton	Butler County Regional Airport-Hogan Field	KHAO	 Cincinnati Jet Center	513-867-9500
+OH	Harrison	Cincinnati West Airport	I67	Cincinnati West Airport	513-367-1201
+OH	Hillsboro	Highland County Airport	KHOC	Highland County Airport	937-393-9112
+OH	Jackson	James A Rhodes Airport	I43	James A. Rhodes Airport	740-286-0137
+OH	Kent	Kent State University Airport	1G3	Kent State University Airport	330-672-2640
+OH	Kenton	Hardin County Airport	I95	Hardin County Airport	419-673-9542
+OH	Lancaster	Fairfield County Airport	KLHQ	Sundowner Aviation	740-475-8188, 740-654-7001
+OH	Lebanon	Warren County Airport/John Lane Field	I68	Lebanon-Warren County Airport	513-932-7966
+OH	Lebanon	Warren County Airport/John Lane Field	I68	Warren County Airport LTD	513-932-7966
+OH	Lima	Lima Allen County Airport	KAOH	Allen County Regional Airport Authority	419-227-3225, 567-208-1871
+OH	London	Madison County Airport	KUYF	 Madison County Airport	740-852-5040
+OH	Lorain/Elyria	Lorain County Regional Airport	KLPR	 MRK Aviation, Inc.	440-323-7000
+OH	Mansfield	Mansfield Lahm Regional Airport	KMFD	Richland Aviation	419-524-4261
+OH	Marion	Marion Municipal Airport	KMNN	Baron Enterprises	740-383-4914
+OH	Marion	Marion Municipal Airport	KMNN	Wingman Air Support	402-995-9288
+OH	Marysville	Union County Airport	KMRT	SkyVista Aviation LLC	937-644-2055
+OH	Mc Arthur	Vinton County Airport	22I	Vinton County Airport Flyers	740-596-2588
+OH	Mc Connelsville	Morgan County Airport	I71	Morgan County Airport	740-559-2950
+OH	Medina	Medina Municipal Airport	1G5	Flight Services of Medina	330-239-1606
+OH	Middlefield	Geauga County Airport	7G8	Geauga County Airport Authority	440-632-1884
+OH	Middletown	Middletown Regional Airport/Hook Field	KMWO	Start Aviation Services	513-217-4777, 513-917-8462
+OH	Millersburg	Holmes County Airport	10G	Professionals Aviation Company Inc.	330-674-0674
+OH	Mount Vernon	Knox County Airport	4I3	Knox County Airport	740-397-9647
+OH	Mount Vernon	Wynkoop Airport	6G4	Wynkoop Airport	740-392-8351
+OH	Napoleon	Henry County Airport	7W5	Ames Aviation	419-599-6494
+OH	New Lexington	Perry County Airport	I86	Perry County Flight Services	740-475-9400
+OH	New Philadelphia	Harry Clever Field Airport	KPHD	ProAv	330-339-6078
+OH	Newark	Newark-Heath Airport	KVTA	The Aviation Works	740-522-6968, 740-522-0267
+OH	Norwalk	Norwalk-Huron County Airport	5A1	Huron County Airport	419-668-5400, 419-921-6482
+OH	Ottawa	Putnam County Airport	KOWX	Putnam County Airport	419-523-3910
+OH	Oxford	Miami University Airport	KOXD	Miami University Airport	513-529-2735, 513-529-1855
+OH	Painesville	Concord Airpark	2G1	Painesville Flying Service	440-352-3228
+OH	Phillipsburg	Phillipsburg Airport	3I7	Phillipsburg Airport	937-884-9795
+OH	Piqua	Piqua Airport - Hartzell Field	I17	Hartzell Propeller Service Center	937-778-4207
+OH	Port Clinton	Erie-Ottawa International Airport	KPCW	 Erie Ottawa International Airport Authority	419-734-6297
+OH	Portsmouth	Greater Portsmouth Regional Airport	KPMH	PMH Aviation	740-820-2300
+OH	Portsmouth	Greater Portsmouth Regional Airport	KPMH	Chasteen Aviation	740-820-2400
+OH	Radnor	Packer Airport	5E9	Packer Aviation	740-494-2554
+OH	Ravenna	Portage County Airport	KPOV	Portage Flight Center	330-298-3277
+OH	Salem	Salem Airpark Inc	38D	Salem Air Park	330-332-4400
+OH	Sebring	Tri-City Airport	3G6	Tri-City Airport	330-938-1216
+OH	Sidney	Sidney Municipal Airport	KSCA	Aerotech Aviation LLC	937-492-9794
+OH	Springfield	Springfield-Beckley Municipal Airport	KSGH	 S Jet FBO	937-323-5804, 937-831-0592
+OH	Steubenville	Jefferson County Airpark	2G2	Jefferson County Airpark	740-264-5388
+OH	Tiffin	Seneca County Airport	16G	Tiffin Aire	419-447-4263
+OH	Toledo	Toledo Express Airport	KTOL	National Flight Services	419-866-2995
+OH	Toledo	Toledo Express Airport	KTOL	Grand Aire, Inc.	419-861-6700
+OH	Toledo	Toledo Express Airport	KTOL	TOL Aviation, Inc.	419-866-9375, 419-367-3150
+OH	Toledo	Toledo Executive Airport	KTDZ	 Crow Executive Air, Inc.	419-838-6921, 692-972-2769
+OH	Urbana	Grimes Field Airport	I74	Grimes Field	937-652-4319, 937-508-5948
+OH	Van Wert	Van Wert County Airport	KVNW	Van Wert County Airport	419-232-4500
