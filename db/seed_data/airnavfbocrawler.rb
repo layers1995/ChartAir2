@@ -10,7 +10,7 @@ def parseFbos(state, city, airportName, url)
   page = Nokogiri::HTML(open(url))
 
   fboData = Hash.new
-  airportCode = url[url.index("airport/") + 8 .. -1] # find the index of "airport/", add 8 to it to get to the call number, then go to the end of the string.
+  airportCode = url[url.index("airport/") + 8 .. -1] # find the index of "airport/" in the url, add 8 to it to get to the call number, then go to the end of the string.
 
   if page.text =~ /aircraft operations:( avg)? [0-9]+\/[a-z]+/i
     averageOperations = page.text.match(/aircraft operations:( avg)? [0-9]+\/[a-z]+/i)[0].strip.downcase
@@ -133,16 +133,8 @@ if __FILE__ == $0
   $fboSeedData.close()
 =end
 
-  $fboSeedData = File.open("fbo_call_data/illinois.txt", "a")
-  crawl('http://airnav.com/airports/us/IL')
-  $fboSeedData.close()
-
-  $fboSeedData = File.open("fbo_call_data/ohio.txt", "a")
-  crawl('http://airnav.com/airports/us/OH')
-  $fboSeedData.close()
-
   $fboSeedData = File.open("fbo_call_data/michigan.txt", "a")
-  crawl('http://airnav.com/airports/us/MI')
+  crawl('http://airnav.com/airports/us/MI', "Gradolph Field Airport")
   $fboSeedData.close()
 
   $fboSeedData = File.open("fbo_call_data/indiana.txt", "a")

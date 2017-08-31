@@ -2,30 +2,31 @@ include SeedsHelper # located at lib/seeds_helper.rb
 
 def main
 	Airplane.delete_all
-	FeeType.delete_all
+	#FeeType.delete_all
 	#City.delete_all
 	#Airport.delete_all
-	Fbo.delete_all
-	Classification.delete_all
-	Category.delete_all
-	Fee.delete_all
+	#Fbo.delete_all
+	#Classification.delete_all
+	#Category.delete_all
+	#Fee.delete_all
 
-	addAirplanes()
-	addFeeTypes("fee_types")
-	addClassifications("classification_types")
-	addCategories("categories")
+	addAirplanes("airplane_seed_data")
+	#addAirplanes("test_airplanes")
+	#addFeeTypes("fee_types")
+	#addClassifications("classification_types")
+	#addCategories("categories")
 	#addCities("uscitiesv1.3.csv")
 	#addAirports("full_airport_data")
 	#addFbos("fbo_seed_data")
-	addFboFolder("fbo_call_data")
+	#addFboFolder("fbo_call_data")
 	#addFeesAndUpdateFbos("survey_responses.tsv")
 
-	addStartupTermData("survey_responses.tsv")
+	#addStartupTermData("survey_responses.tsv")
 
 # TODO addFbos and addStartupTermData both add FBOs to the database, figure it out.
 end
 
-def addAirplanes()
+def addJetAirplanes()
 	# The following planes are just the fleet owned by Jet Air
 	cessna172 = Airplane.create({ :manufacturer => "cessna", :model => "172 skyhawk", :engine_class => "piston single", :weight => 2300, :height => 107, :wingspan => 433, :length => 326})
 	cessna177 = Airplane.create({ :manufacturer => "cessna", :model => "177 cardinal", :engine_class => "piston single", :weight => 2500, :height => 103, :wingspan => 426, :length => 332})
@@ -39,6 +40,62 @@ def addAirplanes()
 	# changed to medium and heavy jet for testing purposes
 	cessna550Bravo = Airplane.create({ :manufacturer => "cessna", :model => "550 citation bravo", :engine_class => "midsize jet", :weight => 14800, :height => 180, :wingspan => 626, :length => 566})
 	cessna560Ultra = Airplane.create({ :manufacturer => "cessna", :model => "560 citation ultra", :engine_class => "heavy jet", :weight => 16630, :height => 182, :wingspan => 649, :length => 587})
+end
+
+def addAirplanes(filename)
+	airplaneTypes = File.open(Rails.root.join("db", "seed_data", filename))
+	airplaneTypes.each do |curPlane|
+		curPlane = curPlane.strip.downcase
+		manufacturer, country, planeModel, planeClass, numCrew, numPassengers, engineType, range, emptyWeight, maxWeight, wingspan, wingArea, length, height = curPlane.split("\t")
+		next unless engineType =~ /[0-9]+/
+		numEngines = engineType.match(/[0-9]+/)[0].to_i
+		engineType = engineType.gsub(/[0-9]/, "").strip
+		engineCategory = nil
+# multi engines
+		if numEngines > 1 
+			if engineType =~ /piston/
+				engineCategory = "piston multi"
+			elsif engineType =~ /turboprop/
+				engineCategory = "turboprop multi"
+			elsif engineType =~ /turbofan/
+				engineCategory = "jet"
+			elsif engineType =~ /turbojet/
+				engineCategory = "turbojet"
+			elsif engineType =~ /radial/
+				engineCategory = "radial multi"
+			elsif engineType =~ /turboshaft/
+				engineCategory = "turboshaft multi"			
+			elsif engineType =~ /propfan/
+				engineCategory = "propfan multi"	
+			elsif engineType =~ /rotary/
+				engineCategory = "rotary multi"
+			elsif engineType =~ /rocket/
+				engineCategory = "rocket multi"
+			end
+# single engines
+		elsif numEngines == 1
+			if engineType =~ /piston/
+				engineCategory = "piston single"
+			elsif engineType =~ /turboprop/
+				engineCategory = "turboprop single"
+			elsif engineType =~ /turbofan/
+				engineCategory = "jet"
+			elsif engineType =~ /turbojet/
+				engineCategory = "turbojet"
+			elsif engineType =~ /radial/
+				engineCategory = "radial single"
+			elsif engineType =~ /turboshaft/
+				engineCategory = "turboshaft single"
+			elsif engineType =~ /propfan/
+				engineCategory = "propfan single"
+			elsif engineType =~ /rotary/
+				engineCategory = "rotary single"
+			elsif engineType =~ /rocket/
+				engineCategory = "rocket single"
+			end
+		end
+		Airplane.create({ :model => planeModel, :engine_class => engineCategory, :empty_weight => emptyWeight, :weight => maxWeight, :height => height, :wingspan => wingspan, :length => length, :manufacturer => manufacturer, :country => country, :plane_class => planeClass, :num_crew => numCrew, :num_passengers => numPassengers, :range => range, :wing_area => wingArea })
+	end
 end
 
 def addFeeTypes(filename)
@@ -95,7 +152,7 @@ end
 # Add every FBO in a folder to the database
 def addFboFolder(folderName)
 	folderPath = Rails.root.join("db", "seed_data", folderName)
-	Dir.foreach(folderPath) do |curFile|
+	Dir.foreach(folderPath) do |curFile|r
 	  next if curFile == '.' or curFile == '..' # do work on real items
 	  filePath = Rails.root.join("db", "seed_data", "fbo_call_data", curFile)
 	  addFbos(filePath)

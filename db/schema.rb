@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170827013242) do
+ActiveRecord::Schema.define(version: 20170831191634) do
 
   create_table "airplane_users", force: :cascade do |t|
     t.integer "airplane_id", null: false
@@ -26,9 +26,16 @@ ActiveRecord::Schema.define(version: 20170827013242) do
     t.integer  "height"
     t.integer  "wingspan"
     t.integer  "length"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
     t.string   "manufacturer"
+    t.string   "country"
+    t.string   "plane_class"
+    t.integer  "empty_weight"
+    t.integer  "num_crew"
+    t.integer  "num_passengers"
+    t.integer  "range"
+    t.integer  "wing_area"
   end
 
   create_table "airports", force: :cascade do |t|
@@ -106,6 +113,18 @@ ActiveRecord::Schema.define(version: 20170827013242) do
     t.index ["fee_type_id"], name: "index_fees_on_fee_type_id"
   end
 
+  create_table "plan_trips", force: :cascade do |t|
+    t.integer  "user_id"
+    t.string   "state"
+    t.string   "city"
+    t.integer  "distance"
+    t.integer  "nights"
+    t.string   "tailnumber"
+    t.string   "filter"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "reports", force: :cascade do |t|
     t.integer  "trip_id"
     t.integer  "trip_rating"
@@ -128,6 +147,7 @@ ActiveRecord::Schema.define(version: 20170827013242) do
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
     t.string   "issue"
+    t.string   "detail"
   end
 
   create_table "users", force: :cascade do |t|

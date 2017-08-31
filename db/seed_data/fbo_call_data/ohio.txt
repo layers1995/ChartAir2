@@ -98,3 +98,23 @@ OH	Toledo	Toledo Express Airport	KTOL	TOL Aviation, Inc.	419-866-9375, 419-367-3
 OH	Toledo	Toledo Executive Airport	KTDZ	 Crow Executive Air, Inc.	419-838-6921, 692-972-2769
 OH	Urbana	Grimes Field Airport	I74	Grimes Field	937-652-4319, 937-508-5948
 OH	Van Wert	Van Wert County Airport	KVNW	Van Wert County Airport	419-232-4500
+OH	Versailles	Darke County Airport	KVES	Darke County (FBO)	937-526-9126, 937-467-9360
+OH	Wadsworth	Wadsworth Municipal Airport	3G3	 Flight Services of Wadsworth	330-334-9861
+OH	Wadsworth	Weltzien Skypark Airport	15G	Weltzien Skypark	330-334-9921
+OH	Wakeman	Ortner Airport	I64	Ortner Airport	440-965-7787
+OH	Wapakoneta	Neil Armstrong Airport	KAXV	Auglaize County Airport Authority	419-753-2810
+OH	Warren	Warren Airport	62D	Warren-Skeets Airport	330-898-3615
+OH	Washington Court House	Fayette County Airport	I23	Fayette County (FBO)	740-335-2430
+OH	Wauseon	Fulton County Airport	KUSE	Naves Aviation Ltd	419-335-3993
+OH	Waverly	Pike County Airport	KEOP	Pike County Airport	740-947-4952
+OH	Waynesville	Red Stewart Airfield	40I	Stewart's Aircraft Service	513-897-7717
+OH	West Union	Alexander Salamon Airport	KAMT	Alexander Salamon Airport	937-544-5771
+OH	Willard	Willard Airport	8G1	Willard Aviation	419-933-6601
+OH	Willoughby	Willoughby Lost Nation Municipal Airport	KLNN	 Classic Jet Center	440-942-7092
+OH	Wilmington	Clinton Field Airport	I66	 Great Plains Enterprises, LLC	937-382-2889, 937-527-9454
+OH	Woodsfield	Monroe County Airport	4G5	 Monroe County Airport	740-472-1882
+OH	Wooster	Wayne County Airport	KBJJ	Wayne County Airport FBO	330-669-9212
+OH	Youngstown	Youngstown Elser Metro Airport	4G4	 Gemco Aviation Services	330-549-0337
+OH	Youngstown/Warren	Youngstown-Warren Regional Airport	KYNG	Winner Aviation	330-856-5000
+OH	Zanesville	Zanesville Municipal Airport	KZZV	Zanesville Aviation	740-452-3625
+OH	Zanesville	Parr Airport	42I	Y-City Flying Service	740-454-1615
