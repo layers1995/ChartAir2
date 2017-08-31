@@ -1,0 +1,80 @@
+IN	Anderson	Anderson Municipal Airport-Darlington Field	KAID	Anderson Municipal Airport - Darlington Field	765-648-6292, 765-648-6293
+IN	Angola	Tri-State Steuben County Airport	KANQ	Steuben County Board of Aviation	260-665-7111
+IN	Auburn	De Kalb County Airport	KGWB	Century Aviation	260-927-1845, 260-927-1846
+IN	Batesville	Batesville Airport	KHLB	 Batesville Aviation Services	812-934-7593, 812-934-7257
+IN	Bedford	Virgil I Grissom Municipal Airport	KBFR	Lawrence County Aviation LLC	812-279-9839
+IN	Bloomington	Monroe County Airport	KBMG	 BMG Aviation	888-457-3787, 812-825-7979
+IN	Bloomington	Monroe County Airport	KBMG	Cook Aviation	800-880-3499, 812-825-2392
+IN	Bluffton	Miller Airport	C40	Miller Flying Service	260-694-6214
+IN	Columbus	Columbus Municipal Airport	KBAK	Jeff Air Pilot Services	812-372-1819, 317-514-6373
+IN	Columbus	Columbus Municipal Airport	KBAK	 Columbus Municipal Airport	812-376-2519
+IN	Connersville	Mettel Field Airport	KCEV	City of Connersville (FBO)	765-825-5581
+IN	Crawfordsville	Crawfordsville Municipal Airport	KCFJ	Crawfordsville Municipal Airport	765-362-0070
+IN	Delphi	Delphi Municipal Airport	1I9	Delphi Municipal Airport	260-442-6524
+IN	Elkhart	Elkhart Municipal Airport	KEKM	 Indiana Flight Center	574-266-4040
+IN	Evansville	Evansville Regional Airport	KEVV	Tri-State Aero	812-426-1221
+IN	Evansville	Skylane Airport	3EV	Skylane Pilots Association	812-423-5755
+IN	Fort Wayne	Fort Wayne International Airport	KFWA	 Fort Wayne Aero Center	260-446-3456
+IN	Fort Wayne	Smith Field Airport	KSMD	Fort Wayne - Allen County Airport Authority	260-489-5518, 260-489-8020
+IN	Frankfort	Frankfort Municipal Airport	KFKR	 Montgomery Aviation	765-654-6275
+IN	Franklin	Franklin Flying Field Airport	3FK	Franklin Flying Field	317-736-8359
+IN	French Lick	French Lick Municipal Airport	KFRH	 French Lick Municipal Airport	812-936-2222
+IN	Gary	Gary/Chicago International Airport	KGYY	Gary Jet Center	219-944-1210
+IN	Gary	Gary/Chicago International Airport	KGYY	B. Coleman Aviation	219-750-1508
+IN	Goshen	Goshen Municipal Airport	KGSH	Goshen Air Center	574-533-8245
+IN	Greencastle	Putnam County Regional Airport	KGPC	PDM Aviation LLC	765-721-1289, 765-653-1763
+IN	Greensburg	Greensburg Municipal Airport	I34	Greensburg-Decatur County Airport	812-593-1677
+IN	Griffith	Griffith-Merrillville Airport	05C	Griffith Aviation, Inc.	219-924-0207
+IN	Hobart	Hobart Sky Ranch Airport	3HO	Niemeyer Aviation, Inc.	219-962-3020
+IN	Huntingburg	Huntingburg Airport	KHNB	Dubois County Airport Authority	812-683-5454
+IN	Huntington	Huntington Municipal Airport	KHHG	Prop Boys Aviation	260-356-8515, 260-355-1111
+IN	Indianapolis	Indianapolis International Airport	KIND	Signature Flight Support	317-248-4900
+IN	Indianapolis	Indianapolis International Airport	KIND	Million Air	317-554-8400
+IN	Indianapolis	Indianapolis Regional Airport	KMQJ	Indy Jet	317-335-3371
+IN	Indianapolis	Eagle Creek Airpark	KEYE	Eagle Creek Aviation Services	317-293-6935
+IN	Indianapolis	Indianapolis Executive Airport	KTYQ	Montgomery Aviation	317-769-4487
+IN	Indianapolis	Indianapolis Metropolitan Airport	KUMP	Tom Wood Aviation	317-849-0840
+IN	Indianapolis	Indy South Greenwood Airport	KHFY	Indy South Greenwood Airport	317-881-0887
+IN	Indianapolis	Hendricks County Airport-Gordon Graham Field	2R2	Hendricks County Airport	317-745-2389
+IN	Jeffersonville	Clark Regional Airport	KJVY	Honaker Aviation	812-246-5491
+IN	Jeffersonville	Clark Regional Airport	KJVY	Aircraft Specialists Inc.	812-246-4696
+IN	Kendallville	Kendallville Municipal Airport	C62	Falcon Aviation	260-665-3212
+IN	Kentland	Kentland Municipal Airport	50I	Kentland Municipal Airport	815-383-2634
+IN	Knox	Starke County Airport	KOXI	Starke County Airport Authority	574-772-5001
+IN	Kokomo	Kokomo Municipal Airport	KOKK	 Kokomo Municipal Airport F.B.O.	765-456-1742, 765-437-0637
+IN	La Porte	La Porte Municipal Airport	KPPO	 LaPorte Municipal Airport	219-324-3393
+IN	Lafayette	Purdue University Airport	KLAF	Purdue Aviation	765-743-9692
+IN	Logansport	Logansport/Cass County Airport	KGGP	 Logansport / Cass County Airport Authority	574-753-4300
+IN	Lowell	Lowell Airport	C97	Lowell Aviation	219-696-9603
+IN	Madison	Madison Municipal Airport	KIMS	City of Madison - Aviation	812-273-1914
+IN	Marion	Marion Municipal Airport	KMZZ	Air Marion	765-674-7777
+IN	Michigan City	Michigan City Municipal Airport-Phillips Field	KMGC	 Michigan City Municipal Airport	219-872-0121
+IN	Monticello	White County Airport	KMCX	Townsend Aviation	574-583-9900
+IN	Muncie	Delaware County Regional Airport	KMIE	Muncie Aviation Company	765-254-8004
+IN	Muncie	Reese Airport	7I2	Reese Flying Service	765-284-9611
+IN	Nappanee	Nappanee Municipal Airport	C03	Nappanee Municipal Airport	574-773-4707
+IN	New Castle	New Castle-Henry County Municipal Airport	KUWL	Sky Castle Aviation	765-529-7903
+IN	North Vernon	North Vernon Airport	KOVO	North Vernon Municipal Airport	812-346-5223
+IN	Paoli	Paoli Municipal Airport	I42	Paoli Municipal Airport	812-723-9923
+IN	Peru	Grissom Air Reserve Base	KGUS	Miami County Aviation	765-689-0159
+IN	Peru	Peru Municipal Airport	I76	Peru Municipal Airport	765-472-1990
+IN	Plymouth	Plymouth Municipal Airport	C65	 City of Plymouth (FBO)	574-935-5152
+IN	Portland	Portland Municipal Airport	KPLD	Portland Municipal Airport	260-729-1577, 260-729-5233
+IN	Rensselaer	Jasper County Airport	KRZL	Jasper County Airport Authority	219-866-2100
+IN	Richmond	Richmond Municipal Airport	KRID	Richmond Municipal Airport	765-983-7296, 765-993-4139
+IN	Rochester	Fulton County Airport	KRCR	Fulton County Aviation	574-223-5384
+IN	Salem	Salem Municipal Airport	I83	Salem Municipal Airport	812-883-4265, 812-883-4264
+IN	Seymour	Freeman Municipal Airport	KSER	Freeman Municipal Airport	812-522-2031
+IN	Shelbyville	Shelbyville Municipal Airport	KGEZ	Shelbyville Aviation	317-392-1284
+IN	South Bend	South Bend International Airport	KSBN	Atlantic Aviation	574-233-8285
+IN	South Bend	South Bend International Airport	KSBN	Corporate Wings	574-282-4200
+IN	Sullivan	Sullivan County Airport	KSIV	Sullivan County Airport	812-268-6959
+IN	Tell City	Perry County Municipal Airport	KTEL	Perry County Airport Authority	812-836-2141
+IN	Terre Haute	Terre Haute International Airport-Hulman Field	KHUF	Hoosier Aviation, LLC	812-877-7600, 812-877-4100
+IN	Terre Haute	Sky King Airport	3I3	Brown Flying School	812-466-2229
+IN	Valparaiso	Porter County Regional Airport	KVPZ	Porter County Municipal Airport	219-462-6508
+IN	Wabash	Wabash Municipal Airport	KIWH	Northern Indiana Aviation	260-563-4705
+IN	Warsaw	Warsaw Municipal Airport	KASW	City Aviation Services -- City of Warsaw (FBO)	574-269-1337, 574-267-3689
+IN	Washington	Daviess County Airport	KDCY	Daviess County Airport	812-254-9934
+IN	Winamac	Arens Field Airport	KRWN	Airport Management Service, Inc.	574-946-6785
+IN	Winchester	Randolph County Airport	I22	Randolph County Airport	765-584-3611

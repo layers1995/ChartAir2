@@ -46,5 +46,4 @@ ID	Soda Springs	Allen H Tigert Airport	U78	Allen H Tigert Airport	208-547-2600
 ID	St Anthony	Stanford Field Airport	U12	Shupe Flying Service Inc.	208-624-3041	
 ID	St Maries	St Maries Municipal Airport	S72	St Maries Municipal Airport	208-582-0941	
 ID	Twin Falls	Joslin Field - Magic Valley Regional Airport	KTWF	Reeder Flying Service	208-733-5920	
-ID	Weiser	Weiser Municipal Airport	S87	Weiser Municipal Airport	360-903-6901	
-
+ID	Weiser	Weiser Municipal Airport	S87	Weiser Municipal Airport	360-903-6901

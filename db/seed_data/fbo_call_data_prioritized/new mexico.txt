@@ -1,0 +1,41 @@
+NM	Alamogordo	Alamogordo-White Sands Regional Airport	KALM	Exile Aviation	575-437-2474, 575-430-8963	2730
+NM	Albuquerque	Albuquerque International Sunport Airport	KABQ	Cutter Aviation	505-842-4184	10980
+NM	Albuquerque	Albuquerque International Sunport Airport	KABQ	Atlantic Aviation	505-842-4990	10980
+NM	Albuquerque	Double Eagle II Airport	KAEG	Bode Aero Services	505-352-0292	6480
+NM	Angel Fire	Angel Fire Airport	KAXX	Colfax County Angel Fire FBO	575-643-8066	460
+NM	Artesia	Artesia Municipal Airport	KATS	City of Artesia (FBO)	575-748-3206	1140
+NM	Aztec	Aztec Municipal Airport	N19	Aztec Municipal Airport	505-634-8319	420
+NM	Belen	Alexander Municipal Airport	E80	 The City of Belen	505-966-2650, 505-966-2733	1440
+NM	Belen	Alexander Municipal Airport	E80	Alexander Aero	505-864-4500	1440
+NM	Carlsbad	Cavern City Air Terminal	KCNM	Chandler Aviation	575-887-1500	528
+NM	Clayton	Clayton Municipal Airpark	KCAO	Clayton Municipal Airport	575-207-7920	268
+NM	Clovis	Clovis Municipal Airport	KCVN	 CVN Aviation	505-400-9605, 575-769-7890	3120
+NM	Deming	Deming Municipal Airport	KDMN	Desert Aviation	575-544-3660, 575-494-2311	2340
+NM	Edgewood	Sandia Airpark Estates East Airport	1N1	Sandia Airpark	505-281-0322	316
+NM	Espanola	Ohkay Owingeh Airport	E14	 Ohkay Owingeh General Aviation Airport	505-747-0700, 505-660-6113	400
+NM	Farmington	Four Corners Regional Airport	KFMN	Atlantic Aviation	505-325-2867	2670
+NM	Gallup	Gallup Municipal Airport	KGUP	Wiseman Aviation, Inc.	505-863-5501	476
+NM	Grants	Grants-Milan Municipal Airport	KGNT	Grants-Milan Municipal Airport	505-287-4700	364
+NM	Hobbs	Lea County Regional Airport	KHOB	 Tailwind Aviation	575-397-1747, 575-397-7675	1050
+NM	Hobbs	Lea County Regional Airport	KHOB	Christian Aero LLC	575-318-7585	1050
+NM	Las Cruces	Las Cruces International Airport	KLRU	Southwest Aviation, Inc	575-524-8047	6570
+NM	Las Cruces	Las Cruces International Airport	KLRU	Francis Aviation	575-526-6341	6570
+NM	Las Vegas	Las Vegas Municipal Airport	KLVS	Las Vegas Municipal Airport	505-454-0881	930
+NM	Lordsburg	Lordsburg Municipal Airport	KLSB	Lordsburg Municipal Airport	575-542-3614	368
+NM	Los Alamos	Los Alamos Airport	KLAM	Los Alamos Avgas, Inc.	505-695-1333	1170
+NM	Los Lunas	Mid Valley Airpark	E98	Hooey, LLC	505-610-3676	1650
+NM	Lovington	Lea County-Zip Franklin Memorial Airport	E06	RW Av Fuels, LLC	575-398-3490	168
+NM	Moriarty	Moriarty Airport	0E0	Sundance Aviation	505-832-2222	2430
+NM	Portales	Portales Municipal Airport	KPRZ	Portales Municipal Airport	575-478-2863	1650
+NM	Raton	Raton Municipal Airport/Crews Field	KRTN	Express Aviation Services	575-445-3076, 575-707-2225	460
+NM	Roswell	Roswell International Air Center Airport	KROW	 Avflight Roswell	575-347-2054, 575-626-3697	2820
+NM	Ruidoso	Sierra Blanca Regional Airport	KSRR	 Sierra Blanca Regional Airport	575-336-8111	1170
+NM	Santa Fe	Santa Fe Municipal Airport	KSAF	Jet Center at Santa Fe	505-780-4455	5580
+NM	Santa Fe	Santa Fe Municipal Airport	KSAF	Signature Flight Support	505-471-2525	5580
+NM	Santa Rosa	Santa Rosa Route 66 Airport	KSXU	Santa Rosa Route 66 Airport	575-472-9942	164
+NM	Santa Teresa	Dona Ana County International Jetport Airport	KDNA	Francis Aviation	844-589-4586	3420
+NM	Silver City	Grant County Airport	KSVC	Grant County	575-388-4554, 575-313-9784	316
+NM	Socorro	Socorro Municipal Airport	KONM	Socorro Municipal Airport	505-440-6119	352
+NM	Taos	Taos Regional Airport	KSKX	 Taos Aviation Services	575-737-9790	536
+NM	Truth or Consequences	Truth or Consequences Municipal Airport	KTCS	Truth or Consequences Municipal Airport	575-894-6199	1290
+NM	Tucumcari	Tucumcari Municipal Airport	KTCC	Tucumcari Municipal Airport	575-461-3229	2100

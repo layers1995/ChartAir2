@@ -1,6 +1,6 @@
 class Airport < ApplicationRecord
 	has_many :fbos
-	belongs_to :city
+	belongs_to :city, optional: true
 	
 	
 	#check if the airport is within the radius of the 

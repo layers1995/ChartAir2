@@ -1,0 +1,33 @@
+ME	Auburn/Lewiston	Auburn/Lewiston Municipal Airport	KLEW	Auburn/Lewiston Airport Air Center	207-784-6318	4320
+ME	Augusta	Augusta State Airport	KAUG	Maine Instrument Flight	207-622-1211	2010
+ME	Bangor	Bangor International Airport	KBGR	Bangor Aviation Services	207-992-4582, 207-992-4623	3390
+ME	Bar Harbor	Hancock County-Bar Harbor Airport	KBHB	 Columbia Air Services-BHB, LLC	207-667-5534	1740
+ME	Bethel	Bethel Regional Airport	0B1	Town of Bethel (self-serve fuel)	207-512-5552	364
+ME	Biddeford	Biddeford Municipal Airport	B19	Biddeford Municipal Airport	207-282-1893	1230
+ME	Brunswick	Brunswick Executive Airport	KBXM	FlightLevel Brunswick	207-406-2081	750
+ME	Caribou	Caribou Municipal Airport	KCAR	City of Caribou (self-serve fuel)	207-493-4237	316
+ME	Carrabassett	Sugarloaf Regional Airport	B21	Sugarloaf Regional Airport	207-235-2646	460
+ME	Dexter	Dexter Regional Airport	1B0	Dexter Regional Airport	207-924-7565	630
+ME	Eastport	Eastport Municipal Airport	KEPM	City of Eastport	207-853-6060	460
+ME	Frenchville	Northern Aroostook Regional Airport	KFVE	Northern Aroostook Regional Airport	207-543-6300, 207-436-1379	100
+ME	Fryeburg	Eastern Slopes Regional Airport	KIZG	 Eastern Slopes Airport Authority	207-935-4440, 207-890-7636	2760
+ME	Greenville	Greenville Municipal Airport	3B1	Fletcher Mountain Aviation LLC	207-299-8220	528
+ME	Greenville	Greenville Municipal Airport	3B1	Moosehead Aviation	207-695-2993	528
+ME	Houlton	Houlton International Airport	KHUL	Town of Houlton FBO	207-538-7997	1050
+ME	Jackman	Newton Field Airport	59B	Newton Field Airport (self-serve fuel)	207-668-2111	268
+ME	Limington	Limington-Harmon Airport	63B	 Limington-Harmon Airport	207-637-2121	1020
+ME	Lincoln	Lincoln Regional Airport	KLRG	Lincoln Regional Airport	207-290-7174	356
+ME	Millinocket	Millinocket Municipal Airport	KMLT	Town of Millinocket Municipal Airport	207-723-6649	630
+ME	Norridgewock	Central Maine Airport of Norridgewock	KOWK	Central Maine Regional Airport	207-634-5351	810
+ME	Old Town	Dewitt Field, Old Town Municipal Airport	KOLD	City Of Old Town	207-827-7175	1860
+ME	Oxford	Oxford County Regional Airport	81B	Oxford County Regional Airport	207-743-6359	750
+ME	Pittsfield	Pittsfield Municipal Airport	2B7	Curtis Air	207-487-5213	1170
+ME	Portland	Portland International Jetport	KPWM	Northeast Air	207-774-6318	3720
+ME	Portland	Portland International Jetport	KPWM	MAC Jets	207-780-1811	3720
+ME	Presque Isle	Northern Maine Regional Airport at Presque Isle	KPQI	City of Presque Isle (General Aviation Terminal)	207-764-2555	440
+ME	Rangeley	Steven A Bean Municipal Airport	8B0	Acadian Seaplanes	207-864-5307	200
+ME	Rockland	Knox County Regional Airport	KRKD	 Downeast Air	207-594-2171	2940
+ME	Sanford	Sanford Seacoast Regional Airport	KSFM	 Southern Maine Aviation	207-324-8919	3900
+ME	Turner	Twitchell Airport	3B5	Twitchell's Airport/Seaplane Base	207-225-3490	2970
+ME	Waterville	Waterville Robert LaFleur Airport	KWVL	Robert Lafleur Airport	207-861-8013	1320
+ME	Wiscasset	Wiscasset Airport	KIWI	 Town of Wiscasset	207-882-5475, 207-208-7652	600

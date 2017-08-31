@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170829182051) do
+ActiveRecord::Schema.define(version: 20170831191634) do
 
   create_table "airplane_users", force: :cascade do |t|
     t.integer "airplane_id", null: false
@@ -26,9 +26,16 @@ ActiveRecord::Schema.define(version: 20170829182051) do
     t.integer  "height"
     t.integer  "wingspan"
     t.integer  "length"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
     t.string   "manufacturer"
+    t.string   "country"
+    t.string   "plane_class"
+    t.integer  "empty_weight"
+    t.integer  "num_crew"
+    t.integer  "num_passengers"
+    t.integer  "range"
+    t.integer  "wing_area"
   end
 
   create_table "airports", force: :cascade do |t|

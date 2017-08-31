@@ -10,7 +10,7 @@ def parseFbos(state, city, airportName, url)
   page = Nokogiri::HTML(open(url))
 
   fboData = Hash.new
-  airportCode = url[url.index("airport/") + 8 .. -1] # find the index of "airport/", add 8 to it to get to the call number, then go to the end of the string.
+  airportCode = url[url.index("airport/") + 8 .. -1] # find the index of "airport/" in the url, add 8 to it to get to the call number, then go to the end of the string.
 
   if page.text =~ /aircraft operations:( avg)? [0-9]+\/[a-z]+/i
     averageOperations = page.text.match(/aircraft operations:( avg)? [0-9]+\/[a-z]+/i)[0].strip.downcase
@@ -86,7 +86,8 @@ def parseFbos(state, city, airportName, url)
 
   fboData.each do |curFbo|
     printf("%s\t%s\t%s\t%s\t%s\t%s\n", city, curFbo[0].strip, curFbo[1].strip, airportName.strip, state, averageOperations)
-    $fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[0].strip, curFbo[1].strip, averageOperations)
+    #$fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[0].strip, curFbo[1].strip, averageOperations)
+    $fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[0].strip, curFbo[1].strip)
   end
 
 end
@@ -126,33 +127,22 @@ end
 
 if __FILE__ == $0
   #parseFbos('IL', 'Chicago', 'Midway', 'http://www.airnav.com/airport/KCIU')
-  #parseFbos('IL', 'Galesburg', 'Galesburg Municipal', 'http://www.airnav.com/airport/c00')
-  #parseFbos('IL', 'Galesburg', 'Galesburg Municipal', 'http://www.airnav.com/airport/2RR')
 =begin
-  $fboSeedData = File.open("fbo_call_data/california.txt", "a")
-  crawl('http://airnav.com/airports/us/CA')
-  $fboSeedData.close()
-
-  $fboSeedData = File.open("fbo_call_data/oklahoma.txt", "a")
-  crawl('http://airnav.com/airports/us/OK')
-  $fboSeedData.close()
-
-  $fboSeedData = File.open("fbo_call_data/missouri.txt", "a")
-  crawl('http://airnav.com/airports/us/MO')
-  $fboSeedData.close()
-
-  $fboSeedData = File.open("fbo_call_data/new york.txt", "a")
-  crawl('http://airnav.com/airports/us/NY')
-  $fboSeedData.close()
-
-  $fboSeedData = File.open("fbo_call_data/georgia.txt", "a")
-  crawl('http://airnav.com/airports/us/GA', "Jekyll Island Airport")
+  $fboSeedData = File.open("fbo_call_data_prioritized/minnesota.txt", "a")
+  crawl('http://airnav.com/airports/us/MN')
   $fboSeedData.close()
 =end
 
-  $fboSeedData = File.open("fbo_call_data/alabama.txt", "a")
-  crawl('http://airnav.com/airports/us/AL', "Robbins Field Airport")
+  $fboSeedData = File.open("fbo_call_data/michigan.txt", "a")
+  crawl('http://airnav.com/airports/us/MI', "Gradolph Field Airport")
   $fboSeedData.close()
-end
 
-# Get the free amazon credit ASAP
+  $fboSeedData = File.open("fbo_call_data/indiana.txt", "a")
+  crawl('http://airnav.com/airports/us/IN')
+  $fboSeedData.close()
+
+  $fboSeedData = File.open("fbo_call_data/minnesota.txt", "a")
+  crawl('http://airnav.com/airports/us/MN')
+  $fboSeedData.close()
+
+end
