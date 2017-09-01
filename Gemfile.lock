@@ -198,7 +198,7 @@ DEPENDENCIES
   listen (~> 3.0.5)
   minitest-reporters (= 1.1.14)
   obfuscator (~> 0.0.2)
-  pg (= 0.20.0)
+  pg
   puma (~> 3.0)
   rails (~> 5.0.4)
   rails-controller-testing
