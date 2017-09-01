@@ -11,15 +11,14 @@ def main
 	Fee.delete_all
 
 	addAirplanes("airplane_seed_data")
-	addAirplanes("test_airplanes")
 	addFeeTypes("fee_types")
 	addClassifications("classification_types")
 	addCategories("categories")
-	addCities("uscitiesv1.3.csv")
+	#addCities("uscitiesv1.3.csv")
 	addAirports("full_airport_data")
-	#addFbos("fbo_seed_data")
+	addFbos("fbo_seed_data")
 	addFboFolder("fbo_call_data")
-	addFeesAndUpdateFbos("survey_responses.tsv")
+	#addFeesAndUpdateFbos("survey_responses.tsv")
 	addStartupTermData("survey_responses.tsv")
 
 # TODO addFbos and addStartupTermData both add FBOs to the database, figure it out.
@@ -135,11 +134,11 @@ def addAirports(filename)
 		airportCode, airportName, ownerPhone, managerPhone, latitude, longitude, state, city = curAirport.split("\t")
 		curCity = City.find_by({ :name => city, :state => state })
 # this will create a city if it's not found, but because we don't actually care about the city, it doesn't matter much, and commenting this out avoids duplicates
-=begin
+begin
 		if curCity.nil?
 			curCity = City.create({ :name => city, :state => state, :latitude => latitude, :longitude => longitude })
 		end
-=end
+end
 		if curCity.nil?
 			airports = Airport.create({ :airport_code => airportCode, :name => airportName.strip.downcase, :latitude => latitude, :longitude => longitude, :state => state, :ownerPhone => ownerPhone, :managerPhone => managerPhone})
 		else
@@ -214,6 +213,8 @@ def addFeesAndUpdateFbos(filename)
 				curAirport = Airport.find_by( :airport_code => newCode )
 			end
 		end
+
+		curFbo = Fbo.find_by(:name => fboName, :airport => curAirport)
 
 		if !curFbo.nil?
 			# this is what should happen
