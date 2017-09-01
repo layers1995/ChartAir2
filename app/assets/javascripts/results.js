@@ -16,8 +16,6 @@ function start(){
     feeDict=gon.dict;
     destination=gon.destination;
     
-    curFilter=document.getElementById("userFilter").innerHTML.toLocaleLowerCase();
-    
     addListeners();
     //alert("listeners added");
     createFboList();
@@ -32,8 +30,10 @@ function start(){
 function addListeners(){
     
     //filter buttons
-    document.getElementById("costIcon").onclick=function(){filterButtonClicked("cost");};
-	document.getElementById("locationIcon").onclick=function(){filterButtonClicked("distance");};
+    document.getElementById("filters").onchange=function(){filterButtonClicked();};
+	document.getElementById("locationIcon").onchange=function(){filterButtonClicked("distance");};
+	
+	//alert("filer buttons work");
 	
 	//fee select buttons
 	document.getElementById("landing").onclick=function(){feeButtonClicked("landing");};
@@ -43,6 +43,7 @@ function addListeners(){
 	//document.getElementById("hanger").onclick=function(){feeButtonClicked("hanger");};
 	document.getElementById("call out").onclick=function(){feeButtonClicked("call out");};
 	document.getElementById("other").onclick=function(){feeButtonClicked("other");};
+	
 }
 
 function createFboList(){
@@ -75,29 +76,32 @@ function fillAppliedFeesDict(){
     //appliedFees["hanger"]=true;
     appliedFees["other"]=true;
     
+    //turn on check boxes
+    document.getElementById("landing").checked = true;
+    document.getElementById("ramp").checked = true;
+    document.getElementById("tie down").checked = true;
+    document.getElementById("call out").checked = true;
+    
+    //turn off check boxes for tie down and call out
     feeButtonClicked("tie down");
     feeButtonClicked("call out");
 }
 
 //listens for when a filter button is clicked
-function filterButtonClicked(buttonClicked){
+function filterButtonClicked(){
     
     //get the buttons
-    var costButton= document.getElementById("costIcon");
-    var distanceButton= document.getElementById("locationIcon");
+    var e = document.getElementById("filters");
+    var buttonClicked = e.options[e.selectedIndex].value;
     
     curFilter=buttonClicked;
     
     if(buttonClicked==="cost"){
         //update buttons
         curFilter="cost";
-        costButton.style.opacity=1;
-        distanceButton.style.opacity=0.4;
     }else{
          //update buttons
          curFilter="distance";
-        costButton.style.opacity=0.4;
-        distanceButton.style.opacity=1;
     }
 
     arrangeResults();
@@ -111,12 +115,12 @@ function feeButtonClicked(buttonClicked){
         //turn off
         appliedFees[buttonClicked]=false;
         var button=	document.getElementById(buttonClicked);
-        button.style.opacity=0.4;
+        document.getElementById(buttonClicked).checked = false;
     }else{
         //turn on
         appliedFees[buttonClicked]=true;
         var button=	document.getElementById(buttonClicked);
-        button.style.opacity=1;
+        document.getElementById(buttonClicked).checked = true;
     }
     
     //updates the current cost and reagranges the results
@@ -228,6 +232,7 @@ function updateTable(){
     var div = document.getElementById("allResults");
     div.innerHTML = "";
     var mapDetails="";
+    var numUnknown=0;
     
     //creates an array of buttons
     var buttons= Array(fbos.length);
@@ -235,9 +240,21 @@ function updateTable(){
     if(fbos.length!=0){
         
         for(var i=0; i<this.fbos.length;i++){
+            
             var curName=fbos[i].name;
+            
+            //checks to make sure only 2 unknowns are shown
+            if(numUnknown>1){
+                break;
+            }
+            
+            if(feeDict[curName]["total"]==1000001){
+                numUnknown+=1;
+            }
+            
+            //creates new table
             var newDiv= document.createElement("div");
-            newDiv.setAttribute('class', 'result')
+            newDiv.setAttribute('class', 'result');
             
             var table = document.createElement('table');
             table.setAttribute('class', 'resultTable');
@@ -293,6 +310,69 @@ function updateTable(){
             fboName.appendChild(document.createTextNode("\u00a0\u00a0" + properCapitlize(curName)));
             fboc.appendChild(fboName);
             fboRow.appendChild(fboc);
+            
+            //insert fee into new row landing and ramp
+            var landingRamp= document.createElement("td");
+            var landingCosts=""
+            var rampCosts=""
+            if(feeDict[curName]["landing"]!=null){
+                landingCosts+="Landing: $" + feeDict[curName]["landing"];
+            }else{
+                landingCosts+="Landing: Unknown";
+            }
+            if(feeDict[curName]["ramp"]!=null){
+                rampCosts+= "Ramp: $" + feeDict[curName]["ramp"];
+            }else{
+                rampCosts+= "Ramp: Unknown";
+            }
+            landingRamp.appendChild(document.createTextNode(landingCosts));
+            landingRamp.appendChild(document.createElement("br"));
+            landingRamp.appendChild(document.createTextNode(rampCosts));
+            fboRow.appendChild(landingRamp);
+            
+            
+            //add tie down and call out
+            var tdco= document.createElement("td");
+            var tdCosts=""
+            var coCosts=""
+            if(feeDict[curName]["tie down"]!=null){
+                tdCosts+="Tie-Down: $" + feeDict[curName]["tie down"];
+            }else{
+                tdCosts+="Tie-Down: Unknown";
+            }
+            if(feeDict[curName]["call out"]!=null){
+                coCosts+= "Call-Out: $" + feeDict[curName]["call out"];
+            }else{
+                coCosts+= "Call-Out: Unknown";
+            }
+            tdco.appendChild(document.createTextNode(tdCosts));
+            tdco.appendChild(document.createElement("br"));
+            tdco.appendChild(document.createTextNode(coCosts));
+            fboRow.appendChild(tdco);
+            
+            
+            //add other and facility
+            var other= document.createElement("td");
+            var otherCosts=0
+            var otherCostsString=""
+            if(feeDict[curName]["facility"]!=null){
+                otherCosts+=feeDict[curName]["facility"]
+                
+                if(feeDict[curName]["other"]!=null){
+                    otherCosts+= "Other: $" + (feeDict[curName]["other"]+otherCosts);
+                }else{
+                    otherCostsString+= "Other: $" + otherCosts;
+                }
+            }else{
+                
+                if(feeDict[curName]["other"]!=null){
+                    otherCostsString+= "Other: $" + feeDict[curName]["other"];
+                }else{
+                    otherCostsString+= "Other: Unknown";
+                }
+            }
+            other.appendChild(document.createTextNode(otherCostsString));
+            fboRow.appendChild(other);
             
             //append table to div
             newDiv.appendChild(table);

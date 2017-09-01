@@ -1,4 +1,4 @@
-class UsersAirplanesController < ApplicationController
+class AirplaneUsersController < ApplicationController
   
   def profile
     
@@ -13,14 +13,17 @@ class UsersAirplanesController < ApplicationController
     end
     
     gon.airplanes= Airplane.all
-    @user_airplane= ""
-    
+    @user_airplane= AirplaneUser.new
   end
   
-  def add_plane
+  def new
+    @user_airplane= AirplaneUser.new
+  end
+  
+  def create
 
-    addedAirplane= Airplane.where(:model => params[:model])
-    tailnumber= params[:tailnumber].upcase
+    addedAirplane= Airplane.where(:manufacturer => params[:airplane_user][:manufacturer], :model => params[:airplane_user][:model])
+    tailnumber= params[:airplane_user][:tailnumber].upcase
     
     AirplaneUser.create(:airplane_id => addedAirplane.ids.first, :user_id => current_user.id, :tailnumber => tailnumber)
     
@@ -39,7 +42,8 @@ class UsersAirplanesController < ApplicationController
   private
 
     def user_airplane_params
-        params.require(:name).permit(:manufacturer, :tailnumber)
+        params.require(:tailnumber).permit(:airplane_id, :user_id, :manufacturer, :model)
     end
   
 end
+

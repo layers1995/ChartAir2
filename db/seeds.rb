@@ -151,7 +151,7 @@ end
 # Add every FBO in a folder to the database
 def addFboFolder(folderName)
 	folderPath = Rails.root.join("db", "seed_data", folderName)
-	Dir.foreach(folderPath) do |curFile|r
+	Dir.foreach(folderPath) do |curFile|
 	  next if curFile == '.' or curFile == '..' # do work on real items
 	  filePath = Rails.root.join("db", "seed_data", "fbo_call_data", curFile)
 	  addFbos(filePath)

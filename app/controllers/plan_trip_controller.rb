@@ -23,7 +23,7 @@ class PlanTripController < ApplicationController
 
   def results
       
-    if (params[:plan_trip][:distance].to_i)<10 || (params[:plan_trip][:distance].to_i)>50
+    if (params[:plan_trip][:distance].to_i)<10 || (params[:plan_trip][:distance].to_i)>76
       redirect_to plantrip_path
     end
     
@@ -33,7 +33,6 @@ class PlanTripController < ApplicationController
   	
   	@tailnumber=params[:plan_trip][:tailnumber]
   	@nights=params[:plan_trip][:nights]
-  	@curfilter= params[:plan_trip][:filter]
   
   	#get the current city
   	curCity= City.find_by(:name => params[:plan_trip][:city], :state => params[:plan_trip][:state])

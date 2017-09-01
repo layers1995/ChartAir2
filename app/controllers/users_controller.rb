@@ -1,14 +1,11 @@
 class UsersController < ApplicationController
   
-  def new
-    @user = User.new
+  def index
+    redirect_to 'new'
   end
   
-  def profile
-    if not logged_in?
-      redirect_to login_path
-    end
-    @user= current_user
+  def new
+    @user = User.new
   end
   
   def terms
@@ -16,9 +13,7 @@ class UsersController < ApplicationController
   
   def create
     
-    if params[:user][:betakey]==="FlyInTheClouds" && params[:user][:email]===params[:user][:email_confirm] && params[:user][:confirm_user_agreement]=="1"
-      
-      @user = User.new(:name => params[:user][:name], :password => params[:user][:password], :password_confirmation => params[:user][:password_confirmation], :email => params[:user][:email])
+      @user = User.new(user_params)
       
       if @user.save
         flash[:success] = "Thank you for joining ChartAir"
@@ -26,14 +21,8 @@ class UsersController < ApplicationController
         log_in @user
         redirect_to home_path
       else
-        @user = User.new
         render 'new'
       end
-      
-    else
-      @user = User.new
-       render 'new'
-    end
     
   end
   

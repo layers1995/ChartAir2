@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  get 'airplane_users/add_plane'
+
+  get 'airplane_users/profile'
+
 #routes for reports on trips/fbos
   get '/report', to: "report#index"
   post '/report', to: "report#create"
@@ -34,11 +38,12 @@ Rails.application.routes.draw do
 #user pages
   get '/new_user', to: 'users#new'
   get '/terms', to: 'users#terms'
-  post '/new_user',  to: 'users#create'
+  post '/create',  to: 'users#create'
   
-  get '/profile', to: 'users_airplanes#profile'
-  post '/profileremove', to: 'users_airplanes#remove_plane'
-  post '/profile', to: 'users_airplanes#add_plane'
+  get '/profile', to: 'airplane_users#profile'
+  post '/profileremove', to: 'airplane_users#remove_plane'
+  get '/add_plane', to: 'airplane_users#new'
+  post '/add_plane', to: 'airplane_users#create'
 
 #login pages
   get '/login', to: "sessions#new"
@@ -51,7 +56,7 @@ Rails.application.routes.draw do
 #resources
   resources :users
   resources :airplanes
-  resources :users_airplanes
+  resources :airplane_users
   resources :trips
   
 end

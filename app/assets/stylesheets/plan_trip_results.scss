@@ -1,136 +1,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-/*Applies to whole page*/
-body{
-	position:relative;
-	margin-top: 8%;
-	margin-left: 10%;
-	margin-right: 45%;
-	margin-bottom: 4%;
-	font-family:'tradegothiclt-light',sans-serif;
-	display:-webkit-box;
-	-webkit-box-orient: vertical;
-	-webkit-box-pack:right;
-	-webkit-border-radius: 10px;
-	background-color:white;
-	color:#333333;
+#googleMap{
+	position: relative;
+	float: right;
+	max-width: 400px;
+	height: auto;
 }
-
-html{
-	height: 100%;
-	background-image: url(sky3.jpg);
-	background-repeat: no-repeat;
-    background-size: 100% 100%;
-	background-attachment:fixed;
-}
-
-
-//*Header of the text*//
-
-header{
-	position:fixed;
-	top:0%;
-	right:0%;
-	width:100%;
-	height: 7%;
-	/*background-color: rgba(242, 239, 255, .5);*/
-	background-color: white;
-}
-
-#navBar{
-	position:fixed;
-	right: 1.5%;
-	top: 1.25%;
-	
-	.item{
-		font-size: 18px;
-		a{
-			padding: .1em 1em;
-			text-decoration: none;
-		}
-	}
-}
-
-#headerNavItems li{
-	display: inline;
-}
-
-#logo{
-	width:auto;
-    height: 50px;
-	position: fixed;
-	top:0%;
-	left:3%;
-}
-
-h1{
-	max-width:93%;
-    font-weight:normal; 
-	text-align:left;
-	font-size:32px;
-	font-family:'tradegothiclt-light',sans-serif;
-	margin-left:2.5%;
-	border-bottom: solid 3px #333333;
-}
-
-ul{
-	list-style-type: none;
-}
-
-/*Filter bar*/
-
-#filters{
-	position:fixed;
-	top: 16%;
-	left:0%;
-	-webkit-border-radius: 0px 20px 20px 0px;
-	background: white;
-	padding-top:20px;
-	padding-bottom:20px;
-	padding-right:20px;
-	padding-left:0px;
-}
-
-#filters h3{
-	color: white;
-	font-weight:normal; 
-	text-align:center;
-}
-
-/*Fee bar*/
-
-#fees{
-	position:fixed;
-	top: 36%;
-	left:0%;
-	-webkit-border-radius: 0px 20px 20px 0px;
-	background: white;
-	padding-top:20px;
-	padding-bottom:20px;
-	padding-right:20px;
-	padding-left:10px;
-}
-
-#fees button{
-	min-width:100%;
-	-webkit-border-radius: 10px;
-	border: solid 2px #3a8dfd;
-	background:#3a8dfd;
-	color: white;
-	margin-top:7%;
-}
-
-input[type=button]{
-	-webkit-border-radius: 10px;
-	border: solid 1px #f9f8ff;
-	background:white;
-	color:#333333;
-	margin:5%;
-	min-width: 100%;
-}
-
-/*Results*/
 
 button{
 	border: solid 2px #3a8dfd;
@@ -140,76 +16,10 @@ button{
 	max-width: 50%;
 }
 
-h3{
-	font-size: 22px;
-	color: #494949;
+#allResults{
+	height: 600px;
+	width: 50%;
+	overflow: auto;
+	float: left;
 }
 
-h4{
-	font-size: 18px;
-	color: #494949;
-}
-
-.resultTable{ 
-	table-layout: fixed; 
-	border-collapse: separate;
-	text-align: left;
-	border-spacing:20%;
-	margin-left:1%;
-	vertical-align: top;
-	width: 99%;
-}
-
-.result{
-	background: #efefef;
-	-webkit-border-radius: 10px;
-	margin-left: 3%;
-	margin-bottom: 3%;
-	margin-top: 3%;
-	padding: 1%;
-	width: 94%;
-}
-
-.prices{
-	margin-left: 2%;
-	margin-bottom: 3%;
-}
-
-.prices li{
-	display: inline-block;
-}
-
-.result{
-	border-bottom: 5px solid white;
-}
-
-.right{
-	text-align: right;
-}
-
-.center{
-	text-align: center;
-}
-
-#costIcon{
-	position:relative;
-	left:28%;
-	width:40px;
-    height: auto;
-	opacity: .4;
-}
-
-#locationIcon{
-	position:relative;
-	left:28%;
-	width:40px;
-    height: auto;
-}
-
-#googleMap{
-	position: fixed;
-	right: 1.5%;
-	top: 24%;
-	max-width: 50%;
-	height: auto;
-}

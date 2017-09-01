@@ -13,7 +13,7 @@ class TripsController < ApplicationController
      end
     end
     
-    @nextTrips= Trip.where(:user_id => current_user, :trip_status => ["issue","pending", "cancled", "confirmed"]).order(arrival_time: :asc)
+    @nextTrips= Trip.where(:user_id => current_user, :trip_status => ["issue","pending", "cancelled", "confirmed"]).order(arrival_time: :asc)
     @prevTrips= Trip.where(:user_id => current_user, :trip_status => "completed").order(arrival_time: :asc)
   end
   
@@ -56,6 +56,11 @@ class TripsController < ApplicationController
     trip_status= "pending";
     tempArr=[params["start_datetime(1i)"], params["start_datetime(2i)"], params["start_datetime(3i)"], params["start_datetime(4i)"], params["start_datetime(5i)"]]
     arrival_time= formatTime(tempArr)
+    
+    if arrival_time < Date.tomorrow
+      flash[:notice] = "Trips must be booked at least 24 hours in advance."
+      redirect_to :back and return 
+    end
     
     Trip.create(:airport_id => airport_id, :fbo_id => fbo_id, :user_id => user_id, :tailnumber => params[:tailnumber], :cost => params["cost"].to_i, :trip_status => trip_status, :arrival_time => arrival_time)
     
