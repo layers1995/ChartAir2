@@ -19,7 +19,7 @@ def main
 	addAirports("full_airport_data")
 	#addFbos("fbo_seed_data")
 	addFboFolder("fbo_call_data")
-	addFeesAndUpdateFbos("survey_responses.tsv")
+	#addFeesAndUpdateFbos("survey_responses.tsv")
 	addStartupTermData("survey_responses.tsv")
 
 # TODO addFbos and addStartupTermData both add FBOs to the database, figure it out.
