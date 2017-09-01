@@ -210,19 +210,8 @@ function compairDistance(x, y){
 }
 
 //Helper function to capitalize strings with extra charecters and spaces
-function properCapitlize(name){
-	
-	var tempArr=name.split(/[ .:;?!~,`"&|()<>{}\[\]\r\n/\\\-]+/);
-	var tempStr="";
-	var curLocation=-1;
-	
-	for(var i=0; i<tempArr.length; i++){
-		curLocation=curLocation+1+tempArr[i].length;
-		tempStr=tempStr + tempArr[i].charAt(0).toUpperCase() + tempArr[i].substring(1,tempArr[i].length) +name.charAt(curLocation);
-	}
-	
-	tempStr=tempStr.substring(0,tempStr.length);
-	return tempStr;
+function properCapitlize(s){
+	return s.toLowerCase().replace( /\b./g, function(a){ return a.toUpperCase(); } );
 }
 
 //adds all entries to the table
@@ -404,8 +393,9 @@ function linkToBookTrip(index){
     var fboName=fbos[parseInt(index)].name;
     var airportName=feeDict[fboName]["airport"];
     var tailnumber=gon.tailnumber;
+    var time= gon.time;
     var cost=feeDict[fboName]["total"];
-    window.location='https://chartair-fuzzykitenz.c9users.io/book_trip?fbo='+fboName+'&airport='+airportName+'&cost='+cost+'&tailnumber='+tailnumber;
+    window.location='https://chartair-fuzzykitenz.c9users.io/book_trip?fbo='+fboName+'&airport='+airportName+'&cost='+cost+'&tailnumber='+tailnumber+'&time='+time;
 }
 
 function createGoogleMap(mapDetails){

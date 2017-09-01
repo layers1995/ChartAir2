@@ -1,6 +1,6 @@
 window.addEventListener("load",start,false);
 
-var cityDict= {}
+var cityDict= {};
 var citiess;
 var curAirplanes;
 var selectedAirplane;
@@ -38,8 +38,8 @@ function startSettings(){
 	    	
 	    	var newOption = document.createElement('option');
 	    	
-	    	newOption.text=keys[i];
-	    	newOption.innerHTML=keys[i];
+	    	newOption.text= capitialize(keys[i]);
+	    	newOption.innerHTML=capitialize(keys[i]);
 	    	newOption.value=keys[i];
 	    	
 	    	states.appendChild(newOption);
@@ -115,11 +115,20 @@ function changeCities(){
 
 		var newOption = document.createElement('option');
 	    	
-	    newOption.text=citiesInState[i];
-	    newOption.innerHTML=citiesInState[i];
+	    newOption.text= properCapitlize(citiesInState[i]);
+	    newOption.innerHTML= properCapitlize(citiesInState[i]);
 	    newOption.value=citiesInState[i];
 	    	
 	    cityList.appendChild(newOption);
 	}
 	
+}
+
+
+function properCapitlize(s){
+	return s.toLowerCase().replace( /\b./g, function(a){ return a.toUpperCase(); } );
+}
+
+function capitialize(name){
+	return name.toUpperCase();
 }

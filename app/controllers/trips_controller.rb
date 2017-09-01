@@ -54,8 +54,11 @@ class TripsController < ApplicationController
     fbo_id= Fbo.find_by(:name => params[:fbo]).id
     user_id= current_user.id
     trip_status= "pending";
-    tempArr=[params["start_datetime(1i)"], params["start_datetime(2i)"], params["start_datetime(3i)"], params["start_datetime(4i)"], params["start_datetime(5i)"]]
-    arrival_time= formatTime(tempArr)
+    
+    #tempArr=[params["start_datetime(1i)"], params["start_datetime(2i)"], params["start_datetime(3i)"], params["start_datetime(4i)"], params["start_datetime(5i)"]]
+    #arrival_time= formatTime(tempArr)
+    
+    arrival_time=DateTime.parse(params[:start_datetime])
     
     if arrival_time < Date.tomorrow
       flash[:notice] = "Trips must be booked at least 24 hours in advance."
@@ -74,7 +77,7 @@ class TripsController < ApplicationController
     @airport=params["airport"]
     @fbo=params["fbo"]
     @cost=params["cost"]
-    
+    @time= params["time"]
     #holder for trip form
     @trip=""
   end

@@ -12,19 +12,21 @@
             <%= form_for(@plan_trip, url: plantrip_path) do |f| %>
                             
                             <div id="locationInfo">
-                                <p class="formLable">State
+                                <p class="formLable">State</p>
                                 <%= f.select :state, [],{}, {class: "form-control", id:'states', :onchange=> "changeCities();"}%></p>
-                                <p class="formLable">City
+                                <p class="formLable">City</p>
                                 <%= f.select :city, [],{}, {class: "form-control", id:'cities'}%></p>
                                 <p class="formLable">Distance (mi)
                                 <p class="center"><%= f.number_field :distance,{id: "input", value: 50 }%></p></p>
                             </div>
                             <p></p>
                             <div id="otherInfo">
-                                <p class="formLable">Airplane
+                                <p class="formLable">Airplane</p>
                                 <%= f.select :tailnumber,[],{}, {class: "form-control", id:'airplanes'}%></p>
-                                <p class="formLable">Nights Staying
+                                <p class="formLable">Nights Staying</p>
                                 <p class="center"><%= f.number_field :nights, {id: "input", value: 0 }%></p>
+                                <p class="formLable">Arrival Time</p>
+                                <p class="center"><%= f.datetime_select :arrival_time, :ampm => true, :minute_step => 15 %></p>
                                 <p class="center"><%= image_submit_tag("arrowImage.png", :class => "planTripGo") %></p>
                             </div>
                             

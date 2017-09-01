@@ -23,15 +23,15 @@
           <%end%>
          
           <%if trip["trip_status"]==="pending"%>
-              <td><%=trip["trip_status"]%></td>
+              <td><%=trip["trip_status"].capitalize%></td>
           <%end%>
           
           <%if trip["trip_status"]==="confirmed"%>
-              <td><%=trip["trip_status"]%></td>
+              <td><%=trip["trip_status"].capitalize%></td>
           <%end%>
           
-          <td><%=Airport.find_by(:id => trip["airport_id"]).name%></td>
-          <td><%=trip["arrival_time"]%></td>
+          <td><%=Airport.find_by(:id => trip["airport_id"]).name.titleize%></td>
+          <td><%=trip["arrival_time"].strftime("%I:%M%p %m/%d/%Y")%></td>
           <td><%=trip["tailnumber"]%></td>
           <td>$<%=trip["cost"]%></td>
           
@@ -61,8 +61,8 @@
           <%end%>
             
           <td>Completed</td>
-          <td><%=Airport.find_by(:id => trip["airport_id"]).name%></td>
-          <td><%=trip["arrival_time"]%></td>
+          <td><%=Airport.find_by(:id => trip["airport_id"]).name.titleize%></td>
+          <td><%=trip["arrival_time"].strftime("%I:%M%p %m/%d/%Y")%></td>
           <td><%=trip["tailnumber"]%></td>
           <td>$<%=trip["cost"]%></td>
           
