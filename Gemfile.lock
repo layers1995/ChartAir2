@@ -103,6 +103,7 @@ GEM
     obfuscator (0.0.2)
       activerecord
       faker
+    pg (0.20.0)
     puma (3.9.1)
     rack (2.0.3)
     rack-test (0.6.3)
@@ -197,6 +198,7 @@ DEPENDENCIES
   listen (~> 3.0.5)
   minitest-reporters (= 1.1.14)
   obfuscator (~> 0.0.2)
+  pg (= 0.20.0)
   puma (~> 3.0)
   rails (~> 5.0.4)
   rails-controller-testing
