@@ -42,6 +42,9 @@ module SeedsHelper
 	end
 
 	def singleFeeHelper(feePrice, category, fbo, feeType)
+		if feePrice =~ /$?[0-9]+\/[a-z]|/
+			
+		end
 		feePrice = feeToNumber(feePrice)
 		feeType = FeeType.find_by( :fee_type_description => feeType )
 		if !feeType.nil?
@@ -138,18 +141,19 @@ module SeedsHelper
 						singleFeeHelper(feePrice, category, fbo, feeTypeDescription)
 					end
 
+				# If a fee is 0
+				elsif curFee =~ /[none|no|0]/ or curFee.nil? or curFee == ""
+					category = Category.find_by( :category_description => "no fee" )
+					singleFeeHelper(0, category, fbo, feeTypeDescription)
+
 				# If there is a flat rate stuck somewhere in there	
 				elsif curFee =~ /[0-9]+/
 					feePrice = curFee.match(/[0-9]+/)[0]
 					category = Category.find_by( :category_description => "flat rate" )
 					singleFeeHelper(feePrice, category, fbo, feeTypeDescription)
 
-				# If a fee is 0
-				elsif curFee =~ /[none|no|0]/ or curFee.nil? or curFee == ""
-					category = Category.find_by( :category_description => "no fee" )
-					singleFeeHelper(0, category, fbo, feeTypeDescription)
 				else
-					puts curFee
+					puts curFee # if this happens, I'd like to know what didn't go through
 				end
 			end
 		end

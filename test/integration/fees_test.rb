@@ -230,7 +230,7 @@ class FeesTest < ActionDispatch::IntegrationTest
 				targetFee = curFee
 			end
 		end
-		assert_equal(150, targetFee.price)
+		assert_equal(125, targetFee.price)
 	end
 
 	test "fees with different prices at different times retrievable" do

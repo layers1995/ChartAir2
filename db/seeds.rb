@@ -196,7 +196,6 @@ def addFeesAndUpdateFbos(filename)
 
 		feeClassification = Classification.find_by( :classification_description => classificationDesc )
 
-
 		# We didn't make a column for tie down fees, so they're in the ramp fee instead.
 
 		curAirport = Airport.find_by( :name => airportName)
@@ -230,11 +229,28 @@ def addFeesAndUpdateFbos(filename)
 				curCategory = Category.find_by( :category_description => "flat rate")
 				curFbo.update( :classification => feeClassification )
 				
+				landingFee.split(",").each do |curFee|
+					singleFeeHelper(curFee, curCategory, curFbo, "landing")
+				end
+				rampFee.split(",").each do |curFee|
+					singleFeeHelper(curFee, curCategory, curFbo, "ramp")
+				end	
+				tieDownFee.split(",").each do |curFee|
+					singleFeeHelper(curFee, curCategory, curFbo, "tie down")
+				end
+				facilityFee.split(",").each do |curFee|
+					singleFeeHelper(curFee, curCategory, curFbo, "facility")
+				end		
+				callOutFee.split(",").each do |curFee|
+					singleFeeHelper(curFee, curCategory, curFbo, "call out")
+				end		
+=begin			
 				singleFeeHelper(landingFee, curCategory, curFbo, "landing")
 				singleFeeHelper(rampFee, curCategory, curFbo, "ramp")
 				singleFeeHelper(tieDownFee, curCategory, curFbo, "tie down")
 				singleFeeHelper(facilityFee, curCategory, curFbo, "facility")
 				singleFeeHelper(callOutFee, curCategory, curFbo, "call out")
+=end
 
 			elsif classificationDesc == "engine type"
 				curFbo.update( :classification => feeClassification )
