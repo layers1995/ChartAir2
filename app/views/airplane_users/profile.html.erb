@@ -1,0 +1,73 @@
+<%= include_gon %>
+<%= render 'layouts/header' %>
+<%= stylesheet_link_tag 'base'%>
+<%= javascript_include_tag 'addPlane' %>
+
+<div class="body">
+<h1 class="title"><%= @user.name %>'s Airplanes</h1>
+
+
+<div class="floated"> 
+<%if @airplanes!=nil%>
+
+  <table>
+    
+        <tr>
+          <td class="columnTitles">Tailnumber</td>
+          <td class="columnTitles">Manufacturer</td>
+          <td class="columnTitles">Model</td>
+          <td class="columnTitles">Trip</td>
+          <td class="columnTitles">Remove</td>
+        </tr>
+        
+        <% @airplanes.each do |airplane|%>
+            <tr class=tableItems>
+              <td><%=airplane["tailnumber"]%></td>
+              <td><%=airplane["manufacturer"]%></td>
+              <td><%=airplane["model"]%></td>
+              <td><%= link_to "Plan Trip", plantrip_path(:tailnumber => airplane["tailnumber"]), method: :get %></td>
+              <td><%= link_to "Remove Airplane", profileremove_path(:tailnumber => airplane["tailnumber"]), method: :post, data: {confirm: "Are you sure you want to delete this airplane?"} %></td>
+            </tr>
+        <%end%>
+        <tr class=tableItems>
+          <td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add Airplane</button></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        
+  </table>    
+  
+<%end%>
+
+
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Add Airplane</h4>
+      </div>
+      <div class="modal-body">
+              <%= form_for @user_airplane do |f| %>
+                <p>Tail Number</p>  
+                <%= f.text_field :tailnumber, {class: "form-control", :placeholder=>"Tailnumber"} %>
+                <p>Manufacturer</p>
+                <%= f.select :manufacturer, [],{}, {class: "form-control", id:'manufacturer', :onchange=> "changePlanes();"} %>
+                <p>Model</p>
+                <%= f.select :model, [],{}, {class: "form-control", id:'model'} %>
+                <p ><%= f.submit "Add Plane", class: "submit" %></p>
+            <%end%>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div> 

@@ -1,30 +1,30 @@
 <%= render 'layouts/header' %>
+<%= stylesheet_link_tag 'base' %>
 <%= stylesheet_link_tag 'plan_trip_results', media: 'all', 'data-turbolinks-track': 'reload' %>
 <%= javascript_include_tag 'results' %>
 
-<section id="filters">
-	<input type="image" src="/assets/costIcon.png" id="costIcon"/>
-		<br/>
-	<input type="image" src="/assets/locationIcon.png" id="locationIcon" />
+<section>
+	
+	<h1>Results</h1>
+	
+	Flilters:
+	<select id="filters">
+		<option id="locationIcon" value="distance">Distance</option>
+	    <option id="costIcon" value="cost">Cost</option>
+	</select>
+	
+	&emsp; &emsp; Fees Applied:	
+	<input type="checkbox" id="landing">Landing</input>
+	<input type="checkbox" id="ramp">Ramp</input>
+	<input type="checkbox" id="tie down">Tie-Down</input>	
+	<input type="checkbox" id="facility" style="display: none"></input>
+	<input type="checkbox" id="call out">Call Out</input>
+	<input type="checkbox" id="other" style="display: none"></input>
+	
 </section>
-		
-<section id="fees">
-	<button id="landing">Landing</button>
-	<br/>
-	<button id="ramp">Ramp</button>
-	<br/>
-	<button id="tie down">Tie-Down</button>	
-	<br/>
-	<button id="facility" style="display: none">Facility</button>
-	<button id="call out">Call Out</button>
-	<button id="other" style="display: none">Other</button>
-</section>
-
-<h1>Results</h1>
-<p id="userFilter" style="display: none"><%=@curfilter%></p>
-
-<img src="" id="googleMap"></img>
 
 <div id="allResults">
 	
 </div>
+
+<img src="" id="googleMap"></img>

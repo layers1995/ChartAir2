@@ -2,6 +2,7 @@ class User < ApplicationRecord
     
     attr_accessor :remember_token, :betakey, :email_confirm, :confirm_user_agreement
     
+    #validatations for object
     before_save { self.email = email.downcase }
     validates :name, presence: true, length: { maximum: 50 }
     VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
@@ -11,7 +12,32 @@ class User < ApplicationRecord
     validates :password, presence: true, length: {minimum: 6}
     has_secure_password
     
+    #make sure that values pop up correctly
+    validate :email_is_confirmed
+    validate :check_beta_key
+    validate :check_user_agreement
+    
+    
+    #ownership
     has_and_belongs_to_many :airplanes
+    
+    def email_is_confirmed
+        if(self.email_confirm!=self.email)
+            errors.add(:email, "Email and email confirmation not equal")
+        end
+    end
+    
+    def check_beta_key
+         if self.betakey!="FlyInTheClouds"
+             errors.add(:betakey, "Incorrect Beta Key")
+         end
+    end
+    
+    def check_user_agreement
+        if self.confirm_user_agreement==="1"
+            errors.add(:confirm_user_agreement, "Read and Agree to the User terms.")
+        end
+    end
     
     def self.digest(string)
         cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST :

@@ -122,8 +122,9 @@ ActiveRecord::Schema.define(version: 20170904204109) do
     t.integer  "nights"
     t.string   "tailnumber"
     t.string   "filter"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+    t.datetime "arrival_time"
   end
 
   create_table "reports", force: :cascade do |t|

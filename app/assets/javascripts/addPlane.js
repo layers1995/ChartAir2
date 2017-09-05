@@ -51,8 +51,8 @@ function startSettings(){
 	    	
 	    	var newOption = document.createElement('option');
 	    	
-	    	newOption.text=keys[i];
-	    	newOption.innerHTML=keys[i];
+	    	newOption.text=capitalize(keys[i]);
+	    	newOption.innerHTML=capitalize(keys[i]);
 	    	newOption.value=keys[i];
 	    	
 	    	manufacters.appendChild(newOption);
@@ -93,11 +93,15 @@ function changePlanes(){
 		
 		var newOption = document.createElement('option');
 	    	
-	    newOption.text=newPlaneList[i];
-	    newOption.innerHTML=newPlaneList[i];
+	    newOption.text=capitlize(newPlaneList[i]);
+	    newOption.innerHTML=capitlize(newPlaneList[i]);
 	    newOption.value=newPlaneList[i];
 	    	
 	    airplaneList.appendChild(newOption);
 	}
 	
+}
+
+function capitalize(s){
+	return s.toLowerCase().replace( /\b./g, function(a){ return a.toUpperCase(); } );
 }

@@ -7,10 +7,10 @@
 header{
 	position:fixed;
 	top: 0%;
-	right: 10%;
-	left: 10%;
-	width: 80%;
-	height: 6%;
+	right: 0%;
+	left: 0%;
+	width: 100%;
+	height: 50px;
 	opacity: 70%;
 	background-image: url(header3.png);
 	background-repeat: no-repeat;
@@ -21,13 +21,13 @@ header{
 
 #navBar{
 	position:fixed;
-	right: 12.5%;
-	top: 1.25%;
+	right: 7.5%;
+	top: 10px;
 	
 	.item{
 		font-size: 20px;
 		a{
-			padding: .1em 1em;
+			padding: 10px;
 			text-decoration: none;
 			color: white;
 		}
@@ -36,9 +36,6 @@ header{
 	.dropdown-toggle{
 	    color: white;
 	    font-size: 20px;
-	    .item{
-	    	color: black;
-	    }
 	}
 }
 
@@ -50,8 +47,8 @@ header{
 	width:auto;
     height: 50px;
 	position: fixed;
-	top: 0.5%;
-	left: 1.5%;
+	top: 0px;
+	left: 5.5%;
 }
 
 /*position of body*/
@@ -61,18 +58,19 @@ html, body {
 }
 
 html{
-	background-image: url(tileBackgroundColor.jpg);
-	padding-right: 10%;
-	padding-left: 10%;
+	background-color: #F3F6FC;
+	padding-right: 5%;
+	padding-left: 5%;
 	height: 100%;
 }
 
 body{
 	background: white;
 	padding-left: 4%;
-	padding-top: 7%;
+	padding-top: 75px;
 	padding-right: 4%;
-	height: 100%;
+	padding-bottom: 5%;
+	border: 1px solid lightgray;
 }
 
 /*details used often*/
@@ -137,15 +135,20 @@ a{
 
 .submit{
 	color: white;
-	font-size: 24px;
+	font-size: 18px;
 	background-color: #509BFF;
 	border: none;
-	-webkit-border-radius: 30px;
-	
+	-webkit-border-radius: 10px;
+	margin-top: 2%;
 }
 
 .center{
 	text-align: center;
+}
+
+.icon{
+	width: 30px;
+	height: auto;
 }
 
 .floated{
@@ -159,9 +162,10 @@ a{
 }
 
 table{
-	width: 125%;
+	table-layout: fixed;
+	width: 100%;
 	height: 100%;
-	float: left;
+	float: center;
 }
 
 tr:nth-child(even) {

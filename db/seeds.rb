@@ -16,7 +16,7 @@ def main
 	addCategories("categories")
 	#addCities("uscitiesv1.3.csv")
 	addAirports("full_airport_data")
-	addFbos("fbo_seed_data")
+	#addFbos("fbo_seed_data")
 	addFboFolder("fbo_call_data")
 	#addFeesAndUpdateFbos("survey_responses.tsv")
 	addStartupTermData("survey_responses.tsv")
