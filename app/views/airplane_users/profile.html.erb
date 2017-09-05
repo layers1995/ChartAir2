@@ -23,8 +23,8 @@
         <% @airplanes.each do |airplane|%>
             <tr class=tableItems>
               <td><%=airplane["tailnumber"]%></td>
-              <td><%=airplane["manufacturer"]%></td>
-              <td><%=airplane["model"]%></td>
+              <td><%=airplane["manufacturer"].titleize%></td>
+              <td><%=airplane["model"].titleize%></td>
               <td><%= link_to "Plan Trip", plantrip_path(:tailnumber => airplane["tailnumber"]), method: :get %></td>
               <td><%= link_to "Remove Airplane", profileremove_path(:tailnumber => airplane["tailnumber"]), method: :post, data: {confirm: "Are you sure you want to delete this airplane?"} %></td>
             </tr>

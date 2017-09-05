@@ -6,7 +6,7 @@ class PlanTripController < ApplicationController
       redirect_to login_path and return
     end
     
-    @tailnumber=params[:tailnumber]
+    @id=params[:airplane_id]
     
     gon.cities= City.all
     gon.curAirplanes=current_airplanes
@@ -30,9 +30,11 @@ class PlanTripController < ApplicationController
     #make datetime
     tempArr=[params[:plan_trip]["arrival_time(1i)"], params[:plan_trip]["arrival_time(2i)"], params[:plan_trip]["arrival_time(3i)"], params[:plan_trip]["arrival_time(4i)"], params[:plan_trip]["arrival_time(5i)"]]
     arrival_time= formatTime(tempArr)
+    tempDepart=[params[:plan_trip]["depart_time(1i)"], params[:plan_trip]["depart_time(2i)"], params[:plan_trip]["depart_time(3i)"], params[:plan_trip]["depart_time(4i)"], params[:plan_trip]["depart_time(5i)"]]
+    depart_time=formatTime(tempDepart)
     
     #send data to the database
-    newData=PlanTrip.new(:arrival_time =>  arrival_time,:user_id => current_user.id, :state => params[:plan_trip][:state], :city => params[:plan_trip][:city], :distance => params[:plan_trip][:distance], :nights => params[:plan_trip][:nights], :tailnumber => params[:plan_trip][:tailnumber])
+    newData=PlanTrip.new(:arrival_time =>  arrival_time, :depart_time => depart_time, :user_id => current_user.id, :state => params[:plan_trip][:state], :city => params[:plan_trip][:city], :distance => params[:plan_trip][:distance], :nights => params[:plan_trip][:nights], :tailnumber => params[:plan_trip][:tailnumber])
     
     if newData.save
   	  flash[:notice] = ""
@@ -96,8 +98,9 @@ class PlanTripController < ApplicationController
     	gon.dict= feeDict
     	gon.tailnumber=@tailnumber
     	gon.time= arrival_time
+    	gon.time2= depart_time
     else
-      flash[:notice] = "Trips must be booked at least 24 hours in advance."
+      
       @plan_trip=PlanTrip.new
       @tailnumber= params[:plan_trip][:tailnumber]
       gon.cities= City.all

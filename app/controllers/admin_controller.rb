@@ -24,9 +24,9 @@ class AdminController < ApplicationController
 
   def admin_main
     
-    #if !admin_logged_in?
-     # redirect_to admin_login_path
-    #end
+    if !admin_logged_in?
+      redirect_to admin_login_path
+    end
 
     @trips=Trip.where(:trip_status => "pending")
     @reports=Report.where(:status => nil)

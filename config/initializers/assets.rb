@@ -7,6 +7,7 @@ Rails.application.config.assets.js_compressor = :uglifier
 
 #stylesheets
 Rails.application.config.assets.precompile += %w( sessions.css )
+Rails.application.config.assets.precompile += %w( faq.css )
 Rails.application.config.assets.precompile += %w( main.css )
 Rails.application.config.assets.precompile += %w( base.css )
 Rails.application.config.assets.precompile += %w( plan_trip.css )

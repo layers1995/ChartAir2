@@ -4,13 +4,11 @@ var planeDict= {}
 var addedManu=false;
 
 function start(){
-	
     //get json package and save it into a good location
     airplanes= gon.airplanes;
     
     //creates the dictionary and the list of manufactors
     startSettings();
-    
     //add listener to button
     var addButton= document.getElementById("addPlane");
     addButton.onclick=function(){showPlaneOptions();};
@@ -86,15 +84,15 @@ function changePlanes(){
 	}
 	
 	//get new airplane list
-	newPlaneList= planeDict[manuVal];
+	var newPlaneList= planeDict[manuVal];
 	
 	//add the new planes to the list
 	for(var i=0; i<newPlaneList.length;i++){
 		
 		var newOption = document.createElement('option');
 	    	
-	    newOption.text=capitlize(newPlaneList[i]);
-	    newOption.innerHTML=capitlize(newPlaneList[i]);
+	    newOption.text=capitalize(newPlaneList[i]);
+	    newOption.innerHTML=capitalize(newPlaneList[i]);
 	    newOption.value=newPlaneList[i];
 	    	
 	    airplaneList.appendChild(newOption);

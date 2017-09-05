@@ -2,30 +2,39 @@
 <%= stylesheet_link_tag 'base'%>
 
 <div class="body">
-    <h1>Finish Booking Your Trip</h1>
     
-    <h2>NOTICE!</h2>
-    <p>After booking your trip, the trip will be marked as pending. Once the information regarding your trip is confirmed and the airport is notified by your arrival, your trip will be marked as confirmed.</p>
+    <h3 class="title">Confirm Your Trip Infomation</h3>
     
-    <h3>Trip Infomation</h3>
+    <p class="summaryText">Fixed Based Opperator: <%= @fbo.titleize %></p>
+    <p class="summaryText">Airport: <%= @airport.titleize %></p>
+    <p class="summaryText">Your Tailnumber: <%= @tailnumber %></p>
+    <p class="summaryText">Total Cost: $<%= @cost %></p>
+    <p class="summaryText">Arrival Time: <%= @time.strftime("%I:%M%p %m/%d/%Y") %></p>
+    <p class="summaryText">Departure Time: <%= @time2.strftime("%I:%M%p %m/%d/%Y") %></p> 
     
-    <%= @fbo %>
-    <%= @airport %>
-    <%= @tailnumber %>
-    <%= @coast %>
-    <%= @time %> 
+    </br>
+    </br>
+    </br>
     
     <%= form_for @trip do |f| %>
     
-    <%= f.text_field :start_datetime, {class: "invisable", :value => DateTime.parse(@time)}%>
-    <p>Anything extra we should know about your flight?</p>
-    <p><%= f.text_field :detail%></p>
+    <%= f.text_field :start_datetime, {class: "invisable", :value => @time}%>
+    <%= f.text_field :depart_time, {class: "invisable", :value => @time2}%>
     <%= f.text_field :tailnumber, {class: "invisable", :value=>@tailnumber} %>
     <%= f.text_field :cost, {class: "invisable", :value=>@cost} %>
     <%= f.text_field :fbo, {class: "invisable", :value=>@fbo} %>
     <%= f.text_field :airport, {class: "invisable", :value=>@airport} %>
-    
-    <%= f.submit "Book Trip", class: "btn btn-primary" %>
+    <p class="summaryText">Anything extra we should know about your flight? <%= f.text_field :detail%> <%= f.submit "Book Trip", class: "btn btn-primary" %></p>
        
     <%end%>
+    
+    </br>
+    </br>
+    </br>
+    
+    <div class="summaryNotice">
+        <h2>NOTICE!</h2>
+        <p> &ensp; After booking your trip, the trip will be marked as pending. Once the information regarding your trip is confirmed and the airport is notified by your arrival, your trip will be marked as confirmed.</p>
+    </div>
+    
 </div>

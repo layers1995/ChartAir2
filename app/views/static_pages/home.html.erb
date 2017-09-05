@@ -1,9 +1,10 @@
 <%= render 'layouts/header' %>
 <%= stylesheet_link_tag 'base'%>
 
-<div id="welcome">
-	<h1> Welcome to ChartAir</h1>
-	<p>To Plan a Trip, click the plan trip link on the header</p>
-	<p>You can add, edit, and remove your planes from your user page</p>
-</div>
+
+<h1 class="title"> Welcome to ChartAir</h1>
+
+<p class="summaryText">To get started go to your profile and add your first airplane: <%= link_to "Your Profile", method: :get %></p>
+<p class="summaryText">After you add your first airplane, you can plan your first trip!</p>
+
 

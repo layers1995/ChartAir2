@@ -25,7 +25,7 @@ class AirplaneUsersController < ApplicationController
     addedAirplane= Airplane.where(:manufacturer => params[:airplane_user][:manufacturer], :model => params[:airplane_user][:model])
     tailnumber= params[:airplane_user][:tailnumber].upcase
     
-    AirplaneUser.create(:airplane_id => addedAirplane.ids.first, :user_id => current_user.id, :tailnumber => tailnumber)
+    AirplaneUser.create(:airplane_id => addedAirplane.ids.first, :user_id => current_user.id, :tailnumber => tailnumber, :user_can_see => true)
     
     redirect_to "/profile"
     
@@ -33,9 +33,15 @@ class AirplaneUsersController < ApplicationController
   
   def remove_plane
     
-    AirplaneUser.find_by(:tailnumber => params[:tailnumber]).destroy
-    
-    redirect_to "/profile"
+    if AirplaneUser.find_by(:tailnumber => params[:tailnumber], :user_can_see => true)!=nil
+      
+      airplane=AirplaneUser.find_by(:tailnumber => params[:tailnumber], :user_can_see => true)
+      airplane.update_attribute(:user_can_see, false)
+      airplane.save
+      
+      redirect_to "/profile" and return
+      
+    end
     
   end
   

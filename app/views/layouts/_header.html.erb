@@ -1,5 +1,6 @@
 <header>
-	<%= image_tag("chartairWhiteLogo.png", :id => "logo") %>
+	<%= link_to(image_tag("chartairWhiteLogo.png", :id => "logo"), home_path) %>
+
 	<div id="navBar">
 		<ul id="headerNavItems">
 				<li class="item"><%= link_to "Plan Trip", plantrip_path,  method: :get %></li>

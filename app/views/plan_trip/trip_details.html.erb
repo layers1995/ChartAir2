@@ -5,9 +5,10 @@
 <%= javascript_include_tag 'planTrip' %>
 
 <div class="body">
+    
 <h1 class="title">Plan Your Trip</h1>
 
-        <div class="form">
+        <div class="formPlanTrip">
             
             <%= form_for(@plan_trip, url: plantrip_path) do |f| %>
                             
@@ -22,11 +23,11 @@
                             <p></p>
                             <div id="otherInfo">
                                 <p class="formLable">Airplane</p>
-                                <%= f.select :tailnumber,[],{}, {class: "form-control", id:'airplanes'}%></p>
-                                <p class="formLable">Nights Staying</p>
-                                <p class="center"><%= f.number_field :nights, {id: "input", value: 0 }%></p>
+                                <p class="formLable"><%= f.select :tailnumber,[],{}, {class: "form-control", id:'airplanes'}%></p>
                                 <p class="formLable">Arrival Time</p>
                                 <p class="center"><%= f.datetime_select :arrival_time, :ampm => true, :minute_step => 15 %></p>
+                                <p class="formLable">Departure Time</p>
+                                <p class="center"><%= f.datetime_select :depart_time, :ampm => true, :minute_step => 15 %></p>
                                 <p class="center"><%= image_submit_tag("arrowImage.png", :class => "planTripGo") %></p>
                             </div>
                             
