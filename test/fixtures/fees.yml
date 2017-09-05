@@ -20,7 +20,8 @@ jet_air_sep_tiedown:
   fee_type: tie_down
   fbo: jet_air
   category: piston_single
-  price: 4
+  price: 0
+  time_price: 4
   time_unit: day
 
 jet_air_tet_landing:
@@ -28,6 +29,14 @@ jet_air_tet_landing:
   fbo: jet_air
   category: turboprop_twin_medium
   price: 25
+
+jet_air_call_out:
+  fee_type: call_out
+  fbo: jet_air
+  category: flat_rate_cat
+  price: 50
+  time_unit: hour
+  time_price: 25
 
 signature_sep_landing:
   fee_type: landing
@@ -41,6 +50,22 @@ signature_tet_landing:
   category: turboprop_twin_medium
   price: 250
 
+signature_call_out_one:
+  fee_type: call_out
+  fbo: signature
+  category: flat_rate_cat
+  price: 35
+  start_time: "18:00"
+  end_time: "23:59"
+
+signature_call_out_two:
+  fee_type: call_out
+  fbo: signature
+  category: flat_rate_cat
+  price: 40
+  start_time: "0:00"
+  end_time: "6:00"
+
 jet_flair_172_landing:
   fee_type: landing
   fbo: jet_flair
@@ -52,6 +77,16 @@ jet_flair_425_landing:
   fbo: jet_flair
   category: 425conquest
   price: 60
+
+jet_flair_tie_down_free_3_days:
+  fee_type: tie_down
+  fbo: jet_flair
+  category: flat_rate_cat
+  free_time_unit: day
+  free_time_length: 3
+  time_unit: day
+  time_price: 6
+  price: 0
 
 no_fee_fbo_landing:
   fee_type: landing
@@ -85,7 +120,7 @@ weight_fbo_landing:
   unit_price: 11
   unit_magnitude: 1000
 
-weight_fbo_landing:
+weight_fbo_ramp:
   fee_type: ramp
   fbo: weight_fbo
   category: weight

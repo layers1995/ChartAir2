@@ -109,6 +109,7 @@ ActiveRecord::Schema.define(version: 20170904220839) do
     t.time     "start_time"
     t.time     "end_time"
     t.integer  "unit_minimum"
+    t.integer  "time_price"
     t.index ["category_id"], name: "index_fees_on_category_id"
     t.index ["fbo_id"], name: "index_fees_on_fbo_id"
     t.index ["fee_type_id"], name: "index_fees_on_fee_type_id"
