@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170904202029) do
+ActiveRecord::Schema.define(version: 20170904204109) do
 
   create_table "airplane_users", force: :cascade do |t|
     t.integer "airplane_id", null: false
@@ -108,7 +108,7 @@ ActiveRecord::Schema.define(version: 20170904202029) do
     t.time     "start_time"
     t.time     "end_time"
     t.integer  "unit_minimum"
-    t.integer  "time_length"
+    t.integer  "time_price"
     t.index ["category_id"], name: "index_fees_on_category_id"
     t.index ["fbo_id"], name: "index_fees_on_fbo_id"
     t.index ["fee_type_id"], name: "index_fees_on_fee_type_id"

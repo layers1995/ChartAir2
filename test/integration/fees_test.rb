@@ -39,7 +39,7 @@ class FeesTest < ActionDispatch::IntegrationTest
 	test "multiple fee types retrievable" do
 		@jetAir = fbos(:jet_air)
 		curFees = getFees(@cessna172, @jetAir)
-		targetFees = Fee.joins(:fbo).joins(:category).where('categories.category_description == "piston single" and fbos.name == "Jet Air, inc."')
+		targetFees = Fee.joins(:fbo).joins(:category).where('categories.category_description == "piston single" or categories.category_description == "flat rate" and fbos.name == "Jet Air, inc."')
 		curFees.each do |curFee|
 			assert_includes(targetFees, curFee)
 		end
@@ -47,79 +47,136 @@ class FeesTest < ActionDispatch::IntegrationTest
 
 	test "fee time unit retrievable" do
 		@jetAir = fbos(:jet_air)
-		curFees = getFees(@cessna172, @jetAir)
-		tieDown = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "tie down" ))
-		assert_equal(4, tieDown.price)
-		assert_equal("day", tieDown.time_unit)
+
+		targetFee = nil
+
+		curFees = getFees(@cessna172, @jetAir, "day", 1)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "tie down"
+				targetFee = curFee
+			end
+		end
+
+		assert_equal(4, targetFee.price)
+		assert_equal("day", targetFee.time_unit)
 	end
 
 	test "engine type fees retrievable" do
 		@jetAir = fbos(:jet_air)
 
+		targetFee = nil
+
 		curFees = getFees(@cessna172, @jetAir)
-		#curFee = getFeeType(curFees, "landing")
-		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
-		assert_equal(fees(:jet_air_sep_landing).price, curFee.price)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "landing"
+				targetFee = curFee
+			end
+		end
+		assert_equal(fees(:jet_air_sep_landing).price, targetFee.price)
 
 		curFees = getFees(@cessna425, @jetAir)
-		#curFee = getFeeType(curFees, "landing")
-		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing" ))
-		assert_equal(fees(:jet_air_tet_landing).price, curFee.price)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "landing"
+				targetFee = curFee
+			end
+		end
+		assert_equal(fees(:jet_air_tet_landing).price, targetFee.price)
 	end
 
 	test "model fees retrievable" do
 		@jetFlair = fbos(:jet_flair)
 
+		targetFee = nil
+
 		curFees = getFees(@cessna172, @jetFlair)
-		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
-		assert_equal(fees(:jet_flair_172_landing).price, curFee.price)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "landing"
+				targetFee = curFee
+			end
+		end
+		assert_equal(fees(:jet_flair_172_landing).price, targetFee.price)
 
 		curFees = getFees(@cessna425, @jetFlair)
-		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
-		assert_equal(fees(:jet_flair_425_landing).price, curFee.price)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "landing"
+				targetFee = curFee
+			end
+		end
+		assert_equal(fees(:jet_flair_425_landing).price, targetFee.price)
 	end
 
 	test "no fees retrievable" do
 		@noFeeFbo = fbos(:no_fee_fbo)
 
+		targetFee = nil
+
 		curFees = getFees(@cessna172, @noFeeFbo)
-		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
-		assert_equal(0, curFee.price)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "landing"
+				targetFee = curFee
+			end
+		end
+		assert_equal(0, targetFee.price)
 
 		curFees = getFees(@cessna425, @noFeeFbo)
-		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
-		assert_equal(0, curFee.price)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "landing"
+				targetFee = curFee
+			end
+		end
+		assert_equal(0, targetFee.price)
+
 	end
 
 	test "flat rate fees retrievable" do
 		@flatRateFbo = fbos(:flat_rate_fbo)
 
+		targetFee = nil
+
 		curFees = getFees(@cessna172, @flatRateFbo)
-		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
-		assert_equal(fees(:flat_rate_fbo_landing).price, curFee.price)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "landing"
+				targetFee = curFee
+			end
+		end
+		assert_equal(fees(:flat_rate_fbo_landing).price, targetFee.price)
 
 		curFees = getFees(@cessna425, @flatRateFbo)
-		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
-		assert_equal(fees(:flat_rate_fbo_landing).price, curFee.price)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "landing"
+				targetFee = curFee
+			end
+		end
+		assert_equal(fees(:flat_rate_fbo_landing).price, targetFee.price)
 	end
 
 	test "weight range fees retrievable" do
 		@weightRangeFbo = fbos(:weight_range_fbo)
 
+		targetFee = nil
+
 		curFees = getFees(@cessna172, @weightRangeFbo)
-		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
-		assert_equal(fees(:weight_range_fbo_small_landing).price, curFee.price)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "landing"
+				targetFee = curFee
+			end
+		end		
+		assert_equal(fees(:weight_range_fbo_small_landing).price, targetFee.price)
 
 		curFees = getFees(@cessna425, @weightRangeFbo)
-		curFee = curFees.find_by( :fee_type => FeeType.find_by(:fee_type_description => "landing"))
-		assert_equal(fees(:weight_range_fbo_medium_landing).price, curFee.price)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "landing"
+				targetFee = curFee
+			end
+		end	
+		assert_equal(fees(:weight_range_fbo_medium_landing).price, targetFee.price)
+
 	end
 		
 	test "weight fees retrievable with variable price" do
 		@weightFbo = fbos(:weight_fbo)
 
 		curFees = getFees(@cessna172, @weightFbo)
-		curFees = applyMultiplier(@cessna172, curFees)
 
 		curFees.each do |curFee|
 			if curFee.fee_type.fee_type_description == "landing"
@@ -128,7 +185,6 @@ class FeesTest < ActionDispatch::IntegrationTest
 		end
 
 		curFees = getFees(@cessna425, @weightFbo)
-		curFees = applyMultiplier(@cessna425, curFees)
 
 		curFees.each do |curFee|
 			if curFee.fee_type.fee_type_description == "landing"
@@ -141,7 +197,6 @@ class FeesTest < ActionDispatch::IntegrationTest
 		@weightFbo = fbos(:weight_fbo)
 
 		curFees = getFees(@cessna172, @weightFbo)
-		curFees = applyMultiplier(@cessna172, curFees)
 
 		curFees.each do |curFee|
 			if curFee.fee_type.fee_type_description == "ramp"
@@ -154,7 +209,6 @@ class FeesTest < ActionDispatch::IntegrationTest
 		@weightFbo = fbos(:weight_fbo)
 
 		curFees = getFees(@cessna172, @weightFbo)
-		curFees = applyMultiplier(@cessna172, curFees)
 
 		curFees.each do |curFee|
 			if curFee.fee_type.fee_type_description == "landing"
@@ -164,4 +218,71 @@ class FeesTest < ActionDispatch::IntegrationTest
 			end
 		end
 	end
+
+	test "fees with time units retrievable" do
+		@jetAir = fbos(:jet_air)
+
+		targetFee = nil
+
+		curFees = getFees(@cessna172, @jetAir, "hour", 4)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "call out"
+				targetFee = curFee
+			end
+		end
+		assert_equal(150, targetFee.price)
+	end
+
+	test "fees with different prices at different times retrievable" do
+		@signature = fbos(:signature)
+
+		targetFee = nil
+
+		curFees = getFees(@cessna172, @signature, nil, 0, "19:00".to_time)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "call out"
+				targetFee = curFee
+			end
+		end
+
+		assert_equal(35, targetFee.price)
+
+		curFees = getFees(@cessna172, @signature, nil, 0, "3:00".to_time)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "call out"
+				targetFee = curFee
+			end
+		end
+
+		assert_equal(40, targetFee.price)
+	end
+
+	test "fees at incorrect times aren't retrieved" do
+		@signature = fbos(:signature)
+		curFees = getFees(@cessna172, @signature, nil, 0, "14:00".to_time)
+
+		targetFee = nil
+
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "call out"
+				targetFee = curFee
+			end
+		end
+		assert_nil(targetFee)
+	end
+
+	test "fees that are temporarily free" do
+		@jetFlair = fbos(:jet_flair)
+		curFees = getFees(@cessna172, @jetFlair, "day", 5, nil)
+
+		targetFee = nil
+
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "tie down"
+				targetFee = curFee
+			end
+		end
+		assert_equal(12, targetFee.price)
+	end
+
 end
