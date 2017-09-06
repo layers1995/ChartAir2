@@ -3,6 +3,7 @@
     
 <h1 class= "title">Upcoming Trips</h1>
 
+<% if @nextTrips.length>0%>
 <table>
     <tr>
         <td class="columnTitles">Trip Status</td>
@@ -20,6 +21,10 @@
           
           <%if trip["trip_status"]==="cancelled"%>
               <td><%= image_tag("flagIcon.png",  :class => "icon") %> <%= link_to "Resolve Cancellation", trip_resolution_path(:trip => trip["id"], :reason => "cancelled") %></td>
+          <%end%>
+          
+          <%if trip["trip_status"]==="priceChange"%>
+              <td><%= image_tag("flagIcon.png",  :class => "icon") %> <%= link_to "Resolve Price Update", trip_resolution_path(:trip => trip["id"], :reason => "priceChange") %></td>
           <%end%>
          
           <%if trip["trip_status"]==="pending"%>
@@ -42,6 +47,9 @@
         </tr>
     <%end%>
 </table>    
+<%else%>
+    <p class="summary">Currently, you have no upcoming trips.</p>
+<%end%>
 
 </br>
 </br>
@@ -74,4 +82,6 @@
             </tr>
         <%end%>
     </table>
+<%else%>
+    <p class="summary">Currently, you have no previous trips.</p>
 <%end%>

@@ -39,7 +39,7 @@ class AdminController < ApplicationController
     trip = Trip.find_by(:id => params[:trip_id])
     trip.trip_status="confirmed"
     trip.save
-    UserMailer.confirm_email(current_user, trip)
+    UserMailer.confirmation_email(current_user, trip)
     redirect_to "/admin_main"
     
   end
@@ -62,6 +62,7 @@ class AdminController < ApplicationController
     
     trip.trip_status= params[:problem]
     trip.issue = params[:reason]
+    
     trip.save
     
     redirect_to admin_main_path

@@ -1,7 +1,9 @@
-<h2>Reason for <%=@issue%></h2>
+<%= stylesheet_link_tag 'base'%>
+
+<h2>Alter Trip</h2>
 <%= form_for(@problem, url: post_problem_path) do |f| %>
     <%= f.text_field :reason%>
-    <%= f.text_field :problem,{value: @issue}%>
+    <%= f.select :problem, options_for_select([["Select One", ""], "issue", "cancelled", "priceChange"])%>
     <%= f.number_field :trip_id,{value: @trip}%>
     <%= f.submit "Post Reason", class: "btn btn-primary" %>
 <% end %>

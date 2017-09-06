@@ -8,7 +8,11 @@
     <p class="summaryText">Fixed Based Opperator: <%= @fbo.titleize %></p>
     <p class="summaryText">Airport: <%= @airport.titleize %></p>
     <p class="summaryText">Your Tailnumber: <%= @tailnumber %></p>
-    <p class="summaryText">Total Cost: $<%= @cost %></p>
+    <%if @cost=="1000001"%>
+        <p class="summaryText">Total Cost: Unknown</p>
+    <%else%>
+        <p class="summaryText">Total Cost: $<%= @cost %></p>
+    <%end%>
     <p class="summaryText">Arrival Time: <%= @time.strftime("%I:%M%p %m/%d/%Y") %></p>
     <p class="summaryText">Departure Time: <%= @time2.strftime("%I:%M%p %m/%d/%Y") %></p> 
     

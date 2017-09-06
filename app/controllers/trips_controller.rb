@@ -13,7 +13,7 @@ class TripsController < ApplicationController
      end
     end
     
-    @nextTrips= Trip.where(:user_id => current_user, :trip_status => ["issue","pending", "cancelled", "confirmed"]).order(arrival_time: :asc)
+    @nextTrips= Trip.where(:user_id => current_user, :trip_status => ["issue","pending", "cancelled", "confirmed", "priceChange"]).order(arrival_time: :asc)
     @prevTrips= Trip.where(:user_id => current_user, :trip_status => "completed").order(arrival_time: :asc)
   end
   
@@ -35,9 +35,16 @@ class TripsController < ApplicationController
     
     #if user confirms trip
     if params[:resolution]==="confirm"
-      trip.trip_status="confirmed"
+    
+      if params[:price]!=nil
+        trip.cost=params[:price].to_i
+        trip.save
+      end
+      
+      trip.trip_status="pending"
       trip.save
       redirect_to trips_path and return
+      
     end
     
   end
