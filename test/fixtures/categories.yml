@@ -16,13 +16,5 @@ turboprop_twin_medium:
 425conquest:
   category_description: 425 conquest 1
 
-low_weight:
-  minimum: 0
-  maximum: 4999
-
-medium_weight:
-  minimum: 5000
-  maximum: 10000
-
 weight:
   category_description: weight
