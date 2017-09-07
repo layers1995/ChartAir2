@@ -19,7 +19,7 @@ class PlanTripControllerTest < ActionDispatch::IntegrationTest
   
   test "should get plantrip if logged in and has airplane" do
     post login_path, params: { session: { name: @user.name, password: 'password' } }
-    AirplaneUser.create(:airplane_id => Airplane.first.id, :user_id => User.find_by(:id => @user.id).id, :tailnumber => "tailie")
+    AirplaneUser.create(:airplane_id => @airplane.id, :user_id => User.find_by(:id => @user.id).id, :tailnumber => "tailie")
     get plantrip_path
     assert_response :success
   end
@@ -28,7 +28,7 @@ class PlanTripControllerTest < ActionDispatch::IntegrationTest
     post login_path, params: { session: { name: @user.name, password: 'password' } }
     get plantrip_path
     follow_redirect!
-    assert_template 'users_airplanes/profile'
+    assert_template 'airplane_users/profile'
   end
   
   test "redirect to trip details when information is invalid" do
@@ -52,7 +52,9 @@ class PlanTripControllerTest < ActionDispatch::IntegrationTest
     assert_template 'plan_trip/trip_details'
     
     assert AirplaneUser.first.tailnumber!=nil
-    post plantrip_path, params: {city: "supercity", distance: 50, :airplane => AirplaneUser.first.tailnumber}
+    arrival_date = DateTime.new(2020, 07, 11, 20, 10, 0)
+    depart_date= DateTime.new(2020, 07, 15, 20, 10, 0)
+    post plantrip_path, params: {city: "supercity", distance: 50, :airplane => AirplaneUser.first.tailnumber, :arrival_time => arrival_date, :depart_time => depart_date}
     assert_template 'plan_trip/results'
   end
 

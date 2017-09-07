@@ -14,7 +14,7 @@ class PlanTripController < ApplicationController
     
     if current_airplanes.length==0
       flash[:notice] = "Add an airplane before planning a trip"
-        redirect_to profile_path
+        redirect_to profile_path and return
     end
     
     @plan_trip=PlanTrip.new
@@ -22,11 +22,7 @@ class PlanTripController < ApplicationController
   end
 
   def results
-    
-    if (params[:plan_trip][:distance].to_i)<10 || (params[:plan_trip][:distance].to_i)>76
-      redirect_to plantrip_path
-    end
-    
+   
     #make datetime
     tempArr=[params[:plan_trip]["arrival_time(1i)"], params[:plan_trip]["arrival_time(2i)"], params[:plan_trip]["arrival_time(3i)"], params[:plan_trip]["arrival_time(4i)"], params[:plan_trip]["arrival_time(5i)"]]
     arrival_time= formatTime(tempArr)
@@ -41,6 +37,8 @@ class PlanTripController < ApplicationController
       gon.selectedPlane=@tailnumber
       render 'trip_details' and return
     end
+    
+    flashErrors(params[:plan_trip], arrival_time, depart_time)
     
     #send data to the database
     newData=PlanTrip.new(:arrival_time =>  arrival_time, :depart_time => depart_time, :user_id => current_user.id, :state => params[:plan_trip][:state], :city => params[:plan_trip][:city], :distance => params[:plan_trip][:distance], :nights => params[:plan_trip][:nights], :tailnumber => params[:plan_trip][:tailnumber])
@@ -257,6 +255,25 @@ class PlanTripController < ApplicationController
      
     return ids
      
+  end
+  
+  def flashErrors(plan_trip_params, arrival_time, depart_time)
+
+      if arrival_time < Date.tomorrow
+          flash[:n1]="You must plan your trip at least one day in advance"
+      end
+
+      if arrival_time > depart_time
+          flash[:n2]=" You must arrive at the airport before you can depart"
+      end
+      
+      if (plan_trip_params[:distance].to_i)<10
+          flash[:n3]="Distance must be over 10 miles"
+      end 
+      
+      if (plan_trip_params[:distance].to_i)>76
+          flash[:n4]=["Distance can not be over 75 miles"]
+      end 
   end
  
   def plan_trip_params

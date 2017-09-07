@@ -21,10 +21,16 @@ class AirplaneUsersController < ApplicationController
   end
   
   def create
-
-    addedAirplane= Airplane.where(:manufacturer => params[:airplane_user][:manufacturer], :model => params[:airplane_user][:model])
+    
     tailnumber= params[:airplane_user][:tailnumber].upcase
     
+    if AirplaneUser.find_by(:tailnumber => tailnumber, :user_can_see => true)!=nil
+      flash[:notice]="Tail Number must be Unqiue"
+      redirect_to "/profile" and return
+    end
+
+    addedAirplane= Airplane.where(:manufacturer => params[:airplane_user][:manufacturer], :model => params[:airplane_user][:model])
+
     AirplaneUser.create(:airplane_id => addedAirplane.ids.first, :user_id => current_user.id, :tailnumber => tailnumber, :user_can_see => true)
     
     redirect_to "/profile"

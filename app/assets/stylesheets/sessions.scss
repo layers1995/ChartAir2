@@ -40,14 +40,22 @@ html{
 	list-style:none;
 }
 
+#newUserBox{
+	position:fixed;
+	background-color: rgba(255, 255, 255, .65);
+	-webkit-border-radius: 25px;
+	border:10px solid rgba(255, 255, 255, .15);
+	left: 39%;
+	top: 10%;
+	padding: 1%;
+	text-align:left;
+	list-style:none;
+}
+
 #belowBox{
 	position:fixed;
 	left: 41.5%;
 	top: 75%;
-}
-
-#loginBox .loginInfo{
-	position:relative;
 }
 
 #input{
@@ -65,7 +73,9 @@ html{
 
 #loginGroup{
 	position:relative;
-	margin-top:20%;
+	margin-top:10%;
+	float: center;
+	text-align: center;
 }
 
 input[type=submit] {
@@ -108,4 +118,19 @@ footer{
 
 #error{
  color: #f26060;
+}
+
+.flash {
+  color: #F46666;
+}
+
+.loginInfo{
+	position: relative;
+	float: center !important;
+	text-align: center !important;
+	color: darkgray;
+}
+
+.error{
+  color: #F46666;
 }

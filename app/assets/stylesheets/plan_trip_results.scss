@@ -3,9 +3,10 @@
 
 #googleMap{
 	position: relative;
-	float: right;
-	max-width: 400px;
+	float: center;
+	width: 37%;
 	height: auto;
+	padding-left: 2%;
 }
 
 button{
@@ -18,7 +19,7 @@ button{
 
 #allResults{
 	height: 600px;
-	width: 50%;
+	width: 60%;
 	overflow: auto;
 	float: left;
 }

@@ -156,6 +156,15 @@ a{
 	margin-top: 2%;
 }
 
+.submitWide{
+	color: white;
+	font-size: 18px;
+	background-color: #509BFF;
+	border: none;
+	-webkit-border-radius: 5px;
+	margin-top: 2%;
+}
+
 .center{
 	text-align: center;
 }
@@ -215,10 +224,19 @@ footer{
 .summaryNotice{
 	color: gray;
 	font-size: 18px;
-	background-color: #ffcccc;
+	background-color: #fff0ad;
 	text-align: justify;
 	padding: 1%;
 	border: 1px solid lightgray;
+}
+
+.summaryAboutUs{
+	background-color:#3B444C;
+	font-size: 16px;
+	color:white;
+	width: 100%;
+	text-align: justify;
+	padding: 3%;
 }
 
 .summaryText{
@@ -236,3 +254,55 @@ footer{
 	-webkit-border-radius: 10px;
 	margin-top: 2%;
 }
+
+.flash{
+  color: #F46666;
+}
+
+/*extratables*/
+
+#bookTripTable{
+	background-color: white;
+	table-layout: fixed;
+	width: 100%;
+	height: 100%;
+	float: center;
+	text-align: center;
+}
+
+#ourTeamTable tr{
+	background-color: none !important;
+}
+
+#ourTeamTable{
+	table-layout: auto;
+}
+
+.small{
+	width:200px;
+	height:auto;
+	-webkit-border-radius: 100px;
+	float: center;
+	text-align: center;
+}
+
+.summaryStory{
+	color: white;
+	font-size: 18px;
+	background-color: #509BFF;
+	text-align: justify;
+	padding: 3%;
+}
+
+.aboutUsText{
+	font-size: 18px;
+	color: #2F363D;
+	padding-left: 1%;
+}
+
+.name{
+	font-size: 20px;
+	color: #509BFF;
+}
+
+

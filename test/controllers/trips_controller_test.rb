@@ -34,5 +34,7 @@ class TripsControllerTest < ActionDispatch::IntegrationTest
     print var
     assert var>0
   end
+  
+  
 
 end

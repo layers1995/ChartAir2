@@ -6,6 +6,17 @@
 
 <div class="body">
     
+ <% unless flash.empty? %>
+        <div id="notice">
+          <% flash.each do |key, value| %>
+              <div class="flash <%= key %>">
+                <%= value %>
+                </br>
+             </div>
+          <% end %>
+        </div>
+  <% end %>   
+  
 <h1 class="title">Plan Your Trip</h1>
 
         <div class="formPlanTrip">

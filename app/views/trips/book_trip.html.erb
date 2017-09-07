@@ -4,18 +4,36 @@
 <div class="body">
     
     <h3 class="title">Confirm Your Trip Infomation</h3>
-    
-    <p class="summaryText">Fixed Based Opperator: <%= @fbo.titleize %></p>
-    <p class="summaryText">Airport: <%= @airport.titleize %></p>
-    <p class="summaryText">Your Tailnumber: <%= @tailnumber %></p>
-    <%if @cost=="1000001"%>
-        <p class="summaryText">Total Cost: Unknown</p>
-    <%else%>
-        <p class="summaryText">Total Cost: $<%= @cost %></p>
-    <%end%>
-    <p class="summaryText">Arrival Time: <%= @time.strftime("%I:%M%p %m/%d/%Y") %></p>
-    <p class="summaryText">Departure Time: <%= @time2.strftime("%I:%M%p %m/%d/%Y") %></p> 
-    
+
+    <table id="bookTripTable">
+        <tr class="tableItems">
+            <td></td><td>Fixed Based Opperator:</td><td><%= @fbo.titleize %></td><td></td>
+        </tr>
+        
+        <tr class="tableItems">
+            <td></td><td>Airport:</td> <td><%= @airport.titleize %></td> <td></td>
+        </tr>
+        
+        <tr class="tableItems">
+            <td></td><td>Your Tailnumber: </td> <td><%= @tailnumber %></td><td></td>
+        </tr>
+        
+        <tr class="tableItems">
+            <%if @cost=="1000001"%>
+                <td></td><td>Total Cost:</td><td> Unknown</td><td></td>
+            <%else%>
+                <td></td><td>Total Cost:</td><td> $<%= @cost %></td><td></td>
+            <%end%>
+        </tr>
+        
+        <tr class="tableItems">
+            <td></td><td>Arrival Time:</td> <td><%= @time.strftime("%I:%M%p %m/%d/%Y") %></td> <td></td>
+        </tr>
+        
+        <tr class="tableItems">
+           <td></td><td>Departure Time:</td><td> <%= @time2.strftime("%I:%M%p %m/%d/%Y") %></td> <td></td>
+        </tr>
+    </table>
     </br>
     </br>
     </br>
@@ -28,7 +46,7 @@
     <%= f.text_field :cost, {class: "invisable", :value=>@cost} %>
     <%= f.text_field :fbo, {class: "invisable", :value=>@fbo} %>
     <%= f.text_field :airport, {class: "invisable", :value=>@airport} %>
-    <p class="summaryText">Anything extra we should know about your flight? <%= f.text_field :detail%> <%= f.submit "Book Trip", class: "btn btn-primary" %></p>
+    <p class="summaryText">Is there any service your airplane needs when it lands? <%= f.text_field :detail%> <%= f.submit "Book Trip", class: "submitWide" %></p>
        
     <%end%>
     
@@ -37,7 +55,7 @@
     </br>
     
     <div class="summaryNotice">
-        <h2>NOTICE!</h2>
+        <h2>NOTICE</h2>
         <p> &ensp; After booking your trip, the trip will be marked as pending. Once the information regarding your trip is confirmed and the airport is notified by your arrival, your trip will be marked as confirmed.</p>
     </div>
     

@@ -2,12 +2,22 @@
 <%= render 'layouts/header' %>
 <%= stylesheet_link_tag 'base'%>
 <%= javascript_include_tag 'addPlane' %>
-
-<div class="body">
+  
+  <% unless flash.empty? %>
+      <div id="notice">
+        <% flash.each do |key, value| %>
+          <div class="flash <%= key %>">
+            <%= value %>
+          </div>
+        <% end %>
+      </div>
+  <% end %>
+  
 <h1 class="title"><%= @user.name %>'s Airplanes</h1>
 
 
 <div class="floated"> 
+
 <%if @airplanes!=nil%>
 
   <table>
@@ -30,7 +40,7 @@
             </tr>
         <%end%>
         <tr class=tableItems>
-          <td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add Airplane</button></td>
+          <td><button type="button" class="submitWide" data-toggle="modal" data-target="#myModal">Add Airplane</button></td>
           <td></td>
           <td></td>
           <td></td>
@@ -68,6 +78,3 @@
     </div>
   </div>
 </div>
-
-
-</div> 

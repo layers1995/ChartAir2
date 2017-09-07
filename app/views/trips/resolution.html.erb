@@ -22,7 +22,7 @@
     <p class="summaryText"><%=@issue%></p>
     </br>
     </br>
-    <p class="center"><%= link_to "Confirm Trip", resolve_trip_path(:resolution => "confirm", :trip => @trip), method: :post, class: "issueButton", data: {confirm: "Continue your trip dispite the alteration?"}  %> <%= link_to "Replace Trip", resolve_trip_path(:resolution => "plan_trip", :trip => @trip), method: :post, class: "issueButton", data: {confirm: "This action will delete your current trip, and bring you to the plan trip page. Do you want to confirm this action?"}  %> <%= link_to "Cancel Trip", resolve_trip_path(:resolution => "remove", :trip => @trip), method: :post, class: "issueButton",  data: {confirm:  "This action will delete your current trip. Do you want to confirm this action?"} %></p>
+    <p class="center"><%= link_to "Confirm Trip", resolve_trip_path(:resolution => "confirm", :trip => @trip), method: :post, class: "issueButton", data: {confirm: "Continue your trip despite the alteration?"}  %> <%= link_to "Replace Trip", resolve_trip_path(:resolution => "plan_trip", :trip => @trip), method: :post, class: "issueButton", data: {confirm: "This action will delete your current trip, and bring you to the plan trip page. Do you want to confirm this action?"}  %> <%= link_to "Cancel Trip", resolve_trip_path(:resolution => "remove", :trip => @trip), method: :post, class: "issueButton",  data: {confirm:  "This action will delete your current trip. Do you want to confirm this action?"} %></p>
 
 <%end%>
 </div>
@@ -35,5 +35,5 @@
     <p class="summaryText">We found the price was really: $<%=@issue%></p>
     </br>
     </br>
-    <p class="center"><%= link_to "Confirm Trip", resolve_trip_path(:resolution => "confirm", :trip => @trip, :price => @issue), method: :post, class: "issueButton", data: {confirm: "Continue your trip dispite the change in price?"}  %> <%= link_to "Replace Trip", resolve_trip_path(:resolution => "plan_trip", :trip => @trip), method: :post, class: "issueButton", data: {confirm: "This action will delete your current trip, and bring you to the plan trip page. Do you want to confirm this action?"}  %> <%= link_to "Cancel Trip", resolve_trip_path(:resolution => "remove", :trip => @trip), method: :post, class: "issueButton",  data: {confirm:  "This action will delete your current trip. Do you want to confirm this action?"} %></p>
+    <p class="center"><%= link_to "Confirm Trip", resolve_trip_path(:resolution => "confirm", :trip => @trip, :price => @issue), method: :post, class: "issueButton", data: {confirm: "Continue your trip despite the change in price?"}  %> <%= link_to "Replace Trip", resolve_trip_path(:resolution => "plan_trip", :trip => @trip), method: :post, class: "issueButton", data: {confirm: "This action will delete your current trip, and bring you to the plan trip page. Do you want to confirm this action?"}  %> <%= link_to "Cancel Trip", resolve_trip_path(:resolution => "remove", :trip => @trip), method: :post, class: "issueButton",  data: {confirm:  "This action will delete your current trip. Do you want to confirm this action?"} %></p>
 <%end%>
