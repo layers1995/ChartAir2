@@ -54,6 +54,10 @@ class ActiveSupport::TestCase
 
 				if !curFee.start_time.nil? and !curFee.end_time.nil? # If the fee has a start time and an end time, make sure it falls in the right time period.
 
+					# If the fee skips over midnight, add 1440 minutes (1 day) to the end time so the comparison works properly
+					if startTime > endTime
+						endTime += 1440
+					end
 					startTime = timeToMinutes(curFee.start_time)
 					endTime = timeToMinutes(curFee.end_time)
 					landingTime < startTime or landingTime > endTime

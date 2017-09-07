@@ -1,32 +1,35 @@
-no fee,,
-flat rate,,
-piston single,,
-piston multi,,
-piston multi light,,
-piston multi heavy,,
-turboprop single light,,
-turboprop single heavy,,
-turboprop twin light,,
-turboprop twin medium,,
-turboprop twin heavy,,
-turboprop multi,,
-jet,,
-radial single,,
-radial multi,,
-turboshaft single,,
-turboshaft multi,,
-propfan single,,
-propfan multi,,
-rotary single,,
-rotary multi,,
-rocket single,,
-rocket multi,,
-light jet,,
-midsize jet,,
-super midsize jet,,
-heavy jet,,
-piston rotorcraft,,
-turbine single rotorcraft,,
-turbine multi rotorcraft,,
-172 skyhawk,,
-,5000,10000
+no fee
+flat rate
+weight
+weight range
+piston single
+piston multi
+piston multi light
+piston multi heavy
+turboprop single light
+turboprop single heavy
+turboprop twin light
+turboprop twin medium
+turboprop twin heavy
+turboprop multi
+jet
+radial single
+radial multi
+turboshaft single
+turboshaft multi
+propfan single
+propfan multi
+rotary single
+rotary multi
+rocket single
+rocket multi
+light jet
+midsize jet
+super midsize jet
+heavy jet
+single engine jet
+multi engine jet
+piston rotorcraft
+turbine single rotorcraft
+turbine multi rotorcraft
+172 skyhawk
