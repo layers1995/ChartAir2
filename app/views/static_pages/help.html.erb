@@ -1,44 +1,50 @@
 <%= render 'layouts/header' %>
 <%= stylesheet_link_tag 'base' %>
+<%= stylesheet_link_tag 'faq' %>
 
 <div class="body">
-	<div id="jumpDown">
-		<h2> FAQ </h2>
-		<a href="#1">How do I make an account?</a>
-		<br/><a href="#2">How do I save an airplane to my account?</a>
-		<br/><a href="#3">How do I plan a trip?</a>
-		<br/><a href="#4">What does "distance" when planning a trip refer to?</a>
-		<br/><a href="#5">How are prices determied?</a>
-		<br/><a href="#6">How do I book a flight?</a>
-		<br/><a href="#7">How do I know if my booked flight has been confirmed?</a>
-		<br/><a href="#8">How do I report inaccurate information?</a>
-		<br/><a href="#9">What are the benifits of reporting inaccurate information?</a>
-	</div>
 	
-	<h3 id="1">How to make account?</h3>
-		<p>Click the login button, below the login information is a link to create your account.</p>
+		<h2 class="titleLeft"> FAQ </h2>
+		<div class="questionLinks">
+			<a href="#1" class="questionLinks">How do I make an account?</a>
+			<br/><a href="#2" class="questionLinks">How do I save an airplane to my account?</a>
+			<br/><a href="#3" class="questionLinks">How do I plan a trip?</a>
+			<br/><a href="#10" class="questionLinks">Why can't I plan a trip?</a>
+			<br/><a href="#4" class="questionLinks">What does "distance" when planning a trip refer to?</a>
+			<br/><a href="#5" class="questionLinks">How are prices determied?</a>
+			<br/><a href="#6" class="questionLinks">How do I book a flight?</a>
+			<br/><a href="#7" class="questionLinks">How do I know if my booked flight has been confirmed?</a>
+			<br/><a href="#8" class="questionLinks">How do I report inaccurate information?</a>
+			<br/><a href="#9" class="questionLinks">What are the benifits of reporting inaccurate information?</a>
+		</div>
 	
-	<h3 id="2">How do I save an airplane to my account?</h3>
-		<p> &ensp; &ensp; In order to save an airplane to your account, start by clicking the account button in the header. This will bring down a drop-down menu. In the drop-down you will see a link to "profile". Once you have gone to your profile page, scroll to the bottom. At the bottom of the page is an area where you can type in your airplane's tailnumber, and then select the manufacture and model of the airplane. Once you have selected choices from these three options, click the "Add Plane" button to add your airplane.</p>
+	<table>
+		<tr><td><h3 class="title">Answers</h3></td></tr>
+		<tr class="formTitle" id="1"><td>How to make account?</td></tr>
+			<tr><td class="tableItems">Click the login button, below the login information is a link to create your account.</td></tr>
 		
-	<h3 id="3">How do I plan a trip?</h3>
-		<p>Click on the plan trip link in the header. If you do not have an account, the plan trip page will redirect you to the login screen. </br> Once you make an account or log in, planning a trip is extremely simple. Just select your destination, distance from your destination, airplane you want to take, and what you would like it filter by. </br> You can then select different options from the results page to book your trip.</p>
+		<tr id="2" class="formTitle"><td>How do I save an airplane to my account?</td></tr>
+			<tr><td class="tableItems">In order to save an airplane to your account, start by clicking the account button in the header. This will bring down a drop-down menu. In the drop-down you will see a link to "profile". Once you have gone to your profile page, scroll to the bottom. At the bottom of the page is an area where you can type in your airplane's tailnumber, and then select the manufacture and model of the airplane. Once you have selected choices from these three options, click the "Add Plane" button to add your airplane.</td></tr>
+			
+		<tr id="3" class="formTitle"><td>How do I plan a trip?</td></tr>
+			<tr><td class="tableItems">Click on the plan trip link in the header. If you do not have an account, the plan trip page will redirect you to the login screen. Once you make an account or log in, planning a trip is extremely simple. Make sure your profile has at least one airplane entered before planning your trip. Then you just select your destination, distance from your destination, airplane you want to take, your arrival time to airport and your departure time. You can then select different options from the results page to book your trip.</td></tr>
+			
+		<tr id="4" class="formTitle"><td>What does "distance" when planning a trip refer to?</td></tr>	
+			<tr><td class="tableItems">Distance on the plan trip page refers to the number of miles from city center.</td></tr>
+			
+		<tr id="5" class="formTitle"><td>How are prices determied?</td></tr>	
+			<tr><td class="tableItems">Currently prices are determied many diffrent ways by many different fixed based opperators and many different airports. Some have a flat rate, while others categorize by weight, wingspan, or other categories. Luckily ChartAir originizes this data so you only need to see the information that effects your bottom line.</td></tr>
+			
+		<tr id="6" class="formTitle"><td>How do I book a flight?</td></tr>	
+			<tr><td class="tableItems">To book a flight, go through the plan trip page to choose a location. Then when you found where you want to go, click book trip. After clicking book trip, confirm your trip information and select the when you wish to take your trip.</td></tr>
+			
+		<tr id="7" class="formTitle"><td>How do I know if my booked flight has been confirmed?</td></tr>	
+			<tr><td class="tableItems">In order to check to see if your flight has been confirmed, click on your account name, then, from the dropdown menu, select trips. On your trips page, your trip will be marked as pending, confirmed, completed, or ask you to resolve and alteration. If the status of your trip is confirmed, it has been confirmed your trip has been booked.</td></tr>
+			
+		<tr id="8" class="formTitle"><td>How to report inaccurate information?</td></tr>
+			<tr><td class="tableItems">Go to your trips page, and any completed trip will have a link to rate them. When rating the trip, you will have the option to rate ChartAir as a service, along with the fixed based opperator you landed at.</td></tr>
 		
-	<h3 id="4">What does "distance" when planning a trip refer to?</h3>	
-		<p>Distance on the plan trip page refers to the number of miles from city center.</p>
-		
-	<h3 id="5">How are prices determied?</h3>	
-		<p></p>
-		
-	<h3 id="6">How do I book a flight?</h3>	
-		<p>To book a flight, go through the plan trip page to choose a location. Then when you found where you want to go, click book trip. </br> After clicking book trip, confirm your trip information and select the when you wish to take your trip.</p>
-		
-	<h3 id="7">How do I know if my booked flight has been confirmed?</h3>	
-		<p></p>	
-		
-	<h3 id="8">How to report inaccurate information?</h3>
-		<p>Click on the feedback link located in the page's header. From there you can select a trip that had inaccurate information and what the correct information is. </br> You can also go to your trips page, and any completed trip will have a link to rate them.</p>
-	
-	<h3 id="9">What are the benifits of reporting inaccurate information?</h3>	
-		<p></p>	
+		<tr id="9" class="formTitle"><td>What are the benifits of reporting inaccurate information?</td></tr>	
+			<tr><td class="tableItems">As a company, we want to bring you the best service we possibly can. Without feedback it is difficult for us to know what we can do better.</td></tr>	
+	</table>
 </div>

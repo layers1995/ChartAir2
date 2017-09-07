@@ -13,9 +13,10 @@
 ActiveRecord::Schema.define(version: 20170907192520) do
 
   create_table "airplane_users", force: :cascade do |t|
-    t.integer "airplane_id", null: false
-    t.integer "user_id",     null: false
+    t.integer "airplane_id",  null: false
+    t.integer "user_id",      null: false
     t.string  "tailnumber"
+    t.boolean "user_can_see"
     t.index ["airplane_id", "user_id"], name: "index_airplane_users_on_airplane_id_and_user_id"
   end
 
@@ -125,6 +126,7 @@ ActiveRecord::Schema.define(version: 20170907192520) do
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
     t.datetime "arrival_time"
+    t.datetime "depart_time"
   end
 
   create_table "reports", force: :cascade do |t|
@@ -146,10 +148,12 @@ ActiveRecord::Schema.define(version: 20170907192520) do
     t.string   "tailnumber"
     t.string   "trip_status"
     t.integer  "user_id"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
     t.string   "issue"
     t.string   "detail"
+    t.integer  "airplane_user_id"
+    t.datetime "depart_time"
   end
 
   create_table "users", force: :cascade do |t|

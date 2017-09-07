@@ -2,30 +2,61 @@
 <%= stylesheet_link_tag 'base'%>
 
 <div class="body">
-    <h1>Finish Booking Your Trip</h1>
     
-    <h2>NOTICE!</h2>
-    <p>After booking your trip, the trip will be marked as pending. Once the information regarding your trip is confirmed and the airport is notified by your arrival, your trip will be marked as confirmed.</p>
-    
-    <h3>Trip Infomation</h3>
-    
-    <%= @fbo %>
-    <%= @airport %>
-    <%= @tailnumber %>
-    <%= @coast %>
-    <%= @time %> 
+    <h3 class="title">Confirm Your Trip Infomation</h3>
+
+    <table id="bookTripTable">
+        <tr class="tableItems">
+            <td></td><td>Fixed Based Opperator:</td><td><%= @fbo.titleize %></td><td></td>
+        </tr>
+        
+        <tr class="tableItems">
+            <td></td><td>Airport:</td> <td><%= @airport.titleize %></td> <td></td>
+        </tr>
+        
+        <tr class="tableItems">
+            <td></td><td>Your Tailnumber: </td> <td><%= @tailnumber %></td><td></td>
+        </tr>
+        
+        <tr class="tableItems">
+            <%if @cost=="1000001"%>
+                <td></td><td>Total Cost:</td><td> Unknown</td><td></td>
+            <%else%>
+                <td></td><td>Total Cost:</td><td> $<%= @cost %></td><td></td>
+            <%end%>
+        </tr>
+        
+        <tr class="tableItems">
+            <td></td><td>Arrival Time:</td> <td><%= @time.strftime("%I:%M%p %m/%d/%Y") %></td> <td></td>
+        </tr>
+        
+        <tr class="tableItems">
+           <td></td><td>Departure Time:</td><td> <%= @time2.strftime("%I:%M%p %m/%d/%Y") %></td> <td></td>
+        </tr>
+    </table>
+    </br>
+    </br>
+    </br>
     
     <%= form_for @trip do |f| %>
     
-    <%= f.text_field :start_datetime, {class: "invisable", :value => DateTime.parse(@time)}%>
-    <p>Anything extra we should know about your flight?</p>
-    <p><%= f.text_field :detail%></p>
+    <%= f.text_field :start_datetime, {class: "invisable", :value => @time}%>
+    <%= f.text_field :depart_time, {class: "invisable", :value => @time2}%>
     <%= f.text_field :tailnumber, {class: "invisable", :value=>@tailnumber} %>
     <%= f.text_field :cost, {class: "invisable", :value=>@cost} %>
     <%= f.text_field :fbo, {class: "invisable", :value=>@fbo} %>
     <%= f.text_field :airport, {class: "invisable", :value=>@airport} %>
-    
-    <%= f.submit "Book Trip", class: "btn btn-primary" %>
+    <p class="summaryText">Is there any service your airplane needs when it lands? <%= f.text_field :detail%> <%= f.submit "Book Trip", class: "submitWide" %></p>
        
     <%end%>
+    
+    </br>
+    </br>
+    </br>
+    
+    <div class="summaryNotice">
+        <h2>NOTICE</h2>
+        <p> &ensp; After booking your trip, the trip will be marked as pending. Once the information regarding your trip is confirmed and the airport is notified by your arrival, your trip will be marked as confirmed.</p>
+    </div>
+    
 </div>

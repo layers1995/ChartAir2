@@ -13,7 +13,7 @@ class TripsController < ApplicationController
      end
     end
     
-    @nextTrips= Trip.where(:user_id => current_user, :trip_status => ["issue","pending", "cancelled", "confirmed"]).order(arrival_time: :asc)
+    @nextTrips= Trip.where(:user_id => current_user, :trip_status => ["issue","pending", "cancelled", "confirmed", "priceChange"]).order(arrival_time: :asc)
     @prevTrips= Trip.where(:user_id => current_user, :trip_status => "completed").order(arrival_time: :asc)
   end
   
@@ -35,9 +35,16 @@ class TripsController < ApplicationController
     
     #if user confirms trip
     if params[:resolution]==="confirm"
-      trip.trip_status="confirmed"
+    
+      if params[:price]!=nil
+        trip.cost=params[:price].to_i
+        trip.save
+      end
+      
+      trip.trip_status="pending"
       trip.save
       redirect_to trips_path and return
+      
     end
     
   end
@@ -50,14 +57,12 @@ class TripsController < ApplicationController
   
   def new_trip
     
+    #create information needed to save the trip
     airport_id= Airport.find_by(:name => params[:airport]).id
     fbo_id= Fbo.find_by(:name => params[:fbo]).id
     user_id= current_user.id
     trip_status= "pending";
-    
-    #tempArr=[params["start_datetime(1i)"], params["start_datetime(2i)"], params["start_datetime(3i)"], params["start_datetime(4i)"], params["start_datetime(5i)"]]
-    #arrival_time= formatTime(tempArr)
-    
+    airplane_user_id=AirplaneUser.find_by(:tailnumber => params[:tailnumber], :user_can_see => true).id
     arrival_time=DateTime.parse(params[:start_datetime])
     
     if arrival_time < Date.tomorrow
@@ -65,7 +70,7 @@ class TripsController < ApplicationController
       redirect_to :back and return 
     end
     
-    Trip.create(:airport_id => airport_id, :fbo_id => fbo_id, :user_id => user_id, :tailnumber => params[:tailnumber], :cost => params["cost"].to_i, :trip_status => trip_status, :arrival_time => arrival_time)
+    Trip.create(:airport_id => airport_id, :fbo_id => fbo_id, :user_id => user_id, :tailnumber => params[:tailnumber], :airplane_user_id => airplane_user_id ,:cost => params["cost"].to_i, :detail => params[:detail], :trip_status => trip_status, :arrival_time => arrival_time)
     
     redirect_to "/trips"
     
@@ -77,7 +82,8 @@ class TripsController < ApplicationController
     @airport=params["airport"]
     @fbo=params["fbo"]
     @cost=params["cost"]
-    @time= params["time"]
+    @time= DateTime.parse(params["time"])
+    @time2= DateTime.parse(params["time2"])
     #holder for trip form
     @trip=""
   end

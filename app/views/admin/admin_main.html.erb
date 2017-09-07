@@ -23,7 +23,7 @@
           <td><%=Fbo.find_by(:id => trip["fbo_id"]).name%></td>
           <td><%=Airport.find_by(:id => trip["airport_id"]).managerPhone%></td>
           <td><%=trip["arrival_time"]%></td>
-          <td><%=Airplane.find_by(:id => AirplaneUser.find_by(:tailnumber =>trip["tailnumber"]).airplane_id).manufacturer%> <%=Airplane.find_by(:id => AirplaneUser.find_by(:tailnumber =>trip["tailnumber"]).airplane_id).model%></td>
+          <td><%=Airplane.find_by(:id => AirplaneUser.find_by(:id =>trip["airplane_user_id"]).airplane_id).manufacturer%> <%=Airplane.find_by(:id => AirplaneUser.find_by(:id =>trip["airplane_user_id"]).airplane_id).model%></td>
           <td><%=trip["tailnumber"]%></td>
           <td><%=trip["detail"]%></td>
           <td>$<%=trip["cost"]%></td>
@@ -80,7 +80,7 @@
         <tr class="tableItems">
           <td><%=Airport.find_by(:id => Trip.find_by(:id => report["trip_id"]).airport_id).name%></td>    
           <td><%=Fbo.find_by(:id => Trip.find_by(:id => report["trip_id"]).fbo_id).name%></td>
-          <%=Airplane.find_by(:id => AirplaneUser.find_by(:tailnumber =>trip["tailnumber"]).airplane_id).manufacturer%> <%=Airplane.find_by(:id => AirplaneUser.find_by(:tailnumber =>trip["tailnumber"]).airplane_id).model%>
+          <%=Airplane.find_by(:id => AirplaneUser.find_by(:id =>trip["airplane_user_id"]).airplane_id).manufacturer%> <%=Airplane.find_by(:id => AirplaneUser.find_by(:id =>trip["airplane_user_id"]).airplane_id).model%>
           <td><%=report["fbo_rating"]%></td>
           <td><%=report["fbo_comments"]%></td>
           <td><%=report["trip_rating"]%></td>

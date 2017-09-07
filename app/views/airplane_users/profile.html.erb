@@ -2,12 +2,22 @@
 <%= render 'layouts/header' %>
 <%= stylesheet_link_tag 'base'%>
 <%= javascript_include_tag 'addPlane' %>
-
-<div class="body">
+  
+  <% unless flash.empty? %>
+      <div id="notice">
+        <% flash.each do |key, value| %>
+          <div class="flash <%= key %>">
+            <%= value %>
+          </div>
+        <% end %>
+      </div>
+  <% end %>
+  
 <h1 class="title"><%= @user.name %>'s Airplanes</h1>
 
 
 <div class="floated"> 
+
 <%if @airplanes!=nil%>
 
   <table>
@@ -23,14 +33,14 @@
         <% @airplanes.each do |airplane|%>
             <tr class=tableItems>
               <td><%=airplane["tailnumber"]%></td>
-              <td><%=airplane["manufacturer"]%></td>
-              <td><%=airplane["model"]%></td>
+              <td><%=airplane["manufacturer"].titleize%></td>
+              <td><%=airplane["model"].titleize%></td>
               <td><%= link_to "Plan Trip", plantrip_path(:tailnumber => airplane["tailnumber"]), method: :get %></td>
               <td><%= link_to "Remove Airplane", profileremove_path(:tailnumber => airplane["tailnumber"]), method: :post, data: {confirm: "Are you sure you want to delete this airplane?"} %></td>
             </tr>
         <%end%>
         <tr class=tableItems>
-          <td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add Airplane</button></td>
+          <td><button type="button" class="submitWide" data-toggle="modal" data-target="#myModal">Add Airplane</button></td>
           <td></td>
           <td></td>
           <td></td>
@@ -68,6 +78,3 @@
     </div>
   </div>
 </div>
-
-
-</div> 

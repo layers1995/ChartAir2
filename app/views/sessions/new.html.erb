@@ -7,7 +7,17 @@
     <%= form_for(:session, url: login_path) do |f| %>
     
       <div id="loginGroup">
-
+        
+         <% unless flash.empty? %>
+          <div id="notice">
+            <% flash.each do |key, value| %>
+              <div class="flash <%= key %>">
+                <%= value %>
+              </div>
+            <% end %>
+          </div>
+        <% end %>
+        
         <p class="loginInfo"><%= f.text_field :name, id: "input", :placeholder=>"Username"%></p>
         <p class="loginInfo"><%= f.password_field :password, id: "input", :placeholder=>"Password"%></p>
   

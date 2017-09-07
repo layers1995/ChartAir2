@@ -2,29 +2,38 @@
 <%= stylesheet_link_tag 'base'%>
 
 <div class="body">
-<%if @problem==="cancled" %>
+<%if @problem==="cancelled" %>
 
-    <h2>Your trip has been cancled</h2>
-    <p>We are very sorry for the inconveince, but your flight could not occur because:</p>
-    <p><%=@issue%></p>
+    <h2 class="title">Sadly, your trip has been Cancelled</h2>
+    <p class="summaryText">While booking we found your trip could not be made because:</p>
     
-    <button><%= link_to "Replace Trip", resolve_trip_path(:resolution => "plan_trip", :trip => @trip), method: :post%></button>
+    <p class="summaryText"><%=@issue%></p>
     </br>
-    <button><%= link_to "Cancel Trip", resolve_trip_path(:resolution => "remove", :trip => @trip), method: :post%></button>
+    </br>
+    <p class="center"><%= link_to "Replace Trip", resolve_trip_path(:resolution => "plan_trip", :trip => @trip), method: :post, class: "issueButton", data: {confirm: "This action will delete your current trip, and bring you to the plan trip page. Do you want to confirm this action?"}  %> <%= link_to "Cancel Trip", resolve_trip_path(:resolution => "remove", :trip => @trip), method: :post, class: "issueButton", data: {confirm: "This action will delete your current trip. Do you want to confirm this action?"} %></p>
 
 <%end%>
 
 <% if @problem==="issue" %>
 
-    <h2>There was an issue with your trip</h2>
-    <p>While booking your flight we found that:</p>
-    <p><%=@issue%></p>
+    <h2 class="title">There was an Issue with your Trip</h2>
+    <p class="summaryText">While booking your flight we found that:</p>
     
-    <button><%= link_to "Confirm Trip Anyways", resolve_trip_path(:resolution => "confirm", :trip => @trip), method: :post%></button>
+    <p class="summaryText"><%=@issue%></p>
     </br>
-    <button><%= link_to "Replace Trip", resolve_trip_path(:resolution => "plan_trip", :trip => @trip), method: :post%></button>
     </br>
-    <button><%= link_to "Cancel Trip", resolve_trip_path(:resolution => "remove", :trip => @trip), method: :post%></button>
+    <p class="center"><%= link_to "Confirm Trip", resolve_trip_path(:resolution => "confirm", :trip => @trip), method: :post, class: "issueButton", data: {confirm: "Continue your trip despite the alteration?"}  %> <%= link_to "Replace Trip", resolve_trip_path(:resolution => "plan_trip", :trip => @trip), method: :post, class: "issueButton", data: {confirm: "This action will delete your current trip, and bring you to the plan trip page. Do you want to confirm this action?"}  %> <%= link_to "Cancel Trip", resolve_trip_path(:resolution => "remove", :trip => @trip), method: :post, class: "issueButton",  data: {confirm:  "This action will delete your current trip. Do you want to confirm this action?"} %></p>
 
 <%end%>
 </div>
+
+<% if @problem=="priceChange"%>
+    <h2 class="title">There was a Price Change to your Trip</h2>
+    
+    <p class="summaryText">While booking your flight we found that the price had changed from what was listed:</p>
+    
+    <p class="summaryText">We found the price was really: $<%=@issue%></p>
+    </br>
+    </br>
+    <p class="center"><%= link_to "Confirm Trip", resolve_trip_path(:resolution => "confirm", :trip => @trip, :price => @issue), method: :post, class: "issueButton", data: {confirm: "Continue your trip despite the change in price?"}  %> <%= link_to "Replace Trip", resolve_trip_path(:resolution => "plan_trip", :trip => @trip), method: :post, class: "issueButton", data: {confirm: "This action will delete your current trip, and bring you to the plan trip page. Do you want to confirm this action?"}  %> <%= link_to "Cancel Trip", resolve_trip_path(:resolution => "remove", :trip => @trip), method: :post, class: "issueButton",  data: {confirm:  "This action will delete your current trip. Do you want to confirm this action?"} %></p>
+<%end%>

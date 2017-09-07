@@ -3,6 +3,7 @@
     
 <h1 class= "title">Upcoming Trips</h1>
 
+<% if @nextTrips.length>0%>
 <table>
     <tr>
         <td class="columnTitles">Trip Status</td>
@@ -15,11 +16,15 @@
         <tr class="tableItems">
          
           <%if trip["trip_status"]==="issue"%>
-              <td><%= image_tag("flagIcon.png",  :class => "icon") %> <%= link_to "Resolve Cancleation", trip_resolution_path(:trip => trip["id"], :reason => "issue") %></td>
+              <td><%= image_tag("flagIcon.png",  :class => "icon") %> <%= link_to "Resolve Issue", trip_resolution_path(:trip => trip["id"], :reason => "issue") %></td>
           <%end%>
           
-          <%if trip["trip_status"]==="canceled"%>
-              <td><%= image_tag("flagIcon.png",  :class => "icon") %> <%= link_to "Resolve Cancleation", trip_resolution_path(:trip => trip["id"], :reason => "cancelled") %></td>
+          <%if trip["trip_status"]==="cancelled"%>
+              <td><%= image_tag("flagIcon.png",  :class => "icon") %> <%= link_to "Resolve Cancellation", trip_resolution_path(:trip => trip["id"], :reason => "cancelled") %></td>
+          <%end%>
+          
+          <%if trip["trip_status"]==="priceChange"%>
+              <td><%= image_tag("flagIcon.png",  :class => "icon") %> <%= link_to "Resolve Price Update", trip_resolution_path(:trip => trip["id"], :reason => "priceChange") %></td>
           <%end%>
          
           <%if trip["trip_status"]==="pending"%>
@@ -33,39 +38,50 @@
           <td><%=Airport.find_by(:id => trip["airport_id"]).name.titleize%></td>
           <td><%=trip["arrival_time"].strftime("%I:%M%p %m/%d/%Y")%></td>
           <td><%=trip["tailnumber"]%></td>
-          <td>$<%=trip["cost"]%></td>
           
+          <%if trip["cost"]!=1000001%>
+              <td>$<%=trip["cost"]%></td>
+          <%else%>
+              <td>Unknown</td>
+          <%end%>
         </tr>
     <%end%>
 </table>    
+<%else%>
+    <p class="summary">Currently, you have no upcoming trips.</p>
+<%end%>
 
 </br>
 </br>
 
 <h1 class= "title">Previous Trips</h1>
 
-<table>
-        <tr>
-            <td class="columnTitles">Feedback</td>
-            <td class="columnTitles">Trip Status</td>
-            <td class="columnTitles">Destination</td>
-            <td class="columnTitles">Time and Date</td>
-            <td class="columnTitles">Airplane</td>
-            <td class="columnTitles">Cost</td>
-        </tr>
-    <% @prevTrips.each do |trip|%>
-        <tr class="tableItems">
-          
-          <%if trip["trip_status"]==="completed"%>
-              <td><%= link_to "Rate Trip", report_path(:trip_id => trip["id"]) %></td>
-          <%end%>
-            
-          <td>Completed</td>
-          <td><%=Airport.find_by(:id => trip["airport_id"]).name.titleize%></td>
-          <td><%=trip["arrival_time"].strftime("%I:%M%p %m/%d/%Y")%></td>
-          <td><%=trip["tailnumber"]%></td>
-          <td>$<%=trip["cost"]%></td>
-          
-        </tr>
-    <%end%>
-</table>
+<% if @prevTrips.length>0%>
+    <table>
+            <tr>
+                <td class="columnTitles">Feedback</td>
+                <td class="columnTitles">Trip Status</td>
+                <td class="columnTitles">Destination</td>
+                <td class="columnTitles">Time and Date</td>
+                <td class="columnTitles">Airplane</td>
+                <td class="columnTitles">Cost</td>
+            </tr>
+        <% @prevTrips.each do |trip|%>
+            <tr class="tableItems">
+              
+              <%if trip["trip_status"]==="completed"%>
+                  <td><%= link_to "Rate Trip", report_path(:trip_id => trip["id"]) %></td>
+              <%end%>
+                
+              <td>Completed</td>
+              <td><%=Airport.find_by(:id => trip["airport_id"]).name.titleize%></td>
+              <td><%=trip["arrival_time"].strftime("%I:%M%p %m/%d/%Y")%></td>
+              <td><%=trip["tailnumber"]%></td>
+              <td>$<%=trip["cost"]%></td>
+              
+            </tr>
+        <%end%>
+    </table>
+<%else%>
+    <p class="summary">You have no previous trips.</p>
+<%end%>

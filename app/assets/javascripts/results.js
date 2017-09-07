@@ -394,8 +394,9 @@ function linkToBookTrip(index){
     var airportName=feeDict[fboName]["airport"];
     var tailnumber=gon.tailnumber;
     var time= gon.time;
+    var time2 =gon.time2;
     var cost=feeDict[fboName]["total"];
-    window.location='https://chartair-fuzzykitenz.c9users.io/book_trip?fbo='+fboName+'&airport='+airportName+'&cost='+cost+'&tailnumber='+tailnumber+'&time='+time;
+    window.location='https://chartair.us/book_trip?fbo='+fboName+'&airport='+airportName+'&cost='+cost+'&tailnumber='+tailnumber+'&time='+time+'&time2='+time2;
 }
 
 function createGoogleMap(mapDetails){

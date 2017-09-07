@@ -23,19 +23,19 @@ class User < ApplicationRecord
     
     def email_is_confirmed
         if(self.email_confirm!=self.email)
-            errors.add(:email, "Email and email confirmation not equal")
+            errors.add(:error, "Email and email confirmation not equal")
         end
     end
     
     def check_beta_key
          if self.betakey!="FlyInTheClouds"
-             errors.add(:betakey, "Incorrect Beta Key")
+             errors.add(:error, "Incorrect Beta Key")
          end
     end
     
     def check_user_agreement
-        if self.confirm_user_agreement==="1"
-            errors.add(:confirm_user_agreement, "Read and Agree to the User terms.")
+        if self.confirm_user_agreement==="0"
+            errors.add(:error, "Read and Agree to the User terms.")
         end
     end
     

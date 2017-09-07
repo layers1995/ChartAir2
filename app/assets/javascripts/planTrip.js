@@ -10,7 +10,7 @@ function start(){
     //get json package and save it into a good location
     cities= gon.cities;
     curAirplanes= gon.curAirplanes;
-    selectedAirplane= gon.selectedPlane
+    selectedAirplane= gon.selectedPlane;
     
     //creates the dictionary and the list of manufactors
     startSettings();
@@ -88,6 +88,7 @@ function selectUserCurrentAirplane(){
 			airplanes.selectedIndex=i;
 		}
 	}
+	
 }
 
 
