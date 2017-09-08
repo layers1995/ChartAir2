@@ -224,13 +224,21 @@ class FeesTest < ActionDispatch::IntegrationTest
 
 		targetFee = nil
 
-		curFees = getFees(@cessna172, @jetAir, "hour", 4)
+		curFees = getFees(@cessna172, @jetAir, "hour", 4, nil)
 		curFees.each do |curFee|
 			if curFee.fee_type.fee_type_description == "call out"
 				targetFee = curFee
 			end
 		end
 		assert_equal(125, targetFee.price)
+
+		curFees = getFees(@cessna172, @jetAir, "hour", 0, nil)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "call out"
+				targetFee = curFee
+			end
+		end
+		assert_equal(50, targetFee.price)
 	end
 
 	test "fees with different prices at different times retrievable" do

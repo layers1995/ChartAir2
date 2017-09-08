@@ -17,11 +17,63 @@ class ActiveSupport::TestCase
 # make sure to add any updates to the plan_trip_controller
 	def getFees(airplane, fbo, timeUnit = nil, timeLength = 0, landingTime = nil)
 		
+		#multiplier = 1
+
 		if !landingTime.nil?
 			landingTime = timeToMinutes(landingTime)
 		end
 
-		multiplier = 1
+		fees = Fee.where( :fbo => fbo )
+
+		fees = fees.reject do |curFee|
+			curFee.price == 34 or curFee.price == 17
+
+			curCategory = curFee.category.category_description
+
+			if !curFee.start_time.nil? and !curFee.end_time.nil? # If the fee has a start time and an end time, make sure it falls in the right time period.
+				startTime = curFee.start_time
+				endTime = curFee.end_time
+				# If the fee skips over midnight, add 1440 minutes (1 day) to the end time so the comparison works properly
+				if startTime > endTime
+					endTime += 1440
+				end
+
+				landingTime < startTime or landingTime > endTime # reject fees that are outside of the time the plane is landing
+			end
+
+			if !curFee.time_unit.nil? # reject fees that use the wrong time unit
+				curFee.time_unit != timeUnit
+			end
+
+			#unit_price
+			#unit_magnitude
+
+			#free_time_unit
+			airplane.weight < curFee.unit_minimum or airplane.weight > curFee.unit_maximum
+
+			if curCategory == "weight range" and !curFee.unit_minimum.nil? and !curFee.unit_maximum.nil?
+				airplane.weight < curFee.unit_minimum or airplane.weight > curFee.unit_maximum # reject fees if the airplane weight is less than the minimum or greater than the maximum
+			end
+
+			if curCategory == "weight"
+				# I probably don't need to reject any of these
+			end
+		end
+
+		puts fees.length
+		fees = applyConditionalFees(airplane, fees, timeUnit, timeLength, landingTime)
+		if fees.nil? or fees.length == 0
+			puts "check"
+			return nil
+		else
+			return fees
+		end
+
+	end
+
+
+
+=begin
 		classification = Classification.find(fbo.classification_id)
 		# get the category based on the classification and the airplane
 		case classification.classification_description
@@ -35,12 +87,10 @@ class ActiveSupport::TestCase
 			category = Category.find_by( :category_description => airplane.model )
 		when "weight range"
 			planeWeight = airplane.weight
-			# I really doubt this will actually work, but that's the idea
 			category = Category.find_by( "minimum < ? AND maximum > ?", planeWeight, planeWeight )
 		when "weight"
 			category = Category.find_by( :category_description => "weight" )
 			#multiplier = airplane.weight / curFee.unit_magnitude
-			# I think this is where I'm going to need to redesign the schema. Maybe just add a column to category saying how much per x the fee is charged. So if it's $5 every 1000 pounds, that new column would be 1000
 		else
 			puts "That wasn't supposed to happen"
 		end
@@ -54,12 +104,13 @@ class ActiveSupport::TestCase
 
 				if !curFee.start_time.nil? and !curFee.end_time.nil? # If the fee has a start time and an end time, make sure it falls in the right time period.
 
+					startTime = timeToMinutes(curFee.start_time)
+					endTime = timeToMinutes(curFee.end_time)
+					
 					# If the fee skips over midnight, add 1440 minutes (1 day) to the end time so the comparison works properly
 					if startTime > endTime
 						endTime += 1440
 					end
-					startTime = timeToMinutes(curFee.start_time)
-					endTime = timeToMinutes(curFee.end_time)
 					landingTime < startTime or landingTime > endTime
 
 				elsif !curFee.time_unit.nil? # reject fees that use the wrong time unit
@@ -73,6 +124,7 @@ class ActiveSupport::TestCase
 			return nil
 		end
 	end
+=end
 
 	def getFeeType(fees, feeType)
 		fees.each do |curFee|
@@ -82,12 +134,12 @@ class ActiveSupport::TestCase
 		end
 	end
 
-	def applyMultiplier(airplane, fees, timeUnit, timeLength, landingTime)
+	def applyConditionalFees(airplane, fees, timeUnit, timeLength, landingTime)
 		feeArray = fees.to_a
 		multiplier = 1
 		fees.each do |curFee|
 			case curFee.category.category_description
-			when "weight", !curFee.unit_magnitude.nil?
+			when "weight", !curFee.unit_magnitude.nil?, !fees.nil?
 				multiplier = airplane.weight / curFee.unit_magnitude
 			end
 
@@ -95,13 +147,24 @@ class ActiveSupport::TestCase
 				curFee.price += curFee.unit_price * multiplier
 			end
 
-			if !curFee.time_unit.nil? and !curFee.time_price.nil? and curFee.free_time_length.nil?
-				curFee.price += timeLength * curFee.time_price
-			end
-
+			# Check the case where the fbo gives free time before charging
 			if !curFee.free_time_unit.nil? and !curFee.free_time_length.nil? and !curFee.time_unit.nil? and !curFee.time_price.nil? and !timeLength.nil?
 				curFee.price += (timeLength - curFee.free_time_length) * curFee.time_price
-			end
+
+			# If they don't do free stuff
+			elsif !curFee.time_unit.nil? and !curFee.time_price.nil? and curFee.free_time_length.nil?
+
+				if curFee.price != 0 # If a fee is something like $50 + $30/night, it's $50 the first night, not $80
+					
+					if timeLength >= 1 # wouldn't want negative times
+						timeLength -= 1
+					end
+					curFee.price += timeLength * curFee.time_price
+
+				else # However, if it's just $30/night, then staying for 1 night would be $30
+					curFee.price += timeLength * curFee.time_price
+				end
+			end		
 
 		end
 		return feeArray	

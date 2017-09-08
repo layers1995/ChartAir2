@@ -4,6 +4,12 @@ no_fee_cat:
 flat_rate_cat:
   category_description: flat rate
 
+weight:
+  category_description: weight
+
+weight_range:
+  category_description: weight range
+
 piston_single:
   category_description: piston single
 
@@ -15,6 +21,3 @@ turboprop_twin_medium:
 
 425conquest:
   category_description: 425 conquest 1
-
-weight:
-  category_description: weight

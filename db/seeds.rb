@@ -1,31 +1,34 @@
 include SeedsHelper # located at lib/seeds_helper.rb
 
 def main
-	Airplane.delete_all
-	FeeType.delete_all
-	City.delete_all
-	Airport.delete_all
-	Fbo.delete_all
-	Classification.delete_all
-	Category.delete_all
+	#Airplane.delete_all
+	#FeeType.delete_all
+	#Classification.delete_all
+
+	#Category.delete_all
+
+	#City.delete_all
+	#Airport.delete_all
+	#Fbo.delete_all
+	
 	Fee.delete_all
 
-	addAirplanes("airplane_seed_data")
-	addFeeTypes("fee_types")
-	addClassifications("classification_types")
+	#addAirplanes("airplane_seed_data")
+	#addFeeTypes("fee_types")
+	#addClassifications("classification_types")
 
-	addCategories("categories")
+	#addCategories("categories")
 
 	#addCities("uscitiesv1.3.csv") # makes the website run slowly... meh
 
-	addAirports("full_airport_data")
+	#addAirports("full_airport_data")
 
 	#addFbos("fbo_seed_data") # run the fbo folder, not this
-	addFboFolder("fbo_call_data")
+	#addFboFolder("fbo_call_data")
 
-	#addFeesAndUpdateFbos(Rails.root.join("db", "seed_data", "call_sheets", "ut_call_sheet.tsv"))
-	addFeeFolder("call_sheets")
-	addStartupTermData("survey_responses.tsv")
+	addFeesAndUpdateFbos(Rails.root.join("db", "seed_data", "call_sheets", "ms_call_sheet.tsv"))
+	#addFeeFolder("call_sheets")
+	#addStartupTermData("survey_responses.tsv")
 
 # TODO addFbos and addStartupTermData both add FBOs to the database, figure it out.
 end
@@ -242,7 +245,7 @@ def addFeesAndUpdateFbos(filename)
 					end
 				end
 			elsif feeClassification.nil?
-				puts curFbo.name
+				#puts curFbo.name
 				# do nothing
 			else
 				curFbo.update( :classification => feeClassification )
@@ -349,7 +352,7 @@ def addStartupTermData(filename)
 # Create a new FBO based on the data in the call sheet. There will probably be duplicates in the database, but at least we'll have this info
 
 		if !curAirport.nil?
-			curFbo = Fbo.create( :name => fboName, :airport => curAirport, :classification => feeClassification )
+			curFbo = Fbo.find_or_create_by( :name => fboName, :airport => curAirport, :classification => feeClassification )
 	# If the FBO has no fees
 			if hasFees.strip == "no"
 				curCategory = Category.find_by( :category_description => "no fee")
