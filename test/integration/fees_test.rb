@@ -265,7 +265,7 @@ class FeesTest < ActionDispatch::IntegrationTest
 		assert_equal(40, targetFee.price)
 	end
 
-	test "fees at incorrect times aren't retrieved" do
+	test "fees at incorrect times are not retrieved" do
 		@signature = fbos(:signature)
 		curFees = getFees(@cessna172, @signature, nil, 0, "14:00".to_time)
 

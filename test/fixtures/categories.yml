@@ -16,8 +16,8 @@ piston_single:
 turboprop_twin_medium:
   category_description: turboprop twin medium
 
-172skyhawk:
+172_skyhawk:
   category_description: 172 skyhawk
 
-425conquest:
+425_conquest:
   category_description: 425 conquest 1

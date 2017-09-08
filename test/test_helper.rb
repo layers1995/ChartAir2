@@ -16,8 +16,8 @@ class ActiveSupport::TestCase
 # THIS PROBABLY SHOULDN'T BE HERE BUT I DON'T KNOW HOW TO GET IT IN THE TESTS ANY OTHER WAY
 # make sure to add any updates to the plan_trip_controller
 	def getFees(airplane, fbo, timeUnit = nil, timeLength = 0, landingTime = nil)
-		
-		#multiplier = 1
+
+		classificationDesc = fbo.classification.classification_description
 
 		if !landingTime.nil?
 			landingTime = timeToMinutes(landingTime)
@@ -25,12 +25,21 @@ class ActiveSupport::TestCase
 
 		fees = Fee.where( :fbo => fbo )
 
-		fees = fees.reject do |curFee|
-			curFee.price == 34 or curFee.price == 17
+		# For fees with the wrong engine type
+		fees = fees.reject do |curFee|	
+			curCategory = curFee.category.category_description
 
+			if classificationDesc == "engine type" and curCategory != "flat rate" and curCategory != "no fee" and curCategory != "weight" and curCategory != "weight range"
+				curCategory != airplane.engine_class
+			end
+		end
+
+		# For fees that have a start time and end time that are in the wrong range
+		fees = fees.reject do |curFee|
 			curCategory = curFee.category.category_description
 
 			if !curFee.start_time.nil? and !curFee.end_time.nil? # If the fee has a start time and an end time, make sure it falls in the right time period.
+				
 				startTime = curFee.start_time
 				endTime = curFee.end_time
 				# If the fee skips over midnight, add 1440 minutes (1 day) to the end time so the comparison works properly
@@ -38,29 +47,35 @@ class ActiveSupport::TestCase
 					endTime += 1440
 				end
 
-				landingTime < startTime or landingTime > endTime # reject fees that are outside of the time the plane is landing
+				landingTime < startTime or landingTime > endTime
 			end
+		end
 
+		# For fees that use the wrong time unit
+		fees = fees.reject do |curFee|
 			if !curFee.time_unit.nil? # reject fees that use the wrong time unit
 				curFee.time_unit != timeUnit
 			end
+		end
 
-			#unit_price
-			#unit_magnitude
+		# For fees that are the wrong make/model
+		fees = fees.reject do |curFee|
+			curCategory = curFee.category.category_description
 
-			#free_time_unit
-			airplane.weight < curFee.unit_minimum or airplane.weight > curFee.unit_maximum
+			if classificationDesc == "make and model" and curCategory != "flat rate" and curCategory != "no fee" and curCategory != "weight" and curCategory != "weight range"
+				curCategory != airplane.model
+			end
+		end
+
+		# For fees where the airplane weight doesn't fall in the weight range
+		fees = fees.reject do |curFee|
+			curCategory = curFee.category.category_description
 
 			if curCategory == "weight range" and !curFee.unit_minimum.nil? and !curFee.unit_maximum.nil?
 				airplane.weight < curFee.unit_minimum or airplane.weight > curFee.unit_maximum # reject fees if the airplane weight is less than the minimum or greater than the maximum
 			end
-
-			if curCategory == "weight"
-				# I probably don't need to reject any of these
-			end
 		end
 
-		puts fees.length
 		fees = applyConditionalFees(airplane, fees, timeUnit, timeLength, landingTime)
 		if fees.nil? or fees.length == 0
 			puts "check"
@@ -138,6 +153,9 @@ class ActiveSupport::TestCase
 		feeArray = fees.to_a
 		multiplier = 1
 		fees.each do |curFee|
+
+			tempTimeLength = timeLength
+
 			case curFee.category.category_description
 			when "weight", !curFee.unit_magnitude.nil?, !fees.nil?
 				multiplier = airplane.weight / curFee.unit_magnitude
@@ -155,14 +173,13 @@ class ActiveSupport::TestCase
 			elsif !curFee.time_unit.nil? and !curFee.time_price.nil? and curFee.free_time_length.nil?
 
 				if curFee.price != 0 # If a fee is something like $50 + $30/night, it's $50 the first night, not $80
-					
-					if timeLength >= 1 # wouldn't want negative times
-						timeLength -= 1
+					if tempTimeLength >= 1 # wouldn't want negative times
+						tempTimeLength -= 1
 					end
-					curFee.price += timeLength * curFee.time_price
+					curFee.price += tempTimeLength * curFee.time_price
 
 				else # However, if it's just $30/night, then staying for 1 night would be $30
-					curFee.price += timeLength * curFee.time_price
+					curFee.price += tempTimeLength * curFee.time_price
 				end
 			end		
 

@@ -55,27 +55,27 @@ signature_call_out_one:
   fbo: signature
   category: flat_rate_cat
   price: 35
-  start_time: "18:00"
-  end_time: "23:59"
+  start_time: 1080
+  end_time: 1439
 
 signature_call_out_two:
   fee_type: call_out
   fbo: signature
   category: flat_rate_cat
   price: 40
-  start_time: "0:00"
-  end_time: "6:00"
+  start_time: 0
+  end_time: 360
 
 jet_flair_172_landing:
   fee_type: landing
   fbo: jet_flair
-  category: 172skyhawk
+  category: 172_skyhawk
   price: 40
 
 jet_flair_425_landing:
   fee_type: landing
   fbo: jet_flair
-  category: 425conquest
+  category: 425_conquest
   price: 60
 
 jet_flair_tie_down_free_3_days:
