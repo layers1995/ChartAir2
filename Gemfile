@@ -60,6 +60,8 @@ group :development do
 end
 
 group :production do
+  #used for images
+  gem 'rails_12factor', group: :production
 end
 
 group :test do
