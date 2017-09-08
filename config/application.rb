@@ -10,7 +10,7 @@ module ChartAir2
   class Application < Rails::Application
 
   	config.active_record.time_zone_aware_types = [:datetime, :time]
-    config.serve_static_files = true
+    config.public_file_server.enabled = true
   	config.autoload_paths += Dir["#{config.root}/lib/**/"] # I basically needed this to have helper methods for seeds.rb, it was getting big.
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
