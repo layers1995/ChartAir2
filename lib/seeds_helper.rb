@@ -112,6 +112,7 @@ def singleFeeHelper(fee, fbo, feeType)
 			end
 
 # For fees where the price is based on weight
+# This code is repeated, but I'm not sure which one to take out and don't feel like messing with it now.
 		elsif fee =~ /\$?[0-9.]+\s?per\s?[0-9]+/
 			category = Category.find_by( :category_description => "weight")
 			feeUnitPrice = fee.match(/[0-9.]+/)[0]
@@ -184,7 +185,7 @@ def singleFeeHelper(fee, fbo, feeType)
 
 		feePrice = feeToNumber(feePrice)
 		feeTimePrice = feeToNumber(feeTimePrice)
-		feeUnitPrice = feeToNumber(feeTimePrice)
+		feeUnitPrice = feeToNumber(feeUnitPrice)
 
 		feeType = FeeType.find_by( :fee_type_description => feeType )
 
@@ -246,7 +247,8 @@ def singleFeeHelper(fee, fbo, feeType)
 	end
 
 	def splitRangeIntoEngineTypes(fee, fbo, feeType)
-		feePrice = nil
+
+		feeType = FeeType.find_by( :fee_type_description => feeType )
 
 		lowEnd = fee.scan(/[0-9]+/)[0].to_f
 		lowEnd = feeToNumber(lowEnd)
@@ -255,27 +257,37 @@ def singleFeeHelper(fee, fbo, feeType)
 		range = highEnd - lowEnd
 
 		pistonSinglePrice = lowEnd
-		Fee.create( :fbo => fbo, :fee_type => feeType, :fee_price => singleEnginePistonPrice, :category => Category.find_by( :category_description => "piston single"), :is_estimate => true)
+		Fee.create( :fbo => fbo, :fee_type => feeType, :price => pistonSinglePrice, :category => Category.find_by( :category_description => "piston single"), :is_estimate => true)
 
 		pistonMultiPrice = lowEnd + (range / 10)
-		Fee.create( :fbo => fbo, :fee_type => feeType, :fee_price => pistonMultiPrice, :category => Category.find_by( :category_description => "piston multi"), :is_estimate => true)
+		Fee.create( :fbo => fbo, :fee_type => feeType, :price => pistonMultiPrice, :category => Category.find_by( :category_description => "piston multi"), :is_estimate => true)
 
 		turbopropSingleLightPrice = lowEnd + (range / 9)
-		Fee.create( :fbo => fbo, :fee_type => feeType, :fee_price => turbopropSingleLightPrice, :category => Category.find_by( :category_description => "turboprop single light"), :is_estimate => true)
-
+		Fee.create( :fbo => fbo, :fee_type => feeType, :price => turbopropSingleLightPrice, :category => Category.find_by( :category_description => "turboprop single light"), :is_estimate => true)
 
 		turbopropSingleHeavyPrice = lowEnd + (range / 7)
+		Fee.create( :fbo => fbo, :fee_type => feeType, :price => turbopropSingleHeavyPrice, :category => Category.find_by( :category_description => "turboprop single heavy"), :is_estimate => true)
 
-		turboPropTwinLightPrice = lowEnd + (range / 6)
-		turboPropTwinMediumPrice = lowEnd + (range / 5)
-		turboPropTwinHeavyPrice = lowEnd + (range / 4)
+		turbopropTwinLightPrice = lowEnd + (range / 6)
+		Fee.create( :fbo => fbo, :fee_type => feeType, :price => turbopropTwinLightPrice, :category => Category.find_by( :category_description => "turboprop twin light"), :is_estimate => true)
+
+		turbopropTwinMediumPrice = lowEnd + (range / 5)
+		Fee.create( :fbo => fbo, :fee_type => feeType, :price => turbopropTwinMediumPrice, :category => Category.find_by( :category_description => "turboprop twin medium"), :is_estimate => true)
+
+		turbopropTwinHeavyPrice = lowEnd + (range / 4)
+		Fee.create( :fbo => fbo, :fee_type => feeType, :price => turbopropTwinHeavyPrice, :category => Category.find_by( :category_description => "turboprop twin heavy"), :is_estimate => true)
 
 		lightJetPrice = lowEnd + (range / 3)
-		midsizeJetPrice = lowEnd + (range / 2)
-		superMidsizeJetPrice = lowEnd + (range / 1.5)
-		heavyJetPrice = lowEnd + range
+		Fee.create( :fbo => fbo, :fee_type => feeType, :price => lightJetPrice, :category => Category.find_by( :category_description => "light jet"), :is_estimate => true)
 
-		Fee.create()
+		midsizeJetPrice = lowEnd + (range / 2)
+		Fee.create( :fbo => fbo, :fee_type => feeType, :price => midsizeJetPrice, :category => Category.find_by( :category_description => "midsize jet"), :is_estimate => true)
+
+		superMidsizeJetPrice = lowEnd + (range / 1.5)
+		Fee.create( :fbo => fbo, :fee_type => feeType, :price => superMidsizeJetPrice, :category => Category.find_by( :category_description => "super midsize jet"), :is_estimate => true)
+
+		heavyJetPrice = lowEnd + range
+		Fee.create( :fbo => fbo, :fee_type => feeType, :price => heavyJetPrice, :category => Category.find_by( :category_description => "heavy jet"), :is_estimate => true)
 
 	end
 
@@ -304,7 +316,7 @@ def singleFeeHelper(fee, fbo, feeType)
 		end
 		return fee
 	end
-
+=begin
 	def addFeeByEngineType(feeList, fbo, feeTypeDescription)
 		if !feeList.nil?
 			feeList.split(",").each do |curFee|
@@ -380,7 +392,9 @@ def singleFeeHelper(fee, fbo, feeType)
 			end
 		end
 	end
+=end
 
+=begin
 	def addFeeByWeight(feeList, fbo, feeTypeDescription)
 		feeList.split(",").each do |curFee|
 			if curFee =~ /^[0-9.]+ ?per [0-9]+ ?[a-z]+/
@@ -397,6 +411,7 @@ def singleFeeHelper(fee, fbo, feeType)
 			end
 		end		
 	end
+=end
 
 	def timeToMinutes(time) # takes a time and turns it into the minute of that day so it's easier to compare.
 		time = time.split(":")

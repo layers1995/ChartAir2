@@ -4,17 +4,20 @@ no_fee_cat:
 flat_rate_cat:
   category_description: flat rate
 
+weight:
+  category_description: weight
+
+weight_range:
+  category_description: weight range
+
 piston_single:
   category_description: piston single
 
 turboprop_twin_medium:
   category_description: turboprop twin medium
 
-172skyhawk:
+172_skyhawk:
   category_description: 172 skyhawk
 
-425conquest:
+425_conquest:
   category_description: 425 conquest 1
-
-weight:
-  category_description: weight

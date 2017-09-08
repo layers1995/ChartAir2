@@ -16,12 +16,79 @@ class ActiveSupport::TestCase
 # THIS PROBABLY SHOULDN'T BE HERE BUT I DON'T KNOW HOW TO GET IT IN THE TESTS ANY OTHER WAY
 # make sure to add any updates to the plan_trip_controller
 	def getFees(airplane, fbo, timeUnit = nil, timeLength = 0, landingTime = nil)
-		
+
+		classificationDesc = fbo.classification.classification_description
+
 		if !landingTime.nil?
 			landingTime = timeToMinutes(landingTime)
 		end
 
-		multiplier = 1
+		fees = Fee.where( :fbo => fbo )
+
+		# For fees with the wrong engine type
+		fees = fees.reject do |curFee|	
+			curCategory = curFee.category.category_description
+
+			if classificationDesc == "engine type" and curCategory != "flat rate" and curCategory != "no fee" and curCategory != "weight" and curCategory != "weight range"
+				curCategory != airplane.engine_class
+			end
+		end
+
+		# For fees that have a start time and end time that are in the wrong range
+		fees = fees.reject do |curFee|
+			curCategory = curFee.category.category_description
+
+			if !curFee.start_time.nil? and !curFee.end_time.nil? # If the fee has a start time and an end time, make sure it falls in the right time period.
+				
+				startTime = curFee.start_time
+				endTime = curFee.end_time
+				# If the fee skips over midnight, add 1440 minutes (1 day) to the end time so the comparison works properly
+				if startTime > endTime
+					endTime += 1440
+				end
+
+				landingTime < startTime or landingTime > endTime
+			end
+		end
+
+		# For fees that use the wrong time unit
+		fees = fees.reject do |curFee|
+			if !curFee.time_unit.nil? # reject fees that use the wrong time unit
+				curFee.time_unit != timeUnit
+			end
+		end
+
+		# For fees that are the wrong make/model
+		fees = fees.reject do |curFee|
+			curCategory = curFee.category.category_description
+
+			if classificationDesc == "make and model" and curCategory != "flat rate" and curCategory != "no fee" and curCategory != "weight" and curCategory != "weight range"
+				curCategory != airplane.model
+			end
+		end
+
+		# For fees where the airplane weight doesn't fall in the weight range
+		fees = fees.reject do |curFee|
+			curCategory = curFee.category.category_description
+
+			if curCategory == "weight range" and !curFee.unit_minimum.nil? and !curFee.unit_maximum.nil?
+				airplane.weight < curFee.unit_minimum or airplane.weight > curFee.unit_maximum # reject fees if the airplane weight is less than the minimum or greater than the maximum
+			end
+		end
+
+		fees = applyConditionalFees(airplane, fees, timeUnit, timeLength, landingTime)
+		if fees.nil? or fees.length == 0
+			puts "check"
+			return nil
+		else
+			return fees
+		end
+
+	end
+
+
+
+=begin
 		classification = Classification.find(fbo.classification_id)
 		# get the category based on the classification and the airplane
 		case classification.classification_description
@@ -35,12 +102,10 @@ class ActiveSupport::TestCase
 			category = Category.find_by( :category_description => airplane.model )
 		when "weight range"
 			planeWeight = airplane.weight
-			# I really doubt this will actually work, but that's the idea
 			category = Category.find_by( "minimum < ? AND maximum > ?", planeWeight, planeWeight )
 		when "weight"
 			category = Category.find_by( :category_description => "weight" )
 			#multiplier = airplane.weight / curFee.unit_magnitude
-			# I think this is where I'm going to need to redesign the schema. Maybe just add a column to category saying how much per x the fee is charged. So if it's $5 every 1000 pounds, that new column would be 1000
 		else
 			puts "That wasn't supposed to happen"
 		end
@@ -54,12 +119,13 @@ class ActiveSupport::TestCase
 
 				if !curFee.start_time.nil? and !curFee.end_time.nil? # If the fee has a start time and an end time, make sure it falls in the right time period.
 
+					startTime = timeToMinutes(curFee.start_time)
+					endTime = timeToMinutes(curFee.end_time)
+					
 					# If the fee skips over midnight, add 1440 minutes (1 day) to the end time so the comparison works properly
 					if startTime > endTime
 						endTime += 1440
 					end
-					startTime = timeToMinutes(curFee.start_time)
-					endTime = timeToMinutes(curFee.end_time)
 					landingTime < startTime or landingTime > endTime
 
 				elsif !curFee.time_unit.nil? # reject fees that use the wrong time unit
@@ -73,6 +139,7 @@ class ActiveSupport::TestCase
 			return nil
 		end
 	end
+=end
 
 	def getFeeType(fees, feeType)
 		fees.each do |curFee|
@@ -82,12 +149,15 @@ class ActiveSupport::TestCase
 		end
 	end
 
-	def applyMultiplier(airplane, fees, timeUnit, timeLength, landingTime)
+	def applyConditionalFees(airplane, fees, timeUnit, timeLength, landingTime)
 		feeArray = fees.to_a
 		multiplier = 1
 		fees.each do |curFee|
+
+			tempTimeLength = timeLength
+
 			case curFee.category.category_description
-			when "weight", !curFee.unit_magnitude.nil?
+			when "weight", !curFee.unit_magnitude.nil?, !fees.nil?
 				multiplier = airplane.weight / curFee.unit_magnitude
 			end
 
@@ -95,13 +165,23 @@ class ActiveSupport::TestCase
 				curFee.price += curFee.unit_price * multiplier
 			end
 
-			if !curFee.time_unit.nil? and !curFee.time_price.nil? and curFee.free_time_length.nil?
-				curFee.price += timeLength * curFee.time_price
-			end
-
+			# Check the case where the fbo gives free time before charging
 			if !curFee.free_time_unit.nil? and !curFee.free_time_length.nil? and !curFee.time_unit.nil? and !curFee.time_price.nil? and !timeLength.nil?
 				curFee.price += (timeLength - curFee.free_time_length) * curFee.time_price
-			end
+
+			# If they don't do free stuff
+			elsif !curFee.time_unit.nil? and !curFee.time_price.nil? and curFee.free_time_length.nil?
+
+				if curFee.price != 0 # If a fee is something like $50 + $30/night, it's $50 the first night, not $80
+					if tempTimeLength >= 1 # wouldn't want negative times
+						tempTimeLength -= 1
+					end
+					curFee.price += tempTimeLength * curFee.time_price
+
+				else # However, if it's just $30/night, then staying for 1 night would be $30
+					curFee.price += tempTimeLength * curFee.time_price
+				end
+			end		
 
 		end
 		return feeArray	

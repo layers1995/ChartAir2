@@ -1,14 +1,19 @@
 include SeedsHelper # located at lib/seeds_helper.rb
 
 def main
-	Airplane.delete_all
-	FeeType.delete_all
-	City.delete_all
-	Airport.delete_all
-	Fbo.delete_all
-	Classification.delete_all
-	Category.delete_all
+
 	Fee.delete_all
+	Category.delete_all
+
+	Fbo.delete_all
+	Airport.delete_all
+	City.delete_all
+
+	Airplane.delete_all
+
+	FeeType.delete_all
+	Classification.delete_all
+	
 
 	addAirplanes("airplane_seed_data")
 	addFeeTypes("fee_types")
@@ -137,6 +142,9 @@ def addAirports(filename)
 	airports.each do |curAirport|
 		curAirport = curAirport.strip.downcase
 		airportCode, airportName, ownerPhone, managerPhone, latitude, longitude, state, city = curAirport.split("\t")
+
+		next if state != "il" and state != "oh" and state != "mn" and state != "mi" and state != "in" and state != "az" and state != "co" and state != "ms" and state != "or" and state != "ut" and state != "wv"
+
 		curCity = City.find_by({ :name => city, :state => state })
 # this will create a city if it's not found, but because we don't actually care about the city, it doesn't matter much, and commenting this out avoids duplicates
 		if curCity.nil?
@@ -167,6 +175,11 @@ def addFbos(filePath)
 		curFbo = curFbo.strip.downcase
 
 		state, city, airportName, airportCode, fboName, phone = curFbo.split("\t")
+
+		if state != "il" and state != "oh" and state != "mn" and state != "mi" and state != "in" and state != "az" and state != "co" and state != "ms" and state != "or" and state != "ut" and state != "wv"
+			return
+		end
+
 		phone1 = phone.split(", ")[0]
 		phone2 = phone.split(", ")[1]
 
@@ -242,7 +255,7 @@ def addFeesAndUpdateFbos(filename)
 					end
 				end
 			elsif feeClassification.nil?
-				puts curFbo.name
+				#puts curFbo.name
 				# do nothing
 			else
 				curFbo.update( :classification => feeClassification )
@@ -349,7 +362,7 @@ def addStartupTermData(filename)
 # Create a new FBO based on the data in the call sheet. There will probably be duplicates in the database, but at least we'll have this info
 
 		if !curAirport.nil?
-			curFbo = Fbo.create( :name => fboName, :airport => curAirport, :classification => feeClassification )
+			curFbo = Fbo.find_or_create_by( :name => fboName, :airport => curAirport, :classification => feeClassification )
 	# If the FBO has no fees
 			if hasFees.strip == "no"
 				curCategory = Category.find_by( :category_description => "no fee")
