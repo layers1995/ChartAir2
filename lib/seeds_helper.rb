@@ -121,7 +121,7 @@ def singleFeeHelper(fee, fbo, feeType)
 # If the fee is in a range, we'll need to estimate
 		elsif fee =~ /\A\$?[0-9.]+ ?- ?\$?[0-9.]+\z/
 			#puts fee
-			splitRangeIntoEngineTypes(fee, fbo, feeType)
+			#splitRangeIntoEngineTypes(fee, fbo, feeType)
 			return
 
 
