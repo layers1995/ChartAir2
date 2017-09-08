@@ -1,7 +1,7 @@
 class ChangeFeeTimeToMinutes < ActiveRecord::Migration[5.0]
   def up
-    change_column :fees, :start_time, :integer
-    change_column :fees, :end_time, :integer
+    change_column :fees, :start_time, 'integer USING start_time::integer'
+    change_column :fees, :end_time, 'integer USING start_time::integer'
   end
 
   def down
