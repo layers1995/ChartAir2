@@ -1,0 +1,16 @@
+/* line 1, /home/ubuntu/workspace/app/assets/stylesheets/faq.scss */
+.questionLinks {
+  font-size: 20px;
+  text-align: left;
+  float: left;
+}
+
+/* line 7, /home/ubuntu/workspace/app/assets/stylesheets/faq.scss */
+.titleLeft {
+  color: #666666;
+  font-size: 32px;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #9DC7FF;
+  text-decoration-color: #9DC7FF;
+  padding-bottom: 3%;
+}

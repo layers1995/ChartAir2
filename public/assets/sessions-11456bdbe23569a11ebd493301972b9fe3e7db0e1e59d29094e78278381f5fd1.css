@@ -1,0 +1,148 @@
+/* line 5, /home/ubuntu/workspace/app/assets/stylesheets/sessions.scss */
+body {
+  position: absolute;
+  top: 15%;
+  left: 0%;
+  float: center;
+  font-family: 'tradegothiclt-light',sans-serif;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: right;
+  background-image: url(../img/sky3.png);
+  color: #c9c9c2;
+}
+
+/* line 18, /home/ubuntu/workspace/app/assets/stylesheets/sessions.scss */
+h1 {
+  text-align: center;
+  color: grey;
+}
+
+/* line 23, /home/ubuntu/workspace/app/assets/stylesheets/sessions.scss */
+html {
+  height: 100%;
+  background-image: url(sky3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+/* line 31, /home/ubuntu/workspace/app/assets/stylesheets/sessions.scss */
+#loginBox {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.65);
+  -webkit-border-radius: 25px;
+  border: 10px solid rgba(255, 255, 255, 0.15);
+  left: 39%;
+  top: 20%;
+  padding: 1%;
+  text-align: left;
+  list-style: none;
+}
+
+/* line 43, /home/ubuntu/workspace/app/assets/stylesheets/sessions.scss */
+#newUserBox {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.65);
+  -webkit-border-radius: 25px;
+  border: 10px solid rgba(255, 255, 255, 0.15);
+  left: 39%;
+  top: 10%;
+  padding: 1%;
+  text-align: left;
+  list-style: none;
+}
+
+/* line 55, /home/ubuntu/workspace/app/assets/stylesheets/sessions.scss */
+#belowBox {
+  position: fixed;
+  left: 41.5%;
+  top: 75%;
+}
+
+/* line 61, /home/ubuntu/workspace/app/assets/stylesheets/sessions.scss */
+#input {
+  position: relative;
+  left: 0%;
+  max-width: 100%;
+  -webkit-border-radius: 30px;
+  border-radius: solid 1px white;
+  border: none;
+  text-align: center;
+  background: white;
+  font-size: 20px;
+  font-family: 'tradegothiclt-light',sans-serif;
+}
+
+/* line 74, /home/ubuntu/workspace/app/assets/stylesheets/sessions.scss */
+#loginGroup {
+  position: relative;
+  margin-top: 10%;
+  float: center;
+  text-align: center;
+}
+
+/* line 81, /home/ubuntu/workspace/app/assets/stylesheets/sessions.scss */
+input[type=submit] {
+  min-width: 100%;
+  -webkit-border-radius: 30px;
+  border: solid 2px #81a5d4;
+  border: none;
+  text-align: center;
+  background: #3a8dfd;
+  color: white;
+  font-size: 20px;
+  font-family: 'tradegothiclt-light',sans-serif;
+}
+
+/* line 93, /home/ubuntu/workspace/app/assets/stylesheets/sessions.scss */
+.smaller {
+  position: relative;
+  left: 40%;
+  width: 50px;
+  height: auto;
+}
+
+/* line 100, /home/ubuntu/workspace/app/assets/stylesheets/sessions.scss */
+.logo {
+  position: relative;
+  left: 0%;
+  width: 250px;
+  height: auto;
+}
+
+/* line 107, /home/ubuntu/workspace/app/assets/stylesheets/sessions.scss */
+footer {
+  position: fixed;
+  bottom: 0%;
+  left: 40%;
+  color: #ffffff;
+}
+/* line 113, /home/ubuntu/workspace/app/assets/stylesheets/sessions.scss */
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 119, /home/ubuntu/workspace/app/assets/stylesheets/sessions.scss */
+#error {
+  color: #f26060;
+}
+
+/* line 123, /home/ubuntu/workspace/app/assets/stylesheets/sessions.scss */
+.flash {
+  color: #F46666;
+}
+
+/* line 127, /home/ubuntu/workspace/app/assets/stylesheets/sessions.scss */
+.loginInfo {
+  position: relative;
+  float: center !important;
+  text-align: center !important;
+  color: darkgray;
+}
+
+/* line 134, /home/ubuntu/workspace/app/assets/stylesheets/sessions.scss */
+.error {
+  color: #F46666;
+}
