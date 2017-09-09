@@ -131,3 +131,33 @@ weight_fbo_ramp:
   price: 5
   unit_price: 7
   unit_magnitude: 1000
+
+not_specific_fbo_landing:
+  fee_type: landing
+  fbo: not_specific_fbo
+  category: piston
+  price: 32
+
+not_specific_fbo_ramp_piston_multi:
+  fee_type: ramp
+  fbo: not_specific_fbo
+  category: piston_multi
+  price: 39
+
+not_specific_fbo_ramp_piston_single:
+  fee_type: ramp
+  fbo: not_specific_fbo
+  category: piston_single
+  price: 19
+
+missing_category_fbo_landing_turboprop_twin_heavy:
+  fee_type: landing
+  fbo: missing_category_fbo
+  category: turboprop_twin_heavy
+  price: 18
+
+missing_category_fbo_landing_turboprop_twin_light:
+  fee_type: landing
+  fbo: missing_category_fbo
+  category: turboprop_twin_light
+  price: 16

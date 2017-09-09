@@ -33,3 +33,9 @@ gravity_falls_airport:
   latitude: "42"
   longitude: "666"
 
+midway:
+  city: chicago
+  airport_code: mdw
+  name : midway international airport
+  latitude: "5"
+  longitude: "12"

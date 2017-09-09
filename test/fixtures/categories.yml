@@ -13,8 +13,20 @@ weight_range:
 piston_single:
   category_description: piston single
 
+piston_multi:
+  category_description: piston multi
+
+piston:
+  category_description: piston
+
+turboprop_twin_light:
+  category_description: turboprop twin light
+
 turboprop_twin_medium:
   category_description: turboprop twin medium
+
+turboprop_twin_heavy:
+  category_description: turboprop twin heavy
 
 172_skyhawk:
   category_description: 172 skyhawk

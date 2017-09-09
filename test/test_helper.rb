@@ -23,14 +23,121 @@ class ActiveSupport::TestCase
 			landingTime = timeToMinutes(landingTime)
 		end
 
+
 		fees = Fee.where( :fbo => fbo )
+
+		isEstimate = false
+
+# Figure out if categories are missing so that the data retrieval is more complete
+# WWWWHHHEEEEEEEEE
+		if classificationDesc == "engine type"
+# doesn't have piston multi light
+			if !hasCategory(fees, "piston multi light") and hasCategory(fees, "piston multi heavy") and airplane.engine_class == "piston multi light"
+				airplane.engine_class = "piston multi heavy"
+				isEstimate = true
+# doesn't have piston multi heavy
+			elsif !hasCategory(fees, "piston multi heavy") and hasCategory(fees, "piston multi light") and airplane.engine_class == "piston multi heavy"
+				airplane.engine_class = "piston multi light"
+				isEstimate = true
+# doesn't have turboprop single heavy
+			elsif !hasCategory(fees, "turboprop single heavy") and hasCategory(fees, "turboprop single light") and airplane.engine_class == "turboprop single heavy"
+				airplane.engine_class = "turboprop single light"
+				isEstimate = true
+# doesn't have turboprop single light
+			elsif !hasCategory(fees, "turboprop single light") and hasCategory(fees, "turboprop single heavy") and airplane.engine_class == "turboprop single light"
+				airplane.engine_class = "turboprop single heavy"
+				isEstimate = true
+# doesn't have turboprop twin light
+			elsif !hasCategory(fees, "turboprop twin light") and hasCategory(fees, "turboprop twin medium") and airplane.engine_class == "turboprop twin light"
+				airplane.engine_class = "turboprop twin medium"
+				isEstimate = true
+			elsif !hasCategory(fees, "turboprop twin light") and hasCategory(fees, "turboprop twin heavy") and airplane.engine_class == "turboprop twin light"
+				airplane.engine_class = "turboprop twin heavy"
+				isEstimate = true
+# doesn't have turboprop twin medium
+			elsif !hasCategory(fees, "turboprop twin medium") and hasCategory(fees, "turboprop twin heavy") and airplane.engine_class == "turboprop twin medium"
+				airplane.engine_class = "turboprop twin heavy"
+				isEstimate = true
+			elsif !hasCategory(fees, "turboprop twin medium") and hasCategory(fees, "turboprop twin light") and airplane.engine_class == "turboprop twin medium"
+				airplane.engine_class = "turboprop twin light"
+				isEstimate = true
+# doesn't have turboprop twin heavy
+			elsif !hasCategory(fees, "turboprop twin heavy") and hasCategory(fees, "turboprop twin medium") and airplane.engine_class == "turboprop twin heavy"
+				airplane.engine_class = "turboprop twin medium"
+				isEstimate = true
+			elsif !hasCategory(fees, "turboprop twin heavy") and hasCategory(fees, "turboprop twin light") and airplane.engine_class == "turboprop twin heavy"
+				airplane.engine_class = "turboprop twin light"
+				isEstimate = true
+# doesn't have light jet
+			elsif !hasCategory(fees, "light jet") and hasCategory(fees, "midsize jet") and airplane.engine_class == "light jet"
+				airplane.engine_class = "midsize jet"
+				isEstimate = true
+			elsif !hasCategory(fees, "light jet") and hasCategory(fees, "super midsize jet") and airplane.engine_class == "light jet"
+				airplane.engine_class = "super midsize jet"
+				isEstimate = true
+			elsif !hasCategory(fees, "light jet") and hasCategory(fees, "heavy jet") and airplane.engine_class == "light jet"
+				airplane.engine_class = "heavy jet"
+				isEstimate = true
+# doesn't have midsize jet
+			elsif !hasCategory(fees, "midsize jet") and hasCategory(fees, "super midsize jet") and airplane.engine_class == "midsize jet"
+				airplane.engine_class = "super midsize jet"
+				isEstimate = true
+			elsif !hasCategory(fees, "midsize jet") and hasCategory(fees, "light jet") and airplane.engine_class == "midsize jet"
+				airplane.engine_class = "light jet"
+				isEstimate = true
+			elsif !hasCategory(fees, "midsize jet") and hasCategory(fees, "heavy jet") and airplane.engine_class == "midsize jet"
+				airplane.engine_class = "heavy jet"
+				isEstimate = true
+# doesn't have super midsize jet
+			elsif !hasCategory(fees, "super midsize jet") and hasCategory(fees, "heavy jet") and airplane.engine_class == "super midsize jet"
+				airplane.engine_class = "heavy jet"
+				isEstimate = true
+			elsif !hasCategory(fees, "super midsize jet") and hasCategory(fees, "midsize jet") and airplane.engine_class == "super midsize jet"
+				airplane.engine_class = "midsize jet"
+				isEstimate = true
+			elsif !hasCategory(fees, "super midsize jet") and hasCategory(fees, "light jet") and airplane.engine_class == "super midsize jet"
+				airplane.engine_class = "light jet"
+				isEstimate = true
+# doesn't have heavy jet
+			elsif !hasCategory(fees, "heavy jet") and hasCategory(fees, "super midsize jet") and airplane.engine_class == "heavy jet"
+				airplane.engine_class = "super midsize jet"
+				isEstimate = true
+			elsif !hasCategory(fees, "heavy jet") and hasCategory(fees, "midsize jet") and airplane.engine_class == "heavy jet"
+				airplane.engine_class = "midsize jet"
+				isEstimate = true
+			elsif !hasCategory(fees, "heavy jet") and hasCategory(fees, "light jet") and airplane.engine_class == "heavy jet"
+				airplane.engine_class = "light"
+				isEstimate = true
+			end
+		end
+
 
 		# For fees with the wrong engine type
 		fees = fees.reject do |curFee|	
+			if isEstimate
+				curFee.is_estimate = true
+			end
 			curCategory = curFee.category.category_description
 
 			if classificationDesc == "engine type" and curCategory != "flat rate" and curCategory != "no fee" and curCategory != "weight" and curCategory != "weight range"
-				curCategory != airplane.engine_class
+				if curCategory == "jet"
+					!airplane.engine_class =~ /jet/
+
+				elsif curCategory == "turboprop"
+					!airplane.engine_class =~ /turboprop/
+				elsif curCategory == "turboprop single"
+					!airplane.engine_class =~ /turboprop single/
+				elsif curCategory == "turboprop multi"
+					!airplane.engine_class =~ /turboprop multi/
+
+				elsif curCategory == "piston"
+					!airplane.engine_class =~ /piston/
+				elsif curCategory == "piston multi"
+					!airplane.engine_class =~ /piston multi/
+
+				else
+					curCategory != airplane.engine_class
+				end
 			end
 		end
 
@@ -83,63 +190,7 @@ class ActiveSupport::TestCase
 		else
 			return fees
 		end
-
 	end
-
-
-
-=begin
-		classification = Classification.find(fbo.classification_id)
-		# get the category based on the classification and the airplane
-		case classification.classification_description
-		when "no fee"
-			category = Category.find_by( :category_description => "no fee" )
-		when "flat rate"
-			category = Category.find_by( :category_description => "flat rate" )
-		when "engine type"
-			category = Category.find_by( :category_description => airplane.engine_class )
-		when "make and model"
-			category = Category.find_by( :category_description => airplane.model )
-		when "weight range"
-			planeWeight = airplane.weight
-			category = Category.find_by( "minimum < ? AND maximum > ?", planeWeight, planeWeight )
-		when "weight"
-			category = Category.find_by( :category_description => "weight" )
-			#multiplier = airplane.weight / curFee.unit_magnitude
-		else
-			puts "That wasn't supposed to happen"
-		end
-
-		# return all fees where the category and fbo match what we're looking for. Should be up to 6 fees based on the different fee types
-		if !category.nil? # make sure that the category actually exists before trying to return anything
-			fees = Fee.where( category: [category, Category.find_by( :category_description => "flat rate")], :fbo => fbo )
-
-			fees = fees.reject do |curFee|
-# Get rid of the fees that aren't supposed to be there for this search
-
-				if !curFee.start_time.nil? and !curFee.end_time.nil? # If the fee has a start time and an end time, make sure it falls in the right time period.
-
-					startTime = timeToMinutes(curFee.start_time)
-					endTime = timeToMinutes(curFee.end_time)
-					
-					# If the fee skips over midnight, add 1440 minutes (1 day) to the end time so the comparison works properly
-					if startTime > endTime
-						endTime += 1440
-					end
-					landingTime < startTime or landingTime > endTime
-
-				elsif !curFee.time_unit.nil? # reject fees that use the wrong time unit
-					curFee.time_unit != timeUnit
-				end
-			end
-
-			fees = applyMultiplier(airplane, fees, timeUnit, timeLength, landingTime)
-			return fees
-		else
-			return nil
-		end
-	end
-=end
 
 	def getFeeType(fees, feeType)
 		fees.each do |curFee|
@@ -147,6 +198,15 @@ class ActiveSupport::TestCase
 				return curFee
 			end
 		end
+	end
+
+	def hasCategory(fees, category)
+		fees.each do |curFee|
+			if curFee.category.category_description == category
+				return true
+			end
+		end
+		return false
 	end
 
 	def applyConditionalFees(airplane, fees, timeUnit, timeLength, landingTime)
