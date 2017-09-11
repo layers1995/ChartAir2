@@ -225,7 +225,6 @@ footer{
 	background-color: #f9f9f9;
 	text-align: justify;
 	padding: 3%;
-	border: 1px solid lightgray;
 }
 
 .summaryNotice{
@@ -281,11 +280,12 @@ footer{
 }
 
 #ourTeamTable tr{
-	background-color: none !important;
+	background-color: white !important;
 }
 
 #ourTeamTable{
 	table-layout: fixed;
+	background: white;
 	width: 100%;
 }
 
