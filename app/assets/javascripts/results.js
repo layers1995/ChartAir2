@@ -425,7 +425,7 @@ function linkToBookTrip(index){
     var time= gon.time;
     var time2 =gon.time2;
     var cost=feeDict[fboName]["total"];
-    window.location='https://chartair.us/book_trip?fbo='+fboName+'&airport='+airportName+'&cost='+cost+'&tailnumber='+tailnumber+'&time='+time+'&time2='+time2;
+    window.location='https://www.chartair.us/book_trip?fbo='+fboName+'&airport='+airportName+'&cost='+cost+'&tailnumber='+tailnumber+'&time='+time+'&time2='+time2;
 }
 
 function createGoogleMap(mapDetails){
