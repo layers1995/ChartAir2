@@ -2,33 +2,35 @@ no fee
 flat rate
 weight
 weight range
+
+piston
 piston single
 piston multi
 piston multi light
 piston multi heavy
+turboprop
+turboprop single
+turboprop twin
 turboprop single light
 turboprop single heavy
 turboprop twin light
 turboprop twin medium
 turboprop twin heavy
-turboprop multi
 jet
+light jet
+midsize jet
+super midsize jet
+heavy jet
 radial single
 radial multi
-turboshaft single
-turboshaft multi
+helicopter light
+helicopter heavy
 propfan single
 propfan multi
 rotary single
 rotary multi
 rocket single
 rocket multi
-light jet
-midsize jet
-super midsize jet
-heavy jet
-single engine jet
-multi engine jet
 piston rotorcraft
 turbine single rotorcraft
 turbine multi rotorcraft

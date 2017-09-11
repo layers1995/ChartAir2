@@ -1,6 +1,7 @@
 include SeedsHelper # located at lib/seeds_helper.rb
 
 def main
+# Delete stuff
 
 	Fee.delete_all
 	Category.delete_all
@@ -14,6 +15,7 @@ def main
 	FeeType.delete_all
 	Classification.delete_all
 	
+# Add stuff	
 
 	addAirplanes("airplane_seed_data")
 	addFeeTypes("fee_types")
@@ -32,7 +34,7 @@ def main
 	addFeeFolder("call_sheets")
 	addStartupTermData("survey_responses.tsv")
 
-# TODO addFbos and addStartupTermData both add FBOs to the database, figure it out.
+# TODO addFbos and addStartupTermData both add FBOs to the database, figure it out. Solution was to remove the fbos from states that we covered during startup term.
 end
 
 def addJetAirplanes()
@@ -56,50 +58,82 @@ def addAirplanes(filename)
 	airplaneTypes.each do |curPlane|
 		curPlane = curPlane.strip.downcase
 		manufacturer, country, planeModel, planeClass, numCrew, numPassengers, engineType, range, emptyWeight, maxWeight, wingspan, wingArea, length, height = curPlane.split("\t")
+		if !engineType =~ /[0-9]+/
+			puts engineType
+		end
+
+		maxWeight = maxWeight.to_i
+
 		next unless engineType =~ /[0-9]+/
 		numEngines = engineType.match(/[0-9]+/)[0].to_i
 		engineType = engineType.gsub(/[0-9]/, "").strip
 		engineCategory = nil
 # multi engines
 		if numEngines > 1 
-			if engineType =~ /piston/
-				engineCategory = "piston multi"
-			elsif engineType =~ /turboprop/
-				engineCategory = "turboprop multi"
+			if engineType =~ /piston/ # done
+				if maxWeight > 8000
+					engineCategory = "piston multi heavy"
+				else
+					engineCategory = "piston multi light"	
+				end
+			elsif engineType =~ /turboprop/ # done
+				if maxWeight > 15000
+					engineCategory = "turboprop twin heavy"
+				elsif maxWeight > 11000
+					engineCategory = "turboprop twin medium"
+				else
+					engineCategory = "turboprop twin light"
+				end
+					
 			elsif engineType =~ /turbofan/
-				engineCategory = "jet"
-			elsif engineType =~ /turbojet/
+				if maxWeight > 40000
+					engineCategory = "heavy jet"
+				elsif maxWeight > 35000
+					engineCategory = "super midsize jet"
+				elsif maxWeight > 12500
+					engineCategory = "midsize jet"
+				else
+					engineCategory = "light jet"
+				end
+
+			elsif engineType =~ /turbojet/ # I never see these
 				engineCategory = "turbojet"
-			elsif engineType =~ /radial/
+			elsif engineType =~ /radial/ # I never see these
 				engineCategory = "radial multi"
-			elsif engineType =~ /turboshaft/
+			elsif engineType =~ /turboshaft/ # helicopters
 				engineCategory = "turboshaft multi"			
-			elsif engineType =~ /propfan/
+			elsif engineType =~ /propfan/ # I never see these
 				engineCategory = "propfan multi"	
-			elsif engineType =~ /rotary/
+			elsif engineType =~ /rotary/ # I never see these
 				engineCategory = "rotary multi"
-			elsif engineType =~ /rocket/
+			elsif engineType =~ /rocket/ # I never see these... woosh!
 				engineCategory = "rocket multi"
 			end
+
 # single engines
 		elsif numEngines == 1
 			if engineType =~ /piston/
-				engineCategory = "piston single"
+				engineCategory = "piston single" # done
 			elsif engineType =~ /turboprop/
-				engineCategory = "turboprop single"
-			elsif engineType =~ /turbofan/
-				engineCategory = "jet"
-			elsif engineType =~ /turbojet/
+				if maxWeight > 7500
+					engineCategory = "turboprop single heavy"
+				else
+					engineCategory = "turboprop single light"
+				end
+			elsif engineType =~ /turbofan/ # done
+				engineCategory = "midsize jet"
+
+			elsif engineType =~ /turbojet/ # The majority of these are military
 				engineCategory = "turbojet"
-			elsif engineType =~ /radial/
+			elsif engineType =~ /radial/ # I never see these
 				engineCategory = "radial single"
-			elsif engineType =~ /turboshaft/
-				engineCategory = "turboshaft single"
-			elsif engineType =~ /propfan/
+			elsif engineType =~ /turboshaft/ # helicopters
+				engineCategory = "helicopter light"
+			elsif engineType =~ /propfan/ # I never see these
 				engineCategory = "propfan single"
-			elsif engineType =~ /rotary/
+			elsif engineType =~ /rotary/ # I never see these
 				engineCategory = "rotary single"
-			elsif engineType =~ /rocket/
+			elsif engineType =~ /rocket/ # I never see these... woosh!
 				engineCategory = "rocket single"
 			end
 		end
@@ -143,7 +177,7 @@ def addAirports(filename)
 		curAirport = curAirport.strip.downcase
 		airportCode, airportName, ownerPhone, managerPhone, latitude, longitude, state, city = curAirport.split("\t")
 
-		next if state != "il" and state != "oh" and state != "mn" and state != "mi" and state != "in" and state != "az" and state != "co" and state != "ms" and state != "or" and state != "ut" and state != "wv"
+		next if state != "il" and state != "oh" and state != "mn" and state != "mi" and state != "in" and state != "az" and state != "co" and state != "ky" and state != "mo" and state != "ms" and state!= "nv" and state != "or" and state != "ut" and state != "wv"
 
 		curCity = City.find_by({ :name => city, :state => state })
 # this will create a city if it's not found, but because we don't actually care about the city, it doesn't matter much, and commenting this out avoids duplicates
@@ -176,7 +210,7 @@ def addFbos(filePath)
 
 		state, city, airportName, airportCode, fboName, phone = curFbo.split("\t")
 
-		if state != "il" and state != "oh" and state != "mn" and state != "mi" and state != "in" and state != "az" and state != "co" and state != "ms" and state != "or" and state != "ut" and state != "wv"
+		if state != "il" and state != "oh" and state != "mn" and state != "mi" and state != "in" and state != "az" and state != "co" and state != "ky" and state != "mo" and state != "ms" and state!= "nv" and state != "or" and state != "ut" and state != "wv"
 			return
 		end
 

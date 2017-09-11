@@ -16,3 +16,29 @@ cessna425:
   wingspan: 530
   length: 430
 
+cessna426:
+  manufacturer: cessna
+  model: 426 bombquest 2
+  engine_class: turboprop twin light
+  weight: 6
+
+cessna427:
+  manufacturer: cessna
+  model: 427 adventurequest
+  engine_class: turboprop twin heavy
+  weight: 50000
+
+cessna173:
+  manufacturer: cessna
+  model: 173 skyrock
+  engine_class: piston multi light
+  weight: 6000
+
+cessna174:
+  manufacturer: cessna
+  model: 174 slyhawk
+  engine_class: piston multi heavy
+  weight: 10000
+
+
+

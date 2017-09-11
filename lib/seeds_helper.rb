@@ -121,8 +121,7 @@ def singleFeeHelper(fee, fbo, feeType)
 
 # If the fee is in a range, we'll need to estimate
 		elsif fee =~ /\A\$?[0-9.]+ ?- ?\$?[0-9.]+\z/
-			#puts fee
-			#splitRangeIntoEngineTypes(fee, fbo, feeType)
+			splitRangeIntoEngineTypes(fee, fbo, feeType)
 			return
 
 
@@ -135,7 +134,7 @@ def singleFeeHelper(fee, fbo, feeType)
 			#puts "no category " + fee
 		end
 
-		if category.nil?
+		if category.nil? or category.category_description.nil?
 			#puts "category not found " + fee
 			return
 		end
@@ -145,6 +144,9 @@ def singleFeeHelper(fee, fbo, feeType)
 		if fee =~ /\$?[0-9.]+\/[a-z]+/
 			feeTime = fee.match(/\$?[0-9.]+\/[a-z]+/)[0]
 			feeTimeUnit = feeTime.match(/[a-z]+/)[0]
+			if feeTimeUnit == "night"
+				feeTimeUnit = "day"
+			end
 			feeTimePrice = feeTime.match(/[0-9.]+/)[0]
 			foundFee = true
 		end
@@ -180,6 +182,9 @@ def singleFeeHelper(fee, fbo, feeType)
 			freeFee = fee.match(/[0-9]+ [a-z]+ free/)[0]
 			feeFreeTimeMagnitude = freeFee.match(/[0-9]+/)[0]
 			feeFreeTimeUnit = freeFee.match(/[a-z]+/)[0]
+			if feeFreeTimeUnit == "night"
+				feeFreetimeUnit = "day"
+			end
 			foundFee = true
 		end
 

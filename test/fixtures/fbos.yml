@@ -50,4 +50,16 @@ nil_classification_fbo:
   airport: nowhere_airport
   name: even smaller fbo
   phone: 777-777-7777
+
+not_specific_fbo:
+  airport: midway
+  classification: engine_type
+  name: not specific fbo
+  phone: 888-888-8888
+
+missing_category_fbo:
+  airport: midway
+  classification: engine_type
+  name: more specific fbo
+  phone: 999-999-9999
   

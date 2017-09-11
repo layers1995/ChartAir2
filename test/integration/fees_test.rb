@@ -293,4 +293,108 @@ class FeesTest < ActionDispatch::IntegrationTest
 		assert_equal(12, targetFee.price)
 	end
 
+	test "consolidated categories" do
+		@notSpecific = fbos(:not_specific_fbo)
+		@cessna173 = airplanes(:cessna173)
+		@cessna174 = airplanes(:cessna174)
+
+		landing172 = nil
+		curFees = getFees(@cessna172, @notSpecific)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "landing"
+				landing172 = curFee
+			end
+		end
+
+		landing173 = nil
+		curFees = getFees(@cessna173, @notSpecific)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "landing"
+				landing173 = curFee
+			end
+		end
+
+		landing174 = nil
+		curFees = getFees(@cessna174, @notSpecific)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "landing"
+				landing174 = curFee
+			end
+		end
+
+
+		assert_equal(32, landing172.price)
+		assert_equal(32, landing173.price)
+		assert_equal(32, landing174.price)
+
+		ramp172 = nil
+		curFees = getFees(@cessna172, @notSpecific)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "ramp"
+				ramp172 = curFee
+			end
+		end
+
+		assert_equal(19, ramp172.price)
+
+		ramp173 = nil
+		curFees = getFees(@cessna173, @notSpecific)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "ramp"
+				ramp173 = curFee
+			end
+		end
+
+		assert_equal(39, ramp173.price)
+
+		ramp174 = nil
+		curFees = getFees(@cessna174, @notSpecific)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "ramp"
+				ramp174 = curFee
+			end
+		end
+
+		assert_equal(39, ramp174.price)
+	end
+
+	test "fbo does not have a category" do # What if they only have heavy and light turboprops, for example?
+		@missingCategory = fbos(:missing_category_fbo)
+		@cessna425 = airplanes(:cessna425)
+		@cessna426 = airplanes(:cessna426)
+		@cessna427 = airplanes(:cessna427)
+
+		landing425 = nil
+		curFees = getFees(@cessna425, @missingCategory)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "landing"
+				landing425 = curFee
+			end
+		end
+		assert_equal(true, landing425.is_estimate)
+		assert_equal(18, landing425.price)
+
+		landing426 = nil
+		curFees = getFees(@cessna426, @missingCategory)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "landing"
+				landing426 = curFee
+			end
+		end
+
+		assert_equal(true, landing425.is_estimate)
+		assert_equal(16, landing426.price)
+
+		landing427 = nil
+		curFees = getFees(@cessna427, @missingCategory)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "landing"
+				landing427 = curFee
+			end
+		end
+		
+		assert_equal(true, landing425.is_estimate)
+		assert_equal(18, landing427.price)
+	end
+
 end
