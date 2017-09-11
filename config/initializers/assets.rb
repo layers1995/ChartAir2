@@ -13,6 +13,18 @@ Rails.application.config.assets.precompile += %w( base.css )
 Rails.application.config.assets.precompile += %w( plan_trip.css )
 Rails.application.config.assets.precompile += %w( plan_trip_results.css )
 
+#images
+Rails.application.config.assets.precompile += %w(sky3.jpg)
+Rails.application.config.assets.precompile += %w(arrowImage.png)
+Rails.application.config.assets.precompile += %w(browserlogo_icon.ico)
+Rails.application.config.assets.precompile += %w(chartairWhiteLogo.png)
+Rails.application.config.assets.precompile += %w(clare.jpg)
+Rails.application.config.assets.precompile += %w(flagIcon.png)
+Rails.application.config.assets.precompile += %w(logan.jpg)
+Rails.application.config.assets.precompile += %w(madison.jpg)
+Rails.application.config.assets.precompile += %w(olivia.jpg)
+Rails.application.config.assets.precompile += %w(logoBright4.png)
+
 #javascripts
 Rails.application.config.assets.precompile += %w( addPlane.js )
 Rails.application.config.assets.precompile += %w( planTrip.js )
