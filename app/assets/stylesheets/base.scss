@@ -30,10 +30,11 @@ header{
 	
 	.item{
 		font-size: 20px;
+		color: white !important;
 		a{
 			padding: 10px;
 			text-decoration: none;
-			color: white;
+			color: white !important;
 		}
 	}
 	
@@ -275,7 +276,7 @@ footer{
 }
 
 #ourTeamTable{
-	table-layout: auto;
+	table-layout: fixed;
 }
 
 .small{

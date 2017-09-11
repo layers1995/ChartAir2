@@ -8,8 +8,10 @@
         <td  class="columnTitles">Destination</td>
         <td  class="columnTitles">FBO</td>
         <td  class="columnTitles">Phone Number</td>
-        <td  class="columnTitles">Time and Date</td>
+        <td  class="columnTitles">Arrival</td>
+        <td  class="columnTitles">Depart</td>
         <td  class="columnTitles">Airplane</td>
+        <td  class="columnTitles">User Email</td>
         <td  class="columnTitles">Tail number</td>
         <td  class="columnTitles">Trip Details</td>
         <td  class="columnTitles">Cost</td>
@@ -23,10 +25,16 @@
           <td><%=Fbo.find_by(:id => trip["fbo_id"]).name%></td>
           <td><%=Airport.find_by(:id => trip["airport_id"]).managerPhone%></td>
           <td><%=trip["arrival_time"]%></td>
+          <td><%=trip["depart_time"]%></td>
           <td><%=Airplane.find_by(:id => AirplaneUser.find_by(:id =>trip["airplane_user_id"]).airplane_id).manufacturer%> <%=Airplane.find_by(:id => AirplaneUser.find_by(:id =>trip["airplane_user_id"]).airplane_id).model%></td>
+          <td><%=User.find_by(:id => trip["user_id"]).email%></td>
           <td><%=trip["tailnumber"]%></td>
           <td><%=trip["detail"]%></td>
-          <td>$<%=trip["cost"]%></td>
+          <% if trip["cost"]==1000001%>
+              <td>$Unknown</td>
+          <%else%>
+              <td>$<%=trip["cost"]%></td>
+          <%end%>
           <td><%= link_to "Confirm Trip", confirm_trip_path(:trip_id => trip["id"]), method: :post%></td>
           <td><%= link_to "Mark Issue", problem_trip_path(:trip_id => trip["id"], :problem => "issue")%></td>
           <td><%= link_to "Cancel Trip", problem_trip_path(:trip_id => trip["id"], :problem => "cancelled")%></td>

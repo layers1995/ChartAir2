@@ -16,7 +16,7 @@ class UsersController < ApplicationController
       @user = User.new(user_params)
       
       if @user.save
-        flash[:success] = "Thank you for joining ChartAir"
+        #flash[:success] = "Thank you for joining ChartAir"
         UserMailer.welcome_email(@user).deliver_now
         log_in @user
         redirect_to home_path

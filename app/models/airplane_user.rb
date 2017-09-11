@@ -2,7 +2,7 @@ class AirplaneUser < ApplicationRecord
     
     attr_accessor :manufacturer, :model
     
-    validates :tailnumber, presence: true, length: { maximum: 6 }
+    validates :tailnumber, presence: true
     validate :tailnumber_unquie_user_can_see
     
     

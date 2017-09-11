@@ -64,13 +64,9 @@ class TripsController < ApplicationController
     trip_status= "pending";
     airplane_user_id=AirplaneUser.find_by(:tailnumber => params[:tailnumber], :user_can_see => true).id
     arrival_time=DateTime.parse(params[:start_datetime])
+    depart_time=DateTime.parse(params[:depart_time])
     
-    if arrival_time < Date.tomorrow
-      flash[:notice] = "Trips must be booked at least 24 hours in advance."
-      redirect_to :back and return 
-    end
-    
-    Trip.create(:airport_id => airport_id, :fbo_id => fbo_id, :user_id => user_id, :tailnumber => params[:tailnumber], :airplane_user_id => airplane_user_id ,:cost => params["cost"].to_i, :detail => params[:detail], :trip_status => trip_status, :arrival_time => arrival_time)
+    Trip.create(:depart_time => depart_time, :airport_id => airport_id, :fbo_id => fbo_id, :user_id => current_user.id, :tailnumber => params[:tailnumber], :airplane_user_id => airplane_user_id ,:cost => params["cost"].to_i, :detail => params[:detail], :trip_status => trip_status, :arrival_time => arrival_time)
     
     redirect_to "/trips"
     

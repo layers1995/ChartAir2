@@ -78,7 +78,8 @@ class PlanTripController < ApplicationController
     	    
     	  #make a dictorany given the FBO name  
     	  feeDict[fbo.name]= {}
-    	  feeTotal=0;
+    	  feeTotal=0
+    	  estimated=false
     	  
     	  #get all the fees at a given airport
         if !fbo.classification_id.nil?
@@ -91,6 +92,11 @@ class PlanTripController < ApplicationController
             #name of the fee and the price
             feeTotal+=fee.price
             feeDict[fbo.name][FeeType.find_by(:id => fee.fee_type_id).fee_type_description]=fee.price
+            
+            if fee.is_estimate
+              estimated=true
+            end
+            
           end
         end
     	  
@@ -101,6 +107,7 @@ class PlanTripController < ApplicationController
     	  feeDict[fbo.name]["distance"]= fboAirport.withinRadius(curCity.latitude,curCity.longitude,params[:plan_trip][:distance].to_f).to_i.to_s + " (mi)";
     	  feeDict[fbo.name]["latitude"]=fboAirport.latitude;
     	  feeDict[fbo.name]["longitude"]=fboAirport.longitude;
+    	  feeDict[fbo.name]["estimated"]=estimated
     	  
     	end
     	
@@ -272,7 +279,7 @@ class PlanTripController < ApplicationController
       end 
       
       if (plan_trip_params[:distance].to_i)>76
-          flash[:n4]=["Distance can not be over 75 miles"]
+          flash[:n4]="Distance can not be over 75 miles"
       end 
   end
  
