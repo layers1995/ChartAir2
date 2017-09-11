@@ -229,12 +229,13 @@ footer{
 }
 
 .summaryNotice{
-	color: gray;
+	color: darkgray;
 	font-size: 18px;
 	background-color: #fff0ad;
 	text-align: justify;
 	padding: 1%;
-	border: 1px solid lightgray;
+	-webkit-border-radius: 10px;
+	border: 3px solid #e49100;
 }
 
 .summaryAboutUs{
