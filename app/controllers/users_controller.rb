@@ -19,7 +19,7 @@ class UsersController < ApplicationController
         #flash[:success] = "Thank you for joining ChartAir"
         UserMailer.welcome_email(@user).deliver_now
         log_in @user
-        redirect_to "static_pages#home"
+        redirect_to home_path
       else
         render 'new'
       end
