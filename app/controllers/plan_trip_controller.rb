@@ -54,7 +54,7 @@ class PlanTripController < ApplicationController
     	#get the current city
     	curCity= City.find_by(:name => params[:plan_trip][:city], :state => params[:plan_trip][:state])
     	#get a refrence to the airplane being used
-    	curAirplane= Airplane.find_by(:id => AirplaneUser.find_by(:tailnumber => @tailnumber).airplane_id)
+    	curAirplane= Airplane.find_by(:id => AirplaneUser.find_by(:tailnumber => @tailnumber, :user_id => current_user.id).airplane_id)
     	
     	#Find all the airports within the area
     	airports=Airport.all

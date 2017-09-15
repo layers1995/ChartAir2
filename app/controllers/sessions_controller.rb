@@ -11,7 +11,8 @@ class SessionsController < ApplicationController
     
     if user && user.authenticate(params[:session][:password])
       log_in user
-      remember user
+      loginInfo=Login.new(:user_id => current_user.id)
+      loginInfo.save
       redirect_to profile_url
     else
       flash.now[:danger] = 'Invalid email/password combination'

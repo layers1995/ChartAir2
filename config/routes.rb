@@ -34,6 +34,7 @@ Rails.application.routes.draw do
   get '/help',  to:'static_pages#help'
   get '/feedback',  to: 'static_pages#feedback'
   get '/about_us',    to: 'static_pages#about_us'
+  #get '/landing', to: 'static_pages#landing'
 
 #user pages
   get '/new_user', to: 'users#new'
@@ -51,7 +52,7 @@ Rails.application.routes.draw do
   delete '/logout',  to: "sessions#destroy"
 
 #root page
-  root 'sessions#new'
+  root 'airplane_users#profile'
   
 #resources
   resources :users

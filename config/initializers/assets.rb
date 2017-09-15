@@ -12,6 +12,7 @@ Rails.application.config.assets.precompile += %w( main.css )
 Rails.application.config.assets.precompile += %w( base.css )
 Rails.application.config.assets.precompile += %w( plan_trip.css )
 Rails.application.config.assets.precompile += %w( plan_trip_results.css )
+Rails.application.config.assets.precompile += %w( landing.css )
 
 #images
 Rails.application.config.assets.precompile += %w(sky3.jpg)

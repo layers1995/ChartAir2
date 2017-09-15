@@ -62,7 +62,7 @@ class TripsController < ApplicationController
     fbo_id= Fbo.find_by(:name => params[:fbo]).id
     user_id= current_user.id
     trip_status= "pending";
-    airplane_user_id=AirplaneUser.find_by(:tailnumber => params[:tailnumber], :user_can_see => true).id
+    airplane_user_id=AirplaneUser.find_by(:tailnumber => params[:tailnumber], :user_id => current_user.id, :user_can_see => true).id
     arrival_time=DateTime.parse(params[:start_datetime])
     depart_time=DateTime.parse(params[:depart_time])
     

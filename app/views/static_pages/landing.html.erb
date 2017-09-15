@@ -1,0 +1,116 @@
+<%= stylesheet_link_tag 'landing'%>
+
+<header>
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><%= link_to "Plan Trip", plantrip_path,  method: :get %></td>
+            <td><%= link_to "Help", help_path %></td>
+            
+                <div id="navBar">
+                	<% if logged_in? %>
+                	<td>
+                		<li class="dropdown">
+                		  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                		      Account <b class="caret"></b>
+                		  </a>
+                		  <ul class="dropdown-menu">
+                		  <li class="darkGray"><%= link_to "Profile", profile_path,  method: :get%></li>
+                		  <li class="darkGray"><%= link_to "Trips", trips_path,  method: :get %></li>
+                		  <li class="divider"></li>
+                		  <li class="darkGray">
+                		  <%= link_to "Log out", logout_path, method: :delete %>
+                		  </li>
+                		  </ul>
+                		  </li>
+                	</td>
+                	<% else %>
+                	    <td><%= link_to "Log in", login_path, :class => "item" %></td>
+                    <% end %>
+    	</tr>
+	</table>
+</header>
+
+<!--High level what we do-->
+<div id="highLevel">
+     <p class="center"><%= image_tag "logoBright4", class: "highLevelHeader"%></p>
+     </br>
+     </br>
+     </br>
+     <h2 class="center">ChartAir streamlines communication within the aviation industry by increasing visibility of airport expenses, saving our users both time and money.</h2>
+</div>
+
+<!--Creditablity-->
+<div id="creditabilty">
+    <table id= "sponcerTable">
+        <tr>
+            <td></td>
+            <td><p class="center"><%= image_tag "big-1871-logo", class: "sponcer"%></p></td>
+            <td></td>
+            <td><p class="center"><%= image_tag "elmspring2", class: "sponcer2"%></p></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+
+<!--Details what we do-->
+<div id="details">
+    <p>Private aviation is an amazing industry that allows people to visit and explore new places and businesses to extend their reach. At ChartAir, we aim to make it even easier and more fun to explore, visit, and extend great ideas from one location to another. By allowing access to landing, ramp, tie-down, and call out fees, you can compair and contrast the best place to land with ease.</p>
+</div>
+
+
+<!--About us-->
+<div id="aboutUs">
+    <div id="left">
+        <table id="ourTeamTable">
+    			
+    			<tr>
+    				<td><%= image_tag "olivia", class: "small"%></td>
+    				<td class="aboutUsText"><div class="name">Olivia Keneipp</div>Co-Founder and CEO</td>
+    				<td> <%= image_tag "madison", class: "small"%></td>
+    				<td class="aboutUsText"><div class="name">Madison Belka</div>Co-Founder and Lead Frontend Developer</td>
+    			</tr>
+    				
+    			<tr>
+    				<td><%= image_tag "logan", class: "small"%></td>
+    				<td class="aboutUsText"><div class="name">Logan Ayers</div>Co-Founder and Lead Backend Developer</td>
+    				<td><%= image_tag "clare", class: "small"%></td>
+    				<td class="aboutUsText"><div class="name">Clare Colt</div>Co-Founder and Business Consultant</td> 
+    			</tr>
+    			
+    	</table>
+	</div>
+	
+    <div id="ourStorySide">
+        <p>How we got started, our story, talk about how we be young yo!</p>
+    </div>
+</div>
+
+<!--Contact us!-->
+<div id="contactUs">
+    <h1>We would love to hear from you!</h1>
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><p>We would love to hear from pilots on how we can help them save.</p></td>
+            <td><p>We would love to hear from Charter Operators on how we can help smooth their workflow.</p></td>
+            <td><p>We would love to hear from buiness avation on how we can save you time and money.</p></td>
+        </tr>
+    </table>
+</div>
+
+<!--Credits-->
+<div id="bottomCredits">
+    <p>C ChartAir like to seh rah stock</p>
+</div>
