@@ -32,6 +32,7 @@ def main
 
 	#addFeesAndUpdateFbos(Rails.root.join("db", "seed_data", "call_sheets", "ut_call_sheet.tsv"))
 	addFeeFolder("call_sheets")
+	#addFeeFolder("fbo_fee_sheets")
 	addStartupTermData("survey_responses.tsv")
 
 # TODO addFbos and addStartupTermData both add FBOs to the database, figure it out. Solution was to remove the fbos from states that we covered during startup term.

@@ -206,10 +206,10 @@ def singleFeeHelper(fee, fbo, feeType)
 		when "single engine", "single engine piston", "large single engine"
 			categoryDesc = "piston single"
 
-		when "small twin", "light twin piston"
+		when "small twin", "light twin piston", "piston multi light"
 			categoryDesc = "piston multi light"
 
-		when "large twin", "twin engine", "multi engine", "multi engine piston", "twin engine piston", "heavy twin piston"
+		when "large twin", "twin engine", "multi engine", "multi engine piston", "twin engine piston", "heavy twin piston", "piston multi heavy", "large twin piston"
 			categoryDesc = "piston multi heavy"
 
 		when "turboprop single light"
@@ -238,7 +238,7 @@ def singleFeeHelper(fee, fbo, feeType)
 
 		when "heavy jet", "large jet", "mega jet"
 			categoryDesc = "heavy jet"
-
+# add very light jets and very heavy jets
 		when "single engine jet"
 			categoryDesc = "single engine jet"
 
@@ -252,7 +252,7 @@ def singleFeeHelper(fee, fbo, feeType)
 	end
 
 	def splitRangeIntoEngineTypes(fee, fbo, feeType)
-
+		# Using square roots for this might result in better numbers
 		feeType = FeeType.find_by( :fee_type_description => feeType )
 
 		lowEnd = fee.scan(/[0-9]+/)[0].to_f

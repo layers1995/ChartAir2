@@ -10,9 +10,9 @@ piston multi light
 piston multi heavy
 turboprop
 turboprop single
-turboprop twin
 turboprop single light
 turboprop single heavy
+turboprop twin
 turboprop twin light
 turboprop twin medium
 turboprop twin heavy
@@ -21,6 +21,7 @@ light jet
 midsize jet
 super midsize jet
 heavy jet
+super heavy jet
 radial single
 radial multi
 helicopter light
