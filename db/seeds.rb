@@ -27,10 +27,9 @@ def main
 
 	addAirports("full_airport_data")
 
-	#addFbos("fbo_seed_data") # run the fbo folder, not this
 	addFboFolder("fbo_call_data")
 
-	#addFeesAndUpdateFbos(Rails.root.join("db", "seed_data", "call_sheets", "ut_call_sheet.tsv"))
+	#addFeesAndUpdateFbos(Rails.root.join("db", "seed_data", "call_sheets", "tx_call_sheet.tsv"))
 	addFeeFolder("call_sheets")
 	addStartupTermData("survey_responses.tsv")
 
@@ -177,7 +176,7 @@ def addAirports(filename)
 		curAirport = curAirport.strip.downcase
 		airportCode, airportName, ownerPhone, managerPhone, latitude, longitude, state, city = curAirport.split("\t")
 
-		next if state != "il" and state != "oh" and state != "mn" and state != "mi" and state != "in" and state != "az" and state != "co" and state != "ky" and state != "mo" and state != "ms" and state!= "nv" and state != "or" and state != "ut" and state != "wv"
+		next if state != "il" and state != "oh" and state != "mn" and state != "mi" and state != "in" and state != "az" and state != "co" and state != "ky" and state != "mo" and state != "ms" and state!= "nv" and state != "or" and state != "tx" and state != "ut" and state != "wv"
 
 		curCity = City.find_by({ :name => city, :state => state })
 # this will create a city if it's not found, but because we don't actually care about the city, it doesn't matter much, and commenting this out avoids duplicates
@@ -210,7 +209,7 @@ def addFbos(filePath)
 
 		state, city, airportName, airportCode, fboName, phone = curFbo.split("\t")
 
-		if state != "il" and state != "oh" and state != "mn" and state != "mi" and state != "in" and state != "az" and state != "co" and state != "ky" and state != "mo" and state != "ms" and state!= "nv" and state != "or" and state != "ut" and state != "wv"
+		if state != "il" and state != "oh" and state != "mn" and state != "mi" and state != "in" and state != "az" and state != "co" and state != "ky" and state != "mo" and state != "ms" and state!= "nv" and state != "or" and state != "tx" and state != "ut" and state != "wv"
 			return
 		end
 
@@ -251,6 +250,7 @@ def addFeesAndUpdateFbos(filename)
 		curRow = curRow.strip.downcase # get rid of new lines and make everything lowercase
 
 		# split the excel sheet into individual variables using split
+
 		state, city, airportName, airportCode, fboName, phoneNumbers, hasFees, classificationDesc, otherClassification, landingFee, rampFee, tieDownFee, facilityFee, callOutFee, hangarFee, otherFee, changeFrequency, feesWaived, fuelNeeded, contactPerson, callDate, infoQuality, hasFeeSheet, feeSheetLink, additionalInfo  = curRow.split("\t")
 
 		feeClassification = Classification.find_by( :classification_description => classificationDesc )
