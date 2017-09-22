@@ -10,8 +10,8 @@ module ChartAir2
   class Application < Rails::Application
 
   	config.active_record.time_zone_aware_types = [:datetime, :time]
-  	config.assets.enabled=false
-  	config.assets.initialize_on_precompile=false
+  	config.assets.enabled=true
+  	config.assets.initialize_on_precompile=true
     config.public_file_server.enabled = true
   	config.autoload_paths += Dir["#{config.root}/lib/**/"] # I basically needed this to have helper methods for seeds.rb, it was getting big.
     # Settings in config/environments/* take precedence over those specified here.
