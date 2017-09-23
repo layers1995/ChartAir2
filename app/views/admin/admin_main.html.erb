@@ -1,5 +1,18 @@
 <%= stylesheet_link_tag 'base'%>
 
+<h2 class="title">New member request</h2>
+
+<table>
+    <tr></tr>
+    <% @requests.each do |email_request|%>
+        <tr>
+            <td><%=email_request.email%></td>
+            <td><%= link_to "Sent Email", emailed_request_path(:email => email_request.email), method: :post%></td>
+        </tr>
+    <%end%>
+</table>
+
+
 <h2 class="title">Trips</h2>
 
 <table>
@@ -84,7 +97,7 @@
         <td class="columnTitles">Trip Comment</td>
         <td class="columnTitles"><h3></h3></td>
     </tr>
-    <% @seen_reports.each do |report|%>
+    <%@seen_reports.each do |report|%>
         <tr class="tableItems">
           <td><%=Airport.find_by(:id => Trip.find_by(:id => report["trip_id"]).airport_id).name%></td>    
           <td><%=Fbo.find_by(:id => Trip.find_by(:id => report["trip_id"]).fbo_id).name%></td>

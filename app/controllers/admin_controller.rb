@@ -27,7 +27,9 @@ class AdminController < ApplicationController
     if !admin_logged_in?
       redirect_to admin_login_path
     end
-
+    
+    @requests= Request.where(:sent => false)
+    
     @trips=Trip.where(:trip_status => "pending")
     @reports=Report.where(:status => nil)
     @seen_reports=Report.where(:status => "seen")
@@ -41,10 +43,6 @@ class AdminController < ApplicationController
     trip.save
     #UserMailer.confirmation_email(current_user, trip)
     redirect_to "/admin_main"
-    
-  end
-  
-  def raise_issue_trip
     
   end
   
@@ -72,6 +70,12 @@ class AdminController < ApplicationController
     report=Report.find_by(:id => params["id"])
     report.status="seen"
     report.save
+    redirect_to admin_main_path
+  end
+  
+  def emailed_request
+    curRequest=Request.find_by(:email => params[:email])
+    curRequest.destroy
     redirect_to admin_main_path
   end
   

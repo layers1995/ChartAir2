@@ -4,6 +4,22 @@ class UsersController < ApplicationController
     redirect_to 'new'
   end
   
+  def request_account
+    @request=""
+  end
+  
+  def create_request
+    curRequest=Request.create(:email => params["email"], :email_confirm => params["email_confirm"], :sent => false)
+    if curRequest.save
+      flash[:success]="Your request has been sent, someone from our team will respond to you soon!"
+      redirect_to landing_path
+    else
+      flash[:notice]="Email did not match email confirmation"
+      @request=""
+      render 'request_account'
+    end
+  end
+  
   def new
     @user = User.new
   end
