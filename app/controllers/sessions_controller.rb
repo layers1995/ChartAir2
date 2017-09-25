@@ -15,7 +15,7 @@ class SessionsController < ApplicationController
       loginInfo.save
       redirect_to profile_url
     else
-      flash.now[:danger] = 'Invalid email/password combination'
+      flash.now[:danger] = 'Invalid username/password combination'
       render 'new'
     end
   end
