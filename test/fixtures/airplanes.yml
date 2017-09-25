@@ -40,5 +40,11 @@ cessna174:
   engine_class: piston multi heavy
   weight: 10000
 
+cessna1000:
+  manufacturer: cessna
+  model: cessna1000
+  engine_class: jet
+  weight: 60000
+
 
 

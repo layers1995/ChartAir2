@@ -145,7 +145,7 @@ class ActiveSupport::TestCase
 		fees = fees.reject do |curFee|
 			curCategory = curFee.category.category_description
 
-			if !curFee.start_time.nil? and !curFee.end_time.nil? # If the fee has a start time and an end time, make sure it falls in the right time period.
+			if !curFee.start_time.nil? and !curFee.end_time.nil? and !landingTime.nil? # If the fee has a start time and an end time, make sure it falls in the right time period.
 				
 				startTime = curFee.start_time
 				endTime = curFee.end_time

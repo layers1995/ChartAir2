@@ -38,6 +38,22 @@ jet_air_call_out:
   time_unit: hour
   time_price: 25
 
+jet_air_jet_landing_extra_info:
+  fee_type: landing
+  fbo: jet_air
+  category: jet
+  price: 130
+  time_unit: nan
+  time_price: -1
+  unit_price: -1
+  unit_magnitude: -1
+  unit_minimum: -1
+  unit_maximum: -1
+  free_time_unit: nan
+  free_time_length: -1
+  start_time: 0
+  end_time: 1440
+
 signature_sep_landing:
   fee_type: landing
   fbo: signature

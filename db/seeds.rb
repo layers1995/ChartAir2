@@ -3,6 +3,7 @@ include SeedsHelper # located at lib/seeds_helper.rb
 def main
 # Delete stuff
 
+=begin
 	Fee.delete_all
 	Category.delete_all
 
@@ -14,7 +15,8 @@ def main
 
 	FeeType.delete_all
 	Classification.delete_all
-	
+=end
+
 # Add stuff	
 
 	addAirplanes("airplane_seed_data")
@@ -38,18 +40,18 @@ end
 
 def addJetAirplanes()
 	# The following planes are just the fleet owned by Jet Air
-	cessna172 = Airplane.create({ :manufacturer => "cessna", :model => "172 skyhawk", :engine_class => "piston single", :weight => 2300, :height => 107, :wingspan => 433, :length => 326})
-	cessna177 = Airplane.create({ :manufacturer => "cessna", :model => "177 cardinal", :engine_class => "piston single", :weight => 2500, :height => 103, :wingspan => 426, :length => 332})
+	cessna172 = Airplane.find_or_create_by({ :manufacturer => "cessna", :model => "172 skyhawk", :engine_class => "piston single", :weight => 2300, :height => 107, :wingspan => 433, :length => 326})
+	cessna177 = Airplane.find_or_create_by({ :manufacturer => "cessna", :model => "177 cardinal", :engine_class => "piston single", :weight => 2500, :height => 103, :wingspan => 426, :length => 332})
 
-	cessna425 = Airplane.create({ :manufacturer => "cessna", :model => "425 conquest i", :engine_class => "turboprop twin medium", :weight => 8600, :height => 151, :wingspan => 530, :length => 430})
+	cessna425 = Airplane.find_or_create_by({ :manufacturer => "cessna", :model => "425 conquest i", :engine_class => "turboprop twin medium", :weight => 8600, :height => 151, :wingspan => 530, :length => 430})
 
 	# engine class should technically be twin engine turbofan for cessna500 and cessna550, cessna550Bravo, and cessna560 ultra, but I don't want to change the schema right now.
-	cessna500 = Airplane.create({ :manufacturer => "cessna", :model => "500 citation i", :engine_class => "light jet", :weight => 9502, :height => 157, :wingspan => 528, :length => 516})
-	cessna550 = Airplane.create({ :manufacturer => "cessna", :model => "550 citation ii", :engine_class => "light jet", :weight => 13300, :height => 180, :wingspan => 626, :length => 567})
+	cessna500 = Airplane.find_or_create_by({ :manufacturer => "cessna", :model => "500 citation i", :engine_class => "light jet", :weight => 9502, :height => 157, :wingspan => 528, :length => 516})
+	cessna550 = Airplane.find_or_create_by({ :manufacturer => "cessna", :model => "550 citation ii", :engine_class => "light jet", :weight => 13300, :height => 180, :wingspan => 626, :length => 567})
 	
 	# changed to medium and heavy jet for testing purposes
-	cessna550Bravo = Airplane.create({ :manufacturer => "cessna", :model => "550 citation bravo", :engine_class => "midsize jet", :weight => 14800, :height => 180, :wingspan => 626, :length => 566})
-	cessna560Ultra = Airplane.create({ :manufacturer => "cessna", :model => "560 citation ultra", :engine_class => "heavy jet", :weight => 16630, :height => 182, :wingspan => 649, :length => 587})
+	cessna550Bravo = Airplane.find_or_create_by({ :manufacturer => "cessna", :model => "550 citation bravo", :engine_class => "midsize jet", :weight => 14800, :height => 180, :wingspan => 626, :length => 566})
+	cessna560Ultra = Airplane.find_or_create_by({ :manufacturer => "cessna", :model => "560 citation ultra", :engine_class => "heavy jet", :weight => 16630, :height => 182, :wingspan => 649, :length => 587})
 end
 
 def addAirplanes(filename)
@@ -57,6 +59,7 @@ def addAirplanes(filename)
 	airplaneTypes.each do |curPlane|
 		curPlane = curPlane.strip.downcase
 		manufacturer, country, planeModel, planeClass, numCrew, numPassengers, engineType, range, emptyWeight, maxWeight, wingspan, wingArea, length, height = curPlane.split("\t")
+
 		if !engineType =~ /[0-9]+/
 			puts engineType
 		end
@@ -136,28 +139,52 @@ def addAirplanes(filename)
 				engineCategory = "rocket single"
 			end
 		end
-		Airplane.create({ :model => planeModel, :engine_class => engineCategory, :empty_weight => emptyWeight, :weight => maxWeight, :height => height, :wingspan => wingspan, :length => length, :manufacturer => manufacturer, :country => country, :plane_class => planeClass, :num_crew => numCrew, :num_passengers => numPassengers, :range => range, :wing_area => wingArea })
+
+# Test for stuff that is nil. Find_or_create_by causes duplicates whenever there is a nil value being saved.
+		if engineType.nil? or engineType.length == 0
+			engineType = "nan"
+		end
+		if height.nil? or height.length == 0
+			height = -1
+		end
+		if wingspan.nil? or wingspan.length == 0
+			wingspan = -1
+		end	
+		if emptyWeight.nil? or emptyWeight.length == 0
+			emptyWeight = -1
+		end
+		if numPassengers.nil? or numPassengers.length == 0
+			numPassengers = -1
+		end
+		if range.nil? or range.length == 0
+			range = -1
+		end
+		if wingArea.nil? or wingArea.length == 0
+			wingArea = -1
+		end
+
+		Airplane.find_or_create_by({ :model => planeModel, :engine_class => engineCategory, :empty_weight => emptyWeight, :weight => maxWeight, :height => height, :wingspan => wingspan, :length => length, :manufacturer => manufacturer, :country => country, :plane_class => planeClass, :num_crew => numCrew, :num_passengers => numPassengers, :range => range, :wing_area => wingArea })
 	end
 end
 
 def addFeeTypes(filename)
 	feeTypes = File.open(Rails.root.join("db", "seed_data", filename))
 	feeTypes.each do |curFeeType|
-		FeeType.create({ :fee_type_description => curFeeType.strip })
+		FeeType.find_or_create_by({ :fee_type_description => curFeeType.strip })
 	end
 end
 
 def addClassifications(filename)
 	classificationTypes = File.open(Rails.root.join("db", "seed_data", filename))
 	classificationTypes.each do |curClassificationType|
-		Classification.create({ :classification_description => curClassificationType.strip })
+		Classification.find_or_create_by({ :classification_description => curClassificationType.strip })
 	end
 end
 
 def addCategories(filename)
 	categoryTypes = File.open(Rails.root.join("db", "seed_data", filename))
 	categoryTypes.each do |curCategoryType|
-		Category.create( :category_description => curCategoryType.strip )
+		Category.find_or_create_by( :category_description => curCategoryType.strip )
 	end
 end
 
@@ -166,7 +193,7 @@ def addCities(filename)
 	cities.each do |curCity|
 		curCity = curCity.strip.downcase
 		cityName, cityNameAscii, stateCode, stateName, countyName, countyFips, latitude, longitude, population, source, id = curCity.split(",")
-		City.create({ :name => cityName, :state => stateCode, :latitude => latitude, :longitude => longitude })
+		City.find_or_create_by({ :name => cityName, :state => stateCode, :latitude => latitude, :longitude => longitude })
 	end
 end
 
@@ -181,12 +208,12 @@ def addAirports(filename)
 		curCity = City.find_by({ :name => city, :state => state })
 # this will create a city if it's not found, but because we don't actually care about the city, it doesn't matter much, and commenting this out avoids duplicates
 		if curCity.nil?
-			curCity = City.create({ :name => city, :state => state, :latitude => latitude, :longitude => longitude })
+			curCity = City.find_or_create_by({ :name => city, :state => state, :latitude => latitude, :longitude => longitude })
 		end
 		if curCity.nil?
-			airports = Airport.create({ :airport_code => airportCode, :name => airportName.strip.downcase, :latitude => latitude, :longitude => longitude, :state => state, :ownerPhone => ownerPhone, :managerPhone => managerPhone})
+			airports = Airport.find_or_create_by({ :airport_code => airportCode, :name => airportName.strip.downcase, :latitude => latitude, :longitude => longitude, :state => state, :ownerPhone => ownerPhone, :managerPhone => managerPhone})
 		else
-			airports = Airport.create({ :airport_code => airportCode, :name => airportName.strip.downcase, :latitude => latitude, :longitude => longitude, :state => state, :ownerPhone => ownerPhone, :managerPhone => managerPhone, :city => curCity })
+			airports = Airport.find_or_create_by({ :airport_code => airportCode, :name => airportName.strip.downcase, :latitude => latitude, :longitude => longitude, :state => state, :ownerPhone => ownerPhone, :managerPhone => managerPhone, :city => curCity })
 		end
 	end
 end
@@ -229,7 +256,7 @@ def addFbos(filePath)
 		end
 
 		if !curAirport.nil?
-			Fbo.create({ :name => fboName, :phone => phone1, :alternate_phone => phone2, :airport => curAirport })
+			Fbo.find_or_create_by({ :name => fboName, :phone => phone1, :alternate_phone => phone2, :airport => curAirport })
 		end
 	end
 end
@@ -407,7 +434,7 @@ def addStartupTermData(filename)
 						# do nothing
 					else
 						singleFeeHelper("0", curFbo, curFeeType.fee_type_description)
-						#Fee.create( :fee_type => curFeeType, :fbo => curFbo, :category => curCategory, :price => 0)
+						#Fee.find_or_create_by( :fee_type => curFeeType, :fbo => curFbo, :category => curCategory, :price => 0)
 					end
 				end
 			elsif feeClassification.nil? or classificationDesc == ""

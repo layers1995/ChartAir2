@@ -397,4 +397,22 @@ class FeesTest < ActionDispatch::IntegrationTest
 		assert_equal(18, landing427.price)
 	end
 
+=begin
+	test "ensure fees still work with extra information" do
+		@jetAir = fbos(:jet_air)
+		@cessna1000 = airplanes(:cessna1000)
+
+		targetFee = nil
+
+		curFees = getFees(@cessna1000, @jetAir, "day", 0, "12:00".to_time)
+		curFees.each do |curFee|
+			if curFee.fee_type.fee_type_description == "landing"
+				targetFee = curFee
+			end
+		end
+
+		assert_equal(fees(:jet_air_jet_landing_extra_info).price, targetFee.price)
+	end
+=end
+
 end

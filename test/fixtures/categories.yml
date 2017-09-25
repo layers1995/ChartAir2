@@ -28,6 +28,9 @@ turboprop_twin_medium:
 turboprop_twin_heavy:
   category_description: turboprop twin heavy
 
+jet:
+  category_description: jet
+
 172_skyhawk:
   category_description: 172 skyhawk
 
