@@ -285,79 +285,79 @@ def singleFeeHelper(fee, fbo, feeType)
 
 		pistonSinglePrice = lowEnd
 		pistonSinglePrice = pistonSinglePrice.to_i
-		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "piston single"), :is_estimate => true, :time_unit => "nan", :unit_price => 0, :unit_magnitude => 0, :free_time_unit => "nan", :free_time_length => "nan", :unit_minimum => 0, :time_price => 0, :unit_maximum => 0, :start_time => 0, :end_time => 1440 )
+		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "piston single"), :is_estimate => true )
 		if curFee.nil?
-			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => pistonSinglePrice, :category => Category.find_by( :category_description => "piston single"), :is_estimate => true, :time_unit => "nan", :unit_price => 0, :unit_magnitude => 0, :free_time_unit => "nan", :free_time_length => "nan", :unit_minimum => 0, :time_price => 0, :unit_maximum => 0, :start_time => 0, :end_time => 1440)
+			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => pistonSinglePrice, :category => Category.find_by( :category_description => "piston single"), :is_estimate => true )
 		end
 
 		pistonMultiPrice = lowEnd + (range / 10)
 		pistonMultiPrice = pistonMultiPrice.to_i
-		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "piston multi"), :is_estimate => true, :time_unit => "nan", :unit_price => 0, :unit_magnitude => 0, :free_time_unit => "nan", :free_time_length => "nan", :unit_minimum => 0, :time_price => 0, :unit_maximum => 0, :start_time => 0, :end_time => 1440)
+		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "piston multi"), :is_estimate => true )
 		if curFee.nil?
-			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => pistonMultiPrice, :category => Category.find_by( :category_description => "piston multi"), :is_estimate => true, :time_unit => "nan", :unit_price => 0, :unit_magnitude => 0, :free_time_unit => "nan", :free_time_length => "nan", :unit_minimum => 0, :time_price => 0, :unit_maximum => 0, :start_time => 0, :end_time => 1440)
+			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => pistonMultiPrice, :category => Category.find_by( :category_description => "piston multi"), :is_estimate => true )
 		end
 
 		turbopropSingleLightPrice = lowEnd + (range / 9)
 		turbopropSingleLightPrice = turbopropSingleLightPrice.to_i
-		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "turboprop single light"), :is_estimate => true, :time_unit => "nan", :unit_price => 0, :unit_magnitude => 0, :free_time_unit => "nan", :free_time_length => "nan", :unit_minimum => 0, :time_price => 0, :unit_maximum => 0, :start_time => 0, :end_time => 1440)
+		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "turboprop single light"), :is_estimate => true )
 		if curFee.nil?
-			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => turbopropSingleLightPrice, :category => Category.find_by( :category_description => "turboprop single light"), :is_estimate => true, :time_unit => "nan", :unit_price => 0, :unit_magnitude => 0, :free_time_unit => "nan", :free_time_length => "nan", :unit_minimum => 0, :time_price => 0, :unit_maximum => 0, :start_time => 0, :end_time => 1440)
+			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => turbopropSingleLightPrice, :category => Category.find_by( :category_description => "turboprop single light"), :is_estimate => true )
 		end
 
 		turbopropSingleHeavyPrice = lowEnd + (range / 7)
 		turbopropSingleHeavyPrice = turbopropSingleHeavyPrice.to_i
-		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "turboprop single heavy"), :is_estimate => true, :time_unit => "nan", :unit_price => 0, :unit_magnitude => 0, :free_time_unit => "nan", :free_time_length => "nan", :unit_minimum => 0, :time_price => 0, :unit_maximum => 0, :start_time => 0, :end_time => 1440)
+		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "turboprop single heavy"), :is_estimate => true )
 		if curFee.nil?
-			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => turbopropSingleHeavyPrice, :category => Category.find_by( :category_description => "turboprop single heavy"), :is_estimate => true, :time_unit => "nan", :unit_price => 0, :unit_magnitude => 0, :free_time_unit => "nan", :free_time_length => "nan", :unit_minimum => 0, :time_price => 0, :unit_maximum => 0, :start_time => 0, :end_time => 1440)
+			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => turbopropSingleHeavyPrice, :category => Category.find_by( :category_description => "turboprop single heavy"), :is_estimate => true )
 		end
 
 		turbopropTwinLightPrice = lowEnd + (range / 6)
 		turbopropTwinLightPrice = turbopropTwinLightPrice.to_i
-		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "turboprop twin light"), :is_estimate => true, :time_unit => "nan", :unit_price => 0, :unit_magnitude => 0, :free_time_unit => "nan", :free_time_length => "nan", :unit_minimum => 0, :time_price => 0, :unit_maximum => 0, :start_time => 0, :end_time => 1440)
+		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "turboprop twin light"), :is_estimate => true )
 		if curFee.nil?
-			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => turbopropTwinLightPrice, :category => Category.find_by( :category_description => "turboprop twin light"), :is_estimate => true, :time_unit => "nan", :unit_price => 0, :unit_magnitude => 0, :free_time_unit => "nan", :free_time_length => "nan", :unit_minimum => 0, :time_price => 0, :unit_maximum => 0, :start_time => 0, :end_time => 1440)
+			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => turbopropTwinLightPrice, :category => Category.find_by( :category_description => "turboprop twin light"), :is_estimate => true )
 		end
 
 		turbopropTwinMediumPrice = lowEnd + (range / 5)
 		turbopropTwinMediumPrice = turbopropTwinMediumPrice.to_i
-		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "turboprop twin medium"), :is_estimate => true, :time_unit => "nan", :unit_price => 0, :unit_magnitude => 0, :free_time_unit => "nan", :free_time_length => "nan", :unit_minimum => 0, :time_price => 0, :unit_maximum => 0, :start_time => 0, :end_time => 1440)
+		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "turboprop twin medium"), :is_estimate => true )
 		if curFee.nil?
-			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => turbopropTwinMediumPrice, :category => Category.find_by( :category_description => "turboprop twin medium"), :is_estimate => true, :time_unit => "nan", :unit_price => 0, :unit_magnitude => 0, :free_time_unit => "nan", :free_time_length => "nan", :unit_minimum => 0, :time_price => 0, :unit_maximum => 0, :start_time => 0, :end_time => 1440)
+			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => turbopropTwinMediumPrice, :category => Category.find_by( :category_description => "turboprop twin medium"), :is_estimate => true )
 		end
 
 		turbopropTwinHeavyPrice = lowEnd + (range / 4)
 		turbopropTwinHeavyPrice = turbopropTwinHeavyPrice.to_i
-		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "turboprop twin heavy"), :is_estimate => true, :time_unit => "nan", :unit_price => 0, :unit_magnitude => 0, :free_time_unit => "nan", :free_time_length => "nan", :unit_minimum => 0, :time_price => 0, :unit_maximum => 0, :start_time => 0, :end_time => 1440)
+		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "turboprop twin heavy"), :is_estimate => true )
 		if curFee.nil?
-			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => turbopropTwinHeavyPrice, :category => Category.find_by( :category_description => "turboprop twin heavy"), :is_estimate => true, :time_unit => "nan", :unit_price => 0, :unit_magnitude => 0, :free_time_unit => "nan", :free_time_length => "nan", :unit_minimum => 0, :time_price => 0, :unit_maximum => 0, :start_time => 0, :end_time => 1440)
+			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => turbopropTwinHeavyPrice, :category => Category.find_by( :category_description => "turboprop twin heavy"), :is_estimate => true )
 		end
 
 		lightJetPrice = lowEnd + (range / 3)
 		lightJetPrice = lightJetPrice.to_i
-		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "light jet"), :is_estimate => true, :time_unit => "nan", :unit_price => 0, :unit_magnitude => 0, :free_time_unit => "nan", :free_time_length => "nan", :unit_minimum => 0, :time_price => 0, :unit_maximum => 0, :start_time => 0, :end_time => 1440)
+		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "light jet"), :is_estimate => true )
 		if curFee.nil?
-			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => lightJetPrice, :category => Category.find_by( :category_description => "light jet"), :is_estimate => true, :time_unit => "nan", :unit_price => 0, :unit_magnitude => "nan", :free_time_unit => 0, :free_time_length => "nan", :unit_minimum => 0, :time_price => 0, :unit_maximum => 0, :start_time => 0, :end_time => 1440)
+			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => lightJetPrice, :category => Category.find_by( :category_description => "light jet"), :is_estimate => true )
 		end
 
 		midsizeJetPrice = lowEnd + (range / 2)
 		midsizeJetPrice = midsizeJetPrice.to_i
-		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "midsize jet"), :is_estimate => true, :time_unit => "nan", :unit_price => 0, :unit_magnitude => 0, :free_time_unit => "nan", :free_time_length => "nan", :unit_minimum => 0, :time_price => 0, :unit_maximum => 0, :start_time => 0, :end_time => 1440)
+		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "midsize jet"), :is_estimate => true )
 		if curFee.nil?
-			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => midsizeJetPrice, :category => Category.find_by( :category_description => "midsize jet"), :is_estimate => true, :time_unit => "nan", :unit_price => 0, :unit_magnitude => "nan", :free_time_unit => 0, :free_time_length => "nan", :unit_minimum => 0, :time_price => 0, :unit_maximum => 0, :start_time => 0, :end_time => 1440)
+			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => midsizeJetPrice, :category => Category.find_by( :category_description => "midsize jet"), :is_estimate => true )
 		end
 
 		superMidsizeJetPrice = lowEnd + (range / 1.5)
 		superMidsizeJetPrice = superMidsizeJetPrice.to_i
-		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "super midsize jet"), :is_estimate => true, :time_unit => "nan", :unit_price => 0, :unit_magnitude => 0, :free_time_unit => "nan", :free_time_length => "nan", :unit_minimum => 0, :time_price => 0, :unit_maximum => 0, :start_time => 0, :end_time => 1440)
+		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "super midsize jet"), :is_estimate => true )
 		if curFee.nil?
-			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => superMidsizeJetPrice, :category => Category.find_by( :category_description => "super midsize jet"), :is_estimate => true, :time_unit => "nan", :unit_price => 0, :unit_magnitude => "nan", :free_time_unit => 0, :free_time_length => "nan", :unit_minimum => 0, :time_price => 0, :unit_maximum => 0, :start_time => 0, :end_time => 1440)
+			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => superMidsizeJetPrice, :category => Category.find_by( :category_description => "super midsize jet"), :is_estimate => true )
 		end
 
 		heavyJetPrice = lowEnd + range
 		heavyJetPrice = heavyJetPrice.to_i
-		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "heavy jet"), :is_estimate => true, :time_unit => "nan", :unit_price => 0, :unit_magnitude => 0, :free_time_unit => "nan", :free_time_length => "nan", :unit_minimum => 0, :time_price => 0, :unit_maximum => 0, :start_time => 0, :end_time => 1440)
+		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "heavy jet"), :is_estimate => true )
 		if curFee.nil?
-			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => heavyJetPrice, :category => Category.find_by( :category_description => "heavy jet"), :is_estimate => true, :time_unit => "nan", :unit_price => 0, :unit_magnitude => "nan", :free_time_unit => 0, :free_time_length => "nan", :unit_minimum => 0, :time_price => 0, :unit_maximum => 0, :start_time => 0, :end_time => 1440)
+			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => heavyJetPrice, :category => Category.find_by( :category_description => "heavy jet"), :is_estimate => true )
 		end
 	end
 

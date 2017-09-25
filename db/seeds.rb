@@ -2,7 +2,6 @@ include SeedsHelper # located at lib/seeds_helper.rb
 
 def main
 # Delete stuff
-
 =begin
 	Fee.delete_all
 	Category.delete_all
@@ -203,7 +202,7 @@ def addAirports(filename)
 		curAirport = curAirport.strip.downcase
 		airportCode, airportName, ownerPhone, managerPhone, latitude, longitude, state, city = curAirport.split("\t")
 
-		next if state != "il" and state != "oh" and state != "mn" and state != "mi" and state != "in" and state != "az" and state != "co" and state != "ky" and state != "mo" and state != "ms" and state!= "nv" and state != "or" and state != "tx" and state != "ut" and state != "wv"
+		next if state != "il" and state != "oh" and state != "mn" and state != "mi" and state != "in" and state != "az" and state != "co" and state != "ky" and state != "mo" and state != "ms" and state!= "nv" and state != "or" and state != "tx" and state != "ut" and state != "wa" and state != "wv"
 
 		curCity = City.find_by({ :name => city, :state => state })
 # this will create a city if it's not found, but because we don't actually care about the city, it doesn't matter much, and commenting this out avoids duplicates
@@ -236,7 +235,7 @@ def addFbos(filePath)
 
 		state, city, airportName, airportCode, fboName, phone = curFbo.split("\t")
 
-		if state != "il" and state != "oh" and state != "mn" and state != "mi" and state != "in" and state != "az" and state != "co" and state != "ky" and state != "mo" and state != "ms" and state!= "nv" and state != "or" and state != "tx" and state != "ut" and state != "wv"
+		if state != "il" and state != "oh" and state != "mn" and state != "mi" and state != "in" and state != "az" and state != "co" and state != "ky" and state != "mo" and state != "ms" and state!= "nv" and state != "or" and state != "tx" and state != "ut" and state != "wa" and state != "wv"
 			return
 		end
 
