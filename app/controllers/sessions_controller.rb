@@ -18,6 +18,7 @@ class SessionsController < ApplicationController
       flash.now[:danger] = 'Invalid username/password combination'
       render 'new'
     end
+    
   end
   
   def destroy
