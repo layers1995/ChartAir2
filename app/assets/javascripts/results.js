@@ -143,7 +143,7 @@ function updateTotalCost(){
             if(feeDict[fbos[i].name][fees[k]]!=null){
                 hasKnownFees=true;
                 if(appliedFees[fees[k]]){
-                    tempTotal+= Math.floor(feeDict[fbos[i].name][fees[k].to_i]);
+                    tempTotal+= Math.floor(feeDict[fbos[i].name][fees[k]]);
                 }
             }
         }
