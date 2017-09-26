@@ -1,5 +1,5 @@
 <header>
-	<%= link_to(image_tag("chartairWhiteLogo.png", :id => "logo"), home_path) %>
+	<%= link_to(image_tag("chartairWhiteLogo.png", :id => "logo"), landing_path) %>
 
 	<div id="navBar">
 		<ul id="headerNavItems">
@@ -13,16 +13,16 @@
 		              Account <b class="caret"></b>
 		            </a>
 		            <ul class="dropdown-menu">
-		              <li class="item"><%= link_to "Profile", profile_path,  method: :get %></li>
-		              <li class="item"><%= link_to "Trips", trips_path,  method: :get %></li>
+		              <li class="darkGray"><%= link_to "Profile", profile_path,  method: :get%></li>
+		              <li class="darkGray"><%= link_to "Trips", trips_path,  method: :get %></li>
 		              <li class="divider"></li>
-		              <li class="item">
+		              <li class="darkGray">
 		                <%= link_to "Log out", logout_path, method: :delete %>
 		              </li>
 		            </ul>
 		          </li>
 		        <% else %>
-		          <li><%= link_to "Log in", login_path %></li>
+		          <li><%= link_to "Log in", login_path, :class => "item" %></li>
 		        <% end %>
 		</ul>
 	</div>

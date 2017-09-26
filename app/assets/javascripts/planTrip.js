@@ -60,7 +60,7 @@ function startSettings(){
     
 }
 
-//have ruby check to make sure 
+//add airplanes to the lists within the html
 function addCurrentAirplanes(){
 	
 	var airplanes= document.getElementById("airplanes");

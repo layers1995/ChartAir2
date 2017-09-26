@@ -4,6 +4,22 @@ class UsersController < ApplicationController
     redirect_to 'new'
   end
   
+  def request_account
+    @request=""
+  end
+  
+  def create_request
+    curRequest=Request.create(:email => params["email"], :email_confirm => params["email_confirm"], :sent => false)
+    if curRequest.save
+      flash[:success]="Your request has been sent, someone from our team will respond to you soon!"
+      redirect_to landing_path
+    else
+      flash[:notice]="Email did not match email confirmation"
+      @request=""
+      render 'request_account'
+    end
+  end
+  
   def new
     @user = User.new
   end
@@ -16,8 +32,8 @@ class UsersController < ApplicationController
       @user = User.new(user_params)
       
       if @user.save
-        flash[:success] = "Thank you for joining ChartAir"
-        UserMailer.welcome_email(@user).deliver_now
+        #flash[:success] = "Thank you for joining ChartAir"
+        #UserMailer.welcome_email(@user).deliver_now
         log_in @user
         redirect_to home_path
       else

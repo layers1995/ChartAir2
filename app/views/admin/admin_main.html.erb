@@ -1,5 +1,18 @@
 <%= stylesheet_link_tag 'base'%>
 
+<h2 class="title">New member request</h2>
+
+<table>
+    <tr></tr>
+    <% @requests.each do |email_request|%>
+        <tr>
+            <td><%=email_request.email%></td>
+            <td><%= link_to "Sent Email", emailed_request_path(:email => email_request.email), method: :post%></td>
+        </tr>
+    <%end%>
+</table>
+
+
 <h2 class="title">Trips</h2>
 
 <table>
@@ -8,8 +21,10 @@
         <td  class="columnTitles">Destination</td>
         <td  class="columnTitles">FBO</td>
         <td  class="columnTitles">Phone Number</td>
-        <td  class="columnTitles">Time and Date</td>
+        <td  class="columnTitles">Arrival</td>
+        <td  class="columnTitles">Depart</td>
         <td  class="columnTitles">Airplane</td>
+        <td  class="columnTitles">User Email</td>
         <td  class="columnTitles">Tail number</td>
         <td  class="columnTitles">Trip Details</td>
         <td  class="columnTitles">Cost</td>
@@ -23,10 +38,16 @@
           <td><%=Fbo.find_by(:id => trip["fbo_id"]).name%></td>
           <td><%=Airport.find_by(:id => trip["airport_id"]).managerPhone%></td>
           <td><%=trip["arrival_time"]%></td>
+          <td><%=trip["depart_time"]%></td>
           <td><%=Airplane.find_by(:id => AirplaneUser.find_by(:id =>trip["airplane_user_id"]).airplane_id).manufacturer%> <%=Airplane.find_by(:id => AirplaneUser.find_by(:id =>trip["airplane_user_id"]).airplane_id).model%></td>
+          <td><%=User.find_by(:id => trip["user_id"]).email%></td>
           <td><%=trip["tailnumber"]%></td>
           <td><%=trip["detail"]%></td>
-          <td>$<%=trip["cost"]%></td>
+          <% if trip["cost"]==1000001%>
+              <td>$Unknown</td>
+          <%else%>
+              <td>$<%=trip["cost"]%></td>
+          <%end%>
           <td><%= link_to "Confirm Trip", confirm_trip_path(:trip_id => trip["id"]), method: :post%></td>
           <td><%= link_to "Mark Issue", problem_trip_path(:trip_id => trip["id"], :problem => "issue")%></td>
           <td><%= link_to "Cancel Trip", problem_trip_path(:trip_id => trip["id"], :problem => "cancelled")%></td>
@@ -52,7 +73,7 @@
             <tr class="tableItems">
               <td><%=Airport.find_by(:id => Trip.find_by(:id => report["trip_id"]).airport_id).name%></td>
               <td><%=Fbo.find_by(:id => Trip.find_by(:id => report["trip_id"]).fbo_id).name%></td>
-              <td><%=Airplane.find_by(:id => AirplaneUser.find_by(:tailnumber =>trip["tailnumber"]).airplane_id).manufacturer%> <%=Airplane.find_by(:id => AirplaneUser.find_by(:tailnumber =>trip["tailnumber"]).airplane_id).model%></td>
+              <td><%=Airplane.find_by(:id => AirplaneUser.find_by(:id =>Trip.find_by(:id => report["trip_id"]).airplane_user_id).airplane_id).manufacturer%> <%=Airplane.find_by(:id => AirplaneUser.find_by(:id =>Trip.find_by(:id => report["trip_id"]).airplane_user_id).airplane_id).model%></td>
               <td><%=report["fbo_rating"]%></td>
               <td>><%=report["fbo_comments"]%></td>
               <td><%=report["trip_rating"]%></td>
@@ -76,7 +97,7 @@
         <td class="columnTitles">Trip Comment</td>
         <td class="columnTitles"><h3></h3></td>
     </tr>
-    <% @seen_reports.each do |report|%>
+    <%@seen_reports.each do |report|%>
         <tr class="tableItems">
           <td><%=Airport.find_by(:id => Trip.find_by(:id => report["trip_id"]).airport_id).name%></td>    
           <td><%=Fbo.find_by(:id => Trip.find_by(:id => report["trip_id"]).fbo_id).name%></td>

@@ -143,7 +143,7 @@ function updateTotalCost(){
             if(feeDict[fbos[i].name][fees[k]]!=null){
                 hasKnownFees=true;
                 if(appliedFees[fees[k]]){
-                    tempTotal+= feeDict[fbos[i].name][fees[k]];
+                    tempTotal+= Math.floor(feeDict[fbos[i].name][fees[k]]);
                 }
             }
         }
@@ -270,6 +270,14 @@ function updateTable(){
             var c3  = document.createElement('td');
             var c3text=document.createElement("H4");
             
+            if(feeDict[curName]["estimated"]){
+                c3text.setAttribute('class', 'estimate');
+            }
+            
+            if(notAllFeesKnown(feeDict, curName)){
+                c3text.setAttribute('class', 'estimate');
+            }
+            
             if(feeDict[curName]["total"]==1000001){
                 c3text.appendChild(document.createTextNode("Unknown Cost"));
             }else{
@@ -305,12 +313,12 @@ function updateTable(){
             var landingCosts=""
             var rampCosts=""
             if(feeDict[curName]["landing"]!=null){
-                landingCosts+="Landing: $" + feeDict[curName]["landing"];
+                landingCosts+="Landing: $" + Math.floor(feeDict[curName]["landing"]);
             }else{
                 landingCosts+="Landing: Unknown";
             }
             if(feeDict[curName]["ramp"]!=null){
-                rampCosts+= "Ramp: $" + feeDict[curName]["ramp"];
+                rampCosts+= "Ramp: $" + Math.floor(feeDict[curName]["ramp"]);
             }else{
                 rampCosts+= "Ramp: Unknown";
             }
@@ -325,12 +333,12 @@ function updateTable(){
             var tdCosts=""
             var coCosts=""
             if(feeDict[curName]["tie down"]!=null){
-                tdCosts+="Tie-Down: $" + feeDict[curName]["tie down"];
+                tdCosts+="Tie-Down: $" + Math.floor(feeDict[curName]["tie down"]);
             }else{
                 tdCosts+="Tie-Down: Unknown";
             }
             if(feeDict[curName]["call out"]!=null){
-                coCosts+= "Call-Out: $" + feeDict[curName]["call out"];
+                coCosts+= "Call-Out: $" + Math.floor(feeDict[curName]["call out"]);
             }else{
                 coCosts+= "Call-Out: Unknown";
             }
@@ -345,17 +353,17 @@ function updateTable(){
             var otherCosts=0
             var otherCostsString=""
             if(feeDict[curName]["facility"]!=null){
-                otherCosts+=feeDict[curName]["facility"]
+                otherCosts+=Math.floor(feeDict[curName]["facility"])
                 
                 if(feeDict[curName]["other"]!=null){
-                    otherCosts+= "Other: $" + (feeDict[curName]["other"]+otherCosts);
+                    otherCosts+= "Other: $" + Math.floor(feeDict[curName]["other"])+Math.floor(otherCosts);
                 }else{
                     otherCostsString+= "Other: $" + otherCosts;
                 }
             }else{
                 
                 if(feeDict[curName]["other"]!=null){
-                    otherCostsString+= "Other: $" + feeDict[curName]["other"];
+                    otherCostsString+= "Other: $" + Math.floor(feeDict[curName]["other"]);
                 }else{
                     otherCostsString+= "Other: Unknown";
                 }
@@ -389,6 +397,27 @@ function updateTable(){
     
 }
 
+function notAllFeesKnown(curFeeDict, curNameFBO){
+    //alert(curFeeDict[curNameFBO]["total"]);
+    if(curFeeDict[curNameFBO]["landing"]==null){
+        return true;
+    }
+    if(curFeeDict[curNameFBO]["ramp"]==null){
+        return true;
+    }
+    if(curFeeDict[curNameFBO]["tie down"]==null){
+        return true;
+    }
+    if(curFeeDict[curNameFBO]["call out"]==null){
+        return true;
+    }
+    if(curFeeDict[curNameFBO]["facility"]==null && curFeeDict[curNameFBO]["other"]==null){
+        return true;
+    }
+
+    return false;
+}
+
 function linkToBookTrip(index){
     var fboName=fbos[parseInt(index)].name;
     var airportName=feeDict[fboName]["airport"];
@@ -396,7 +425,7 @@ function linkToBookTrip(index){
     var time= gon.time;
     var time2 =gon.time2;
     var cost=feeDict[fboName]["total"];
-    window.location='https://chartair.us/book_trip?fbo='+fboName+'&airport='+airportName+'&cost='+cost+'&tailnumber='+tailnumber+'&time='+time+'&time2='+time2;
+    window.location='https://www.chartair.us/book_trip?fbo='+fboName+'&airport='+airportName+'&cost='+cost+'&tailnumber='+tailnumber+'&time='+time+'&time2='+time2;
 }
 
 function createGoogleMap(mapDetails){

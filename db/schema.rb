@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170908162900) do
+ActiveRecord::Schema.define(version: 20170920221805) do
 
   create_table "airplane_users", force: :cascade do |t|
     t.integer "airplane_id",  null: false
@@ -116,6 +116,13 @@ ActiveRecord::Schema.define(version: 20170908162900) do
     t.index ["fee_type_id"], name: "index_fees_on_fee_type_id"
   end
 
+  create_table "logins", force: :cascade do |t|
+    t.integer  "user_id"
+    t.datetime "logout"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "plan_trips", force: :cascade do |t|
     t.integer  "user_id"
     t.string   "state"
@@ -139,6 +146,13 @@ ActiveRecord::Schema.define(version: 20170908162900) do
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
     t.string   "status"
+  end
+
+  create_table "requests", force: :cascade do |t|
+    t.string   "email"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.boolean  "sent"
   end
 
   create_table "trips", force: :cascade do |t|
