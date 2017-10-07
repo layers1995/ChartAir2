@@ -17,7 +17,7 @@ class UsersController < ApplicationController
       
       if @user.save
         flash[:success] = "Thank you for joining ChartAir"
-        UserMailer.welcome_email(@user).deliver_now
+        UserMailer.welcome_email(@user).deliver_later
         log_in @user
         redirect_to home_path
       else

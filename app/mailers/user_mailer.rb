@@ -5,7 +5,6 @@ class UserMailer < ApplicationMailer
   def welcome_email(user)
     @user = user
     @url  = 'http://chartair.us/login'
-    print "EMAIL SENT!?"
     mail(to: @user.email, subject: 'Welcome to ChartAir')
   end
   
