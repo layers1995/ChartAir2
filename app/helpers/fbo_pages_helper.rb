@@ -1,0 +1,2 @@
+module FboPagesHelper
+end

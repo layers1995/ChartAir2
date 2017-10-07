@@ -26,6 +26,7 @@ def main
 
 	#addCities("uscitiesv1.3.csv") # makes the website run slowly... meh
 
+	#addAirports("tx_call_sheet")
 	addAirports("full_airport_data")
 
 	addFboFolder("fbo_call_data")
@@ -202,7 +203,7 @@ def addAirports(filename)
 		curAirport = curAirport.strip.downcase
 		airportCode, airportName, ownerPhone, managerPhone, latitude, longitude, state, city = curAirport.split("\t")
 
-		next if state != "il" and state != "oh" and state != "mn" and state != "mi" and state != "in" and state != "az" and state != "co" and state != "ky" and state != "mo" and state != "ms" and state!= "nv" and state != "or" and state != "tx" and state != "ut" and state != "wa" and state != "wv"
+		next if state != "il" and state != "oh" and state != "mn" and state != "mi" and state != "in" and state != "az" and state != "co" and state != "ky" and state != "mo" and state != "ms" and state!= "nv" and state != "ok" and state != "or" and state != "tx" and state != "ut" and state != "wa" and state != "wv"
 
 		curCity = City.find_by({ :name => city, :state => state })
 # this will create a city if it's not found, but because we don't actually care about the city, it doesn't matter much, and commenting this out avoids duplicates
@@ -235,7 +236,7 @@ def addFbos(filePath)
 
 		state, city, airportName, airportCode, fboName, phone = curFbo.split("\t")
 
-		if state != "il" and state != "oh" and state != "mn" and state != "mi" and state != "in" and state != "az" and state != "co" and state != "ky" and state != "mo" and state != "ms" and state!= "nv" and state != "or" and state != "tx" and state != "ut" and state != "wa" and state != "wv"
+		if state != "il" and state != "oh" and state != "mn" and state != "mi" and state != "in" and state != "az" and state != "co" and state != "ky" and state != "mo" and state != "ms" and state!= "nv" and state != "ok" and state != "or" and state != "tx" and state != "ut" and state != "wa" and state != "wv"
 			return
 		end
 
@@ -279,6 +280,8 @@ def addFeesAndUpdateFbos(filename)
 
 		state, city, airportName, airportCode, fboName, phoneNumbers, hasFees, classificationDesc, otherClassification, landingFee, rampFee, tieDownFee, facilityFee, callOutFee, hangarFee, otherFee, changeFrequency, feesWaived, fuelNeeded, contactPerson, callDate, infoQuality, hasFeeSheet, feeSheetLink, additionalInfo  = curRow.split("\t")
 
+		next if hasFees == "did not/would not answer"
+
 		feeClassification = Classification.find_by( :classification_description => classificationDesc )
 
 		# We didn't make a column for tie down fees, so they're in the ramp fee instead.
@@ -303,8 +306,7 @@ def addFeesAndUpdateFbos(filename)
 		if !curFbo.nil?
 			# this is what should happen
 			if !hasFees.nil? and hasFees.strip == "no"
-				curFbo.update( :classification => Classification.find_by( :classification_description => "no fee"))
-				curCategory = Category.find_by( :category_description => "no fee")
+				curFbo.update( :classification => Classification.find_by( :classification_description => "flat rate"))
 				FeeType.find_each do |curFeeType|
 					if curFeeType.fee_type_description == "call out"
 						singleFeeHelper(callOutFee, curFbo, curFeeType.fee_type_description)

@@ -1,0 +1,28 @@
+<%= render 'layouts/header' %>
+<%= stylesheet_link_tag 'base'%>
+
+<h1 class="title">Search</h1>
+
+    <% unless flash.empty? %>
+      <div id="notice">
+        <% flash.each do |key, value| %>
+            <div class="flash <%= key %>">
+              <%= value %>
+              </br>
+            </div>
+        <% end %>
+      </div>
+    <% end %>   
+    
+<div class="formPlanTrip">
+    
+    <%= form_for(@search, url: search_path) do |f| %>
+        
+        <p class="formLable">Airport Code</p>                        
+        <p class="center"><%= f.text_field :airport_code %></p>
+        <p class="center"><%= f.check_box :wants_multiple %>Show nearby airports</p>
+        <p class="center"><%= f.submit "Search", class: "submit" %></p>
+        
+    <% end %>
+    
+</div>

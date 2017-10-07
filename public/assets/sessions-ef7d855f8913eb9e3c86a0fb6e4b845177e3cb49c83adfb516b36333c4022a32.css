@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+/* line 7, /home/logan/Documents/workspace/ChartAir2/app/assets/stylesheets/sessions.scss */
+body {
+  position: absolute;
+  top: 15%;
+  left: 0%;
+  float: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: right;
+  background-image: url(/images/sky3.png);
+  color: #c9c9c2;
+}
+
+/* line 20, /home/logan/Documents/workspace/ChartAir2/app/assets/stylesheets/sessions.scss */
+h1 {
+  text-align: center;
+  color: grey;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* line 26, /home/logan/Documents/workspace/ChartAir2/app/assets/stylesheets/sessions.scss */
+#userRequestTitle {
+  color: white;
+  position: fixed;
+  top: 60%;
+  margin-right: 10%;
+  margin-left: 10%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* line 35, /home/logan/Documents/workspace/ChartAir2/app/assets/stylesheets/sessions.scss */
+html {
+  height: 100%;
+  background-image: url(sky3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+/* line 43, /home/logan/Documents/workspace/ChartAir2/app/assets/stylesheets/sessions.scss */
+#loginBox {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.65);
+  -webkit-border-radius: 25px;
+  border: 10px solid rgba(255, 255, 255, 0.15);
+  left: 39%;
+  top: 20%;
+  padding: 1%;
+  text-align: left;
+  list-style: none;
+}
+
+/* line 55, /home/logan/Documents/workspace/ChartAir2/app/assets/stylesheets/sessions.scss */
+#newUserBox {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.65);
+  -webkit-border-radius: 25px;
+  border: 10px solid rgba(255, 255, 255, 0.15);
+  left: 39%;
+  top: 10%;
+  padding: 1%;
+  text-align: left;
+  list-style: none;
+}
+
+/* line 67, /home/logan/Documents/workspace/ChartAir2/app/assets/stylesheets/sessions.scss */
+#belowBox {
+  position: fixed;
+  left: 41.5%;
+  top: 75%;
+}
+
+/* line 73, /home/logan/Documents/workspace/ChartAir2/app/assets/stylesheets/sessions.scss */
+#input {
+  position: relative;
+  left: 0%;
+  max-width: 100%;
+  -webkit-border-radius: 30px;
+  border-radius: solid 1px white;
+  border: none;
+  text-align: center;
+  background: white;
+  font-size: 20px;
+  font-family: 'tradegothiclt-light',sans-serif;
+}
+
+/* line 86, /home/logan/Documents/workspace/ChartAir2/app/assets/stylesheets/sessions.scss */
+#loginGroup {
+  position: relative;
+  margin-top: 10%;
+  float: center;
+  text-align: center;
+}
+
+/* line 93, /home/logan/Documents/workspace/ChartAir2/app/assets/stylesheets/sessions.scss */
+input[type=submit] {
+  min-width: 100%;
+  -webkit-border-radius: 30px;
+  border: solid 2px #81a5d4;
+  border: none;
+  text-align: center;
+  background: #3a8dfd;
+  color: white;
+  font-size: 20px;
+  font-family: 'tradegothiclt-light',sans-serif;
+}
+
+/* line 105, /home/logan/Documents/workspace/ChartAir2/app/assets/stylesheets/sessions.scss */
+.smaller {
+  position: relative;
+  left: 40%;
+  width: 50px;
+  height: auto;
+}
+
+/* line 112, /home/logan/Documents/workspace/ChartAir2/app/assets/stylesheets/sessions.scss */
+.logo {
+  position: relative;
+  left: 0%;
+  width: 250px;
+  height: auto;
+}
+
+/* line 119, /home/logan/Documents/workspace/ChartAir2/app/assets/stylesheets/sessions.scss */
+footer {
+  position: fixed;
+  bottom: 0%;
+  left: 40%;
+  color: #ffffff;
+}
+/* line 125, /home/logan/Documents/workspace/ChartAir2/app/assets/stylesheets/sessions.scss */
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 131, /home/logan/Documents/workspace/ChartAir2/app/assets/stylesheets/sessions.scss */
+#error {
+  color: #f26060;
+}
+
+/* line 135, /home/logan/Documents/workspace/ChartAir2/app/assets/stylesheets/sessions.scss */
+.flash {
+  color: #F46666;
+}
+
+/* line 139, /home/logan/Documents/workspace/ChartAir2/app/assets/stylesheets/sessions.scss */
+.loginInfo {
+  position: relative;
+  float: center !important;
+  text-align: center !important;
+  color: darkgray;
+}
+
+/* line 146, /home/logan/Documents/workspace/ChartAir2/app/assets/stylesheets/sessions.scss */
+.error {
+  color: #F46666;
+}

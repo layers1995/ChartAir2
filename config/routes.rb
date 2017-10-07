@@ -1,9 +1,5 @@
 Rails.application.routes.draw do
 
-  get 'airplane_users/add_plane'
-
-  get 'airplane_users/profile'
-
 #routes for reports on trips/fbos
   get '/report', to: "report#index"
   post '/report', to: "report#create"
@@ -16,6 +12,13 @@ Rails.application.routes.draw do
   get '/problem_trip', to: "admin#problem_trip"
   post '/post_problem', to: "admin#post_problem"
   post '/seen_report', to: "admin#seen_report"
+  post '/emailed_request', to: "admin#emailed_request"
+  
+#fbo pages
+  #get '/fbo_profile', to: "fbo_pages#fbo_profile"
+  #get '/fbo_form', to: "fbo_pages#fbo_form"
+  #get '/search', to: "fbo_pages#fbo_search"
+  #post '/search', to: "fbo_pages#fbo_search_results"
 
 #pages for the user to view all of their previous trips
   get '/trips', to: 'trips#index'
@@ -34,12 +37,16 @@ Rails.application.routes.draw do
   get '/help',  to:'static_pages#help'
   get '/feedback',  to: 'static_pages#feedback'
   get '/about_us',    to: 'static_pages#about_us'
+  get '/landing', to: 'static_pages#landing'
 
 #user pages
   get '/new_user', to: 'users#new'
   get '/terms', to: 'users#terms'
+  get '/request', to: 'users#request_account'
+  post '/request', to: 'users#create_request'
   post '/create',  to: 'users#create'
-  
+
+#profile pages
   get '/profile', to: 'airplane_users#profile'
   post '/profileremove', to: 'airplane_users#remove_plane'
   get '/add_plane', to: 'airplane_users#new'
@@ -51,7 +58,7 @@ Rails.application.routes.draw do
   delete '/logout',  to: "sessions#destroy"
 
 #root page
-  root 'sessions#new'
+  root 'static_pages#landing'
   
 #resources
   resources :users

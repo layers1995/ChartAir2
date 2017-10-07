@@ -1,5 +1,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+
+body{
+	font-family:'Roboto Condensed', sans-serif;
+}
 
 #googleMap{
 	position: relative;
@@ -22,5 +28,9 @@ button{
 	width: 60%;
 	overflow: auto;
 	float: left;
+}
+
+.estimate{
+	color: #e49100;
 }
 

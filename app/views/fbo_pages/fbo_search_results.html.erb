@@ -1,0 +1,22 @@
+<%= render 'layouts/header' %>
+<%= stylesheet_link_tag 'base'%>
+
+<h1 class="title">Search Results</h1>
+
+<table>
+    
+    <tr>
+        <td class="columnTitles">Airport</td>
+        <td class="columnTitles">Fixed Based Operator</td>
+        <td class="columnTitles">Find Out More</td>
+    </tr>
+    
+    <% @fbos.each do |fbo|%>
+        <tr class="tableItems">
+            <td><%=Airport.find_by(:id => fbo.airport_id).name.titleize%></td>
+            <td><%=fbo.name.titleize%></td>
+            <td><%= link_to "See More", fbo_profile_path(:fbo => fbo.name, :airport_id => fbo.airport_id), method: :get %></td>
+        </tr>
+    <%end%>
+    
+</table>

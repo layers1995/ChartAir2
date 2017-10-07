@@ -12,4 +12,7 @@ class StaticPagesController < ApplicationController
   def about_us
   end
   
+  def landing
+  end
+  
 end

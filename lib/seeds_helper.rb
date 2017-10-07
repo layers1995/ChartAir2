@@ -77,7 +77,9 @@ def singleFeeHelper(fee, fbo, feeType)
 	isEstimate = false
 
 
-# First, grab the categories, and for the fees that are done by weight
+# first grab the categories
+
+# fees that are done by weight
 		if fee =~ /.+:/
 			if fee =~ />[0-9]+ [a-z]+/
 				#puts fee

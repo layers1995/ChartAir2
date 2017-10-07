@@ -1,0 +1,91 @@
+<%= render 'layouts/header' %>
+<%= stylesheet_link_tag 'base'%>
+<%= stylesheet_link_tag 'fbo_profile'%>
+
+<h1 class="title"><%=@fbo.name.titleize%></h1>
+
+<!--Fee Information-->
+<div id="fboPrices">
+    <h3 id="feeTableTitle"><%= @fbo.name.titleize%>'s fees</h3>
+    <div id="feeTables">   
+        <%if @feesLanding.length>0 %>
+            <p class="columnTitles">Landing Fees</p>
+        <%else%>
+
+        <%end%>
+        
+        <% @feesLanding.each do |fee|%>
+            <table>
+                <tr class="tableItems">
+                    <td><%=Category.find_by(:id => fee.category_id).category_description.titleize%></td>
+                    <td>Price: $<%=fee.price.to_i%></td>
+                </tr>
+            </table>
+        <%end%>
+        
+        
+        <% if @feesRamp.length>0 %>
+            <p class="columnTitles">Ramp Fees</p>
+        <%else%>
+        
+        <%end%>
+        
+        
+        <% @feesRamp.each do |fee|%>
+            <table>
+                <tr class="tableItems">
+                    <td><%=Category.find_by(:id => fee.category_id).category_description.titleize%></td>
+                    <td>Price: $<%=fee.price.to_i%></td>
+                </tr>
+            </table>
+        <%end%>
+        
+        
+        <% if @feesTieDown.length>0 %>
+            <p class="columnTitles">Tie-Down Fees</p>
+        <%else%>
+        
+        <%end%>
+        
+        <% @feesTieDown.each do |fee|%>
+            <table>
+                <tr class="tableItems">
+                    <td><%=Category.find_by(:id => fee.category_id).category_description.titleize%></td>
+                    <td>Price: $<%=fee.price.to_i%></td>
+                </tr>
+            </table>
+        <%end%>
+        
+        <%if @feesCallOut.length>0  %>
+            <p  class="columnTitles">Call-Out Fees</p>
+        <%else%>
+        
+        <%end%>
+        
+        <% @feesCallOut.each do |fee|%>
+            <table>
+                <tr class="tableItems">
+                    <td><%=Category.find_by(:id => fee.category_id).category_description.titleize%></td>
+                    <td>Price: $<%=fee.price.to_i%></td>
+                </tr>
+            </table>
+        <%end%>
+        
+        <%if @feesOther.length>0 %>
+            <p  class="columnTitles">Facility Fees</p>
+        <%else%>
+        
+        <%end%>
+        
+        <% @feesOther.each do |fee|%>
+            <table>
+                <tr class="tableItems">
+                    <td><%=Category.find_by(:id => fee.category_id).category_description.titleize%></td>
+                    <td>Price: $<%=fee.price.to_i%></td>
+                </tr>
+            </table>
+        <%end%>
+    </div> 
+</div>
+
+

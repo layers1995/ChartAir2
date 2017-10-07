@@ -48,9 +48,9 @@ def parseFbos(state, city, airportName, url)
 
         fboName = ""
         fboNumber = ""
+        fboEmail = ""
         # It seems like all the FBOs are in this format fortunately
         curRow.css("td[width='240']").each do |curFbo|
-          #puts curFbo
           # sometimes the fbo name is text. the 100 is a number I picked at random just to ensure I don't get things bigger than what I want.
           if curFbo.text.strip.length < 100 and curFbo.text.strip.length > 0
             fboName = curFbo.text.strip
@@ -76,6 +76,7 @@ def parseFbos(state, city, airportName, url)
             end
           end
         end
+
         if fboName != nil and fboNumber != nil and fboName.length > 0 and fboNumber.length > 0
           # If the name and phone number both exist, add them to the list
           fboData[fboName] = fboNumber
@@ -83,11 +84,13 @@ def parseFbos(state, city, airportName, url)
       end
     end
   end
+puts fboData
 
   fboData.each do |curFbo|
+
     printf("%s\t%s\t%s\t%s\t%s\t%s\n", city, curFbo[0].strip, curFbo[1].strip, airportName.strip, state, averageOperations)
-    #$fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[0].strip, curFbo[1].strip, averageOperations)
-    $fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[0].strip, curFbo[1].strip)
+    #$fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[0].strip, curFbo[1].strip, averageOperations, fboEmail)
+    #$fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[0].strip, curFbo[1].strip)
   end
 
 end
@@ -126,23 +129,18 @@ def crawl(url, startAirport = nil)
 end
 
 if __FILE__ == $0
-  #parseFbos('IL', 'Chicago', 'Midway', 'http://www.airnav.com/airport/KCIU')
+  parseFbos('IL', 'Galesburg', 'Galesburg municipal', 'http://www.airnav.com/airport/kmdw')
+
 =begin
   $fboSeedData = File.open("fbo_call_data_prioritized/minnesota.txt", "a")
   crawl('http://airnav.com/airports/us/MN')
   $fboSeedData.close()
 =end
 
-  $fboSeedData = File.open("fbo_call_data/michigan.txt", "a")
-  crawl('http://airnav.com/airports/us/MI', "Gradolph Field Airport")
-  $fboSeedData.close()
-
-  $fboSeedData = File.open("fbo_call_data/indiana.txt", "a")
-  crawl('http://airnav.com/airports/us/IN')
-  $fboSeedData.close()
-
+=begin
   $fboSeedData = File.open("fbo_call_data/minnesota.txt", "a")
   crawl('http://airnav.com/airports/us/MN')
   $fboSeedData.close()
+=end
 
 end
