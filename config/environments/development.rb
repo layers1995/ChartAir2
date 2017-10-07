@@ -27,7 +27,6 @@ Rails.application.configure do
   end
 
   # Make sure the mailer can send mail
-  # Make sure the mailer can send mail
   ActionMailer::Base.raise_delivery_errors = true
   ActionMailer::Base.perform_deliveries = true
   ActionMailer::Base.perform_caching = false
