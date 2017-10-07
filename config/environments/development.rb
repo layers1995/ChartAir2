@@ -27,18 +27,20 @@ Rails.application.configure do
   end
 
   # Make sure the mailer can send mail
+  # Make sure the mailer can send mail
   ActionMailer::Base.raise_delivery_errors = true
-  ActionMailer::Base.perform_caching = false
   ActionMailer::Base.perform_deliveries = true
+  ActionMailer::Base.perform_caching = false
   ActionMailer::Base.delivery_method = :smtp
-  # ActionMailer::Base.default_url_options = { :host => 'chartair-fuzzykitenz.c9users.io' }
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
-  ActionMailer::Base.smtp_settings = { 
-    :address         => 'smtp.gmail.com',
-    :user_name       => 'joel@starchup.com',
-    :password        => 'ChaiTea1',
-    :authentication  => :plain,
-    :port            => 587
+  config.action_mailer.default_url_options = { :host => ENV["host"] }
+  ActionMailer::Base.smtp_settings = {
+    :address        => 'smtp.gmail.com',
+    :port           => '587',
+    :authentication => :plain,
+    :user_name      => ENV["email_username"],
+    :password       => ENV["email_password"],
+    :domain         => 'gmail.com',
+    :enable_starttls_auto => true
   }
 
   # Print deprecation notices to the Rails logger.
