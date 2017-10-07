@@ -173,9 +173,7 @@ if __FILE__ == $0
 
   #crawl('http://airnav.com/airports/us/IL')
 
-
-  crawl('http://airnav.com/airports/us/WI', "Ephraim-Gibraltar Airport")
-  crawl('http://airnav.com/airports/us/WY')
+  crawl('http://airnav.com/airports/us/TX', 'Sugar Land Regional Airport')
 
   #eachState("http://airnav.com/airports/us", 44)
   $airportSeedData.close()

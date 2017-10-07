@@ -61,7 +61,7 @@ def parseFbos(state, city, airportName, url)
           end
         end
 
-        # phone numbers always seem to have td nowrap align=left
+        # phone numbers always have td nowrap align=left. The email address can be found on the same line.
         curRow.css("td[nowrap][align='left']").each do |curNumber|
           if curNumber.text.include?("on airport") == false
             # match phone numbers
@@ -74,22 +74,29 @@ def parseFbos(state, city, airportName, url)
                 fboNumber = fboNumber[0..11] + ", " + fboNumber[12..23]
               end
             end
+            if !curNumber.css("a").nil? and curNumber.css("a").length >= 2
+              fboEmail = curNumber.css("a")[1]["href"]
+              fboEmail = fboEmail.match(/[a-zA-Z0-9.]+@[a-zA-z0-9]+.[a-z]+/)
+            end
+            if !fboEmail.nil? and !fboEmail[0].nil?
+              fboEmail = fboEmail[0].strip
+            end
           end
-        end
+        end  
+
 
         if fboName != nil and fboNumber != nil and fboName.length > 0 and fboNumber.length > 0
           # If the name and phone number both exist, add them to the list
-          fboData[fboName] = fboNumber
+          fboData[fboName] = [fboNumber, fboEmail]
         end
       end
     end
   end
-puts fboData
 
   fboData.each do |curFbo|
 
-    printf("%s\t%s\t%s\t%s\t%s\t%s\n", city, curFbo[0].strip, curFbo[1].strip, airportName.strip, state, averageOperations)
-    #$fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[0].strip, curFbo[1].strip, averageOperations, fboEmail)
+    printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\n", city, curFbo[0].strip, curFbo[1][0].strip, airportName.strip, state, averageOperations, curFbo[1][1])
+    $fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[1][0].strip, averageOperations, curFbo[1][1])
     #$fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[0].strip, curFbo[1].strip)
   end
 
@@ -103,6 +110,9 @@ def crawl(url, startAirport = nil)
 
   state = url[url.rindex('/')+1..-1]
   page = Nokogiri::HTML(open(url))
+
+  fileLocation = "fbo_email_data/" + state + ".txt"
+  $fboSeedData = File.open(fileLocation, "a")
 
   rows = page.css("table[cellspacing='2'] tr")
   rows[1..-1].each do |tr|
@@ -126,10 +136,26 @@ def crawl(url, startAirport = nil)
       parseFbos(state, city, airport, link)
     end
   end
+  $fboSeedData.close()
+end
+
+def eachState(url, startIndex = 0)
+  linkArray = Array.new
+  page = Nokogiri::HTML(open(url))
+  page.css("td").css("a").each do |curData|
+    if curData["href"].include?("/airports/us/") and linkArray.include?(curData["href"]) == false
+      linkArray << curData["href"]
+    end
+  end
+  for curStateIndex in startIndex..linkArray.length
+    link = "http://airnav.com" + linkArray[curStateIndex]
+    puts link
+    crawl(link)
+  end
 end
 
 if __FILE__ == $0
-  parseFbos('IL', 'Galesburg', 'Galesburg municipal', 'http://www.airnav.com/airport/kmdw')
+  #parseFbos('IL', 'Galesburg', 'Galesburg municipal', 'http://www.airnav.com/airport/71j')
 
 =begin
   $fboSeedData = File.open("fbo_call_data_prioritized/minnesota.txt", "a")
@@ -137,10 +163,8 @@ if __FILE__ == $0
   $fboSeedData.close()
 =end
 
-=begin
-  $fboSeedData = File.open("fbo_call_data/minnesota.txt", "a")
-  crawl('http://airnav.com/airports/us/MN')
-  $fboSeedData.close()
-=end
+  #crawl('http://airnav.com/airports/us/AL', "Robbins Field Airport")
+
+  eachState("http://airnav.com/airports/us", 4)
 
 end
