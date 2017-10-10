@@ -4,6 +4,7 @@
 	<div id="navBar">
 		<ul id="headerNavItems">
 				<li class="item"><%= link_to "Plan Trip", plantrip_path,  method: :get %></li>
+				<li class="item"><%= link_to "Search", search_path %></li>
 				<li class="item"><%= link_to "About Us", about_us_path %></li>
 				<li class="item"><%= link_to "Help", help_path %></li>
 				
@@ -15,6 +16,7 @@
 		            <ul class="dropdown-menu">
 		              <li class="darkGray"><%= link_to "Profile", profile_path,  method: :get%></li>
 		              <li class="darkGray"><%= link_to "Trips", trips_path,  method: :get %></li>
+		              <li class="darkGray"><%= link_to "Feedback", feedback_path,  method: :get %></li>
 		              <li class="divider"></li>
 		              <li class="darkGray">
 		                <%= link_to "Log out", logout_path, method: :delete %>

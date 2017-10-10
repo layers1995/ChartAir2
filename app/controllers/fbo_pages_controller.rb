@@ -2,6 +2,10 @@ class FboPagesController < ApplicationController
   
   #shows all the fees, services and contact information for the fbo
   def fbo_profile
+    
+  end
+  
+  def fbo_confirm_prices
     #protect against doubles one which has no info
     fbos=Fbo.where(:name => params[:fbo], :airport_id => params[:airport_id].to_i)
     numFees=-1
@@ -55,7 +59,7 @@ class FboPagesController < ApplicationController
             @fbos=curFbos
           else
             #more than one fbo send to results
-            redirect_to fbo_profile_path(:fbo => curFbos.first.name, :airport_id => curFbos.first.airport_id)
+            redirect_to fbo_confirm_path(:fbo => curFbos.first.name, :airport_id => curFbos.first.airport_id)
           end
         else
           #flash errors and refresh the page
@@ -75,8 +79,34 @@ class FboPagesController < ApplicationController
     
   end
   
+  #holds the current fbo
+  def fbo_update_options
+    @fbo=Fbo.friendly.find(params[:fbo_id])
+  end
+  
   #form where fbo can input all of their data
   def fbo_form
+    
+  end
+  
+  def fbo_update_email
+    @email=""
+  end
+  
+  def fbo_update_form
+    @fees=[]
+  end
+  
+  def confirm_fees
+    #change all of their fees to is_estimate=false
+    curFbo=Fbo.where(:name => params[:fbo])
+    fees= Fee.where(:fbo_id => curFbo.id)
+    
+    fees.each do |fee|
+      fee.is_estimate=false
+    end
+    
+    redirect_to 'congrats'
     
   end
   

@@ -15,7 +15,7 @@
         <tr class="tableItems">
             <td><%=Airport.find_by(:id => fbo.airport_id).name.titleize%></td>
             <td><%=fbo.name.titleize%></td>
-            <td><%= link_to "See More", fbo_profile_path(:fbo => fbo.name, :airport_id => fbo.airport_id), method: :get %></td>
+            <td><%= link_to "See More", fbo_confirm_path(:fbo => fbo.name, :airport_id => fbo.airport_id), method: :get %></td>
         </tr>
     <%end%>
     

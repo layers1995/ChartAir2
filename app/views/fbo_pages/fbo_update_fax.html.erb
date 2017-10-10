@@ -1,0 +1,11 @@
+<%= render 'layouts/header' %>
+<%= stylesheet_link_tag 'base'%>
+
+<h1 class="title">Update Your Fees In an Fax</h1>
+
+<p class="columnTitles">Send your fee sheets via fax to: #312-878-9909</p>
+
+</br>
+</br>
+</br>
+<p class="center"><%= link_to "Fax sent", confirm_fees_path, class: "issueButton", method: :post, data: {confirm: "Confirm that all of the fees are accurate and found on fax?"}%></p>

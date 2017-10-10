@@ -1,20 +1,72 @@
 <%= render 'layouts/header' %>
 <%= stylesheet_link_tag 'base'%>
 
-<%= form_for(:report, url: report_path) do |f| %>
-     
-    <p class="invisable"><%= f.number_field :trip_id,{id: "input", value: @trip_id}%></p> 
-     
-    <p>How would you rate ChartAir as a service?</p>
-    <p><%= f.number_field :trip_rating, id: "input"%></p>
-    <p>Do you have any comments?</p>
-    <p><%= f.text_field :trip_comments, id: "input"%></p>
+<h1 class="title">How was your trip?</h1>
+
+<% if @trips.length>0 %>
+
+    <%= form_for(@rating) do |f| %>
     
-    <p>How would you rate the location you landed at?</p>
-    <p><%= f.number_field :fbo_rating, id: "input"%></p>
-    <p>Do you have any comments?</p>
-    <p><%= f.text_field :fbo_comments, id: "input"%></p>
+        <p>Which trip would you like to rate?</p>
+        
+        <%= f.select(:trip_id) do %>
+        
+          <% @trips.each do |c| %>
+            <%= content_tag(:option, "Trip to " + Fbo.find_by(:id => c.fbo_id).name.titleize + " with" + AirplaneUser.find_by(:id => c.airplane_user_id).tailnumber.titleize, value: c.id) %>
+          <% end %>
+          
+        <% end %>
+        
+        </br>
+        </br>
+        <p>How would you rate the accuracy of your trip out of 5?</p>
+        
+        <%= label_tag(:trip_rating, 1) %>
+        <%= radio_button_tag(:trip_rating, 1) %>
+        
+        <%= label_tag(:trip_rating, 2) %>
+        <%= radio_button_tag(:trip_rating, 2) %>
+        
+        <%= label_tag(:trip_rating, 3) %>
+        <%= radio_button_tag(:trip_rating, 3) %>
+        
+        <%= label_tag(:trip_rating, 4) %>
+        <%= radio_button_tag(:trip_rating, 4) %>
+        
+        <%= label_tag(:trip_rating, 5) %>
+        <%= radio_button_tag(:trip_rating, 5) %>
+     
+        <p>Do you have any comments on your trip?</p>
+        <%= f.text_area :trip_comments, class: 'form-control', size: "10x5" %>
+        
+        </br>
+        <p>How would you rate the FBO you landed at out of 5?</p>
+        
+        <%= label_tag(:fbo_rating, 1) %>
+        <%= radio_button_tag(:fbo_rating, 1) %>
+        
+        <%= label_tag(:fbo_rating, 2) %>
+        <%= radio_button_tag(:fbo_rating, 2) %>
+        
+        <%= label_tag(:fbo_rating, 3) %>
+        <%= radio_button_tag(:fbo_rating, 3) %>
+        
+        <%= label_tag(:fbo_rating, 4) %>
+        <%= radio_button_tag(:fbo_rating, 4) %>
+        
+        <%= label_tag(:fbo_rating, 5) %>
+        <%= radio_button_tag(:fbo_rating, 5) %>
+     
+        <p>Do you have any comments on your trip?</p>
+        <%= f.text_area :fbo_comments, class: 'form-control', size: "10x5" %>
+        
+        </br>
+        <%= f.submit "Submit Comments", class: "btn btn-primary" %>
+          
+    <% end %>
     
-    <%= f.submit "Rate Trip"%>
-      
-<% end %>
+<%else%>
+    
+    <h3 class="center">All of the trips you have taken have been reviewed!</h3>
+    
+<%end%>

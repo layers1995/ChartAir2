@@ -61,7 +61,14 @@ class AdminController < ApplicationController
     trip.trip_status= params[:problem]
     trip.issue = params[:reason]
     
-    trip.save
+    if params[:problem]!=""
+      trip.save
+    else
+      @trip = params[:trip_id]
+      @issue= params[:problem]
+      @problem=""
+      redirect_to "/problem_trip"
+    end
     
     redirect_to admin_main_path
   end
