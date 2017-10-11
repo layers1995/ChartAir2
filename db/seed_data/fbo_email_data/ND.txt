@@ -1,0 +1,54 @@
+ND	Ashley	Ashley Municipal Airport	KASY	701-371-8707	280	
+ND	Beach	Beach Airport	20U	701-872-4617	124	
+ND	Beulah	Beulah Airport	95D	701-873-4100	140	
+ND	Bismarck	Bismarck Municipal Airport	KBIS	701-223-4754	4650	shaeh@bismarckaero.com
+ND	Bismarck	Bismarck Municipal Airport	KBIS	701-258-5024	4650	paul@executive-air
+ND	Bottineau	Bottineau Municipal Airport	D09	701-228-5265	400	
+ND	Bowman	Bowman Regional Airport	KBWW	701-523-7484, 701-440-7449	376	
+ND	Carrington	Carrington Municipal Airport	46D	701-652-2911	284	
+ND	Casselton	Casselton Robert Miller Regional Airport	5N8	701-347-4680	1140	
+ND	Cavalier	Cavalier Municipal Airport	2C8	701-265-3186, 701-520-8631	324	cavalierairport@polarcomm.com
+ND	Cooperstown	Cooperstown Municipal Airport	S32	701-797-3613	256	
+ND	Crosby	Crosby Municipal Airport	D50	701-965-6512	228	
+ND	Devils Lake	Devils Lake Regional Airport	KDVL	701-739-2618, 701-739-9349	1920	
+ND	Devils Lake	Devils Lake Regional Airport	KDVL	701-662-3221, 701-351-4082	1920	
+ND	Devils Lake	Devils Lake Regional Airport	KDVL	701-351-5382, 701-520-0229	1920	dlaero@hotmail.com
+ND	Dickinson	Dickinson - Theodore Roosevelt Regional Airport	KDIK	701-483-4221, 701-264-9966	1350	rick@westernedgeaviation.net
+ND	Edgeley	Edgeley Municipal Airport	51D	701-269-2732	184	
+ND	Enderlin	Sky Haven Airport	5N4	701-799-6082	252	
+ND	Fargo	Hector International Airport	KFAR	701-373-8800	5460	service@fargojet.com
+ND	Fargo	West Fargo Municipal Airport	D54	701-371-2655	1050	robbie@delta54aviation.com
+ND	Garrison	Garrison Municipal Airport	D05	701-337-2303	284	
+ND	Glen Ullin	Glen Ullin Regional Airport	D57	701-348-3649	75	
+ND	Grafton	Hutson Field Airport	KGAF	701-352-0271	2190	
+ND	Grand Forks	Grand Forks International Airport	KGFK	701-772-5504	26160	csrgrandforks@avflight.com
+ND	Gwinner	Gwinner Airport-Roger Melroe Field	KGWR	701-724-3068	268	
+ND	Harvey	Harvey Municipal Airport	5H4	701-324-2000	132	
+ND	Hazen	Mercer County Regional Airport	KHZE	701-880-0042	116	mcraa@westriv.com
+ND	Hettinger	Hettinger Municipal Airport	KHEI	701-567-2069	404	
+ND	Jamestown	Jamestown Regional Airport	KJMS	701-952-1515	3060	
+ND	Kenmare	Kenmare Municipal Airport	7K5	701-385-9335	244	
+ND	Kindred	Robert Odegaard Field Airport	K74	701-428-9990	464	
+ND	Langdon	Robertson Field Airport	D55	701-256-3639	600	
+ND	Linton	Linton Municipal Airport	7L2	701-254-5449	504	
+ND	Lisbon	Lisbon Municipal Airport	6L3	701-683-5501	320	
+ND	Mandan	Mandan Municipal Airport	Y19	701-663-5386, 701-214-0983	2010	info@clearskiesaviationnd.com
+ND	Mandan	Mandan Municipal Airport	Y19	701-663-0669, 701-663-3690	2010	manager@mandanairport.com
+ND	Minot	Minot International Airport	KMOT	701-857-4738	2040	linemanager@minotaerocenter.com
+ND	Mohall	Mohall Municipal Airport	KHBC	701-263-1008	660	
+ND	Mott	Mott Municipal Airport	3P3	701-824-2983	140	
+ND	Northwood	Northwood Municipal Airport-Vince Field	4V4	701-587-5171	900	
+ND	Oakes	Oakes Municipal Airport	2D5	701-742-3145	372	
+ND	Page	Page Regional Airport	64G	701-668-2302	324	
+ND	Park River	Park River Airport-W C Skjerven Field	Y37	701-284-7303	408	
+ND	Parshall	Parshall-Hankins Airport	Y74	701-862-3125	112	
+ND	Pembina	Pembina Municipal Airport	KPMB	701-825-6615	252	
+ND	Rolla	Rolla Municipal Airport	06D	701-477-5145	308	
+ND	Rugby	Rugby Municipal Airport	KRUG	701-776-5171	312	
+ND	Stanley	Stanley Municipal Airport	08D	701-629-0087	360	
+ND	Tioga	Tioga Municipal Airport	D60	701-664-3012, 701-641-6020	488	tiogaaero@gmail.com
+ND	Valley City	Barnes County Municipal Airport	KBAC	701-840-5903	630	
+ND	Wahpeton	Harry Stern Airport	KBWP	701-642-5777	1080	
+ND	Walhalla	Walhalla Municipal Airport	96D	701-549-3500	224	
+ND	Watford City	Watford City Municipal Airport	S25	701-570-2646	600	luke@ltenterprisesnd.com
+ND	Williston	Sloulin Field International Airport	KISN	701-774-2300	3540	ISN@signatureflight.com

@@ -1,0 +1,23 @@
+WV	Beckley	Raleigh County Memorial Airport	KBKW	304-255-0476	1830	
+WV	Bluefield	Mercer County Airport	KBLF	304-327-5308	1350	
+WV	Buckhannon	Upshur County Regional Airport	W22	304-472-9437, 304-613-7989	3300	manager@flyw22.com
+WV	Charleston	Yeager Airport	KCRW	304-343-8818	3630	m.slack@executiveair.biz
+WV	Clarksburg	North Central West Virginia Airport	KCKB	304-848-6700	1650	V1Services@flyckb.com
+WV	Elkins	Elkins-Randolph County Airport-Jennings Randolph Field	KEKN	304-636-2726	870	
+WV	Fairmont	Fairmont Municipal Airport-Frankman Field	4G7	304-363-1468	660	
+WV	Huntington	Tri-State Airport/Milton J. Ferguson Field	KHTS	304-453-6165	1050	bbrown@tristateairport.com
+WV	Lewisburg	Greenbrier Valley Airport	KLWB	304-645-3961	1470	info@gvairport.com
+WV	Logan	Logan County Airport	6L4	304-752-0975	484	
+WV	Martinsburg	Eastern WV Regional Airport/Shepherd Field	KMRB	304-262-2507	2160	kbrosius@flyaerosmith.com
+WV	Milton	Ona Airpark	12V	304-710-5650	600	
+WV	Morgantown	Morgantown Municipal Airport-Walter L. Bill Hart Field	KMGW	304-296-2359	4200	
+WV	New Cumberland	Herron Airport	7G1	304-387-0191	152	
+WV	Parkersburg	Mid-Ohio Valley Regional Airport	KPKB	304-464-5115	2400	
+WV	Petersburg	Grant County Airport	W99	304-257-4435	1200	
+WV	Philippi	Philippi/Barbour County Regional Airport	79D	304-457-1225	308	
+WV	Pineville	Kee Field Airport	I16	304-732-9160	168	
+WV	Point Pleasant	Mason County Airport	3I2	304-675-7765	140	
+WV	Ravenswood	Jackson County Airport	I18	304-273-8114	1020	
+WV	Spencer	Boggs Field Airport	KUSW	304-927-4045	236	
+WV	Sutton	Braxton County Airport	48I	304-765-0186, 304-542-3311	468	
+WV	Wheeling	Wheeling Ohio County Airport	KHLG	304-277-3499	3840	

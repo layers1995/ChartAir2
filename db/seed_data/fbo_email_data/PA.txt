@@ -1,0 +1,92 @@
+PA	Allentown	Lehigh Valley International Airport	KABE	610-266-7343	6390	
+PA	Allentown	Allentown Queen City Municipal Airport	KXLL	610-791-5193	3060	DBetters@lnaa.com
+PA	Altoona	Altoona-Blair County Airport	KAOO	814-793-2164	1950	fueldesk@igflightservices.com
+PA	Beaver Falls	Beaver County Airport	KBVI	724-624-8100	5190	charter@airquestaviation.com
+PA	Beaver Falls	Beaver County Airport	KBVI	724-843-4800	5190	
+PA	Bedford	Bedford County Airport	KHMZ	814-623-8171	1380	mail@bunaircorp.com
+PA	Bellefonte	Bellefonte Airport	N96	814-355-7407	660	
+PA	Bloomsburg	Bloomsburg Municipal Airport	N13	570-784-7703	750	
+PA	Bradford	Bradford Regional Airport	KBFD	814-368-5928	304	alicia@bradfordairport.net
+PA	Brogue	Baublitz Commercial Airport	9W8	717-870-4076	690	
+PA	Butler	Butler County Airport/K W Scholter Field	KBTP	724-586-6023	6120	info@airquestaviation.com
+PA	Butler	Butler County Airport/K W Scholter Field	KBTP	724-586-6665	6120	btp@zoominternet.net
+PA	Butler	Butler Farm Show Airport	3G9	724-482-4626	436	
+PA	Carlisle	Carlisle Airport	N94	717-243-2133	2010	
+PA	Clarion	Clarion County Airport	KAXQ	814-226-9993	200	manager@clarionairport.com
+PA	Clearfield	Clearfield-Lawrence Airport	KFIG	814-768-7712	500	
+PA	Coatesville	Chester County G O Carlson Airport	KMQS	610-384-9000	3420	MQS@signatureflight.com
+PA	Connellsville	Joseph A Hardy Connellsville Airport	KVVS	724-628-2276	2310	
+PA	Corry	Corry-Lawrence Airport	8G2	814-664-4508	292	
+PA	Danville	Danville Airport	8N8	570-284-4545	750	
+PA	Doylestown	Doylestown Airport	KDYL	215-340-0707	3000	cindy.kelly@doylestownairport.com
+PA	Dubois	Dubois Regional Airport	KDUJ	814-328-5311, 814-328-2622	476	bob@dujairport.com
+PA	East Stroudsburg	Stroudsburg-Pocono Airport	N53	570-420-1011	460	
+PA	Easton	Braden Airpark	N43	610-231-5270	990	
+PA	Erie	Erie International Airport/Tom Ridge Field	KERI	814-836-9220	2220	csrep@ncair.com
+PA	Erwinna	Vansant Airport	9N1	610-847-1119, 251-609-2043	348	baranddannie@yahoo.com
+PA	Factoryville	Seamans Field Airport	9N3	570-945-5125	2280	
+PA	Finleyville	Finleyville Airpark	G05	724-348-7202	780	
+PA	Franklin	Venango Regional Airport	KFKL	814-432-5333	1680	
+PA	Freeport	McVille Airport	6P7	724-294-2359	132	
+PA	Greenville	Greenville Municipal Airport	4G1	724-588-1665	1500	
+PA	Grove City	Grove City Airport	29D	724-748-5530	520	
+PA	Harrisburg	Capital City Airport	KCXY	717-525-9999	2250	customerservicecxy@skyportaviation.com
+PA	Harrisburg	Harrisburg International Airport	KMDT	855-944-4666, 717-944-4666	4140	cadkins@avflight.com
+PA	Hazleton	Hazleton Regional Airport	KHZL	570-455-7641	2220	
+PA	Honesdale	Cherry Ridge Airport	N30	570-253-5833	1890	
+PA	Indiana	Indiana County Airport (Jimmy Stewart Field)	KIDI	724-463-3883	1830	
+PA	Johnstown	John Murtha Johnstown-Cambria County Airport	KJST	814-361-3500	1650	
+PA	Lancaster	Lancaster Airport	KLNS	717-735-9507	6540	alliance@lancasterairport.com
+PA	Latrobe	Arnold Palmer Regional Airport	KLBE	724-539-4533	2370	dwarmitage@veeneal.com
+PA	Latrobe	Arnold Palmer Regional Airport	KLBE	724-537-0520	2370	charter@ljaviation.com
+PA	Lebanon	Keller Brothers Airport	08N	717-949-2424	384	
+PA	Lehighton	Jake Arner Memorial Airport	22N	570-386-5025, 570-778-4783	1080	
+PA	Lock Haven	William T Piper Memorial Airport	KLHV	570-748-5123, 570-971-7545	1440	edwatsonlhv@gmail.com
+PA	Meadville	Port Meadville Airport	KGKJ	814-333-2677	1110	
+PA	Mifflintown	Mifflintown Airport	P34	717-436-2725	292	
+PA	Monongahela	Rostraver Airport	KFWQ	724-379-6980	3600	
+PA	Mount Joy/Marietta	Donegal Springs Airpark	N71	301-904-0299	900	
+PA	Mount Pocono	Pocono Mountains Municipal Airport	KMPO	570-839-0258	1800	pmmaa@mpoairport.com
+PA	Myerstown	Deck Airport	9D4	717-866-6529	1080	
+PA	New Castle	New Castle Municipal Airport	KUCP	724-652-5546	2340	
+PA	Newry	Blue Knob Valley Airport	7G4	814-695-7705	192	
+PA	Palmyra	Reigle Field Airport	58N	717-838-5319	2460	
+PA	Perkasie	Pennridge Airport	KCKZ	215-257-0166	1800	
+PA	Philadelphia	Northeast Philadelphia Airport	KPNE	215-698-3100	6240	Steven.polonsky@atlanticaviation.com
+PA	Philadelphia	Northeast Philadelphia Airport	KPNE	215-673-9000	6240	
+PA	Philadelphia	Philadelphia International Airport	KPHL	215-492-7060	32370	jbutterworth@atlanticaviation.com
+PA	Philadelphia	Wings Field Airport	KLOM	215-646-0400	2490	info@flyadvanced.com
+PA	Pittsburgh	Allegheny County Airport	KAGC	412-267-8000, 412-267-8080	4380	fuel@voyagerjet.com
+PA	Pittsburgh	Allegheny County Airport	KAGC	412-469-6800	4380	
+PA	Pittsburgh	Pittsburgh International Airport	KPIT	412-472-6700	11580	George.Bacigalupo@atlanticaviation.com
+PA	Pittsfield	Brokenstraw Airport	P15	814-563-4949	152	
+PA	Pottstown	Heritage Field Airport	KPTW	610-495-7000, 610-495-5851	2490	cjordan@pennairways.com
+PA	Pottstown	Pottstown Municipal Airport	N47	610-495-6366	3030	flyeliteN47@yahoo.com
+PA	Pottsville	Schuylkill County / Joe Zerbey Airport	KZER	570-544-6002	2310	
+PA	Punxsutawney	Punxsutawney Municipal Airport	N35	814-938-9946	400	
+PA	Quakertown	Quakertown Airport	KUKT	215-538-3055	2430	
+PA	Reading	Reading Regional Airport/Carl A Spaatz Field	KRDG	610-372-4728, 610-207-7368	5400	csr@majets.com
+PA	Reading	Reading Regional Airport/Carl A Spaatz Field	KRDG	610-373-3000	5400	
+PA	Reading	Reading Regional Airport/Carl A Spaatz Field	KRDG	610-288-2496	5400	
+PA	Reedsville	Mifflin County Airport	KRVL	717-667-6829	1170	airportmgr@mifflincountyairport.com
+PA	Selinsgrove	Penn Valley Airport	KSEG	570-374-7671	1710	info@energyipt.com
+PA	Shamokin	Northumberland County Airport	N79	570-672-1321, 570-898-8588	1890	boomskie@sunlink.net
+PA	Slatington	Slatington Airport	69N	610-767-5881	536	
+PA	Smoketown	Smoketown Airport	S37	717-394-6476, 717-354-3059	2190	clayton@smoketownairport.com
+PA	Somerset	Somerset County Airport	2G9	814-445-1599	1320	wrightd@co.somerset
+PA	St Marys	St Marys Municipal Airport	KOYM	814-834-4671	476	
+PA	State College	University Park Airport	KUNV	814-865-4042	2700	
+PA	Sterling	Spring Hill Airport	70N	570-689-9316	156	
+PA	Titusville	Titusville Airport	6G1	814-827-0400	780	
+PA	Toughkenamon	New Garden Airport	N57	610-268-2619	2250	
+PA	Towanda	Bradford County Airport	N27	570-265-4900	1890	
+PA	Tunkhannock	Skyhaven Airport	76N	570-836-4800	1800	
+PA	Washington	Washington County Airport	KAFJ	724-228-8000	3630	sue@skywardaviation.com
+PA	Waynesburg	Greene County Airport	KWAY	724-627-8029	810	
+PA	Wellsboro	Wellsboro Johnston Airport	N38	570-724-3746	436	
+PA	Wellsville	Kampel Airport	2N5	717-432-9688	59	
+PA	Wilkes-Barre	Wilkes-Barre Wyoming Valley Airport	KWBW	570-288-3257	2460	
+PA	Wilkes-Barre/Scranton	Wilkes-Barre/Scranton International Airport	KAVP	570-655-5999, 570-457-4485	4770	customerservice@aviation-technologies
+PA	Williamsport	Williamsport Regional Airport	KIPT	800-872-3599, 570-368-2651	1560	
+PA	York	York Airport	KTHV	717-792-5566	4170	mtomlinson@york-aviation
+PA	Zelienople	Zelienople Municipal Airport	KPJC	724-452-4719	1530	

@@ -1,0 +1,63 @@
+MT	Baker	Baker Municipal Airport	KBHK	406-778-3508	540	bakerair@midrivers.com
+MT	Big Sandy	Big Sandy Airport	3U8	406-378-2361	432	
+MT	Big Timber	Big Timber Airport	6S0	406-932-4389	412	
+MT	Billings	Billings Logan International Airport	KBIL	406-252-0508	6480	info@edwardsjetcenter.com
+MT	Bozeman	Bozeman Yellowstone International Airport	KBZN	406-388-4152	6330	BZN@signatureflight.com
+MT	Bozeman	Bozeman Yellowstone International Airport	KBZN	406-388-1351	6330	arlins@arlins.com
+MT	Broadus	Broadus Airport	00F	406-436-2657, 406-436-2361	172	kamende@prco.mt
+MT	Butte	Bert Mooney Airport	KBTM	406-494-6694	1980	
+MT	Chester	Liberty County Airport	KLTY	406-759-5191	360	
+MT	Chinook	Edgar G Obie Airport	S71	406-799-6516	488	
+MT	Chinook	Hebbelman Airport	4U4	406-357-4233	50	
+MT	Choteau	Choteau Airport	KCII	406-590-2586	208	
+MT	Circle	Circle Town County Airport	4U6	406-485-2481	288	
+MT	Columbus	Woltermann Memorial Airport	6S3	406-322-5974	464	
+MT	Conner	West Fork Lodge Airport	4U7	406-821-1853	37	
+MT	Culbertson	Big Sky Field Airport	S85	406-787-5271	352	
+MT	Cut Bank	Cut Bank International Airport	KCTB	406-873-8683, 406-229-0376	690	mt@yahoo.com
+MT	Deer Lodge	Deer Lodge-City-County Airport	38S	406-490-3071, 406-490-0297	312	
+MT	Dillon	Dillon Airport	KDLN	406-683-5242, 406-660-2300	416	info@dillonflyingservice.com
+MT	Ekalaka	Ekalaka Airport	97M	406-975-9791	196	
+MT	Ennis	Ennis - Big Sky Airport	KEKS	406-682-7502, 406-570-7680	990	eks@choiceaviation.com
+MT	Eureka	Eureka Airport	88M	406-889-5174	160	
+MT	Fort Benton	Fort Benton Airport	79S	406-622-5682	416	
+MT	Fort Benton	Fort Benton Airport	79S	406-739-4311	416	
+MT	Fort Peck	Fort Peck Airport	37S	406-228-4848	63	
+MT	Glasgow	Wokal Field/Glasgow International Airport	KGGW	406-228-2719, 406-263-7010	690	airport@valleycountymt.gov
+MT	Glendive	Dawson Community Airport	KGDV	406-687-3372	452	
+MT	Great Falls	Great Falls International Airport	KGTF	406-453-7613	2670	flightlineops@holmanaviation.com
+MT	Great Falls	Great Falls International Airport	KGTF	406-727-0663	2670	service@frontrangefbo.com
+MT	Hamilton	Ravalli County Airport	6S5	406-363-6471	1950	csr@choiceaviation.com
+MT	Hardin	Big Horn County Airport	00U	406-665-1731	88	
+MT	Havre	Havre City-County Airport	KHVR	406-265-4326	690	
+MT	Helena	Helena Regional Airport	KHLN	406-442-2190	3180	info@execairmontana.com
+MT	Kalispell	Glacier Park International Airport	KGPI	406-755-5362	2400	info@glacierjetcenter.com
+MT	Kalispell	Kalispell City Airport	S27	406-755-2376	2310	
+MT	Laurel	Laurel Municipal Airport	6S8	406-628-2219, 406-628-8264	3450	Steph@northernskies.com
+MT	Lewistown	Lewistown Municipal Airport	KLWT	406-538-8150	1320	
+MT	Libby	Libby Airport	S59	406-334-0969	384	
+MT	Malta	Malta Airport	M75	406-654-1143	424	
+MT	Miles City	Frank Wiley Field Airport	KMLS	406-234-1296	388	mcairport@midrivers.com
+MT	Missoula	Missoula International Airport	KMSO	406-728-9363	3060	minutemanmso@gmail.com
+MT	Missoula	Missoula International Airport	KMSO	406-721-8886	3060	info@northstarmso.com
+MT	Plentywood	Sher-Wood Airport	KPWD	406-765-3403	930	
+MT	Polson	Polson Airport	8S1	406-883-2482	750	
+MT	Poplar	Poplar Municipal Airport	PO1	406-768-3800	930	
+MT	Red Lodge	Red Lodge Airport	KRED	406-446-1332	456	
+MT	Ronan	Ronan Airport	7S0	406-249-2250	372	
+MT	Roundup	Roundup Airport	KRPX	406-323-1662, 406-323-2679	408	
+MT	Scobey	Scobey Airport	9S2	406-487-2725	356	
+MT	Shelby	Shelby Airport	KSBX	406-434-2462	690	
+MT	Sidney	Sidney-Richland Regional Airport	KSDY	406-482-1832	690	fbo@richlandaviation.com
+MT	St Ignatius	St Ignatius Airport	52S	406-745-4008	136	
+MT	Stevensville	Stevensville Airport	32S	406-363-6471	1050	csr@choiceaviation.com
+MT	Superior	Mineral County Airport	9S4	406-822-3577, 406-822-3555	308	cgrimm@co.mineral
+MT	Thompson Falls	Thompson Falls Airport	KTHM	406-827-6942, 406-274-4379	536	tcox@co.sanders
+MT	Three Forks	Three Forks Airport	9S5	406-285-3006, 406-439-4179	960	headwatersfs@gmail.com
+MT	Townsend	Townsend Airport	8U8	406-351-1687	356	
+MT	Turner	Turner Airport	9U0	406-799-6516	536	
+MT	Twin Bridges	Twin Bridges Airport	7S1	406-684-5335, 406-596-1129	212	kendra@rubyvalleyaviation.com
+MT	West Yellowstone	Yellowstone Airport	KWYS	406-646-7359	900	wyi@filertel.com
+MT	White Sulphur Springs	White Sulphur Springs Airport	7S6	406-261-4556	372	
+MT	Winifred	Winifred Airport	9S7	406-462-5425	116	
+MT	Wolf Point	L M Clayton Airport	KOLF	406-653-1852	352	

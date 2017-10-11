@@ -1,0 +1,26 @@
+NV	Battle Mountain	Battle Mountain Airport	KBAM	775-635-2245	990	
+NV	Boulder City	Boulder City Municipal Airport	KBVU	702-638-3205, 702-882-6909	8160	
+NV	Boulder City	Boulder City Municipal Airport	KBVU	702-228-0455	8160	bfellc89005@yahoo.com
+NV	Carson City	Carson Airport	KCXP	775-883-1500	6870	tahoelocal@ltol.com
+NV	Elko	Elko Regional Airport	KEKO	775-738-7123	1680	
+NV	Ely	Ely Airport (Yelland Field)	KELY	775-289-8804	630	
+NV	Eureka	Eureka Airport	05U	775-237-5372	152	
+NV	Fallon	Fallon Municipal Airport	KFLX	775-423-3756	720	
+NV	Hawthorne	Hawthorne Industrial Airport	KHTH	775-945-3897, 775-945-9286	1050	
+NV	Jean	Jean Airport	0L7	702-261-4802, 702-261-4800	1650	bruced@mccarran.com
+NV	Las Vegas	Mc Carran International Airport	KLAS	702-739-1100	44460	LAS@signatureflight.com
+NV	Las Vegas	Mc Carran International Airport	KLAS	702-736-1830	44460	lasfrontdesk@atlanticaviation.com
+NV	Las Vegas	Henderson Executive Airport	KHND	702-261-4806	5850	customerservice@hnd.aero
+NV	Las Vegas	North Las Vegas Airport	KVGT	702-261-3803	13020	nlva@mccarran.com
+NV	Lovelock	Derby Field Airport	KLOL	775-273-4922, 775-857-8127	100	jhandka@pershingcounty.net
+NV	Mesquite	Mesquite Airport	67L	702-346-2841	524	llemieux@cascadeaccess.com
+NV	Minden	Minden-Tahoe Airport	KMEV	775-782-8277	6540	info@huttaviation.net
+NV	Minden	Minden-Tahoe Airport	KMEV	775-309-4423	6540	
+NV	Overton	Perkins Field Airport	U08	702-397-2716	400	dianar@mccarran.com
+NV	Reno	Reno/Tahoe International Airport	KRNO	775-858-7300	6870	patrick.wink@atlanticaviation.com
+NV	Reno	Reno/Stead Airport	KRTS	775-972-5540	4380	
+NV	Silver Springs	Silver Springs Airport	KSPZ	775-577-2111, 775-230-1877	500	kay@silverspringsairport.com
+NV	Tonopah	Tonopah Airport	KTPH	775-482-3626, 775-482-5107	960	
+NV	Wells	Wells Municipal Airport/Harriet Field	KLWL	775-752-3120	630	
+NV	Winnemucca	Winnemucca Municipal Airport	KWMC	775-623-5091	268	
+NV	Yerington	Yerington Municipal Airport	O43	775-463-3511, 775-463-2729	460	manager@yerington.net

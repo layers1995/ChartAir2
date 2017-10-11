@@ -1,0 +1,56 @@
+OR	Albany	Albany Municipal Airport	S12	541-730-3345	1920	thann@infiniteaircenter.com
+OR	Ashland	Ashland Municipal Airport-Sumner Parker Field	S03	541-482-7675	2130	
+OR	Astoria	Astoria Regional Airport	KAST	503-861-1222	3180	
+OR	Aurora	Aurora State Airport	KUAO	503-678-1336	7800	
+OR	Aurora	Aurora State Airport	KUAO	503-678-2252	7800	info@willametteair.com
+OR	Baker City	Baker City Municipal Airport	KBKE	541-523-5663	1320	Gen@bakeraircraft.com
+OR	Bandon	Bandon State Airport	S05	541-347-2022	544	
+OR	Bend	Bend Municipal Airport	KBDN	541-388-0019	11610	info@proairservices.com
+OR	Bend	Bend Municipal Airport	KBDN	541-383-8825, 541-598-4630	11610	info@flybend.com
+OR	Brookings	Brookings Airport	KBOK	541-412-8682	1860	
+OR	Burns	Burns Municipal Airport	KBNO	541-573-6139, 541-620-4188	660	bnoairport@aim.com
+OR	Cave Junction	Illinois Valley Airport	3S4	541-660-3176, 541-660-3176	460	
+OR	Corvallis	Corvallis Municipal Airport	KCVO	541-753-4466	4290	customerservice@corvallisaero.net
+OR	Cottage Grove	Cottage Grove State Airport	61S	503-378-4880	1380	
+OR	Creswell	Hobby Field Airport	77S	541-895-2913	3150	shumble@creswell-or
+OR	Enterprise	Enterprise Municipal Airport	8S4	541-426-3562	372	
+OR	Eugene	Mahlon Sweet Field Airport	KEUG	541-688-9291	5070	eugfrontdesk@atlanticaviation.com
+OR	Florence	Florence Municipal Airport	6S2	541-997-8069	536	
+OR	Gold Beach	Gold Beach Municipal Airport	4S1	541-247-6269	424	
+OR	Grants Pass	Grants Pass Airport	3S8	541-479-2230	2040	fbo@pacificaviationnw.com
+OR	Hermiston	Hermiston Municipal Airport	KHRI	541-567-3694	2040	
+OR	Hillsboro	Stark's Twin Oaks Airpark	7S3	503-451-3480, 503-522-8952	1830	betty@twinoaksairpark.com
+OR	Hood River	Ken Jernstedt Airfield	4S2	541-386-1133	1170	
+OR	Hubbard	Lenhardt Airpark	7S9	503-651-2187	460	
+OR	Independence	Independence State Airport	7S5	503-428-7209, 503-428-7210	2760	mail@nutsch.com
+OR	Joseph	Joseph State Airport	KJSY	503-378-4880	296	
+OR	Klamath Falls	Crater Lake-Klamath Regional Airport	KLMT	541-882-4681	4050	
+OR	La Grande	La Grande/Union County Airport	KLGD	541-963-6615	1320	ucairport@eoni.com
+OR	Lakeview	Lake County Airport	KLKV	541-947-4222, 541-951-8883	460	
+OR	Lebanon	Lebanon State Airport	S30	541-258-5029	810	FBO@lebanair.com
+OR	Lexington	Lexington Airport	9S9	541-989-9500	340	
+OR	Madras	Madras Municipal Airport	S33	541-475-4899	870	bergairllc@yahoo.com
+OR	Malin	Malin Airport	4S7	541-723-2021, 541-892-1572	58	
+OR	Mc Minnville	Mc Minnville Municipal Airport	KMMV	503-376-0190	5220	mail@konect-aviation
+OR	Medford	Rogue Valley International - Medford Airport	KMFR	541-842-2254	3210	infonow@millionairmfr.com
+OR	Newberg	Sportsman Airpark	2S6	503-538-2134	960	jerry@sportsmanairpark.com
+OR	Newberg	Chehalem Airpark	17S	503-537-0108	1020	
+OR	Newport	Newport Municipal Airport	KONP	541-867-7422	1650	l.vanderbeck@newportoregon.gov
+OR	North Bend	Southwest Oregon Regional Airport	KOTH	541-756-5181	1500	coosaviation@frontier.com
+OR	Ontario	Ontario Municipal Airport	KONO	541-889-9197	1050	
+OR	Pendleton	Eastern Oregon Regional Airport at Pendleton	KPDT	541-276-3313	1020	
+OR	Portland	Portland-Hillsboro Airport	KHIO	503-640-3711	20850	frontdesk@aeroair.com
+OR	Portland	Portland-Hillsboro Airport	KHIO	503-648-6403	20850	fuel@flyglobalnow.com
+OR	Portland	Portland-Hillsboro Airport	KHIO	503-648-2831	20850	fbo@hillsboroaviation.com
+OR	Portland	Portland International Airport	KPDX	503-331-4220	18690	joey.quitugua@atlanticaviation.com
+OR	Portland	Portland-Troutdale Airport	KTTD	503-661-1044	8640	gorgewinds@gmail.com
+OR	Portland-Mulino	Mulino State Airport	4S9	541-730-3345	1740	thann@infiniteaircenter.com
+OR	Prineville	Prineville Airport	S39	541-416-0805	840	kcoffelt@cityofprineville.com
+OR	Redmond	Roberts Field Airport	KRDM	541-504-3848	3240	info@flyredmond.com
+OR	Roseburg	Roseburg Regional Airport	KRBG	541-673-4722, 541-430-8339	2610	westernoregonaviation@yahoo.com
+OR	Salem	McNary Field Airport	KSLE	503-364-4158, 503-364-0111	2850	info@salemaviation.biz
+OR	Scappoose	Scappoose Industrial Airpark	KSPB	503-543-3121	4920	john@transwesternaviation.com
+OR	Sisters	Sisters Eagle Air Airport	6K5	541-719-0602	108	
+OR	Sunriver	Sunriver Airport	S21	541-593-4603	472	info@sunriver-resort
+OR	The Dalles	Columbia Gorge Regional/The Dalles Municipal Airport	KDLS	509-767-0005, 509-767-2272	1350	rolf@gorgeaviationservices.com
+OR	Tillamook	Tillamook Airport	KTMK	503-842-7152	2100	jpeak@potb.org

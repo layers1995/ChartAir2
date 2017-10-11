@@ -1,5 +1,6 @@
 module SeedsHelper
 
+=begin
 	def addWeightFee(feeList, fbo, feeTypeDescription)
 		feeList.split(",").each do |curFee|
 			if curFee =~ /^([0-9]+-[0-9]+: ?[0-9]+)/
@@ -11,6 +12,7 @@ module SeedsHelper
 			end
 		end
 	end
+=end
 
 	def getTieDownFee(rampFee)
 		# Tie down fees are listed under ramp fee because we didn't make a column for it in the spreadsheet.
@@ -36,21 +38,6 @@ module SeedsHelper
 		return [rampFee, tieDownFee]
 	end
 
-=begin
-	def singleFeeHelper(feePrice, category, fbo, feeType)
-		if feePrice =~ /$?[0-9]+\/[a-z]+|/
-			
-		end
-		feePrice = feeToNumber(feePrice)
-		feeType = FeeType.find_by( :fee_type_description => feeType )
-		if !feeType.nil?
-			Fee.find_or_create_by(:fee_type_id => feeType.id, :category => category, :fbo => fbo, :price => feePrice)
-			#puts fbo.name + ": " + feeType.fee_type_description + ": " + category.category_description + ": " + feePrice.to_s
-		end
-	end
-=end
-
-#updated version
 def singleFeeHelper(fee, fbo, feeType)
 
 	fee = fee.strip.downcase
@@ -287,7 +274,10 @@ def singleFeeHelper(fee, fbo, feeType)
 
 		pistonSinglePrice = lowEnd
 		pistonSinglePrice = pistonSinglePrice.to_i
+		
+		# I don't know if this line actually needs to be there.
 		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "piston single"), :is_estimate => true )
+		
 		if curFee.nil?
 			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => pistonSinglePrice, :category => Category.find_by( :category_description => "piston single"), :is_estimate => true )
 		end

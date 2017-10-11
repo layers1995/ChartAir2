@@ -1,0 +1,57 @@
+VA	Abingdon	Virginia Highlands Airport	KVJI	276-628-2909, 276-628-6030	2190	vji46@embarqmail.com
+VA	Blacksburg	Virginia Tech/Montgomery Executive Airport	KBCB	540-231-4444	1650	
+VA	Blackstone	Allen C Perkinson Airport/Blackstone Army Airfield	KBKT	434-292-4914	320	partneraviation@uavpro.com
+VA	Bridgewater	Bridgewater Air Park	KVBW	540-828-6070	1020	
+VA	Brookneal	Brookneal/Campbell County Airport	0V4	540-297-4859	2100	0V4@smlairport.com
+VA	Charlottesville	Charlottesville-Albemarle Airport	KCHO	434-978-1474	5070	CHO@signatureflight.com
+VA	Clarksville	Lake Country Regional Airport	W63	434-374-8028, 804-894-0458	364	kerrlakedocks@gmail.com
+VA	Crewe	Crewe Municipal Airport	W81	434-645-1191	360	
+VA	Culpeper	Culpeper Regional Airport	KCJR	540-825-8280	5940	twoodward@culpepercounty.gov
+VA	Danville	Danville Regional Airport	KDAN	434-793-7033	1800	air@gamewood.net
+VA	Dublin	New River Valley Airport	KPSK	540-674-4141	900	
+VA	Emporia	Emporia-Greensville Regional Airport	KEMV	434-634-3696, 434-594-6333	96	
+VA	Farmville	Farmville Regional Airport	KFVX	434-391-6111	1500	
+VA	Franklin	Franklin Municipal-John Beverly Rose Airport	KFKN	757-562-8764	428	
+VA	Fredericksburg	Shannon Airport	KEZF	540-373-4431	2580	Info@shannonezf.com
+VA	Galax Hillsville	Twin County Airport	KHLX	276-728-4504	900	twincountyairport@valink.com
+VA	Jonesville	Lee County Airport	0VG	276-346-7714	600	ddpoe@leecova.org
+VA	Kenbridge	Lunenburg County Airport	W31	434-676-4225, 434-262-6759	36	
+VA	Lawrenceville	Lawrenceville/Brunswick Municipal Airport	KLVL	434-848-2767	216	
+VA	Leesburg	Leesburg Executive Airport	KJYO	703-889-8558	9480	jyo@projetaviation.com
+VA	Louisa	Louisa County Airport/Freeman Field	KLKU	540-967-1695, 434-390-5698	2220	
+VA	Luray	Luray Caverns Airport	KLUA	540-743-6070	280	
+VA	Lynchburg	Lynchburg Regional Airport/Preston Glenn Field	KLYH	434-237-8420	8880	soliver@flyfreedomaviation.com
+VA	Lynchburg	Falwell Airport	W24	434-845-8769	690	rbeck@mclarencorporation.com
+VA	Marion/Wytheville	Mountain Empire Airport	KMKJ	276-783-8805	900	mtnempireairport@yahoo.com
+VA	Martinsville	Blue Ridge Airport	KMTV	276-957-2291	2010	jdavis@flyblueridge.com
+VA	Melfa	Accomack County Airport	KMFV	757-787-4600	1410	bhaxter@co.accomack
+VA	Moneta	Smith Mountain Lake Airport	W91	540-297-4859	408	
+VA	New Market	New Market Airport	8W2	703-898-1157	1410	fireflyer@me.com
+VA	Newport News	Newport News/Williamsburg International Airport	KPHF	757-886-5755	6870	phffrontdesk@atlanticaviation.com
+VA	Newport News	Newport News/Williamsburg International Airport	KPHF	757-874-6415	6870	manager@rickaviation.com
+VA	Norfolk	Norfolk International Airport	KORF	757-857-3463	6090	ORF@signatureflight.com
+VA	Norfolk	Hampton Roads Executive Airport	KPVG	757-488-3166	5580	donaldwilliams@flypvg.com
+VA	Norfolk	Chesapeake Regional Airport	KCPK	757-421-9000	3060	info@horizon-aviation
+VA	Orange	Orange County Airport	KOMH	540-672-2158	720	
+VA	Petersburg	Dinwiddie County Airport	KPTB	804-861-0218	4140	ptbmgr@ptbairport.com
+VA	Quinton	New Kent County Airport	W96	804-932-3984	1320	
+VA	Richlands	Tazewell County Airport	KJFZ	276-963-4509	404	tazcoair@gmail.com
+VA	Richmond	Richmond International Airport	KRIC	804-222-3700	7680	customerservice@millionair-richmond
+VA	Richmond	Richmond International Airport	KRIC	804-226-7200	7680	generalinfo@ricjet.com
+VA	Richmond	Richmond Executive Airport-Chesterfield County	KFCI	804-271-7793	5070	
+VA	Richmond/Ashland	Hanover County Municipal Airport	KOFP	804-798-6500	2940	customerserviceofp@flyhova.com
+VA	Roanoke	Roanoke-Blacksburg Regional Airport/Woodrum Field	KROA	540-563-4401	3810	ROA@signatureflight.com
+VA	Saluda	Hummel Field Airport	W75	804-758-0538, 804-758-4330	1140	mj@co.middlesex
+VA	South Boston	William M Tuck Airport	W78	434-476-3300	630	
+VA	South Hill	Mecklenburg-Brunswick Regional Airport	KAVC	434-729-2591	1050	
+VA	Stafford	Stafford Regional Airport	KRMN	540-288-3838	2220	fbo@staffordairport.com
+VA	Staunton/Waynesboro/Harrisonburg	Shenandoah Valley Regional Airport	KSHD	540-234-8304	1470	fares@flyshd.com
+VA	Suffolk	Suffolk Executive Airport	KSFQ	757-514-4411	3630	tdaniel@suffolk.va
+VA	Tappahannock	Tappahannock-Essex County Airport	KXSA	804-443-5885	690	kxsa.airportinfo@gmail.com
+VA	Warrenton	Warrenton-Fauquier Airport	KHWY	540-422-8285, 540-422-8283	3900	david.darrah@fauquiercounty.gov
+VA	Waynesboro	Eagle's Nest Airport	W13	540-943-4447	990	jtrissel@eaglesnest.aero
+VA	Weirwood	Campbell Field Airport	9VG	757-442-7519	88	
+VA	West Point	Middle Peninsula Regional Airport	KFYJ	804-785-9725, 804-832-0671	1740	manager@fly-fyj
+VA	Williamsburg	Williamsburg-Jamestown Airport	KJGG	757-229-9256, 757-229-6855	2640	wjairport@yahoo.com
+VA	Winchester	Winchester Regional Airport	KOKV	540-662-5786	3630	
+VA	Wise	Lonesome Pine Airport	KLNP	276-328-5300, 276-345-7289	810	

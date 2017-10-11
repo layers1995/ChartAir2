@@ -249,7 +249,7 @@ def addFbos(filePath)
 
 		#puts airportName
 
-		curAirport = Airport.find_by(:name => airportName)
+		curAirport = Airport.find_by(:name => airportName, :state => state)
 
 		if curAirport.nil?
 			curAirport = Airport.find_by(:airport_code => airportCode)
@@ -301,6 +301,7 @@ def addFeesAndUpdateFbos(filename)
 			end
 		end
 
+# I guess hypothetically this wouldn't work if there were two FBOs at an airport with the same name, but I don't think that has ever happened yet.
 		curFbo = Fbo.find_by(:name => fboName, :airport => curAirport)
 
 		if !curFbo.nil?
@@ -338,48 +339,6 @@ def addFeesAndUpdateFbos(filename)
 					singleFeeHelper(curFee, curFbo, "call out")
 				end
 			end
-=begin
-			else classificationDesc == "flat rate"
-				curCategory = Category.find_by( :category_description => "flat rate")
-				curFbo.update( :classification => feeClassification )
-				
-				landingFee.split(",").each do |curFee|
-					singleFeeHelper(curFee, curCategory, curFbo, "landing")
-				end
-				rampFee.split(",").each do |curFee|
-					singleFeeHelper(curFee, curCategory, curFbo, "ramp")
-				end	
-				tieDownFee.split(",").each do |curFee|
-					singleFeeHelper(curFee, curCategory, curFbo, "tie down")
-				end
-				facilityFee.split(",").each do |curFee|
-					singleFeeHelper(curFee, curCategory, curFbo, "facility")
-				end		
-				callOutFee.split(",").each do |curFee|
-					singleFeeHelper(curFee, curCategory, curFbo, "call out")
-				end
-			end
-			
-				singleFeeHelper(landingFee, curCategory, curFbo, "landing")
-				singleFeeHelper(rampFee, curCategory, curFbo, "ramp")
-				singleFeeHelper(tieDownFee, curCategory, curFbo, "tie down")
-				singleFeeHelper(facilityFee, curCategory, curFbo, "facility")
-				singleFeeHelper(callOutFee, curCategory, curFbo, "call out")
-
-			elsif classificationDesc == "engine type"
-				curFbo.update( :classification => feeClassification )
-				addFeeByEngineType(landingFee, curFbo, "landing")
-				addFeeByEngineType(rampFee, curFbo, "ramp")
-				addFeeByEngineType(tieDownFee, curFbo, "tie down")
-				addFeeByEngineType(facilityFee, curFbo, "facility")
-				addFeeByEngineType(callOutFee, curFbo, "call out")
-
-			elsif classificationDesc == "weight"
-				curFbo.update( :classification => feeClassification)
-			elsif classificationDesc == "weight range"
-			end
-=end
-
 		else
 			#puts fboName
 		end
@@ -427,7 +386,7 @@ def addStartupTermData(filename)
 			curFbo = Fbo.find_or_create_by( :name => fboName, :airport => curAirport, :classification => feeClassification )
 	# If the FBO has no fees
 			if hasFees.strip == "no"
-				curCategory = Category.find_by( :category_description => "no fee")
+				curCategory = Category.find_by( :category_description => "flat rate")
 				FeeType.find_each do |curFeeType|
 					if curFeeType.fee_type_description == "call out"
 						singleFeeHelper(callOutFee, curFbo, curFeeType.fee_type_description)
@@ -472,34 +431,6 @@ def addStartupTermData(filename)
 					end
 				end
 			end
-
-=begin
-			elsif classificationDesc == "flat rate"
-				# If the current FBO has a flat rate fee
-				curCategory = Category.find_by( :category_description => "flat rate")
-				
-				singleFeeHelper(landingFee, curCategory, curFbo, "landing")
-				singleFeeHelper(rampFee, curCategory, curFbo, "ramp")
-				singleFeeHelper(tieDownFee, curCategory, curFbo, "tie down")
-				singleFeeHelper(facilityFee, curCategory, curFbo, "facility")
-				singleFeeHelper(callOutFee, curCategory, curFbo, "call out")
-
-			elsif classificationDesc == "engine type"
-				# If the current FBO classifies by engine type
-				addFeeByEngineType(landingFee, curFbo, "landing")
-				addFeeByEngineType(rampFee, curFbo, "ramp")
-				addFeeByEngineType(tieDownFee, curFbo, "tie down")
-				addFeeByEngineType(facilityFee, curFbo, "facility")
-				addFeeByEngineType(callOutFee, curFbo, "call out")
-
-			elsif classificationDesc == "weight"
-				#curFbo.update( :classification => feeClassification)
-
-			elsif classificationDesc == "weight range"
-				# do nothing
-			end
-=end
-
 		else
 			#puts fboName
 		end

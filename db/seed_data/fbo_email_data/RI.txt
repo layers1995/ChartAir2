@@ -1,0 +1,8 @@
+RI	Block Island	Block Island State Airport	KBID	401-466-5511	1320	bid@avportsri.com
+RI	Newport	Newport State Airport	KUUU	401-846-9400	1530	
+RI	North Kingstown	Quonset State Airport	KOQU	401-295-5020	1650	oqu@providencejetcenter.com
+RI	Pawtucket	North Central State Airport	KSFZ	401-333-8503	1230	sfz@providencejetcenter.com
+RI	Providence	Theodore Francis Green State Airport	KPVD	401-738-2600	5460	northstarpvd@aol.com
+RI	West Kingston	Richmond Airport	08R	401-783-1498	452	
+RI	Westerly	Westerly State Airport	KWST	401-596-0717	1560	
+RI	Westerly	Westerly State Airport	KWST	401-596-2357	1560	wst@avportsri.com

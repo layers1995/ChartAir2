@@ -1,0 +1,57 @@
+SC	Aiken	Aiken Municipal Airport	KAIK	803-648-7803, 803-648-7849	3600	customerservice@aikenaviation.com
+SC	Allendale	Allendale County Airport	KAQX	803-584-3801	236	
+SC	Anderson	Anderson Regional Airport	KAND	864-964-5656, 864-260-4163	2460	lgunning@andersoncountysc.org
+SC	Andrews	Robert F Swinnie Airport	KPHH	843-240-4823	80	
+SC	Barnwell	Barnwell Regional Airport	KBNL	803-259-1090	384	barnwellairport@bellsouth.net
+SC	Beaufort	Beaufort County Airport	KARW	843-255-2972	2340	info@beaufortcoairport.com
+SC	Bennettsville	Marlboro County Jetport - H E Avent Field	KBBP	843-479-4797	288	
+SC	Bishopville	Lee County Airport-Butters Field	52J	803-484-3296	67	
+SC	Camden	Woodward Field Airport	KCDN	803-425-5285	3000	
+SC	Camden	Woodward Field Airport	KCDN	803-432-3095	3000	
+SC	Charleston	Charleston Air Force Base/International Airport	KCHS	843-414-9200	9420	CHS@signatureflight.com
+SC	Charleston	Charleston Air Force Base/International Airport	KCHS	843-746-7600	9420	William.Keigans@atlanticaviation.com
+SC	Charleston	Charleston Executive Airport	KJZI	843-559-2401	4530	paul.aiken@atlanticaviation.com
+SC	Cheraw	Cheraw Municipal Airport/Lynch Bellinger Field	KCQW	843-537-6423	1470	
+SC	Chester	Chester Catawba Regional Airport	KDCM	803-385-6664	690	
+SC	Clemson	Oconee County Regional Airport	KCEU	864-882-2959	1770	aeronautics@oconeesc.com
+SC	Columbia	Columbia Metropolitan Airport	KCAE	803-822-5569	4170	lineservices@eagle-aviation
+SC	Columbia	Columbia Metropolitan Airport	KCAE	803-822-8332	4170	fueldesk@bankair.com
+SC	Columbia	Jim Hamilton L B Owens Airport	KCUB	803-771-7915	3150	proberson@eagle-aviation
+SC	Conway	Conway-Horry County Airport	KHYW	843-397-9111	990	bas@horrycounty.org
+SC	Darlington	Darlington County Airport	KUDG	843-393-9928	660	
+SC	Florence	Florence Regional Airport	KFLO	843-667-9627, 843-409-4556	1620	florence.fbo@prec-air
+SC	Georgetown	Georgetown County Airport	KGGE	843-527-7516	1230	sevenriversaviation@gmail.com
+SC	Greenville	Greenville Downtown Airport	KGMU	864-232-7100	3630	ali@greenvillejetcenter.com
+SC	Greenville	Donaldson Field Airport	KGYH	864-299-0314	2490	Bill@avserve.com
+SC	Greenville	Donaldson Field Airport	KGYH	864-678-6000	2490	gyhcustomerservice@stevensaviation.com
+SC	Greenville	Donaldson Field Airport	KGYH	864-277-8184	2490	
+SC	Greenwood	Greenwood County Airport	KGRD	864-942-9634	2340	
+SC	Greer	Greenville Spartanburg International Airport	KGSP	864-655-5221	3840	csr@ceruleanaviation.com
+SC	Hampton	Hampton-Varnville Airport	3J0	803-942-2702	108	
+SC	Hartsville	Hartsville Regional Airport	KHVS	843-861-8887	460	
+SC	Hilton Head Island	Hilton Head Airport	KHXD	843-689-3200	3090	HXD@signatureflight.com
+SC	Kingstree	Williamsburg Regional Airport	KCKI	843-372-1119	460	
+SC	Lancaster	Lancaster County Airport-Mc Whirter Field	KLKR	803-285-1513	1950	
+SC	Lancaster	Kirk Air Base Airport	T73	803-286-8800	152	
+SC	Laurens	Laurens County Airport	KLUX	864-682-9620	420	
+SC	Manning	Santee Cooper Regional Airport	KMNI	803-478-4764	1440	
+SC	Marion	Marion County Airport	KMAO	843-423-8265	384	cessnat210@aol.com
+SC	Moncks Corner	Berkeley County Airport	KMKS	843-899-7711	1560	stacy.thomas@berkeleycountysc.gov
+SC	Mount Pleasant	Mount Pleasant Regional Airport-Faison Field	KLRO	843-884-8837	2400	
+SC	Myrtle Beach	Myrtle Beach International Airport	KMYR	843-839-6740	9240	bas@horrycounty.org
+SC	Newberry	Newberry County Airport	KEOE	803-321-2180	990	
+SC	North Myrtle Beach	Grand Strand Airport	KCRE	843-848-7400	3840	bas@horrycounty.org
+SC	Orangeburg	Orangeburg Municipal Airport	KOGB	803-534-5545	900	
+SC	Orangeburg	Dry Swamp Airport	1DS	803-534-3157	192	
+SC	Pageland	Pageland Airport	KPYG	843-672-7292	176	
+SC	Pelion	Lexington County Airport at Pelion	6J0	803-785-8100	484	
+SC	Pickens	Pickens County Airport	KLQK	864-843-5803	1890	airpt@co.pickens
+SC	Ridgeland	Ridgeland-Claude Dean Airport	3J1	843-717-2629	1260	
+SC	Rock Hill	Rock Hill (York Co) Airport-Bryant Field	KUZA	803-366-5108	930	msingletary@skytechinc.com
+SC	Saluda	Saluda County Airport	6J4	864-445-2529	108	j.warren@saludacounty.sc
+SC	Spartanburg	Spartanburg Downtown Memorial Airport	KSPA	864-574-8552	4350	akehidata@cityofspartanburg.org
+SC	Summerville	Summerville Airport	KDYB	843-851-0970	2160	
+SC	Sumter	Sumter Airport	KSMS	803-469-4639	750	
+SC	Union	Union County Airport, Troy Shelton Field	35A	864-429-1680	500	
+SC	Walterboro	Lowcountry Regional Airport	KRBW	843-549-2549	1950	
+SC	Winnsboro	Fairfield County Airport	KFDW	803-635-3086	1350	

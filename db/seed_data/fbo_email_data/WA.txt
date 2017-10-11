@@ -1,0 +1,65 @@
+WA	Anacortes	Anacortes Airport	74S	360-293-3134	750	josh@portofanacortes.com
+WA	Arlington	Arlington Municipal Airport	KAWO	360-435-5700	10980	business@arlingtonflightservices.com
+WA	Arlington	Arlington Municipal Airport	KAWO	425-791-3051	10980	customerservicepae@castlecooke.com
+WA	Auburn	Auburn Municipal Airport	S50	253-333-6821	13500	info@s50wa.com
+WA	Bellingham	Bellingham International Airport	KBLI	360-676-7624	6750	info@bli-jet
+WA	Bellingham	Bellingham International Airport	KBLI	360-733-3174	6750	customerservice@commandaviation.net
+WA	Bremerton	Bremerton National Airport	KPWT	360-674-2111	5430	info@avianflight.com
+WA	Camas	Grove Field Airport	1W1	360-835-2196	810	david@portcw.com
+WA	Chehalis	Chehalis-Centralia Airport	KCLS	360-748-1230	3930	dfleckenstein@ci.chehalis
+WA	Chelan	Lake Chelan Airport	S10	509-682-5976	1320	
+WA	College Place	Martin Field Airport	S95	509-522-1847	384	
+WA	Colville	Colville Municipal Airport	63S	509-685-9056	504	
+WA	Davenport	Davenport Airport	68S	509-725-4352, 509-725-0152	536	
+WA	Deer Park	Deer Park Airport	KDEW	509-276-3379	3000	
+WA	Eastsound	Orcas Island Airport	KORS	360-378-2640	3420	
+WA	Ellensburg	Bowers Field Airport	KELN	509-962-7850	4950	
+WA	Ephrata	Ephrata Municipal Airport	KEPH	509-754-3508	3690	
+WA	Everett	Snohomish County Airport (Paine Field)	KPAE	425-355-6600	8730	twilcoxson@castlecooke.com
+WA	Everett	Snohomish County Airport (Paine Field)	KPAE	425-353-9123	8730	ron.morcom@regalair.com
+WA	Friday Harbor	Friday Harbor Airport	KFHR	360-378-2640	3780	
+WA	Hoquiam	Bowerman Airport	KHQM	360-533-9544	152	sanderson@portgrays.org
+WA	Kelso	Southwest Washington Regional Airport	KKLS	360-414-4333, 360-901-1723	3360	denny@kelsoaviation.com
+WA	Kent	Crest Airpark	S36	253-631-7100	9360	
+WA	Lynden	Lynden Municipal Airport Jansen Field	38W	360-354-3446	540	
+WA	Moses Lake	Grant County International Airport	KMWH	509-762-2222	6030	lgodden@millionair.com
+WA	Moses Lake	Grant County International Airport	KMWH	509-762-1016	6030	
+WA	Oak Harbor	AJ Eisenberg Airport	KOKH	866-429-2132	1440	
+WA	Okanogan	Okanogan Legion Airport	S35	509-422-3600	312	
+WA	Olympia	Olympia Regional Airport	KOLM	360-754-4043, 360-705-4300	5400	deb@jorgensenair.com
+WA	Olympia	Olympia Regional Airport	KOLM	360-705-3214, 360-753-0943	5400	info@helicopterflightschool.com
+WA	Omak	Omak Airport	KOMK	509-826-6270	1950	
+WA	Oroville	Dorothy Scott Airport	0S7	509-476-2106	1560	
+WA	Othello	Othello Municipal Airport	S70	509-488-2544	2820	
+WA	Pasco	Tri-Cities Airport	KPSC	509-547-6271	4530	info@bergstromaircraft.com
+WA	Pasco	Tri-Cities Airport	KPSC	509-545-6524	4530	
+WA	Port Angeles	William R Fairchild International Airport	KCLM	360-452-6226	2070	
+WA	Port Townsend	Jefferson County International Airport	0S9	360-385-1308	4770	Tailspintommys@gmail.com
+WA	Prosser	Prosser Airport	S40	509-786-2053	1080	prosserairport@embarqmail.com
+WA	Pullman/Moscow	Pullman/Moscow Regional Airport	KPUW	509-332-6596	2400	interstate@pullman.com
+WA	Puyallup	Pierce County Airport - Thun Field	KPLU	253-840-5758	8220	info@simflightcenter.com
+WA	Renton	Renton Municipal Airport	KRNT	425-228-9510	10110	proflightaviationinc@yahoo.com
+WA	Renton	Renton Municipal Airport	KRNT	425-610-6293	10110	admin@rainierflight.com
+WA	Richland	Richland Airport	KRLD	509-946-2515, 509-947-3650	2370	info@sundanceaviation.net
+WA	Rosalia	Rosalia Municipal Airport	72S	509-523-5991	630	
+WA	Seattle	Boeing Field/King County International Airport	KBFI	206-763-0350	13890	BFI@signatureflight.com
+WA	Seattle	Boeing Field/King County International Airport	KBFI	206-762-6000	13890	clientservices@bfi.claylacy
+WA	Seattle	Boeing Field/King County International Airport	KBFI	206-762-6376	13890	CSR@kenmorefbo.com
+WA	Seattle	Seattle-Tacoma International Airport	KSEA	206-433-5481	33840	SEA@signatureflight.com
+WA	Sequim	Sequim Valley Airport	W28	360-683-4444	660	sequimairport@gmail.com
+WA	Snohomish	Harvey Field Airport	S43	360-568-1541	8220	
+WA	Spanaway	Spanaway Airport	S44	253-847-2266	152	
+WA	Spokane	Spokane International Airport	KGEG	866-755-5204	5130	GEG@signatureflight.com
+WA	Spokane	Felts Field Airport	KSFF	509-534-7371	4500	info@westernaviation.net
+WA	Sunnyside	Sunnyside Municipal Airport	1S5	509-837-5206	1980	
+WA	Tacoma	Tacoma Narrows Airport	KTIW	253-853-7742	4380	
+WA	Tacoma	Tacoma Narrows Airport	KTIW	253-851-5577	4380	
+WA	Toledo	Ed Carlson Memorial Field - South Lewis Co Airport	KTDO	360-864-4966, 360-269-6727	1410	
+WA	Vancouver	Pearson Field Airport	KVUO	360-735-9441	4350	krisgal@aeromt.com
+WA	Walla Walla	Walla Walla Regional Airport	KALW	509-222-9432	2220	
+WA	Wenatchee	Pangborn Memorial Airport	KEAT	509-886-0233, 509-884-2494	3630	jake.russell@pangbornairport.com
+WA	Wenatchee	Pangborn Memorial Airport	KEAT	509-884-1545, 509-670-9304	3630	mikeo@execflight.com
+WA	Wilbur	Wilbur Airport	2S8	509-647-2441	436	
+WA	Winthrop	Methow Valley State Airport	S52	509-322-1630, 509-996-4133	630	
+WA	Yakima	Yakima Air Terminal/McAllister Field	KYKM	509-248-1680	2940	line@mccormickaircenter.com
+WA	Yakima	Yakima Air Terminal/McAllister Field	KYKM	509-457-4933	2940	info@mcallistermuseum.org

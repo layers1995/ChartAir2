@@ -1,0 +1,43 @@
+MA	Bedford	Laurence G Hanscom Field Airport	KBED	781-274-0030	10530	fbo@jetaviation.com
+MA	Bedford	Laurence G Hanscom Field Airport	KBED	781-274-0010	10530	BED@signatureflight.com
+MA	Bedford	Laurence G Hanscom Field Airport	KBED	978-341-8400	10530	bedmail@rectrix.aero
+MA	Beverly	Beverly Regional Airport	KBVY	800-541-1745	4200	
+MA	Boston	General Edward Lawrence Logan International Airport	KBOS	617-561-2500	31860	BOS@signatureflight.com
+MA	Chatham	Chatham Municipal Airport	KCQX	508-945-9000	1650	
+MA	Edgartown	Katama Airpark	1B2	508-627-9018	536	
+MA	Falmouth	Falmouth Airpark	5B6	508-548-9617	156	5b6manager@gmail.com
+MA	Fitchburg	Fitchburg Municipal Airport	KFIT	978-345-9580	5040	
+MA	Gardner	Gardner Municipal Airport	KGDM	978-821-2803	384	
+MA	Great Barrington	Walter J Koladza Airport	KGBR	413-528-1010	3420	
+MA	Hyannis	Barnstable Municipal Airport-Boardman/Polando Field	KHYA	508-771-7520	7860	hyamail@rectrix.aero
+MA	Hyannis	Barnstable Municipal Airport-Boardman/Polando Field	KHYA	508-778-7770	7860	airportops@town.barnstable
+MA	Hyannis	Barnstable Municipal Airport-Boardman/Polando Field	KHYA	508-771-5725	7860	
+MA	Hyannis	Barnstable Municipal Airport-Boardman/Polando Field	KHYA	508-771-2865	7860	
+MA	Lawrence	Lawrence Municipal Airport	KLWM	978-683-3314	3480	fly@eagleeastaviation.com
+MA	Lawrence	Lawrence Municipal Airport	KLWM	978-685-7500, 978-770-8276	3480	ljc@beneventocompanies.com
+MA	Lawrence	Lawrence Municipal Airport	KLWM	978-689-4492	3480	repairs@LWMFalcon.com
+MA	Lawrence	Lawrence Municipal Airport	KLWM	978-686-3412, 978-686-3413	3480	dick@4staraviation.com
+MA	Mansfield	Mansfield Municipal Airport	1B9	508-339-3001	3930	airport@mansfieldma.com
+MA	Marshfield	Marshfield Municipal Airport - George Harlow Field	KGHG	781-834-4928	1860	saviation@aol.com
+MA	Marstons Mills	Cape Cod Airport	2B1	508-428-8732	92	
+MA	Montague	Turners Falls Airport	0B5	413-863-9391	1380	
+MA	Nantucket	Nantucket Memorial Airport	KACK	508-325-5307	8730	ackfbo@gmail.com
+MA	New Bedford	New Bedford Regional Airport	KEWB	508-997-0620	4530	ColonialAir@comcast.net
+MA	New Bedford	New Bedford Regional Airport	KEWB	508-996-1832	4530	NEaviation@comcast.net
+MA	New Bedford	New Bedford Regional Airport	KEWB	508-991-7660	4530	operations@sandpiperair.com
+MA	Newburyport	Plum Island Airport	2B2	978-463-4222	228	jbmflight@gmail.com
+MA	North Adams	Harriman-and-West Airport	KAQW	413-207-2020	2610	
+MA	Northampton	Northampton Airport	7B2	413-584-7980	2550	info@northamptonairport.com
+MA	Norwood	Norwood Memorial Airport	KOWD	781-769-8680	4800	custserv@flightlevelaviation.com
+MA	Orange	Orange Municipal Airport	KORE	978-544-8189	2850	
+MA	Pittsfield	Pittsfield Municipal Airport	KPSF	413-443-6700	2760	nfo@lyonaviation.com
+MA	Plymouth	Plymouth Municipal Airport	KPYM	508-746-2020	4170	
+MA	Provincetown	Provincetown Municipal Airport	KPVC	508-487-0241	4080	
+MA	Southbridge	Southbridge Municipal Airport	3B0	508-764-2155	2580	
+MA	Spencer	Spencer Airport	60M	508-885-5060	196	
+MA	Springfield/Chicopee	Westover Air Reserve Base/Metropolitan Airport	KCEF	413-593-5543	2430	sales@westoverairport.com
+MA	Sterling	Sterling Airport	3B3	978-422-8860	4050	
+MA	Stow	Minute Man Air Field	6B6	978-897-3933	2100	dmcpherson@minutemanairfield.com
+MA	Taunton	Taunton Municipal Airport - King Field	KTAN	508-821-2973	2700	
+MA	Westfield/Springfield	Westfield-Barnes Regional Airport	KBAF	413-485-0078	3030	bafmail@rectrix.aero
+MA	Worcester	Worcester Regional Airport	KORH	508-755-5870	3090	orhmail@rectrix.aero
