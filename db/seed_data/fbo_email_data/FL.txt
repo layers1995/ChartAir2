@@ -1,0 +1,152 @@
+FL	Apalachicola	Apalachicola Regional Airport-Cleve Randolph Field	KAAF	850-653-1366	2010	aaf@crystalaironline.com
+FL	Apopka	Orlando Apopka Airport	X04	407-703-1725	1800	sfriedman@apopka.net
+FL	Arcadia	Arcadia Municipal Airport	X06	772-285-5506	1590	
+FL	Avon Park	Avon Park Executive Airport	KAVO	863-453-3565	2670	
+FL	Bartow	Bartow Municipal Airport	KBOW	863-533-1361, 863-533-1195	2280	mel@bartow-airport
+FL	Blountstown	Calhoun County Airport	F95	850-674-2499	152	
+FL	Boca Raton	Boca Raton Airport	KBCT	561-955-9556	3990	bct@signatureflight.com
+FL	Boca Raton	Boca Raton Airport	KBCT	561-368-1110	3990	linda.hernandez@atlanticaviation.com
+FL	Bonifay	Tri-County Airport	1J0	850-547-6519	2340	
+FL	Brooksville	Brooksville-Tampa Bay Regional Airport	KBKV	352-796-5173	6420	jtorraco@americanaviation.us
+FL	Brooksville	Pilot Country Airport	X05	813-240-5001	840	
+FL	Carrabelle	Carrabelle-Thompson Airport	X13	850-697-3618	328	
+FL	Clearwater	Clearwater Air Park	KCLW	727-443-3433	4170	bcflyher@gmail.com
+FL	Clewiston	Airglades Airport	2IS	863-675-1568	960	
+FL	Crestview	Bob Sikes Airport	KCEW	850-398-6749	3990	info@emeraldcoastaviation.com
+FL	Cross City	Cross City Airport	KCTY	352-498-6656	1470	
+FL	Crystal River	Crystal River Airport-Captain Tom Davis Field	KCGC	352-795-6868	2340	
+FL	Daytona Beach	Daytona Beach International Airport	KDAB	386-257-7791	26490	csr@yjeta.com
+FL	Daytona Beach	Daytona Beach International Airport	KDAB	877-287-5387, 386-385-8880	26490	Dab@allatps.com
+FL	Daytona Beach	Daytona Beach International Airport	KDAB	386-255-0471	26490	dab@sheltairaviation.com
+FL	DeFuniak Springs	DeFuniak Springs Airport	54J	850-892-2000	1320	airport@defuniaksprings.net
+FL	DeLand	DeLand Municipal Airport-Sidney H Taylor Field	KDED	386-740-1955	9660	info@delandaviation.com
+FL	Destin	Destin Executive Airport	KDTS	850-424-6890, 850-837-6135	5160	info@lynxfbo.com
+FL	Dunnellon	Marion County Airport	X35	352-465-8545, 352-209-9082	3180	airport@marioncountyfl.org
+FL	Everglades City	Everglades Airpark	X01	239-695-2778, 239-642-7878	476	justinlobb@colliergov.net
+FL	Fort Lauderdale	Fort Lauderdale Executive Airport	KFXE	954-351-2003	12300	sanojetcenter@aol.com
+FL	Fort Lauderdale	Fort Lauderdale Executive Airport	KFXE	954-491-3170	12300	info@banyanair.com
+FL	Fort Lauderdale	Fort Lauderdale Executive Airport	KFXE	954-772-7444	12300	dw@worldjet.com
+FL	Fort Lauderdale	Fort Lauderdale Executive Airport	KFXE	954-938-1962	12300	info@waviation.net
+FL	Fort Lauderdale	Fort Lauderdale/Hollywood International Airport	KFLL	888-355-5387, 954-359-9991	26370	customerservice@jetscapefbo.com
+FL	Fort Lauderdale	Fort Lauderdale/Hollywood International Airport	KFLL	954-359-3200	26370	fll@sheltairaviation.com
+FL	Fort Lauderdale	Fort Lauderdale/Hollywood International Airport	KFLL	954-359-0000	26370	FLL@signatureflight.com
+FL	Fort Lauderdale	Fort Lauderdale/Hollywood International Airport	KFLL	954-359-0066	26370	aircenter@nationaljets.com
+FL	Fort Myers	Page Field Airport	KFMY	239-590-6600	7770	pagefield@flylcpa.com
+FL	Fort Myers	Southwest Florida International Airport	KRSW	239-225-6100	6480	
+FL	Fort Pierce	Treasure Coast International Airport	KFPR	772-489-2285	16110	fcsr@appjetcenter.com
+FL	Gainesville	Gainesville Regional Airport	KGNV	352-335-4681	5310	BillP@universityaircenter.com
+FL	Hilliard	Hilliard Airpark	01J	904-923-0482	384	josephblake@comcast.net
+FL	Hollywood	North Perry Airport	KHWO	954-961-7721	9660	Bobbyslanding@aol.com
+FL	Hollywood	North Perry Airport	KHWO	954-966-9750	9660	pelicanftc@pelicanflighttraining.com
+FL	Hollywood	North Perry Airport	KHWO	954-966-3335	9660	ataflightschool@gmail.com
+FL	Hollywood	North Perry Airport	KHWO	954-963-5820, 954-963-5821	9660	
+FL	Homestead	Miami Homestead General Aviation Airport	X51	305-246-0179	6300	robertsairsouth@gmail.com
+FL	Homestead	Miami Homestead General Aviation Airport	X51	305-248-3595	6300	contact@hejc.miami
+FL	Immokalee	Immokalee Regional Airport	KIMM	239-657-9003	3000	ImmokaleeAirport@colliergov.net
+FL	Indiantown	Indiantown Airport	X58	772-597-5800	384	
+FL	Inverness	Inverness Airport	KINF	352-341-0322	1230	
+FL	Jacksonville	Jacksonville Executive Airport at Craig	KCRG	877-641-8555, 904-641-8555	13050	info@skyharboraviation.com
+FL	Jacksonville	Jacksonville Executive Airport at Craig	KCRG	904-641-0300	13050	customerservice@craigaircenter.com
+FL	Jacksonville	Jacksonville International Airport	KJAX	904-741-2201	9030	JAX@signatureflight.com
+FL	Jacksonville	Jacksonville International Airport	KJAX	904-741-0904	9030	jax@sheltairaviation.com
+FL	Jacksonville	Cecil Airport	KVQQ	904-317-6550	8580	customersfirst@jaxjetport.aero
+FL	Jacksonville	Herlong Recreational Airport	KHEG	904-783-2805	6630	chris.guest@flyherlong.com
+FL	Key West	Key West International Airport	KEYW	305-296-5422	4320	EYW@signatureflight.com
+FL	Keystone Heights	Keystone Airpark	42J	352-473-0031	2670	mgall@keystoneairport.com
+FL	La Belle	La Belle Municipal Airport	X14	863-675-1568	1800	
+FL	Lake City	Lake City Gateway Airport	KLCQ	386-752-1066	2370	byrdb@lcfla.com
+FL	Lake Wales	Lake Wales Municipal Airport	X07	863-678-0080, 863-632-0069	1650	avacha@cityoflakewales.com
+FL	Lakeland	Lakeland Linder Regional Airport	KLAL	863-647-3911	10110	lal@sheltairaviation.com
+FL	Leesburg	Leesburg International Airport	KLEE	352-787-2211	5160	administration@sunairaviation.com
+FL	Live Oak	Suwannee County Airport	24J	386-362-4200	1350	
+FL	Marathon	The Florida Keys Marathon International Airport	KMTH	305-743-4222	6150	mga@marathonaviation.com
+FL	Marathon	The Florida Keys Marathon International Airport	KMTH	305-743-1995	6150	jet@marathonaviation.com
+FL	Marco Island	Marco Island Airport	KMKY	239-394-3355	1650	marcocustomerservice@colliergov.net
+FL	Marianna	Marianna Municipal Airport	KMAI	850-898-1328, 850-482-2281	2310	
+FL	Melbourne	Melbourne International Airport	KMLB	321-255-7111	7890	info@atlanticjetcenter.com
+FL	Melbourne	Melbourne International Airport	KMLB	321-674-6501	7890	
+FL	Melbourne	Melbourne International Airport	KMLB	321-956-8695, 321-956-8697	7890	
+FL	Merritt Island	Merritt Island Airport	KCOI	321-453-2222	9330	lisa@2flygroup.com
+FL	Miami	Opa-Locka Executive Airport	KOPF	305-685-4646	12120	info@fbaviation.com
+FL	Miami	Opa-Locka Executive Airport	KOPF	305-687-8410	12120	OPF@signatureflight.com
+FL	Miami	Opa-Locka Executive Airport	KOPF	305-455-2295	12120	
+FL	Miami	Miami International Airport	KMIA	305-874-1477	34020	MIA@signatureflight.com
+FL	Miami	Miami International Airport	KMIA	305-869-4880	34020	
+FL	Miami	Miami Executive Airport	KTMB	305-233-0310	15930	
+FL	Miami	Miami Executive Airport	KTMB	305-238-8122	15930	Reception@ifcmiami.com
+FL	Miami	Miami Executive Airport	KTMB	305-871-3105	15930	TMB@signatureflight.com
+FL	Miami	Miami Executive Airport	KTMB	305-251-1982, 786-383-2749	15930	emie.airsal@bellsouth.net
+FL	Miami	Miami Executive Airport	KTMB	305-259-8291, 786-210-3519	15930	pete@advancedaircraftcenter.com
+FL	Milton	Peter Prince Field Airport	2R4	850-626-2222	7710	
+FL	Milton	Peter Prince Field Airport	2R4	850-623-4151, 850-623-4704	7710	paxtoncorwin@flymilton.com
+FL	Naples	Naples Municipal Airport	KAPF	239-643-0404, 239-643-0733	7860	csr@flynaples.com
+FL	Naples	Naples Municipal Airport	KAPF	239-649-7900	7860	fbo@naplesjetcenter.com
+FL	New Smyrna Beach	New Smyrna Beach Municipal Airport	KEVB	386-478-0600	10770	michele@flyairgate.com
+FL	New Smyrna Beach	New Smyrna Beach Municipal Airport	KEVB	386-409-5583	10770	robinson@epicaviation.com
+FL	New Smyrna Beach	New Smyrna Beach Municipal Airport	KEVB	386-424-2199	10770	rwalker@cityofnsb.com
+FL	New Smyrna Beach	Massey Ranch Airpark	X50	386-427-7708	810	aac@cfl.rr
+FL	Ocala	Ocala International Airport-Jim Taylor Field	KOCF	352-237-3444	5130	OCF@sheltairaviation.com
+FL	Okeechobee	Okeechobee County Airport	KOBE	863-467-5888	4110	
+FL	Orlando	Kissimmee Gateway Airport	KISM	407-846-6128	12360	ISM@signatureflight.com
+FL	Orlando	Kissimmee Gateway Airport	KISM	407-846-8001	12360	info.kism@odysseyaviation.com
+FL	Orlando	Kissimmee Gateway Airport	KISM	888-735-1145, 407-847-9095	12360	
+FL	Orlando	Executive Airport	KORL	407-896-2799	8490	orl@sheltairaviation.com
+FL	Orlando	Executive Airport	KORL	407-894-7331	8490	orlfrontdesk@atlanticaviation.com
+FL	Orlando	Orlando Sanford International Airport	KSFB	407-321-8880	23790	sfbfbo@constantaviation.com
+FL	Orlando	Orlando Sanford International Airport	KSFB	407-585-6300, 407-328-9997	23790	info.sfb@millionair.com
+FL	Orlando	Orlando International Airport	KMCO	407-851-8304	26220	tony.sherbert@atlanticaviation.com
+FL	Orlando	Orlando International Airport	KMCO	407-825-6999	26220	MCO@signatureflight.com
+FL	Ormond Beach	Ormond Beach Municipal Airport	KOMN	386-677-5724	10440	
+FL	Pahokee	Palm Beach County Glades Airport	KPHK	561-924-5253	3030	PHK@signatureflight.com
+FL	Palatka	Palatka Municipal Airport - Lt. Kay Larkin Field	28J	386-329-0148, 386-329-0149	3060	airport28j@palatka-fl
+FL	Palm Coast	Flagler Executive Airport	KFIN	386-437-0401	13050	airport@flaglercounty.org
+FL	Palmetto	Airport Manatee	48X	941-722-9296	544	email@yahoo.com
+FL	Panama City	Northwest Florida Beaches International Airport	KECP	850-233-4717	5340	ecp@sheltairaviation.com
+FL	Pensacola	Pensacola International Airport	KPNS	850-436-4500, 850-436-4508	9630	csr@innisfreejetcenter.com
+FL	Pensacola	Pensacola International Airport	KPNS	850-434-0636	9630	paccustserv@pensacolaaviation.com
+FL	Pensacola	Ferguson Airport	82J	850-453-4181	5550	flyus@fergusonairport.com
+FL	Perry	Perry-Foley Airport	40J	850-838-3519	1500	
+FL	Plant City	Plant City Airport	KPCM	813-752-4710	3930	pcas@tampabay.rr
+FL	Pompano Beach	Pompano Beach Airpark	KPMP	954-943-6050	13950	pmp@sheltairaviation.com
+FL	Pompano Beach	Pompano Beach Airpark	KPMP	954-960-5104	13950	kim@pompanoaviation.com
+FL	Punta Gorda	Punta Gorda Airport	KPGD	941-639-4119, 941-639-1101	6630	cmiller@flypgd.com
+FL	Quincy	Quincy Municipal Airport	2J9	850-627-2112, 850-643-7752	480	
+FL	River Ranch	River Ranch Resort Airport	2RR	863-692-2907		
+FL	Sarasota/Bradenton	Sarasota/Bradenton International Airport	KSRQ	941-355-7715, 941-355-2902	8490	mail@dolphinaviation.com
+FL	Sarasota/Bradenton	Sarasota/Bradenton International Airport	KSRQ	941-358-9600	8490	srqmail@rectrix.aero
+FL	Sarasota/Bradenton	Sarasota/Bradenton International Airport	KSRQ	941-355-8100	8490	srqnorth@rectrix.aero
+FL	Sebastian	Sebastian Municipal Airport	X26	772-589-0800, 772-532-5542	3060	office@pilots-paradise
+FL	Sebastian	Sebastian Municipal Airport	X26	772-228-7001, 772-228-7013	3060	sbaker@cityofsebastian.org
+FL	Sebring	Sebring Regional Airport	KSEF	863-655-6455	8460	CustomerServiceSEF@voloaviation.com
+FL	St Augustine	Northeast Florida Regional Airport	KSGJ	904-824-1995	12150	vinny.beyers@atlanticaviation.com
+FL	St Augustine	Northeast Florida Regional Airport	KSGJ	904-209-0090	12150	
+FL	St Petersburg	Albert Whitted Airport	KSPG	727-824-2880	7710	SPG@sheltairaviation.com
+FL	St Petersburg-Clearwater	St Pete-Clearwater International Airport	KPIE	727-531-1441	9300	PIE@signatureflight.com
+FL	St Petersburg-Clearwater	St Pete-Clearwater International Airport	KPIE	727-530-3453	9300	pie@sheltairaviation.com
+FL	Stuart	Witham Field Airport	KSUA	772-781-4720	9900	david.smith@atlanticaviation.com
+FL	Stuart	Witham Field Airport	KSUA	772-288-6700	9900	cs@stuartjet.com
+FL	Tallahassee	Tallahassee International Airport	KTLH	850-574-5671	5160	info.tlh@millionair.com
+FL	Tampa	Tampa International Airport	KTPA	813-870-3813	15750	TPA@signatureflight.com
+FL	Tampa	Tampa International Airport	KTPA	813-319-8000	15750	tpa@sheltairaviation.com
+FL	Tampa	Tampa Executive Airport	KVDF	813-626-1515	7770	customerservicevdf@skyportaviation.com
+FL	Tampa	Peter O Knight Airport	KTPF	813-251-1752	4410	Deric@atlasaviationinc.com
+FL	Tampa	Tampa North Aero Park	X39	813-973-3703	900	tpanorth@tampabay.rr
+FL	Titusville	Space Coast Regional Airport	KTIX	321-567-6000	6480	FBO@bristowgroup.com
+FL	Titusville	Arthur Dunn Air Park	X21	321-267-0016	3330	
+FL	Umatilla	Umatilla Municipal Airport	X23	352-669-2290	384	aerofuel@centurylink.net
+FL	Valkaria	Valkaria Airport	X59	321-952-4590	4380	
+FL	Venice	Venice Municipal Airport	KVNC	941-485-1799	5010	csr@suncoastaircenter.com
+FL	Venice	Venice Municipal Airport	KVNC	941-485-1149	5010	
+FL	Vero Beach	Vero Beach Municipal Airport	KVRB	772-562-9257	16770	jetcenter@sunaviation.com
+FL	Vero Beach	Vero Beach Municipal Airport	KVRB	772-500-2359	16770	flyingfish@flytcs.com
+FL	Vero Beach	Vero Beach Municipal Airport	KVRB	772-770-2708	16770	info@parisair.com
+FL	Vero Beach	Vero Beach Municipal Airport	KVRB	800-517-5007, 772-562-1199	16770	corpair1@aol.com
+FL	Wauchula	Wauchula Municipal Airport	KCHN	863-773-3115, 863-832-0896	660	jeason@wauchulapolice.com
+FL	West Palm Beach	Palm Beach International Airport	KPBI	561-683-4121	11850	pbifrontdesk@atlanticaviation.com
+FL	West Palm Beach	Palm Beach International Airport	KPBI	561-233-7200	11850	jpbi@jetaviation.com
+FL	West Palm Beach	Palm Beach International Airport	KPBI	561-478-8700	11850	PBI@signatureflight.com
+FL	West Palm Beach	North Palm Beach County General Aviation Airport	F45	561-626-9799	8010	F45@signatureflight.com
+FL	West Palm Beach	Palm Beach County Park Airport	KLNA	561-656-9815	10410	LNAFBO@fboassociates.com
+FL	Williston	Williston Municipal Airport	X60	352-528-4900	1320	
+FL	Winter Haven	Winter Haven's Gilbert Airport	KGIF	863-298-4551	6420	ltreggi@mywinterhaven.com
+FL	Zephyrhills	Zephyrhills Municipal Airport	KZPH	813-780-0030	4050	ncoleman@ci.zephyrhills

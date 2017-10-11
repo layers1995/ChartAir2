@@ -23,7 +23,7 @@
   <table>
     
         <tr>
-          <td class="columnTitles">Tailnumber</td>
+          <td class="columnTitles">Tail Number</td>
           <td class="columnTitles">Manufacturer</td>
           <td class="columnTitles">Model</td>
           <td class="columnTitles">Trip</td>
@@ -71,7 +71,7 @@
                 <%= f.select :manufacturer, [],{}, {class: "form-control", id:'manufacturer', :onchange=> "changePlanes();"} %>
                 <p>Model</p>
                 <%= f.select :model, [],{}, {class: "form-control", id:'model'} %>
-                <p ><%= f.submit "Add Plane", class: "submit" %></p>
+                <p ><%= f.submit "Add Airplane", class: "submit" %></p>
             <%end%>
         </div>
       </div>

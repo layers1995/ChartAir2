@@ -1,0 +1,237 @@
+CA	Agua Dulce	Agua Dulce Airport	L70	661-268-0797	60	support@l70airport.com
+CA	Alturas	Alturas Municipal Airport	KAAT	530-233-5125	1620	
+CA	Angwin	Angwin Airport-Parrett Field	2O3	707-965-6219	810	
+CA	Apple Valley	Apple Valley Airport	KAPV	760-617-7599, 760-900-0142	3090	gargoyle5814c@live.com
+CA	Arcata/Eureka	Arcata Airport	KACV	707-839-5401	3450	
+CA	Atwater	Castle Airport	KMER	209-725-1455, 209-777-0675	8490	gemini@elite.net
+CA	Auburn	Auburn Municipal Airport	KAUN	530-823-0744	5910	
+CA	Bakersfield	Meadows Field Airport	KBFL	661-393-1334	4380	info@loydsaviation.com
+CA	Bakersfield	Meadows Field Airport	KBFL	661-399-7011	4380	customerservice@epicjetcenter.com
+CA	Bakersfield	Meadows Field Airport	KBFL	661-391-4900	4380	heather.fallis@atlanticaviation.com
+CA	Bakersfield	Bakersfield Municipal Airport	L45	661-834-6870, 661-834-2593	2040	shane@kcsiaerialpatrol.com
+CA	Banning	Banning Municipal Airport	KBNG	951-922-3320	276	
+CA	Beckwourth	Nervino Airport	O02	530-832-6940	990	
+CA	Big Bear City	Big Bear City Airport	L35	909-585-3219	2460	mail.admin@bigbearcityairport.com
+CA	Bishop	Bishop Airport	KBIH	760-872-2971, 760-937-4017	2130	kbabione@inyocounty.us
+CA	Blythe	Blythe Airport	KBLH	760-922-6125	2070	allen@patton-aviation
+CA	Borrego Springs	Borrego Valley Airport	L08	760-767-7415	1830	
+CA	Brawley	Brawley Municipal Airport	KBWC	760-344-4581	420	
+CA	Bridgeport	Bryant Field Airport	O57	760-932-5440	244	
+CA	Burbank	Bob Hope Airport	KBUR	818-841-2966	10800	Casey.Pullman@atlanticaviation.com
+CA	Burbank	Bob Hope Airport	KBUR	818-843-8311	10800	info.bur@millionair.com
+CA	Byron	Byron Airport	C83	925-634-0147	5760	
+CA	Calexico	Calexico International Airport	KCXL	760-768-2175, 760-357-0739	368	airport@calexico.ca
+CA	California City	California City Municipal Airport	L71	760-373-4867	272	airportmgr@californiacity.com
+CA	Camarillo	Camarillo Airport	KCMA	805-482-2586	11220	info@westerncardinal.com
+CA	Camarillo	Camarillo Airport	KCMA	805-389-9301	11220	info@sunairjets.com
+CA	Camarillo	Camarillo Airport	KCMA	805-383-1100	11220	cma@flyair7.com
+CA	Camarillo	Camarillo Airport	KCMA	805-987-1301	11220	cia@flycia.com
+CA	Cameron Park	Cameron Park Airport	O61	530-676-8316	2970	
+CA	Carlsbad	Mc Clellan-Palomar Airport	KCRQ	760-438-6800	10770	customerservice@westernflight.com
+CA	Carlsbad	Mc Clellan-Palomar Airport	KCRQ	760-438-0877	10770	flightsupport@jetsource.com
+CA	Carlsbad	Mc Clellan-Palomar Airport	KCRQ	888-949-0888, 760-438-7603	10770	info@magellanaviation.aero
+CA	Carlsbad	Mc Clellan-Palomar Airport	KCRQ	760-930-0123	10770	crqfrontdesk@atlanticaviation.com
+CA	Chester	Rogers Field Airport	O05	530-258-3616	1290	
+CA	Chico	Chico Municipal Airport	KCIC	530-893-6727	2790	alicia@northgateaviation.com
+CA	Chino	Chino Airport	KCNO	800-720-5388, 909-597-6566	13530	info@encorejetcenter.com
+CA	Chino	Chino Airport	KCNO	909-606-6164	13530	fbo@flytti.com
+CA	Chino	Chino Airport	KCNO	909-606-3300, 909-606-0100	13530	Yvette@flyingtigersaviation.net
+CA	Cloverdale	Cloverdale Municipal Airport	O60	707-694-9355	900	
+CA	Coalinga	Harris Ranch Airport	3O8	559-935-0717	810	
+CA	Coalinga	New Coalinga Municipal Airport	C80	559-935-1533	184	
+CA	Columbia	Columbia Airport	O22	209-533-4616	3690	baldeaglefbo@aol.com
+CA	Colusa	Colusa County Airport	O08	530-458-2393, 530-458-0580	2310	
+CA	Compton	Compton/Woodley Airport	KCPM	310-631-8140	5430	amarino@americanairports.net
+CA	Concord	Buchanan Field Airport	KCCR	925-685-4400	9000	csr@psa.aero
+CA	Concord	Buchanan Field Airport	KCCR	877-690-5387, 925-825-2980	9000	warren@ccrjet.com
+CA	Concord	Buchanan Field Airport	KCCR	925-676-2100	9000	lineservice@sterlingav.com
+CA	Corona	Corona Municipal Airport	KAJO	951-737-1300	4110	
+CA	Covelo	Round Valley Airport	O09	707-463-4363	152	
+CA	Crescent City	Jack Mc Namara Field Airport	KCEC	707-465-3804	1020	
+CA	Daggett	Barstow-Daggett Airport	KDAG	760-254-2542	3000	
+CA	Davis	University Airport	KEDU	530-752-0100	2010	
+CA	Davis/Woodland/Winters	Yolo County Airport	KDWA	530-759-8766	4950	info@davisflightsupport.com
+CA	Davis/Woodland/Winters	Yolo County Airport	KDWA	800-442-1333, 530-759-6036	4950	gpelfrey@woodlandaviation.com
+CA	Davis/Woodland/Winters	Yolo County Airport	KDWA	530-753-2651	4950	
+CA	Delano	Delano Municipal Airport	KDLO	661-721-3338, 661-201-8945	1560	rdowling@cityofdelano.org
+CA	El Monte	San Gabriel Valley Airport	KEMT	626-208-3708	7350	contact@billionairaviation.com
+CA	El Monte	San Gabriel Valley Airport	KEMT	626-448-6129	7350	aescobedo@americanairports.com
+CA	Eureka	Murray Field Airport	KEKA	707-443-3179	4560	
+CA	Fall River Mills	Fall River Mills Airport	O89	530-225-5661	384	
+CA	Fallbrook	Fallbrook Community Airpark	L18	760-431-7670	1620	
+CA	Fort Jones	Scott Valley Airport	A30	530-468-5490	660	
+CA	Fortuna	Rohnerville Airport	KFOT	707-839-5401	2250	
+CA	Fresno	Fresno Yosemite International Airport	KFAT	559-981-2490	8190	FAT@signatureflight.com
+CA	Fresno	Fresno Yosemite International Airport	KFAT	559-251-1555	8190	FAT@rossaviation.com
+CA	Fresno	Fresno Chandler Executive Airport	KFCH	559-264-5324	2040	info@fresnoflyers.com
+CA	Fresno	Fresno Chandler Executive Airport	KFCH	559-233-0700	2040	
+CA	Fullerton	Fullerton Municipal Airport	KFUL	714-870-9931, 714-773-0741	5070	
+CA	Fullerton	Fullerton Municipal Airport	KFUL	714-526-6611, 714-526-0921	5070	tina@genaviationco.com
+CA	Garberville	Garberville Airport	O16	707-839-5401	1350	
+CA	Georgetown	Georgetown Airport	E36	530-622-0459	1860	
+CA	Grass Valley	Nevada County Air Park	KGOO	530-273-3374	2280	
+CA	Groveland	Pine Mountain Lake Airport	E45	209-303-5385	1230	
+CA	Gustine	Gustine Airport	3O1	209-854-6471	660	
+CA	Half Moon Bay	Half Moon Bay Airport	KHAF	650-573-3701	4110	
+CA	Hanford	Hanford Municipal Airport	KHJO	559-585-2589	2370	
+CA	Hawthorne	Jack Northrop Field/Hawthorne Municipal Airport	KHHR	310-676-4673	6600	info@jetcenterla.com
+CA	Hawthorne	Jack Northrop Field/Hawthorne Municipal Airport	KHHR	310-644-0400, 602-321-3351	6600	
+CA	Hayward	Hayward Executive Airport	KHWD	510-259-1347	9600	khwd@appjetcenter.com
+CA	Hayward	Hayward Executive Airport	KHWD	510-674-2500	9600	hwd@meridian.aero
+CA	Healdsburg	Healdsburg Municipal Airport	KHES	707-433-8540	1680	
+CA	Hemet	Hemet-Ryan Airport	KHMT	951-925-7618	6210	
+CA	Hollister	Hollister Municipal Airport	KCVH	831-637-9100	4680	hollisterjetcenter@gmail.com
+CA	Imperial	Imperial County Airport	KIPL	760-353-1375, 760-693-0276	1200	
+CA	Inyokern	Inyokern Airport	KIYK	760-377-5844	2340	nicole@inyokernairport.com
+CA	Jackson	Westover Field / Amador County Airport	KJAQ	209-223-2376	2040	
+CA	King City	Mesa Del Rey Airport	KKIC	831-385-6575	660	
+CA	La Verne	Brackett Field Airport	KPOC	909-593-1395	9510	cwoodruff@americanairports.net
+CA	Lakeport	Lampson Field Airport	1O2	707-263-6512	6270	
+CA	Lancaster	General Wm J Fox Airfield	KWJF	661-940-1709	6720	sirving@americanairports.net
+CA	Lincoln	Lincoln Regional Airport/Karl Harder Field	KLHM	916-645-3443	6120	airport@ci.lincoln
+CA	Little River	Little River Airport	KLLR	707-937-5129	228	
+CA	Livermore	Livermore Municipal Airport	KLVK	925-315-4130	9660	info@5riversaviation.com
+CA	Lodi	Lodi Airport	1O3	209-369-9126	3630	
+CA	Lodi	Kingdon Airpark	O20	209-334-2961	660	
+CA	Lompoc	Lompoc Airport	KLPC	805-875-8266	2460	
+CA	Lone Pine	Lone Pine/Death Valley Airport	O26	760-937-4017	720	
+CA	Long Beach	Long Beach Airport (Daugherty Field)	KLGB	562-997-0700	24240	LGB@signatureflight.com
+CA	Long Beach	Long Beach Airport (Daugherty Field)	KLGB	562-490-6200	24240	LGB@rossaviation.com
+CA	Long Beach	Long Beach Airport (Daugherty Field)	KLGB	562-425-8800	24240	fbo@jfijets.com
+CA	Los Angeles	Los Angeles International Airport	KLAX	310-410-9605	52350	LAX@signatureflight.com
+CA	Los Angeles	Los Angeles International Airport	KLAX	310-258-9884	52350	victor.walker@atlanticaviation.com
+CA	Los Angeles	Whiteman Airport	KWHP	818-896-5271	9540	amarino@americanairports.net
+CA	Los Banos	Los Banos Municipal Airport	KLSN	209-827-7053	1320	
+CA	Madera	Madera Municipal Airport	KMAE	559-675-1400	4170	
+CA	Madera	Madera Municipal Airport	KMAE	559-675-9100, 559-284-9154	4170	
+CA	Madera	Madera Municipal Airport	KMAE	559-675-0183	4170	
+CA	Mammoth Lakes	Mammoth Yosemite Airport	KMMH	760-924-9127	480	customerservicehca@yahoo.com
+CA	Marina	Marina Municipal Airport	KOAR	831-582-0102	3450	jcrechriou@ci.marina
+CA	Mariposa	Mariposa-Yosemite Airport	KMPI	209-966-2143	750	airborrnaviation@gmail.com
+CA	Marysville	Yuba County Airport	KMYV	530-741-1345	2910	
+CA	Merced	Merced Regional Airport/Macready Field	KMCE	209-722-7300	4830	
+CA	Modesto	Modesto City-County Airport-Harry Sham Field	KMOD	209-577-4654	3660	debrak@skytrekaviation.com
+CA	Mojave	Mojave Air and Space Port	KMHV	661-824-2433	1440	
+CA	Montague	Montague Airport-Yreka Rohrer Field	1O5	530-459-3456	292	
+CA	Monterey	Monterey Regional Airport	KMRY	831-373-4151	7980	customerservice@dma-mry
+CA	Monterey	Monterey Regional Airport	KMRY	831-373-0100	7980	nate@montereyjetcenter.com
+CA	Murrieta/Temecula	French Valley Airport	F70	951-696-9344, 951-696-7299	8070	gsevillano@msn.com
+CA	Murrieta/Temecula	French Valley Airport	F70	951-677-2756, 951-660-6186	8070	info@ralair.com
+CA	Murrieta/Temecula	French Valley Airport	F70	760-723-1853	8070	
+CA	Napa	Napa County Airport	KAPC	707-224-0887	4440	pradeepp@napajetcenter.com
+CA	Needles	Needles Airport	KEED	760-326-5263	870	
+CA	Novato	Gnoss Field Airport	KDVO	415-897-1653	8040	
+CA	Oakdale	Oakdale Airport	O27	209-845-3600	780	mrenfrow@ci.oakdale
+CA	Oakland	Metropolitan Oakland International Airport	KOAK	510-569-9622	18180	Oak@kaiserair.com
+CA	Oakland	Metropolitan Oakland International Airport	KOAK	510-633-1266	18180	OAK@signatureflight.com
+CA	Oceano	Oceano County Airport	L52	805-782-9722	810	customercare@acijet.com
+CA	Oceanside	Bob Maxwell Memorial Airfield	KOKB	760-901-4260	1320	info@oceansidemunicipalairport.com
+CA	Ontario	Ontario International Airport	KONT	909-605-6366	7530	fbo@guardian-air
+CA	Orland	Haigh Field Airport	O37	530-865-1173	1650	
+CA	Oroville	Oroville Municipal Airport	KOVE	530-538-4307	2970	manager@cityoforoville.org
+CA	Oxnard	Oxnard Airport	KOXR	805-985-2490	6090	oxjetcenter@aspenhelo.com
+CA	Oxnard	Oxnard Airport	KOXR	805-382-9333	6090	bsimmons@goldenwest-oxr
+CA	Palm Springs	Palm Springs International Airport	KPSP	760-327-1201	4590	PSP@signatureflight.com
+CA	Palm Springs	Palm Springs International Airport	KPSP	760-320-7704	4590	Karin.Davidson@atlanticaviation.com
+CA	Palm Springs	Jacqueline Cochran Regional Airport	KTRM	760-399-5961, 760-775-6808	6270	info@thermalaviation.com
+CA	Palm Springs	Jacqueline Cochran Regional Airport	KTRM	760-399-1855	6270	TRM@signatureflight.com
+CA	Palm Springs	Jacqueline Cochran Regional Airport	KTRM	760-925-5876	6270	reservations@desertjet.com
+CA	Palm Springs	Jacqueline Cochran Regional Airport	KTRM	760-399-4300	6270	TRM@rossaviation.com
+CA	Palm Springs	Bermuda Dunes Airport	KUDD	760-345-2558	1050	
+CA	Palo Alto	Palo Alto Airport	KPAO	650-493-3326, 650-493-1673	15750	rossi@ihot.com
+CA	Palo Alto	Palo Alto Airport	KPAO	650-856-7640	15750	
+CA	Paso Robles	Paso Robles Municipal Airport	KPRB	805-596-0212	2820	customercare@acijet.com
+CA	Petaluma	Petaluma Municipal Airport	O69	707-778-4404	4380	
+CA	Placerville	Placerville Airport	KPVF	530-622-0459	4890	
+CA	Porterville	Porterville Municipal Airport	KPTV	559-782-7540, 559-781-0305	3570	
+CA	Quincy	Gansner Field Airport	2O1	530-283-6299	750	
+CA	Ramona	Ramona Airport	KRNM	760-789-6384	9450	pacificexecutiveaviation@netzero.net
+CA	Ramona	Ramona Airport	KRNM	760-789-8178	9450	info@chuckhallaviation.com
+CA	Rancho Murieta	Rancho Murieta Airport	KRIU	916-354-2940	2190	
+CA	Red Bluff	Red Bluff Municipal Airport	KRBL	530-527-6547	2160	cardanaircraft@yahoo.com
+CA	Redding	Redding Municipal Airport	KRDD	530-224-2300	4500	info@reddingjet.com
+CA	Redding	Redding Municipal Airport	KRDD	530-222-0100	4500	
+CA	Redding	Benton Field Airport	O85	530-241-4204	3030	
+CA	Redlands	Redlands Municipal Airport	KREI	909-794-5642	3600	
+CA	Reedley	Reedley Municipal Airport	O32	559-859-0374	2700	bsair@live.com
+CA	Rio Linda	Rio Linda Airport	L36	916-991-1725	2460	
+CA	Rio Vista	Rio Vista Municipal Airport	O88	707-374-2716	2880	
+CA	Riverside	Riverside Municipal Airport	KRAL	951-352-2631, 951-352-1043	8640	info@ralair.com
+CA	Riverside	Riverside Municipal Airport	KRAL	951-359-7233	8640	tom@raincrossaviation.com
+CA	Riverside	March Air Reserve Base	KRIV	951-247-2111		csr.riv@millionair.com
+CA	Riverside/Rubidoux	Flabob Airport	KRIR	951-683-2309	630	
+CA	Rosamond	Rosamond Skypark Airport	L00	661-256-4500	1230	
+CA	Sacramento	Sacramento Executive Airport	KSAC	916-428-8292	7230	host@sacjet.com
+CA	Sacramento	Sacramento Mather Airport	KMHR	916-428-8292	8160	host@sacjet.com
+CA	Sacramento	Sacramento International Airport	KSMF	916-428-8292	9030	host@sacjet.com
+CA	Sacramento	Mc Clellan Airfield	KMCC	916-641-8970	1470	info@mcclellanjetservices.com
+CA	Salinas	Salinas Municipal Airport	KSNS	831-422-9400	5760	customerservice@jetwestsns.com
+CA	San Andreas	Calaveras County Airport - Maury Rasmussen Field	KCPU	209-736-2501, 209-754-1908	2640	
+CA	San Bernardino	San Bernardino International Airport	KSBD	909-382-6068	3930	info@luxivairsbd.com
+CA	San Carlos	San Carlos Airport	KSQL	650-591-5857, 650-716-6579	8880	info@rabbitksql.com
+CA	San Diego	Montgomery-Gibbs Executive Airport	KMYF	858-292-1181	17010	lineservice@crownairaviation.com
+CA	San Diego	Montgomery-Gibbs Executive Airport	KMYF	858-277-0310	17010	gibbsflying@aol.com
+CA	San Diego	Brown Field Municipal Airport	KSDM	619-671-9222	6930	lancaircorp@aol.com
+CA	San Diego	Brown Field Municipal Airport	KSDM	619-661-6522	6930	firstflightcorp@yahoo.com
+CA	San Diego	San Diego International Airport	KSAN	619-298-7704	16500	SAN@signatureflight.com
+CA	San Diego/El Cajon	Gillespie Field Airport	KSEE	619-368-0065	18630	
+CA	San Diego/El Cajon	Gillespie Field Airport	KSEE	619-448-5991	18630	info@circleag.com
+CA	San Diego/El Cajon	Gillespie Field Airport	KSEE	858-576-5000	18630	info@hpair.com
+CA	San Diego/El Cajon	Gillespie Field Airport	KSEE	619-855-7018	18630	
+CA	San Francisco	San Francisco International Airport	KSFO	650-877-6800	36840	SFO@signatureflight.com
+CA	San Jose	Norman Y Mineta San Jose International Airport	KSJC	669-800-1992	13470	SJC@signatureflight.com
+CA	San Jose	Norman Y Mineta San Jose International Airport	KSJC	408-297-7552	13470	tim.murray@atlanticaviation.com
+CA	San Jose	Reid-Hillview Airport of Santa Clara County	KRHV	408-729-3383, 408-729-3384	12330	information@niceairaviation.com
+CA	San Jose	Reid-Hillview Airport of Santa Clara County	KRHV	408-926-4030	12330	
+CA	San Jose	Reid-Hillview Airport of Santa Clara County	KRHV	408-251-4939	12330	info@aerodynamicaviation.com
+CA	San Jose	Reid-Hillview Airport of Santa Clara County	KRHV	408-929-2106	12330	
+CA	San Luis Obispo	San Luis County Regional Airport	KSBP	805-782-9722	6060	customercare@acijet.com
+CA	San Martin	San Martin Airport	E16	408-683-4102	2730	steve@magnumaviation.com
+CA	Santa Ana	John Wayne-Orange County Airport	KSNA	949-851-5061	23340	SNAFrontDesk@atlanticaviation.com
+CA	Santa Ana	John Wayne-Orange County Airport	KSNA	949-201-2550	23340	SNA@acijet.com
+CA	Santa Barbara	Santa Barbara Municipal Airport	KSBA	805-967-5608	8220	SBA@signatureflight.com
+CA	Santa Barbara	Santa Barbara Municipal Airport	KSBA	805-964-6733	8220	SBAfrontdesk@atlanticaviation.com
+CA	Santa Barbara	Santa Barbara Municipal Airport	KSBA	760-900-0142, 760-885-1346	8220	
+CA	Santa Maria	Santa Maria Public Airport/Capt G Allan Hancock Field	KSMX	805-937-9300	3150	csr@ccjc.us
+CA	Santa Monica	Santa Monica Municipal Airport	KSMO	310-396-6770	13560	gregory.wain@atlanticaviation.com
+CA	Santa Monica	Santa Monica Municipal Airport	KSMO	562-981-2659, 424-303-3800	13560	aerolease@aeroplex.net
+CA	Santa Paula	Santa Paula Airport	KSZP	805-933-1155	7980	szpairport@gmail.com
+CA	Santa Rosa	Charles M Schulz - Sonoma County Airport	KSTS	707-528-7400	6510	customerservice@kaiserair.com
+CA	Santa Rosa	Charles M Schulz - Sonoma County Airport	KSTS	707-523-2800	6510	cdesk@sonomajetcenter.com
+CA	Santa Ynez	Santa Ynez Airport	KIZA	805-688-8390	2490	
+CA	Schellville/Sonoma	Sonoma Valley Airport	0Q3	707-938-2444	1320	
+CA	Selma	Selma Airport	0Q4	559-896-1001	990	
+CA	Shafter	Shafter Airport-Minter Field	KMIT	661-399-6564	3690	
+CA	Sonoma	Sonoma Skypark Airport	0Q9	707-996-2100	1230	
+CA	South Lake Tahoe	Lake Tahoe Airport	KTVL	530-541-2110	1950	tahoelocal@ltol.com
+CA	Stockton	Stockton Metropolitan Airport	KSCK	209-982-1622	5460	Angela.Moniz@atlanticaviation.com
+CA	Susanville	Susanville Municipal Airport	KSVE	530-257-2030	1020	
+CA	Taft	Taft-Kern County Airport	L17	661-765-5330	810	
+CA	Tehachapi	Tehachapi Municipal Airport	KTSP	661-822-2200	900	awhitmore@tehachapicityhallt.com
+CA	Torrance	Zamperini Field Airport	KTOA	310-534-2333	9780	gsevillano@msn.com
+CA	Torrance	Zamperini Field Airport	KTOA	310-373-2222, 310-378-8948	9780	
+CA	Torrance	Zamperini Field Airport	KTOA	310-791-5454	9780	
+CA	Tracy	Tracy Municipal Airport	KTCY	209-831-6262	4830	
+CA	Truckee	Truckee-Tahoe Airport	KTRK	530-587-4119, 530-587-4540	2880	info@truckeetahoeairport.com
+CA	Tulare	Mefford Field Airport	KTLR	559-686-7401	2160	
+CA	Tulelake	Tulelake Municipal Airport	O81	530-664-2661	1080	
+CA	Turlock	Turlock Municipal Airport	O15	209-632-3244	840	
+CA	Twentynine Palms	Twentynine Palms Airport	KTNP	760-247-2371, 909-387-8810	1470	
+CA	Ukiah	Ukiah Municipal Airport	KUKI	707-272-5515	3570	
+CA	Upland	Cable Airport	KCCB	909-982-6021	7560	
+CA	Vacaville	Nut Tree Airport	KVCB	707-469-4600	8340	airport@solanocounty.com
+CA	Van Nuys	Van Nuys Airport	KVNY	818-464-9500	41430	VNY@signatureflight.com
+CA	Van Nuys	Van Nuys Airport	KVNY	818-988-8385	41430	CustomerServiceVNY@castlecooke.com
+CA	Van Nuys	Van Nuys Airport	KVNY	818-989-2900	41430	customerservice@claylacy.com
+CA	Van Nuys	Van Nuys Airport	KVNY	818-989-2300	41430	VNY@signatureflight.com
+CA	Van Nuys	Van Nuys Airport	KVNY	818-722-5103	41430	jvny@jetaviation.com
+CA	Van Nuys	Van Nuys Airport	KVNY	818-834-1085	41430	Ryan@theparkvny.com
+CA	Victorville	Southern California Logistics Airport	KVCV	760-246-7794	3420	csr.vcv@millionair.com
+CA	Visalia	Visalia Municipal Airport	KVIS	559-713-4642, 559-713-4201	3600	mcifuentez@ci.visalia
+CA	Watsonville	Watsonville Municipal Airport	KWVI	831-768-3575, 831-768-3574	4920	rayvon.williams@cityofwatsonville.org
+CA	Weed	Weed Airport	O46	530-938-2656	840	eaglesnestaviation@hotmail.com
+CA	Willits	Ells Field-Willits Municipal Airport	O28	707-841-6252, 707-459-4601	420	manager@willitsairport.com
+CA	Willows	Willows-Glenn County Airport	KWLW	530-934-6530	2430	
+CA	Woodlake	Woodlake Airport	O42	559-564-8055	990	
+CA	Woodland	Watts-Woodland Airport	O41	866-951-7352, 530-867-6652	1890	brucewatts1@mac.com
+CA	Yuba City	Sutter County Airport	O52	530-674-9645	660	

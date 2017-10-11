@@ -28,16 +28,16 @@
                                 <%= f.select :state, [],{}, {class: "form-control", id:'states', :onchange=> "changeCities();"}%></p>
                                 <p class="formLable">City</p>
                                 <%= f.select :city, [],{}, {class: "form-control", id:'cities'}%></p>
-                                <p class="formLable">Distance (mi)
+                                <p class="formLable">Distance (mi) From City Center</p>
                                 <p class="center"><%= f.number_field :distance,{id: "input", value: 50 }%></p></p>
                             </div>
                             <p></p>
                             <div id="otherInfo">
                                 <p class="formLable">Airplane</p>
                                 <p class="formLable"><%= f.select :tailnumber,[],{}, {class: "form-control", id:'airplanes'}%></p>
-                                <p class="formLable">Arrival Time</p>
+                                <p class="formLable">Arrival Time at Destination Airport</p>
                                 <p class="center"><%= f.datetime_select :arrival_time, :ampm => true, :minute_step => 15 %></p>
-                                <p class="formLable">Departure Time</p>
+                                <p class="formLable">Departure Time From Destination Airport</p>
                                 <p class="center"><%= f.datetime_select :depart_time, :ampm => true, :minute_step => 15 %></p>
                                 <p class="center"><%= image_submit_tag("arrowImage.png", :class => "planTripGo") %></p>
                             </div>

@@ -1,11 +1,10 @@
 class UserMailer < ApplicationMailer
     
-  default from: 'madison@chartair.us'
+  default from: 'noreply@chartair.us'
     
   def welcome_email(user)
     @user = user
     @url  = 'http://chartair.us/login'
-    print "EMAIL SENT!?"
     mail(to: @user.email, subject: 'Welcome to ChartAir')
   end
   
