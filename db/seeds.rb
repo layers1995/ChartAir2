@@ -283,7 +283,7 @@ def addFeesAndUpdateFbos(filename)
 
 		next if hasFees == "did not/would not answer"
 
-		feeClassification = Classification.find_by( :classification_description => classificationDesc )
+		#feeClassification = Classification.find_by( :classification_description => classificationDesc )
 
 		# We didn't make a column for tie down fees, so they're in the ramp fee instead.
 
@@ -307,7 +307,7 @@ def addFeesAndUpdateFbos(filename)
 		if !curFbo.nil?
 			# this is what should happen
 			if !hasFees.nil? and hasFees.strip == "no"
-				curFbo.update( :classification => Classification.find_by( :classification_description => "flat rate"))
+				#curFbo.update( :classification => Classification.find_by( :classification_description => "flat rate"))
 				FeeType.find_each do |curFeeType|
 					if curFeeType.fee_type_description == "call out"
 						singleFeeHelper(callOutFee, curFbo, curFeeType.fee_type_description)
@@ -317,26 +317,36 @@ def addFeesAndUpdateFbos(filename)
 						singleFeeHelper("0", curFbo, curFeeType.fee_type_description)
 					end
 				end
-			elsif feeClassification.nil?
+			#elsif feeClassification.nil?
 				#puts curFbo.name
 				# do nothing
 			else
-				curFbo.update( :classification => feeClassification )
+				#curFbo.update( :classification => feeClassification )
 				
-				landingFee.split(",").each do |curFee|
-					singleFeeHelper(curFee, curFbo, "landing")
+				if !landingFee.nil?
+					landingFee.split(",").each do |curFee|
+						singleFeeHelper(curFee, curFbo, "landing")
+					end
 				end
-				rampFee.split(",").each do |curFee|
-					singleFeeHelper(curFee, curFbo, "ramp")
+				if !rampFee.nil?
+					rampFee.split(",").each do |curFee|
+						singleFeeHelper(curFee, curFbo, "ramp")
+					end	
+				end
+				if !tieDownFee.nil?
+					tieDownFee.split(",").each do |curFee|
+						singleFeeHelper(curFee, curFbo, "tie down")
+					end
+				end
+				if !facilityFee.nil?
+					facilityFee.split(",").each do |curFee|
+						singleFeeHelper(curFee, curFbo, "facility")
+					end	
 				end	
-				tieDownFee.split(",").each do |curFee|
-					singleFeeHelper(curFee, curFbo, "tie down")
-				end
-				facilityFee.split(",").each do |curFee|
-					singleFeeHelper(curFee, curFbo, "facility")
-				end		
-				callOutFee.split(",").each do |curFee|
-					singleFeeHelper(curFee, curFbo, "call out")
+				if !callOutFee.nil?
+					callOutFee.split(",").each do |curFee|
+						singleFeeHelper(curFee, curFbo, "call out")
+					end
 				end
 			end
 =begin
@@ -425,7 +435,8 @@ def addStartupTermData(filename)
 # Create a new FBO based on the data in the call sheet. There will probably be duplicates in the database, but at least we'll have this info
 
 		if !curAirport.nil?
-			curFbo = Fbo.find_or_create_by( :name => fboName, :airport => curAirport, :classification => feeClassification )
+			#curFbo = Fbo.find_or_create_by( :name => fboName, :airport => curAirport, :classification => feeClassification )
+			curFbo = Fbo.find_or_create_by( :name => fboName, :airport => curAirport)
 	# If the FBO has no fees
 			if hasFees.strip == "no"
 				curCategory = Category.find_by( :category_description => "no fee")

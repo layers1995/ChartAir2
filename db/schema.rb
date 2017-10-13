@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170920221805) do
+ActiveRecord::Schema.define(version: 20171012014206) do
 
   create_table "airplane_users", force: :cascade do |t|
     t.integer "airplane_id",  null: false
@@ -66,6 +66,7 @@ ActiveRecord::Schema.define(version: 20170920221805) do
     t.string   "longitude"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer  "zip"
   end
 
   create_table "classifications", force: :cascade do |t|
@@ -81,6 +82,7 @@ ActiveRecord::Schema.define(version: 20170920221805) do
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
     t.integer  "airport_id"
+    t.string   "email"
     t.index ["airport_id"], name: "index_fbos_on_airport_id"
   end
 
@@ -102,11 +104,11 @@ ActiveRecord::Schema.define(version: 20170920221805) do
     t.integer  "unit_magnitude"
     t.string   "free_time_unit"
     t.integer  "free_time_length"
-    t.integer  "start_time"
-    t.integer  "end_time"
     t.integer  "unit_minimum"
     t.decimal  "time_price",        precision: 11, scale: 2
     t.integer  "unit_maximum"
+    t.integer  "start_time"
+    t.integer  "end_time"
     t.boolean  "is_estimate"
     t.string   "unit_type"
     t.integer  "classification_id"
@@ -121,20 +123,22 @@ ActiveRecord::Schema.define(version: 20170920221805) do
     t.datetime "logout"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_logins_on_user_id"
   end
 
   create_table "plan_trips", force: :cascade do |t|
-    t.integer  "user_id"
     t.string   "state"
-    t.string   "city"
     t.integer  "distance"
     t.integer  "nights"
-    t.string   "tailnumber"
     t.string   "filter"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
     t.datetime "arrival_time"
     t.datetime "depart_time"
+    t.integer  "airplane_user_id"
+    t.integer  "city_id"
+    t.index ["airplane_user_id"], name: "index_plan_trips_on_airplane_user_id"
+    t.index ["city_id"], name: "index_plan_trips_on_city_id"
   end
 
   create_table "reports", force: :cascade do |t|
@@ -146,6 +150,7 @@ ActiveRecord::Schema.define(version: 20170920221805) do
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
     t.string   "status"
+    t.index ["trip_id"], name: "index_reports_on_trip_id"
   end
 
   create_table "requests", force: :cascade do |t|
@@ -157,18 +162,17 @@ ActiveRecord::Schema.define(version: 20170920221805) do
 
   create_table "trips", force: :cascade do |t|
     t.datetime "arrival_time"
-    t.integer  "airport_id"
     t.integer  "fbo_id"
     t.integer  "cost"
-    t.string   "tailnumber"
     t.string   "trip_status"
-    t.integer  "user_id"
     t.datetime "created_at",       null: false
     t.datetime "updated_at",       null: false
     t.string   "issue"
     t.string   "detail"
     t.integer  "airplane_user_id"
     t.datetime "depart_time"
+    t.index ["airplane_user_id"], name: "index_trips_on_airplane_user_id"
+    t.index ["fbo_id"], name: "index_trips_on_fbo_id"
   end
 
   create_table "users", force: :cascade do |t|

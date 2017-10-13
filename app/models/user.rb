@@ -19,6 +19,10 @@ class User < ApplicationRecord
     
     #ownership
     has_and_belongs_to_many :airplanes
+    has_many :plan_trips
+    has_many :logins
+    has_many :reports
+    has_many :trips
     
     def email_is_confirmed
         if(self.email_confirm!=self.email)

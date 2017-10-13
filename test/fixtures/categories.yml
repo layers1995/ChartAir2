@@ -1,13 +1,10 @@
-no_fee_cat:
-  category_description: no fee
-
 flat_rate_cat:
   category_description: flat rate
 
-weight:
+weight_cat:
   category_description: weight
 
-weight_range:
+weight_range_cat:
   category_description: weight range
 
 piston_single:

@@ -2,24 +2,28 @@ jet_air_sep_landing:
   fee_type: landing
   fbo: jet_air
   category: piston_single
+  classification: engine_type
   price: 10
 
 jet_air_sep_ramp:
   fee_type: ramp
   fbo: jet_air
   category: piston_single
+  classification: engine_type
   price: 5
 
 jet_air_sep_hangar:
   fee_type: hangar
   fbo: jet_air
   category: piston_single
+  classification: engine_type
   price: 20
 
 jet_air_sep_tiedown:
   fee_type: tie_down
   fbo: jet_air
   category: piston_single
+  classification: engine_type
   price: 0
   time_price: 4
   time_unit: day
@@ -28,12 +32,14 @@ jet_air_tet_landing:
   fee_type: landing
   fbo: jet_air
   category: turboprop_twin_medium
+  classification: engine_type
   price: 25
 
 jet_air_call_out:
   fee_type: call_out
   fbo: jet_air
   category: flat_rate_cat
+  classification: flat_rate
   price: 50
   time_unit: hour
   time_price: 25
@@ -42,6 +48,7 @@ jet_air_jet_landing_extra_info:
   fee_type: landing
   fbo: jet_air
   category: jet
+  classification: engine_type
   price: 130
   time_unit: nan
   time_price: -1
@@ -58,18 +65,21 @@ signature_sep_landing:
   fee_type: landing
   fbo: signature
   category: piston_single
+  classification: engine_type
   price: 100
 
 signature_tet_landing:
   fee_type: landing
   fbo: signature
   category: turboprop_twin_medium
+  classification: engine_type
   price: 250
 
 signature_call_out_one:
   fee_type: call_out
   fbo: signature
   category: flat_rate_cat
+  classification: engine_type
   price: 35
   start_time: 1080
   end_time: 1439
@@ -78,6 +88,7 @@ signature_call_out_two:
   fee_type: call_out
   fbo: signature
   category: flat_rate_cat
+  classification: engine_type
   price: 40
   start_time: 0
   end_time: 360
@@ -86,18 +97,21 @@ jet_flair_172_landing:
   fee_type: landing
   fbo: jet_flair
   category: 172_skyhawk
+  classification: make_and_model
   price: 40
 
 jet_flair_425_landing:
   fee_type: landing
   fbo: jet_flair
   category: 425_conquest
+  classification: make_and_model
   price: 60
 
 jet_flair_tie_down_free_3_days:
   fee_type: tie_down
   fbo: jet_flair
   category: flat_rate_cat
+  classification: flat_rate
   free_time_unit: day
   free_time_length: 3
   time_unit: day
@@ -107,19 +121,22 @@ jet_flair_tie_down_free_3_days:
 no_fee_fbo_landing:
   fee_type: landing
   fbo: no_fee_fbo
-  category: no_fee_cat
+  category: flat_rate_cat
+  classification: flat_rate
   price: 0
 
 flat_rate_fbo_landing:
   fee_type: landing
   fbo: flat_rate_fbo
   category: flat_rate_cat
+  classification: flat_rate
   price: 3
 
 weight_range_fbo_small_landing:
   fee_type: landing
   fbo: weight_range_fbo
-  category: weight_range
+  category: weight_range_cat
+  classification: weight_range
   price: 17
   unit_minimum: 0
   unit_maximum: 4999
@@ -127,7 +144,8 @@ weight_range_fbo_small_landing:
 weight_range_fbo_medium_landing:
   fee_type: landing
   fbo: weight_range_fbo
-  category: weight_range
+  category: weight_range_cat
+  classification: weight_range
   price: 34
   unit_minimum: 5000
   unit_maximum: 10000
@@ -135,7 +153,8 @@ weight_range_fbo_medium_landing:
 weight_fbo_landing:
   fee_type: landing
   fbo: weight_fbo
-  category: weight
+  category: weight_cat
+  classification: weight
   price: 0
   unit_price: 11
   unit_magnitude: 1000
@@ -143,7 +162,8 @@ weight_fbo_landing:
 weight_fbo_ramp:
   fee_type: ramp
   fbo: weight_fbo
-  category: weight
+  category: weight_cat
+  classification: weight
   price: 5
   unit_price: 7
   unit_magnitude: 1000
@@ -152,28 +172,33 @@ not_specific_fbo_landing:
   fee_type: landing
   fbo: not_specific_fbo
   category: piston
+  classification: engine_type
   price: 32
 
 not_specific_fbo_ramp_piston_multi:
   fee_type: ramp
   fbo: not_specific_fbo
   category: piston_multi
+  classification: engine_type
   price: 39
 
 not_specific_fbo_ramp_piston_single:
   fee_type: ramp
   fbo: not_specific_fbo
   category: piston_single
+  classification: engine_type
   price: 19
 
 missing_category_fbo_landing_turboprop_twin_heavy:
   fee_type: landing
   fbo: missing_category_fbo
   category: turboprop_twin_heavy
+  classification: engine_type
   price: 18
 
 missing_category_fbo_landing_turboprop_twin_light:
   fee_type: landing
   fbo: missing_category_fbo
   category: turboprop_twin_light
+  classification: engine_type
   price: 16
