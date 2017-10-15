@@ -21,6 +21,8 @@
     
     <p class="loginInfo"><%= f.text_area :email, class: 'form-control', size: "30x15" %></p>
     
+    <%= f.text_feild :fbo, {class: "invisable", :value => @fbo.name} %>
+    
     <p><%= f.check_box :confirm_fees, id: "input"%>All fees are listed and correct</p>
     
     <%= f.submit "Send Email", class: "submit", data: {confirm: "Confirm and email your fees?"} %>

@@ -7,7 +7,7 @@
 
     <%= form_for(@rating) do |f| %>
     
-        <p>Which trip would you like to rate?</p>
+        <h3>Which trip would you like to rate?</h3>
         
         <%= f.select(:trip_id) do %>
         
@@ -19,7 +19,7 @@
         
         </br>
         </br>
-        <p>How would you rate the accuracy of your trip out of 5?</p>
+        <h3>How would you rate the accuracy of your trip out of 5?</h3>
         
         <%= label_tag(:trip_rating, 1) %>
         <%= radio_button_tag(:trip_rating, 1) %>
@@ -40,7 +40,7 @@
         <%= f.text_area :trip_comments, class: 'form-control', size: "10x5" %>
         
         </br>
-        <p>How would you rate the FBO you landed at out of 5?</p>
+        <h3>How would you rate the FBO you landed at out of 5?</h3>
         
         <%= label_tag(:fbo_rating, 1) %>
         <%= radio_button_tag(:fbo_rating, 1) %>

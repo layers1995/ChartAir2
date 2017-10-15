@@ -5,7 +5,7 @@ Rails.application.configure do
   config.cache_classes = true
 
   # Eager load code on boot. This eager loads most of Rails and
-  # your application in memory, allowing both threaded web servers
+  # your application in ememory, allowing both threaded web servers
   # and those relying on copy on write to perform better.
   # Rake tasks automatically ignore this option for performance.
   config.eager_load = true
@@ -63,13 +63,13 @@ Rails.application.configure do
   ActionMailer::Base.perform_deliveries = true
   ActionMailer::Base.perform_caching = false
   ActionMailer::Base.delivery_method = :smtp
-  config.action_mailer.default_url_options = { :host => ENV["host"] }
+  config.action_mailer.default_url_options = { :host => ENV["chartair.us"] }
   ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.gmail.com',
     :port           => '587',
     :authentication => :plain,
-    :user_name      => ENV["email_username"],
-    :password       => ENV["email_password"],
+    :user_name      => ENV['GMAIL_USERNAME_DEV'],
+    :password       => ENV['GMAIL_PASSWORD_DEV'],
     :domain         => 'gmail.com',
     :enable_starttls_auto => true
   }

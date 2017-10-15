@@ -15,9 +15,12 @@ class AdminController < ApplicationController
         redirect_to admin_main_path
       else
         flash.now[:danger] = 'Invalid email/password combination'
-        render 'new'
+        redirect_to admin_login_path
       end
       
+    else
+      flash.now[:danger] = 'Invalid email/password combination'
+      redirect_to admin_login_path
     end
     
   end
@@ -40,8 +43,10 @@ class AdminController < ApplicationController
     
     trip = Trip.find_by(:id => params[:trip_id])
     trip.trip_status="confirmed"
+    user_id=trip.user_id
+    trip_id=trip.id
     trip.save
-    #UserMailer.confirmation_email(current_user, trip)
+    UserMailer.confirmation_email(user_id, trip_id).deliver_later
     redirect_to "/admin_main"
     
   end
@@ -57,11 +62,19 @@ class AdminController < ApplicationController
   def post_problem
     
     trip= Trip.find_by(:id =>params[:trip_id])
-    
+    user_id=trip.user_id
+    trip_id=trip.id
     trip.trip_status= params[:problem]
     trip.issue = params[:reason]
     
     if params[:problem]!=""
+      
+      if params[:problem]!="cancelled"
+        UserMailer.alteration_email(user_id, trip_id).deliver_later
+      else
+        UserMailer.cancelled_email(user_id, trip_id).deliver_later
+      end
+      
       trip.save
     else
       @trip = params[:trip_id]

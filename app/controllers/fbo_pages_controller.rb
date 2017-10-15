@@ -91,6 +91,16 @@ class FboPagesController < ApplicationController
   
   def fbo_update_email
     @email=""
+    @fbo=params[:fbo]
+  end
+  
+  def fbo_send_email
+    #information needed for email
+    @email= params[:email]
+    @fbo = params[:fbo]
+    
+    #email sent to user
+    AdminMailer.fbo_email_fees(@fbo, @email).deliver_later
   end
   
   def fbo_update_form

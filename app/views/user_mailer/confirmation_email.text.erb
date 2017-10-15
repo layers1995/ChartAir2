@@ -1,7 +1,7 @@
 Hello, <%= @user.name %>!
 ===============================================
     
-Your trip to <%=@airport%>, landing at <%=@fbo%> has been confirmed.
-Your price has been confirmed at <%=@cost%>.
+Your trip to <%=@airport.name.titleize%>, landing at <%=@fbo.name.titleize%> has been confirmed.
+Your price has been confirmed at $<%=@cost%>.
     
 Thank you for booking with ChartAir!

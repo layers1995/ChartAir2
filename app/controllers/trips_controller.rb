@@ -23,13 +23,17 @@ class TripsController < ApplicationController
     
     #if the user chooses to remove trip
     if params[:resolution]==="remove"
-      trip.destroy
+      #make the trip invisable to the user
+      trip.trip_status=""
+      trip.save
       redirect_to trips_path and return
     end
     
     #if user plans a new trip
     if params[:resolution]==="plan_trip"
-      trip.destroy
+      #make the trip invisable to the user
+      trip.trip_status=""
+      trip.save
       redirect_to plantrip_path and return
     end
     
@@ -60,14 +64,16 @@ class TripsController < ApplicationController
     #create information needed to save the trip
     airport_id= Airport.find_by(:name => params[:airport]).id
     fbo_id= Fbo.find_by(:name => params[:fbo]).id
-    user_id= current_user.id
     trip_status= "pending";
     airplane_user_id=AirplaneUser.find_by(:tailnumber => params[:tailnumber], :user_id => current_user.id, :user_can_see => true).id
     arrival_time=DateTime.parse(params[:start_datetime])
     depart_time=DateTime.parse(params[:depart_time])
     
-    Trip.create(:depart_time => depart_time, :airport_id => airport_id, :fbo_id => fbo_id, :user_id => current_user.id, :tailnumber => params[:tailnumber], :airplane_user_id => airplane_user_id ,:cost => params["cost"].to_i, :detail => params[:detail], :trip_status => trip_status, :arrival_time => arrival_time)
-    
+    #create trip
+    trip= Trip.create(:depart_time => depart_time, :airport_id => airport_id, :fbo_id => fbo_id, :user_id => current_user.id, :tailnumber => params[:tailnumber], :airplane_user_id => airplane_user_id ,:cost => params["cost"].to_i, :detail => params[:detail], :trip_status => trip_status, :arrival_time => arrival_time)
+    #inform admin that trips have been planned
+    UserMailer.admin_trip_booked(current_user).deliver_later
+
     redirect_to "/trips"
     
   end

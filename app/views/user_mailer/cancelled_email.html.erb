@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  
+  <body>
+      
+    <p>Hello <%= @user.name %>,</p>
+    
+    <p>Your trip to <%=@airport.name.titleize%>, landing at <%=@fbo.name.titleize%> has been cancelled.</p>
+    
+    <p>Cancellations can happen if the airport is not open the day you wish to arrive, or other circumstances that make it impossible for you to land there.</p>
+    
+    <p>For more information click: <%=@url%></p>
+    
+    <p>Sorry for any inconvenience!</p>
+    
+  </body>
+  
+</html>
+
+

@@ -7,14 +7,18 @@
   
   <body>
       
-    <h1>Hello <%= @user.name %>!</h1>
+    <p>Hello <%= @user.name %></p>
     
-    <p>Your trip to <%=@airport%>, landing at <%=@fbo%> has been altered.</p>
+    <p>Your trip to <%=@airport.name.titleize%>, landing at <%=@fbo.name.titleize%> has been altered.</p>
+    
+    <p>Alterations can occur if the airport you selected does not have the services you listed, or if the price has been changed since our last update.</p>
     
     <p>For more information click: <%=@url%></p>
     
-    <p>Sorry for any inconvince!</p>
+    <p>Sorry for any inconvenience!</p>
     
   </body>
   
 </html>
+
+

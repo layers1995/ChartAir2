@@ -37,7 +37,7 @@ class UsersController < ApplicationController
         log_in @user
         redirect_to home_path
       else
-        render 'new_user'
+        render 'new'
       end
     
   end
