@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
 
+
+#used for password reset pages
+  get 'password_resets/new'
+  get 'password_resets/edit'
+
 #routes for reports on trips/fbos
   get '/feedback', to: "report#index"
   post '/feedback', to: "report#create"
@@ -73,5 +78,6 @@ Rails.application.routes.draw do
   resources :airplanes
   resources :airplane_users
   resources :trips
+  resources :password_resets,     only: [:new, :create, :edit, :update]
   
 end
