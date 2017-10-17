@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 MI	Adrian	Lenawee County Airport	KADG	517-265-8993	1230	
 MI	Allegan	Padgham Field Airport	35D	888-588-2755	840	info@aceaviation.biz
 MI	Alma	Gratiot Community Airport	KAMN	989-463-5500	780	
@@ -117,3 +118,124 @@ MI	Troy	Oakland/Troy Airport	KVLL	248-655-1474	2460
 MI	West Branch	West Branch Community Airport	Y31	989-345-1453	408	
 MI	White Cloud	White Cloud Airport	42C	231-689-5891	73	
 MI	Zeeland	Ottawa Executive Airport	Z98	616-772-5970	810	
+=======
+Adrian	Lenawee County Airport	517-265-8993	Lenawee County Airport	MI	1230	
+Allegan	 Ace Aviation	888-588-2755	Padgham Field Airport	MI	840	info@aceaviation.biz
+Alma	Three Point Aviation, LLC	989-463-5500	Gratiot Community Airport	MI	780	
+Alpena	Aviation North	989-356-6361	Alpena County Regional Airport	MI	452	dale.brooks.aviationnorth@gmail.com
+Ann Arbor	Aviation Center	734-662-6806	Ann Arbor Municipal Airport	MI	5220	mark@aviationcenter.aero
+Ann Arbor	Solo Aviation	734-994-6651	Ann Arbor Municipal Airport	MI	5220	info@soloaviation.aero
+Bad Axe	Bayfront Aviation	989-269-6511	Huron County Memorial Airport	MI	810	
+Battle Creek	 Duncan Aviation	269-969-8400	W K Kellogg Airport	MI	7410	btl.flightdesk@duncanaviation.com
+Battle Creek	Centennial Aircraft Services, Inc.	269-565-3200	W K Kellogg Airport	MI	7410	
+Bay City	James Clements Municipal Airport	989-895-8991	James Clements Municipal Airport	MI	810	
+Beaver Island	Beaver Island Airport	231-448-2750, 231-448-2089	Beaver Island Airport	MI	750	
+Bellaire	Antrim County Airport	231-533-8524	Antrim County Airport	MI	600	
+Belleville	Larsen Air Park	713-612-3136	Belleville Airport	MI	42	
+Benton Harbor	Airport Restaurant & Skyway Aviation	269-925-5114	Southwest Michigan Regional Airport	MI	1500	
+Berrien Springs	Andrews University, Aviation Technology	269-471-3547	Andrews University Airpark	MI	600	airinfo@andrews.edu
+Big Rapids	Colt Aviation	231-796-5600	Roben-Hood Airport	MI	308	robenhood@ci.big
+Blissfield	Betz Airport	517-499-4860	Betz Airport	MI	58	
+Boyne City	Boyne City Municipal Airport	231-582-6597	Boyne City Municipal Airport	MI	750	
+Boyne Falls	Boyne Mountain Resort	231-549-6000	Boyne Mountain Airport	MI	364	
+Cadillac	Wexford County Airport	231-779-9525	Wexford County Airport	MI	660	manager@cadillacairport.com
+Caro	Tuscola Area Airport	989-233-4124	Tuscola Area Airport	MI	1140	
+Charlevoix	City of Charlevoix	231-547-3605	Charlevoix Municipal Airport	MI	2460	
+Charlotte	Charlotte Air Services	517-712-8177	Fitch H Beach Airport	MI	750	todd@charlotteairservices.com
+Cheboygan	Cheboygan County Airport	231-627-5571	Cheboygan County Airport	MI	524	
+Clare	Clare Municipal Airport	989-386-0445, 989-802-2005	Clare Municipal Airport	MI	660	
+Coldwater	 Elite Air Service	517-278-6516	Branch County Memorial Airport	MI	990	info@eliteairservice.com
+Detroit	Signature Flight Support	734-941-7880	Detroit Metropolitan Wayne County Airport	MI	30810	DTW@signatureflight.com
+Detroit	Avflight Willow Run East	734-482-2621	Willow Run Airport	MI	4980	csryip@avflight.com
+Detroit	Odyssey Aviation Detroit	734-547-7359	Willow Run Airport	MI	4980	info.kyip@odysseyaviation.com
+Detroit	Avflight Willow Run West	734-482-2621	Willow Run Airport	MI	4980	csryip@avflight.com
+Detroit	 Avflight Detroit City	844-383-5338, 313-527-6620	Coleman A Young Municipal Airport	MI	5400	csrdetroitcity@avflight.com
+Detroit/Grosse Ile	 Grosse Ile Municipal Airport	734-675-0155, 734-692-6424	Grosse Ile Municipal Airport	MI	1320	mduker@grosseileairport.com
+Dowagiac	Dowagiac Municipal Airport	269-782-3805	Dowagiac Municipal Airport	MI	276	
+Drummond Island	Bailey's Services	906-493-5411	Drummond Island Airport	MI	384	
+East Tawas	Marv's Place Aviation	989-820-0738	Iosco County Airport	MI	248	
+Escanaba	Delta County Airport	906-786-4902	Delta County Airport	MI	3210	
+Flint	 Avflight Flint	844-383-5368, 810-235-0681	Bishop International Airport	MI	2730	csrflint@avflight.com
+Flushing	Dalton Airport Association	810-659-3572	Dalton Airport	MI	1080	
+Frankfort	Frankfort Dow Memorial Field	231-352-9118	Frankfort Dow Memorial Field	MI	308	
+Fremont	AvCraft Limited	231-924-7080	Fremont Municipal Airport	MI	660	
+Gaylord	Gaylord Regional Airport	989-732-4218, 989-448-8369	Gaylord Regional Airport	MI	810	mbarresi@otsegocountymi.gov
+Gladwin	Gladwin Zettel Memorial Airport	989-426-4201	Gladwin Zettel Memorial Airport	MI	340	
+Grand Haven	E2 Technologies, Inc	616-842-4430	Grand Haven Memorial Airpark	MI	372	
+Grand Ledge	GrandAir Aviation, Inc.	517-627-9557	Abrams Municipal Airport	MI	1020	info@grandairaviation.com
+Grand Rapids	Signature Flight Support	616-336-4711	Gerald R Ford International Airport	MI	6690	GRR@signatureflight.com
+Grayling	Crawford County Air Terminal	989-344-4300, 989-344-3202	Grayling Army Airfield	MI	496	info@crawfordco.org
+Greenville	Marceco Aviation	616-754-5534	Greenville Municipal Airport	MI	392	marcecoaviation@gmail.com
+Hancock	Houghton County Memorial Airport	906-482-3970	Houghton County Memorial Airport	MI	1320	
+Harbor Springs	Harbor Springs Airport	231-347-2812	Harbor Springs Airport	MI	1350	
+Hart/Shelby	Oceana County Airport	231-861-9910	Oceana County Airport	MI	228	
+Hastings	Hastings City/Barry County Airport	269-945-6306, 269-838-5874	Hastings Airport	MI	930	marknoteboom@core.com
+Hessel	Hessel Aviation LLC	906-484-3623	Albert J Lindberg Airport	MI	21	
+Holland	Tulip City Air Service, Inc.	616-392-7831	West Michigan Regional Airport	MI	2880	frontdesk@tulipcityair.com
+Holland	Ottawa Aviation	616-399-9333	Park Township Airport	MI	344	
+Houghton Lake	Roscommon County-Blodgett Memorial Airport	989-366-7660	Roscommon County - Blodgett Memorial Airport	MI	1050	
+Howell	 Livingston County Airport	517-546-6675	Livingston County Spencer J Hardy Airport	MI	3690	mjohnson@livgov.com
+Iron Mountain/Kingsford	 Kubick Aviation Services	906-779-5500, 906-221-6465	Ford Airport	MI	630	Info@kubickaviation.com
+Ironwood	Gogebic-Iron County Airport	906-932-3121	Gogebic-Iron County Airport	MI	444	
+Jackson	Airport Restaurant & Skyway Aviation	517-787-2460, 517-206-4700	Jackson County Airport-Reynolds Field	MI	3570	skyway1961@cs.com
+Jenison	Riverview Airport	616-457-5040	Riverview Airport	MI	384	
+Kalamazoo	 Duncan Aviation	269-343-2548	Kalamazoo/Battle Creek International Airport	MI	3210	
+Kalamazoo	Kalamazoo Pilots Association	269-624-4444	Kalamazoo/Battle Creek International Airport	MI	3210	
+Lakeview	Petersen Oil Company Inc	616-754-3254	Lakeview Airport-Griffith Field	MI	840	
+Lambertville	Suburban Aviation	734-856-6103	Toledo Suburban Airport	MI	1410	
+Lansing	 Avflight Lansing	517-321-7000	Capital Region International Airport	MI	2790	csrlansing@avflight.com
+Lapeer	Lapeer Aviation	810-664-6966	Dupont-Lapeer Airport	MI	1290	
+Linden	Linden Airport Leasing	586-946-5381, 248-872-8297	Price's Airport	MI	208	
+Lowell	Lowell City Airport	616-987-0821	Lowell City Airport	MI	192	
+Ludington	Mason County Aviation	231-843-2049	Mason County Airport	MI	810	
+Mackinac Island	Mackinac Island Airport	906-847-3231	Mackinac Island Airport	MI	900	
+Manistee	Orchard Beach Aviation	231-723-8095	Manistee County-Blacker Airport	MI	528	
+Manistique	Schoolcraft County Airport	906-341-5522	Schoolcraft County Airport	MI		
+Marine City	Marine City Aviation	810-765-8289	Marine City Airport	MI	660	
+Marlette	Marlette Airport	989-635-3431	Marlette Airport	MI	810	
+Marquette	Boreal Aviation	906-346-5802	Sawyer International Airport	MI	1290	
+Marshall	City of Marshall	269-781-4447, 269-781-5183	Brooks Field Airport	MI	690	Cgriswold@cityofmarshall.com
+Mason	Capital Region Airport Authority	517-321-8525, 517-886-3729	Mason Jewett Field Airport	MI	500	operations@craa.com
+Menominee	Twin County Airport	906-863-8408	Menominee-Marinette Twin County Airport	MI	660	
+Midland	Quality Aviation Services, Inc.	989-835-3231, 989-615-1103	Jack Barstow Airport	MI	1320	JT@barstowairport.com
+Mio	Oscoda County Dennis Kauffman Airport	989-848-2446, 989-826-1130	Oscoda County Dennis Kauffman Memorial Airport	MI	67	
+Monroe	Monroe Aviation School of Flight	734-384-9616	Custer Airport	MI	990	
+Mount Pleasant	Mt. Pleasant Municipal Airport	989-772-2965	Mount Pleasant Municipal Airport	MI	660	
+Muskegon	Executive Air Transport	231-798-2126	Muskegon County Airport	MI	2280	info@ea-transport
+New Hudson	American Aces Aviation	248-446-9734	Oakland Southwest Airport	MI	1080	
+Newberry	Luce County Airport	906-293-2926	Luce County Airport	MI	192	
+Niles	City of Niles	269-683-4700	Jerry Tyler Memorial Airport	MI	228	
+Ontonagon	Ontonagon County Airport	906-884-4980	Ontonagon County Airport - Schuster Field	MI		
+Oscoda	Phoenix Aviation Services	989-739-8486	Oscoda-Wurtsmith Airport	MI	424	john.chagnon@phoenix-mi
+Owosso	Owosso Community Airport	989-725-1969, 810-964-9827	Owosso Community Airport	MI	1800	owossocommunityairport@frontier.com
+Pellston	Pellston Regional Airport	231-539-8442	Pellston Regional Airport of Emmet County	MI	750	
+Plainwell	City of Plainwell (self-serve fuel)	269-685-6268	Plainwell Municipal Airport	MI	308	vwillfly@aol.com
+Pontiac	Oakland Air - at the McInerney Air Centers	248-666-4300	Oakland County International Airport	MI	10290	dlussier@oaklandair.com
+Pontiac	Michigan Aviation	248-666-3440	Oakland County International Airport	MI	10290	wrj2@michigan-aviation
+Pontiac	Pentastar Aviation	248-666-3630	Oakland County International Airport	MI	10290	FBO@pentastaraviation.com
+Pontiac	 Barnstormers Flight Support	248-212-9425, 248-361-9387	Oakland County International Airport	MI	10290	barnstormerpilots@yahoo.com
+Pontiac	Royal Air	248-666-6000	Oakland County International Airport	MI	10290	
+Port Huron	Aviation Express, Inc	810-364-4187	St Clair County International Airport	MI	2220	aviationexpressphn@gmail.com
+Ray	Macomb Airport	586-749-9558	Ray Community Airport	MI	2130	
+Rogers City	Rogers City Presque Isle County Airport	989-464-6887	Presque Isle County Airport	MI	79	rogerscityairport@frontier.com
+Romeo	Romeo Airport Management	586-336-9116	Romeo State Airport	MI	1230	
+Saginaw	 Avflight Saginaw	800-227-7907	MBS International Airport	MI	1650	csrsaginaw@avflight.com
+Saginaw	Harry W. Browne Airport	989-758-2459, 989-295-0675	Saginaw County H W Browne Airport	MI	660	
+Sandusky	Sandusky Service	810-414-3009	Sandusky City Airport	MI	476	
+Sault Ste Marie	Soo Air	906-635-0252	Sault Ste Marie Municipal Airport/Sanderson Field	MI	750	
+Sault Ste Marie	Chippewa County Economic Development Corporation (FBO)	906-495-3835, 906-495-5631	Chippewa County International Airport	MI	264	
+Sebewaing	Sebewaing Airport	989-883-2120	Sebewaing Airport	MI	152	
+South Haven	South Haven Area Regional Airport	269-637-7343	South Haven Area Regional Airport	MI	2220	
+Sparta	Village of Sparta (FBO)	616-887-5744	Paul C Miller-Sparta Airport	MI	1230	
+St Ignace	Great Lakes Air	906-643-7165	Mackinac County Airport	MI	2700	
+Sturgis	Kirsch Municipal Airport, City of Sturgis	269-651-2821, 269-659-7234	Kirsch Municipal Airport	MI	660	akuk@sturgismi.gov
+Tecumseh	Meyers-Diver's Airport	517-423-1122	Al Meyers Airport	MI	308	
+Tecumseh	Merillat Aviation	517-423-7600	Merillat Airport	MI	82	
+Three Rivers	City of Three Rivers (FBO)	269-273-1845	Three Rivers Municipal Dr Haines Airport	MI	810	
+Traverse City	 Avflight Traverse City	844-383-5882	Cherry Capital Airport	MI	8010	csrtraversecity@avflight.com
+Troy	JDS Pump-N-Go	248-288-6100	Oakland/Troy Airport	MI	2460	
+Troy	24HRFUEL.com	248-655-1474	Oakland/Troy Airport	MI	2460	
+West Branch	Taber's Aircraft Service	989-345-1453	West Branch Community Airport	MI	408	
+White Cloud	White Cloud Airport	231-689-5891	White Cloud Airport	MI	73	
+Zeeland	Ottawa Executive Airport	616-772-5970	Ottawa Executive Airport	MI	810	
+>>>>>>> finalizeGeneralSchema

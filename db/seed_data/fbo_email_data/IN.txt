@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 IN	Anderson	Anderson Municipal Airport-Darlington Field	KAID	765-648-6292, 765-648-6293	1020	bmcmillen@cityofanderson.com
 IN	Angola	Tri-State Steuben County Airport	KANQ	260-665-7111	1770	
 IN	Auburn	De Kalb County Airport	KGWB	260-927-1845, 260-927-1846	1110	centuryaviation@gmail.com
@@ -78,3 +79,85 @@ IN	Warsaw	Warsaw Municipal Airport	KASW	574-269-1337, 574-267-3689	1260	nking@wa
 IN	Washington	Daviess County Airport	KDCY	812-254-9934	228	
 IN	Winamac	Arens Field Airport	KRWN	574-946-6785	92	
 IN	Winchester	Randolph County Airport	I22	765-584-3611	524	
+=======
+Anderson	Anderson Municipal Airport - Darlington Field	765-648-6292, 765-648-6293	Anderson Municipal Airport-Darlington Field	IN	1020	bmcmillen@cityofanderson.com
+Angola	Steuben County Board of Aviation	260-665-7111	Tri-State Steuben County Airport	IN	1770	
+Auburn	Century Aviation	260-927-1845, 260-927-1846	De Kalb County Airport	IN	1110	centuryaviation@gmail.com
+Batesville	 Batesville Aviation Services	812-934-7593, 812-934-7257	Batesville Airport	IN	168	jana@batesvilleaviation.com
+Bedford	Virgil I Grissom Municipal Airport	812-279-9839	Virgil I Grissom Municipal Airport	IN	280	
+Bloomington	 BMG Aviation	888-457-3787, 812-825-7979	Monroe County Airport	IN	2220	bmgav@bluemarble.net
+Bloomington	Cook Aviation	800-880-3499, 812-825-2392	Monroe County Airport	IN	2220	cookfbo@cookaviation.com
+Bluffton	Miller Flying Service	260-694-6214	Miller Airport	IN	200	
+Columbus	Jeff Air Pilot Services	812-372-1819, 317-514-6373	Columbus Municipal Airport	IN	3600	fly@jeffairfbo.com
+Columbus	 Columbus Municipal Airport	812-376-2519	Columbus Municipal Airport	IN	3600	jbessler@columbus.in
+Connersville	City of Connersville (FBO)	765-825-5581	Mettel Field Airport	IN	268	
+Crawfordsville	Crawfordsville Municipal Airport	765-362-0070	Crawfordsville Municipal Airport	IN	372	
+Delphi	Delphi Municipal Airport	260-442-6524	Delphi Municipal Airport	IN	520	
+Elkhart	 Indiana Flight Center	574-266-4040	Elkhart Municipal Airport	IN	2190	brettz@indianaflightcenter.com
+Evansville	Tri-State Aero	812-426-1221	Evansville Regional Airport	IN	3030	bballard@tristateaero.com
+Evansville	Skylane Pilots Association	812-423-5755	Skylane Airport	IN	420	
+Fort Wayne	 Fort Wayne Aero Center	260-446-3456	Fort Wayne International Airport	IN	2970	csr@fwaerocenter.com
+Fort Wayne	Fort Wayne - Allen County Airport Authority	260-489-5518, 260-489-8020	Smith Field Airport	IN	1410	KScherer@fwairport.com
+Frankfort	 Montgomery Aviation	765-654-6275	Frankfort Municipal Airport	IN	930	bbeem@montgomeryaviation.net
+Franklin	Franklin Flying Field	317-736-8359	Franklin Flying Field Airport	IN		
+French Lick	 French Lick Municipal Airport	812-936-2222	French Lick Municipal Airport	IN	444	manager@frenchlickairport.com
+Gary	Gary Jet Center	219-944-1210	Gary/Chicago International Airport	IN	2070	info@garyjetcenter.com
+Gary	B. Coleman Aviation	219-750-1508	Gary/Chicago International Airport	IN	2070	csr@b-coleman
+Goshen	Goshen Air Center	574-533-8245	Goshen Municipal Airport	IN	2160	
+Greencastle	PDM Aviation LLC	765-721-1289, 765-653-1763	Putnam County Regional Airport	IN	264	
+Greensburg	Greensburg-Decatur County Airport	812-593-1677	Greensburg Municipal Airport	IN	810	
+Griffith	Griffith Aviation, Inc.	219-924-0207	Griffith-Merrillville Airport	IN	2970	info@griffithairport.com
+Hobart	Niemeyer Aviation, Inc.	219-962-3020	Hobart Sky Ranch Airport	IN	264	
+Huntingburg	Dubois County Airport Authority	812-683-5454	Huntingburg Airport	IN	1110	airport@psci.net
+Huntington	Prop Boys Aviation	260-356-8515, 260-355-1111	Huntington Municipal Airport	IN	660	
+Indianapolis	Signature Flight Support	317-248-4900	Indianapolis International Airport	IN	12570	IND@signatureflight.com
+Indianapolis	Million Air	317-554-8400	Indianapolis International Airport	IN	12570	info.ind@millionair.com
+Indianapolis	Indy Jet	317-335-3371	Indianapolis Regional Airport	IN	2850	info@indyjet.net
+Indianapolis	Montgomery Aviation	317-769-4487	Indianapolis Executive Airport	IN	2850	info@montgomeryaviation.net
+Indianapolis	Eagle Creek Aviation Services	317-293-6935	Eagle Creek Airpark	IN	1800	info@eagle-creek
+Indianapolis	Tom Wood Aviation	317-849-0840	Indianapolis Metropolitan Airport	IN	2010	tom.mccord@tomwoodaviation.com
+Indianapolis	Indy South Greenwood Airport	317-881-0887	Indy South Greenwood Airport	IN	2460	curlessl@indysouthgreenwood.com
+Indianapolis	Hendricks County Airport	317-745-2389	Hendricks County Airport-Gordon Graham Field	IN	900	
+Jeffersonville	Honaker Aviation	812-246-5491	Clark Regional Airport	IN	3660	kevin@honakeraviation.com
+Jeffersonville	Aircraft Specialists Inc.	812-246-4696	Clark Regional Airport	IN	3660	fbo@chooseasi.com
+Kendallville	Falcon Aviation	260-665-3212	Kendallville Municipal Airport	IN	360	
+Kentland	Kentland Municipal Airport	815-383-2634	Kentland Municipal Airport	IN	388	
+Knox	Starke County Airport Authority	574-772-5001	Starke County Airport	IN	1560	scaa@starkecountyairport.com
+Kokomo	 Kokomo Municipal Airport F.B.O.	765-456-1742, 765-437-0637	Kokomo Municipal Airport	IN	900	poneill@cityofkokomo.org
+La Porte	 LaPorte Municipal Airport	219-324-3393	La Porte Municipal Airport	IN	1620	diane@laporteairport.com
+Lafayette	Purdue Aviation	765-743-9692	Purdue University Airport	IN	8160	
+Logansport	 Logansport / Cass County Airport Authority	574-753-4300	Logansport/Cass County Airport	IN	332	rose.wagoner@flyggp.com
+Lowell	Lowell Aviation	219-696-9603	Lowell Airport	IN	148	
+Madison	City of Madison - Aviation	812-273-1914	Madison Municipal Airport	IN	660	
+Marion	Air Marion	765-674-7777	Marion Municipal Airport	IN	810	
+Michigan City	 Michigan City Municipal Airport	219-872-0121	Michigan City Municipal Airport-Phillips Field	IN	690	mgcairport@emichigancity.com
+Monticello	Townsend Aviation	574-583-9900	White County Airport	IN	1020	townsendaviation@comcast.net
+Muncie	Muncie Aviation Company	765-254-8004	Delaware County Regional Airport	IN	2220	line@muncieaviation.com
+Muncie	Reese Flying Service	765-284-9611	Reese Airport	IN	412	
+Nappanee	Nappanee Municipal Airport	574-773-4707	Nappanee Municipal Airport	IN	324	
+New Castle	Sky Castle Aviation	765-529-7903	New Castle-Henry County Municipal Airport	IN	524	
+North Vernon	North Vernon Municipal Airport	812-346-5223	North Vernon Airport	IN	870	
+Paoli	Paoli Municipal Airport	812-723-9923	Paoli Municipal Airport	IN	188	
+Peru	Miami County Aviation	765-689-0159	Grissom Air Reserve Base	IN		
+Peru	Peru Municipal Airport	765-472-1990	Peru Municipal Airport	IN	116	
+Plymouth	 City of Plymouth (FBO)	574-935-5152	Plymouth Municipal Airport	IN	690	airport@plymouthin.com
+Portland	Portland Municipal Airport	260-729-1577, 260-729-5233	Portland Municipal Airport	IN	380	
+Rensselaer	Jasper County Airport Authority	219-866-2100	Jasper County Airport	IN	404	Info@jaspercountyairport.com
+Richmond	Richmond Municipal Airport	765-983-7296, 765-993-4139	Richmond Municipal Airport	IN	750	rmayse@richmondindiana.gov
+Rochester	Fulton County Aviation	574-223-5384	Fulton County Airport	IN	720	
+Salem	Salem Municipal Airport	812-883-4265, 812-883-4264	Salem Municipal Airport	IN	420	clerk.treasurer@cityofsalemin.com
+Seymour	Freeman Municipal Airport	812-522-2031	Freeman Municipal Airport	IN	930	
+Shelbyville	Shelbyville Aviation	317-392-1284	Shelbyville Municipal Airport	IN	1410	
+South Bend	Atlantic Aviation	574-233-8285	South Bend International Airport	IN	3390	Michael.Todorow@atlanticaviation.com
+South Bend	Corporate Wings	574-282-4200	South Bend International Airport	IN	3390	reception@corporatewings.com
+Sullivan	Sullivan County Airport	812-268-6959	Sullivan County Airport	IN	436	
+Tell City	Perry County Airport Authority	812-836-2141	Perry County Municipal Airport	IN	160	
+Terre Haute	Hoosier Aviation, LLC	812-877-7600, 812-877-4100	Terre Haute International Airport-Hulman Field	IN	5310	info@hoosieraviation.com
+Terre Haute	Brown Flying School	812-466-2229	Sky King Airport	IN	1530	
+Valparaiso	Porter County Municipal Airport	219-462-6508	Porter County Regional Airport	IN	5730	
+Wabash	Northern Indiana Aviation	260-563-4705	Wabash Municipal Airport	IN	504	
+Warsaw	City Aviation Services -- City of Warsaw (FBO)	574-269-1337, 574-267-3689	Warsaw Municipal Airport	IN	1260	nking@warsaw.in
+Washington	Daviess County Airport	812-254-9934	Daviess County Airport	IN	228	
+Winamac	Airport Management Service, Inc.	574-946-6785	Arens Field Airport	IN	92	
+Winchester	Randolph County Airport	765-584-3611	Randolph County Airport	IN	524	
+>>>>>>> finalizeGeneralSchema

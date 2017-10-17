@@ -1,0 +1,119 @@
+MN	Ada/Twin Valley	Norman County Ada/Twin Valley Airport	D00	218-415-0191	
+MN	Aitkin	Aitkin Municipal Airport-Steve Kurtz Field	KAIT	218-927-4104, 218-839-1067	adventurenorthllc@gmail.com
+MN	Albert Lea	Albert Lea Municipal Airport	KAEL	507-373-0608	
+MN	Alexandria	Chandler Field Airport	KAXN	320-762-2111	
+MN	Austin	Austin Municipal Airport	KAUM	507-433-1813	
+MN	Baudette	Baudette International Airport	KBDE	218-634-1923, 218-839-1067	
+MN	Bemidji	Bemidji Regional Airport	KBJI	218-751-1880	
+MN	Benson	Benson Municipal Airport	KBBB	320-843-4880	
+MN	Blue Earth	Blue Earth Municipal Airport	KSBU	507-526-7264	
+MN	Brainerd	Brainerd Lakes Regional Airport	KBRD	218-829-3398	frontdesk@northpointaviation.net
+MN	Buffalo	Buffalo Municipal Airport	KCFE	763-682-1181	merton.auger@ci.buffalo
+MN	Caledonia	Houston County Airport	KCHU	507-725-3925	
+MN	Cambridge	Cambridge Municipal Airport	KCBG	763-689-1800	
+MN	Canby	Myers Field Airport	KCNB	507-828-0323	
+MN	Clear Lake	Leaders/Clear Lake Airport	8Y6	320-743-2294	
+MN	Cloquet	Cloquet/Carlton County Airport	KCOQ	218-879-6599	Staff@venturenorthaviation.com
+MN	Cook	Cook Municipal Airport	KCQM	218-666-9931	
+MN	Crookston	Crookston Municipal Airport-Kirkwood Field	KCKN	218-281-2625	
+MN	Detroit Lakes	Detroit Lakes Airport-Wething Field	KDTL	218-847-3233	
+MN	Dodge Center	Dodge Center Airport	KTOB	507-374-6245	
+MN	Duluth	Duluth International Airport	KDLH	218-727-2911	fbo@monacoairduluth.com
+MN	Duluth	Sky Harbor Airport	KDYT	218-733-0078	
+MN	Elbow Lake	Elbow Lake Municipal - Pride of the Prairie Airport	Y63	218-685-6594	
+MN	Ely	Ely Municipal Airport	KELO	218-365-5600	
+MN	Eveleth	Eveleth-Virginia Municipal Airport	KEVM	218-744-1428	
+MN	Fairmont	Fairmont Municipal Airport	KFRM	507-235-6160	
+MN	Faribault	Faribault Municipal Airport-Liz Wall Strohfus Field	KFBL	507-332-0140	
+MN	Fergus Falls	Fergus Falls Municipal Airport-Einar Mickelson Field	KFFM	218-739-3733	
+MN	Fertile	Fertile Municipal Airport	D14	218-945-3136	
+MN	Forest Lake	Forest Lake Airport	25D	651-592-9127, 651-209-9745	rick@ashbach.com
+MN	Fosston	Fosston Municipal Airport	KFSE	218-435-1959	
+MN	Glencoe	Glencoe Municipal Airport	KGYL	320-864-5586	
+MN	Glenwood	Glenwood Municipal Airport	KGHW	320-634-5433	
+MN	Grand Marais	Grand Marais/Cook County Airport	KCKC	218-387-3024	
+MN	Grand Rapids	Grand Rapids/Itasca County Airport-Gordon Newstrom Field	KGPZ	218-326-1226	
+MN	Granite Falls	Granite Falls Municipal Airport/Lenzen-Roe-Fagen Memorial Field	KGDB	507-476-5939, 320-564-5665	
+MN	Hallock	Hallock Municipal Airport	KHCO	218-843-2076	
+MN	Hawley	Hawley Municipal Airport	04Y	218-483-3331	
+MN	Hector	Hector Municipal Airport	1D6	320-848-2745	
+MN	Henning	Henning Municipal Airport	05Y	218-583-2402	
+MN	Hibbing	Range Regional Airport	KHIB	218-263-4353, 218-262-3452	maureen@rangeregionalairport.com
+MN	Hinckley	Field of Dreams Airport	04W	320-384-6667	
+MN	Hutchinson	Hutchinson Municipal Airport-Butler Field	KHCD	320-587-7615, 952-941-6255	info@asijet.com
+MN	International Falls	Falls International Airport-Einarson Field	KINL	218-283-4461, 218-283-2712	thor@einarsonflying.com
+MN	Jackson	Jackson Municipal Airport	KMJQ	507-847-3599	
+MN	Le Sueur	Le Sueur Municipal Airport	12Y	507-665-2266	
+MN	Litchfield	Litchfield Municipal Airport	KLJF	320-693-7201	
+MN	Little Falls	Little Falls/Morrison County Airport-Lindbergh Field	KLXL	320-616-5525	
+MN	Long Prairie	Todd Field Airport	14Y	320-732-2167	
+MN	Longville	Longville Municipal Airport	KXVG	218-363-2022	
+MN	Luverne	Quentin Aanenson Field Airport	KLYV	507-283-5041, 605-413-5028	
+MN	Madison	Lac Qui Parle County Airport	KDXX	320-333-9300	
+MN	Mahnomen	Mahnomen County Airport	3N8	218-935-2296	
+MN	Mankato	Mankato Regional Airport	KMKT	507-625-6006	
+MN	Maple Lake	Maple Lake Municipal Airport-Bill Mavencamp Sr Field	KMGG	763-963-3738	
+MN	Marshall	Southwest Minnesota Regional Airport - Marshall/Ryan Field	KMML	507-532-3164	
+MN	Mc Gregor	Isedor Iverson Airport	KHZX	406-223-4955, 218-768-2717	
+MN	Milaca	Milaca Municipal Airport	18Y	320-983-6547	
+MN	Minneapolis	Flying Cloud Airport	KFCM	952-941-1212	fsales@thunderbirdaviation.com
+MN	Minneapolis	Flying Cloud Airport	KFCM	952-641-2020	service@flypremierjet.com
+MN	Minneapolis	Flying Cloud Airport	KFCM	952-943-1519	customerservice@executive-aviation
+MN	Minneapolis	Flying Cloud Airport	KFCM	952-944-1200	fcmcontacts@elliottaviation.com
+MN	Minneapolis	Flying Cloud Airport	KFCM	952-941-2783	kurt@modernavionics.com
+MN	Minneapolis	Anoka County-Blaine Airport (Janes Field)	KANE	888-539-2472, 763-780-2802	
+MN	Minneapolis	Minneapolis-St Paul International/Wold-Chamberlain Airport	KMSP	612-726-5700	MSP@signatureflight.com
+MN	Minneapolis	Crystal Airport	KMIC	763-533-4162	sales@thunderbirdaviation.com
+MN	Minneapolis	Crystal Airport	KMIC	763-745-7888	
+MN	Minneapolis	Airlake Airport	KLVN	952-469-4414, 954-908-7880	accounting@visionmarketingus.com
+MN	Montevideo	Montevideo-Chippewa County Airport	KMVE	320-269-4829	
+MN	Moorhead	Moorhead Municipal Airport	KJKJ	218-287-1400	
+MN	Moose Lake	Moose Lake Carlton County Airport	KMZH	218-451-0542	
+MN	Mora	Mora Municipal Airport	KJMR	320-679-1511	
+MN	Morris	Morris Municipal Airport - Charlie Schmidt Field	KMOX	320-589-2083	
+MN	New Ulm	New Ulm Municipal Airport	KULM	507-354-8127	
+MN	Olivia	Olivia Regional Airport	KOVL	320-523-2186	
+MN	Orr	Orr Regional Airport	KORB	218-757-9994	
+MN	Ortonville	Ortonville Municipal Airport-Martinson Field	KVVV	320-839-3846	
+MN	Owatonna	Owatonna Degner Regional Airport	KOWA	507-444-2448, 507-456-5027	airport@ci.owatonna
+MN	Park Rapids	Park Rapids Municipal Airport-Konshok Field	KPKD	218-237-8528	
+MN	Paynesville	Paynesville Municipal Airport	KPEX	320-243-3714	ron@paynesvillemn.com
+MN	Pelican Rapids	Pelican Rapids Municipal Airport-Lyon's Field	47Y	218-863-7053	
+MN	Perham	Perham Municipal Airport	16D	218-346-4455	
+MN	Pine River	Pine River Regional Airport	KPWC	218-587-2338	
+MN	Pinecreek	Piney Pinecreek Border Airport	48Y	218-463-2335	
+MN	Pipestone	Pipestone Municipal Airport	KPQN	507-562-2332, 605-360-2233	
+MN	Preston	Fillmore County Airport	KFKA	507-765-3854	pschroeder@co.fillmore
+MN	Princeton	Princeton Municipal Airport	KPNM	763-389-2040	
+MN	Red Wing	Red Wing Regional Airport	KRGK	715-594-3999	sblue@blue-airways
+MN	Redwood Falls	Redwood Falls Municipal Airport	KRWF	507-637-5755	jdoering@ci.redwood
+MN	Rochester	Rochester International Airport	KRST	507-282-1717	RST@signatureflight.com
+MN	Roseau	Roseau Municipal Airport/Rudy Billberg Field	KROX	218-463-3906	
+MN	Rush City	Rush City Regional Airport	KROS	320-358-4743	cityhall@ci.rush
+MN	Rushford	Rushford Municipal-Robert W Bunke Field Airport	55Y	507-458-0705, 507-864-2705	
+MN	Rushford	Rushford Municipal-Robert W Bunke Field Airport	55Y	507-875-1100, 507-951-8705	
+MN	Sauk Centre	Sauk Centre Municipal Airport	D39	320-352-2203, 320-333-7566	vicki.willer@ci.sauk
+MN	Slayton	Slayton Municipal Airport	KDVP	507-836-8534	
+MN	South St Paul	South St Paul Municipal Airport-Richard E Fleming Field	KSGS	651-554-3350	jcarney@sspmn.org
+MN	Springfield	Springfield Municipal Airport	D42	507-723-3512	
+MN	St Cloud	St Cloud Regional Airport	KSTC	320-253-1500	
+MN	St James	St James Municipal Airport	KJYG	507-375-3241	
+MN	St Paul	St. Paul Downtown Airport / Holman Field	KSTP	651-227-8108	dlessard@stpaulflight.com
+MN	St Paul	St. Paul Downtown Airport / Holman Field	KSTP	651-224-1100	STP@signatureflight.com
+MN	St Paul	Lake Elmo Airport	21D	651-777-1399	
+MN	Stanton	Stanton Airfield	KSYN	507-645-4030	
+MN	Staples	Staples Municipal Airport	KSAZ	218-894-2550	
+MN	Thief River Falls	Thief River Falls Regional Airport	KTVF	218-681-5585	
+MN	Tower	Tower Municipal Airport	12D	218-753-4070	
+MN	Tracy	Tracy Municipal Airport	KTKC	507-828-0417	
+MN	Two Harbors	Richard B Helgeson Airport	KTWM	218-834-2162	
+MN	Wadena	Wadena Municipal Airport	KADC	218-631-7775	
+MN	Walker	Walker Municipal Airport	Y49	218-547-1616	
+MN	Warroad	Warroad International Memorial Airport	KRRT	218-386-1691	
+MN	Waseca	Waseca Municipal Airport	KACQ	507-835-5920	
+MN	Wells	Wells Municipal Airport	68Y	507-553-3100	
+MN	Willmar	Willmar Municipal Airport-John L Rice Fiel	KBDH	320-894-1872	
+MN	Windom	Windom Municipal Airport	KMWM	507-831-6120	
+MN	Winona	Winona Municipal Airport-Max Conrad Field	KONA	507-452-2220	
+MN	Winsted	Winsted Municipal Airport	10D	320-485-2201	
+MN	Worthington	Worthington Municipal Airport	KOTG	507-376-9293	

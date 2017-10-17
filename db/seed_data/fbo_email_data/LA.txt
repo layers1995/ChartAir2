@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 LA	Abbeville	Abbeville Chris Crusta Memorial Airport	KIYA	337-898-2268	7530	mike@vectoraviationabbeville.com
 LA	Alexandria	Alexandria International Airport	KAEX	318-443-5566	3000	info.aex@millionair.com
 LA	Alexandria	Esler Regional Airport	KESF	318-290-6281	1050	
@@ -57,3 +58,64 @@ LA	Vidalia	Concordia Parish Airport	0R4	318-336-8537	810
 LA	Vivian	Vivian Airport	3F4	318-375-3856	900	mam333f@aol.com
 LA	Welsh	Welsh Airport	6R1	337-734-2594	1230	
 LA	Winnsboro	Winnsboro Municipal Airport	F89	318-282-4524	2040	
+=======
+Abbeville	 Vector Aviation, LLC	337-898-2268	Abbeville Chris Crusta Memorial Airport	LA	7530	mike@vectoraviationabbeville.com
+Alexandria	Million Air Alexandria	318-443-5566	Alexandria International Airport	LA	3000	info.aex@millionair.com
+Alexandria	Freeman Holdings	318-290-6281	Esler Regional Airport	LA	1050	
+Bastrop	City of Bastrop	318-281-2018	Morehouse Memorial Airport	LA	2490	
+Baton Rouge	Signature Flight Support	225-356-1401	Baton Rouge Metropolitan Airport, Ryan Field	LA	5940	BTR@signatureflight.com
+Baton Rouge	BTR Jet Center	225-355-9052	Baton Rouge Metropolitan Airport, Ryan Field	LA	5940	info@btrjet.com
+Baton Rouge	Executive Aviation	225-355-5183	Baton Rouge Metropolitan Airport, Ryan Field	LA	5940	csr@eabtr.com
+Bogalusa	Bogalusa Airport	985-732-4521	George R Carr Memorial Air Field	LA	1980	
+Covington	St. Tammany Parish Government	985-875-2601	St Tammany Regional Airport	LA	2100	
+De Quincy	DeQuincy Industrial Airpark	337-786-8241	De Quincy Industrial Airpark	LA	780	
+De Ridder	Beauregard Regional Airport	337-463-8250, 337-462-3364	Beauregard Regional Airport	LA	1170	secretary1@beauregional.com
+Eunice	Eunice Flying Service	337-457-6585	Eunice Airport	LA	1230	
+Farmerville	Union Parish	318-366-0325	Union Parish Airport	LA	1260	
+Galliano	GAO FBO	985-475-6701	South Lafourche Leonard Miller Jr.. Airport	LA	1800	gwayneg@portfourchon.com
+Gonzales	Louisiana Regional Airport	225-644-1959	Louisiana Regional Airport	LA	5820	laregional@eatel.net
+Hammond	Top Gun Aviation	985-542-0719, 985-542-7801	Hammond Northshore Regional Airport	LA	8340	chadtopgun@gmail.com
+Hammond	Pierce Aviation, formerly Hammond Air Center	985-345-3030, 985-429-7924	Hammond Northshore Regional Airport	LA	8340	csr@pierce.aero
+Houma	Houma Jet Center	985-868-7858	Houma-Terrebonne Airport	LA	6750	info@houmajet.com
+Houma	Butler Aviation	877-851-5737, 985-851-5737	Houma-Terrebonne Airport	LA	6750	admin@butleraviation.net
+Houma	Hammonds Aircraft Maintenance	985-346-8489, 985-709-9237	Houma-Terrebonne Airport	LA	6750	hammondsaircraftmaintenance@yahoo.com
+Houma	Houma Avionics	985-868-4648	Houma-Terrebonne Airport	LA	6750	
+Jeanerette	Iberia Parish Airport Commission	337-365-7202	Le Maire Memorial Airport	LA	1110	
+Jennings	 Gulf Air	337-824-8248, 337-278-0696	Jennings Airport	LA	4350	gulfair1@bellsouth.net
+Jennings	Riceland Aviation	337-824-1567	Jennings Airport	LA	4350	
+Jonesville	Jonesville Municipal Airport	318-339-4747	Jonesville Airport	LA	4710	
+Lafayette	Signature Flight Support	337-234-3100	Lafayette Regional Airport/Paul Fournet Field	LA	3720	LFT@signatureflight.com
+Lake Charles	Million Air Lake Charles	337-436-4877	Chennault International Airport	LA	1800	info.cwf@millionair.com
+Lake Charles	 Freeman Jet Center	337-478-7722, 337-478-7723	Lake Charles Regional Airport	LA	2640	info.lch@freemanjetcenter.com
+Leesville	Leesville City Airport	337-238-5968, 337-208-2219	Leesville Airport	LA	1230	
+Mansfield	City of Mansfield	318-871-7915	C E 'Rusty' Williams Airport	LA	810	Rwalding@desotoppj.com
+Many	Many Hart Airport	318-256-5857	Hart Airport	LA	392	
+Marksville	Marksville Municipal Airport	318-240-3088, 318-253-7291	Marksville Municipal Airport	LA	840	
+Minden	 City of Minden (FBO)	318-371-7862	Minden Airport	LA	240	airport@mindenusa.com
+Monroe	 Avflight Monroe	318-387-0222	Monroe Regional Airport	LA	2130	csrmonroe@avflight.com
+Natchitoches	 City of Natchitoches (FBO)	318-352-0994	Natchitoches Regional Airport	LA	870	lcooper@natchitochesla.gov
+New Iberia	Pelican Aviation	337-367-1401	Acadiana Regional Airport	LA	256	
+New Orleans	Signature Flight Support	504-241-2800	Lakefront Airport	LA	4980	NEW@signatureflight.com
+New Orleans	Flightline First	504-244-4448	Lakefront Airport	LA	4980	flightlinefirst@gmail.com
+New Orleans	Signature Flight Support	504-468-7722	Louis Armstrong New Orleans International Airport	LA	11040	MSY@signatureflight.com
+New Orleans	Atlantic Aviation	504-466-1700	Louis Armstrong New Orleans International Airport	LA	11040	keith.meier@atlanticaviation.com
+New Roads	False River Regional Airport	225-638-3192, 225-978-8367	False River Regional Airport	LA	6240	frapla30@bellsouth.net
+Oak Grove	Kelly-Dumas Airport	318-428-3129, 318-732-7110	Kelly-Dumas Airport	LA	810	
+Oakdale	Allen Parish Airport	318-215-0090, 337-639-4328	Allen Parish Airport	LA	1170	airport1@centurytel.net
+Opelousas	 St. Landry Parish Airport	337-407-1551, 337-351-0025	St Landry Parish Airport-Ahart Field	LA	2010	shelly.cummings@stlandryparish.org
+Patterson	 Perry Flying Center	985-395-4501, 985-395-4502	Harry P Williams Memorial Airport	LA	3690	k.perry@perryflyingcenter.com
+Pineville	Flightline Air Service, LLC	318-448-3934	Pineville Municipal Airport	LA	2100	
+Reserve	Port of South Louisiana	985-536-1999, 985-212-1712	Port of South Louisiana Executive Regional Airport	LA	1740	vcaire@portsl.com
+Ruston	Ruston Aviation	318-251-9098	Ruston Regional Airport	LA	7080	
+Shreveport	 Tubreaux Aviation	318-510-4330	Shreveport Downtown Airport	LA	4560	info@tubreauxaviation.com
+Shreveport	TAC Air	318-636-1000	Shreveport Regional Airport	LA	3120	shvfbo@tacair.com
+Slidell	Slidell Municipal Airport	985-641-7590, 985-259-2460	Slidell Airport	LA	9210	airport@cityofslidell.org
+Springhill	City of Springhill (FBO)	318-539-4568	Springhill Airport	LA	480	
+Sulphur	Southland Aviation	337-583-9144	Southland Field Airport	LA	1770	southlandfield@gmail.com
+Tallulah	Vicksburg Tallulah Regional Airport	318-574-5841	Vicksburg Tallulah Regional Airport	LA	1230	
+Thibodaux	Golden Ranch Aviation	985-447-6124	Thibodaux Municipal Airport	LA	500	
+Vidalia	Concordia Parish Airport Authority	318-336-8537	Concordia Parish Airport	LA	810	
+Vivian	 Town of Vivian	318-375-3856	Vivian Airport	LA	900	mam333f@aol.com
+Welsh	Lyon Flying Service	337-734-2594	Welsh Airport	LA	1230	
+Winnsboro	Southern Air	318-282-4524	Winnsboro Municipal Airport	LA	2040	
+>>>>>>> finalizeGeneralSchema

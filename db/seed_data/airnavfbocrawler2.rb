@@ -96,7 +96,8 @@ def parseFbos(state, city, airportName, url)
   fboData.each do |curFbo|
 
     printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\n", city, curFbo[0].strip, curFbo[1][0].strip, airportName.strip, state, averageOperations, curFbo[1][1])
-    $fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[1][0].strip, averageOperations, curFbo[1][1])
+    $fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\n", city, curFbo[0].strip, curFbo[1][0].strip, airportName.strip, state, averageOperations, curFbo[1][1])
+
     #$fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[0].strip, curFbo[1].strip)
   end
 
@@ -165,6 +166,7 @@ if __FILE__ == $0
 
   #crawl('http://airnav.com/airports/us/AL', "Robbins Field Airport")
 
-  eachState("http://airnav.com/airports/us", 21)
+
+  eachState("http://airnav.com/airports/us", 24)
 
 end

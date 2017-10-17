@@ -1,6 +1,3 @@
-no_fee:
-  classification_description: no fee
-
 flat_rate:
   classification_description: flat rate
 

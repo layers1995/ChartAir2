@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 MN	Ada/Twin Valley	Norman County Ada/Twin Valley Airport	D00	218-415-0191	400	
 MN	Aitkin	Aitkin Municipal Airport-Steve Kurtz Field	KAIT	218-927-4104, 218-839-1067	1320	adventurenorthllc@gmail.com
 MN	Albert Lea	Albert Lea Municipal Airport	KAEL	507-373-0608	2160	
@@ -117,3 +118,124 @@ MN	Windom	Windom Municipal Airport	KMWM	507-831-6120	690
 MN	Winona	Winona Municipal Airport-Max Conrad Field	KONA	507-452-2220	870	
 MN	Winsted	Winsted Municipal Airport	10D	320-485-2201	1110	
 MN	Worthington	Worthington Municipal Airport	KOTG	507-376-9293	840	
+=======
+Ada/Twin Valley	Norman County-Ada-Twin Valley Airport	218-415-0191	Norman County Ada/Twin Valley Airport	MN	400	
+Aitkin	Adventure North Flying Service, LLC	218-927-4104, 218-839-1067	Aitkin Municipal Airport-Steve Kurtz Field	MN	1320	adventurenorthllc@gmail.com
+Albert Lea	Albert Lea Municipal Airport	507-373-0608	Albert Lea Municipal Airport	MN	2160	
+Alexandria	Alexandria Aviation	320-762-2111	Chandler Field Airport	MN	2100	
+Austin	Austin Aeroflight	507-433-1813	Austin Municipal Airport	MN	2100	
+Baudette	Adventure North Flying Service, LLC	218-634-1923, 218-839-1067	Baudette International Airport	MN	1050	
+Bemidji	Bemidji Aviation Services	218-751-1880	Bemidji Regional Airport	MN	1080	
+Benson	Benson Municipal Airport	320-843-4880	Benson Municipal Airport	MN	392	
+Blue Earth	Blue Earth Aviation	507-526-7264	Blue Earth Municipal Airport	MN	1140	
+Brainerd	NorthPoint Aviation	218-829-3398	Brainerd Lakes Regional Airport	MN	3120	frontdesk@northpointaviation.net
+Buffalo	City of Buffalo Fuel Facility/Ad Building	763-682-1181	Buffalo Municipal Airport	MN	1830	merton.auger@ci.buffalo
+Caledonia	Houston County	507-725-3925	Houston County Airport	MN	268	
+Cambridge	City of Cambridge (self-serve fuel system)	763-689-1800	Cambridge Municipal Airport	MN	1380	
+Canby	City of Canby	507-828-0323	Myers Field Airport	MN	516	
+Clear Lake	Leaders St. Cloud Flying Service	320-743-2294	Leaders/Clear Lake Airport	MN	536	
+Cloquet	Venture North Aviation, LLC	218-879-6599	Cloquet/Carlton County Airport	MN	810	Staff@venturenorthaviation.com
+Cook	Cook Municipal Airport	218-666-9931	Cook Municipal Airport	MN	456	
+Crookston	Crookston Aviation	218-281-2625	Crookston Municipal Airport-Kirkwood Field	MN	1650	
+Detroit Lakes	Detroit Lakes Aviation	218-847-3233	Detroit Lakes Airport-Wething Field	MN	1320	
+Dodge Center	Wayne Trom	507-374-6245	Dodge Center Airport	MN	384	
+Duluth	Monaco Air Duluth	218-727-2911	Duluth International Airport	MN	4680	fbo@monacoairduluth.com
+Duluth	Duluth Airport Authority	218-733-0078	Sky Harbor Airport	MN	1140	
+Elbow Lake	Prairie Air Inc.	218-685-6594	Elbow Lake Municipal - Pride of the Prairie Airport	MN	750	
+Ely	Ely Municipal Airport	218-365-5600	Ely Municipal Airport	MN	660	
+Eveleth	Taconite Aviation	218-744-1428	Eveleth-Virginia Municipal Airport	MN	1440	
+Fairmont	City of Fairmont	507-235-6160	Fairmont Municipal Airport	MN	780	
+Faribault	Quality Aviation	507-332-0140	Faribault Municipal Airport-Liz Wall Strohfus Field	MN	1530	
+Fergus Falls	Fergus Falls Municipal Airport-Einar Mickelson Field	218-739-3733	Fergus Falls Municipal Airport-Einar Mickelson Field	MN	690	
+Fertile	City of Fertile	218-945-3136	Fertile Municipal Airport	MN	780	
+Forest Lake	City of Forest Lake	651-592-9127, 651-209-9745	Forest Lake Airport	MN	660	rick@ashbach.com
+Fosston	Fosston Airport Authority	218-435-1959	Fosston Municipal Airport	MN	690	
+Glencoe	City of Glencoe	320-864-5586	Glencoe Municipal Airport	MN	870	
+Glenwood	Glenwood Airport Commission	320-634-5433	Glenwood Municipal Airport	MN	376	
+Grand Marais	Roy Aero Service	218-387-3024	Grand Marais/Cook County Airport	MN	244	
+Grand Rapids	AirWays Aviation Center	218-326-1226	Grand Rapids/Itasca County Airport-Gordon Newstrom Field	MN	1620	
+Granite Falls	City of Granite Falls	507-476-5939, 320-564-5665	Granite Falls Municipal Airport/Lenzen-Roe-Fagen Memorial Field	MN	536	
+Hallock	Two River Airspray	218-843-2076	Hallock Municipal Airport	MN	1440	
+Hawley	City of Hawley	218-483-3331	Hawley Municipal Airport	MN	720	
+Hector	Newberg Sky Spray	320-848-2745	Hector Municipal Airport	MN	536	
+Henning	City of Henning	218-583-2402	Henning Municipal Airport	MN	152	
+Hibbing	 Hibbing Fueling Facility	218-263-4353, 218-262-3452	Range Regional Airport	MN	2490	maureen@rangeregionalairport.com
+Hinckley	Eagle Air, Inc.	320-384-6667	Field of Dreams Airport	MN	460	
+Hutchinson	ASI Jet	320-587-7615, 952-941-6255	Hutchinson Municipal Airport-Butler Field	MN	1020	info@asijet.com
+International Falls	 Einarson Flying Service	218-283-4461, 218-283-2712	Falls International Airport-Einarson Field	MN	3270	thor@einarsonflying.com
+Jackson	PS Aviation	507-847-3599	Jackson Municipal Airport	MN	1560	
+Le Sueur	City of Le Sueur	507-665-2266	Le Sueur Municipal Airport	MN	196	
+Litchfield	City of Litchfield (FBO)	320-693-7201	Litchfield Municipal Airport	MN	536	
+Little Falls	Big Sky Aviation	320-616-5525	Little Falls/Morrison County Airport-Lindbergh Field	MN	1830	
+Long Prairie	Todd Field	320-732-2167	Todd Field Airport	MN	440	
+Longville	City of Longville	218-363-2022	Longville Municipal Airport	MN	516	
+Luverne	Sierra Delta Aviation LLC	507-283-5041, 605-413-5028	Quentin Aanenson Field Airport	MN	690	
+Madison	Laq Qui Parle County (fuel)	320-333-9300	Lac Qui Parle County Airport	MN	164	
+Mahnomen	County of Mahnomen	218-935-2296	Mahnomen County Airport	MN	128	
+Mankato	North Star Aviation	507-625-6006	Mankato Regional Airport	MN	10350	
+Maple Lake	City of Maple Lake	763-963-3738	Maple Lake Municipal Airport-Bill Mavencamp Sr Field	MN	1710	
+Marshall	Midwest Aviation	507-532-3164	Southwest Minnesota Regional Airport - Marshall/Ryan Field	MN	1890	
+Mc Gregor	Isedor Iverson Airport	406-223-4955, 218-768-2717	Isedor Iverson Airport	MN	144	
+Milaca	City of Milaca	320-983-6547	Milaca Municipal Airport	MN	660	
+Minneapolis	Thunderbird Aviation	952-941-1212	Flying Cloud Airport	MN	6240	fsales@thunderbirdaviation.com
+Minneapolis	Premier Jet Center	952-641-2020	Flying Cloud Airport	MN	6240	service@flypremierjet.com
+Minneapolis	Executive Aviation	952-943-1519	Flying Cloud Airport	MN	6240	customerservice@executive-aviation
+Minneapolis	Elliott Aviation	952-944-1200	Flying Cloud Airport	MN	6240	fcmcontacts@elliottaviation.com
+Minneapolis	 Modern Avionics	952-941-2783	Flying Cloud Airport	MN	6240	kurt@modernavionics.com
+Minneapolis	 Lynx FBO Twin Cities	888-539-2472, 763-780-2802	Anoka County-Blaine Airport (Janes Field)	MN	5760	
+Minneapolis	Signature Flight Support	612-726-5700	Minneapolis-St Paul International/Wold-Chamberlain Airport	MN	34080	MSP@signatureflight.com
+Minneapolis	Thunderbird Aviation	763-533-4162	Crystal Airport	MN	3480	sales@thunderbirdaviation.com
+Minneapolis	North of Sixty Flying	763-745-7888	Crystal Airport	MN	3480	
+Minneapolis	 Waypoint Flight Services	952-469-4414, 954-908-7880	Airlake Airport	MN	2820	accounting@visionmarketingus.com
+Montevideo	Montevideo-Chippewa County Airport	320-269-4829	Montevideo-Chippewa County Airport	MN	960	
+Moorhead	Moorhead Aviation	218-287-1400	Moorhead Municipal Airport	MN	750	
+Moose Lake	Venture North Aviation LLC	218-451-0542	Moose Lake Carlton County Airport	MN	376	
+Mora	Mora Municipal Airport	320-679-1511	Mora Municipal Airport	MN	1230	
+Morris	Morris Municipal Airport	320-589-2083	Morris Municipal Airport - Charlie Schmidt Field	MN	452	
+New Ulm	New Ulm Flight Service	507-354-8127	New Ulm Municipal Airport	MN	1260	
+Olivia	Olivia Flying Service	320-523-2186	Olivia Regional Airport	MN	360	
+Orr	Orr Regional Airport	218-757-9994	Orr Regional Airport	MN	192	
+Ortonville	City of Ortonville (automated fuel pump)	320-839-3846	Ortonville Municipal Airport-Martinson Field	MN	384	
+Owatonna	Owatonna Degner Regional Airport	507-444-2448, 507-456-5027	Owatonna Degner Regional Airport	MN	2460	airport@ci.owatonna
+Park Rapids	Park Rapids Aviation	218-237-8528	Park Rapids Municipal Airport-Konshok Field	MN	1290	
+Paynesville	City of Paynesville	320-243-3714	Paynesville Municipal Airport	MN	276	ron@paynesvillemn.com
+Pelican Rapids	Pelican Rapids Municipal Airport	218-863-7053	Pelican Rapids Municipal Airport-Lyon's Field	MN	156	
+Perham	Perham Municipal Airport	218-346-4455	Perham Municipal Airport	MN	600	
+Pine River	City of Pine River	218-587-2338	Pine River Regional Airport	MN	492	
+Pinecreek	Piney-Pinecreek Border Airport	218-463-2335	Piney Pinecreek Border Airport	MN	228	
+Pipestone	Country Aire, LLC	507-562-2332, 605-360-2233	Pipestone Municipal Airport	MN	660	
+Preston	Fillmore County Airport	507-765-3854	Fillmore County Airport	MN	312	pschroeder@co.fillmore
+Princeton	City of Princeton	763-389-2040	Princeton Municipal Airport	MN	1080	
+Red Wing	Blue Airways	715-594-3999	Red Wing Regional Airport	MN	1140	sblue@blue-airways
+Redwood Falls	Redwood Falls Municipal Airport	507-637-5755	Redwood Falls Municipal Airport	MN	810	jdoering@ci.redwood
+Rochester	Signature Flight Support	507-282-1717	Rochester International Airport	MN	3510	RST@signatureflight.com
+Roseau	Roseau Municipal Airport/Rudy Billberg Field	218-463-3906	Roseau Municipal Airport/Rudy Billberg Field	MN	1500	
+Rush City	Rush City Regional Airport	320-358-4743	Rush City Regional Airport	MN	630	cityhall@ci.rush
+Rushford	Rushford Aviation, Inc.	507-458-0705, 507-864-2705	Rushford Municipal-Robert W Bunke Field Airport	MN	152	
+Rushford	Paul Peterson Aviation LLC	507-875-1100, 507-951-8705	Rushford Municipal-Robert W Bunke Field Airport	MN	152	
+Sauk Centre	Sauk Centre Municipal Airport	320-352-2203, 320-333-7566	Sauk Centre Municipal Airport	MN	448	vicki.willer@ci.sauk
+Slayton	Slayton Municipal Airport	507-836-8534	Slayton Municipal Airport	MN	252	
+South St Paul	 City of South St. Paul (FBO)	651-554-3350	South St Paul Municipal Airport-Richard E Fleming Field	MN	4200	jcarney@sspmn.org
+Springfield	Springfield Municipal Airport	507-723-3512	Springfield Municipal Airport	MN	184	
+St Cloud	St. Cloud Aviation	320-253-1500	St Cloud Regional Airport	MN	2340	
+St James	St. James Municipal Airport	507-375-3241	St James Municipal Airport	MN	420	
+St Paul	St. Paul Flight Center	651-227-8108	St. Paul Downtown Airport / Holman Field	MN	5460	dlessard@stpaulflight.com
+St Paul	Signature Flight Support	651-224-1100	St. Paul Downtown Airport / Holman Field	MN	5460	STP@signatureflight.com
+St Paul	Valters Aviation	651-777-1399	Lake Elmo Airport	MN	2190	
+Stanton	Stanton Sport Aviation	507-645-4030	Stanton Airfield	MN	1230	
+Staples	Staples Municipal Airport	218-894-2550	Staples Municipal Airport	MN	780	
+Thief River Falls	Thief River Aviation	218-681-5585	Thief River Falls Regional Airport	MN	2610	
+Tower	Tower Municipal Airport	218-753-4070	Tower Municipal Airport	MN	284	
+Tracy	City of Tracy	507-828-0417	Tracy Municipal Airport	MN	232	
+Two Harbors	Two Harbors Municipal Airport	218-834-2162	Richard B Helgeson Airport	MN	536	
+Wadena	Wadena Municipal Airport	218-631-7775	Wadena Municipal Airport	MN	416	
+Walker	Walker Municipal Airport	218-547-1616	Walker Municipal Airport	MN	750	
+Warroad	Warroad Aviation	218-386-1691	Warroad International Memorial Airport	MN	750	
+Waseca	Stensrud Aviation	507-835-5920	Waseca Municipal Airport	MN	1410	
+Wells	Wells Aviation	507-553-3100	Wells Municipal Airport	MN	460	
+Willmar	City of Wilmar	320-894-1872	Willmar Municipal Airport-John L Rice Fiel	MN	1470	
+Windom	Windom Municipal Airport	507-831-6120	Windom Municipal Airport	MN	690	
+Winona	Win Air	507-452-2220	Winona Municipal Airport-Max Conrad Field	MN	870	
+Winsted	City of Winsted	320-485-2201	Winsted Municipal Airport	MN	1110	
+Worthington	Integrity Aviation	507-376-9293	Worthington Municipal Airport	MN	840	
+>>>>>>> finalizeGeneralSchema

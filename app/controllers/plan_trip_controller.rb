@@ -254,7 +254,7 @@ class PlanTripController < ApplicationController
         airplane.engine_class = "midsize jet"
         isEstimate = true
       elsif !hasCategory(fees, "heavy jet") and hasCategory(fees, "light jet") and airplane.engine_class == "heavy jet"
-        airplane.engine_class = "light"
+        airplane.engine_class = "light jet"
         isEstimate = true
       end
     end
@@ -333,7 +333,7 @@ class PlanTripController < ApplicationController
 
     fees = applyConditionalFees(airplane, fees, timeUnit, timeLength, landingTime)
     if fees.nil? or fees.length == 0
-      puts "check"
+      #puts "check"
       return nil
     else
       return fees
@@ -375,7 +375,11 @@ class PlanTripController < ApplicationController
 
       # Check the case where the fbo gives free time before charging
       if !curFee.free_time_unit.nil? and !curFee.free_time_length.nil? and !curFee.time_unit.nil? and !curFee.time_price.nil? and !timeLength.nil?
-        curFee.price += (timeLength - curFee.free_time_length) * curFee.time_price
+        finalTime = timeLength - curFee.free_time_length
+        if finalTime < 0
+          finalTime = 0
+        end
+        curFee.price += finalTime * curFee.time_price
 
       # If they don't do free stuff
       elsif !curFee.time_unit.nil? and !curFee.time_price.nil? and curFee.free_time_length.nil?

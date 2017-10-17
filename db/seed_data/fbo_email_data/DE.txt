@@ -1,8 +1,8 @@
-DE	Dover	Chandelle Estates Airport	0N4	302-736-3447	100	
-DE	Dover/Cheswold	Delaware Airpark	33N	302-735-5519	1890	cat@drba.net
-DE	Georgetown	Delaware Coastal Airport	KGED	302-855-2355	2790	garrett@georgetownair.com
-DE	Middletown	Summit Airport	KEVY	302-834-5400	2550	service@summit-aviation
-DE	Smyrna	Smyrna Airport	38N	302-653-8314	176	
-DE	Wilmington	New Castle Airport	KILG	302-324-9970	3720	ilgfrontdesk@flyadvanced.com
-DE	Wilmington	New Castle Airport	KILG	302-322-7363	3720	lisa.baiocco@falconjet.com
-DE	Wilmington	New Castle Airport	KILG	302-328-9695	3720	mark.anderson@atlanticaviation.com
+Dover	RJR Airdrome	302-736-3447	Chandelle Estates Airport	DE	100	
+Dover/Cheswold	Delaware River & Bay Authority	302-735-5519	Delaware Airpark	DE	1890	cat@drba.net
+Georgetown	Georgetown Air Services	302-855-2355	Delaware Coastal Airport	DE	2790	garrett@georgetownair.com
+Middletown	Summit Aviation, Inc.	302-834-5400	Summit Airport	DE	2550	service@summit-aviation
+Smyrna	Smyrna Airport	302-653-8314	Smyrna Airport	DE	176	
+Wilmington	flyADVANCED (formerly Aero Ways, Inc.)	302-324-9970	New Castle Airport	DE	3720	ilgfrontdesk@flyadvanced.com
+Wilmington	Dassault Falcon Jet - FBO	302-322-7363	New Castle Airport	DE	3720	lisa.baiocco@falconjet.com
+Wilmington	Atlantic Aviation	302-328-9695	New Castle Airport	DE	3720	mark.anderson@atlanticaviation.com

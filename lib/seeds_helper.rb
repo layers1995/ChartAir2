@@ -194,20 +194,33 @@ def singleFeeHelper(fee, fbo, feeType)
 
 	def fixCategories(categoryDesc)
 		case categoryDesc
-		when "single engine", "single engine piston", "large single engine"
+
+		when "piston"
+			categoryDesc = "piston"
+
+		when "single engine", "single engine piston", "large single engine", "piston single light", "piston single heavy"
 			categoryDesc = "piston single"
 
-		when "small twin", "light twin piston"
+		when "piston multi", "twin engine"
+			categoryDesc = "piston multi"
+
+		when "small twin", "light twin piston", "piston multi light"
 			categoryDesc = "piston multi light"
 
-		when "large twin", "twin engine", "multi engine", "multi engine piston", "twin engine piston", "heavy twin piston"
+		when "large twin", "multi engine", "multi engine piston", "twin engine piston", "heavy twin piston", "piston multi heavy", "large twin piston"
 			categoryDesc = "piston multi heavy"
+
+		when "turboprop"
+			categoryDesc = "turboprop"
 
 		when "turboprop single light"
 			categoryDesc = "turboprop single light"
 
-		when "single engine turboprop", "turboprop", "light turboprop", "small turboprop"
+		when "turboprop single heavy", "single engine turboprop", "turboprop", "light turboprop", "small turboprop"
 			categoryDesc = "turboprop single heavy"
+
+		when "turboprop twin", "heavy turboprop", "twin engine turboprop"
+			categoryDesc = "turboprop twin"
 
 		when "turboprop twin light"
 			categoryDesc = "turboprop twin light"
@@ -218,10 +231,13 @@ def singleFeeHelper(fee, fbo, feeType)
 		when "turboprop twin heavy"
 			categoryDesc = "turboprop twin heavy"
 
-		when "light jet", "very light jet", "ultra light jet"
+		when "jet"
+			categoryDesc = "jet"
+
+		when "light jet", "very light jet", "ultra light jet", "small jet"
 			categoryDesc = "light jet"
 
-		when "midsize jet", "medium jet", "jet"
+		when "midsize jet", "medium jet"
 			categoryDesc = "midsize jet"
 
 		when "super midsize jet"
@@ -229,7 +245,7 @@ def singleFeeHelper(fee, fbo, feeType)
 
 		when "heavy jet", "large jet", "mega jet"
 			categoryDesc = "heavy jet"
-
+# add very light jets and very heavy jets
 		when "single engine jet"
 			categoryDesc = "single engine jet"
 
@@ -243,7 +259,7 @@ def singleFeeHelper(fee, fbo, feeType)
 	end
 
 	def splitRangeIntoEngineTypes(fee, fbo, feeType)
-
+		# Using square roots for this might result in better numbers
 		feeType = FeeType.find_by( :fee_type_description => feeType )
 
 		lowEnd = fee.scan(/[0-9]+/)[0].to_f

@@ -18,84 +18,118 @@ def main
 
 # Add stuff	
 
+# Add airplane data
 	addAirplanes("airplane_seed_data")
+
+# Add fee type data.
 	addFeeTypes("fee_types")
+
+# Add classification data
 	addClassifications("classification_types")
 
+# Add category data
 	addCategories("categories")
 
-	#addCities("uscitiesv1.3.csv") # makes the website run slowly... meh
+# NOT CURRENTLT USED. Add city data
+# This is curently not used because having a lot of cities in the database makes the website run slowly.
+# It's weird though, because it's not just queries that are slow, the entire thing is.
+	#addCities("uscitiesv1.3.csv")
 
-	#addAirports("tx_call_sheet")
+#	Add airport data
 	addAirports("full_airport_data")
 
+# Add FBO data. This has to come after airports because FBOs make a reference to airports.
 	addFboFolder("fbo_call_data")
 
+# NOT CURRENTLY USED. This is the method to add fees from a single file. It can be used for testing
 	#addFeesAndUpdateFbos(Rails.root.join("db", "seed_data", "call_sheets", "tx_call_sheet.tsv"))
+
+# Add fee information from the call sheets. This has references to most other tables, so it has to come last.
 	addFeeFolder("call_sheets")
+
+# Add fee information from the fee sheets we got.
+	addFeeFolder("fbo_fee_sheets")
+
+# Add startup data information. The call sheet was different back then.
 	addStartupTermData("survey_responses.tsv")
 
 # TODO addFbos and addStartupTermData both add FBOs to the database, figure it out. Solution was to remove the fbos from states that we covered during startup term.
 end
 
-def addJetAirplanes()
-	# The following planes are just the fleet owned by Jet Air
-	cessna172 = Airplane.find_or_create_by({ :manufacturer => "cessna", :model => "172 skyhawk", :engine_class => "piston single", :weight => 2300, :height => 107, :wingspan => 433, :length => 326})
-	cessna177 = Airplane.find_or_create_by({ :manufacturer => "cessna", :model => "177 cardinal", :engine_class => "piston single", :weight => 2500, :height => 103, :wingspan => 426, :length => 332})
-
-	cessna425 = Airplane.find_or_create_by({ :manufacturer => "cessna", :model => "425 conquest i", :engine_class => "turboprop twin medium", :weight => 8600, :height => 151, :wingspan => 530, :length => 430})
-
-	# engine class should technically be twin engine turbofan for cessna500 and cessna550, cessna550Bravo, and cessna560 ultra, but I don't want to change the schema right now.
-	cessna500 = Airplane.find_or_create_by({ :manufacturer => "cessna", :model => "500 citation i", :engine_class => "light jet", :weight => 9502, :height => 157, :wingspan => 528, :length => 516})
-	cessna550 = Airplane.find_or_create_by({ :manufacturer => "cessna", :model => "550 citation ii", :engine_class => "light jet", :weight => 13300, :height => 180, :wingspan => 626, :length => 567})
-	
-	# changed to medium and heavy jet for testing purposes
-	cessna550Bravo = Airplane.find_or_create_by({ :manufacturer => "cessna", :model => "550 citation bravo", :engine_class => "midsize jet", :weight => 14800, :height => 180, :wingspan => 626, :length => 566})
-	cessna560Ultra = Airplane.find_or_create_by({ :manufacturer => "cessna", :model => "560 citation ultra", :engine_class => "heavy jet", :weight => 16630, :height => 182, :wingspan => 649, :length => 587})
-end
-
 def addAirplanes(filename)
+	# Open the airplane file, which is saved as a tsv where each tab represents a different piece of data for a plane, and each line represents a different plane.
 	airplaneTypes = File.open(Rails.root.join("db", "seed_data", filename))
+
+	# Iterate through each line
 	airplaneTypes.each do |curPlane|
+		# Strip and downcase each plane to get ensure a consistent format
 		curPlane = curPlane.strip.downcase
+
+		# split by tabs to get each piece of data
 		manufacturer, country, planeModel, planeClass, numCrew, numPassengers, engineType, range, emptyWeight, maxWeight, wingspan, wingArea, length, height = curPlane.split("\t")
 
+		# each engine type should have the number of engines and the type of engine. If not, print the one that didn't have the info, and go to the next plane.
 		if !engineType =~ /[0-9]+/
-			puts engineType
+			printf("missing engine info: %s - %s", planeModel, engineType)
+			next
+			print("this should never print")
 		end
 
-		maxWeight = maxWeight.to_i
+		# I'm puttling from a text file, so the weights are in a string format. Convert to ints.
+		# If the max weight is nil, just move on to the next plane. The empty weight isn't really important so we can do without it.
+		if !maxWeight.nil?
+			maxWeight = maxWeight.to_i
+		else
+			next
+		end
 
-		next unless engineType =~ /[0-9]+/
+		if !emptyWeight.nil?
+			emptyWeight = emptyWeight.to_i
+		end
+
+		# The engine type variable has the number of engines and the type of engine. The number of engines is just a number, so I just have to grab the number
+		# The engine type is anything that isn't a number, so I just remove all numbers from the string, then strip to get rid of extra whitespace
 		numEngines = engineType.match(/[0-9]+/)[0].to_i
-		engineType = engineType.gsub(/[0-9]/, "").strip
+		engineType = engineType.gsub(/[0-9]+/, "").strip
 		engineCategory = nil
-# multi engines
-		if numEngines > 1 
-			if engineType =~ /piston/ # done
+
+		# turbofan engines (AKA jets). The number of engines doesn't actually matter for jets, so handle their case first
+		# There are 6 types of jet: super heavy jet, heavy jet, super midsize jet, midsize jet, light jet, and very light jet.
+		# The current code only has 4 of those, they should be pretty obvious.
+		# There are a total of 255 jets, about 150 are heavy jets, 16 are super midsize jets
+		if engineType =~ /turbofan/
+			if maxWeight > 40000
+					engineCategory = "heavy jet"
+			elsif maxWeight > 35000
+					engineCategory = "super midsize jet"
+			elsif maxWeight > 12500
+					engineCategory = "midsize jet"
+			else
+					engineCategory = "light jet"
+			end
+
+		# For everything else, the number of engines matter
+		# Multi engines first
+		elsif numEngines > 1 
+			# Piston engines. As of now, there are only two types of multi piston engine: heavy and light.
+			# I split them at 8000 lbs. That gives 26/65 piston multis being heavy, and 39/65 being light.
+			if engineType =~ /piston/
 				if maxWeight > 8000
 					engineCategory = "piston multi heavy"
 				else
 					engineCategory = "piston multi light"	
 				end
-			elsif engineType =~ /turboprop/ # done
+			# Turboprop engines. I haven't seen any turboprop that has more than 2 engines, and Rod also does turboprops as twins.
+			# As of now, there are 3 of these. turboprop heavy, medium, and light. 
+			# Anything greater than 15000 is a heavy turboprop, between 11000 and 15000 is medium, and less is light.
+			# There are 82 heavies, 30 mediums, and 12 lights. That should probably be adjusted.
+			elsif engineType =~ /turboprop/
 				if maxWeight > 15000
 					engineCategory = "turboprop twin heavy"
 				elsif maxWeight > 11000
 					engineCategory = "turboprop twin medium"
 				else
 					engineCategory = "turboprop twin light"
-				end
-					
-			elsif engineType =~ /turbofan/
-				if maxWeight > 40000
-					engineCategory = "heavy jet"
-				elsif maxWeight > 35000
-					engineCategory = "super midsize jet"
-				elsif maxWeight > 12500
-					engineCategory = "midsize jet"
-				else
-					engineCategory = "light jet"
 				end
 
 			elsif engineType =~ /turbojet/ # I never see these
@@ -122,8 +156,6 @@ def addAirplanes(filename)
 				else
 					engineCategory = "turboprop single light"
 				end
-			elsif engineType =~ /turbofan/ # done
-				engineCategory = "midsize jet"
 
 			elsif engineType =~ /turbojet/ # The majority of these are military
 				engineCategory = "turbojet"
@@ -140,7 +172,8 @@ def addAirplanes(filename)
 			end
 		end
 
-# Test for stuff that is nil. Find_or_create_by causes duplicates whenever there is a nil value being saved.
+# Test for stuff that is nil. Find_or_create_by is creating duplicates. I think it happends whenever there is a nil value being saved.
+# My solution is to set nil things to -1. It fixed the problem, but I need to adjust the fee retrieval method.
 		if engineType.nil? or engineType.length == 0
 			engineType = "nan"
 		end
@@ -150,7 +183,7 @@ def addAirplanes(filename)
 		if wingspan.nil? or wingspan.length == 0
 			wingspan = -1
 		end	
-		if emptyWeight.nil? or emptyWeight.length == 0
+		if emptyWeight.nil?
 			emptyWeight = -1
 		end
 		if numPassengers.nil? or numPassengers.length == 0
@@ -228,6 +261,16 @@ def addFboFolder(folderName)
 	end
 end
 
+def transferFile(curFile)
+	curText = open(curFile).read.strip
+	curText.each_line do |curFbo|
+		state, city, airportName, airportCode, fboName, phoneNumbers = curFbo.split(",")
+		printf("%s%s%s%s%s%s", state, city, airportName, airportCode, fboName, phoneNumbers)
+		$fboData.printf("%s%s%s%s%s%s", state, city, airportName, airportCode, fboName, phoneNumbers)
+	end
+end
+
+
 def addFbos(filePath)
 	fbos = open(filePath).read
 	
@@ -282,7 +325,7 @@ def addFeesAndUpdateFbos(filename)
 
 		next if hasFees == "did not/would not answer"
 
-		feeClassification = Classification.find_by( :classification_description => classificationDesc )
+		#feeClassification = Classification.find_by( :classification_description => classificationDesc )
 
 		# We didn't make a column for tie down fees, so they're in the ramp fee instead.
 
@@ -307,7 +350,7 @@ def addFeesAndUpdateFbos(filename)
 		if !curFbo.nil?
 			# this is what should happen
 			if !hasFees.nil? and hasFees.strip == "no"
-				curFbo.update( :classification => Classification.find_by( :classification_description => "flat rate"))
+				#curFbo.update( :classification => Classification.find_by( :classification_description => "flat rate"))
 				FeeType.find_each do |curFeeType|
 					if curFeeType.fee_type_description == "call out"
 						singleFeeHelper(callOutFee, curFbo, curFeeType.fee_type_description)
@@ -317,26 +360,36 @@ def addFeesAndUpdateFbos(filename)
 						singleFeeHelper("0", curFbo, curFeeType.fee_type_description)
 					end
 				end
-			elsif feeClassification.nil?
+			#elsif feeClassification.nil?
 				#puts curFbo.name
 				# do nothing
 			else
-				curFbo.update( :classification => feeClassification )
+				#curFbo.update( :classification => feeClassification )
 				
-				landingFee.split(",").each do |curFee|
-					singleFeeHelper(curFee, curFbo, "landing")
+				if !landingFee.nil?
+					landingFee.split(",").each do |curFee|
+						singleFeeHelper(curFee, curFbo, "landing")
+					end
 				end
-				rampFee.split(",").each do |curFee|
-					singleFeeHelper(curFee, curFbo, "ramp")
+				if !rampFee.nil?
+					rampFee.split(",").each do |curFee|
+						singleFeeHelper(curFee, curFbo, "ramp")
+					end	
+				end
+				if !tieDownFee.nil?
+					tieDownFee.split(",").each do |curFee|
+						singleFeeHelper(curFee, curFbo, "tie down")
+					end
+				end
+				if !facilityFee.nil?
+					facilityFee.split(",").each do |curFee|
+						singleFeeHelper(curFee, curFbo, "facility")
+					end	
 				end	
-				tieDownFee.split(",").each do |curFee|
-					singleFeeHelper(curFee, curFbo, "tie down")
-				end
-				facilityFee.split(",").each do |curFee|
-					singleFeeHelper(curFee, curFbo, "facility")
-				end		
-				callOutFee.split(",").each do |curFee|
-					singleFeeHelper(curFee, curFbo, "call out")
+				if !callOutFee.nil?
+					callOutFee.split(",").each do |curFee|
+						singleFeeHelper(curFee, curFbo, "call out")
+					end
 				end
 			end
 		else
@@ -383,7 +436,8 @@ def addStartupTermData(filename)
 # Create a new FBO based on the data in the call sheet. There will probably be duplicates in the database, but at least we'll have this info
 
 		if !curAirport.nil?
-			curFbo = Fbo.find_or_create_by( :name => fboName, :airport => curAirport, :classification => feeClassification )
+			#curFbo = Fbo.find_or_create_by( :name => fboName, :airport => curAirport, :classification => feeClassification )
+			curFbo = Fbo.find_or_create_by( :name => fboName, :airport => curAirport)
 	# If the FBO has no fees
 			if hasFees.strip == "no"
 				curCategory = Category.find_by( :category_description => "flat rate")

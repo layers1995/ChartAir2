@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 KS	Abilene	Abilene Municipal Airport	K78	785-263-3970	3090	
 KS	Anthony	Anthony Municipal Airport	KANY	620-842-5434	476	
 KS	Ashland	Harold Krier Field Airport	K58	620-635-2531	192	
@@ -88,3 +89,95 @@ KS	Wichita	Wichita Dwight D Eisenhower National Airport	KICT	316-522-2010	9510	I
 KS	Wichita	Colonel James Jabara Airport	KAAO	316-636-9700	3150	customerservice@midwestaviation.com
 KS	Wichita	Westport Airport	71K	316-943-5510	72	
 KS	Winfield/Arkansas City	Strother Field Airport	KWLD	620-221-7055	500	bfour@bfouronline.com
+=======
+Abilene	Abilene Flying Service	785-263-3970	Abilene Municipal Airport	KS	3090	
+Anthony	City of Anthony	620-842-5434	Anthony Municipal Airport	KS	476	
+Ashland	City of Ashland	620-635-2531	Harold Krier Field Airport	KS	192	
+Atwood	Atwood/Rawlins County Airport	785-626-9014, 785-626-9462	Atwood-Rawlins County City-County Airport	KS	990	
+Augusta	Augusta Municipal Airport	316-733-1326, 316-733-1327	Augusta Municipal Airport	KS	2970	flyaugustaks@augustagov.org
+Baldwin City	Vinland Valley Aerodrome	785-594-2741	Vinland Valley Aerodrome	KS	84	
+Belleville	Belleville Airport	785-527-2288	Belleville Municipal Airport	KS	600	
+Beloit	Lattin Aviation	785-738-7437	Moritz Memorial Airport	KS	1650	
+Benton	Stearman Field	316-648-0132, 316-778-1035	Lloyd Stearman Field Airport	KS	870	stearmanfield@gmail.com
+Burlington	 Coffey County Airport	620-364-5346	Coffey County Airport	KS	1650	
+Chanute	City of Chanute	620-431-5296	Chanute Martin Johnson Airport	KS	2070	
+Coffeyville	Coffeyville Aircraft	620-251-4310	Coffeyville Municipal Airport	KS	92	
+Colby	M.C. Aviation Services LLC.	785-460-4438, 785-443-4000	Shalz Field Airport	KS	424	
+Coldwater	Comanche County Airport	620-622-7460	Comanche County Airport	KS	67	
+Concordia	City of Concordia	785-243-3048	Blosser Municipal Airport	KS	1200	
+Dodge City	 Crotts Aircraft Service	620-227-3553	Dodge City Regional Airport	KS	1920	crotts@ucom.net
+El Dorado	El Dorado Airport	316-321-1327	El Dorado/Captain Jack Thomas Memorial Airport	KS	1080	cmarsh@eldoks.com
+Elkhart	Morton County Airport	620-360-3600	Elkhart-Morton County Airport	KS	460	
+Ellsworth	Ellsworth Municipal Airport	785-472-5608, 785-472-5566	Ellsworth Municipal Airport	KS	1650	
+Emporia	Emporia Aviation / City of Emporia	620-343-5600	Emporia Municipal Airport	KS	1470	
+Eureka	Captain D Aviation	620-583-7732	Lt. William M. Milliken Airport	KS	376	
+Fort Leavenworth	Leavenworth Aviation Services	913-651-0111	Sherman Army Airfield	KS	1680	
+Fort Scott	Fort Scott Municipal Airport	620-223-5490, 620-224-6688	Fort Scott Municipal Airport	KS	810	khoward@fscity.org
+Garden City	Saker Aviation	620-275-5055, 620-272-1933	Garden City Regional Airport	KS	1440	jcrotts@sakeraviation.com
+Gardner	Gardner Municipal Airport	913-221-5099	Gardner Municipal Airport	KS	2130	
+Garnett	City of Garnett	785-448-6931	Garnett Municipal Airport	KS	116	
+Goodland	Butterfly Aviation Inc	785-890-7531	Renner Field (Goodland Municipal Airport)	KS	3540	butterfly@st-tel
+Great Bend	Centerline Aviation, LLC	620-796-2130	Great Bend Municipal Airport	KS	1230	info@fuelwith.us
+Harper	City of Harper	620-896-2511	Harper Municipal Airport	KS	236	
+Hays	 Hays Aircraft LLC	785-628-8881	Hays Regional Airport	KS	2790	haysaircraft@gmail.com
+Herington	City of Herington (self-serve fuel)	785-258-3822	Herington Regional Airport	KS	1020	
+Hill City	City of Hill City	785-421-5613	Hill City Municipal Airport	KS	1200	
+Hillsboro	City of Hillsboro	620-947-3162	Alfred Schroeder Field Airport	KS	384	
+Hugoton	Hugoton Airport	620-544-7600	Hugoton Municipal Airport	KS	810	
+Hutchinson	 Wells Aircraft	620-663-1546	Hutchinson Regional Airport	KS	2760	mwinkler@wellsac.com
+Hutchinson	100 Low Lead, LLC	620-728-1356	Hutchinson Regional Airport	KS	2760	
+Independence	City of Independence (FBO)	620-332-2531	Independence Municipal Airport	KS	870	
+Iola	Allen County (FBO)	620-365-1465, 620-363-6405	Allen County Airport	KS	1350	iolaair@kwikom.net
+Johnson	Bear Creek Aviation	620-492-2414	Stanton County Municipal Airport	KS	1890	
+Junction City	Kansas Jet Center	785-776-1991	Freeman Field Airport	KS	208	patti@kansasjetcenter.com
+Kingman	City of Kingman	620-532-1279	Kingman Airport - Clyde Cessna Field	KS	780	
+Kinsley	Tyree Ag	620-659-2208	Kinsley Municipal Airport	KS	176	info@tyreeag.com
+Lakin	Kearny County Airport	620-355-9302	Kearny County Airport	KS	308	
+Larned	Larned-Pawnee County Airport Authority	620-285-8580, 620-285-5609	Larned-Pawnee County Airport	KS	990	
+Lawrence	Hetrick Air Services, Inc.	785-842-0000	Lawrence Municipal Airport	KS	2700	hetricklwc@aol.com
+Liberal	Lyddon Aero Center	620-624-1646	Liberal Mid-America Regional Airport	KS	3480	jen@lyddonaero.com
+Lincoln	Post Rock Aviation	785-524-5240	Lincoln Municipal Airport	KS	1170	
+Lyons	Rice County Aviation	620-257-5002	Lyons-Rice County Municipal Airport	KS	990	
+Manhattan	Kansas Jet Center	785-776-1991	Manhattan Regional Airport	KS	1830	patti@kansasjetcenter.com
+Manhattan	Heartland Aviation Inc	785-537-9200	Manhattan Regional Airport	KS	1830	
+Mc Pherson	McPherson Airport Authority	620-241-0684	Mc Pherson Airport	KS	1200	manager@mcphersonairport.com
+Meade	City of Meade	620-873-2091	Meade Municipal Airport	KS	384	
+Moundridge	City of Moundridge	620-345-2661, 620-345-8246	Moundridge Municipal Airport	KS	780	
+Newton	 Metro North Flight Support	800-899-2485, 316-284-6084	Newton City/County Airport	KS	5340	service@newtonairport.com
+Norton	Miller Aviation	785-877-2201	Norton Municipal Airport	KS	384	
+Oakley	Nusser Aerospace Services	785-443-4950, 785-671-4621	Oakley Municipal Airport	KS	990	nusseraerospace@gmail.com
+Oberlin	Oberlin Municipal Airport	785-475-7017	Oberlin Municipal Airport	KS	536	
+Olathe	Signature Flight Support	913-782-9003	New Century AirCenter Airport	KS	4500	IXD@signatureflight.com
+Olathe	Advanced Aviation Jet Center	913-768-1500	New Century AirCenter Airport	KS	4500	ifly@advancedaviation.net
+Olathe	QuickTurn Central	913-768-1500	New Century AirCenter Airport	KS	4500	rabrams@advancedaviation.net
+Olathe	 KCAC Aviation	913-782-0530	Johnson County Executive Airport	KS	4290	info@kcac.com
+Olathe	 Air Associates	913-764-4800	Johnson County Executive Airport	KS	4290	service@airassociatesinc.com
+Osborne	Curry's Flying Service Inc.	785-346-2926	Osborne Municipal Airport	KS	452	
+Oswego	Oswego Municipal Airport	620-795-4433, 620-795-2565	Oswego Municipal Airport	KS	46	ceddington@oswegoks.com
+Ottawa	City of Ottawa	785-242-5310	Ottawa Municipal Airport	KS	360	airport@ottawaks.gov
+Paola	Miami County Airport	913-707-8372, 913-731-4634	Miami County Airport	KS	810	Chasbart@embarqmail.com
+Parsons	Galaxy Travellaire	620-336-3440	Tri-City Airport	KS	180	lmattix@parsonsairport.com
+Phillipsburg	Phillipsburg Municipal Airport	785-543-5424	Phillipsburg Municipal Airport	KS	750	
+Pittsburg	Atkinson Municipal Airport	620-231-5760	Atkinson Municipal Airport	KS	1950	
+Pratt	Pratt Air	620-672-3601	Pratt Regional Airport	KS	930	
+Rose Hill	Crosswinds Aviation, Inc.	316-706-6131	Cook Airfield	KS	840	gthomas81@hotmail.com
+Russell	City of Russell (FBO)	785-483-6911	Russell Municipal Airport	KS	990	rich@russellcity.org
+Sabetha	City of Sabetha (FBO)	785-284-2158	Sabetha Municipal Airport	KS	690	
+Salina	 Avflight Salina	785-825-6739	Salina Regional Airport	KS	6270	csrsalina@avflight.com
+Satanta	Corner Express	620-649-2956	Satanta Municipal Airport	KS	228	
+Scott City	Frontier Ag Inc	620-872-5620	Scott City Municipal Airport	KS	660	
+Smith Center	City of Smith Center	785-282-3812	Smith Center Municipal Airport	KS	308	
+St Francis	Grace Flying Service	785-332-2251	Cheyenne County Municipal Airport	KS	292	graceflyingservice@gmail.com
+Stockton	Rooks County Regional Airport	785-425-6881	Rooks County Regional Airport	KS		rooksed@ruraltel.net
+Syracuse	Crosswind Flight Services	620-384-5835	Syracuse-Hamilton County Municipal Airport	KS	384	
+Topeka	 Million Air Topeka	785-862-0950	Topeka Regional Airport	KS	1830	info.foe@millionair.com
+Topeka	Kaw Valley Aviation	785-234-2602	Philip Billard Municipal Airport	KS	2790	
+Tribune	Tribune Municipal Airport	620-376-2552	Tribune Municipal Airport	KS	204	
+Ulysses	 North Star Aviation, Inc.	620-356-4528	Ulysses Airport	KS	1770	srice@pld.com
+Wellington	 Wellington Municipal Airport	620-440-2213	Wellington Municipal Airport	KS	1500	airport@cityofwellington.net
+Wichita	Yingling Aviation	316-943-3246	Wichita Dwight D Eisenhower National Airport	KS	9510	csr@yinglingaviation.com
+Wichita	Signature Flight Support	316-522-2010	Wichita Dwight D Eisenhower National Airport	KS	9510	ICT@signatureflight.com
+Wichita	Midwest Corporate Aviation	316-636-9700	Colonel James Jabara Airport	KS	3150	customerservice@midwestaviation.com
+Wichita	Westport Ag Sales and Service	316-943-5510	Westport Airport	KS	72	
+Winfield/Arkansas City	B Four Flying	620-221-7055	Strother Field Airport	KS	500	bfour@bfouronline.com
+>>>>>>> finalizeGeneralSchema
