@@ -1,0 +1,43 @@
+Andover	Aeroflex-Andover Airport	973-786-5100	Aeroflex-Andover Airport	NJ	2040	
+Atlantic City	Signature Flight Support	609-383-3993	Atlantic City International Airport	NJ	5790	ACY@signatureflight.com
+Belmar/Farmingdale	Monmouth Jet Center	732-751-0044	Monmouth Executive Airport	NJ	4710	tsanders@kblm.com
+Berlin	Camden County Airport	856-767-1233	Camden County Airport	NJ	400	
+Blairstown	JD Air	908-362-8965	Blairstown Airport	NJ	1620	
+Caldwell	Air Bound Aviation, LLC	973-575-1833	Essex County Airport	NJ	6270	guyon@airboundaviation.com
+Cross Keys	Cross Keys Airport	856-629-3033	Cross Keys Airport	NJ	1860	
+Hackettstown	Hackettstown Airport	908-852-4664	Hackettstown Airport	NJ	1560	
+Hammonton	Star Aero Avionics LLC	609-567-5300	Hammonton Municipal Airport	NJ	1320	
+Lakewood	Aviation Charters Patrol Services	732-363-6400	Lakewood Airport	NJ	1320	
+Lincoln Park	Lincoln Park Aviation	973-633-0450	Lincoln Park Airport	NJ	2340	
+Lincoln Park	Lincoln Park Airport	973-628-7166	Lincoln Park Airport	NJ	2340	
+Lumberton	Flying W Airport	609-267-7673	Flying W Airport	NJ	4620	
+Manville	 Central Jersey Airport Services	908-526-2822	Central Jersey Regional Airport	NJ	2010	gregb@centraljerseyairport.com
+Millville	 Big Sky Aviation	856-825-3160	Millville Municipal Airport	NJ	4920	bigsky@bigskyaviation.net
+Morristown	FTC FBO	973-401-1900, 973-401-0106	Morristown Municipal Airport	NJ	6180	ben@ftcfbo.com
+Morristown	Signature Flight Support	973-292-1300	Morristown Municipal Airport	NJ	6180	MMU@signatureflight.com
+Mount Holly	 South Jersey Airport	609-267-3131	South Jersey Regional Airport	NJ	2100	andrew@southjerseyairport.com
+Newark	Signature Flight Support	973-624-1660	Newark Liberty International Airport	NJ	34830	EWR@signatureflight.com
+Ocean City	City of Ocean City (FBO)	609-399-0907	Ocean City Municipal Airport	NJ	1650	
+Old Bridge	Old Bridge Airport	732-446-0303	Old Bridge Airport	NJ	1170	
+Pittstown	 Sky Manor Airport	908-996-4200	Sky Manor Airport	NJ	1830	n40questions@skymanorairport.com
+Pittstown	 Alexandria Field	908-730-9223	Alexandria Airport	NJ	1530	upupaway@embarqmail.com
+Princeton/Rocky Hill	 Princeton Flying School	609-921-3100	Princeton Airport	NJ	3240	39n@princetonairport.com
+Readington	Solberg Aviation Co. Inc.	908-534-4000	Solberg-Hunterdon Airport	NJ	1770	
+Robbinsville	 Trenton-Robbinsville Airport	609-259-1059	Trenton-Robbinsville Airport	NJ	1740	robairport@optonline.net
+Somerville	Somerset Air Service	908-722-2444	Somerset Airport	NJ	2490	SMQ@somersetairport.com
+Sussex	Sussex Aviation, LLC.	973-702-1640	Sussex Airport	NJ	1590	
+Teterboro	Jet Aviation	201-462-4000	Teterboro Airport	NJ	14550	jteb@jetaviation.com
+Teterboro	Signature Flight Support (west)	201-288-1880	Teterboro Airport	NJ	14550	TEB@signatureflight.com
+Teterboro	Signature Flight Support (south)	201-288-3555	Teterboro Airport	NJ	14550	TEBSouth@signatureflight.com
+Teterboro	Signature Flight Support (east)	201-393-4041	Teterboro Airport	NJ	14550	teb@signatureflight.com
+Teterboro	Atlantic Aviation	201-288-1740, 201-288-8275	Teterboro Airport	NJ	14550	jfazio@atlanticaviation.com
+Teterboro	 Meridian Teterboro	201-288-5040	Teterboro Airport	NJ	14550	teb@meridian.aero
+Toms River	Ocean Aire	732-797-1077	Ocean County Airport	NJ	2610	barb.oceanaire@gmail.com
+Trenton	Signature Flight Support	609-771-9500	Trenton Mercer Airport	NJ	7080	TTN@signatureflight.com
+Trenton	FlightServ	609-583-4705	Trenton Mercer Airport	NJ	7080	fbo@flightserv.net
+Vincentown	Affiliated Air Services	609-859-2266	Red Lion Airport	NJ	630	
+Vineland	Downstown Aero Crop Service	856-697-3300	Vineland-Downstown Airport	NJ	1050	
+West Creek	Eagles Nest Airport	609-296-1229, 732-740-2510	Eagles Nest Airport	NJ	80	eaglesnestairport@yahoo.com
+West Milford	Greenwood Lake Airport Management	973-728-7721	Greenwood Lake Airport	NJ	1500	wagnerair@aol.com
+Wildwood	FlightLevel Cape May	609-889-0750	Cape May County Airport	NJ	2490	wwddesk@flightlevelaviation.com
+Woodbine	Woodbine Port Authority	609-861-1300	Woodbine Municipal Airport	NJ	1020	wayner33@comcast.net

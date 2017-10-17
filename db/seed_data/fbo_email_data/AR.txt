@@ -1,79 +1,79 @@
-AR	Almyra	Almyra Municipal Airport	M73	870-992-3333	4440	
-AR	Arkadelphia	Dexter B Florence Memorial Field Airport	KADF	870-246-8945	3150	manthony@cityofarkadelphia.com
-AR	Ash Flat	Sharp County Regional Airport	KCVK	870-710-0469, 870-257-2289	176	
-AR	Batesville	Batesville Regional Airport	KBVX	870-251-1244	2460	
-AR	Benton	Saline County Regional Airport	KSUZ	501-672-9809	3750	
-AR	Bentonville	Bentonville Municipal Airport/Louise M Thaden Field	KVBT	479-254-0817, 479-273-3590	2640	willgunselman@iflysummit.com
-AR	Berryville	Carroll County Airport	4M1	870-423-8393, 870-423-2120	1500	ccac4m1@yahoo.com
-AR	Blytheville	Arkansas International Airport	KBYH	870-532-5628	2040	
-AR	Booneville	Booneville Municipal Airport	4M2	479-675-3070	420	btucker@boonevilleairport.com
-AR	Brinkley	Frank Federer Memorial Airport	M36	870-734-5056	1830	
-AR	Carlisle	Carlisle Municipal Airport	4M3	870-552-9420, 870-552-5225	3960	tdrye@carlislear.org
-AR	Clarendon	Clarendon Municipal Airport	4M8	870-241-3781	2130	
-AR	Clarksville	Clarksville Municipal Airport	H35	479-264-8408	420	
-AR	Colt	Delta Regional Airport	KDRP	870-208-6607	160	
-AR	Conway	Cantrell Field Airport	KCXW	501-358-6200, 501-428-1832	1200	Josh.Zylks@cityofconway.org
-AR	Corning	Corning Municipal Airport	4M9	870-857-3839	2730	
-AR	Crossett	Z M Jack Stell Field Airport	KCRT	870-304-3313	1350	
-AR	Danville	Danville Municipal Airport	32A	479-495-0102	268	
-AR	De Queen	J Lynn Helms Sevier County Airport	KDEQ	870-584-3213	810	
-AR	De Witt	De Witt Municipal Airport Whitcomb Field	5M1	870-946-3838	4200	
-AR	Dumas	Billy Free Municipal Airport	0M0	870-382-2216, 870-299-3861	900	
-AR	El Dorado	South Arkansas Regional Airport at Goodwin Field	KELD	870-881-4192	1800	keld.airportmanager@gmail.com
-AR	El Dorado	El Dorado Downtown Airport-Stevens Field	F43	870-863-5068	1650	
-AR	Fayetteville	Drake Field Airport	KFYV	479-443-4343	1920	matkinson@fayetteville-ar
-AR	Fayetteville/Springdale	Northwest Arkansas Regional Airport	KXNA	479-205-1100	3420	info@rjcfuel.com
-AR	Flippin	Marion County Regional Airport	KFLP	870-453-2241	1110	
-AR	Fordyce	Fordyce Municipal Airport	5M4	870-352-2419	360	
-AR	Forrest City	Hutfly-FCY Airport	KFCY	870-633-4511	2580	
-AR	Fort Smith	Fort Smith Regional Airport	KFSM	479-646-1611	2910	fsmfbo@tacair.com
-AR	Fort Smith	Fort Smith Regional Airport	KFSM	479-452-7000	2910	
-AR	Gurdon	Gurdon Lowe Field Airport	5M8	870-353-7119	208	
-AR	Harrison	Boone County Airport	KHRO	870-741-4510	870	hro@flyarkansas.com
-AR	Hazen	Hazen Municipal Airport	6M0	870-255-4873	2670	
-AR	Heber Springs	Heber Springs Municipal Airport	KHBZ	501-362-3294	1590	
-AR	Helena/West Helena	Thompson-Robbins Airport	KHEE	870-572-9011	2880	
-AR	Hope	Hope Municipal Airport	M18	870-777-3444	660	
-AR	Horseshoe Bend	Horseshoe Bend Airport	6M2	870-670-5113	492	
-AR	Hot Springs	Memorial Field Airport	KHOT	501-321-6750	2550	gbarentine@cityhs.net
-AR	Huntsville	Huntsville Municipal Airport	H34	479-738-1122	384	
-AR	Jonesboro	Jonesboro Municipal Airport	KJBR	870-935-1770	1650	pgillespie@suddenlinkmail.com
-AR	Lake Village	Lake Village Municipal Airport	M32	870-265-5339	4530	
-AR	Lakeview	Gastons Airport	3M0	870-431-5202	870	gastons@gastons.com
-AR	Little Rock	Bill and Hillary Clinton National Airport/Adams Field	KLIT	501-374-6582	7890	litfbo@tacair.com
-AR	Little Rock	Bill and Hillary Clinton National Airport/Adams Field	KLIT	501-376-7777	7890	lit@flyarkansas.com
-AR	Magnolia	Ralph C Weiser Field Airport	KAGO	870-234-0740, 870-904-6731	392	fbomagnolia@gmail.com
-AR	Malvern	Malvern Municipal Airport	M78	501-337-9939	990	
-AR	Manila	Manila Municipal Airport	KMXA	870-561-4437, 870-780-4993	2550	
-AR	Marshall	Searcy County Airport	4A5	870-404-1444	116	
-AR	Mc Gehee	Mc Gehee Municipal Airport	7M1	870-222-4556	2070	
-AR	Melbourne	Melbourne Municipal Airport - John E Miller Field	42A	870-368-4215	1230	
-AR	Mena	Mena Intermountain Municipal Airport	KMEZ	479-394-5800, 479-234-3642	2550	fbo@menaaircenter.com
-AR	Monticello	Monticello Municipal Airport/Ellis Field	KLLQ	870-367-4450	1140	
-AR	Morrilton	Petit Jean Park Airport	KMPJ	501-374-5022	156	
-AR	Morrilton	Morrilton Municipal Airport	KBDQ	501-215-3889, 501-354-1556	600	
-AR	Mount Ida	Bearce Airport	7M3	817-999-3310	420	tfi2@sbcglobal.net
-AR	Mountain Home	Baxter County Airport	KBPK	870-402-9000	2220	customerservice@flybigair.com
-AR	Mountain View	Mountain View Airport-Wilcox Memorial Field	7M2	870-269-3142	432	
-AR	Newport	Newport Municipal Airport	M19	870-523-3613	720	
-AR	North Little Rock	North Little Rock Municipal Airport	KORK	501-833-5600	2640	debbie@nlrjetcenter.com
-AR	North Little Rock	North Little Rock Municipal Airport	KORK	501-835-7767	2640	
-AR	Osceola	Osceola Municipal Airport	7M4	870-838-5578	1080	
-AR	Ozark	Ozark-Franklin County Airport	7M5	479-667-2159	388	
-AR	Paragould	Kirk Field Airport	KPGR	870-239-7505	1080	
-AR	Paris (Subiaco)	Paris Municipal Airport	7M6	479-963-2450	252	
-AR	Pine Bluff	Grider Field Airport	KPBF	870-534-4131, 870-534-4136	840	
-AR	Pocahontas	Pocahontas Municipal Airport	M70	870-248-1141	536	municipalairport@centurytel.net
-AR	Rogers	Rogers Executive Airport - Carter Field	KROG	479-636-9400	2640	
-AR	Russellville	Russellville Regional Airport	KRUE	479-967-1227, 479-857-0362	840	krue@rsvlar.org
-AR	Salem	Salem Airport	7M9	870-895-2440	240	
-AR	Searcy	Searcy Municipal Airport	KSRC	501-279-1080	2580	airport@cityofsearcy.org
-AR	Sheridan	Sheridan Municipal Airport	9M8	870-942-7733	720	
-AR	Siloam Springs	Smith Field Airport	KSLG	479-524-4103	1980	airport@siloamsprings.com
-AR	Springdale	Springdale Municipal Airport	KASG	479-751-4462	5130	asgmgr@iflysummit.com
-AR	Star City	Star City Municipal Airport	55M	870-628-4166	412	
-AR	Stuttgart	Stuttgart Municipal Airport / Carl Humphrey Field	KSGT	870-673-2960	3300	
-AR	Texarkana	Texarkana Regional Airport-Webb Field	KTXK	870-773-6969	2100	txkfbo@tacair.com
-AR	Walnut Ridge	Walnut Ridge Regional Airport	KARG	870-886-5432, 870-637-2271	5040	shoggard@walnutridgeairport.com
-AR	Warren	Warren Municipal Airport	3M9	870-226-6743	384	
-AR	West Memphis	West Memphis Municipal Airport	KAWM	870-735-4656	4110	
+Almyra	Grand Prairie Dusters	870-992-3333	Almyra Municipal Airport	AR	4440	
+Arkadelphia	Dexter B Florence Memorial Field Airport	870-246-8945	Dexter B Florence Memorial Field Airport	AR	3150	manthony@cityofarkadelphia.com
+Ash Flat	Sharp County Regional Airport Authority	870-710-0469, 870-257-2289	Sharp County Regional Airport	AR	176	
+Batesville	Batesville Regional Airport	870-251-1244	Batesville Regional Airport	AR	2460	
+Benton	Saline County Regional Airport	501-672-9809	Saline County Regional Airport	AR	3750	
+Bentonville	Summit Aviation	479-254-0817, 479-273-3590	Bentonville Municipal Airport/Louise M Thaden Field	AR	2640	willgunselman@iflysummit.com
+Berryville	Carroll County Airport	870-423-8393, 870-423-2120	Carroll County Airport	AR	1500	ccac4m1@yahoo.com
+Blytheville	Arkansas International Airport	870-532-5628	Arkansas International Airport	AR	2040	
+Booneville	Booneville Municipal Airport	479-675-3070	Booneville Municipal Airport	AR	420	btucker@boonevilleairport.com
+Brinkley	Frank Federer Memorial Airport	870-734-5056	Frank Federer Memorial Airport	AR	1830	
+Carlisle	Carlisle Municipal Airport	870-552-9420, 870-552-5225	Carlisle Municipal Airport	AR	3960	tdrye@carlislear.org
+Clarendon	Custom Air	870-241-3781	Clarendon Municipal Airport	AR	2130	
+Clarksville	City of Clarksville	479-264-8408	Clarksville Municipal Airport	AR	420	
+Colt	Delta Regional Airport	870-208-6607	Delta Regional Airport	AR	160	
+Conway	 City of Conway FBO	501-358-6200, 501-428-1832	Cantrell Field Airport	AR	1200	Josh.Zylks@cityofconway.org
+Corning	Corning Municipal Airport	870-857-3839	Corning Municipal Airport	AR	2730	
+Crossett	Crossett Airport Commission	870-304-3313	Z M Jack Stell Field Airport	AR	1350	
+Danville	High Point Aviation	479-495-0102	Danville Municipal Airport	AR	268	
+De Queen	Sevier County Airport	870-584-3213	J Lynn Helms Sevier County Airport	AR	810	
+De Witt	DeWitt Municipal Airport	870-946-3838	De Witt Municipal Airport Whitcomb Field	AR	4200	
+Dumas	Bravo 2 Aviation	870-382-2216, 870-299-3861	Billy Free Municipal Airport	AR	900	
+El Dorado	South Arkansas Regional Airport	870-881-4192	South Arkansas Regional Airport at Goodwin Field	AR	1800	keld.airportmanager@gmail.com
+El Dorado	El Dorado Downtown Airport	870-863-5068	El Dorado Downtown Airport-Stevens Field	AR	1650	
+Fayetteville	 Fayetteville Aviation Services	479-443-4343	Drake Field Airport	AR	1920	matkinson@fayetteville-ar
+Fayetteville/Springdale	 Regional Jet Center	479-205-1100	Northwest Arkansas Regional Airport	AR	3420	info@rjcfuel.com
+Flippin	Marion County Regional Airport	870-453-2241	Marion County Regional Airport	AR	1110	
+Fordyce	H.L. Hopkins-Fordyce Municipal Airport	870-352-2419	Fordyce Municipal Airport	AR	360	
+Forrest City	Hutcherson Flying Service	870-633-4511	Hutfly-FCY Airport	AR	2580	
+Fort Smith	 TAC Air	479-646-1611	Fort Smith Regional Airport	AR	2910	fsmfbo@tacair.com
+Fort Smith	Fort Smith Regional Airport	479-452-7000	Fort Smith Regional Airport	AR	2910	
+Gurdon	Gurdon Lowe Airport	870-353-7119	Gurdon Lowe Field Airport	AR	208	
+Harrison	Fly Arkansas, LLC	870-741-4510	Boone County Airport	AR	870	hro@flyarkansas.com
+Hazen	Grower Aire Service	870-255-4873	Hazen Municipal Airport	AR	2670	
+Heber Springs	Heber Springs Municipal Airport	501-362-3294	Heber Springs Municipal Airport	AR	1590	
+Helena/West Helena	South Delta Aviation, Inc	870-572-9011	Thompson-Robbins Airport	AR	2880	
+Hope	Southwest Arkansas Aviation	870-777-3444	Hope Municipal Airport	AR	660	
+Horseshoe Bend	City of Horseshoe Bend	870-670-5113	Horseshoe Bend Airport	AR	492	
+Hot Springs	City of Hot Springs (FBO)	501-321-6750	Memorial Field Airport	AR	2550	gbarentine@cityhs.net
+Huntsville	Huntsville Municipal Airport	479-738-1122	Huntsville Municipal Airport	AR	384	
+Jonesboro	Arkansas Air Center	870-935-1770	Jonesboro Municipal Airport	AR	1650	pgillespie@suddenlinkmail.com
+Lake Village	Reagan Clark Ins.	870-265-5339	Lake Village Municipal Airport	AR	4530	
+Lakeview	Gaston's White River Resort	870-431-5202	Gastons Airport	AR	870	gastons@gastons.com
+Little Rock	TAC Air	501-374-6582	Bill and Hillary Clinton National Airport/Adams Field	AR	7890	litfbo@tacair.com
+Little Rock	Fly Arkansas, LLC	501-376-7777	Bill and Hillary Clinton National Airport/Adams Field	AR	7890	lit@flyarkansas.com
+Magnolia	City of Magnolia--Magnolia Municipal Airport	870-234-0740, 870-904-6731	Ralph C Weiser Field Airport	AR	392	fbomagnolia@gmail.com
+Malvern	RG Davis Aviation Company	501-337-9939	Malvern Municipal Airport	AR	990	
+Manila	City of Manila (FBO)	870-561-4437, 870-780-4993	Manila Municipal Airport	AR	2550	
+Marshall	Searcy County Airport	870-404-1444	Searcy County Airport	AR	116	
+Mc Gehee	McGehee Municipal Airport	870-222-4556	Mc Gehee Municipal Airport	AR	2070	
+Melbourne	Melbourne Municipal Airport	870-368-4215	Melbourne Municipal Airport - John E Miller Field	AR	1230	
+Mena	 Mena Air Center Services	479-394-5800, 479-234-3642	Mena Intermountain Municipal Airport	AR	2550	fbo@menaaircenter.com
+Monticello	City of Monticello (FBO)	870-367-4450	Monticello Municipal Airport/Ellis Field	AR	1140	
+Morrilton	Omni's on Petit Jean	501-374-5022	Petit Jean Park Airport	AR	156	
+Morrilton	City of Morrilton (FBO)	501-215-3889, 501-354-1556	Morrilton Municipal Airport	AR	600	
+Mount Ida	Turnage Farms Inc	817-999-3310	Bearce Airport	AR	420	tfi2@sbcglobal.net
+Mountain Home	Big Air	870-402-9000	Baxter County Airport	AR	2220	customerservice@flybigair.com
+Mountain View	City of Mountain View (FBO)	870-269-3142	Mountain View Airport-Wilcox Memorial Field	AR	432	
+Newport	Newport Municipal Airport	870-523-3613	Newport Regional Airport	AR	720	
+North Little Rock	 North Little Rock Jet Center	501-833-5600	North Little Rock Municipal Airport	AR	2640	debbie@nlrjetcenter.com
+North Little Rock	Barrett Aviation	501-835-7767	North Little Rock Municipal Airport	AR	2640	
+Osceola	Sandy Bayou Planting Co.	870-838-5578	Osceola Municipal Airport	AR	1080	
+Ozark	Ozark-Franklin County Airport	479-667-2159	Ozark-Franklin County Airport	AR	388	
+Paragould	Paragould Airport	870-239-7505	Kirk Field Airport	AR	1080	
+Paris (Subiaco)	Paris Municipal Airport	479-963-2450	Paris Municipal Airport	AR	252	
+Pine Bluff	Pine Bluff Aviation Commission	870-534-4131, 870-534-4136	Pine Bluff Regional Airport Grider Field	AR	840	
+Pocahontas	Pocahontas Municipal Airport	870-248-1141	Pocahontas Municipal Airport	AR	536	municipalairport@centurytel.net
+Rogers	Beaver Lake Aviation	479-636-9400	Rogers Executive Airport - Carter Field	AR	2640	
+Russellville	Russellville Regional Airport	479-967-1227, 479-857-0362	Russellville Regional Airport	AR	840	krue@rsvlar.org
+Salem	City of Salem	870-895-2440	Salem Airport	AR	240	
+Searcy	City of Searcy (FBO)	501-279-1080	Searcy Municipal Airport	AR	2580	airport@cityofsearcy.org
+Sheridan	Sheridan-Grant County Airport Commission	870-942-7733	Sheridan Municipal Airport	AR	720	
+Siloam Springs	City of Siloam Springs (FBO)	479-524-4103	Smith Field Airport	AR	1980	airport@siloamsprings.com
+Springdale	Summit Aviation	479-751-4462	Springdale Municipal Airport	AR	5130	asgmgr@iflysummit.com
+Star City	Star City Municipal Aiport	870-628-4166	Star City Municipal Airport	AR	412	
+Stuttgart	Stuttgart Municipal Airport	870-673-2960	Stuttgart Municipal Airport / Carl Humphrey Field	AR	3300	
+Texarkana	 TAC Air	870-773-6969	Texarkana Regional Airport-Webb Field	AR	2100	txkfbo@tacair.com
+Walnut Ridge	Walnut Ridge Regional Airport	870-886-5432, 870-637-2271	Walnut Ridge Regional Airport	AR	5040	shoggard@walnutridgeairport.com
+Warren	City of Warren (FBO)	870-226-6743	Warren Municipal Airport	AR	384	
+West Memphis	West Memphis Municipal Airport	870-735-4656	West Memphis Municipal Airport	AR	4110	

@@ -5,7 +5,7 @@ require 'fileutils'
 
 
 def parseFbos(state, city, airportName, url)
-	# TODO change this so it uses hashmaps instead. Seems like it would be a little more intuitive.
+  # TODO change this so it uses hashmaps instead. Seems like it would be a little more intuitive.
 
   page = Nokogiri::HTML(open(url))
 
@@ -95,9 +95,8 @@ def parseFbos(state, city, airportName, url)
 
   fboData.each do |curFbo|
 
-    printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\n", city, curFbo[0].strip, curFbo[1][0].strip, airportName.strip, state, averageOperations, curFbo[1][1])
-    $fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\n", city, curFbo[0].strip, curFbo[1][0].strip, airportName.strip, state, averageOperations, curFbo[1][1])
-
+    printf("%s\t%s\t%s\t%s\t%s\t%s\n", city, curFbo[0].strip, curFbo[1][0].strip, airportName.strip, state, curFbo[1][1])
+    $fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[1][0].strip, curFbo[1][1])
     #$fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[0].strip, curFbo[1].strip)
   end
 
@@ -113,7 +112,6 @@ def crawl(url, startAirport = nil)
   page = Nokogiri::HTML(open(url))
 
   fileLocation = "fbo_email_data/" + state + ".txt"
-  $fboSeedData = File.open(fileLocation, "a")
 
   rows = page.css("table[cellspacing='2'] tr")
   rows[1..-1].each do |tr|
@@ -137,7 +135,6 @@ def crawl(url, startAirport = nil)
       parseFbos(state, city, airport, link)
     end
   end
-  $fboSeedData.close()
 end
 
 def eachState(url, startIndex = 0)
@@ -156,7 +153,7 @@ def eachState(url, startIndex = 0)
 end
 
 if __FILE__ == $0
-  #parseFbos('IL', 'Galesburg', 'Galesburg municipal', 'http://www.airnav.com/airport/71j')
+  #parseFbos('IL', 'Galesburg', 'Galesburg municipal', 'http://www.airnav.com/airport/kmdw')
 
 =begin
   $fboSeedData = File.open("fbo_call_data_prioritized/minnesota.txt", "a")
@@ -164,8 +161,26 @@ if __FILE__ == $0
   $fboSeedData.close()
 =end
 
-  #crawl('http://airnav.com/airports/us/AL', "Robbins Field Airport")
 
-  eachState("http://airnav.com/airports/us", 24)
+  $fboSeedData = File.open("fbo_data_entrecorps/minnesota.txt", "a")
+  crawl('http://airnav.com/airports/us/MN')
+  $fboSeedData.close()
+
+  $fboSeedData = File.open("fbo_data_entrecorps/illinois.txt", "a")
+  crawl('http://airnav.com/airports/us/IL')
+  $fboSeedData.close()
+
+  $fboSeedData = File.open("fbo_data_entrecorps/michigan.txt", "a")
+  crawl('http://airnav.com/airports/us/MI')
+  $fboSeedData.close()
+
+  $fboSeedData = File.open("fbo_data_entrecorps/indiana.txt", "a")
+  crawl('http://airnav.com/airports/us/IN')
+  $fboSeedData.close()
+
+  $fboSeedData = File.open("fbo_data_entrecorps/ohio.txt", "a")
+  crawl('http://airnav.com/airports/us/OH')
+  $fboSeedData.close()
+
 
 end

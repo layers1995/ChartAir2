@@ -1,0 +1,41 @@
+Alamogordo	Exile Aviation	575-437-2474, 575-430-8963	Alamogordo-White Sands Regional Airport	NM	2730	
+Albuquerque	Cutter Aviation	505-842-4184	Albuquerque International Sunport Airport	NM	10980	infoalbuquerque@cutteraviation.com
+Albuquerque	Atlantic Aviation	505-842-4990	Albuquerque International Sunport Airport	NM	10980	steven.marruffo@atlanticaviation.com
+Albuquerque	Bode Aero Services	505-352-0292	Double Eagle II Airport	NM	6480	aero@flybode.com
+Angel Fire	Colfax County Angel Fire FBO	575-643-8066	Angel Fire Airport	NM	460	
+Artesia	City of Artesia (FBO)	575-748-3206	Artesia Municipal Airport	NM	1140	
+Aztec	Aztec Municipal Airport	505-634-8319	Aztec Municipal Airport	NM	420	
+Belen	 The City of Belen	505-966-2650, 505-966-2733	Alexander Municipal Airport	NM	1440	deborah.abingdon@belen-nm
+Belen	Alexander Aero	505-864-4500	Alexander Municipal Airport	NM	1440	
+Carlsbad	Chandler Aviation	575-887-1500	Cavern City Air Terminal	NM	528	chandleraviation@flycaverncity.com
+Clayton	Clayton Municipal Airport	575-207-7920	Clayton Municipal Airpark	NM	268	
+Clovis	 CVN Aviation	480-432-6646, 575-769-7890	Clovis Municipal Airport	NM	3120	
+Deming	Desert Aviation	575-544-3660, 575-494-2311	Deming Municipal Airport	NM	2340	
+Edgewood	Sandia Airpark	505-281-0322	Sandia Airpark Estates East Airport	NM	316	
+Espanola	 Ohkay Owingeh General Aviation Airport	505-747-0700, 505-660-6113	Ohkay Owingeh Airport	NM	400	
+Farmington	Atlantic Aviation	505-325-2867	Four Corners Regional Airport	NM	2670	felicia.bekis@atlanticaviation.com
+Gallup	Wiseman Aviation, Inc.	505-863-5501	Gallup Municipal Airport	NM	476	flytogallup@flywise.com
+Grants	Grants-Milan Municipal Airport	505-287-4700	Grants-Milan Municipal Airport	NM	364	
+Hobbs	 Tailwind Aviation	575-397-1747, 575-397-7675	Lea County Regional Airport	NM	1050	tailwindnm@yahoo.com
+Hobbs	Christian Aero LLC	575-318-7585	Lea County Regional Airport	NM	1050	
+Las Cruces	Southwest Aviation, Inc	575-524-8047	Las Cruces International Airport	NM	6570	southwestaviation.fbo@gmail.com
+Las Cruces	Francis Aviation	575-526-6341	Las Cruces International Airport	NM	6570	klrucontact@francisaviation.com
+Las Vegas	Las Vegas Municipal Airport	505-454-0881	Las Vegas Municipal Airport	NM	930	
+Lordsburg	Lordsburg Municipal Airport	575-542-3614	Lordsburg Municipal Airport	NM	368	
+Los Alamos	Los Alamos Avgas, Inc.	505-695-1333	Los Alamos Airport	NM	1170	board@lamavgas.com
+Los Lunas	Hooey, LLC	505-610-3676	Mid Valley Airpark	NM	1650	
+Lovington	RW Av Fuels, LLC	575-398-3490	Lea County-Zip Franklin Memorial Airport	NM	168	
+Moriarty	Sundance Aviation	505-832-2222	Moriarty Airport	NM	2430	
+Portales	Portales Municipal Airport	575-478-2863	Portales Municipal Airport	NM	1650	
+Raton	Express Aviation Services	575-445-3076, 575-707-2225	Raton Municipal Airport/Crews Field	NM	460	support@exaviationservices.com
+Roswell	 Avflight Roswell	575-347-2054, 575-626-3697	Roswell International Air Center Airport	NM	2820	csrroswell@avflight.com
+Ruidoso	 Sierra Blanca Regional Airport	575-336-8111	Sierra Blanca Regional Airport	NM	1170	sbra@ruidoso-nm
+Santa Fe	Jet Center at Santa Fe	505-780-4455	Santa Fe Municipal Airport	NM	5580	customerservice@jetcentersf.com
+Santa Fe	Signature Flight Support	505-471-2525	Santa Fe Municipal Airport	NM	5580	SAF@signatureflight.com
+Santa Rosa	Santa Rosa Route 66 Airport	575-472-9942	Santa Rosa Route 66 Airport	NM	164	janaya@srnm.org
+Santa Teresa	Francis Aviation	844-589-4586	Dona Ana County International Jetport Airport	NM	3420	contact@francisaviation.com
+Silver City	Grant County	575-388-4554, 575-313-9784	Grant County Airport	NM	316	rwenger@grantcountynm.com
+Socorro	Socorro Municipal Airport	505-440-6119	Socorro Municipal Airport	NM	352	
+Taos	 Taos Aviation Services	575-737-9790	Taos Regional Airport	NM	536	taosaviation@gmail.com
+Truth or Consequences	Truth or Consequences Municipal Airport	575-894-6199	Truth or Consequences Municipal Airport	NM	1290	
+Tucumcari	Tucumcari Municipal Airport	575-461-3229	Tucumcari Municipal Airport	NM	2100	jsewell@cityoftucumcari.com

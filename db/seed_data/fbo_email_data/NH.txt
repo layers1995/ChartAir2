@@ -1,0 +1,19 @@
+Berlin	Berlin Regional Airport	603-449-2168	Berlin Regional Airport	NH	388	
+Claremont	Claremont Municipal Airport	603-542-7032	Claremont Municipal Airport	NH	384	
+Hampton	Hampton Airfield	603-964-6749	Hampton Airfield	NH	2520	
+Haverhill	Dean Memorial Airport	603-989-5845	Dean Memorial Airport	NH	364	
+Hillsboro	Rymes Oil	603-588-6868	Hawthorne-Feather Airpark	NH	276	
+Jaffrey	Silver Ranch Airpark	603-532-8870	Jaffrey Airport-Silver Ranch	NH	228	
+Keene	Monadnock Aviation	603-357-7600	Dillant-Hopkins Airport	NH	4020	beth@monadnockaviation.com
+Laconia	Sky Bright	603-528-6818	Laconia Municipal Airport	NH	3600	lee@skybright.com
+Laconia	Emerson Aviation	603-293-7980	Laconia Municipal Airport	NH	3600	emersoninfo@emersonaviation.com
+Lebanon	Granite Air Center, LLC	603-298-6555	Lebanon Municipal Airport	NH	2490	pos@graniteair.com
+Manchester	Signature Flight Support	603-782-0151	Manchester Airport	NH	3990	MHT@signatureflight.com
+Moultonboro	Moultonboro Air Base Services LLC	603-986-7338	Moultonboro Airport	NH	360	
+Nashua	Infinity Aviation Services	603-598-4526	Boire Field Airport	NH	4830	info@infinityfbo.com
+Nashua	 Nashua Jet Aviation	603-204-5632	Boire Field Airport	NH	4830	info@nashuajets.com
+Newport	Parlin Field	603-863-1220	Parlin Field Airport	NH	260	
+Portsmouth	 Port City Air, Inc.	603-430-1111	Portsmouth International Airport at Pease	NH	3780	csr@portcityair.com
+Rochester	Pease Development Authority	603-332-0005	Skyhaven Airport	NH	750	
+Twin Mountain	Twin Mountain Airport	603-846-5505	Twin Mountain Airport	NH	50	
+Whitefield	Mt. Washington Regional Airport	603-837-9532	Mount Washington Regional Airport	NH	690	
