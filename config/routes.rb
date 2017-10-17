@@ -2,8 +2,8 @@ Rails.application.routes.draw do
 
 
 #used for password reset pages
-  get 'password_resets/new'
-  get 'password_resets/edit'
+  #get 'password_resets/new'
+  #get 'password_resets/edit'
 
 #routes for reports on trips/fbos
   get '/feedback', to: "report#index"
