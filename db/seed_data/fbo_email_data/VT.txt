@@ -1,0 +1,13 @@
+Barre/Montpelier	Vermont Flying Service	802-223-2221	Edward F Knapp State Airport	VT	1980	
+Bennington	William H. Morse State Airport	802-442-5503	William H Morse State Airport	VT	1170	
+Burlington	Heritage Aviation	877-326-5288, 802-264-6100	Burlington International Airport	VT	6240	csr@flyheritage.com
+Highgate	Border Air	802-868-2822	Franklin County State Airport	VT	840	
+Lyndonville	Caledonia County Airport	802-626-3353	Caledonia County Airport	VT	600	
+Middlebury	Middlebury State Airport	802-388-1800	Middlebury State Airport	VT	900	
+Morrisville	Stowe Aviation	802-253-2332	Morrisville-Stowe State Airport	VT	488	info@stoweaviation.com
+Newport	Lakeview Aviation Inc.	802-334-5001	Northeast Kingdom International Airport	VT	780	dano@vtlink.net
+Rutland	 Columbia Air Services-RUT, LLC	802-773-3348	Rutland - Southern Vermont Regional Airport	VT	1080	rutfuel@columbiaairservices.com
+Shelburne	Ray Magee	802-985-2100	Shelburne Airport	VT	104	
+Springfield	State of Vermont	802-886-7500	Hartness State Airport (Springfield)	VT	508	
+Warren	Sugarbush Soaring Association	802-496-2290	Warren-Sugarbush Airport	VT	1440	
+West Dover	Deerfield Valley Regional Airport	802-490-0775	Deerfield Valley Regional Airport	VT	236	

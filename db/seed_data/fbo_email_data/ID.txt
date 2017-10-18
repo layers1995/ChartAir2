@@ -1,0 +1,49 @@
+American Falls	Power County	208-242-9906	American Falls Airport	ID	1470	
+Arco	Arco Airport	208-681-2632	Arco-Butte County Airport	ID	600	
+Blackfoot	City of Blackfoot	208-785-8600	McCarley Field Airport	ID	2520	
+Boise	Western Aircraft	208-338-1833	Boise Air Terminal/Gowen Field	ID	9990	LineService@westair.com
+Boise	Jackson Jet Center	208-383-3300	Boise Air Terminal/Gowen Field	ID	9990	brent.eborn@jacksonjetcenter.com
+Boise	Turbo Air	208-343-3300	Boise Air Terminal/Gowen Field	ID	9990	turbo@turboairboi.com
+Bonners Ferry	 Northern Air Inc	208-267-4359	Boundary County Airport	ID	1560	office.northernair@gmail.com
+Buhl	8 Triple 9 Aviation	208-543-8999, 208-731-3781	Buhl Municipal Airport	ID	1230	
+Burley	The Flight Line, Inc.	208-678-7118	Burley Municipal Airport	ID	2280	
+Caldwell	 Midfield Aviation LLC	208-484-7782, 435-730-1872	Caldwell Industrial Airport	ID	12090	
+Caldwell	Silverhawk Aviation Academy	208-453-8577	Caldwell Industrial Airport	ID	12090	fly@silverhawkaviation.net
+Cascade	Arnold Aviation	208-382-4844, 208-382-4336	Cascade Airport	ID	750	
+Challis	Middle Fork Aviation	208-879-5728	Challis Airport	ID	1350	mforkair@custertel.net
+Coeur d'Alene	Resort Aviation Jet Center	208-772-3731	Coeur d'Alene Airport - Pappy Boyington Field	ID	10110	jrossetti@resortaviationjet.com
+Coeur d'Alene	 Southfield Aviation	208-772-6404, 208-661-7449	Coeur d'Alene Airport - Pappy Boyington Field	ID	10110	
+Council	City of Council	208-741-0771	Council Municipal Airport	ID	308	
+Driggs	Teton AvJet LLC	208-354-3100	Driggs-Reed Memorial Airport	ID	660	info@tetonaviation.com
+Emmett	Back Country Fuel Stop	208-861-9055, 208-861-9056	Emmett Municipal Airport	ID	990	
+Gooding	High Range Aviation	208-934-5934, 208-539-5934	Gooding Municipal Airport	ID	2190	range@hotmail.com
+Grangeville	Idaho County Airport	208-983-1565	Idaho County Airport	ID	1440	
+Hailey	Atlantic Aviation	208-788-9511	Friedman Memorial Airport	ID	2040	sunfrontdesk@atlanticaviation.com
+Idaho Falls	Aero Mark	208-524-1202	Idaho Falls Regional Airport	ID	2730	info@aeromark.com
+Jerome	Jerome County Airport	208-324-9980, 208-308-3140	Jerome County Airport	ID	2100	jca@bridgemail.com
+Kamiah	Clearwater Valley Aero Club, Inc.	208-926-4829	Kamiah Municipal Airport	ID	228	
+Kellogg	Shoshone County Airport	208-786-5381	Shoshone County Airport	ID	630	
+Lewiston	Hillcrest Aircraft	208-746-8271	Lewiston-Nez Perce County Airport	ID	2370	gag@hillcrestaircraft.com
+Lewiston	Stout Flying Service, Inc	208-743-8408	Lewiston-Nez Perce County Airport	ID	2370	
+Lewiston	Odonata	208-816-0343	Lewiston-Nez Perce County Airport	ID	2370	
+Malad City	Malad City Airport	208-766-3804	Malad City Airport	ID	340	
+Mc Call	 McCall Aviation	208-634-7137	Mc Call Municipal Airport	ID	3570	flying@mccallaviation.com
+Mountain Home	Thompson Aviation Services	208-587-3585	Mountain Home Municipal Airport	ID	1440	ted@mountainhomeairport.com
+Nampa	 Avcenter	208-466-5432	Nampa Municipal Airport	ID	5910	jblakley@avcenter.com
+Orofino	City of Orofino	208-476-4725	Orofino Municipal Airport	ID	316	
+Paris	Bear Lake County Airport	208-847-1374, 208-540-2160	Bear Lake County Airport	ID	200	
+Payette	Payette Muncipal Airport	208-642-6024	Payette Municipal Airport	ID	420	bblack@cityofpayette.com
+Pocatello	Pocatello Avcenter	208-234-2141	Pocatello Regional Airport	ID	1890	Mavcenter@aol.com
+Preston	Preston Flying Service	208-852-2151	Preston Airport	ID	540	
+Rexburg	Rexburg Air Service	208-356-9960	Rexburg-Madison County Airport	ID	2550	
+Rexburg	Copter Doctor Plus	208-351-6703	Rexburg-Madison County Airport	ID	2550	
+Rigby	Sharp Aviation	208-745-0606	Rigby Airport	ID	900	
+Salmon	Lemhi County (self-serve fuel)	208-756-3152	Lemhi County Airport	ID	2010	Lemhi.County.Airport@gmail.com
+Salmon	Gem Air LLC	208-756-7382	Lemhi County Airport	ID	2010	flying@gemairflights.com
+Salmon	McCall Aviation	208-756-6211	Lemhi County Airport	ID	2010	
+Sandpoint	 Granite Aviation	208-263-9102	Sandpoint Airport	ID	2460	info@granite-aviation
+Soda Springs	Allen H Tigert Airport	208-547-2600	Allen H Tigert Airport	ID	444	
+St Anthony	Shupe Flying Service Inc.	208-624-3041	Stanford Field Airport	ID	376	
+St Maries	St Maries Municipal Airport	208-582-0941	St Maries Municipal Airport	ID	1080	
+Twin Falls	Reeder Flying Service	208-733-5920	Joslin Field - Magic Valley Regional Airport	ID	2250	marla@reederflying.com
+Weiser	Weiser Municipal Airport	360-903-6901	Weiser Municipal Airport	ID	396	
