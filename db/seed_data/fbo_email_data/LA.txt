@@ -1,64 +1,3 @@
-<<<<<<< HEAD
-LA	Abbeville	Abbeville Chris Crusta Memorial Airport	KIYA	337-898-2268	7530	mike@vectoraviationabbeville.com
-LA	Alexandria	Alexandria International Airport	KAEX	318-443-5566	3000	info.aex@millionair.com
-LA	Alexandria	Esler Regional Airport	KESF	318-290-6281	1050	
-LA	Bastrop	Morehouse Memorial Airport	KBQP	318-281-2018	2490	
-LA	Baton Rouge	Baton Rouge Metropolitan Airport, Ryan Field	KBTR	225-356-1401	5940	BTR@signatureflight.com
-LA	Baton Rouge	Baton Rouge Metropolitan Airport, Ryan Field	KBTR	225-355-9052	5940	info@btrjet.com
-LA	Baton Rouge	Baton Rouge Metropolitan Airport, Ryan Field	KBTR	225-355-5183	5940	csr@eabtr.com
-LA	Bogalusa	George R Carr Memorial Air Field	KBXA	985-732-4521	1980	
-LA	Covington	St Tammany Regional Airport	L31	985-875-2601	2100	
-LA	De Quincy	De Quincy Industrial Airpark	5R8	337-786-8241	780	
-LA	De Ridder	Beauregard Regional Airport	KDRI	337-463-8250, 337-462-3364	1170	secretary1@beauregional.com
-LA	Eunice	Eunice Airport	4R7	337-457-6585	1230	
-LA	Farmerville	Union Parish Airport	F87	318-366-0325	1260	
-LA	Galliano	South Lafourche Leonard Miller Jr.. Airport	KGAO	985-475-6701	1800	gwayneg@portfourchon.com
-LA	Gonzales	Louisiana Regional Airport	KREG	225-644-1959	5820	laregional@eatel.net
-LA	Hammond	Hammond Northshore Regional Airport	KHDC	985-542-0719, 985-542-7801	8340	chadtopgun@gmail.com
-LA	Hammond	Hammond Northshore Regional Airport	KHDC	985-345-3030, 985-429-7924	8340	csr@pierce.aero
-LA	Houma	Houma-Terrebonne Airport	KHUM	985-868-7858	6750	info@houmajet.com
-LA	Houma	Houma-Terrebonne Airport	KHUM	877-851-5737, 985-851-5737	6750	admin@butleraviation.net
-LA	Houma	Houma-Terrebonne Airport	KHUM	985-346-8489, 985-709-9237	6750	hammondsaircraftmaintenance@yahoo.com
-LA	Houma	Houma-Terrebonne Airport	KHUM	985-868-4648	6750	
-LA	Jeanerette	Le Maire Memorial Airport	2R1	337-365-7202	1110	
-LA	Jennings	Jennings Airport	3R7	337-824-8248, 337-278-0696	4350	gulfair1@bellsouth.net
-LA	Jennings	Jennings Airport	3R7	337-824-1567	4350	
-LA	Jonesville	Jonesville Airport	L32	318-339-4747	4710	
-LA	Lafayette	Lafayette Regional Airport/Paul Fournet Field	KLFT	337-234-3100	3720	LFT@signatureflight.com
-LA	Lake Charles	Chennault International Airport	KCWF	337-436-4877	1800	info.cwf@millionair.com
-LA	Lake Charles	Lake Charles Regional Airport	KLCH	337-478-7722, 337-478-7723	2640	info.lch@freemanjetcenter.com
-LA	Leesville	Leesville Airport	L39	337-238-5968, 337-208-2219	1230	
-LA	Mansfield	C E 'Rusty' Williams Airport	3F3	318-871-7915	810	Rwalding@desotoppj.com
-LA	Many	Hart Airport	3R4	318-256-5857	392	
-LA	Marksville	Marksville Municipal Airport	KMKV	318-240-3088, 318-253-7291	840	
-LA	Minden	Minden Airport	KMNE	318-371-7862	240	airport@mindenusa.com
-LA	Monroe	Monroe Regional Airport	KMLU	318-387-0222	2130	csrmonroe@avflight.com
-LA	Natchitoches	Natchitoches Regional Airport	KIER	318-352-0994	870	lcooper@natchitochesla.gov
-LA	New Iberia	Acadiana Regional Airport	KARA	337-367-1401	256	
-LA	New Orleans	Lakefront Airport	KNEW	504-241-2800	4980	NEW@signatureflight.com
-LA	New Orleans	Lakefront Airport	KNEW	504-244-4448	4980	flightlinefirst@gmail.com
-LA	New Orleans	Louis Armstrong New Orleans International Airport	KMSY	504-468-7722	11040	MSY@signatureflight.com
-LA	New Orleans	Louis Armstrong New Orleans International Airport	KMSY	504-466-1700	11040	keith.meier@atlanticaviation.com
-LA	New Roads	False River Regional Airport	KHZR	225-638-3192, 225-978-8367	6240	frapla30@bellsouth.net
-LA	Oak Grove	Kelly-Dumas Airport	9M6	318-428-3129, 318-732-7110	810	
-LA	Oakdale	Allen Parish Airport	KACP	318-215-0090, 337-639-4328	1170	airport1@centurytel.net
-LA	Opelousas	St Landry Parish Airport-Ahart Field	KOPL	337-407-1551, 337-351-0025	2010	shelly.cummings@stlandryparish.org
-LA	Patterson	Harry P Williams Memorial Airport	KPTN	985-395-4501, 985-395-4502	3690	k.perry@perryflyingcenter.com
-LA	Pineville	Pineville Municipal Airport	2L0	318-448-3934	2100	
-LA	Reserve	Port of South Louisiana Executive Regional Airport	KAPS	985-536-1999, 985-212-1712	1740	vcaire@portsl.com
-LA	Ruston	Ruston Regional Airport	KRSN	318-251-9098	7080	
-LA	Shreveport	Shreveport Downtown Airport	KDTN	318-510-4330	4560	info@tubreauxaviation.com
-LA	Shreveport	Shreveport Regional Airport	KSHV	318-636-1000	3120	shvfbo@tacair.com
-LA	Slidell	Slidell Airport	KASD	985-641-7590, 985-259-2460	9210	airport@cityofslidell.org
-LA	Springhill	Springhill Airport	KSPH	318-539-4568	480	
-LA	Sulphur	Southland Field Airport	KUXL	337-583-9144	1770	southlandfield@gmail.com
-LA	Tallulah	Vicksburg Tallulah Regional Airport	KTVR	318-574-5841	1230	
-LA	Thibodaux	Thibodaux Municipal Airport	L83	985-447-6124	500	
-LA	Vidalia	Concordia Parish Airport	0R4	318-336-8537	810	
-LA	Vivian	Vivian Airport	3F4	318-375-3856	900	mam333f@aol.com
-LA	Welsh	Welsh Airport	6R1	337-734-2594	1230	
-LA	Winnsboro	Winnsboro Municipal Airport	F89	318-282-4524	2040	
-=======
 Abbeville	 Vector Aviation, LLC	337-898-2268	Abbeville Chris Crusta Memorial Airport	LA	7530	mike@vectoraviationabbeville.com
 Alexandria	Million Air Alexandria	318-443-5566	Alexandria International Airport	LA	3000	info.aex@millionair.com
 Alexandria	Freeman Holdings	318-290-6281	Esler Regional Airport	LA	1050	
@@ -118,4 +57,3 @@ Vidalia	Concordia Parish Airport Authority	318-336-8537	Concordia Parish Airport
 Vivian	 Town of Vivian	318-375-3856	Vivian Airport	LA	900	mam333f@aol.com
 Welsh	Lyon Flying Service	337-734-2594	Welsh Airport	LA	1230	
 Winnsboro	Southern Air	318-282-4524	Winnsboro Municipal Airport	LA	2040	
->>>>>>> finalizeGeneralSchema

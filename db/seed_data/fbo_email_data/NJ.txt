@@ -1,48 +1,3 @@
-<<<<<<< HEAD
-NJ	Andover	Aeroflex-Andover Airport	12N	973-786-5100	2040	
-NJ	Atlantic City	Atlantic City International Airport	KACY	609-383-3993	5790	ACY@signatureflight.com
-NJ	Belmar/Farmingdale	Monmouth Executive Airport	KBLM	732-751-0044	4710	tsanders@kblm.com
-NJ	Berlin	Camden County Airport	19N	856-767-1233	400	
-NJ	Blairstown	Blairstown Airport	1N7	908-362-8965	1620	
-NJ	Caldwell	Essex County Airport	KCDW	973-575-1833	5760	guyon@airboundaviation.com
-NJ	Cross Keys	Cross Keys Airport	17N	856-629-3033	1860	
-NJ	Hackettstown	Hackettstown Airport	N05	908-852-4664	1560	
-NJ	Hammonton	Hammonton Municipal Airport	N81	609-567-5300	1320	
-NJ	Lakewood	Lakewood Airport	N12	732-363-6400	1320	
-NJ	Lincoln Park	Lincoln Park Airport	N07	973-633-0450	2340	
-NJ	Lincoln Park	Lincoln Park Airport	N07	973-628-7166	2340	
-NJ	Lumberton	Flying W Airport	N14	609-267-7673	4620	
-NJ	Manville	Central Jersey Regional Airport	47N	908-526-2822	2010	gregb@centraljerseyairport.com
-NJ	Millville	Millville Municipal Airport	KMIV	856-825-3160	4920	bigsky@bigskyaviation.net
-NJ	Morristown	Morristown Municipal Airport	KMMU	973-401-1900, 973-401-0106	5580	ben@ftcfbo.com
-NJ	Morristown	Morristown Municipal Airport	KMMU	973-292-1300	5580	MMU@signatureflight.com
-NJ	Mount Holly	South Jersey Regional Airport	KVAY	609-267-3131	2100	andrew@southjerseyairport.com
-NJ	Newark	Newark Liberty International Airport	KEWR	973-624-1660	34830	EWR@signatureflight.com
-NJ	Ocean City	Ocean City Municipal Airport	26N	609-399-0907	1650	
-NJ	Old Bridge	Old Bridge Airport	3N6	732-446-0303	1170	
-NJ	Pittstown	Sky Manor Airport	N40	908-996-4200	1830	n40questions@skymanorairport.com
-NJ	Pittstown	Alexandria Airport	N85	908-730-9223	1530	upupaway@embarqmail.com
-NJ	Princeton/Rocky Hill	Princeton Airport	39N	609-921-3100	3240	39n@princetonairport.com
-NJ	Readington	Solberg-Hunterdon Airport	N51	908-534-4000	1770	
-NJ	Robbinsville	Trenton-Robbinsville Airport	N87	609-259-1059	1740	robairport@optonline.net
-NJ	Somerville	Somerset Airport	KSMQ	908-722-2444	2490	SMQ@somersetairport.com
-NJ	Sussex	Sussex Airport	KFWN	973-702-1640	1590	
-NJ	Teterboro	Teterboro Airport	KTEB	201-462-4000	14550	jteb@jetaviation.com
-NJ	Teterboro	Teterboro Airport	KTEB	201-288-1880	14550	TEB@signatureflight.com
-NJ	Teterboro	Teterboro Airport	KTEB	201-288-3555	14550	TEBSouth@signatureflight.com
-NJ	Teterboro	Teterboro Airport	KTEB	201-393-4041	14550	teb@signatureflight.com
-NJ	Teterboro	Teterboro Airport	KTEB	201-288-1740, 201-288-8275	14550	jfazio@atlanticaviation.com
-NJ	Teterboro	Teterboro Airport	KTEB	201-288-5040	14550	teb@meridian.aero
-NJ	Toms River	Ocean County Airport	KMJX	732-797-1077	2610	barb.oceanaire@gmail.com
-NJ	Trenton	Trenton Mercer Airport	KTTN	609-771-9500	7080	TTN@signatureflight.com
-NJ	Trenton	Trenton Mercer Airport	KTTN	609-583-4705	7080	fbo@flightserv.net
-NJ	Vincentown	Red Lion Airport	N73	609-859-2266	630	
-NJ	Vineland	Vineland-Downstown Airport	28N	856-697-3300	1050	
-NJ	West Creek	Eagles Nest Airport	31E	609-296-1229, 732-740-2510	72	eaglesnestairport@yahoo.com
-NJ	West Milford	Greenwood Lake Airport	4N1	973-728-7721	1500	wagnerair@aol.com
-NJ	Wildwood	Cape May County Airport	KWWD	609-889-0750	2490	wwddesk@flightlevelaviation.com
-NJ	Woodbine	Woodbine Municipal Airport	KOBI	609-861-1300	1020	wayner33@comcast.net
-=======
 Andover	Aeroflex-Andover Airport	973-786-5100	Aeroflex-Andover Airport	NJ	2040	
 Atlantic City	Signature Flight Support	609-383-3993	Atlantic City International Airport	NJ	5790	ACY@signatureflight.com
 Belmar/Farmingdale	Monmouth Jet Center	732-751-0044	Monmouth Executive Airport	NJ	4710	tsanders@kblm.com
@@ -86,4 +41,3 @@ West Creek	Eagles Nest Airport	609-296-1229, 732-740-2510	Eagles Nest Airport	NJ
 West Milford	Greenwood Lake Airport Management	973-728-7721	Greenwood Lake Airport	NJ	1500	wagnerair@aol.com
 Wildwood	FlightLevel Cape May	609-889-0750	Cape May County Airport	NJ	2490	wwddesk@flightlevelaviation.com
 Woodbine	Woodbine Port Authority	609-861-1300	Woodbine Municipal Airport	NJ	1020	wayner33@comcast.net
->>>>>>> finalizeGeneralSchema

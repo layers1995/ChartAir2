@@ -1,24 +1,3 @@
-<<<<<<< HEAD
-NH	Berlin	Berlin Regional Airport	KBML	603-449-2168	388	
-NH	Claremont	Claremont Municipal Airport	KCNH	603-542-7032	384	
-NH	Hampton	Hampton Airfield	7B3	603-964-6749	2520	
-NH	Haverhill	Dean Memorial Airport	5B9	603-989-5845	364	
-NH	Hillsboro	Hawthorne-Feather Airpark	8B1	603-588-6868	276	
-NH	Jaffrey	Jaffrey Airport-Silver Ranch	KAFN	603-532-8870	228	
-NH	Keene	Dillant-Hopkins Airport	KEEN	603-357-7600	4020	beth@monadnockaviation.com
-NH	Laconia	Laconia Municipal Airport	KLCI	603-528-6818	3600	lee@skybright.com
-NH	Laconia	Laconia Municipal Airport	KLCI	603-293-7980	3600	emersoninfo@emersonaviation.com
-NH	Lebanon	Lebanon Municipal Airport	KLEB	603-298-6555	2490	pos@graniteair.com
-NH	Manchester	Manchester Airport	KMHT	603-782-0151	3990	MHT@signatureflight.com
-NH	Moultonboro	Moultonboro Airport	5M3	603-986-7338	360	
-NH	Nashua	Boire Field Airport	KASH	603-598-4526	4830	info@infinityfbo.com
-NH	Nashua	Boire Field Airport	KASH	603-204-5632	4830	info@nashuajets.com
-NH	Newport	Parlin Field Airport	2B3	603-863-1220	260	
-NH	Portsmouth	Portsmouth International Airport at Pease	KPSM	603-430-1111	3780	csr@portcityair.com
-NH	Rochester	Skyhaven Airport	KDAW	603-332-0005	1410	
-NH	Twin Mountain	Twin Mountain Airport	8B2	603-846-5505	50	
-NH	Whitefield	Mount Washington Regional Airport	KHIE	603-837-9532	690	
-=======
 Berlin	Berlin Regional Airport	603-449-2168	Berlin Regional Airport	NH	388	
 Claremont	Claremont Municipal Airport	603-542-7032	Claremont Municipal Airport	NH	384	
 Hampton	Hampton Airfield	603-964-6749	Hampton Airfield	NH	2520	
@@ -38,4 +17,3 @@ Portsmouth	 Port City Air, Inc.	603-430-1111	Portsmouth International Airport a
 Rochester	Pease Development Authority	603-332-0005	Skyhaven Airport	NH	750	
 Twin Mountain	Twin Mountain Airport	603-846-5505	Twin Mountain Airport	NH	50	
 Whitefield	Mt. Washington Regional Airport	603-837-9532	Mount Washington Regional Airport	NH	690	
->>>>>>> finalizeGeneralSchema

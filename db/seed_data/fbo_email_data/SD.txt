@@ -1,45 +1,45 @@
-SD	Aberdeen	Aberdeen Regional Airport	KABR	605-725-4774	3300	hangar9fbo@gmail.com
-SD	Aberdeen	Aberdeen Regional Airport	KABR	605-225-8008	3300	kevin@questaviation.com
-SD	Aberdeen	Aberdeen Regional Airport	KABR	605-225-1384	3300	afsbc@nvc.net
-SD	Belle Fourche	Belle Fourche Municipal Airport	KEFC	605-892-6345	324	bellefourcheaero@gmail.com
-SD	Bison	Bison Municipal Airport	6V5	605-244-5677	176	
-SD	Britton	Britton Municipal Airport	KBTN	605-448-2264	212	
-SD	Brookings	Brookings Regional Airport	KBKX	605-692-2779	2730	
-SD	Buffalo	Harding County Airport	9D2	605-375-3255	80	
-SD	Canton	Canton Municipal Airport	7G9	605-987-9010, 605-940-2241	132	
-SD	Chamberlain	Chamberlain Municipal Airport	9V9	605-234-6018	630	
-SD	Clark	Clark County Airport	8D7	605-532-3462	244	
-SD	Custer	Custer County Airport	KCUT	605-673-3874, 605-517-9101	252	shannon@westernhillsaviation.com
-SD	Faith	Faith Municipal Airport	D07	605-967-2261, 605-967-2222	100	
-SD	Flandreau	Flandreau Municipal Airport	4P3	605-997-2492	264	
-SD	Gettysburg	Gettysburg Municipal Airport	0D8	605-848-1268	428	
-SD	Gregory	Gregory Municipal Airport - Flynn Field	9D1	605-835-9978, 605-835-8270	208	gregcity@gwtc.net
-SD	Hot Springs	Hot Springs Municipal Airport	KHSR	605-891-1290, 605-745-3135	524	
-SD	Hoven	Hoven Municipal Airport	9F8	605-948-2256	116	
-SD	Huron	Huron Regional Airport	KHON	605-352-9262	1110	
-SD	Lemmon	Lemmon Municipal Airport	KLEM	605-374-5281	368	
-SD	Madison	Madison Municipal Airport	KMDS	605-256-7524	1230	
-SD	Milbank	Milbank Municipal Airport	1D1	605-432-4800	340	
-SD	Mitchell	Mitchell Municipal Airport	KMHE	605-996-1228	1230	
-SD	Mobridge	Mobridge Municipal Airport	KMBG	605-216-6565	424	Tylerhearnen@gmail.com
-SD	Onida	Onida Municipal Airport	98D	605-258-2743	420	
-SD	Parkston	Parkston Municipal Airport	8V3	605-928-3321	264	
-SD	Philip	Philip Airport	KPHP	605-859-2175	100	
-SD	Pierre	Pierre Regional Airport	KPIR	605-224-9000	2850	info@mustangaviation.aero
-SD	Platte	Platte Municipal Airport	1D3	605-337-3921	58	
-SD	Rapid City	Rapid City Regional Airport	KRAP	605-209-5466, 605-393-2254	3540	
-SD	Rapid City	Rapid City Regional Airport	KRAP	605-393-2500	3540	westjet@westjetair.com
-SD	Redfield	Redfield Municipal Airport	1D8	605-472-4550	308	
-SD	Sioux Falls	Joe Foss Field Airport	KFSD	605-336-7791	5550	FSD@signatureflight.com
-SD	Sioux Falls	Joe Foss Field Airport	KFSD	605-312-5680	5550	staff@maverickaircenter.com
-SD	Sisseton	Sisseton Municipal Airport	8D3	605-698-3391, 303-204-0180	256	
-SD	Spearfish	Black Hills Airport-Clyde Ice Field	KSPF	605-642-4112	1140	eagle@eagleaviationinc.com
-SD	Springfield	Springfield Municipal Airport	Y03	605-369-2309	208	
-SD	Sturgis	Sturgis Municipal Airport	49B	605-347-3356	960	
-SD	Tea	Marv Skie-Lincoln County Airport	Y14	605-368-2841	1380	dhall@legacyaviationsd.com
-SD	Vermillion	Harold Davidson Field Airport	KVMR	605-624-4606	316	
-SD	Wagner	Wagner Municipal Airport	KAGZ	605-384-5858	240	
-SD	Watertown	Watertown Regional Airport	KATY	605-882-5757	990	katy@1vision.aero
-SD	Wessington Springs	Wessington Springs Airport	4X4	605-539-1691	12	
-SD	Winner	Winner Regional Airport	KICR	605-842-0740	1380	
-SD	Yankton	Chan Gurney Municipal Airport	KYKN	605-668-5280, 605-661-9223	630	
+Aberdeen	 Hangar 9 Inc	605-725-4774	Aberdeen Regional Airport	SD	3300	hangar9fbo@gmail.com
+Aberdeen	 Quest Aviation	605-225-8008	Aberdeen Regional Airport	SD	3300	kevin@questaviation.com
+Aberdeen	 Aberdeen Flying Service	605-225-1384	Aberdeen Regional Airport	SD	3300	afsbc@nvc.net
+Belle Fourche	Belle Fourche Aero	605-892-6345	Belle Fourche Municipal Airport	SD	324	bellefourcheaero@gmail.com
+Bison	City of Bison	605-244-5677	Bison Municipal Airport	SD	176	
+Britton	Dakota Ag Service	605-448-2264	Britton Municipal Airport	SD	212	
+Brookings	 Pheasant's Fury Aviation	605-692-2779	Brookings Regional Airport	SD	2730	
+Buffalo	Henderson Oil	605-375-3255	Harding County Airport	SD	80	
+Canton	Canton Municipal Airport	605-987-9010, 605-940-2241	Canton Municipal Airport	SD	132	
+Chamberlain	Automated Fueling Systems, Inc.	605-234-6018	Chamberlain Municipal Airport	SD	630	
+Clark	Clark County Airport	605-532-3462	Clark County Airport	SD	244	
+Custer	Custer County Airport	605-673-3874, 605-517-9101	Custer County Airport	SD	252	shannon@westernhillsaviation.com
+Faith	City of Faith	605-967-2261, 605-967-2222	Faith Municipal Airport	SD	100	
+Flandreau	Flandreau Municipal Airport	605-997-2492	Flandreau Municipal Airport	SD	264	
+Gettysburg	AirKraft Spraying	605-848-1268	Gettysburg Municipal Airport	SD	428	
+Gregory	Gregory Municipal Airport	605-835-9978, 605-835-8270	Gregory Municipal Airport - Flynn Field	SD	208	gregcity@gwtc.net
+Hot Springs	HSR Fueling LLC	605-891-1290, 605-745-3135	Hot Springs Municipal Airport	SD	524	
+Hoven	Lowinske Flight Service	605-948-2256	Hoven Municipal Airport	SD	116	
+Huron	Skyways	605-352-9262	Huron Regional Airport	SD	1110	
+Lemmon	Lemmon Air	605-374-5281	Lemmon Municipal Airport	SD	368	
+Madison	City of Madison	605-256-7524	Madison Municipal Airport	SD	1230	
+Milbank	City of Milbank	605-432-4800	Milbank Municipal Airport	SD	340	
+Mitchell	 Wright Brothers Aviation	605-996-1228	Mitchell Municipal Airport	SD	1230	
+Mobridge	City of Mobridge	605-216-6565	Mobridge Municipal Airport	SD	424	Tylerhearnen@gmail.com
+Onida	Onida Municipal Airport	605-258-2743	Onida Municipal Airport	SD	420	
+Parkston	City of Parkston	605-928-3321	Parkston Municipal Airport	SD	264	
+Philip	Automated Fuel Systems/City of Philip	605-859-2175	Philip Airport	SD	100	
+Pierre	 Mustang Aviation	605-224-9000	Pierre Regional Airport	SD	2850	info@mustangaviation.aero
+Platte	City of Platte	605-337-3921	Platte Municipal Airport	SD	58	
+Rapid City	 Westjet Air Center	605-393-2500	Rapid City Regional Airport	SD	3540	westjet@westjetair.com
+Rapid City	 Rapid Fuel, LLC (Self-Service Fueling Facility)	605-209-5466, 605-393-2254	Rapid City Regional Airport	SD	3540	
+Redfield	City of Redfield	605-472-4550	Redfield Municipal Airport	SD	308	
+Sioux Falls	Signature Flight Support	605-336-7791	Joe Foss Field Airport	SD	5550	FSD@signatureflight.com
+Sioux Falls	Maverick Air Center	605-312-5680	Joe Foss Field Airport	SD	5550	staff@maverickaircenter.com
+Sisseton	City of Sisseton	605-698-3391, 303-204-0180	Sisseton Municipal Airport	SD	256	
+Spearfish	Eagle Aviation	605-642-4112	Black Hills Airport-Clyde Ice Field	SD	1140	eagle@eagleaviationinc.com
+Springfield	Springfield Municipal Airport	605-369-2309	Springfield Municipal Airport	SD	208	
+Sturgis	CB&B Aviation	605-347-3356	Sturgis Municipal Airport	SD	960	
+Tea	 Legacy Aviation, LLC	605-368-2841	Marv Skie-Lincoln County Airport	SD	1380	dhall@legacyaviationsd.com
+Vermillion	City of Vermillion	605-624-4606	Harold Davidson Field Airport	SD	316	
+Wagner	Dakota Aircare	605-384-5858	Wagner Municipal Airport	SD	240	
+Watertown	 1 Vision FBO, LLC	605-882-5757	Watertown Regional Airport	SD	990	katy@1vision.aero
+Wessington Springs	City of Wessington Springs	605-539-1691	Wessington Springs Airport	SD	12	
+Winner	Howard Aviation	605-842-0740	Winner Regional Airport	SD	1380	
+Yankton	City of Yankton (FBO)	605-668-5280, 605-661-9223	Chan Gurney Municipal Airport	SD	630	

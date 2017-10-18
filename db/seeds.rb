@@ -1,7 +1,13 @@
 include SeedsHelper # located at lib/seeds_helper.rb
 
 def main
-# Delete stuff
+# Delete stuff. This is commented out because deleting generally shouldn't be a thing that happens. It changes the IDs of everything and breaks references.
+# The reason we don't need it is because database entries use the find_or_creaty_by method which checks if an entry exists before adding it.
+
+# TODO
+# Some data in the database needs to change, so I'll need to be careful about how I do that or some people will have to reset their profiles.
+# TODO
+
 =begin
 	Fee.delete_all
 	Category.delete_all
@@ -30,7 +36,7 @@ def main
 # Add category data
 	addCategories("categories")
 
-# NOT CURRENTLT USED. Add city data
+# NOT CURRENTLTY USED. Add city data
 # This is curently not used because having a lot of cities in the database makes the website run slowly.
 # It's weird though, because it's not just queries that are slow, the entire thing is.
 	#addCities("uscitiesv1.3.csv")
@@ -96,7 +102,8 @@ def addAirplanes(filename)
 		# turbofan engines (AKA jets). The number of engines doesn't actually matter for jets, so handle their case first
 		# There are 6 types of jet: super heavy jet, heavy jet, super midsize jet, midsize jet, light jet, and very light jet.
 		# The current code only has 4 of those, they should be pretty obvious.
-		# There are a total of 255 jets, about 150 are heavy jets, 16 are super midsize jets
+		# There are a total of 255 jets, 162 are heavy jets, 13 are super midsize jets, 61 are midsize jets, and 19 are light jets
+		# It's hard to tell what the real ratios are though, because there are some militarty jets and airliners in there.
 		if engineType =~ /turbofan/
 			if maxWeight > 40000
 					engineCategory = "heavy jet"
@@ -132,6 +139,7 @@ def addAirplanes(filename)
 					engineCategory = "turboprop twin light"
 				end
 
+			# These types of engine are practically never used by general aviation. They're in the database anyway.
 			elsif engineType =~ /turbojet/ # I never see these
 				engineCategory = "turbojet"
 			elsif engineType =~ /radial/ # I never see these
@@ -149,14 +157,19 @@ def addAirplanes(filename)
 # single engines
 		elsif numEngines == 1
 			if engineType =~ /piston/
-				engineCategory = "piston single" # done
+				# There's only one type of piston single at the moment.
+				# This will need to be split up into small and large in the future.
+				engineCategory = "piston single"
 			elsif engineType =~ /turboprop/
+				# a single engine turboprop is heavy if they weigh more than 7500 lbs, and light otherwise
+				# there are 10 turboprop single heavies and 16 turboprop single lights
 				if maxWeight > 7500
 					engineCategory = "turboprop single heavy"
 				else
 					engineCategory = "turboprop single light"
 				end
 
+			# These types of engines are almost never used in general aviation. They're in the database anyway.
 			elsif engineType =~ /turbojet/ # The majority of these are military
 				engineCategory = "turbojet"
 			elsif engineType =~ /radial/ # I never see these
@@ -173,7 +186,7 @@ def addAirplanes(filename)
 		end
 
 # Test for stuff that is nil. Find_or_create_by is creating duplicates. I think it happends whenever there is a nil value being saved.
-# My solution is to set nil things to -1. It fixed the problem, but I need to adjust the fee retrieval method.
+# My solution is to set nil integers to -1 and nil strings "nil". It fixed the problem, but I need to adjust the fee retrieval method.
 		if engineType.nil? or engineType.length == 0
 			engineType = "nan"
 		end
@@ -196,138 +209,173 @@ def addAirplanes(filename)
 			wingArea = -1
 		end
 
+		# Create the airplane using the characteristics found in the method.
 		Airplane.find_or_create_by({ :model => planeModel, :engine_class => engineCategory, :empty_weight => emptyWeight, :weight => maxWeight, :height => height, :wingspan => wingspan, :length => length, :manufacturer => manufacturer, :country => country, :plane_class => planeClass, :num_crew => numCrew, :num_passengers => numPassengers, :range => range, :wing_area => wingArea })
 	end
 end
 
+# Adds the fee types (ie: landing, tie down)
 def addFeeTypes(filename)
+	# open the file with fee types
 	feeTypes = File.open(Rails.root.join("db", "seed_data", filename))
+	# Each line of the file contains a fee types description. Iterate through the file and create a fee type for each line.
 	feeTypes.each do |curFeeType|
 		FeeType.find_or_create_by({ :fee_type_description => curFeeType.strip })
 	end
 end
 
+# Adds the classifications (ie: weight, engine type)
 def addClassifications(filename)
+	# open the file with classifications
 	classificationTypes = File.open(Rails.root.join("db", "seed_data", filename))
+	# Each line of the file contains a classification description. Iterate through the file and create a classification for each line.
 	classificationTypes.each do |curClassificationType|
 		Classification.find_or_create_by({ :classification_description => curClassificationType.strip })
 	end
 end
 
+# Adds the categories (ie: piston single)
 def addCategories(filename)
+	# Open the file with categories
 	categoryTypes = File.open(Rails.root.join("db", "seed_data", filename))
+	# Each line of the file contains a category description. Iterate through the file and create a classification for each line.
 	categoryTypes.each do |curCategoryType|
 		Category.find_or_create_by( :category_description => curCategoryType.strip )
 	end
 end
 
+# Adds the cities
 def addCities(filename)
 	cities = File.open(Rails.root.join("db", "seed_data", filename))
+	# Iterate through each line of the file.
 	cities.each do |curCity|
+		# strip and downcase each line to ensure a consistent format
 		curCity = curCity.strip.downcase
+		# Data is separated by commas, so use the split method with commas to get each piece of data
 		cityName, cityNameAscii, stateCode, stateName, countyName, countyFips, latitude, longitude, population, source, id = curCity.split(",")
 		City.find_or_create_by({ :name => cityName, :state => stateCode, :latitude => latitude, :longitude => longitude })
 	end
 end
 
+# Adds the airports
 def addAirports(filename)
+	# Open the file with airports
 	airports = File.open(Rails.root.join("db", "seed_data", filename))
+
 	airports.each do |curAirport|
+		# strip and downcase each line to ensure a consistent format
 		curAirport = curAirport.strip.downcase
+		# Data is separated by tabs, so use the split method with tabs to get each piece of data
 		airportCode, airportName, ownerPhone, managerPhone, latitude, longitude, state, city = curAirport.split("\t")
 
+		# These are the states we have, ignore anything else for now. Make sure to add states as they come in.
 		next if state != "il" and state != "oh" and state != "mn" and state != "mi" and state != "in" and state != "az" and state != "co" and state != "ky" and state != "mo" and state != "ms" and state!= "nv" and state != "ok" and state != "or" and state != "tx" and state != "ut" and state != "wa" and state != "wv"
 
+		# Airports have a reference to a city, so we need that info. First, try to find the city by the city and state
 		curCity = City.find_by({ :name => city, :state => state })
-# this will create a city if it's not found, but because we don't actually care about the city, it doesn't matter much, and commenting this out avoids duplicates
+
+		# Create a city if it's not found
 		if curCity.nil?
 			curCity = City.find_or_create_by({ :name => city, :state => state, :latitude => latitude, :longitude => longitude })
 		end
+
+		# If the city is somehow nil still, create the airport anyway, but without the city id
 		if curCity.nil?
 			airports = Airport.find_or_create_by({ :airport_code => airportCode, :name => airportName.strip.downcase, :latitude => latitude, :longitude => longitude, :state => state, :ownerPhone => ownerPhone, :managerPhone => managerPhone})
+		# If the city is found, we can just make the airport with the data we grabbed
 		else
 			airports = Airport.find_or_create_by({ :airport_code => airportCode, :name => airportName.strip.downcase, :latitude => latitude, :longitude => longitude, :state => state, :ownerPhone => ownerPhone, :managerPhone => managerPhone, :city => curCity })
 		end
 	end
 end
 
-# Add every FBO in a folder to the database
+# Add every FBO in a folder to the database.
+# This method iterates through every file in the FBO folder, and calls the fbo adding function on them.
 def addFboFolder(folderName)
+	# get the filepath of the folder
 	folderPath = Rails.root.join("db", "seed_data", folderName)
+	# for each file in the folder
 	Dir.foreach(folderPath) do |curFile|
+		# I'm not entirely sure why this line is necessary, but it was in the stack overflow thing I copied. Apparently it skips over things that aren't actually files
 	  next if curFile == '.' or curFile == '..' # do work on real items
+	  # Get the path of the current file
 	  filePath = Rails.root.join("db", "seed_data", "fbo_call_data", curFile)
+	  # call the fbo adding method
 	  addFbos(filePath)
 	end
 end
 
-def transferFile(curFile)
-	curText = open(curFile).read.strip
-	curText.each_line do |curFbo|
-		state, city, airportName, airportCode, fboName, phoneNumbers = curFbo.split(",")
-		printf("%s%s%s%s%s%s", state, city, airportName, airportCode, fboName, phoneNumbers)
-		$fboData.printf("%s%s%s%s%s%s", state, city, airportName, airportCode, fboName, phoneNumbers)
-	end
-end
-
-
+# Add every fbo in a file to the database
 def addFbos(filePath)
+	# open the file
 	fbos = open(filePath).read
 	
+	# Each line of the file contains information about an info. Iterate through each one.
 	fbos.each_line do |curFbo|
+		# strip and downcase each line to ensure a consistent format.
 		curFbo = curFbo.strip.downcase
 
+		# The data is tab separated, so splitting by tabs will get each individual piece of data.
 		state, city, airportName, airportCode, fboName, phone = curFbo.split("\t")
 
+		# These are the states we have data for. If we encounter a state that we don't have data for, return.
 		if state != "il" and state != "oh" and state != "mn" and state != "mi" and state != "in" and state != "az" and state != "co" and state != "ky" and state != "mo" and state != "ms" and state!= "nv" and state != "ok" and state != "or" and state != "tx" and state != "ut" and state != "wa" and state != "wv"
 			return
 		end
 
+		# an FBO can have either 1 or 2 phone numbers. If there are two, they're separated by a comma, so use the split method to separate them.
 		phone1 = phone.split(", ")[0]
 		phone2 = phone.split(", ")[1]
 
+		# If there is only 1 phone number, set the second one to an empty string.
 		if phone2.nil?
 			phone2 = ""
 		end
 
-		#puts airportName
-
+		# Try to find the airport by the name and state
 		curAirport = Airport.find_by(:name => airportName, :state => state)
 
+		# If it wasn't found, look using the airport code.
 		if curAirport.nil?
 			curAirport = Airport.find_by(:airport_code => airportCode)
 		end
 
+		# If the airport was found, add the FBO using the data we pulled.
+		# If the city wasn't found, then having an FBO with no city is pretty useless so ignore it.
 		if !curAirport.nil?
 			Fbo.find_or_create_by({ :name => fboName, :phone => phone1, :alternate_phone => phone2, :airport => curAirport })
 		end
 	end
 end
 
+# Add the info from every call sheet to the database.
 def addFeeFolder(folderName)
 	folderPath = Rails.root.join("db", "seed_data", folderName)
+	# Iterate through each line of the file.
 	Dir.foreach(folderPath) do |curFile|
+		# I'm not entirely sure why this line is necessary, but it was in the stack overflow thing I copied. Apparently it skips over things that aren't actually files
 	  next if curFile == '.' or curFile == '..' # do work on real items
+	  # Get the file path
 	  filePath = Rails.root.join("db", "seed_data", "call_sheets", curFile)
+	  # Call the fee adding method on the file
 	  addFeesAndUpdateFbos(filePath)
 	end
 end
 
+# Add every fee in a specific call sheet to the database.
 def addFeesAndUpdateFbos(filename)
-
 	responseText = open(Rails.root.join("db", "seed_data", filename)).read
 	responseText.each_line do |curRow|
 		curRow = curRow.strip.downcase # get rid of new lines and make everything lowercase
 
 		# split the excel sheet into individual variables using split
-
+		# Note that each fee is itself a list of fees separated by commas.
 		state, city, airportName, airportCode, fboName, phoneNumbers, hasFees, classificationDesc, otherClassification, landingFee, rampFee, tieDownFee, facilityFee, callOutFee, hangarFee, otherFee, changeFrequency, feesWaived, fuelNeeded, contactPerson, callDate, infoQuality, hasFeeSheet, feeSheetLink, additionalInfo  = curRow.split("\t")
-
+		
+		# If the FBO didn't or wouldn't answer, then we have no data for them and we should skip forward
 		next if hasFees == "did not/would not answer"
 
 		#feeClassification = Classification.find_by( :classification_description => classificationDesc )
-
-		# We didn't make a column for tie down fees, so they're in the ramp fee instead.
 
 		curAirport = Airport.find_by( :name => airportName)
 		if curAirport.nil?
@@ -336,9 +384,8 @@ def addFeesAndUpdateFbos(filename)
 			if curAirport.nil? and airportCode.length == 3
 				newCode = "k" + airportCode
 				curAirport = Airport.find_by( :airport_code => newCode )
-			elsif
+			elsif curAirport.nil? and airportCode.length == 4
 			# If the airport wasn't found, try removing the k from the front and trying again
-				curAirport.nil? and airportCode.length == 4
 				newCode = airportCode[1..3]
 				curAirport = Airport.find_by( :airport_code => newCode )
 			end
@@ -363,29 +410,41 @@ def addFeesAndUpdateFbos(filename)
 			#elsif feeClassification.nil?
 				#puts curFbo.name
 				# do nothing
+
+			# If the FBO has fees, AKA most of the time.
 			else
 				#curFbo.update( :classification => feeClassification )
 				
+				# For each type of fee, if it isn't nil, the split it up into its individual fees, then call the fee helper method on those fees.
+				# landing fees
 				if !landingFee.nil?
 					landingFee.split(",").each do |curFee|
 						singleFeeHelper(curFee, curFbo, "landing")
 					end
 				end
+
+				# ramp fees
 				if !rampFee.nil?
 					rampFee.split(",").each do |curFee|
 						singleFeeHelper(curFee, curFbo, "ramp")
 					end	
 				end
+
+				# tie down fees
 				if !tieDownFee.nil?
 					tieDownFee.split(",").each do |curFee|
 						singleFeeHelper(curFee, curFbo, "tie down")
 					end
 				end
+
+				# facility fees
 				if !facilityFee.nil?
 					facilityFee.split(",").each do |curFee|
 						singleFeeHelper(curFee, curFbo, "facility")
 					end	
 				end	
+
+				# call out fees
 				if !callOutFee.nil?
 					callOutFee.split(",").each do |curFee|
 						singleFeeHelper(curFee, curFbo, "call out")

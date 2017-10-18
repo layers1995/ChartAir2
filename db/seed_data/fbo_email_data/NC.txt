@@ -1,78 +1,78 @@
-NC	Ahoskie	Tri-County Airport	KASJ	252-345-0111	1080	
-NC	Albemarle	Stanly County Airport	KVUJ	704-982-9013	2310	dgriffin@co.stanly
-NC	Andrews	Western Carolina Regional Airport	KRHP	828-321-5114	1680	
-NC	Asheboro	Asheboro Regional Airport	KHBI	336-625-6120, 919-619-2707	1260	info@cardinal-air
-NC	Asheville	Asheville Regional Airport	KAVL	828-687-7110	5520	AVL@signatureflight.com
-NC	Beaufort	Michael J Smith Field Airport	KMRH	252-728-2323	3600	cnoble@crystalcoastaviation.com
-NC	Burlington	Burlington-Alamance Regional Airport	KBUY	336-226-3330	4140	Fly@skysouthaviation.com
-NC	Carthage	Gilliam - Mc Connell Airfield	BQ1	910-695-5216, 910-947-2918	1320	amg3636@hotmail.com
-NC	Chapel Hill	Horace Williams Airport	KIGX	919-962-1337	244	
-NC	Charlotte	Charlotte/Douglas International Airport	KCLT	704-359-0440	44940	cscharlotte@wilsonair.com
-NC	Charlotte	Wilgrove Air Park	8A6	704-545-1875	1320	
-NC	Clinton	Clinton-Sampson County Airport	KCTZ	910-592-3295	400	
-NC	Concord	Concord Regional Airport	KJQF	704-920-5900, 704-920-5912	5340	Cloutier@concordnc.gov
-NC	Currituck	Currituck County Regional Airport	KONX	252-453-8032, 252-453-2876	2040	Mark.Leuzinger@currituckcountync.gov
-NC	Edenton	Northeastern Regional Airport	KEDE	252-482-4664	1140	
-NC	Elizabeth City	Elizabeth City Coast Guard Air Station/Regional Airport	KECG	252-335-5634	4950	manager@ecgairport.com
-NC	Elizabethtown	Curtis L Brown Jr. Field Airport	KEYF	910-862-4522, 910-862-8928	1200	
-NC	Elkin	Elkin Municipal Airport	KZEF	336-366-3433	1110	
-NC	Engelhard	Hyde County Airport	7W6	252-925-1097	312	
-NC	Erwin	Harnett Regional Jetport Airport	KHRJ	910-814-2740, 910-890-0067	4200	npusser@warrencompany.com
-NC	Fayetteville	Fayetteville Regional Airport/Grannis Field	KFAY	910-321-7540	3030	FAY@signatureflight.com
-NC	Fayetteville	Grays Creek Airport	2GC	910-483-4114	544	
-NC	Franklin	Macon County Airport	1A5	828-524-5529	1110	
-NC	Gastonia	Gastonia Municipal Airport	KAKH	704-869-7844, 704-400-0945	810	Denm9@hotmail.com
-NC	Goldsboro	Wayne Executive Jetport Airport	KGWW	919-734-7630	1320	
-NC	Greensboro	Piedmont Triad International Airport	KGSO	336-668-0481	6330	GSO@signatureflight.com
-NC	Greensboro	Air Harbor Airport	W88	336-288-4275	276	
-NC	Greenville	Pitt-Greenville Airport	KPGV	252-902-2025	3960	
-NC	Hickory	Hickory Regional Airport	KHKY	828-327-0147, 828-323-7408	5400	tclark@hickorync.gov
-NC	Indian Trail	Goose Creek Airport	28A	704-628-6921	272	
-NC	Jacksonville	Albert J Ellis Airport	KOAJ	910-324-2500	3090	customerserviceoaj@skyportaviation.com
-NC	Jefferson	Ashe County Airport	KGEV	336-982-5144	870	
-NC	Kenansville	Duplin County Airport	KDPL	910-296-2188	1440	duplinair@duplincountync.com
-NC	Kinston	Kinston Regional Jetport at Stallings Field	KISO	252-208-7715, 252-208-7716	1110	
-NC	Knightdale	Raleigh East Airport	W17	919-610-8743	630	RaleighEastFlightTraining@gmail.com
-NC	Lexington	Davidson County Airport	KEXX	336-956-7774	2370	Info@flyhighlexington.com
-NC	Liberty	Causey Airport	2A5	336-685-4423	244	
-NC	Lincolnton	Lincolnton-Lincoln County Regional Airport	KIPJ	704-735-0602	2790	
-NC	Louisburg	Triangle North Executive Airport	KLHZ	919-496-1234, 919-496-6407	5160	airportmanager@franklincountync.us
-NC	Lumberton	Lumberton Regional Airport	KLBT	910-739-6480	2040	tgammon@ci.lumberton
-NC	Manteo	Dare County Regional Airport	KMQI	252-475-5575, 252-475-5570	1380	airportops@darenc.com
-NC	Maxton	Laurinburg-Maxton Airport	KMEB	910-844-3601	4440	
-NC	Mocksville	Twin Lakes Airport	8A7	336-998-8101	2460	
-NC	Monroe	Charlotte-Monroe Executive Airport	KEQY	704-226-2300, 704-320-6256	4620	pcevallos@monroenc.org
-NC	Mooresville	Lake Norman Airpark	14A	704-662-6227	1470	
-NC	Morganton	Foothills Regional Airport	KMRN	828-757-0099	1410	fbo@foothillsairport.com
-NC	Mount Airy	Mount Airy/Surry County Airport	KMWK	336-789-5153, 336-401-3301	1410	hemifivepoint7@gmail.com
-NC	Mount Olive	Mount Olive Municipal Airport	W40	919-635-1471	1200	bassaviation@att.net
-NC	New Bern	Coastal Carolina Regional Airport	KEWN	252-633-1400	2700	tidewaterairnewbernnc@hotmail.com
-NC	North Wilkesboro	Wilkes County Airport	KUKF	336-696-2000	840	
-NC	Oak Island	Cape Fear Regional Jetport/Howie Franklin Field Airport	KSUT	910-457-6534	6330	
-NC	Ocean Isle Beach	Odell Williamson Municipal Airport	60J	910-575-7575, 607-543-0350	1680	info@oimbhelitours.com
-NC	Oxford	Henderson-Oxford Airport	KHNZ	919-693-5769	2070	
-NC	Pinehurst/Southern Pines	Moore County Airport	KSOP	910-692-3212	960	csr@moorecountyairport.com
-NC	Plymouth	Plymouth Municipal Airport	KPMZ	252-793-9801	1080	
-NC	Plymouth	Donald's Air Park Inc	7NC	252-935-5000	92	
-NC	Raeford	P K Airpark	5W4	910-875-3261	2640	
-NC	Raleigh/Durham	Raleigh-Durham International Airport	KRDU	919-840-2200	14520	RDU@signatureflight.com
-NC	Raleigh/Durham	Raleigh-Durham International Airport	KRDU	919-840-4400, 919-532-1425	14520	rdufbo@tacair.com
-NC	Reidsville	Rockingham County NC Shiloh Airport	KSIF	336-573-3115, 336-314-8612	1980	shilohairport@yahoo.com
-NC	Roanoke Rapids	Halifax-Northampton Regional Airport	KIXA	252-583-3492	1710	
-NC	Rockingham	Richmond County Airport	KRCZ	910-997-5071	840	
-NC	Rocky Mount	Rocky Mount-Wilson Regional Airport	KRWI	252-977-1717	2460	customerservice@aircareav.com
-NC	Roxboro	Person County Airport	KTDF	336-364-1111, 615-351-9845	2850	
-NC	Salisbury	Mid-Carolina Regional Airport	KRUQ	704-216-7749	4200	kevin.davis@rowancountync.gov
-NC	Sanford	Raleigh Executive Jetport at Sanford-Lee County Airport	KTTA	919-776-2939	5160	info@raleighexec.com
-NC	Shelby	Shelby-Cleveland County Regional Airport	KEHO	704-487-1161, 704-284-3321	1500	airport@cityofshelby.com
-NC	Siler City	Siler City Municipal Airport	KSCR	919-742-3847, 919-619-2707	1770	info@cardinal-air
-NC	Smithfield	Johnston Regional Airport	KJNX	919-934-0992	6030	
-NC	Statesville	Statesville Regional Airport	KSVH	704-873-1111	2970	
-NC	Sylva	Jackson County Airport	24A	828-586-0321	340	
-NC	Wallace	Henderson Field Airport	KACZ	910-285-6642, 910-271-8955	1320	gking@wallacenc.gov
-NC	Washington	Washington-Warren Airport	KOCW	252-946-3900, 252-975-9320	1410	aberry@washingtonnc.gov
-NC	Whiteville	Columbus County Municipal Airport	KCPC	910-642-6187	1380	
-NC	Williamston	Martin County Airport	KMCZ	252-792-1971, 252-799-8718	1020	
-NC	Wilmington	Wilmington International Airport	KILM	910-763-0146	4170	contact@airilm.com
-NC	Wilson	Wilson Industrial Air Center Airport	W03	252-991-6336	1020	
-NC	Winston Salem	Smith Reynolds Airport	KINT	336-776-6060	3810	INT@signatureflight.com
+Ahoskie	Tri-County Airport	252-345-0111	Tri-County Airport	NC	1080	
+Albemarle	Stanly County Airport	704-982-9013	Stanly County Airport	NC	2310	dgriffin@co.stanly
+Andrews	Andrews-Murphy Air Service	828-321-5114	Western Carolina Regional Airport	NC	1680	
+Asheboro	Cardinal Air	336-625-6120, 919-619-2707	Asheboro Regional Airport	NC	1260	info@cardinal-air
+Asheville	Signature Flight Support	828-687-7110	Asheville Regional Airport	NC	5520	AVL@signatureflight.com
+Beaufort	 Crystal Coast Aviation	252-728-2323	Michael J Smith Field Airport	NC	3600	cnoble@crystalcoastaviation.com
+Burlington	SkySouth Aviation	336-226-3330	Burlington-Alamance Regional Airport	NC	4140	Fly@skysouthaviation.com
+Carthage	Gilliam McConnell Airfield	910-695-5216, 910-947-2918	Gilliam - Mc Connell Airfield	NC	1320	amg3636@hotmail.com
+Chapel Hill	Horace Williams Airport	919-962-1337	Horace Williams Airport	NC	244	
+Charlotte	Wilson Air Center - Charlotte	704-359-0440	Charlotte/Douglas International Airport	NC	44940	cscharlotte@wilsonair.com
+Charlotte	Wilgrove Air Park	704-545-1875	Wilgrove Air Park	NC	1320	
+Clinton	Clinton Flying Service	910-592-3295	Clinton-Sampson County Airport	NC	400	
+Concord	Concord Regional Airport	704-920-5900, 704-920-5912	Concord Regional Airport	NC	5340	Cloutier@concordnc.gov
+Currituck	Currituck County Regional Airport	252-453-8032, 252-453-2876	Currituck County Regional Airport	NC	2040	Mark.Leuzinger@currituckcountync.gov
+Edenton	Edenton Aviation Services	252-482-4664	Northeastern Regional Airport	NC	1140	
+Elizabeth City	Elizabeth City/Pasquotank County Regional Airport	252-335-5634	Elizabeth City Coast Guard Air Station/Regional Airport	NC	4950	manager@ecgairport.com
+Elizabethtown	Taylor Aviation of Elizabethtown	910-862-4522, 910-862-8928	Curtis L Brown Jr. Field Airport	NC	1200	
+Elkin	Yadkin Valley Aviation	336-366-3433	Elkin Municipal Airport	NC	1110	
+Engelhard	Hyde County Airport	252-925-1097	Hyde County Airport	NC	312	
+Erwin	 Warren Aviation	910-814-2740, 910-890-0067	Harnett Regional Jetport Airport	NC	4200	npusser@warrencompany.com
+Fayetteville	Signature Flight Support	910-321-7540	Fayetteville Regional Airport/Grannis Field	NC	3030	FAY@signatureflight.com
+Fayetteville	Cape Fear Aviation	910-483-4114	Grays Creek Airport	NC	544	
+Franklin	Franklin Aviation	828-524-5529	Macon County Airport	NC	1110	
+Gastonia	FlyCarolina Aviation	704-869-7844, 704-400-0945	Gastonia Municipal Airport	NC	810	Denm9@hotmail.com
+Goldsboro	Wayne Executive Jetport	919-734-7630	Wayne Executive Jetport Airport	NC	1320	
+Greensboro	Signature Flight Support	336-668-0481	Piedmont Triad International Airport	NC	7020	GSO@signatureflight.com
+Greensboro	Murphy Aviation	336-288-4275	Air Harbor Airport	NC	276	
+Greenville	Pitt-Greenville Airport Authority	252-902-2025	Pitt-Greenville Airport	NC	3960	
+Hickory	 Hickory Regional Airport	828-327-0147, 828-323-7408	Hickory Regional Airport	NC	5400	tclark@hickorync.gov
+Indian Trail	Greater Carolina's Aviation, LLC	704-628-6921	Goose Creek Airport	NC	272	
+Jacksonville	Skyport Aviation	910-324-2500	Albert J Ellis Airport	NC	3090	customerserviceoaj@skyportaviation.com
+Jefferson	Ashe County Airport	336-982-5144	Ashe County Airport	NC	870	
+Kenansville	Duplin County Airport	910-296-2188	Duplin County Airport	NC	1440	duplinair@duplincountync.com
+Kinston	Kinston Jet Center	252-208-7715, 252-208-7716	Kinston Regional Jetport at Stallings Field	NC	1110	
+Knightdale	Raleigh East Flight Training	919-610-8743	Raleigh East Airport	NC	630	RaleighEastFlightTraining@gmail.com
+Lexington	Fly High Lexington, LLC	336-956-7774	Davidson County Airport	NC	2370	Info@flyhighlexington.com
+Liberty	Causey Aviation Service	336-685-4423	Causey Airport	NC	284	
+Lincolnton	 Lincolnton-Lincoln County Regional Airport	704-735-0602	Lincolnton-Lincoln County Regional Airport	NC	2790	
+Louisburg	Triangle North Executive Airport	919-496-1234, 919-496-6407	Triangle North Executive Airport	NC	5160	airportmanager@franklincountync.us
+Lumberton	Lumberton Regional Airport	910-739-6480	Lumberton Regional Airport	NC	2040	tgammon@ci.lumberton
+Manteo	 Dare County Regional Airport	252-475-5575, 252-475-5570	Dare County Regional Airport	NC	1380	airportops@darenc.com
+Maxton	Scotland Aero Services	910-844-3601	Laurinburg-Maxton Airport	NC	4440	
+Mocksville	Twin Lakes Airport	336-998-8101	Twin Lakes Airport	NC	2460	
+Monroe	Charlotte-Monroe Executive Airport	704-226-2300, 704-320-6256	Charlotte-Monroe Executive Airport	NC	4620	pcevallos@monroenc.org
+Mooresville	Race City Flight Operations	704-662-6227	Lake Norman Airpark	NC	1470	
+Morganton	Foothills Regional Aviation	828-757-0099	Foothills Regional Airport	NC	1410	fbo@foothillsairport.com
+Mount Airy	RA-Tech Aviation of Mount Airy, Inc.	336-789-5153, 336-401-3301	Mount Airy/Surry County Airport	NC	1410	hemifivepoint7@gmail.com
+Mount Olive	Bass Aviation	919-635-1471	Mount Olive Municipal Airport	NC	1200	bassaviation@att.net
+New Bern	 Tidewater Air	252-633-1400	Coastal Carolina Regional Airport	NC	2700	tidewaterairnewbernnc@hotmail.com
+North Wilkesboro	Wilkes County Airport	336-696-2000	Wilkes County Airport	NC	840	
+Oak Island	Brunswick County Airport	910-457-6534	Cape Fear Regional Jetport/Howie Franklin Field Airport	NC	6330	
+Ocean Isle Beach	 Ocean Isle Aviation and Tours	910-575-7575, 607-543-0350	Odell Williamson Municipal Airport	NC	1680	info@oimbhelitours.com
+Oxford	Air Cobra II, LLC	919-693-5769	Henderson-Oxford Airport	NC	2070	
+Pinehurst/Southern Pines	 Moore County Airport	910-692-3212	Moore County Airport	NC	960	csr@moorecountyairport.com
+Plymouth	Plymouth Municipal Airport	252-793-9801	Plymouth Municipal Airport	NC	1080	
+Plymouth	Donald's Air Park Inc	252-935-5000	Donald's Air Park Inc	NC	1680	
+Raeford	Skydive Paraclete XP	910-875-3261	P K Airpark	NC	2640	
+Raleigh/Durham	Signature Flight Support	919-840-2200	Raleigh-Durham International Airport	NC	14520	RDU@signatureflight.com
+Raleigh/Durham	TAC Air	919-840-4400, 919-532-1425	Raleigh-Durham International Airport	NC	14520	rdufbo@tacair.com
+Reidsville	 Rockingham County / Shiloh Airport	336-573-3115, 336-314-8612	Rockingham County NC Shiloh Airport	NC	1980	shilohairport@yahoo.com
+Roanoke Rapids	Halifax-Northhampton County Regional Airport	252-583-3492	Halifax-Northampton Regional Airport	NC	1710	
+Rockingham	Richmond County (FBO)	910-997-5071	Richmond County Airport	NC	840	
+Rocky Mount	 Air Care Inc Aviation Services	252-977-1717	Rocky Mount-Wilson Regional Airport	NC	2460	customerservice@aircareav.com
+Roxboro	 Red Mountain Aviation, Inc.	336-364-1111, 615-351-9845	Person County Airport	NC	2850	
+Salisbury	 Rowan County (FBO)	704-216-7749	Mid-Carolina Regional Airport	NC	4200	kevin.davis@rowancountync.gov
+Sanford	Raleigh Executive Jetport	919-776-2939	Raleigh Executive Jetport at Sanford-Lee County Airport	NC	5160	info@raleighexec.com
+Shelby	City of Shelby (FBO)	704-487-1161, 704-284-3321	Shelby-Cleveland County Regional Airport	NC	1500	airport@cityofshelby.com
+Siler City	Cardinal Air	919-742-3847, 919-619-2707	Siler City Municipal Airport	NC	1770	info@cardinal-air
+Smithfield	Johnston County Airport	919-934-0992	Johnston Regional Airport	NC	6030	
+Statesville	Statesville Flying Service	704-873-1111	Statesville Regional Airport	NC	2970	
+Sylva	Jackson County Airport Authority (self-serve fuel)	828-586-0321	Jackson County Airport	NC	340	
+Wallace	Henderson Field Airport	910-285-6642, 910-271-8955	Henderson Field Airport	NC	1320	gking@wallacenc.gov
+Washington	City of Washington	252-946-3900, 252-975-9320	Washington-Warren Airport	NC	1410	aberry@washingtonnc.gov
+Whiteville	Columbus County (FBO)	910-642-6187	Columbus County Municipal Airport	NC	1380	
+Williamston	 Juliet Charlie Aviation	252-792-1971, 252-799-8718	Martin County Airport	NC	1020	
+Wilmington	Air Wilmington	910-763-0146	Wilmington International Airport	NC	4170	contact@airilm.com
+Wilson	 Carolina Air Center, LLC	252-991-6336	Wilson Industrial Air Center Airport	NC	1020	
+Winston Salem	Signature Flight Support	336-776-6060	Smith Reynolds Airport	NC	3630	INT@signatureflight.com

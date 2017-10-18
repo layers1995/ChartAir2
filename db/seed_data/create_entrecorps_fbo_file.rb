@@ -21,10 +21,11 @@ if __FILE__ == $0
 end
 
 def transferFile(curFile)
-	curText = open(curFile).read
+	curText = open(curFile).read.strip
 	curText.each_line do |curFbo|
 		state, city, airportName, airportCode, fboName, phoneNumbers = curFbo.split(",")
-		$fboData.printf("%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportcode, fboName, phoneNumbers)
+		printf("%s%s%s%s%s%s", state, city, airportName, airportCode, fboName, phoneNumbers)
+		$fboData.printf("%s%s%s%s%s%s", state, city, airportName, airportCode, fboName, phoneNumbers)
 	end
 end
 

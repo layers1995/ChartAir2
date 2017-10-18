@@ -1,81 +1,81 @@
-OK	Ada	Ada Regional Airport	KADH	580-235-5279, 580-421-7742	1020	HeartlandAviation@cableone.net
-OK	Afton	Grand Lake Regional Airport	3O9	918-257-8602	810	
-OK	Altus	Altus/Quartz Mountain Regional Airport	KAXS	580-482-8833	460	dadams@altusok.gov
-OK	Alva	Alva Regional Airport	KAVK	580-327-2898, 580-748-2709	500	alvaair@sbcglobal.net
-OK	Anadarko	Anadarko Municipal Airport	F68	405-247-2481	83	
-OK	Antlers	Antlers Municipal Airport	80F	580-298-5635	100	
-OK	Ardmore	Ardmore Municipal Airport	KADM	580-389-5000	3750	lakeland@brightok.net
-OK	Ardmore	Ardmore Municipal Airport	KADM	580-389-5263, 580-362-6977	3750	info@smallbusinessaviation.com
-OK	Ardmore	Ardmore Downtown Executive Airport	1F0	580-223-5500, 580-465-7773	990	kmaaviationllc@gmail.com
-OK	Atoka	Atoka Municipal Airport	KAQR	580-889-3250	268	
-OK	Bartlesville	Bartlesville Municipal Airport	KBVO	918-661-3121	1020	Michael.S.Richardson@conocophillips.com
-OK	Blackwell	Blackwell-Tonkawa Municipal Airport	KBKN	580-363-4242	384	
-OK	Bristow	Jones Memorial Airport	3F7	918-340-0000	152	
-OK	Burns Flat	Clinton-Sherman Airport	KCSM	580-562-4713	3030	
-OK	Chandler	Chandler Regional Airport	KCQB	405-258-3200	500	
-OK	Chickasha	Chickasha Municipal Airport	KCHK	405-222-6006, 405-320-0274	840	airport@chickasha.org
-OK	Claremore	Claremore Regional Airport	KGCM	918-343-0931	1230	ewinn@claremoreairport.com
-OK	Clinton	Clinton Regional Airport	KCLK	580-323-5782	276	airport@clintonokla.org
-OK	Cookson	Tenkiller Lake Airpark	44M	918-457-5444	216	
-OK	Cushing	Cushing Municipal Airport	KCUH	918-225-6979, 405-326-6579	444	
-OK	Duncan	Halliburton Field Airport	KDUC	580-252-9896	720	
-OK	Durant	Durant Regional Airport - Eaker Field	KDUA	580-920-0574, 580-230-1188	4530	aviation182dw@yahoo.com
-OK	El Reno	El Reno Regional Airport	KRQO	405-262-4272	2040	
-OK	Elk City	Elk City Regional Business Airport	KELK	580-225-7700	660	
-OK	Enid	Enid Woodring Regional Airport	KWDG	580-234-5476	2610	wdgairport@enid.org
-OK	Fairview	Fairview Municipal Airport	6K4	580-227-3788	412	
-OK	Goldsby	David Jay Perry Airport	1K4	405-288-6675, 405-570-8399	1230	goldsbyairport@windstream.net
-OK	Grandfield	Grandfield Municipal Airport	1O1	580-479-5215	152	
-OK	Grove	Grove Municipal Airport	KGMJ	918-786-6150, 918-961-0837	2430	groveairport@groveemail.com
-OK	Guthrie	Guthrie-Edmond Regional Airport	KGOK	405-282-4250	1890	
-OK	Guymon	Guymon Municipal Airport	KGUY	580-338-7700, 580-338-0481	1590	
-OK	Haskell	Haskell Airport	2K9	918-231-3232	92	
-OK	Henryetta	Henryetta Municipal Airport	F10	918-652-8634	308	
-OK	Hinton	Hinton Municipal Airport	2O8	405-542-3993	192	
-OK	Hobart	Hobart Regional Airport	KHBR	580-726-2719	144	
-OK	Holdenville	Holdenville Municipal Airport	F99	405-380-7988	116	
-OK	Hollis	Hollis Municipal Airport	O35	580-688-2548	92	
-OK	Hominy	Hominy Municipal Airport	H92	918-885-2164	33	
-OK	Hooker	Hooker Municipal Airport	O45	580-652-2885	152	
-OK	Hugo	Stan Stamper Municipal Airport	KHHW	580-326-2335	372	
-OK	Idabel	Mc Curtain County Regional Airport	4O4	580-286-3558, 580-212-1482	124	airport@idabelok.net
-OK	Ketchum	South Grand Lake Regional Airport	1K8	918-693-1855	720	info@southgrandlakeairport.com
-OK	Kingfisher	Kingfisher Airport	F92	405-375-4901, 405-368-9491	244	mcbjust4fun@gmail.com
-OK	Lawton	Lawton-Fort Sill Regional Airport	KLAW	580-351-2900	2580	barbara@flylawton.org
-OK	Mangum	Scott Field Airport	2K4	580-782-2256	208	
-OK	Mc Alester	Mc Alester Regional Airport	KMLC	918-426-4337, 918-329-8330	690	
-OK	Medford	Medford Municipal Airport	O53	580-532-4483	83	
-OK	Miami	Miami Regional Airport	KMIO	918-541-2290	990	
-OK	Muskogee	Davis Field Airport	KMKO	918-682-4101, 918-869-8410	990	tbmmike@yahoo.com
-OK	Oklahoma City	Will Rogers World Airport	KOKC	405-787-4043	9450	todd.batek@atlanticaviation.com
-OK	Oklahoma City	Will Rogers World Airport	KOKC	405-218-3160	9450	fbo@aarcorp.com
-OK	Oklahoma City	Wiley Post Airport	KPWA	405-709-1550	5760	donnac@valairaviation.com
-OK	Oklahoma City	Wiley Post Airport	KPWA	405-787-4040	5760	Evin.jefferson@atlanticaviation.com
-OK	Oklahoma City	Sundance Airport	KHSD	405-373-3886	3240	jknudson@sundanceairport.com
-OK	Oklahoma City	Clarence E Page Municipal Airport	KRCE	405-350-2100	3510	mfitch@legacy-aviation
-OK	Okmulgee	Okmulgee Regional Airport	KOKM	918-756-0412, 918-756-1116	1020	airport@okmcity.net
-OK	Owasso	Gundy's Airport	O38	918-272-1523	990	
-OK	Perry	Perry Municipal Airport	F22	580-336-4001, 580-370-2259	2460	
-OK	Ponca City	Ponca City Regional Airport	KPNC	580-767-0429	4230	
-OK	Poteau	Robert S Kerr Airport	KRKR	918-647-4226	660	
-OK	Pryor	Mid-America Industrial Airport	H71	918-476-6090, 918-825-3500	392	
-OK	Sallisaw	Sallisaw Municipal Airport	KJSV	918-775-4384	184	
-OK	Sand Springs	William R Pogue Municipal Airport	KOWP	918-246-2605	2460	klmadison@sandspringsok.org
-OK	Sayre	Sayre Municipal Airport	3O4	580-928-2260	160	
-OK	Seminole	Seminole Municipal Airport	KSRE	405-382-2180	1410	
-OK	Shawnee	Shawnee Regional Airport	KSNL	405-878-1633, 405-878-1625	750	
-OK	Skiatook	Skiatook Municipal Airport	2F6	918-396-1274	344	
-OK	Snyder	Snyder Airport	4O1	580-569-2222	54	
-OK	Stigler	Stigler Regional Airport	KGZL	918-967-2164	504	
-OK	Stillwater	Stillwater Regional Airport	KSWO	405-624-5463	6570	info@stillwaterflightcenter.com
-OK	Stroud	Stroud Municipal Airport	KSUD	918-968-2890, 918-285-6200	116	fwood@cityofstroud.com
-OK	Tulsa	Tulsa International Airport	KTUL	918-510-1386, 918-831-7665	7440	Wendy.Carr@bizjet.com
-OK	Tulsa	Tulsa International Airport	KTUL	918-836-0222	7440	csr@legacytulsa.com
-OK	Tulsa	Tulsa International Airport	KTUL	918-835-7651	7440	slenard@tulsair.com
-OK	Tulsa	Tulsa International Airport	KTUL	918-836-6592	7440	Sherry.Levine@atlanticaviation.com
-OK	Tulsa	Tulsa International Airport	KTUL	918-835-2048	7440	greg@sparksaviation.com
-OK	Tulsa	Tulsa International Airport	KTUL	918-836-7345, 251-233-3786	7440	fbo@unitedstatesaviation.com
-OK	Tulsa	Richard Lloyd Jones Jr Airport	KRVS	918-298-6650	15450	Bryanchristiansen@christiansenaviation.com
-OK	Tulsa	Harvey Young Airport	1H6	918-437-2877	116	
-OK	Weatherford	Thomas P Stafford Airport	KOJA	580-774-1971, 580-774-7848	600	
-OK	Woodward	West Woodward Airport	KWWR	580-256-8286	460	
+Ada	 Heartland Aviation	580-235-5279, 580-421-7742	Ada Regional Airport	OK	1020	HeartlandAviation@cableone.net
+Afton	Grand Lake Regional Airport	918-257-8602	Grand Lake Regional Airport	OK	810	
+Altus	Altus/Quartz Mountain Regional Airport	580-482-8833	Altus/Quartz Mountain Regional Airport	OK	460	dadams@altusok.gov
+Alva	Alva Regional Airport	580-327-2898, 580-748-2709	Alva Regional Airport	OK	500	alvaair@sbcglobal.net
+Anadarko	City of Anadarko	405-247-2481	Anadarko Municipal Airport	OK	83	
+Antlers	Antlers Municipal Airport	580-298-5635	Antlers Municipal Airport	OK	100	
+Ardmore	 Lakeland Aviation, Inc.	580-389-5000	Ardmore Municipal Airport	OK	3750	lakeland@brightok.net
+Ardmore	 SBA-The Line Shack	580-389-5263, 580-362-6977	Ardmore Municipal Airport	OK	3750	info@smallbusinessaviation.com
+Ardmore	KMA Aviation LLC	580-223-5500, 580-465-7773	Ardmore Downtown Executive Airport	OK	990	kmaaviationllc@gmail.com
+Atoka	Atoka Municipal Airport	580-889-3250	Atoka Municipal Airport	OK	268	
+Bartlesville	 Phillips Aviation Services	918-661-3121	Bartlesville Municipal Airport	OK	1020	Michael.S.Richardson@conocophillips.com
+Blackwell	Blackwell Airport Trust	580-363-4242	Blackwell-Tonkawa Municipal Airport	OK	384	
+Bristow	City of Bristow (FBO)	918-340-0000	Jones Memorial Airport	OK	152	
+Burns Flat	Regional Air	580-562-4713	Clinton-Sherman Airport	OK	3030	
+Chandler	Chandler Regional Airport	405-258-3200	Chandler Regional Airport	OK	500	
+Chickasha	 Chickasha Municipal Airport	405-222-6006, 405-320-0274	Chickasha Municipal Airport	OK	840	airport@chickasha.org
+Claremore	 Claremore Regional Airport	918-343-0931	Claremore Regional Airport	OK	1230	ewinn@claremoreairport.com
+Clinton	 Clinton Regional Airport	580-323-5782	Clinton Regional Airport	OK	276	airport@clintonokla.org
+Cookson	Tenkiller Lake Airpark	918-457-5444	Tenkiller Lake Airpark	OK	216	
+Cushing	Cushing Flight Service	918-225-6979, 405-326-6579	Cushing Municipal Airport	OK	444	
+Duncan	Tubbs Aviation	580-252-9896	Halliburton Field Airport	OK	720	
+Durant	D/W Aviation	580-920-0574, 580-230-1188	Durant Regional Airport - Eaker Field	OK	4530	aviation182dw@yahoo.com
+El Reno	 El Reno Regional Airport	405-262-4272	El Reno Regional Airport	OK	2040	
+Elk City	Elk City Regional Business Airport	580-225-7700	Elk City Regional Business Airport	OK	660	
+Enid	 Enid Woodring Regional Airport	580-234-5476	Enid Woodring Regional Airport	OK	2610	wdgairport@enid.org
+Fairview	Regier Flying Service	580-227-3788	Fairview Municipal Airport	OK	412	
+Goldsby	Town of Goldsby (FBO)	405-288-6675, 405-570-8399	David Jay Perry Airport	OK	1230	goldsbyairport@windstream.net
+Grandfield	City of Grandfield	580-479-5215	Grandfield Municipal Airport	OK	152	
+Grove	 Grove Regional Airport	918-786-6150, 918-961-0837	Grove Municipal Airport	OK	2430	groveairport@groveemail.com
+Guthrie	Crabtree Aircraft Co.	405-282-4250	Guthrie-Edmond Regional Airport	OK	1890	
+Guymon	Centerline Aviation	580-338-7700, 580-338-0481	Guymon Municipal Airport	OK	1590	
+Haskell	Haskell Airport	918-231-3232	Haskell Airport	OK	92	
+Henryetta	Henryetta Municipal Airport	918-652-8634	Henryetta Municipal Airport	OK	308	
+Hinton	Hinton Airport	405-542-3993	Hinton Municipal Airport	OK	192	
+Hobart	City of Hobart	580-726-2719	Hobart Regional Airport	OK	144	
+Holdenville	Holdenville Municipal Airport	405-380-7988	Holdenville Municipal Airport	OK	116	
+Hollis	Gray Ag Air	580-688-2548	Hollis Municipal Airport	OK	92	
+Hominy	City of Hominy	918-885-2164	Hominy Municipal Airport	OK	33	
+Hooker	City of Hooker	580-652-2885	Hooker Municipal Airport	OK	152	
+Hugo	Stan Stamper Municipal Airport	580-326-2335	Stan Stamper Municipal Airport	OK	372	
+Idabel	 City of Idabel (FBO)	580-286-3558, 580-212-1482	Mc Curtain County Regional Airport	OK	124	airport@idabelok.net
+Ketchum	South Grand Lake Municipal Airport Managing Authority	918-693-1855	South Grand Lake Regional Airport	OK	720	info@southgrandlakeairport.com
+Kingfisher	City of Kingfisher (FBO)	405-375-4901, 405-368-9491	Kingfisher Airport	OK	244	mcbjust4fun@gmail.com
+Lawton	 Lawton Aviation Services	580-351-2900	Lawton-Fort Sill Regional Airport	OK	2580	barbara@flylawton.org
+Mangum	 City of Mangum (self-serve fuel)	580-782-2256	Scott Field Airport	OK	208	
+Mc Alester	BrenAir Aviation Services	918-426-4337, 918-329-8330	Mc Alester Regional Airport	OK	690	
+Medford	Andy Deterding Ag Aviation	580-532-4483	Medford Municipal Airport	OK	83	
+Miami	Miami Airport	918-541-2290	Miami Regional Airport	OK	990	
+Muskogee	 Davis Field Aviation, LLC	918-682-4101, 918-869-8410	Muskogee-Davis Regional Airport	OK	990	tbmmike@yahoo.com
+Oklahoma City	Atlantic Aviation	405-787-4043	Will Rogers World Airport	OK	9450	todd.batek@atlanticaviation.com
+Oklahoma City	 AAR Aircraft Services-Oklahoma	405-218-3160	Will Rogers World Airport	OK	9450	fbo@aarcorp.com
+Oklahoma City	VALAIR Aviation	405-709-1550	Wiley Post Airport	OK	5760	donnac@valairaviation.com
+Oklahoma City	Atlantic Aviation	405-787-4040	Wiley Post Airport	OK	5760	Evin.jefferson@atlanticaviation.com
+Oklahoma City	Sundance Airport LLC	405-373-3886	Sundance Airport	OK	3240	jknudson@sundanceairport.com
+Oklahoma City	Legacy Aviation Services, Inc.	405-350-2100	Clarence E Page Municipal Airport	OK	3510	mfitch@legacy-aviation
+Okmulgee	City of Okmulgee (FBO)	918-756-0412, 918-756-1116	Okmulgee Regional Airport	OK	1020	airport@okmcity.net
+Owasso	Gundy's Airport	918-272-1523	Gundy's Airport	OK	990	
+Perry	 Perry Municipal Airport	580-336-4001, 580-370-2259	Perry Municipal Airport	OK	2460	
+Ponca City	Ponca City Regional Airport	580-767-0429	Ponca City Regional Airport	OK	4230	
+Poteau	Poteau Aviation	918-647-4226	Robert S Kerr Airport	OK	660	
+Pryor	Mid-America Industrial Airport	918-476-6090, 918-825-3500	Mid-America Industrial Airport	OK	392	
+Sallisaw	City of Sallisaw	918-775-4384	Sallisaw Municipal Airport	OK	184	
+Sand Springs	City of Sand Springs (FBO)	918-246-2605	William R Pogue Municipal Airport	OK	2460	klmadison@sandspringsok.org
+Sayre	Sayre Municipal Airport	580-928-2260	Sayre Municipal Airport	OK	160	
+Seminole	Red Cloud Aviation	405-382-2180	Seminole Municipal Airport	OK	1410	
+Shawnee	 City of Shawnee FBO	405-878-1633, 405-878-1625	Shawnee Regional Airport	OK	750	
+Skiatook	City of Skiatook (FBO)	918-396-1274	Skiatook Municipal Airport	OK	344	
+Snyder	Snyder Spraying Service	580-569-2222	Snyder Airport	OK	54	
+Stigler	Stigler Municipal Airport	918-967-2164	Stigler Regional Airport	OK	504	
+Stillwater	 Stillwater Flight Center	405-624-5463	Stillwater Regional Airport	OK	6570	info@stillwaterflightcenter.com
+Stroud	City of Stroud	918-968-2890, 918-285-6200	Stroud Municipal Airport	OK	116	fwood@cityofstroud.com
+Tulsa	BizJet International	918-510-1386, 918-831-7665	Tulsa International Airport	OK	8700	Wendy.Carr@bizjet.com
+Tulsa	Legacy Jet Center	918-836-0222	Tulsa International Airport	OK	8700	csr@legacytulsa.com
+Tulsa	Tulsair Beechcraft, Inc	918-835-7651	Tulsa International Airport	OK	8700	slenard@tulsair.com
+Tulsa	Atlantic Aviation	918-836-6592	Tulsa International Airport	OK	8700	Sherry.Levine@atlanticaviation.com
+Tulsa	 United States Aviation	918-836-7345, 251-233-3786	Tulsa International Airport	OK	8700	fbo@unitedstatesaviation.com
+Tulsa	Sparks Aviation Center	918-835-2048	Tulsa International Airport	OK	8700	greg@sparksaviation.com
+Tulsa	 Christiansen Aviation	918-298-6650	Richard Lloyd Jones Jr Airport	OK	15450	Bryanchristiansen@christiansenaviation.com
+Tulsa	Harvey Young Airport	918-437-2877	Harvey Young Airport	OK	116	
+Weatherford	 Weatherford - Thomas P. Stafford Airport	580-774-1971, 580-774-7848	Thomas P Stafford Airport	OK	600	
+Woodward	West Woodward Airport	580-256-8286	West Woodward Airport	OK	460	

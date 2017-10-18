@@ -1,74 +1,74 @@
-TN	Athens	McMinn County Airport	KMMI	423-745-4939	1860	athensair@email.com
-TN	Bolivar	William L Whitehurst Field Airport	M08	731-658-7556	196	
-TN	Bristol/Johnson/Kingsport	Tri-Cities Airport	KTRI	423-325-6261, 423-325-6275	4110	mail@tricityaviation.com
-TN	Camden	Benton County Airport	0M4	731-584-5343	308	
-TN	Centerville	Centerville Municipal Airport	KGHM	931-729-3032, 615-418-2164	240	
-TN	Chattanooga	Lovell Field Airport	KCHA	423-855-2299	4500	cschattanooga@wilsonair.com
-TN	Chattanooga	Dallas Bay Sky Park Airport	1A0	423-842-9845	356	
-TN	Clarksville	Outlaw Field Airport	KCKV	931-431-2080	2670	airport@clarksvilleregional.com
-TN	Cleveland	Cleveland Regional Jetport	KRZR	423-472-4343	416	rzrfbo@flycfm.com
-TN	Collegedale	Collegedale Municipal Airport	KFGU	423-236-5008	1350	cswain@collegedaletn.gov
-TN	Columbia/Mount Pleasant	Maury County Airport	KMRC	931-379-5511	2070	psturner4@yahoo.com
-TN	Copperhill	Martin Campbell Field Airport	1A3	423-496-9465, 423-210-7681	284	whitewater1a3@windstream.net
-TN	Covington	Covington Municipal Airport	M04	901-476-1392	1080	covingtonmuniapt@aol.com
-TN	Crossville	Crossville Memorial Airport-Whitson Field	KCSV	931-484-5016	2340	cbennett38572@yahoo.com
-TN	Dayton	Mark Anton Airport	2A0	423-775-8407	660	
-TN	Dickson	Dickson Municipal Airport	M02	615-446-6611	900	
-TN	Dyersburg	Dyersburg Regional Airport	KDYR	731-287-8181, 731-287-8183	630	tgibbons@dyersburgtn.gov
-TN	Elizabethton	Elizabethton Municipal Airport	0A9	423-543-2801	2370	dcogan@elizabethtonairport.com
-TN	Fayetteville	Fayetteville Municipal Airport	KFYM	931-433-1960	2610	
-TN	Gallatin	Sumner County Regional Airport	M33	615-451-1490	2760	
-TN	Greeneville	Greeneville-Greene County Municipal Airport	KGCY	423-639-6275	2790	greenevilleaviation@comcast.net
-TN	Halls	Arnold Field Airport	M31	731-836-9673	810	
-TN	Hohenwald	John A Baker Field Airport	0M3	931-628-6928, 931-796-5645	212	
-TN	Humboldt	Humboldt Municipal Airport	M53	731-618-9089	212	
-TN	Huntingdon	Carroll County Airport	KHZD	731-352-7278	1140	
-TN	Jacksboro	Campbell County Airport	KJAU	423-562-9966	476	
-TN	Jackson	Mc Kellar-Sipes Regional Airport	KMKL	731-427-0191, 731-423-0995	1410	Steve@mckellarsipes.com
-TN	Jamestown	Jamestown Municipal Airport	2A1	931-879-8948	156	
-TN	Jasper	Marion County Airport-Brown Field	KAPT	423-942-5234	690	
-TN	Knoxville	Mc Ghee Tyson Airport	KTYS	865-970-9000	7950	tysfbo@tacair.com
-TN	Knoxville	Knoxville Downtown Island Airport	KDKX	865-577-4461	5850	tim.hair@tys.org
-TN	Lafayette	Lafayette Municipal Airport	3M7	615-666-6542	840	
-TN	Lawrenceburg	Lawrenceburg-Lawrence County Airport	2M2	931-762-5133	630	
-TN	Lebanon	Lebanon Municipal Airport	M54	615-444-0031, 615-443-2117	1320	heather@directflightsolutions.com
-TN	Lewisburg	Ellington Airport	KLUG	931-359-5003, 931-637-3680	1320	
-TN	Lexington-Parsons	Beech River Regional Airport	KPVE	731-845-5740, 731-845-4937	232	beechriverairport@gmail.com
-TN	Livingston	Livingston Municipal Airport	8A3	931-823-3671	316	
-TN	Madisonville	Monroe County Airport	KMNV	423-420-0563	1620	cathyj@monroegovernment.org
-TN	Mc Kinnon	Houston County Airport	M93	931-289-3633	160	
-TN	Mc Minnville	Warren County Memorial Airport	KRNC	931-668-7050	2130	wcma4187@outlook.com
-TN	Memphis	Memphis International Airport	KMEM	901-345-2992	18360	csmemphis@wilsonair.com
-TN	Memphis	Memphis International Airport	KMEM	901-345-4700	18360	MEM@signatureflight.com
-TN	Memphis	General Dewitt Spain Airport	M01	901-358-0028	2310	WalterC@mscaa.com
-TN	Millington	Millington Regional Jetport Airport	KNQA	901-873-4359	2220	fly@ctiaviationservices.com
-TN	Millington	Millington Regional Jetport Airport	KNQA	901-873-4144	2220	bantis@tulsairmemphis.com
-TN	Millington	Charles W Baker Airport	2M8	901-873-1768	2310	WalterC@mscaa.com
-TN	Morristown	Moore-Murrell Airport	KMOR	423-586-2483	4080	
-TN	Murfreesboro	Murfreesboro Municipal Airport	KMBT	615-848-3254	4440	cgehrke@murfreesborotn.gov
-TN	Nashville	Nashville International Airport	KBNA	615-361-3000	15990	nashville@signatureflight.com
-TN	Nashville	Nashville International Airport	KBNA	615-360-8109	15990	zachary.neds@atlanticaviation.com
-TN	Nashville	John C Tune Airport	KJWN	615-350-5000	6900	jwnfbo@flycfm.com
-TN	Oneida	Scott Municipal Airport	KSCX	423-569-8270	484	
-TN	Oneida	Scott Municipal Airport	KSCX	423-286-2727	484	sales@bsfairpark.com
-TN	Paris	Henry County Airport	KPHT	731-644-7933	600	hcairport@yahoo.com
-TN	Portland	Portland Municipal Airport	1M5	615-323-7500	1050	
-TN	Pulaski	Abernathy Field Airport	KGZS	931-363-6827	720	
-TN	Rockwood	Rockwood Municipal Airport	KRKW	865-354-3023, 423-369-4880	1440	RockwoodAviation@aceweb.com
-TN	Rogersville	Hawkins County Airport	KRVN	423-345-0219	900	
-TN	Savannah	Savannah-Hardin County Airport	KSNH	731-925-6380, 731-925-8670	780	
-TN	Selmer	Robert Sibley Airport	KSZY	731-645-3014	600	
-TN	Sevierville	Gatlinburg-Pigeon Forge Airport	KGKT	865-453-8393, 865-453-8399	9060	gktairport@aol.com
-TN	Shelbyville	Bomar Field-Shelbyville Municipal Airport	KSYI	931-684-1669	4230	SYI@shelbyvilletnairport.org
-TN	Smithville	Smithville Municipal Airport	0A3	615-597-4940	276	
-TN	Smyrna	Smyrna Airport	KMQY	615-459-3337	6150	csr@hollingsheadaviation.com
-TN	Smyrna	Smyrna Airport	KMQY	615-220-2957	6150	mqyfbo@flycfm.com
-TN	Somerville	Fayette County Airport	KFYE	901-466-7007	810	dbooth@fayettetn.us
-TN	Sparta	Upper Cumberland Regional Airport	KSRB	931-739-7000	2130	
-TN	Springfield	Springfield Robertson County Airport	M91	615-384-3200	1170	
-TN	Tazewell	New Tazewell Municipal Airport	3A2	423-489-9256	960	
-TN	Trenton	Gibson County Airport	KTGC	731-723-9596	750	
-TN	Tullahoma	Tullahoma Regional Airport/William Northern Field	KTHA	931-455-3884, 931-581-5111	2190	taa@lighttube.net
-TN	Union City	Everett-Stewart Regional Airport	KUCY	731-885-1221	2340	ESRA@estewartregionalairport.us
-TN	Waverly	Humphreys County Airport	0M5	931-296-2719	480	
-TN	Winchester	Winchester Municipal Airport	KBGF	931-967-3148	1080	airport@yahoo.com
+Athens	Athens Air, LLC	423-745-4939	McMinn County Airport	TN	1860	athensair@email.com
+Bolivar	Hardeman County	731-658-7556	William L Whitehurst Field Airport	TN	196	
+Bristol/Johnson/Kingsport	 Tri-City Aviation	423-325-6261, 423-325-6275	Tri-Cities Airport	TN	4110	mail@tricityaviation.com
+Camden	Benton County Airport	731-584-5343	Benton County Airport	TN	308	
+Centerville	Centerville Municipal Airport	931-729-3032, 615-418-2164	Centerville Municipal Airport	TN	240	
+Chattanooga	 Wilson Air Center - Chattanooga	423-855-2299	Lovell Field Airport	TN	4500	cschattanooga@wilsonair.com
+Chattanooga	Hixson Aviation	423-842-9845	Dallas Bay Sky Park Airport	TN	356	
+Clarksville	Clarksville Regional Airport	931-431-2080	Outlaw Field Airport	TN	2670	airport@clarksvilleregional.com
+Cleveland	 Contour Flight Support	423-472-4343	Cleveland Regional Jetport	TN	416	rzrfbo@flycfm.com
+Collegedale	Collegedale Municipal Airport	423-236-5008	Collegedale Municipal Airport	TN	1350	cswain@collegedaletn.gov
+Columbia/Mount Pleasant	Maury County Regional Airport	931-379-5511	Maury County Airport	TN	2070	psturner4@yahoo.com
+Copperhill	Whitewater Aviation Corporation	423-496-9465, 423-210-7681	Martin Campbell Field Airport	TN	284	whitewater1a3@windstream.net
+Covington	Covington Municipal Airport	901-476-1392	Covington Municipal Airport	TN	1080	covingtonmuniapt@aol.com
+Crossville	Crossville Aero	931-484-5016	Crossville Memorial Airport-Whitson Field	TN	2340	cbennett38572@yahoo.com
+Dayton	City of Dayton (FBO)	423-775-8407	Mark Anton Airport	TN	660	
+Dickson	Dickson County Municipal Airport Authority	615-446-6611	Dickson Municipal Airport	TN	900	
+Dyersburg	Dyersburg Regional Airport	731-287-8181, 731-287-8183	Dyersburg Regional Airport	TN	630	tgibbons@dyersburgtn.gov
+Elizabethton	Elizabethton Municipal Airport	423-543-2801	Elizabethton Municipal Airport	TN	2370	dcogan@elizabethtonairport.com
+Fayetteville	Fayetteville Aviation	931-433-1960	Fayetteville Municipal Airport	TN	2610	
+Gallatin	Nashville Jet	615-451-1490	Sumner County Regional Airport	TN	2760	
+Greeneville	Greeneville Aviation Services	423-639-6275	Greeneville-Greene County Municipal Airport	TN	2790	greenevilleaviation@comcast.net
+Halls	Arnold Field Airport	731-836-9673	Arnold Field Airport	TN	780	
+Hohenwald	John A. Baker Field	931-628-6928, 931-796-5645	John A Baker Field Airport	TN	212	
+Humboldt	City of Humboldt	731-618-9089	Humboldt Municipal Airport	TN	212	
+Huntingdon	Swor Aviation	731-352-7278	Carroll County Airport	TN	1140	
+Jacksboro	Campbell County Aviation, Inc.	423-562-9966	Campbell County Airport	TN	476	
+Jackson	 Mc Kellar-Sipes FBO	731-427-0191, 731-423-0995	Mc Kellar-Sipes Regional Airport	TN	1410	Steve@mckellarsipes.com
+Jamestown	Jamestown Municipal Airport	931-879-8948	Jamestown Municipal Airport	TN	156	
+Jasper	Marion County Airport	423-942-5234	Marion County Airport-Brown Field	TN	690	
+Knoxville	TAC Air	865-970-9000	Mc Ghee Tyson Airport	TN	7950	tysfbo@tacair.com
+Knoxville	Metropolitan Knoxville Airport Authority	865-577-4461	Knoxville Downtown Island Airport	TN	5850	tim.hair@tys.org
+Lafayette	Sky Chaser Aviation	615-666-6542	Lafayette Municipal Airport	TN	840	
+Lawrenceburg	Lawrenceburg/Lawrence County Airport	931-762-5133	Lawrenceburg-Lawrence County Airport	TN	630	
+Lebanon	 Direct Flight Solutions	615-444-0031, 615-443-2117	Lebanon Municipal Airport	TN	1320	heather@directflightsolutions.com
+Lewisburg	Stewmon Aircraft	931-359-5003, 931-637-3680	Ellington Airport	TN	1320	
+Lexington-Parsons	Beech River Airport	731-845-5740, 731-845-4937	Beech River Regional Airport	TN	232	beechriverairport@gmail.com
+Livingston	Livingston Municipal Airport	931-823-3671	Livingston Municipal Airport	TN	316	
+Madisonville	Monroe County	423-420-0563	Monroe County Airport	TN	1620	cathyj@monroegovernment.org
+Mc Kinnon	McKinnon Airport	931-289-3633	Houston County Airport	TN	160	
+Mc Minnville	Warren County Memorial Airport	931-668-7050	Warren County Memorial Airport	TN	2130	wcma4187@outlook.com
+Memphis	Wilson Air Center	901-345-2992	Memphis International Airport	TN	18450	csmemphis@wilsonair.com
+Memphis	Signature Flight Support	901-345-4700	Memphis International Airport	TN	18450	MEM@signatureflight.com
+Memphis	Memphis Shelby County Airport Authority	901-358-0028	General Dewitt Spain Airport	TN	2310	WalterC@mscaa.com
+Millington	CTI Aviation Services	901-873-4359	Millington Regional Jetport Airport	TN	2220	fly@ctiaviationservices.com
+Millington	 Tulsair Beechcraft - Memphis	901-873-4144	Millington Regional Jetport Airport	TN	2220	bantis@tulsairmemphis.com
+Millington	Memphis/Shelby County Airport Authority	901-873-1768	Charles W Baker Airport	TN	2310	WalterC@mscaa.com
+Morristown	Morristown Flying Service	423-586-2483	Moore-Murrell Airport	TN	4080	
+Murfreesboro	Murfreesboro Municipal Airport	615-848-3254	Murfreesboro Municipal Airport	TN	4440	cgehrke@murfreesborotn.gov
+Nashville	Signature Flight Support	615-361-3000	Nashville International Airport	TN	15990	nashville@signatureflight.com
+Nashville	Atlantic Aviation	615-360-8109	Nashville International Airport	TN	15990	zachary.neds@atlanticaviation.com
+Nashville	Contour Flight Support	615-350-5000	John C Tune Airport	TN	6900	jwnfbo@flycfm.com
+Oneida	Scott County Airport	423-569-8270	Scott Municipal Airport	TN	484	
+Oneida	Big South Fork Airpark	423-286-2727	Scott Municipal Airport	TN	484	sales@bsfairpark.com
+Paris	Henry County (FBO)	731-644-7933	Henry County Airport	TN	388	hcairport@yahoo.com
+Portland	J.R. Services	615-323-7500	Portland Municipal Airport	TN	1050	
+Pulaski	City of Pulaski (FBO)	931-363-6827	Abernathy Field Airport	TN	720	
+Rockwood	Rockwood Aviation, LLC	865-354-3023, 423-369-4880	Rockwood Municipal Airport	TN	1440	RockwoodAviation@aceweb.com
+Rogersville	Hawkins County Airport	423-345-0219	Hawkins County Airport	TN	900	
+Savannah	Savannah-Hardin County Airport	731-925-6380, 731-607-1940	Savannah-Hardin County Airport	TN	780	
+Selmer	Robert Sibley Airport	731-645-3014	Robert Sibley Airport	TN	600	
+Sevierville	 Gatlinburg Pigeon Forge Airport	865-453-8393, 865-453-8399	Gatlinburg-Pigeon Forge Airport	TN	9060	
+Shelbyville	Shelbyville Municipal Airport	931-684-1669	Bomar Field-Shelbyville Municipal Airport	TN	4230	SYI@shelbyvilletnairport.org
+Smithville	Smithville Municipal Airport	615-597-4940	Smithville Municipal Airport	TN	276	
+Smyrna	Hollingshead Aviation (formerly Smyrna Air Center)	615-459-3337	Smyrna Airport	TN	6150	csr@hollingsheadaviation.com
+Smyrna	Contour Flight Support	615-220-2957	Smyrna Airport	TN	6150	mqyfbo@flycfm.com
+Somerville	Fayette County Airport	901-466-7007	Fayette County Airport	TN	810	dbooth@fayettetn.us
+Sparta	Upper Cumberland Regional Airport	931-739-7000	Upper Cumberland Regional Airport	TN	2130	
+Springfield	Wingnuts Aviation, LLC	615-384-3200	Springfield Robertson County Airport	TN	1170	
+Tazewell	Twin Cities Aviation	423-489-9256	New Tazewell Municipal Airport	TN	960	
+Trenton	Gibson County Airport	731-723-9596	Gibson County Airport	TN	750	
+Tullahoma	 Tullahoma Municipal Airport Authority	931-455-3884, 931-581-5111	Tullahoma Regional Airport/William Northern Field	TN	2190	taa@lighttube.net
+Union City	 Everett-Stewart Regional Airport	731-885-1221	Everett-Stewart Regional Airport	TN	2340	ESRA@estewartregionalairport.us
+Waverly	Humphreys County Airport	931-296-2719	Humphreys County Airport	TN	480	
+Winchester	 Winchester Municipal Airport Authority	931-967-3148	Winchester Municipal Airport	TN	1080	airport@yahoo.com

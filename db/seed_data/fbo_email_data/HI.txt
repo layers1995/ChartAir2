@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-HI	Hilo	Hilo International Airport	PHTO	808-961-6601	6120	hilo@airservicehawaii.com
-HI	Hilo	Hilo International Airport	PHTO	808-934-7757	6120	ITO@signatureflight.com
-HI	Honolulu	Daniel K Inouye International Airport	PHNL	808-839-5003	25110	honolulu@airservicehawaii.com
-HI	Honolulu	Daniel K Inouye International Airport	PHNL	808-548-2948	25110	customerserviceHNL@castlecooke.com
-HI	Honolulu	Daniel K Inouye International Airport	PHNL	808-839-2222	25110	HNL@signatureflight.com
-HI	Kahului	Kahului Airport	PHOG	808-871-5572	11130	maui@airservicehawaii.com
-HI	Kahului	Kahului Airport	PHOG	808-873-6060	11130	OGG@signatureflight.com
-HI	Kailua/Kona	Kona International Airport at Keahole	PHKO	808-334-0699	9930	kona@airservicehawaii.com
-HI	Kailua/Kona	Kona International Airport at Keahole	PHKO	808-329-4682	9930	KOA@signatureflight.com
-HI	Kapolei	Kalaeloa Airport (John Rodgers Field)	PHJR	808-518-4660, 808-375-9244	10560	rperry@bpaviation.com
-HI	Lanai City	Lanai Airport	PHNY	800-578-8405, 808-565-6911	484	maui@airservicehawaii.com
-HI	Lanai City	Lanai Airport	PHNY	808-565-7171	484	LNY@signatureflight.com
-HI	Lanai City	Lanai Airport	PHNY	808-548-2948	484	CustomerServiceHNL@castlecooke.com
-HI	Lihue	Lihue Airport	PHLI	808-246-0016	10620	kauai@airservicehawaii.com
-HI	Lihue	Lihue Airport	PHLI	808-245-7440	10620	LIH@signatureflight.com
-HI	Mokuleia	Dillingham Airfield	PHDH	808-637-8868, 808-341-9261	3090	
-HI	Mokuleia	Dillingham Airfield	PHDH	808-677-3404	3090	
-=======
 Hilo	Air Service Hawaii	808-961-6601	Hilo International Airport	HI	6120	hilo@airservicehawaii.com
 Hilo	Signature Flight Support	808-934-7757	Hilo International Airport	HI	6120	ITO@signatureflight.com
 Honolulu	Air Service Hawaii	808-839-5003	Daniel K Inouye International Airport	HI	25110	honolulu@airservicehawaii.com
@@ -51,4 +32,3 @@ Lihue	Air Service Hawaii	808-246-0016	Lihue Airport	HI	10620	kauai@airservicehaw
 Lihue	Signature Flight Support	808-245-7440	Lihue Airport	HI	10620	LIH@signatureflight.com
 Mokuleia	North Shore Aviation Services Corporation	808-637-8868, 808-341-9261	Dillingham Airfield	HI	3090	
 Mokuleia	Honolulu Soaring	808-677-3404	Dillingham Airfield	HI	3090	
->>>>>>> finalizeGeneralSchema
