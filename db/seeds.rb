@@ -411,7 +411,7 @@ def addFeesAndUpdateFbos(filename)
 				#puts curFbo.name
 				# do nothing
 
-			# If the FBO has fees, AKA most of the time.
+			# If the FBO has fees, so most of the time.
 			else
 				#curFbo.update( :classification => feeClassification )
 				
