@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170920221805) do
+ActiveRecord::Schema.define(version: 20171018225508) do
 
   create_table "airplane_users", force: :cascade do |t|
     t.integer "airplane_id",  null: false
@@ -82,6 +82,7 @@ ActiveRecord::Schema.define(version: 20170920221805) do
     t.datetime "updated_at",        null: false
     t.integer  "airport_id"
     t.integer  "classification_id"
+    t.string   "email"
     t.index ["airport_id"], name: "index_fbos_on_airport_id"
     t.index ["classification_id"], name: "index_fbos_on_classification_id"
   end
