@@ -20,19 +20,16 @@
         
         <p class="loginInfo"><%= f.text_field :name, id: "input", :placeholder=>"Username"%></p>
         <p class="loginInfo"><%= f.password_field :password, id: "input", :placeholder=>"Password"%></p>
-  
+        
         <%= f.submit "Log in", class: "loginInfo" %>
         
+        <p><%= link_to "Not a member? Click here to join!", new_user_path %></p>
       </div>
       
     <% end %>
     
   </div>
-  
-  <div id="belowBox">
-		<p><%= link_to "Not a member? Click here to join!", new_user_path %></p>
-	</div>
-		
+
   
 </div>
 

@@ -1,0 +1,21 @@
+<%= render 'layouts/header' %>
+<%= stylesheet_link_tag 'base'%>
+
+<h1 class="title">Update Your Fees</h1>
+
+<div id="options">
+    <table>
+        <tr>
+            <td class="columnTitles">Template</td>
+            <td class="columnTitles">Photo</td>
+            <td class="columnTitles">Email</td>
+            <td class="columnTitles">Fax</td>
+        </tr>
+        <tr style="background:white;">
+            <td class="center"><%= link_to(image_tag("form.png", :class => "small"), update_with_template_path(:fbo_id => @fbo.friendly_id), method: :get)%></td>
+            <td class="center"><%= link_to(image_tag("camera.png", :class => "small"), update_with_photo_path(:fbo_id => @fbo.friendly_id), method: :get)%></td>
+            <td class="center"><%= link_to(image_tag("envelope.png", :class => "small"), update_with_email_path(:fbo_id => @fbo.friendly_id), method: :get)%></td>
+            <td class="center"><%= link_to(image_tag("fax.png", :class => "small"), update_with_fax_path(:fbo_id => @fbo.friendly_id), method: :get)%></td>
+        </tr>
+    </table>
+</div>

@@ -7,11 +7,13 @@
   
   <body>
       
-    <h1>Hello <%= @user.name %>!</h1>
+    <p>Hello <%= @user.name %>!</p>
     
-    <p> Your trip to <%=@airport%>, landing at <%=@fbo%> has been confirmed </p>
+    <p>Your trip to <%=@airport.name.titleize%>, landing at <%=@fbo.name.titleize%> has been confirmed!</p>
     
-    <p>Your price has been confirmed at <%=@cost%>!</p>
+    <p>Your price has been confirmed at $<%=@cost%>!</p>
+    
+    <p>For more information click: <%=@url%></p>
     
     <p>Thank you for booking with ChartAir!</p>
     

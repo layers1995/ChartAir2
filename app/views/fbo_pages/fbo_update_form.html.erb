@@ -1,0 +1,33 @@
+<%= render 'layouts/header' %>
+<%= stylesheet_link_tag 'base'%>
+
+<h1>Welcome</h1>
+
+<ul>
+    <li>Overwhelmed?</li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+<%= form_for(@fees) do |f| %>
+
+    <h1>Landing Fees</h1>
+    
+    <h1>Ramp Fees</h1>
+    
+    <h1>Facility Fees</h1>
+    
+    <h1>Tie Down Fees</h1>
+    
+    <h1>Call Out Fees</h1>
+    
+    <h1>Other Fees</h1>
+    
+    <h1>Fuel Waiver</h1>
+    
+    <%= f.submit "Create my account", class: "btn btn-primary" %>
+
+<% end %>
+
+

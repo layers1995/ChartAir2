@@ -6,9 +6,6 @@ class StaticPagesController < ApplicationController
   def help
   end
 
-  def feedback
-  end
-
   def about_us
   end
   
