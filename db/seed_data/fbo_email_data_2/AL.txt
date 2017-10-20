@@ -1,0 +1,70 @@
+AL	Alabaster	Shelby County Airport	KEET	Shelby County Airport	205-670-6359		1710
+AL	Albertville	Albertville Regional Airport-Thomas J Brumlik Field	8A0	Albertville Aviation, Inc.	256-878-1433		2100
+AL	Alexander City	Thomas C Russell Field Airport	KALX	Alexander City Flying Service	256-329-9057		2730
+AL	Aliceville	George Downer Airport	KAIV	City of Aliceville	205-373-6611		412
+AL	Andalusia/Opp	South Alabama Regional Airport at Bill Benton Field	79J	South Alabama Regional Airport	334-222-6598, 334-222-0638	jed.blackwell@flysara.com	5160
+AL	Anniston	Anniston Regional Airport	KANB	Anniston Aviation	256-831-4410		1890
+AL	Atmore	Atmore Municipal Airport	0R1	Atmore Municipal Airport	251-368-2004		296
+AL	Bay Minette	Bay Minette Municipal Airport	1R8	 SkyWarrior Flight Support	251-937-2900	jessica@bayminetteaviation.com	14400
+AL	Bayou La Batre	Roy E Ray Airport	5R7	Roy E. Ray Airport	251-824-4538		536
+AL	Bessemer	Bessemer Airport	KEKY	The Bessemer Airport FBO	205-428-9292		8430
+AL	Birmingham	Birmingham-Shuttlesworth International Airport	KBHM	Atlantic Aviation - West	205-849-5520	Darryl.Brewer@atlanticaviation.com	7770
+AL	Birmingham	Birmingham-Shuttlesworth International Airport	KBHM	Atlantic Aviation - East	205-591-6830	Darryl.Brewer@atlanticaviation.com	7770
+AL	Brewton	Brewton Municipal Airport	12J	Brewton Municipal Airport	251-867-9997		13590
+AL	Centre	Centre-Piedmont-Cherokee County Regional Airport	KPYP	Centre-Piedmont-Cherokee County Regional Airport	256-927-8009, 256-239-8416		
+AL	Clanton	Chilton County Airport	02A	B&G Flying Service, Inc.	205-755-8913		1980
+AL	Courtland	Courtland Airport	9A4	AC Custom Services	256-566-4063		990
+AL	Cullman	Cullman Regional Airport-Folsom Field	KCMD	 Cullman Regional Airport/Folsom Field	256-775-1011	bharrison@cullmanregionalairport.org	3120
+AL	Decatur	Pryor Field Regional Airport	KDCU	 North Alabama Aviation	256-355-5770, 256-306-9070	smithsp@hiwaay.net	13770
+AL	Demopolis	Demopolis Regional Airport	KDYA	Pendergrass Aviation, Inc.	334-289-0455		404
+AL	Dothan	Dothan Regional Airport	KDHN	Aero-One Aviation	334-983-4541, 334-806-9169	Scott.Capehart@aero-oneaviation	3990
+AL	Elba	Carl Folsom Airport	14J	Elba Airport Authority	334-897-3052		412
+AL	Enterprise	Enterprise Municipal Airport	KEDN	City of Enterprise (FBO)	334-348-2676, 334-347-1211		3570
+AL	Eufaula	Weedon Field Airport	KEUF	Eufaula Jet Center	334-687-2051, 334-689-1084		3000
+AL	Evergreen	Middleton Field Airport	KGZH	City of Evergreen (FBO)	251-578-1274		11010
+AL	Fairhope	H L Sonny Callahan Airport	KCQF	Continental Motors	251-990-5080	kklinner@cmg.aero	3840
+AL	Florala	Florala Municipal Airport	0J4	 Sunshine Aero Industries	334-858-6720, 850-834-3505	ddavis@gtcom.net	1800
+AL	Foley	Foley Municipal Airport	5R4	Lightning Aviation	251-943-5214		2040
+AL	Fort Payne	Isbell Field Airport	4A9	Fort Payne Airport	256-845-9129		1350
+AL	Gadsden	Northeast Alabama Regional Airport	KGAD	 Northeast Alabama Regional Aviation	256-442-3313	randallgober@bellsouth.net	1950
+AL	Geneva	Geneva Municipal Airport	33J	Geneva Municipal Airport	334-684-3591		750
+AL	Greensboro	Greensboro Municipal Airport	7A0	Seale Flying Services	334-624-8453		160
+AL	Greenville	Mac Crenshaw Memorial Airport	KPRN	Aircraft Repair Service	334-382-8166		328
+AL	Gulf Shores	Jack Edwards Airport	KJKA	Gulf Air Center	251-968-5200	csr@gulfaircenter.com	7620
+AL	Gulf Shores	Jack Edwards Airport	KJKA	Salt Air Aviation Center	251-948-0444, 251-379-0372	info@saltairaviation.com	7620
+AL	Gulf Shores	Jack Edwards Airport	KJKA	Platinum Air Center-JKA LLC	251-948-0050, 251-923-0050	info.jka@platinumaircenter.com	7620
+AL	Guntersville	Guntersville Municipal Airport - Joe Starnes Field	8A1	Guntersville Municipal Airport	256-582-6087		750
+AL	Haleyville	Posey Field Airport	1M4	Bailey Aviation	205-486-8054		840
+AL	Hamilton	Marion County-Rankin Fite Airport	KHAB	Marion County (FBO)	205-921-9585		1800
+AL	Hartselle	Hartselle-Morgan County Regional Airport	5M0	Blackstone Rotorcraft	256-773-1130	Melinda.Haynes@yahoo.com	1260
+AL	Hazel Green	Hazel Green Airport	M38	Hazel Green Flyers	256-534-2801		930
+AL	Headland	Headland Municipal Airport	0J6	Headland Municipal Airport	334-693-9415, 850-210-2908	flyheadland@gmail.com	3390
+AL	Huntsville	Huntsville International Airport-Carl T Jones Field	KHSV	Signature Flight Support	256-772-9341	HSV@signatureflight.com	5010
+AL	Huntsville	Huntsville Executive Airport / Tom Sharp Jr Field	KMDQ	Executive Flight Center	256-828-1403, 256-828-3883	info@executiveflightcenter.com	2820
+AL	Huntsville	Moontown Airport	3M5	Moontown Airport	256-852-9781		1290
+AL	Jackson	Jackson Municipal Airport	4R3	City of Jackson	251-246-2461		216
+AL	Jasper	Walker County Airport-Bevill Field	KJFX	Sanders Aviation	205-384-4359, 205-913-6058	sandersaviation@aol.com	2760
+AL	Lanett	Lanett Municipal Airport	7A3	City of Lanett (self-serve fuel)	706-585-7017		252
+AL	Luverne	Frank Sikes Airport	04A	Frank Sikes Airport	334-335-4668		432
+AL	Marion	Vaiden Field Airport	A08	Vaiden Field Airport	334-313-4260, 334-683-8322		840
+AL	Mobile	Mobile Regional Airport	KMOB	Signature Flight Support	251-633-5000	MOB@signatureflight.com	9210
+AL	Mobile	Mobile Downtown Airport	KBFM	Signature Flight Support	251-433-2800	bfm@signatureflight.com	3720
+AL	Monroeville	Monroe County Aeroplex Airport	KMVC	Monroeville Aviation	251-575-4235		1650
+AL	Montgomery	Montgomery Regional Airport (Dannelly Field)	KMGM	Montgomery Aviation	334-288-7334		5130
+AL	Muscle Shoals	Northwest Alabama Regional Airport	KMSL	Shoals Flight Center	256-383-2270	customerservice@flytheshoals.com	3660
+AL	Ozark	Blackwell Field Airport	71J	 City of Ozark (FBO)	334-445-5045, 334-618-1613		7530
+AL	Pell City	St Clair County Airport	KPLR	St. Clair County Airport	205-338-9456	stclaircoairport@plrairport.com	2850
+AL	Prattville	Prattville Airport - Grouby Field	1A9	Prattville Aviation, LLC	334-361-0060, 334-361-4546	prattvilleaviation@gmail.com	1800
+AL	Reform	North Pickens Airport	3M8	Peco	205-399-0357		264
+AL	Russellville	Bill Pugh Field Airport	M22	Blue Diamond Aviation	256-331-9000, 256-710-4739	bluediamond32q@cs.com	1650
+AL	Scottsboro	Scottsboro Municipal Airport-Word Field	4A6	Scottsboro Municipal Airport	256-259-3702		630
+AL	Selma	Craig Field Airport	KSEM	Southeastern Aviation Services	334-875-2189, 334-651-1511	dustin.southeasternaviation@gmail.com	3180
+AL	St Elmo	St Elmo Airport	2R5	St. Elmo Airport	334-242-6820		1680
+AL	Sylacauga	Merkel Field Sylacauga Municipal Airport	KSCD	Sylacauga Airport	256-245-3246	sylacaugaairportkscd@gmail.com	2340
+AL	Talladega	Talladega Municipal Airport	KASN	Talladega Municipal Airport	256-761-4815		3360
+AL	Troy	Troy Municipal Airport at N Kenneth Campbell Field	KTOI	Pike Aviation	334-566-3470		5670
+AL	Tuscaloosa	Tuscaloosa Regional Airport	KTCL	Dixie Air Services	205-333-3000	dixieairservices@comcast.net	4380
+AL	Tuscaloosa	Tuscaloosa Regional Airport	KTCL	Hawthorne Global Aviation Services	205-349-3991	KTCL@hawthorne.aero	4380
+AL	Tuskegee	Moton Field Municipal Airport	06A	Golden Eagle Aviation	334-727-6485	info@goldeneagleaviation.com	1590
+AL	Union Springs	Franklin Field Airport	07A	Franklin Field Airport Authority	334-750-2109	thomasmain@franklinfieldairport.com	500
+AL	Wetumpka	Wetumpka Municipal Airport	08A	Wetumpka Municipal Airport	334-285-5843		3240

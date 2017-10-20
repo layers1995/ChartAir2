@@ -1,0 +1,17 @@
+HI	Hilo	Hilo International Airport	PHTO	Air Service Hawaii	808-961-6601	hilo@airservicehawaii.com	6120
+HI	Hilo	Hilo International Airport	PHTO	Signature Flight Support	808-934-7757	ITO@signatureflight.com	6120
+HI	Honolulu	Daniel K Inouye International Airport	PHNL	Air Service Hawaii	808-839-5003	honolulu@airservicehawaii.com	25110
+HI	Honolulu	Daniel K Inouye International Airport	PHNL	Castle & Cooke Aviation	808-548-2948	customerserviceHNL@castlecooke.com	25110
+HI	Honolulu	Daniel K Inouye International Airport	PHNL	Signature Flight Support	808-839-2222	HNL@signatureflight.com	25110
+HI	Kahului	Kahului Airport	PHOG	Air Service Hawaii	808-871-5572	maui@airservicehawaii.com	11130
+HI	Kahului	Kahului Airport	PHOG	Signature Flight Support	808-873-6060	OGG@signatureflight.com	11130
+HI	Kailua/Kona	Kona International Airport at Keahole	PHKO	Air Service Hawaii	808-334-0699	kona@airservicehawaii.com	9930
+HI	Kailua/Kona	Kona International Airport at Keahole	PHKO	Signature Flight Support	808-329-4682	KOA@signatureflight.com	9930
+HI	Kapolei	Kalaeloa Airport (John Rodgers Field)	PHJR	Barbers Point Aviation Services	808-518-4660, 808-375-9244	rperry@bpaviation.com	10560
+HI	Lanai City	Lanai Airport	PHNY	Air Service Hawaii	800-578-8405, 808-565-6911	maui@airservicehawaii.com	484
+HI	Lanai City	Lanai Airport	PHNY	Signature Flight Support	808-565-7171	LNY@signatureflight.com	484
+HI	Lanai City	Lanai Airport	PHNY	Castle & Cooke Aviation	808-548-2948	CustomerServiceHNL@castlecooke.com	484
+HI	Lihue	Lihue Airport	PHLI	Air Service Hawaii	808-246-0016	kauai@airservicehawaii.com	10620
+HI	Lihue	Lihue Airport	PHLI	Signature Flight Support	808-245-7440	LIH@signatureflight.com	10620
+HI	Mokuleia	Dillingham Airfield	PHDH	North Shore Aviation Services Corporation	808-637-8868, 808-341-9261		3090
+HI	Mokuleia	Dillingham Airfield	PHDH	Honolulu Soaring	808-677-3404		3090
