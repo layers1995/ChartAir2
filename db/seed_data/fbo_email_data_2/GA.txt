@@ -1,0 +1,94 @@
+GA	Adel	Cook County Airport	15J	Cook County Airport	229-896-3858		840
+GA	Albany	Southwest Georgia Regional Airport	KABY	Eagles of America Albany, Inc.	229-434-8787		1620
+GA	Alma	Bacon County Airport	KAMG	Bacon County Airport	912-632-7915, 912-632-4794		460
+GA	Americus	Jimmy Carter Regional Airport	KACJ	Souther Field Aviation	229-924-2813		468
+GA	Athens	Athens/Ben Epps Airport	KAHN	Athens/Ben Epps Airport	706-613-3420	airport@athensclarkecounty.com	3000
+GA	Atlanta	Dekalb-Peachtree Airport	KPDK	Signature Flight Support	770-452-0010	PDK@signatureflight.com	11820
+GA	Atlanta	Dekalb-Peachtree Airport	KPDK	Atlantic Aviation	770-454-5000	pdkfrontdesk@atlanticaviation.com	11820
+GA	Atlanta	Dekalb-Peachtree Airport	KPDK	Clairmont Services	404-558-6260	clairmontservices@gmail.com	11820
+GA	Atlanta	Dekalb-Peachtree Airport	KPDK	 Epps Aviation	770-458-9851	info@eppsaviation.com	11820
+GA	Atlanta	Dekalb-Peachtree Airport	KPDK	PDK Self-Serve Avgas	770-451-7676	info@pdkssavgas.com	11820
+GA	Atlanta	Hartsfield - Jackson Atlanta International Airport	KATL	Signature Flight Support	404-761-1960	ATL@signatureflight.com	73800
+GA	Atlanta	Fulton County Airport-Brown Field	KFTY	Signature Flight Support	404-443-0231	fty@signatureflight.com	4920
+GA	Atlanta	Fulton County Airport-Brown Field	KFTY	 Hill Aircraft & Leasing	404-691-3330	LineService@hillaircraft.com	4920
+GA	Atlanta	Cobb County International Airport-McCollum Field	KRYY	Hawthorne Global Aviation Services	770-422-4300	KRYY@hawthorne.aero	5430
+GA	Atlanta	Atlanta Regional Airport-Falcon Field	KFFC	 Atlanta Regional Airport-Falcon Field	770-487-2225	frontdesk@kffc.org	6150
+GA	Atlanta	Newnan Coweta County Airport	KCCO	CCO Airport Services	770-254-8102, 770-252-6410	jdcarroll@coweta.ga	4920
+GA	Atlanta	Paulding Northwest Atlanta Airport	KPUJ	The Paulding Jet Center	678-384-8510	jsarber@pauldingjetcenter.com	810
+GA	Atlanta	Covington Municipal Airport	KCVC	 Covington Municipal Airport	770-787-0098	ranglin@cityofcovington.org	1230
+GA	Augusta	Augusta Regional Airport at Bush Field	KAGS	Augusta Regional Airport Aviation Services	706-798-2656	khinkle@augustaga.gov	2340
+GA	Augusta	Daniel Field Airport	KDNL	 Augusta Aviation	706-733-8970, 706-738-3394	info@augustaaviation.com	2370
+GA	Bainbridge	Decatur County Industrial Air Park	KBGE	Decatur County Aviation	229-248-2103		1440
+GA	Baxley	Baxley Municipal Airport	KBHC	 Baxley Air	912-367-3232	bhcfbo@gmail.com	1020
+GA	Blairsville	Blairsville Airport	KDZJ	Blairsville Airport	706-745-4307		1800
+GA	Brunswick	McKinnon St Simons Island Airport	KSSI	Golden Isles Aviation	912-638-8617	goldenislesaviation@yahoo.com	3480
+GA	Brunswick	Brunswick Golden Isles Airport	KBQK	Glynco-Manning Aviation, Inc.	912-264-9200, 912-264-9289	manningaviation@yahoo.com	2010
+GA	Butler	Butler Municipal Airport	6A1	Butler Municipal Airport	478-837-5490		630
+GA	Cairo	Cairo-Grady County Airport	70J	Precision Aviation	229-377-6700		960
+GA	Calhoun	Tom B David Field Airport	KCZL	Calhoun-Gordon County Airport Authority	706-602-8000		1320
+GA	Camilla	Camilla-Mitchell County Airport	KCXU	Camilla-Mitchell County Airport	229-336-2216		990
+GA	Canon	Franklin County Airport	18A	Franklin-Hart Airport Authority	706-245-1002, 706-245-7555		460
+GA	Canton	Cherokee County Airport	KCNI	 S&S Aviation Co	678-454-2090	fly@ssaviation.us	2460
+GA	Carrollton	West Georgia Regional Airport-O V Gray Field	KCTJ	West Georgia Regional Airport	770-834-0061, 770-354-5927	Susan.Heath@wgraa.com	2460
+GA	Cartersville	Cartersville Airport	KVPC	Phoenix Air	770-382-9800		4140
+GA	Claxton	Claxton-Evans County Airport	KCWV	Claxton-Evans County Airport	912-739-0124		308
+GA	Cochran	Cochran Airport	48A	Cochran Municipal Airport Authority	478-230-9619, 478-230-7843		1140
+GA	Columbus	Columbus Airport	KCSG	 Flightways Columbus	706-324-2453		1410
+GA	Cordele	Crisp County-Cordele Airport	KCKF	Cordele Flying Service	229-273-3124		1800
+GA	Cornelia	Habersham County Airport	KAJR	Blue Sky Aviation	706-778-0198		1650
+GA	Dahlonega	Lumpkin County-Wimpys Airport	9A0	Lumpkin County-Wimpy's Airport	706-864-6894		428
+GA	Dalton	Dalton Municipal Airport	KDNN	Dalton Municipal Airport	706-259-2200		1890
+GA	Dawson	Dawson Municipal Airport	16J	Dawson Municipal Airport	229-995-3787		528
+GA	Donalsonville	Donalsonville Municipal Airport	17J	Donalsonville Airport Commission	229-524-5964, 229-524-2118		630
+GA	Douglas	Douglas Municipal Airport	KDQH	Douglas Municipal Airport	912-384-1409	hwhidden@cityofdouglas.com	1470
+GA	Dublin	W H 'Bud' Barron Airport	KDBN	Dublin Air Service	478-275-0029	dublinservice@bellsouth.net	2040
+GA	Eastman	Heart of Georgia Regional Airport	KEZM	Heart of Georgia Regional Airport	478-374-4411, 478-231-8305	fordhamaviation@gmail.com	5910
+GA	Elberton	Elbert County Airport-Patz Field	KEBA	Haralson Aviation	706-283-2035		500
+GA	Ellijay	Gilmer County Airport	49A	Gilmer County Airport	706-635-8500		232
+GA	Fitzgerald	Fitzgerald Municipal Airport	KFZG	Fitzgerald Municipal Airport	229-426-5071		308
+GA	Fort Stewart (Hinesville)	Wright Army Airfield (Fort Stewart)/Midcoast Regional Airport	KLHW	MidCoast Regional Airport (FBO)	912-877-4359	manager@midcoastregionalairport.com	1860
+GA	Gainesville	Lee Gilmer Memorial Airport	KGVL	Lanier Flight Center	678-989-2395	troy.wheeler@lanierflightcenter.com	3180
+GA	Gainesville	Lee Gilmer Memorial Airport	KGVL	Champion Aviation Services	770-532-4136	championaviation@flychampion.com	3180
+GA	Greensboro	Greene County Regional Airport	3J7	Spirit Aviation	706-453-2715		228
+GA	Griffin	Griffin-Spalding County Airport	6A2	 Griffin-Spalding County Airport	770-227-2928	gairport@cityofgriffin.com	810
+GA	Hampton	Henry County Airport	KHMP	Henry County Airport	770-288-7829, 770-288-7828	mtoney@co.henry	930
+GA	Hazlehurst	Hazlehurst Airport	KAZE	City of Hazlehurst (FBO)	912-375-9222		780
+GA	Jasper	Pickens County Airport	KJZP	Pickens County Airport	706-253-8830, 770-893-8135		2100
+GA	Jefferson	Jackson County Airport	KJCA	 Jackson County	706-367-1493	tstrong@jacksoncountygov.com	1410
+GA	Jesup	Jesup-Wayne County Airport	KJES	SutAir Flying Service	912-427-5949, 912-266-2234	mitchsutton@sutair.com	460
+GA	LaFayette	Barwick Lafayette Airport	9A5	Barwick-LaFayette Airport	706-638-7071		516
+GA	Lagrange	LaGrange-Callaway Airport	KLGC	LaGrange Callaway Airport	706-884-2121	ctraylor@troupco.org	1410
+GA	Lawrenceville	Gwinnett County Airport-Briscoe Field	KLZU	 Gwinnett Aero, LLC	770-995-5592	fbo@gwinnettaero.com	7230
+GA	Lawrenceville	Gwinnett County Airport-Briscoe Field	KLZU	 Aircraft Specialists Jet Center	770-277-9000		7230
+GA	Louisville	Louisville Municipal Airport	2J3	City of Louisville	478-625-3166		600
+GA	Macon	Middle Georgia Regional Airport	KMCN	Lowe Aviation	478-788-3491	loweav@aol.com	1560
+GA	Macon	Macon Downtown Airport	KMAC	Middle Georgia State University	478-751-3314		1890
+GA	Madison	Madison Municipal Airport	52A	Reynolds Aviation Services	706-342-9857, 706-319-6852	reynoldsaviationservices@yahoo.com	360
+GA	Metter	Metter Municipal Airport	KMHP	Metter Municipal Airport	912-685-4162		660
+GA	Milledgeville	Baldwin County Airport	KMLJ	Milledgeville Aviation	478-453-9358		810
+GA	Millen	Millen Airport	2J5	Millen-Jenkins County Airport	478-982-2563, 478-982-2626		152
+GA	Monroe	Monroe-Walton County Airport	D73	 Fair Weather Flights, LLC	770-267-2343	cynunnally@yahoo.com	1080
+GA	Moultrie	Moultrie Municipal Airport	KMGR	Eagles of America, Inc.	229-890-9464		1260
+GA	Perry	Perry-Houston County Airport	KPXE	Perry Houston County Airport Authority	478-987-3713	manager@pxeairport.com	1590
+GA	Pine Mountain	Harris County Airport	KPIM	 Harris County Airport	706-663-2083, 706-590-1414		900
+GA	Reidsville	Swinton Smith Field at Reidsville Municipal Airport	KRVJ	Reidsville Airport Authority	912-682-9635, 912-237-0455		420
+GA	Rome	Richard B. Russell Regional Airport - J.H. Towers Field	KRMG	 Floyd County Airport Commission	706-295-7835	mathewsm@floydcountyga.org	3120
+GA	Sandersville	Kaolin Field Airport	KOKZ	Kaolin Aviation Service	478-552-9136		840
+GA	Savannah	Savannah/Hilton Head International Airport	KSAV	Sheltair Savannah	912-965-0095	sav@sheltairaviation.com	7560
+GA	Savannah	Savannah/Hilton Head International Airport	KSAV	Signature Flight Support	912-964-1557	SAV@signatureflight.com	7560
+GA	Statesboro	Statesboro-Bulloch County Airport	KTBR	Statesboro-Bulloch County Airport	912-764-9083		1530
+GA	Swainsboro	East Georgia Regional Airport	KSBO	AirStar Flight Support	478-237-5882		720
+GA	Sylvania	Plantation Airpark	KJYL	Aeroborne Enterprises	912-857-3220		1080
+GA	Thomaston	Thomaston-Upson County Airport	KOPN	Thomaston-Upson County Airport	706-647-4500, 706-647-8378	kopn@alltel.net	1320
+GA	Thomasville	Thomasville Regional Airport	KTVI	Thomasville Regional Airport	229-225-4313		1110
+GA	Thomson	Thomson-McDuffie County Airport	KHQU	Spirit Aviation, Inc.	706-595-1300	info@spirit-aviation	1560
+GA	Tifton	Henry Tift Myers Airport	KTMA	Henry Tift Myers Airport	229-382-2545		1440
+GA	Toccoa	Toccoa Airport-RG Letourneau Field	KTOC	Toccoa Aviation, Inc.	706-886-1320		1650
+GA	Valdosta	Valdosta Regional Airport	KVLD	 Valdosta Flying Service	229-242-3175	valdostaflying@bellsouth.net	1500
+GA	Vidalia	Vidalia Regional Airport	KVDI	 City of Vidalia (FBO)	912-537-3979		1440
+GA	Warm Springs	Roosevelt Memorial Airport	5A9	Meriwether County Airport Authority	706-846-2595, 706-977-8060		228
+GA	Washington	Washington-Wilkes County Airport	KIIY	 Southern Air Repair	706-678-2662, 706-836-7147		460
+GA	Washington	Washington-Wilkes County Airport	KIIY	County of Wilkes	706-678-2662		460
+GA	Waycross	Waycross-Ware County Airport	KAYS	Ware County Aviation	912-287-4400, 912-287-4392	wareairport@warecounty.com	1470
+GA	Williamson	Alexander Memorial Airport	GA2	Peach State Airport	770-467-8318	rod@flyga2.com	268
+GA	Winder	Barrow County Airport	KWDR	 Romanair WDR, Inc	770-867-4001	flywdr@romanair.com	2340

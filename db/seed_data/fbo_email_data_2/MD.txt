@@ -1,0 +1,30 @@
+MD	Annapolis	Lee Airport	KANP	Lee Runway Manager, LLC	410-956-1280, 410-956-4129		1290
+MD	Baltimore	Martin State Airport	KMTN	MAA-Martin State Airport	410-682-8810, 410-682-8811	bsmith2@martinstateairport.com	6960
+MD	Baltimore	Baltimore/Washington International Thurgood Marshall Airport	KBWI	Signature Flight Support	410-859-8393	BWI@signatureflight.com	20430
+MD	Baltimore	Essex Skypark Airport	W48	Dense Air LLC	443-415-0565		690
+MD	Bowie	Freeway Airport	W00	Freeway Aviation	301-390-6424		1980
+MD	Cambridge	Cambridge-Dorchester Regional Airport	KCGE	Cambridge-Dorchester Airport	410-228-4571		1350
+MD	Churchville	Harford County Airport	0W3	Harford Air Services	410-836-2828		1470
+MD	Clinton	Washington Executive Airport/Hyde Field	W32	Fetter Aviation	301-297-7388		452
+MD	College Park	College Park Airport	KCGS	College Park Airport	301-864-5844		240
+MD	Crisfield	Crisfield-Somerset County Airport	W41	Crisfield Municipal Airport	410-968-3062		152
+MD	Cumberland	Greater Cumberland Regional Airport	KCBE	Potomac Highlands Airport Authority	304-738-0002	phaa@atlanticbb.net	1170
+MD	Easton	Easton/Newnam Field Airport	KESN	Easton Jet Service, LLC	410-820-8770, 410-253-8701	info@eastonjet.com	5610
+MD	Easton	Easton/Newnam Field Airport	KESN	Maryland Air	410-822-0400	fly@goeaston.net	5610
+MD	Elkton	Claremont Airport	58M	Claremont Airport	410-398-0234		1050
+MD	Fallston	Fallston Airport	W42	Fallston Airport and Flying Service	410-877-9889		392
+MD	Fort Meade (Odenton)	Tipton Airport	KFME	Tipton Airport Authority	410-222-6815		3840
+MD	Frederick	Frederick Municipal Airport	KFDK	Signature Flight Support	301-662-8156	FDK@signatureflight.com	7800
+MD	Friendly	Potomac Airfield	KVKX	Potomac Airfield	301-248-5720		990
+MD	Gaithersburg	Montgomery County Airpark	KGAI	 DC Metro Aviation Services	301-963-8043	info@dcmetroaviation.com	3930
+MD	Hagerstown	Hagerstown Regional Airport-Richard A Henson Field	KHGR	 Rider Jet Center	301-791-9119	kevin@riderjetcenter.com	4110
+MD	Indian Head	Maryland Airport	2W5	Bauserman Service	301-283-6202, 301-375-7337		1410
+MD	Laytonsville	Davis Airport	W50	Davis Airport	301-253-2897		392
+MD	Leonardtown	St Mary's County Regional Airport	2W6	AirTec	301-373-2101		2760
+MD	Oakland	Garrett County Airport	2G4	Garrett County Airport	301-746-8599	ekelley@garrettcounty.org	1260
+MD	Ocean City	Ocean City Municipal Airport	KOXB	Ocean City Airport	410-213-2471, 410-213-1980	jgiandomenico@oceancitymd.gov	3150
+MD	Ridgely	Ridgely Airpark	KRJD	Ridgely Airpark	240-464-8998		990
+MD	Salisbury	Salisbury-Ocean City Wicomico Regional Airport	KSBY	Bay Land Aviation	410-749-0323	pnelmsbla@verizon.net	3540
+MD	Stevensville	Bay Bridge Airport	W29	Bay Bridge Airport	410-643-4364	lsteiner@qac.org	2910
+MD	Westminster	Carroll County Regional Airport/Jack B Poage Field	KDMW	Skytech, Inc	410-876-0353	gspicka@skytechinc.com	2970
+MD	Westminster	Clearview Airpark	2W2	Clearview Airport	410-795-9840, 410-795-1176		1260

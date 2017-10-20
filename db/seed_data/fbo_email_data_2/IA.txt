@@ -1,0 +1,84 @@
+IA	Algona	Algona Municipal Airport	KAXA	Algona Aero Service, Inc.	515-295-7492, 515-320-0870		720
+IA	Ames	Ames Municipal Airport	KAMW	Central Iowa Air Service	515-292-9056, 515-450-0442	info@centraliowaair.com	2760
+IA	Ankeny	Ankeny Regional Airport	KIKV	Exec 1 Aviation	515-965-1020	info@exec1aviation.com	3990
+IA	Audubon	Audubon County Airport	KADU	Audubon County Airport	712-563-4440		196
+IA	Bloomfield	Bloomfield Municipal Airport	4K6	Heartland Aviation	641-664-1255		192
+IA	Boone	Boone Municipal Airport	KBNW	C Y Aviation	515-432-1018		1710
+IA	Burlington	Southeast Iowa Regional Airport	KBRL	 Jet Air, Inc.	319-237-8500	info@jetairinc.com	1650
+IA	Carroll	Arthur N Neu Airport	KCIN	Carroll Aviation	712-792-4980		630
+IA	Cedar Rapids	The Eastern Iowa Airport	KCID	Signature Flight Support	319-366-1925	CID@signatureflight.com	3960
+IA	Cedar Rapids	The Eastern Iowa Airport	KCID	 The Eastern Iowa Airport	319-362-8336	gafuel@flycid.com	3960
+IA	Centerville	Centerville Municipal Airport	KTVK	Centerville Municipal Airport	641-437-4580		440
+IA	Chariton	Chariton Municipal Airport	KCNC	Chariton Municipal Airport	641-774-2599, 641-774-5991		248
+IA	Charles City	Northeast Iowa Regional Airport	KCCY	Charles City Aeronautics	641-228-3553, 641-228-3075	bill@northiowaair.com	468
+IA	Cherokee	Cherokee County Regional Airport	KCKP	Lauck Aviation	712-225-2810, 712-229-9365		930
+IA	Clarinda	Schenck Field Airport	KICL	Clarinda Flying Service	712-542-3010		420
+IA	Clinton	Clinton Municipal Airport	KCWI	Clinton Municipal Airport	563-242-3292, 563-357-6068	clintonairport@gmtel.net	1260
+IA	Corning	Corning Municipal Airport	KCRZ	City of Corning	641-322-4230		152
+IA	Council Bluffs	Council Bluffs Municipal Airport	KCBF	Advanced Air	712-323-2173	advancedaircb@yahoo.com	3810
+IA	Creston	Creston Municipal Airport	KCSQ	West Aviation Inc.	641-782-2383		344
+IA	Davenport	Davenport Municipal Airport	KDVN	Carver Aero, Inc.	563-391-5650, 563-391-5651	janet.lewis@carveraero.com	2310
+IA	Decorah	Decorah Municipal Airport	KDEH	Connell Flying Service	563-382-8338	mike@connellflyingservice.com	750
+IA	Des Moines	Des Moines International Airport	KDSM	Elliott Aviation	515-285-6551	dsmfront@elliottaviation.com	5760
+IA	Des Moines	Des Moines International Airport	KDSM	Signature Flight Support	515-256-5330	DSM@signatureflight.com	5760
+IA	Dubuque	Dubuque Regional Airport	KDBQ	 Dubuque Jet Center	563-589-4136	dubuquejetcenter@cityofdubuque.org	4140
+IA	Eagle Grove	Eagle Grove Municipal Airport	KEAG	City of Eagle Grove	515-448-4343		152
+IA	Emmetsburg	Emmetsburg Municipal Airport	KEGQ	Emmetsburg Municipal Airport	712-852-3810		172
+IA	Estherville	Estherville Municipal Airport	KEST	Estherville Aviation	712-362-2761		780
+IA	Fairfield	Fairfield Municipal Airport	KFFL	Fairfield Flying Service	641-472-3166		630
+IA	Forest City	Forest City Municipal Airport	KFXY	Forest City Aviation	641-581-2880		456
+IA	Fort Dodge	Fort Dodge Regional Airport	KFOD	Fort Dodge Flight Support	515-955-3434		1740
+IA	Fort Madison	Fort Madison Municipal Airport	KFSW	Fort Madison Community Airport	319-372-1138		172
+IA	Greenfield	Greenfield Municipal Airport	KGFZ	Greenfield Municipal Airport	641-743-2183		384
+IA	Grinnell	Grinnell Regional Airport	KGGI	Lowry Flying Service, Inc.	641-236-0188		456
+IA	Guthrie Center	Guthrie County Regional Airport	KGCT	Guthrie County Regional Airport	641-757-2046		212
+IA	Hampton	Hampton Municipal Airport	KHPT	Schumann Aviation	641-456-9000	jay@schumannaviation.com	344
+IA	Harlan	Harlan Municipal Airport	KHNR	Harlan Flying Service	712-744-3366		630
+IA	Humboldt	Humboldt Municipal Airport	0K7	Humboldt Municipal Airport	515-368-1714		308
+IA	Ida Grove	Ida Grove Municipal Airport	KIDG	City of Ida Grove	712-364-2428		96
+IA	Iowa City	Iowa City Municipal Airport	KIOW	Jet Air, Inc.	319-248-1200	info@jetairinc.com	1590
+IA	Iowa Falls	Iowa Falls Municipal Airport	KIFA	Four Winds Aviation	641-648-3191	fourwindsaviation@prairieinet.net	436
+IA	Jefferson	Jefferson Municipal Airport	KEFW	City of Jefferson	515-386-4429		440
+IA	Keokuk	Keokuk Municipal Airport	KEOK	Lindner Aviation	319-524-6203	greg@lindneraviation.com	660
+IA	Knoxville	Knoxville Municipal Airport	KOXV	Knoxville Aviation	641-842-4423		810
+IA	Lamoni	Lamoni Municipal Airport	KLWD	Lamoni Municipal Airport	641-442-5324		84
+IA	Le Mars	Le Mars Municipal Airport	KLRJ	Lite Plains Inc.	712-540-4444		1050
+IA	Manchester	Manchester Municipal Airport	C27	Manchester Municipal Airport	563-927-3636		84
+IA	Mapleton	James G Whiting Memorial Field Airport	KMEY	Ashley Flying Service	712-881-2764		248
+IA	Maquoketa	Maquoketa Municipal Airport	KOQW	City of Maquoketa (FBO)	563-652-6517		248
+IA	Marion	Marion Airport	C17	 LuxAir Aviation LLC	319-377-0457	cole.norton@luxairaviation.com	900
+IA	Marshalltown	Marshalltown Municipal Airport	KMIW	Marshalltown Aviation	641-752-0012		1110
+IA	Mason City	Mason City Municipal Airport	KMCW	North Iowa Air Service	641-424-9366, 641-430-9898	todd@northiowaair.com	2760
+IA	Milford	Fuller Airport	4D8	PS Aviation	507-847-3599		296
+IA	Monona	Monona Municipal Airport	7C3	Monona Municipal Airport	563-568-1768		116
+IA	Monticello	Monticello Regional Airport	KMXO	Monticello Aviation	319-465-5488	monticelloaviation@qwestoffice.net	900
+IA	Mount Pleasant	Mount Pleasant Municipal Airport	KMPZ	Air Advantage	319-385-8122		480
+IA	Muscatine	Muscatine Municipal Airport	KMUT	Carver Aero	563-263-8672	mike.woerly@carveraero.com	1230
+IA	Newton	Newton Municipal Airport-Earl Johnson Field	KTNU	Johnson Aviation / Midland Aircraft	641-792-1292		750
+IA	Oelwein	Oelwein Municipal Airport	KOLZ	Tegeler Aviation	319-283-5089		308
+IA	Orange City	Orange City Municipal Airport	KORC	Orange City Airport	712-737-4215		320
+IA	Osceola	Osceola Municipal Airport	I75	Osceola Municipal Airport	641-342-7437		440
+IA	Oskaloosa	Oskaloosa Municipal Airport	KOOA	Midwest Aviation Service Inc.	641-933-4316, 641-777-0494		690
+IA	Ottumwa	Ottumwa Regional Airport	KOTM	Archangel Services LLC	641-954-9200	l3@archangelservicesllc.com	1350
+IA	Paullina	Paullina Municipal Airport	1Y9	Paullina Municipal Airport	712-448-2522		136
+IA	Pella	Pella Municipal Airport	KPEA	 Classic Aviation	641-628-9393	shane@flyclassicaviation.com	1140
+IA	Perry	Perry Municipal Airport	KPRO	 Walter Aviation, Inc.	515-465-3970, 319-961-2156	office@walteraviation.com	364
+IA	Pocahontas	Pocahontas Municipal Airport	KPOH	City of Pocahontas	712-335-4841		344
+IA	Red Oak	Red Oak Municipal Airport	KRDK	Red Oak Municipal Airport	712-623-6523, 712-370-1511		960
+IA	Rock Rapids	Rock Rapids Municipal Airport	KRRQ	Chapin Aircraft Repair	712-472-3332		268
+IA	Rockwell City	Rockwell City Municipal Airport	2Y4	City of Rockwell City	712-297-7041		228
+IA	Sac City	Sac City Municipal Airport	KSKI	Sac City Municipal Airport	712-662-7801		192
+IA	Sheldon	Sheldon Regional Airport	KSHL	Midwest Flying Service	712-324-4005		780
+IA	Shenandoah	Shenandoah Municipal Airport	KSDA	City Of Shenandoah (FBO)	712-246-1931, 712-370-2367		268
+IA	Sibley	Sibley Municipal Airport	KISB	O'Leary Aviation	712-754-3467		212
+IA	Sioux Center	Sioux Center Municipal Airport	KSOY	Sioux Center Aviation	712-722-2293		524
+IA	Sioux City	Sioux Gateway Airport/Col. Bud Day Field	KSUX	Hawthorne Global Aviation Services	712-258-6563	ksux@hawthorne.aero	1560
+IA	Spencer	Spencer Municipal Airport	KSPW	Leading Edge Aviation	712-262-1000		1230
+IA	Storm Lake	Storm Lake Municipal Airport	KSLB	Bart's Flying Service	712-732-6494		1620
+IA	Tipton	Mathews Memorial Airport	8C4	Mathews Memorial Airport	563-886-3559		152
+IA	Vinton	Vinton Veterans Memorial Airpark	KVTI	Iowa Wing & Rotor	319-472-2662		364
+IA	Washington	Washington Municipal Airport	KAWG	Washington Airport	319-461-0359		1110
+IA	Waterloo	Waterloo Regional Airport	KALO	 Livingston Aviation	319-234-1783	missy@livingstonaviation.com	1590
+IA	Waverly	Waverly Municipal Airport	C25	Cedar Valley Aviation	319-352-4703		660
+IA	Webster City	Webster City Municipal Airport	KEBS	Storm Flying Service	515-832-3723		930
+IA	Winterset	Winterset Municipal Airport	3Y3	Winterset Aviation	515-462-1811		364
