@@ -54,4 +54,61 @@ Water Valley	City of Water Valley	662-473-2431	Water Valley Municipal Airport	MS
 Waynesboro	Waynesboro Municipal Airport	601-735-9682	Waynesboro Municipal Airport	MS	232	
 West Point	City of West Point	662-524-0039	McCharen Field Airport	MS	660	
 Wiggins	Dean Griffin Memorial Airport	601-928-6495	Dean Griffin Memorial Airport	MS	1050	
+Winona	Heath Aviation	662-283-9833	Winona-Montgomery County Airport	MS	990	Aberdeen/Amory	Monroe County Airport	662-369-4800	Monroe County Airport	MS	1050	m40airport@gmail.com
+Aberdeen/Amory	Monroe County Airport	662-369-4800	Monroe County Airport	MS	1050	m40airport@gmail.com
+Batesville	Turman Aviation	662-654-0389	Panola County Airport	MS	1080	
+Bay St Louis	 Million Air - Bay St. Louis	228-463-2389	Stennis International Airport	MS	5220	info.hsa@millionair.com
+Belmont	Nix Flying Service	662-454-9989	Tishomingo County Airport	MS	750	
+Booneville/Baldwyn	Booneville-Baldwyn Airport	662-365-8811	Booneville/Baldwyn Airport	MS	930	
+Brookhaven	Brookhaven-Lincoln County Airport	601-833-0999, 601-918-3671	Brookhaven-Lincoln County Airport	MS	780	
+Carthage	Carthage-Leake County Airport	601-267-9327	Carthage-Leake County Airport	MS	352	
+Clarksdale	Red Panther Aero LLC	662-624-5554	Fletcher Field Airport	MS	2970	
+Cleveland	Air Repair, Inc.	662-846-0228	Cleveland Municipal Airport	MS	4020	
+Columbia	Columbia-Marion County	601-736-9295	Columbia-Marion County Airport	MS	1470	
+Columbus/West Point/Starkville	 Avflight Columbus	662-328-9312	Golden Triangle Regional Airport	MS	3120	csrcolumbus@avflight.com
+Corinth	Roscoe Turner Airport	662-287-3223	Roscoe Turner Airport	MS	1470	
+Crystal Springs	Grassroots Aviation Inc.	601-647-0727, 601-988-2788	Copiah County Airport	MS	544	
+Greenville	Mid-Delta Aviation	662-334-6444	Greenville Mid-Delta Airport	MS	2490	
+Greenwood	 Cotton Belt Aviation	662-455-4111, 662-392-3988	Greenwood-Leflore Airport	MS	3180	
+Grenada	Grenada Municipal Airport	662-227-8402, 662-307-0496	Grenada Municipal Airport	MS	204	airport@cityofgrenada.ms
+Gulfport	Million Air Gulfport-Biloxi	228-701-0400	Gulfport-Biloxi International Airport	MS	4110	info.gpt@millionair.com
+Hattiesburg	 Southeast Aviation	601-544-8661	Hattiesburg Bobby L Chain Municipal Airport	MS	3690	info@hattiesburgairport.com
+Hattiesburg-Laurel	U.S. Aviation	601-544-0951	Hattiesburg-Laurel Regional Airport	MS	3210	
+Indianola	Valley Air Applicators	662-887-2861	Indianola Municipal Airport	MS	1860	
+Iuka	Iuka Airport	662-423-3037	Iuka Airport	MS	840	
+Jackson	Atlantic Aviation	601-939-9366	Jackson-Medgar Wiley Evers International Airport	MS	4770	Ed.morris@atlanticaviation.com
+Jackson	Hawkins Jet Center	601-948-8778	Hawkins Field Airport	MS	2640	hjc@hawkinsjetcenter.com
+Kosciusko	Kosciusko-Attala County Airport	662-289-2611	Kosciusko-Attala County Airport	MS	264	
+Laurel	Laurel Airport Authority	601-425-5121	Hesler-Noble Field Airport	MS	1890	
+Louisville	Louisville/Winston County Airport Authority	662-705-1446	Louisville Winston County Airport	MS	660	
+Madison	Madison Air Center	601-853-1960	Bruce Campbell Field Airport	MS	3990	
+Magee	Magee Municipal Airport	601-849-3571	Magee Municipal Airport	MS	630	
+Mc Comb	Air Services of Mississippi	601-684-8950, 601-684-4377	Mc Comb (Pike County) Airport/John E Lewis Field	MS	690	
+Meridian	 Meridian Aviation	601-693-7282	Key Field Airport	MS	5070	twilliams@meridianairport.com
+Natchez	Natchez-Adams County Airport	601-442-3142	Hardy-Anders Field Natchez-Adams County Airport	MS	1440	
+New Albany	New Albany/Union County Airport	662-534-1050	New Albany-Union County Airport	MS	1020	
+Newton	City of Newton	601-683-2664	James H Easom Field Airport	MS	750	
+Ocean Springs	Romac Aero Services Co.	228-872-1962	Ocean Springs Airport	MS	83	
+Okolona	Okolona Municipal Airport	662-869-1419, 662-255-5066	Okolona Municipal Airport-Richard Stovall Field	MS	1230	
+Olive Branch	 Metro Aviation Services	662-895-2978, 901-521-9439	Olive Branch Airport	MS	3840	
+Oxford	General Aviation Services	662-234-2036	University-Oxford Airport	MS	4860	
+Pascagoula	 SkyWarrior Flight Support	228-474-1000	Trent Lott International Airport	MS	4290	
+Philadelphia	Express Aviation	601-656-0203	Philadelphia Municipal Airport	MS	750	
+Picayune	Phillips Aviation	601-749-4449, 601-749-9595	Picayune Municipal Airport	MS	1560	
+Pittsboro	Calhoun County Airport Board	662-412-3126	Calhoun County Airport	MS	384	
+Pontotoc	Pontotoc County Airport	662-489-3900	Pontotoc County Airport	MS	1080	
+Poplarville	City of Poplarville	601-795-9371	Poplarville-Pearl River County Airport	MS	630	
+Prentiss	Steverson Aviation L.L.C.	601-466-4959, 601-792-2243	Prentiss-Jefferson Davis County Airport	MS	412	
+Quitman	Clarke County Airport	601-776-6312	Clarke County Airport	MS	364	clarkecoairport@att.net
+Raymond	Hinds Community College	601-857-3884	John Bell Williams Airport	MS	3780	mmjackson@hindscc.edu
+Ripley	Ripley Airport	662-587-7070	Ripley Airport	MS	900	
+Starkville	City of Starkville	662-615-1848, 662-418-5900	George M Bryan Airport	MS	2160	rlincoln@cityofstarkville.org
+Tunica	Tunica Air Center	662-357-7330	Tunica Municipal Airport	MS	870	TunicaAirCenter@tunicaairport.net
+Tupelo	Tupelo Aviation Unlimited	662-823-4359	Tupelo Regional Airport	MS	4350	fbo.tupelo@airlinems.com
+Tylertown	Walthall Co. Airport	601-876-4500	Paul Pittman Memorial Airport	MS	40	
+Vicksburg	Vicksburg Municipal Airport	601-636-4925	Vicksburg Municipal Airport	MS	256	airport@vicksburg.org
+Water Valley	City of Water Valley	662-473-2431	Water Valley Municipal Airport	MS	50	
+Waynesboro	Waynesboro Municipal Airport	601-735-9682	Waynesboro Municipal Airport	MS	232	
+West Point	City of West Point	662-524-0039	McCharen Field Airport	MS	660	
+Wiggins	Dean Griffin Memorial Airport	601-928-6495	Dean Griffin Memorial Airport	MS	1050	
 Winona	Heath Aviation	662-283-9833	Winona-Montgomery County Airport	MS	990	

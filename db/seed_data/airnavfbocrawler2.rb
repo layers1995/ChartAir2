@@ -95,8 +95,8 @@ def parseFbos(state, city, airportName, url)
 
   fboData.each do |curFbo|
 
-    printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\n", city, curFbo[0].strip, curFbo[1][0].strip, airportName.strip, state, averageOperations, curFbo[1][1])
-    $fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\n", city, curFbo[0].strip, curFbo[1][0].strip, airportName.strip, state, averageOperations, curFbo[1][1])
+    printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[0].strip, curFbo[1][0].strip, averageOperations, curFbo[1][1])
+    $fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[0].strip, curFbo[1][0].strip, averageOperations, curFbo[1][1])
 
     #$fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[0].strip, curFbo[1].strip)
   end
@@ -112,7 +112,7 @@ def crawl(url, startAirport = nil)
   state = url[url.rindex('/')+1..-1]
   page = Nokogiri::HTML(open(url))
 
-  fileLocation = "fbo_email_data/" + state + ".txt"
+  fileLocation = "fbo_email_data_2/" + state + ".txt"
   $fboSeedData = File.open(fileLocation, "a")
 
   rows = page.css("table[cellspacing='2'] tr")
@@ -167,6 +167,6 @@ if __FILE__ == $0
   #crawl('http://airnav.com/airports/us/AL', "Robbins Field Airport")
 
 
-  eachState("http://airnav.com/airports/us", 24)
+  eachState("http://airnav.com/airports/us", 31)
 
 end

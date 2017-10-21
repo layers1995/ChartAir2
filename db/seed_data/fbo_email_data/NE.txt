@@ -73,3 +73,78 @@ Wahoo	 Sierra Bravo Aviation	402-443-4445	Wahoo Municipal Airport	NE	1350	sierr
 Wahoo	Wahoo Airport Authority	402-443-3222	Wahoo Municipal Airport	NE	1350	
 Wayne	Wayne Municipal Airport	402-375-1984	Wayne Municipal Airport / Stan Morris Field	NE	660	
 York	York Municipal Airport	402-363-2660	York Municipal Airport	NE	870	
+Ainsworth	Ainsworth Airport Authority	402-387-1491	Ainsworth Regional Airport	NE	308	
+Albion	Albion Municipal Airport	402-395-2001	Albion Municipal Airport	NE	392	
+Alliance	 Heartland Aviation, Inc.	308-762-5311	Alliance Municipal Airport	NE	810	heartlandav@bbc.net
+Alma	Alma Municipal Airport	308-928-2242	Alma Municipal Airport	NE	136	
+Arapahoe	Arapahoe Airport Authority	308-962-4654	Arapahoe Municipal Airport	NE	288	
+Atkinson	Stuart-Atkinson Municipal Airport	402-340-5143	Stuart-Atkinson Municipal Airport	NE	224	
+Auburn	Farington Field	402-274-3185	Farington Field Airport	NE	152	
+Aurora	Aurora Municipal Airport	402-694-3633	Aurora Municipal Airport - Al Potter Field	NE	1320	
+Bassett	Rock County Airport	402-684-3436	Rock County Airport	NE	152	
+Beatrice	Beatrice Municipal Airport	402-223-5349	Beatrice Municipal Airport	NE	990	
+Blair	SkyWerx Aviation	402-533-2247	Blair Municipal Airport	NE	1260	yolanda@skywerxaviation.com
+Broken Bow	Broken Bow Airport Authority	308-872-2875	Broken Bow Municipal Airport/Keith Glaze Field	NE	900	
+Cambridge	Golden Plains Aviation	308-697-8624	Cambridge Municipal Airport	NE	536	goldenplainsaviation@gmail.com
+Central City	Central Nebraska Airmotive	308-946-3450	Central City Municipal Airport - Larry Reineke Field	NE	432	
+Chadron	A&M Aviation, LLC	308-432-8128	Chadron Municipal Airport	NE	630	
+Columbus	Avcraft, Inc.	402-564-7884	Columbus Municipal Airport	NE	630	
+Cozad	Midstate Aviation	308-784-3868	Cozad Municipal Airport	NE	1080	
+Creighton	Creighton Municipal Airport	402-358-5252	Creighton Municipal Airport	NE	176	
+Crete	Crete Aviation	402-826-4402	Crete Municipal Airport	NE	1920	
+Curtis	Brown Plumbing & Electric	308-367-8772	Curtis Municipal Airport	NE	404	
+David City	City of David City	402-367-3109	David City Municipal Airport	NE	260	
+Fairbury	Fairbury Municipal Airport	402-729-2250	Fairbury Municipal Airport	NE	512	
+Fairmont	Fairmont State Airfield	402-268-4521	Fairmont State Airfield	NE	124	
+Falls City	Falls City Aero Service	402-245-3715	Brenner Field Airport	NE	380	
+Fremont	Fremont Aviation	402-721-4520	Fremont Municipal Airport	NE	1830	
+Genoa	Genoa Municipal Airport	402-993-6000	Genoa Municipal Airport	NE	80	
+Gordon	Gordon Municipal Airport	308-282-0837	Gordon Municipal Airport	NE	392	
+Gothenburg	Gothenburg Aviation	308-537-2384	Gothenburg Municipal Airport	NE	50	
+Grand Island	Trego/Dugan Aviation of Grand Island	308-382-5788	Central Nebraska Regional Airport	NE	2070	customerservice@trego-dugan
+Grant	Hill Aviation	308-280-2000	Grant Municipal Airport	NE	1200	
+Hartington	Becker Flying Service	402-254-7316	Hartington Municipal Airport / Bud Becker Field	NE	488	
+Harvard	Harvard State Airport	402-772-3291	Harvard State Airport	NE	384	
+Hastings	Hastings Municipal Airport	402-461-3060, 402-461-2330	Hastings Municipal Airport	NE	1410	
+Hebron	Hebron Municipal Airport	402-768-6792	Hebron Municipal Airport	NE	420	hebronairport@gmail.com
+Holdrege	Holdrege Aviation	308-995-8446	Brewster Field Airport	NE	870	
+Hyannis	Sandhill Oil Co.	308-458-2237	Grant County Airport	NE	140	
+Imperial	Imperial Airport Authority	308-883-1593	Imperial Municipal Airport	NE	810	
+Kearney	 Kearney Aviation Center	308-233-5800, 308-520-4209	Kearney Regional Airport	NE	2460	scole@kearneyaviation.com
+Kimball	Kimball Municipal Airport	308-249-2649, 970-217-1778	Kimball Municipal Airport/Robert E Arraj Field	NE	380	
+Lexington	Lexington Airport Authority	308-324-8770	Jim Kelly Field Airport	NE	870	
+Lincoln	Silverhawk Aviation	402-475-8600	Lincoln Airport	NE	5100	frontdesk@silverhawkaviation.com
+Lincoln	Duncan Aviation	402-475-2611	Lincoln Airport	NE	5100	Troy.Hyberger@duncanaviation.com
+Loup City	Loup City Municipal Airport	308-745-1244	Loup City Municipal Airport	NE	116	
+Mc Cook	Red Willow Aviation	308-345-2886	Mc Cook Ben Nelson Regional Airport	NE	1380	rwaviation@mccooknet.com
+Minden	Minden Airport Authority	308-830-2727	Pioneer Village Field Airport	NE	536	
+Nebraska City	Infinity Aviation	402-873-6646	Nebraska City Municipal Airport	NE	408	
+Neligh	Antelope County Airport Authority	402-887-4326	Antelope County Airport	NE	1020	
+Norfolk	Norfolk Airport Services	402-379-7810	Norfolk Regional Airport/Karl Stefan Memorial Field	NE	900	airportofk@cableone.net
+North Platte	Trego/Dugan Aviation	308-532-5864	North Platte Regional Airport Lee Bird Field	NE	3120	beccam@trego-dugan
+O'Neill	O'Neill Airport Authority	402-336-3377	The O'Neill Municipal Airport-John L Baker Field	NE	600	
+Ogallala	Searle Field Airport	308-284-3848	Searle Field Airport	NE	376	
+Omaha	TAC Air	402-422-6633	Eppley Airfield	NE	7920	omafbo@tacair.com
+Omaha	Signature Flight Support	402-422-6789	Eppley Airfield	NE	7920	oma@signatureflight.com
+Omaha	 Oracle Aviation	402-934-5300	Millard Airport	NE	5940	dave.poole@oracleaviation.com
+Omaha	North Omaha Airport	402-681-5324	North Omaha Airport	NE	1170	
+Ord	Williams Flying Service	308-728-3913	Evelyn Sharp Field Airport	NE	600	
+Oshkosh	Garden County Airport	308-778-5322	Garden County Airport	NE	480	
+Pawnee City	Pawnee City Municipal Airport	402-335-0256	Pawnee City Municipal Airport	NE	70	
+Pender	Pender Municipal Airport	402-385-3229	Pender Municipal Airport	NE	208	
+Plattsmouth	Plattsmouth Airport Authority	402-298-8468	Plattsmouth Municipal Airport	NE	1680	
+Red Cloud	Red Cloud Municipal Airport	402-746-3297	Red Cloud Municipal Airport	NE	396	
+Rushville	Rushville Airport Authority	308-327-2221	Modisett Airport	NE	248	
+Scottsbluff	Valley Airways	308-635-1331	Western Nebraska Regional Airport/William B. Heilig Field	NE	2490	valleyairways@valleyairways.com
+Scribner	Scribner State Airport	402-654-2200	Scribner State Airport	NE	196	
+Seward	Whisler Aviation	402-643-2226	Seward Municipal Airport	NE	1050	
+Sidney	L&L Aviation LLC.	308-254-5058, 308-641-2584	Sidney Municipal Airport/Lloyd W. Carr Field	NE	316	
+Superior	Meyers Aerial Service	402-879-3006	Superior Municipal Airport	NE	1020	
+Tecumseh	Tecumseh Municipal Airport	402-335-3303	Tecumseh Municipal Airport	NE	420	
+Tekamah	Tekamah Municipal Airport	402-374-1700	Tekamah Municipal Airport	NE	1950	
+Thedford	City of Thedford (FBO)	308-645-2233	Thomas County Airport	NE	132	
+Valentine	Sandhills Aero	402-376-1611	Miller Field Airport	NE	376	
+Wahoo	 Sierra Bravo Aviation	402-443-4445	Wahoo Municipal Airport	NE	1350	sierrabravo.mx@gmail.com
+Wahoo	Wahoo Airport Authority	402-443-3222	Wahoo Municipal Airport	NE	1350	
+Wayne	Wayne Municipal Airport	402-375-1984	Wayne Municipal Airport / Stan Morris Field	NE	660	
+York	York Municipal Airport	402-363-2660	York Municipal Airport	NE	870	
