@@ -1,1 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+#user_one_cessna_172:
+  #user: user_one
+  #airplane: cessna172
+  #tailnumber: n12345

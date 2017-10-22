@@ -1,19 +1,19 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  user_id: 1
+  #user_id: 1
   state: MyString
-  city: MyString
+  #city: MyString
   distance: 1
   nights: 1
-  tailnumber: MyString
+  #tailnumber: MyString
   filter: MyString
 
 two:
-  user_id: 1
+  #user_id: 1
   state: MyString
-  city: MyString
+  #city: MyString
   distance: 1
   nights: 1
-  tailnumber: MyString
+  #tailnumber: MyString
   filter: MyString

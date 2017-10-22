@@ -1,19 +1,21 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
+
 one:
   arrival_time: 2017-08-14 18:10:28
-  airport_id: 1
+  #airport_id: 1
   fbo_id: 1
   cost: 1
-  tailnumber: MyString
+  #tailnumber: MyString
   trip_status: MyString
-  user_id: 1
+  #user_id: 1
 
 two:
   arrival_time: 2017-08-14 18:10:28
-  airport_id: 1
+  #airport_id: 1
   fbo_id: 1
   cost: 1
-  tailnumber: MyString
+  #tailnumber: MyString
   trip_status: MyString
-  user_id: 1
+  #user_id: 1
+

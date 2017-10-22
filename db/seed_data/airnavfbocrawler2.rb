@@ -5,7 +5,6 @@ require 'fileutils'
 
 
 def parseFbos(state, city, airportName, url)
-	# TODO change this so it uses hashmaps instead. Seems like it would be a little more intuitive.
 
   page = Nokogiri::HTML(open(url))
 
@@ -166,7 +165,6 @@ if __FILE__ == $0
 
   #crawl('http://airnav.com/airports/us/AL', "Robbins Field Airport")
 
-
-  eachState("http://airnav.com/airports/us", 31)
+  eachState("http://airnav.com/airports/us", 35)
 
 end
