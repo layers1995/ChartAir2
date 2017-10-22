@@ -8,8 +8,8 @@ def main
 # Some data in the database needs to change, so I'll need to be careful about how I do that or some people will have to reset their profiles.
 # TODO
 
-=begin
 	Fee.delete_all
+=begin
 	Category.delete_all
 
 	Fbo.delete_all
@@ -25,16 +25,16 @@ def main
 # Add stuff	
 
 # Add airplane data
-	addAirplanes("airplane_seed_data")
+	#addAirplanes("airplane_seed_data")
 
 # Add fee type data.
-	addFeeTypes("fee_types")
+	#addFeeTypes("fee_types")
 
 # Add classification data
-	addClassifications("classification_types")
+	#addClassifications("classification_types")
 
 # Add category data
-	addCategories("categories")
+	#addCategories("categories")
 
 # NOT CURRENTLTY USED. Add city data
 # This is curently not used because having a lot of cities in the database makes the website run slowly.
@@ -42,10 +42,10 @@ def main
 	#addCities("uscitiesv1.3.csv")
 
 #	Add airport data
-	addAirports("full_airport_data")
+	#addAirports("full_airport_data")
 
 # Add FBO data. This has to come after airports because FBOs make a reference to airports.
-	addFboFolder("fbo_call_data")
+	#addFboFolder("fbo_call_data")
 
 # NOT CURRENTLY USED. This is the method to add fees from a single file. It can be used for testing
 	#addFeesAndUpdateFbos(Rails.root.join("db", "seed_data", "call_sheets", "tx_call_sheet.tsv"))
@@ -371,7 +371,6 @@ def addFeesAndUpdateFbos(filename)
 		# split the excel sheet into individual variables using split
 		# Note that each fee is itself a list of fees separated by commas.
 		state, city, airportName, airportCode, fboName, phoneNumbers, hasFees, classificationDesc, otherClassification, landingFee, rampFee, tieDownFee, facilityFee, callOutFee, hangarFee, otherFee, changeFrequency, feesWaived, fuelNeeded, contactPerson, callDate, infoQuality, hasFeeSheet, feeSheetLink, additionalInfo  = curRow.split("\t")
-		
 		# If the FBO didn't or wouldn't answer, then we have no data for them and we should skip forward
 		next if hasFees == "did not/would not answer"
 
@@ -400,11 +399,11 @@ def addFeesAndUpdateFbos(filename)
 				#curFbo.update( :classification => Classification.find_by( :classification_description => "flat rate"))
 				FeeType.find_each do |curFeeType|
 					if curFeeType.fee_type_description == "call out"
-						singleFeeHelper(callOutFee, curFbo, curFeeType.fee_type_description)
+						singleFeeHelper(callOutFee, curFbo, curFeeType.fee_type_description, "flat rate")
 					elsif curFeeType.fee_type_description == "hangar"
 						# do nothing
 					else
-						singleFeeHelper("0", curFbo, curFeeType.fee_type_description)
+						singleFeeHelper("0", curFbo, curFeeType.fee_type_description, "flat rate")
 					end
 				end
 			#elsif feeClassification.nil?
@@ -419,35 +418,35 @@ def addFeesAndUpdateFbos(filename)
 				# landing fees
 				if !landingFee.nil?
 					landingFee.split(",").each do |curFee|
-						singleFeeHelper(curFee, curFbo, "landing")
+						singleFeeHelper(curFee, curFbo, "landing", classificationDesc)
 					end
 				end
 
 				# ramp fees
 				if !rampFee.nil?
 					rampFee.split(",").each do |curFee|
-						singleFeeHelper(curFee, curFbo, "ramp")
+						singleFeeHelper(curFee, curFbo, "ramp", classificationDesc)
 					end	
 				end
 
 				# tie down fees
 				if !tieDownFee.nil?
 					tieDownFee.split(",").each do |curFee|
-						singleFeeHelper(curFee, curFbo, "tie down")
+						singleFeeHelper(curFee, curFbo, "tie down", classificationDesc)
 					end
 				end
 
 				# facility fees
 				if !facilityFee.nil?
 					facilityFee.split(",").each do |curFee|
-						singleFeeHelper(curFee, curFbo, "facility")
+						singleFeeHelper(curFee, curFbo, "facility", classificationDesc)
 					end	
 				end	
 
 				# call out fees
 				if !callOutFee.nil?
 					callOutFee.split(",").each do |curFee|
-						singleFeeHelper(curFee, curFbo, "call out")
+						singleFeeHelper(curFee, curFbo, "call out", classificationDesc)
 					end
 				end
 			end
@@ -502,11 +501,11 @@ def addStartupTermData(filename)
 				curCategory = Category.find_by( :category_description => "flat rate")
 				FeeType.find_each do |curFeeType|
 					if curFeeType.fee_type_description == "call out"
-						singleFeeHelper(callOutFee, curFbo, curFeeType.fee_type_description)
+						singleFeeHelper(callOutFee, curFbo, curFeeType.fee_type_description, "flat rate")
 					elsif curFeeType.fee_type_description == "hangar"
 						# do nothing
 					else
-						singleFeeHelper("0", curFbo, curFeeType.fee_type_description)
+						singleFeeHelper("0", curFbo, curFeeType.fee_type_description, "flat rate")
 						#Fee.find_or_create_by( :fee_type => curFeeType, :fbo => curFbo, :category => curCategory, :price => 0)
 					end
 				end
@@ -516,31 +515,31 @@ def addStartupTermData(filename)
 
 				if !landingFee.nil?
 					landingFee.split(",").each do |curFee|
-						singleFeeHelper(curFee, curFbo, "landing")
+						singleFeeHelper(curFee, curFbo, "landing", classificationDesc)
 					end
 				end
 
 				if !rampFee.nil?
 					rampFee.split(",").each do |curFee|
-						singleFeeHelper(curFee, curFbo, "ramp")
+						singleFeeHelper(curFee, curFbo, "ramp", classificationDesc)
 					end	
 				end
 
 				if !tieDownFee.nil?
 					tieDownFee.split(",").each do |curFee|
-						singleFeeHelper(curFee, curFbo, "tie down")
+						singleFeeHelper(curFee, curFbo, "tie down", classificationDesc)
 					end
 				end
 
 				if !facilityFee.nil?
 					facilityFee.split(",").each do |curFee|
-						singleFeeHelper(curFee, curFbo, "facility")
+						singleFeeHelper(curFee, curFbo, "facility", classificationDesc)
 					end		
 				end
 
 				if !callOutFee.nil?
 					callOutFee.split(",").each do |curFee|
-						singleFeeHelper(curFee, curFbo, "call out")
+						singleFeeHelper(curFee, curFbo, "call out", classificationDesc)
 					end
 				end
 			end

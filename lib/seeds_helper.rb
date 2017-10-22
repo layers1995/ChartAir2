@@ -1,44 +1,34 @@
 module SeedsHelper
 
-=begin
-	def addWeightFee(feeList, fbo, feeTypeDescription)
-		feeList.split(",").each do |curFee|
-			if curFee =~ /^([0-9]+-[0-9]+: ?[0-9]+)/
-				curFee = curFee.match(/^([0-9]+-[0-9]+: ?[0-9]+)/)[0] # get the fee for the current category
-				feePrice = curFee.match(/[0-9]{1,4}/)[0] # narrow it down to just the fee itself
-				if curFee =~ /[a-z ]+/
-					categoryDesc = curFee.match(/[a-z ]+/)[0].strip # grab the category description as well
-				end
-			end
+def getTieDownFee(rampFee)
+	# Tie down fees are listed under ramp fee because we didn't make a column for it in the spreadsheet.
+	# this method separates the tie down fee from the ramp fee.
+	tieDownFee = ""
+	# the length check is to ignore the tie down fees that are tie down: single engine: 10, for example, because those are hard and I don't want to do them.
+	if rampFee.include?("tie down")
+		# look for a tie down fee
+		tieDownFee = rampFee.match(/tie down: ?[a-z: ]*[0-9.]+/)
+		# was a tie down fee found?
+		if tieDownFee != nil
+			# if one was found, pull the match from the ramp fee
+			tieDownFee = tieDownFee[0]
+			# remove the tie down text so just the number and category is left
+			tieDownFee = tieDownFee.gsub(/tie down: /, "")
+			tieDownFee = tieDownFee.strip
+			# remove the tie down fee from the ramp fee
+			rampFee = rampFee.gsub(/,?tie down: ?[a-z: ]*[0-9.]+/, "")
+			rampFee = rampFee.gsub(/\A,/, "") # get rid of any comma that might be at the beginning
+			rampFee = rampFee.strip
 		end
 	end
-=end
+	return [rampFee, tieDownFee]
+end
 
-	def getTieDownFee(rampFee)
-		# Tie down fees are listed under ramp fee because we didn't make a column for it in the spreadsheet.
-		# this method separates the tie down fee from the ramp fee.
-		tieDownFee = ""
-		# the length check is to ignore the tie down fees that are tie down: single engine: 10, for example, because those are hard and I don't want to do them.
-		if rampFee.include?("tie down")
-			# look for a tie down fee
-			tieDownFee = rampFee.match(/tie down: ?[a-z: ]*[0-9.]+/)
-			# was a tie down fee found?
-			if tieDownFee != nil
-				# if one was found, pull the match from the ramp fee
-				tieDownFee = tieDownFee[0]
-				# remove the tie down text so just the number and category is left
-				tieDownFee = tieDownFee.gsub(/tie down: /, "")
-				tieDownFee = tieDownFee.strip
-				# remove the tie down fee from the ramp fee
-				rampFee = rampFee.gsub(/,?tie down: ?[a-z: ]*[0-9.]+/, "")
-				rampFee = rampFee.gsub(/\A,/, "") # get rid of any comma that might be at the beginning
-				rampFee = rampFee.strip
-			end
-		end
-		return [rampFee, tieDownFee]
+def singleFeeHelper(fee, fbo, feeType, classificationDescription)
+
+	if classificationDescription == "other"
+		classificationDescription = "nan"
 	end
-
-def singleFeeHelper(fee, fbo, feeType)
 
 	fee = fee.strip.downcase
 	foundFee = false
@@ -59,7 +49,8 @@ def singleFeeHelper(fee, fbo, feeType)
 
 	feePrice = nil
 
-	category = Category.find_by( :category_description => "nan")
+	category = Category.find_by( :category_description => "nan" )
+	classification = Classification.find_by( :classification_description => "nan" )
 
 	isEstimate = false
 
@@ -72,22 +63,26 @@ def singleFeeHelper(fee, fbo, feeType)
 				#puts fee
 				return # fuck these are hard
 				category = Category.find_by( :category_description => "weight")
+				classification = Classification.find_by( :classification_description => "weight" )
 				feeUnitMinimum = fee.match(/[0-9]+/)[0].to_i # the category is going to be the thing just before the first colon
 				feeUnitMaximum = 999999
 
 # For fees that have different prices at different times. So far this has only applied to call out fees that have had flat rates
 			elsif fee =~ /[0-9]{1,2}:[0-9]{1,2} ?- ?[0-9]{1,2}:[0-9]{1,2}: ?\$?[0-9.]+/
 				category = Category.find_by( :category_description => "flat rate")
+				classification = Classification.find_by( :classification_description => "flat rate" )
 
 # Weight range
 			elsif fee =~ /\A[0-9]+\s?-\s?[0-9]+\s?([a-z]+)?:\s?\$?[0-9.]+/
 				category = Category.find_by( :category_description => "weight range")
+				classification = Classification.find_by( :classification_description => "weight range")
 				feeUnitMinimum = fee.scan(/[0-9]+/)[0]
 				feeUnitMaximum = fee.scan(/[0-9]+/)[1]
 
 # Weight
 			elsif fee =~ /\$?[0-9.]+\s?per\s?[0-9]+/
 				category = Category.find_by( :category_description => "weight")
+				classification = Classification.find_by( :classification_description => "weight")
 				feeUnitPrice = fee.match(/[0-9.]+/)[0]
 				feeUnitMagnitude = fee.match(/per.+/)[0]
 				feeUnitMagnitude = feeUnitMagnitude.match(/[0-9]+/)[0]
@@ -98,12 +93,14 @@ def singleFeeHelper(fee, fbo, feeType)
 				categoryDesc = categoryDesc.gsub(/:/, "").strip
 				categoryDesc = fixCategories(categoryDesc)	
 				category = Category.find_by( :category_description => categoryDesc)
+				classification = Classification.find_by( :classification_description => classificationDescription )
 			end
 
 # For fees where the price is based on weight
 # This code is repeated, but I'm not sure which one to take out and don't feel like messing with it now.
 		elsif fee =~ /\$?[0-9.]+\s?per\s?[0-9]+/
 			category = Category.find_by( :category_description => "weight")
+			classification = Classification.find_by( :classification_description => "weight")
 			feeUnitPrice = fee.match(/[0-9.]+/)[0]
 			feeUnitMagnitude = fee.match(/per.+/)[0]
 			feeUnitMagnitude = feeUnitMagnitude.match(/[0-9]+/)[0]
@@ -113,6 +110,7 @@ def singleFeeHelper(fee, fbo, feeType)
 			# FOR SOME REASON, THIS CREATES DUPLICATES. I THINK IT'S BECAUSE DECIMALS ARE ROUNDED
 			# SECOND LINE SO IT'S EASY TO FIND
 			splitRangeIntoEngineTypes(fee, fbo, feeType)
+			classification = Classification.find_by( :classification_description => "engine type")
 			return
 
 
@@ -120,9 +118,16 @@ def singleFeeHelper(fee, fbo, feeType)
 # The stuff after the or is for callout fees that have different prices at different times. So far they have all been flat rates
 		elsif fee =~ /\A\$?[0-9.]/
 			category = Category.find_by( :category_description => "flat rate")
+			classification = Classification.find_by( :classification_description => "flat rate")
 
 		else
 			#puts "no category " + fee
+		end
+
+		if classification.nil?
+			puts "the thing that fucked it up is " + classificationDescription
+		elsif classification.classification_description == "nan"
+			#puts fbo.name + " " + fbo.airport.name + " " + fbo.airport.state + " " + fee
 		end
 
 		if category.nil? or category.category_description.nil?
@@ -185,7 +190,7 @@ def singleFeeHelper(fee, fbo, feeType)
 
 		feeType = FeeType.find_by( :fee_type_description => feeType )
 
-		feeData = Fee.find_or_create_by(:fee_type => feeType, :category => category, :fbo => fbo, :price => feePrice, :time_unit => feeTimeUnit, :time_price => feeTimePrice, :unit_price => feeUnitPrice, :unit_magnitude => feeUnitMagnitude, :unit_minimum => feeUnitMinimum, :unit_maximum => feeUnitMaximum, :free_time_unit => feeFreeTimeUnit, :free_time_length => feeFreeTimeMagnitude, :start_time => feeStartTime, :end_time => feeEndTime, :is_estimate => false)
+		feeData = Fee.find_or_create_by(:fee_type => feeType, :category => category, :fbo => fbo, :price => feePrice, :time_unit => feeTimeUnit, :time_price => feeTimePrice, :unit_price => feeUnitPrice, :unit_magnitude => feeUnitMagnitude, :unit_minimum => feeUnitMinimum, :unit_maximum => feeUnitMaximum, :free_time_unit => feeFreeTimeUnit, :free_time_length => feeFreeTimeMagnitude, :start_time => feeStartTime, :end_time => feeEndTime, :is_estimate => false, :classification => classification )
 		
 		if !foundFee
 			#puts fee
@@ -285,6 +290,7 @@ def singleFeeHelper(fee, fbo, feeType)
 		feePrice = 0
 
 		category = Category.find_by( :category_description => "nan")
+		classification = Classification.find_by( :classification_description => "engine type" )
 
 		isEstimate = false
 
@@ -292,80 +298,80 @@ def singleFeeHelper(fee, fbo, feeType)
 		pistonSinglePrice = pistonSinglePrice.to_i
 		
 		# I don't know if this line actually needs to be there.
-		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "piston single"), :is_estimate => true )
+		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "piston single"), :is_estimate => true, :classification => classification )
 		
 		if curFee.nil?
-			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => pistonSinglePrice, :category => Category.find_by( :category_description => "piston single"), :is_estimate => true )
+			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => pistonSinglePrice, :category => Category.find_by( :category_description => "piston single"), :is_estimate => true, :classification => classification )
 		end
 
 		pistonMultiPrice = lowEnd + (range / 10)
 		pistonMultiPrice = pistonMultiPrice.to_i
 		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "piston multi"), :is_estimate => true )
 		if curFee.nil?
-			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => pistonMultiPrice, :category => Category.find_by( :category_description => "piston multi"), :is_estimate => true )
+			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => pistonMultiPrice, :category => Category.find_by( :category_description => "piston multi"), :is_estimate => true, :classification => classification )
 		end
 
 		turbopropSingleLightPrice = lowEnd + (range / 9)
 		turbopropSingleLightPrice = turbopropSingleLightPrice.to_i
 		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "turboprop single light"), :is_estimate => true )
 		if curFee.nil?
-			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => turbopropSingleLightPrice, :category => Category.find_by( :category_description => "turboprop single light"), :is_estimate => true )
+			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => turbopropSingleLightPrice, :category => Category.find_by( :category_description => "turboprop single light"), :is_estimate => true, :classification => classification )
 		end
 
 		turbopropSingleHeavyPrice = lowEnd + (range / 7)
 		turbopropSingleHeavyPrice = turbopropSingleHeavyPrice.to_i
 		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "turboprop single heavy"), :is_estimate => true )
 		if curFee.nil?
-			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => turbopropSingleHeavyPrice, :category => Category.find_by( :category_description => "turboprop single heavy"), :is_estimate => true )
+			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => turbopropSingleHeavyPrice, :category => Category.find_by( :category_description => "turboprop single heavy"), :is_estimate => true, :classification => classification )
 		end
 
 		turbopropTwinLightPrice = lowEnd + (range / 6)
 		turbopropTwinLightPrice = turbopropTwinLightPrice.to_i
 		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "turboprop twin light"), :is_estimate => true )
 		if curFee.nil?
-			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => turbopropTwinLightPrice, :category => Category.find_by( :category_description => "turboprop twin light"), :is_estimate => true )
+			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => turbopropTwinLightPrice, :category => Category.find_by( :category_description => "turboprop twin light"), :is_estimate => true, :classification => classification )
 		end
 
 		turbopropTwinMediumPrice = lowEnd + (range / 5)
 		turbopropTwinMediumPrice = turbopropTwinMediumPrice.to_i
 		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "turboprop twin medium"), :is_estimate => true )
 		if curFee.nil?
-			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => turbopropTwinMediumPrice, :category => Category.find_by( :category_description => "turboprop twin medium"), :is_estimate => true )
+			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => turbopropTwinMediumPrice, :category => Category.find_by( :category_description => "turboprop twin medium"), :is_estimate => true, :classification => classification )
 		end
 
 		turbopropTwinHeavyPrice = lowEnd + (range / 4)
 		turbopropTwinHeavyPrice = turbopropTwinHeavyPrice.to_i
 		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "turboprop twin heavy"), :is_estimate => true )
 		if curFee.nil?
-			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => turbopropTwinHeavyPrice, :category => Category.find_by( :category_description => "turboprop twin heavy"), :is_estimate => true )
+			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => turbopropTwinHeavyPrice, :category => Category.find_by( :category_description => "turboprop twin heavy"), :is_estimate => true, :classification => classification )
 		end
 
 		lightJetPrice = lowEnd + (range / 3)
 		lightJetPrice = lightJetPrice.to_i
 		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "light jet"), :is_estimate => true )
 		if curFee.nil?
-			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => lightJetPrice, :category => Category.find_by( :category_description => "light jet"), :is_estimate => true )
+			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => lightJetPrice, :category => Category.find_by( :category_description => "light jet"), :is_estimate => true, :classification => classification )
 		end
 
 		midsizeJetPrice = lowEnd + (range / 2)
 		midsizeJetPrice = midsizeJetPrice.to_i
 		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "midsize jet"), :is_estimate => true )
 		if curFee.nil?
-			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => midsizeJetPrice, :category => Category.find_by( :category_description => "midsize jet"), :is_estimate => true )
+			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => midsizeJetPrice, :category => Category.find_by( :category_description => "midsize jet"), :is_estimate => true, :classification => classification )
 		end
 
 		superMidsizeJetPrice = lowEnd + (range / 1.5)
 		superMidsizeJetPrice = superMidsizeJetPrice.to_i
 		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "super midsize jet"), :is_estimate => true )
 		if curFee.nil?
-			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => superMidsizeJetPrice, :category => Category.find_by( :category_description => "super midsize jet"), :is_estimate => true )
+			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => superMidsizeJetPrice, :category => Category.find_by( :category_description => "super midsize jet"), :is_estimate => true, :classification => classification )
 		end
 
 		heavyJetPrice = lowEnd + range
 		heavyJetPrice = heavyJetPrice.to_i
 		curFee = Fee.find_by( :fbo => fbo, :fee_type => feeType, :category => Category.find_by( :category_description => "heavy jet"), :is_estimate => true )
 		if curFee.nil?
-			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => heavyJetPrice, :category => Category.find_by( :category_description => "heavy jet"), :is_estimate => true )
+			Fee.find_or_create_by( :fbo => fbo, :fee_type => feeType, :price => heavyJetPrice, :category => Category.find_by( :category_description => "heavy jet"), :is_estimate => true, :classification => classification )
 		end
 	end
 
@@ -394,102 +400,6 @@ def singleFeeHelper(fee, fbo, feeType)
 		end
 		return fee
 	end
-=begin
-	def addFeeByEngineType(feeList, fbo, feeTypeDescription)
-		if !feeList.nil?
-			feeList.split(",").each do |curFee|
-				if curFee =~ /^([a-z ]+:[ $]+?[0-9]+)/
-					curFee = curFee.match(/^([a-z ]+:[ $]+?[0-9]+)/)[0] # get the fee for the current category
-					feePrice = curFee.match(/[0-9]{1,4}/)[0] # narrow it down to just the fee itself
-					if curFee =~ /[a-z ]+/
-						categoryDesc = curFee.match(/[a-z ]+/)[0].strip # grab the category description as well
-					end
-
-					case categoryDesc
-					when "single engine"
-						categoryDesc = "piston single"
-
-					when "small twin"
-						categoryDesc = "piston multi light"
-
-					when "large twin", "twin engine", "multi engine"
-						categoryDesc = "piston multi heavy"
-
-					when "turboprop single light"
-						categoryDesc = "turboprop single light"
-
-					when "single engine turboprop"
-						categoryDesc = "turboprop single heavy"
-
-					when "turboprop twin light"
-						categoryDesc = "turboprop twin light"
-
-					when "twin engine turboprop", "turboprop twin medium"
-						categoryDesc = "turboprop twin medium"
-
-					when "turboprop twin heavy"
-						categoryDesc = "turboprop twin heavy"
-
-					when "light jet"
-						categoryDesc = "light jet"
-
-					when "midsize jet", "medium jet", "jet"
-						categoryDesc = "midsize jet"
-
-					when "super midsize jet"
-						categoryDesc = "super midsize jet"
-
-					when "heavy jet", "large jet"
-						categoryDesc = "heavy jet"
-
-					else
-						categoryDesc = nil
-					end
-
-					
-					if !categoryDesc.nil?
-						#puts categoryDesc + ": " + feePrice
-						category = Category.find_by( :category_description => categoryDesc )
-						singleFeeHelper(feePrice, category, fbo, feeTypeDescription)
-					end
-
-				# If a fee is 0
-				elsif curFee =~ /[none|no|0]/ or curFee.nil? or curFee == ""
-					category = Category.find_by( :category_description => "no fee" )
-					singleFeeHelper(0, category, fbo, feeTypeDescription)
-
-				# If there is a flat rate stuck somewhere in there	
-				elsif curFee =~ /[0-9]+/
-					feePrice = curFee.match(/[0-9]+/)[0]
-					category = Category.find_by( :category_description => "flat rate" )
-					singleFeeHelper(feePrice, category, fbo, feeTypeDescription)
-
-				else
-					puts curFee # if this happens, I'd like to know what didn't go through
-				end
-			end
-		end
-	end
-=end
-
-=begin
-	def addFeeByWeight(feeList, fbo, feeTypeDescription)
-		feeList.split(",").each do |curFee|
-			if curFee =~ /^[0-9.]+ ?per [0-9]+ ?[a-z]+/
-				curFee = curFee.match(/^[0-9.]+ ?per [0-9]+ ?[a-z]+/)[0] # get the fee for the current category
-				unitPrice = curFee.match(/[0-9.]+/)[1] # narrow it down to just the fee itself
-				unitMagnitude = curFee.match(/[0-9.]+/)[2]
-				unitPrice = feeToNumber(unitPrice)
-				unitMagnitude = feeToNumber(unitMagnitude)
-
-				feeType = FeeType.find_by( :fee_type_description => feeTypeDescription)
-
-				Fee.find_or_create_by( :fee_type => feeType, :fbo => fbo, :category => Category.find_by( :category_description => "weight" ),
-					:unit_price => unitPrice, :unit_magnitude => unitMagnitude)
-			end
-		end		
-	end
-=end
 
 	def timeToMinutes(time) # takes a time and turns it into the minute of that day so it's easier to compare.
 		time = time.split(":")

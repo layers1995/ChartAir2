@@ -31,9 +31,6 @@ class FeesTest < ActionDispatch::IntegrationTest
 		galesburg = City.find(galesburgAirport.city_id)
 		assert_equal(cities(:galesburg).name, galesburg.name)
 
-		# check that I can grab the classification from the category
-		engineType = Classification.find(jetAir.classification_id)
-		assert_equal(classifications(:engine_type).classification_description, engineType.classification_description)
 	end
 
 	test "multiple fee types retrievable" do
