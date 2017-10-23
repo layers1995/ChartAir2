@@ -1,0 +1,222 @@
+<%= render 'layouts/header' %>
+<%= stylesheet_link_tag 'base'%>
+<%= stylesheet_link_tag 'fbo_profile'%>
+
+<h1 class="title"><%=@fbo.name.titleize%></h1>
+
+<!--Fee Information-->
+<div id="feeTables">
+    <h3 id="feeTableTitleMain"><%= @fbo.name.titleize%>'s Fees</h3>
+    <div id="feeInner">   
+        <%if @feesLanding.length>0 %>
+            <table>
+                <tr>
+                    <td></td>
+                    <td><p class="feeTableTitle">Landing Fees</p></td>
+                    <td></td>
+                </tr>
+
+            
+                <% @feesLanding.each do |fee|%>
+                        <tr class="tableItems">
+                            <td>Category: <%=Category.find_by(:id => fee.category_id).category_description.titleize%></td>
+                            <% if Category.find_by(:id => fee.category_id).category_description =="weight"%>
+                                <td>Price: $<%=fee.unit_price%></td>
+                                <td>Per <%=fee.unit_magnitude%>lbs</td>
+                            <%end%>
+                            <% if Category.find_by(:id => fee.category_id).category_description =="weight range"%>
+                                <td><%=fee.unit_minimum%>lbs-<%=fee.unit_maximum%>lbs</td>
+                                <td>Price: $<%=fee.price.to_i%></td>
+                            <%end%>
+                            <% if Category.find_by(:id => fee.category_id).category_description!="weight range" && Category.find_by(:id => fee.category_id).category_description!="weight"%>
+                                <td>Price: $<%=fee.price.to_i%></td>
+                                <td></td>
+                            <%end%>
+                        </tr>
+                <%end%>
+            </table>
+        <%else%>
+            <table>
+                <tr>
+                    <td></td>
+                    <td><p class="feeTableTitle">Landing Fees</p></td>
+                    <td></td>
+                </tr>
+                <tr class="tableItems">
+                    <td></td>
+                    <td>Unknown</td>
+                    <td></td>
+                </tr>
+            </table>    
+        <%end%>
+        
+        <% if @feesRamp.length>0 %>
+        <table  class="feeTable"> 
+            <tr>
+                <td></td>
+                <td><p class="feeTableTitle">Ramp Fees</p></td>
+                <td></td>
+            </tr>
+
+            <% @feesRamp.each do |fee|%>
+                    <tr class="tableItems">
+                        <td>Category: <%=Category.find_by(:id => fee.category_id).category_description.titleize%></td>
+                        <% if Category.find_by(:id => fee.category_id).category_description =="weight"%>
+                            <td><%=fee.unit_minimum%>lbs-<%=fee.unit_maximum%>lbs</td>
+                            <td>Price: $<%=fee.price.to_i%></td>
+                        <%end%>
+                        <% if Category.find_by(:id => fee.category_id).category_description =="weight range"%>
+                            <td><%=fee.unit_minimum%>lbs-<%=fee.unit_maximum%>lbs</td>
+                            <td>Price: $<%=fee.price.to_i%></td>
+                        <%end%>
+                        <% if Category.find_by(:id => fee.category_id).category_description!="weight range" && Category.find_by(:id => fee.category_id).category_description!="weight"%>
+                            <td>Price: $<%=fee.price.to_i%></td>
+                            <td></td>
+                        <%end%>
+                    </tr>
+            <%end%>
+        </table>
+        <%else%>
+            <table>
+                <tr>
+                    <td></td>
+                    <td><p class="feeTableTitle">Ramp Fees</p></td>
+                    <td></td>
+                </tr>
+                <tr class="tableItems">
+                    <td></td>
+                    <td>Unknown</td>
+                    <td></td>
+                </tr>
+            </table> 
+        <%end%>
+        
+        <%if @feesOther.length>0 %>
+        <table>
+            <tr>
+                <td></td>
+                <td><p class="feeTableTitle">Facility Fees</p></td>
+                <td></td>
+            </tr>
+            
+                <% @feesOther.each do |fee|%>
+                        <tr class="tableItems">
+                            <td>Category: <%=Category.find_by(:id => fee.category_id).category_description.titleize%></td>
+                            <% if Category.find_by(:id => fee.category_id).category_description =="weight"%>
+                                <td><%=fee.unit_minimum%>lbs-<%=fee.unit_maximum%>lbs</td>
+                                <td>Price: $<%=fee.price.to_i%></td>
+                            <%end%>
+                            <% if Category.find_by(:id => fee.category_id).category_description =="weight range"%>
+                                <td><%=fee.unit_minimum%>lbs-<%=fee.unit_maximum%>lbs</td>
+                                <td>Price: $<%=fee.price.to_i%></td>
+                            <%end%>
+                            <% if Category.find_by(:id => fee.category_id).category_description!="weight range" && Category.find_by(:id => fee.category_id).category_description!="weight"%>
+                                <td>Price: $<%=fee.price.to_i%></td>
+                                <td></td>
+                            <%end%>
+                        </tr>
+                <%end%>
+            </table>
+        <%else%>
+            <table>
+                <tr>
+                    <td></td>
+                    <td><p class="feeTableTitle">Facility Fees</p></td>
+                    <td></td>
+                </tr>
+                <tr class="tableItems">
+                    <td></td>
+                    <td>Unknown</td>
+                    <td></td>
+                </tr>
+            </table> 
+        <%end%>
+        
+        <% if @feesTieDown.length>0 %>
+        <table>
+            <tr>
+                <td></td>
+                <td><p class="feeTableTitle">Tie-Down Fees</p></td>
+                <td></td>
+            </tr>
+                <% @feesTieDown.each do |fee|%>
+                    <tr class="tableItems">
+                        <td>Category: <%=Category.find_by(:id => fee.category_id).category_description.titleize%></td>
+                        <% if fee.time_unit!=nil%>
+                            <td>Price: $<%=fee.time_price.to_i%></td>
+                            <td>Per <%=fee.time_unit.titleize%></td>
+                        <%end%>
+                        <% if fee.time_unit== nil%>
+                            <td>Price: $<%=fee.time_price.to_i%></td>
+                            <td></td>
+                        <%end%>
+                    </tr>
+                <%end%>
+            </table>
+        <%else%>
+            <table>
+                <tr>
+                    <td></td>
+                    <td><p class="feeTableTitle">Tie-Down Fees</p></td>
+                    <td></td>
+                </tr>
+                <tr class="tableItems">
+                    <td></td>
+                    <td>Unknown</td>
+                    <td></td>
+                </tr>
+            </table> 
+        <%end%>
+        
+        <%if @feesCallOut.length>0  %>
+        <table>
+            <tr>
+                <td></td>
+                <td><p class="feeTableTitle">Call-Out Fees</p></td>
+                <td></td>
+            </tr>
+
+            <% @feesCallOut.each do |fee|%>
+                    <tr class="tableItems">
+                        <td>Category: <%=Category.find_by(:id => fee.category_id).category_description.titleize%></td>
+                        <% if fee.time_unit!=nil%>
+                            <td>Price: $<%=fee.time_price.to_i%></td>
+                            <td>Per <%=fee.time_unit.titleize%></td>
+                        <%end%>
+                        <% if fee.time_unit== nil%>
+                            <td>Price: $<%=fee.price.to_i%></td>
+                            <td></td>
+                        <%end%>
+                    </tr>
+            <%end%>
+        </table>
+        <%else%>
+            <table>
+                <tr>
+                    <td></td>
+                    <td><p class="feeTableTitle">Call-Out Fees</p></td>
+                    <td></td>
+                </tr>
+                <tr class="tableItems">
+                    <td></td>
+                    <td>Unknown</td>
+                    <td></td>
+                </tr>
+            </table> 
+        <%end%>
+        
+    </div>
+    <p id="updateButton"><%= link_to "Update", fee_update_options_path(:fbo_id => @fbo.friendly_id), method: :get%></p>
+    <p id="updateButton"><%= link_to "Confirm", confirm_fees_path, method: :post, data: {confirm: "Confirm that all of these fees are correct?"}%></p>
+</div>
+
+<!--Contact information-->
+<div>
+    
+</div>
+
+<!--Ammenties-->
+<div>
+    
+</div>
+

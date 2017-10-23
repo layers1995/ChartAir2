@@ -29,6 +29,7 @@ class PlanTripController < ApplicationController
     tempDepart=[params[:plan_trip]["depart_time(1i)"], params[:plan_trip]["depart_time(2i)"], params[:plan_trip]["depart_time(3i)"], params[:plan_trip]["depart_time(4i)"], params[:plan_trip]["depart_time(5i)"]]
     depart_time=formatTime(tempDepart)
     
+    #check to make sure times are not nil
     if arrival_time==nil || depart_time==nil
       @plan_trip=PlanTrip.new
       @tailnumber= params[:plan_trip][:tailnumber]
@@ -422,8 +423,8 @@ class PlanTripController < ApplicationController
   
   def flashErrors(plan_trip_params, arrival_time, depart_time)
 
-      if arrival_time < Date.tomorrow
-          flash[:n1]="You must plan your trip at least one day in advance"
+      if arrival_time < DateTime.now - (3.0/24.0)
+          flash[:n1]="You must plan your trip at least two hours in advance"
       end
 
       if arrival_time > depart_time

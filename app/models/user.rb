@@ -1,6 +1,6 @@
 class User < ApplicationRecord
     
-    attr_accessor :remember_token, :betakey, :email_confirm, :confirm_user_agreement
+    attr_accessor :remember_token, :betakey, :email_confirm, :confirm_user_agreement, :reset_token
     
     #validatations for object
     before_save { self.email = email.downcase }
@@ -55,6 +55,18 @@ class User < ApplicationRecord
     def remember
         self.remember_token = User.new_token
         update_attribute(:remember_digest, User.digest(remember_token))
+    end
+    
+    # Sets the password reset attributes.
+    def create_reset_digest
+        self.reset_token = User.new_token
+        update_attribute(:reset_digest,  User.digest(reset_token))
+        update_attribute(:reset_sent_at, Time.zone.now)
+    end
+    
+    # Sends password reset email.
+    def send_password_reset_email
+        UserMailer.password_reset(self).deliver_now
     end
     
     def authenticated?(remember_token)

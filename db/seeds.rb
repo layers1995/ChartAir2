@@ -46,6 +46,7 @@ def main
 
 # Add FBO data. This has to come after airports because FBOs make a reference to airports.
 	addFboFolder("fbo_call_data")
+	updateFboEmails("fbo_email_data")
 
 # NOT CURRENTLY USED. This is the method to add fees from a single file. It can be used for testing
 	#addFeesAndUpdateFbos(Rails.root.join("db", "seed_data", "call_sheets", "tx_call_sheet.tsv"))
@@ -305,7 +306,55 @@ def addFboFolder(folderName)
 	end
 end
 
+<<<<<<< HEAD
 # Add every fbo in a file to the database
+=======
+
+# I can't just redo the FBO table because then all of our references would get screwed up. But the way this method works misses a lot of FBOs
+def updateFboEmails(folderName)
+	folderPath = Rails.root.join("db", "seed_data", folderName)
+	count = 0
+	Dir.foreach(folderPath) do |curFile|
+		next if curFile == '.' or curFile == '..' # do work on real items
+		filePath = Rails.root.join("db", "seed_data", folderName, curFile)
+		fbos = open(filePath).read
+		fbos.each_line do |curFbo|
+			curFbo = curFbo.strip.downcase
+			cityName, fboName, phone, airportName, state, numOperations, email = curFbo.split("\t")
+
+			if state != "il" and state != "oh" and state != "mn" and state != "mi" and state != "in" and state != "az" and state != "co" and state != "ky" and state != "mo" and state != "ms" and state!= "nv" and state != "ok" and state != "or" and state != "tx" and state != "ut" and state != "wa" and state != "wv"
+				break
+			end
+			
+			phone1 = phone.split(", ")[0]
+			phone2 = phone.split(", ")[1]
+
+			if phone2.nil?
+				phone2 = ""
+			end
+			curAirport = Airport.find_by( :name => airportName, :state => state )
+			if curAirport.nil?
+				puts airportName
+			else
+				databaseFbo = Fbo.find_by( :airport => curAirport)
+				if databaseFbo.nil?
+					count += 1
+					#printf("%s\t%s\t%s\n", state, fboName, airportName)
+				end
+			end
+
+			databaseFbo = Fbo.find_by( :name => fboName, :phone => phone1, :alternate_phone => phone2 )
+			if databaseFbo.nil?
+				#printf("%s\t%s\t%s\n", state, fboName, airportName)
+			else
+				databaseFbo.update( :email => email )
+			end
+		end
+	end
+	puts count
+end
+
+>>>>>>> 1e72a31fcf50c3bf05a7cfd332a0371bd075a10f
 def addFbos(filePath)
 	# open the file
 	fbos = open(filePath).read
@@ -332,7 +381,12 @@ def addFbos(filePath)
 			phone2 = ""
 		end
 
+<<<<<<< HEAD
 		# Try to find the airport by the name and state
+=======
+		#puts airportName
+
+>>>>>>> 1e72a31fcf50c3bf05a7cfd332a0371bd075a10f
 		curAirport = Airport.find_by(:name => airportName, :state => state)
 
 		# If it wasn't found, look using the airport code.

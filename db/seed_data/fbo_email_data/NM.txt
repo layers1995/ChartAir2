@@ -39,17 +39,3 @@ Socorro	Socorro Municipal Airport	505-440-6119	Socorro Municipal Airport	NM	352
 Taos	 Taos Aviation Services	575-737-9790	Taos Regional Airport	NM	536	taosaviation@gmail.com
 Truth or Consequences	Truth or Consequences Municipal Airport	575-894-6199	Truth or Consequences Municipal Airport	NM	1290	
 Tucumcari	Tucumcari Municipal Airport	575-461-3229	Tucumcari Municipal Airport	NM	2100	jsewell@cityoftucumcari.com
-Alamogordo	Exile Aviation	575-437-2474, 575-430-8963	Alamogordo-White Sands Regional Airport	NM	2730	
-Albuquerque	Cutter Aviation	505-842-4184	Albuquerque International Sunport Airport	NM	10980	infoalbuquerque@cutteraviation.com
-Albuquerque	Atlantic Aviation	505-842-4990	Albuquerque International Sunport Airport	NM	10980	steven.marruffo@atlanticaviation.com
-Albuquerque	Bode Aero Services	505-352-0292	Double Eagle II Airport	NM	6480	aero@flybode.com
-Angel Fire	Colfax County Angel Fire FBO	575-643-8066	Angel Fire Airport	NM	460	
-Artesia	City of Artesia (FBO)	575-748-3206	Artesia Municipal Airport	NM	1140	
-Aztec	Aztec Municipal Airport	505-634-8319	Aztec Municipal Airport	NM	420	
-Belen	 The City of Belen	505-966-2650, 505-966-2733	Alexander Municipal Airport	NM	1440	deborah.abingdon@belen-nm
-Belen	Alexander Aero	505-864-4500	Alexander Municipal Airport	NM	1440	
-Carlsbad	Chandler Aviation	575-887-1500	Cavern City Air Terminal	NM	528	chandleraviation@flycaverncity.com
-Clayton	Clayton Municipal Airport	575-207-7920	Clayton Municipal Airpark	NM	268	
-Clovis	 CVN Aviation	480-432-6646, 575-769-7890	Clovis Municipal Airport	NM	3120	
-Deming	Desert Aviation	575-544-3660, 575-494-2311	Deming Municipal Airport	NM	2340	
-Edgewood	Sandia Airpark	505-281-0322	Sandia Airpark Estates East Airport	NM	316	

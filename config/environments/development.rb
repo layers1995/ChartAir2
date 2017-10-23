@@ -31,13 +31,13 @@ Rails.application.configure do
   ActionMailer::Base.perform_deliveries = true
   ActionMailer::Base.perform_caching = false
   ActionMailer::Base.delivery_method = :smtp
-  config.action_mailer.default_url_options = { :host => ENV["host"] }
+  config.action_mailer.default_url_options = { :host => ENV["chartair-fuzzykitenz.c9users.io"] }
   ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.gmail.com',
     :port           => '587',
     :authentication => :plain,
-    :user_name      => ENV["email_username"],
-    :password       => ENV["email_password"],
+    :user_name      => ENV['GMAIL_USERNAME_DEV'],
+    :password       => ENV['GMAIL_PASSWORD_DEV'],
     :domain         => 'gmail.com',
     :enable_starttls_auto => true
   }

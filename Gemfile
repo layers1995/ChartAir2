@@ -12,6 +12,8 @@ gem "rake"
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 gem 'pg'
+#obfuscacre rails url
+gem 'friendly_id', '~> 5.1.0'
 # Use for encrypting user passwords
 gem 'bcrypt', '3.1.11'
 #used for controller testing

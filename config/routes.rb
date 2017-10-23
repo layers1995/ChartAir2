@@ -1,8 +1,13 @@
 Rails.application.routes.draw do
 
+
+#used for password reset pages
+  #get 'password_resets/new'
+  #get 'password_resets/edit'
+
 #routes for reports on trips/fbos
-  get '/report', to: "report#index"
-  post '/report', to: "report#create"
+  get '/feedback', to: "report#index"
+  post '/feedback', to: "report#create"
 
 #admin pages
   get '/admin_login', to: "admin#admin_login"
@@ -18,7 +23,16 @@ Rails.application.routes.draw do
   #get '/fbo_profile', to: "fbo_pages#fbo_profile"
   #get '/fbo_form', to: "fbo_pages#fbo_form"
   #get '/search', to: "fbo_pages#fbo_search"
+  #get '/fbo_confirm', to: "fbo_pages#fbo_confirm_prices"
   #post '/search', to: "fbo_pages#fbo_search_results"
+  #get '/fee_update_options', to: "fbo_pages#fbo_update_options"
+  #get '/update_with_template', to: "fbo_pages#fbo_update_form"
+  #get '/update_with_photo', to: "fbo_pages#fbo_update_photo"
+  #get '/update_with_email', to: "fbo_pages#fbo_update_email"
+  #post '/fbo_send_email', to: "fbo_pages#fbo_send_email"
+  #get '/update_with_fax', to: "fbo_pages#fbo_update_fax"
+  #get '/congrats', to: "fbo_page#congrats"
+  #post '/confirm_fees', to: "fbo_pages#confirm_fees"
 
 #pages for the user to view all of their previous trips
   get '/trips', to: 'trips#index'
@@ -35,7 +49,6 @@ Rails.application.routes.draw do
 #static pages
   get '/home',  to: 'static_pages#home'
   get '/help',  to:'static_pages#help'
-  get '/feedback',  to: 'static_pages#feedback'
   get '/about_us',    to: 'static_pages#about_us'
   get '/landing', to: 'static_pages#landing'
 
@@ -65,5 +78,6 @@ Rails.application.routes.draw do
   resources :airplanes
   resources :airplane_users
   resources :trips
+  resources :password_resets,     only: [:new, :create, :edit, :update]
   
 end

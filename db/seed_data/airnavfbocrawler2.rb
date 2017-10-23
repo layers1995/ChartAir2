@@ -3,6 +3,7 @@ require 'nokogiri'
 require 'open-uri'
 require 'fileutils'
 
+# This scraper grabs email data too
 
 def parseFbos(state, city, airportName, url)
 
@@ -94,9 +95,14 @@ def parseFbos(state, city, airportName, url)
 
   fboData.each do |curFbo|
 
+<<<<<<< HEAD
     printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[0].strip, curFbo[1][0].strip, averageOperations, curFbo[1][1])
     $fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[0].strip, curFbo[1][0].strip, averageOperations, curFbo[1][1])
 
+=======
+    printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[0].strip, curFbo[1][0].strip, curFbo[1][1], averageOperations)
+    $fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[0].strip, curFbo[1][0].strip, curFbo[1][1], averageOperations)
+>>>>>>> 1e72a31fcf50c3bf05a7cfd332a0371bd075a10f
     #$fboSeedData.printf("%s\t%s\t%s\t%s\t%s\t%s\n", state, city, airportName, airportCode, curFbo[0].strip, curFbo[1].strip)
   end
 
@@ -165,6 +171,10 @@ if __FILE__ == $0
 
   #crawl('http://airnav.com/airports/us/AL', "Robbins Field Airport")
 
+<<<<<<< HEAD
   eachState("http://airnav.com/airports/us", 47)
+=======
+  eachState("http://airnav.com/airports/us", 5)
+>>>>>>> 1e72a31fcf50c3bf05a7cfd332a0371bd075a10f
 
 end
