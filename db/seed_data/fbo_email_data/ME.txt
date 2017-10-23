@@ -1,0 +1,33 @@
+Auburn/Lewiston	Auburn/Lewiston Airport Air Center	207-784-6318	Auburn/Lewiston Municipal Airport	ME	4320	manager@flytomaine.com
+Augusta	Maine Instrument Flight	207-622-1211	Augusta State Airport	ME	2010	mail@mif.aero
+Bangor	Bangor Aviation Services	207-992-4582, 207-992-4623	Bangor International Airport	ME	3390	bgrops@flybangor.com
+Bar Harbor	 Columbia Air Services-BHB, LLC	207-667-5534	Hancock County-Bar Harbor Airport	ME	1740	bhbfuel@columbiaairservices.com
+Bethel	Town of Bethel (self-serve fuel)	207-512-5552	Bethel Regional Airport	ME	364	airport@bethelmaine.org
+Biddeford	Biddeford Municipal Airport	207-282-1893	Biddeford Municipal Airport	ME	1230	airportmanager@biddefordmaine.org
+Brunswick	FlightLevel Brunswick	207-406-2081	Brunswick Executive Airport	ME	750	custserv.bxm@flightlevelaviation.com
+Caribou	City of Caribou (self-serve fuel)	207-493-4237	Caribou Municipal Airport	ME	316	
+Carrabassett	Sugarloaf Regional Airport	207-235-2646	Sugarloaf Regional Airport	ME	460	
+Dexter	Dexter Regional Airport	207-924-7565	Dexter Regional Airport	ME	630	
+Eastport	City of Eastport	207-853-6060	Eastport Municipal Airport	ME	460	manager@gmx.com
+Frenchville	Northern Aroostook Regional Airport	207-543-6300, 207-436-1379	Northern Aroostook Regional Airport	ME	100	dafernald@yahoo.com
+Fryeburg	 Eastern Slopes Airport Authority	207-935-4440, 207-890-7636	Eastern Slopes Regional Airport	ME	2760	
+Greenville	Fletcher Mountain Aviation LLC	207-299-8220	Greenville Municipal Airport	ME	528	pwthomp@gmail.com
+Greenville	Moosehead Aviation	207-695-2993	Greenville Municipal Airport	ME	528	
+Houlton	Town of Houlton FBO	207-538-7997	Houlton International Airport	ME	1050	Airport.FBO@houlton-maine
+Jackman	Newton Field Airport (self-serve fuel)	207-668-2111	Newton Field Airport	ME	268	
+Limington	 Limington-Harmon Airport	207-637-2121	Limington-Harmon Airport	ME	1020	info@limingtonairport.com
+Lincoln	Lincoln Regional Airport	207-290-7174	Lincoln Regional Airport	ME	356	publicworks@lincolnmaine.org
+Millinocket	Town of Millinocket Municipal Airport	207-723-6649	Millinocket Municipal Airport	ME	630	airport@millinocket.org
+Norridgewock	Central Maine Regional Airport	207-634-5351	Central Maine Airport of Norridgewock	ME	810	
+Old Town	City Of Old Town	207-827-7175	Dewitt Field, Old Town Municipal Airport	ME	1860	
+Oxford	Oxford County Regional Airport	207-743-6359	Oxford County Regional Airport	ME	750	
+Pittsfield	Curtis Air	207-487-5213	Pittsfield Municipal Airport	ME	1170	
+Portland	Northeast Air	207-774-6318	Portland International Jetport	ME	3720	jenniferb@northeastair.com
+Portland	MAC Jets	207-780-1811	Portland International Jetport	ME	3720	lineservices@macairgroup.com
+Presque Isle	City of Presque Isle (General Aviation Terminal)	207-764-2555	Northern Maine Regional Airport at Presque Isle	ME	440	
+Rangeley	Acadian Seaplanes	207-864-5307	Steven A Bean Municipal Airport	ME	200	
+Rockland	 Downeast Air	207-594-2171	Knox County Regional Airport	ME	2940	fbo@downeastair.com
+Sanford	 Southern Maine Aviation	207-324-8919	Sanford Seacoast Regional Airport	ME	3900	fly@flyingsma.com
+Turner	Twitchell's Airport/Seaplane Base	207-225-3490	Twitchell Airport	ME	2970	
+Waterville	Robert Lafleur Airport	207-861-8013	Waterville Robert LaFleur Airport	ME	1320	rmarshall@waterville-me
+Wiscasset	 Town of Wiscasset	207-882-5475, 207-208-7652	Wiscasset Airport	ME	600	airport@wiscasset.org

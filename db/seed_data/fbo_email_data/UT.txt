@@ -1,0 +1,40 @@
+Beaver	Beaver City	435-438-2451	Beaver Municipal Airport	UT	148	
+Blanding	Eagle Air	435-678-3222	Blanding Municipal Airport	UT	196	
+Bountiful	Skypark Airport Aviation	801-259-1184, 801-295-3877	Skypark Airport	UT	3060	crvaviation@hotmail.com
+Brigham City	Airmotive Service	435-723-5702, 435-279-8909	Brigham City Airport	UT	1620	airboss@xmission.com
+Brigham City	Mountain Air Flying Services	435-723-1121	Brigham City Airport	UT	1620	
+Bryce Canyon	Bryce Canyon Airport	435-834-5239	Bryce Canyon Airport	UT	168	
+Cedar City	 Sphere One Aviation	435-586-4504	Cedar City Regional Airport	UT	6000	info@cedarcityairport.com
+Delta	 Delta City	435-864-2759, 435-979-0466	Delta Municipal Airport	UT	184	dkirkland@delta.utah
+Duchesne	City of Duchesne	435-738-2464	Duchesne Municipal Airport	UT	120	
+Escalante	Sphere One Aviation	435-586-4504	Escalante Municipal Airport	UT	80	
+Fillmore	Fillmore Municipal Airport	435-743-6150, 435-743-5233	Fillmore Municipal Airport	UT	128	recorder@fillmorecity.org
+Halls Crossing	RoughRock Aviation LLC.	435-485-0024, 435-684-2419	Cal Black Memorial Airport	UT	156	
+Heber	OK3 AIR	435-654-3962	Heber City Municipal Airport - Russ McDonald Field	UT	1590	info@ok3air.com
+Huntington	Emery County	435-381-3589	Huntington Municipal Airport	UT	284	airport@emery.utah
+Hurricane	Airport Quick Stop	435-467-3058	General Dick Stout Field Airport	UT	690	
+Kanab	City of Kanab (FBO)	435-644-2299	Kanab Municipal Airport	UT	240	
+Loa	Wonderland Airport	435-836-2826	Wayne Wonderland Airport	UT	140	
+Logan	 Leading Edge Aviation	435-752-5955, 435-232-4266	Logan-Cache Airport	UT	3720	sweaver@leaviation.com
+Manti	Manti-Ephraim Airport	435-283-4631	Manti-Ephraim Airport	UT	104	
+Milford	Milford Municipal Airport	435-463-9565	Milford Municipal Airport/Ben and Judy Briscoe Field	UT	136	
+Moab	 Redtail Air, Inc	435-259-7421	Canyonlands Field Airport	UT	1260	fbo@flyredtail.com
+Monticello	Monticello Airport	435-587-2271	Monticello Airport	UT	168	ty@monticelloutah.org
+Nephi	Pegasus Aviation Group	435-623-0822	Nephi Municipal Airport	UT	264	
+Ogden	Kemp Jet Service	801-627-0040	Ogden-Hinckley Airport	UT	5190	info@kempjet.com
+Ogden	Mountain Valley Aviation	801-394-3400	Ogden-Hinckley Airport	UT	5190	info@mountainvalleyaviation.com
+Ogden	CB Jet Center	801-621-0326, 801-645-9896	Ogden-Hinckley Airport	UT	5190	fbo@cbaviation.com
+Parowan	Parowan Aero Services	435-477-8911	Parowan Airport	UT	332	
+Price	 Redtail Air, Inc	435-637-9556	Carbon County Regional Airport/Buck Davis Field	UT	340	jen@flyredtail.com
+Provo	TAC Air	866-235-9874, 801-356-3535	Provo Municipal Airport	UT	14130	pvufbo@tacair.com
+Richfield	Richfield Municipal Airport	435-896-9413, 435-896-3053	Richfield Municipal Airport	UT	750	
+Roosevelt	Integrity Air Service	435-722-4741	Roosevelt Municipal Airport	UT	400	
+Salt Lake City	TAC Air	800-752-5382, 801-359-2085	Salt Lake City International Airport	UT	26100	slcfbo@tacair.com
+Salt Lake City	Atlantic Aviation - SLC	385-715-7192	Salt Lake City International Airport	UT	26100	slcfrontdesk@atlanticaviation.com
+Salt Lake City	South Valley Regional Airport	801-561-0420	South Valley Regional Airport	UT	6240	fbo@slcgov.com
+Spanish Fork	Utah Aviation Services Inc.	801-798-9888	Spanish Fork Airport-Springville-Woodhouse Field	UT	2250	
+St George	 Above View Jet Center	435-688-8009	St George Regional Airport	UT	4650	support@aboveviewfbo.com
+Tooele	Salt Lake City Dept. of Airports	801-575-2401	Bolinder Field-Tooele Valley Airport	UT	5790	
+Vernal	Dinaland Aviation	435-789-4612	Vernal Regional Airport	UT	750	
+Vernal	 Apex Aviation	435-789-8494, 435-790-6604	Vernal Regional Airport	UT	750	fbo@flyapex.com
+Wendover	Wendover Airport	435-665-2308, 435-240-0000	Wendover Airport	UT	360	

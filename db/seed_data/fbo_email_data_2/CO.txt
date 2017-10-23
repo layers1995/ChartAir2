@@ -1,0 +1,132 @@
+CO	Akron	Colorado Plains Regional Airport	KAKO	Hayes Aviation	970-345-2397	rrhayes@centurytel.net	1410
+CO	Alamosa	San Luis Valley Regional Airport/Bergman Field	KALS	Mountain View Aeromotive	719-589-9100		436
+CO	Aspen	Aspen-Pitkin County Airport/Sardy Field	KASE	Atlantic Aviation	970-920-2016	asefrontdesk@atlanticaviation.com	3390
+CO	Boulder	Boulder Municipal Airport	KBDU	 Journeys Aviation	303-449-4210	boulderdesk@journeysaviation.com	4140
+CO	Buena Vista	Central Colorado Regional Airport	KAEJ	Central Colorado Regional Airport	719-395-3496, 719-966-9098	bvairport@buenavistaco.gov	810
+CO	Burlington	Kit Carson County Airport	KITR	City of Burlington	719-343-5630		660
+CO	Canon City	Fremont County Airport	1V6	 Fremont County Airport	719-784-3816		1140
+CO	Center	Leach Airport	1V8	Saguache County	719-655-2321	wmaez@saguachecounty-co	108
+CO	Colorado Springs	City of Colorado Springs Municipal Airport	KCOS	Cutter Aviation	719-591-2065	cmartin@cutteraviation.com	10740
+CO	Colorado Springs	City of Colorado Springs Municipal Airport	KCOS	Colorado jetCenter	877-853-7523, 719-591-2288	customerservice@coloradojetcenter.com	10740
+CO	Colorado Springs	Meadow Lake Airport	KFLY	Phantom Fuel, LLC	719-683-2202		5340
+CO	Colorado Springs	Meadow Lake Airport	KFLY	American Aviation	719-683-2547		5340
+CO	Cortez	Cortez Municipal Airport	KCEZ	Cortez Flying Service	970-565-3721		930
+CO	Craig	Craig-Moffat Airport	KCAG	Mountain Air Spray Co.	970-824-6335		990
+CO	Creede	Mineral County Memorial Airport	C24	Mineral County Memorial Airport	719-658-2360		152
+CO	Del Norte	Astronaut Kent Rominger Airport	KRCV	Astronaut Kent Rominger Airport	719-657-2744		92
+CO	Delta	Blake Field Airport	KAJZ	Smiling Aviation	970-874-5181	office@smilingaviation.com	224
+CO	Denver	Centennial Airport	KAPA	Denver jetCenter	303-790-4321	customerservice@denverjetcenter.com	26400
+CO	Denver	Centennial Airport	KAPA	XJet	303-649-9538	Denver@xjet.com	26400
+CO	Denver	Centennial Airport	KAPA	Signature Flight Support	303-799-8388	APA@signatureflight.com	26400
+CO	Denver	Centennial Airport	KAPA	TAC Air	303-790-2575	apafbo@tacair.com	26400
+CO	Denver	Centennial Airport	KAPA	 The Heliplex	303-799-0079, 303-799-8877	manager@theheliplex.com	26400
+CO	Denver	Denver International Airport	KDEN	Signature Flight Support	303-342-5600	DEN@signatureflight.com	47010
+CO	Denver	Rocky Mountain Metropolitan Airport	KBJC	Signature Flight Support	303-466-2336	BJC@signatureflight.com	11730
+CO	Denver	Front Range Airport	KFTG	Front Range Airport	303-261-9100	Lhansen@ftg-airport	3660
+CO	Durango	Durango-La Plata County Airport	KDRO	 Avflight Durango	970-259-7400	cjohnson@avflight.com	2430
+CO	Durango	Animas Air Park	00C	Gregg Flying Service	970-247-4632		900
+CO	Eagle	Eagle County Regional Airport	KEGE	Vail Valley Jet Center	970-524-7700	customerservice@vvjc.com	3450
+CO	Erie	Erie Municipal Airport	KEIK	 Vector Air	303-664-0633	fly@vectorair.net	4260
+CO	Fort Collins/Loveland	Fort Collins-Loveland Municipal Airport	KFNL	Fort Collins-Loveland jetCenter	970-667-2574	customerservice@fnljetcenter.com	7800
+CO	Glenwood Springs	Glenwood Springs Municipal Airport	KGWS	Glenwood Springs Municipal Airport	970-445-0965	amy.helm@cogs.us	1710
+CO	Granby	Granby-Grand County Airport	KGNB	Grand County (self-serve fuel)	970-725-3347	mbenson@co.grand	200
+CO	Grand Junction	Grand Junction Regional Airport	KGJT	West Star Aviation	970-243-7500	info@weststaraviation.com	3690
+CO	Greeley	Greeley-Weld County Airport	KGXY	 Peak Flight Support	970-336-3010	peakfbo@gmail.com	10050
+CO	Greeley	Easton (Valley View) Airport	11V	Easton Aviation	970-284-6701		224
+CO	Gunnison	Gunnison-Crested Butte Regional Airport	KGUC	 Avflight Gunnison	970-641-0526	csrgunnison@avflight.com	524
+CO	Hayden	Yampa Valley Airport	KHDN	Atlantic Aviation	970-276-3743	hdnfrontdesk@atlanticaviation.com	930
+CO	Holly	Holly Airport	K08	Town of Holly	719-537-6622		112
+CO	Holyoke	Holyoke Airport	KHEQ	Holyoke Municipal Airport	970-854-2266		600
+CO	Hudson	Platte Valley Airpark	18V	Platte Valley Fuel	303-986-6121		368
+CO	Kremmling	Mc Elroy Airfield	20V	Alpine Wings	970-724-0611		136
+CO	La Junta	La Junta Municipal Airport	KLHX	 City of La Junta - Aviation	719-384-8407	ljairport@gmail.com	480
+CO	Lamar	Lamar Municipal Airport	KLAA	 Lamar Flight Service	719-336-7701	lamarflightservice@gmail.com	332
+CO	Leadville	Lake County Airport	KLXV	Leadville - Lake County Airport	719-486-0307, 719-427-0026	lxv9934@co.lake	384
+CO	Limon	Limon Municipal Airport	KLIC	Town of Limon (FBO)	719-775-2346		460
+CO	Longmont	Vance Brand Airport	KLMO	Fly Elite Aviation	303-774-8081	customerservice@flyeliteaero.com	5880
+CO	Meeker	Meeker Coulter Field Airport	KEEO	Coulter Aviation	970-878-5045		660
+CO	Monte Vista	Monte Vista Municipal Airport	KMVI	Jones Air Services, LLC	719-852-3241		460
+CO	Montrose	Montrose Regional Airport	KMTJ	Atlantic Aviation	970-249-7111	mtj.frontdesk@atlanticaviation.com	2640
+CO	Nucla	Hopkins Field Airport	KAIB	 Montrose County (FBO)	970-428-1241, 970-864-7111	bmckinney@montrosecounty.net	312
+CO	Pagosa Springs	Stevens Field Airport	KPSO	Avjet Pagosa Springs	970-731-2127	lservice@avjetpagosa.com	1380
+CO	Paonia	North Fork Valley Airport	7V2	North Fork Aviation, LLC	970-527-3345, 970-260-2138		152
+CO	Pueblo	Pueblo Memorial Airport	KPUB	Sibran - Pueblo	970-231-6114	dan@sibran.com	13800
+CO	Pueblo	Pueblo Memorial Airport	KPUB	Rocky Mountain Flower FBO	719-948-3316	rockymountainfloweraviation@gmail.com	13800
+CO	Rangely	Rangely Airport	4V0	Rangely Airport	970-675-2316		3870
+CO	Rifle	Rifle Garfield County Airport	KRIL	Atlantic Aviation	970-625-4833	jenna.porter@atlanticaviation.com	1170
+CO	Salida	Harriet Alexander Field Airport	KANK	Chaffee County (FBO)	719-539-3720		312
+CO	Steamboat Springs	Steamboat Springs Airport/Bob Adams Field	KSBS	Steamboat Springs Airport	970-879-1204, 970-879-9042		870
+CO	Sterling	Sterling Municipal Airport	KSTK	Sterling Municipal Airport (Crosson Field)	970-522-0417, 970-520-2325		164
+CO	Telluride	Telluride Regional Airport	KTEX	Telluride Regional Airport	970-728-8603, 970-728-8600	info@tellurideairport.com	780
+CO	Trinidad	Perry Stokes Airport	KTAD	Perry Stokes Airport	719-846-6271		870
+CO	Walsenburg	Spanish Peaks Airfield	4V1	Huerfano County	719-738-1290		384
+CO	Westcliffe	Silver West Airport	C08	 SilverWest/Custer County Airport	719-783-2695	info@silverwestairport.com	344
+CO	Westcliffe	Silver West Airport	C08	Dorito Verde	316-640-9393	mdfreund@gmail.com	344
+CO	Wray	Wray Municipal Airport	2V5	Tri County Ag	970-332-4607		1200
+CO	Yuma	Yuma Municipal Airport	2V6	Yuma Ag Service	970-848-5158		384
+CO	Akron	Colorado Plains Regional Airport	KAKO	Hayes Aviation	970-345-2397	rrhayes@centurytel.net	1410
+CO	Alamosa	San Luis Valley Regional Airport/Bergman Field	KALS	Mountain View Aeromotive	719-589-9100		436
+CO	Aspen	Aspen-Pitkin County Airport/Sardy Field	KASE	Atlantic Aviation	970-920-2016	asefrontdesk@atlanticaviation.com	3390
+CO	Boulder	Boulder Municipal Airport	KBDU	 Journeys Aviation	303-449-4210	boulderdesk@journeysaviation.com	4140
+CO	Buena Vista	Central Colorado Regional Airport	KAEJ	Central Colorado Regional Airport	719-395-3496, 719-966-9098	bvairport@buenavistaco.gov	810
+CO	Burlington	Kit Carson County Airport	KITR	City of Burlington	719-343-5630		660
+CO	Canon City	Fremont County Airport	1V6	 Fremont County Airport	719-784-3816		1140
+CO	Center	Leach Airport	1V8	Saguache County	719-655-2321	wmaez@saguachecounty-co	108
+CO	Colorado Springs	City of Colorado Springs Municipal Airport	KCOS	Cutter Aviation	719-591-2065	cmartin@cutteraviation.com	10740
+CO	Colorado Springs	City of Colorado Springs Municipal Airport	KCOS	Colorado jetCenter	877-853-7523, 719-591-2288	customerservice@coloradojetcenter.com	10740
+CO	Colorado Springs	Meadow Lake Airport	KFLY	Phantom Fuel, LLC	719-683-2202		5340
+CO	Colorado Springs	Meadow Lake Airport	KFLY	American Aviation	719-683-2547		5340
+CO	Cortez	Cortez Municipal Airport	KCEZ	Cortez Flying Service	970-565-3721		930
+CO	Craig	Craig-Moffat Airport	KCAG	Mountain Air Spray Co.	970-824-6335		990
+CO	Creede	Mineral County Memorial Airport	C24	Mineral County Memorial Airport	719-658-2360		152
+CO	Del Norte	Astronaut Kent Rominger Airport	KRCV	Astronaut Kent Rominger Airport	719-657-2744		92
+CO	Delta	Blake Field Airport	KAJZ	Smiling Aviation	970-874-5181	office@smilingaviation.com	224
+CO	Denver	Centennial Airport	KAPA	Denver jetCenter	303-790-4321	customerservice@denverjetcenter.com	26400
+CO	Denver	Centennial Airport	KAPA	XJet	303-649-9538	Denver@xjet.com	26400
+CO	Denver	Centennial Airport	KAPA	Signature Flight Support	303-799-8388	APA@signatureflight.com	26400
+CO	Denver	Centennial Airport	KAPA	TAC Air	303-790-2575	apafbo@tacair.com	26400
+CO	Denver	Centennial Airport	KAPA	 The Heliplex	303-799-0079, 303-799-8877	manager@theheliplex.com	26400
+CO	Denver	Denver International Airport	KDEN	Signature Flight Support	303-342-5600	DEN@signatureflight.com	47010
+CO	Denver	Rocky Mountain Metropolitan Airport	KBJC	Signature Flight Support	303-466-2336	BJC@signatureflight.com	11730
+CO	Denver	Front Range Airport	KFTG	Front Range Airport	303-261-9100	Lhansen@ftg-airport	3660
+CO	Durango	Durango-La Plata County Airport	KDRO	 Avflight Durango	970-259-7400	cjohnson@avflight.com	2430
+CO	Durango	Animas Air Park	00C	Gregg Flying Service	970-247-4632		900
+CO	Eagle	Eagle County Regional Airport	KEGE	Vail Valley Jet Center	970-524-7700	customerservice@vvjc.com	3450
+CO	Erie	Erie Municipal Airport	KEIK	 Vector Air	303-664-0633	fly@vectorair.net	4260
+CO	Fort Collins/Loveland	Fort Collins-Loveland Municipal Airport	KFNL	Fort Collins-Loveland jetCenter	970-667-2574	customerservice@fnljetcenter.com	7800
+CO	Glenwood Springs	Glenwood Springs Municipal Airport	KGWS	Glenwood Springs Municipal Airport	970-445-0965	amy.helm@cogs.us	1710
+CO	Granby	Granby-Grand County Airport	KGNB	Grand County (self-serve fuel)	970-725-3347	mbenson@co.grand	200
+CO	Grand Junction	Grand Junction Regional Airport	KGJT	West Star Aviation	970-243-7500	info@weststaraviation.com	3690
+CO	Greeley	Greeley-Weld County Airport	KGXY	 Peak Flight Support	970-336-3010	peakfbo@gmail.com	10050
+CO	Greeley	Easton (Valley View) Airport	11V	Easton Aviation	970-284-6701		224
+CO	Gunnison	Gunnison-Crested Butte Regional Airport	KGUC	 Avflight Gunnison	970-641-0526	csrgunnison@avflight.com	524
+CO	Hayden	Yampa Valley Airport	KHDN	Atlantic Aviation	970-276-3743	hdnfrontdesk@atlanticaviation.com	930
+CO	Holly	Holly Airport	K08	Town of Holly	719-537-6622		112
+CO	Holyoke	Holyoke Airport	KHEQ	Holyoke Municipal Airport	970-854-2266		600
+CO	Hudson	Platte Valley Airpark	18V	Platte Valley Fuel	303-986-6121		368
+CO	Kremmling	Mc Elroy Airfield	20V	Alpine Wings	970-724-0611		136
+CO	La Junta	La Junta Municipal Airport	KLHX	 City of La Junta - Aviation	719-384-8407	ljairport@gmail.com	480
+CO	Lamar	Lamar Municipal Airport	KLAA	 Lamar Flight Service	719-336-7701	lamarflightservice@gmail.com	332
+CO	Leadville	Lake County Airport	KLXV	Leadville - Lake County Airport	719-486-0307, 719-427-0026	lxv9934@co.lake	384
+CO	Limon	Limon Municipal Airport	KLIC	Town of Limon (FBO)	719-775-2346		460
+CO	Longmont	Vance Brand Airport	KLMO	Fly Elite Aviation	303-774-8081	customerservice@flyeliteaero.com	5880
+CO	Meeker	Meeker Coulter Field Airport	KEEO	Coulter Aviation	970-878-5045		660
+CO	Monte Vista	Monte Vista Municipal Airport	KMVI	Jones Air Services, LLC	719-852-3241		460
+CO	Montrose	Montrose Regional Airport	KMTJ	Atlantic Aviation	970-249-7111	mtj.frontdesk@atlanticaviation.com	2640
+CO	Nucla	Hopkins Field Airport	KAIB	 Montrose County (FBO)	970-428-1241, 970-864-7111	bmckinney@montrosecounty.net	312
+CO	Pagosa Springs	Stevens Field Airport	KPSO	Avjet Pagosa Springs	970-731-2127	lservice@avjetpagosa.com	1380
+CO	Paonia	North Fork Valley Airport	7V2	North Fork Aviation, LLC	970-527-3345, 970-260-2138		152
+CO	Pueblo	Pueblo Memorial Airport	KPUB	Sibran - Pueblo	970-231-6114	dan@sibran.com	13800
+CO	Pueblo	Pueblo Memorial Airport	KPUB	Rocky Mountain Flower FBO	719-948-3316	rockymountainfloweraviation@gmail.com	13800
+CO	Rangely	Rangely Airport	4V0	Rangely Airport	970-675-2316		3870
+CO	Rifle	Rifle Garfield County Airport	KRIL	Atlantic Aviation	970-625-4833	jenna.porter@atlanticaviation.com	1170
+CO	Salida	Harriet Alexander Field Airport	KANK	Chaffee County (FBO)	719-539-3720		312
+CO	Steamboat Springs	Steamboat Springs Airport/Bob Adams Field	KSBS	Steamboat Springs Airport	970-879-1204, 970-879-9042		870
+CO	Sterling	Sterling Municipal Airport	KSTK	Sterling Municipal Airport (Crosson Field)	970-522-0417, 970-520-2325		164
+CO	Telluride	Telluride Regional Airport	KTEX	Telluride Regional Airport	970-728-8603, 970-728-8600	info@tellurideairport.com	780
+CO	Trinidad	Perry Stokes Airport	KTAD	Perry Stokes Airport	719-846-6271		870
+CO	Walsenburg	Spanish Peaks Airfield	4V1	Huerfano County	719-738-1290		384
+CO	Westcliffe	Silver West Airport	C08	 SilverWest/Custer County Airport	719-783-2695	info@silverwestairport.com	344
+CO	Westcliffe	Silver West Airport	C08	Dorito Verde	316-640-9393	mdfreund@gmail.com	344
+CO	Wray	Wray Municipal Airport	2V5	Tri County Ag	970-332-4607		1200
+CO	Yuma	Yuma Municipal Airport	2V6	Yuma Ag Service	970-848-5158		384

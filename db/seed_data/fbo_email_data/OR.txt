@@ -1,0 +1,56 @@
+Albany	 Infinite Air Center, LLC	541-730-3345	Albany Municipal Airport	OR	1920	thann@infiniteaircenter.com
+Ashland	Skinner Aviation	541-482-7675	Ashland Municipal Airport-Sumner Parker Field	OR	2130	
+Astoria	Port of Astoria	503-861-1222	Astoria Regional Airport	OR	3180	
+Aurora	Lynx FBO	503-678-1336	Aurora State Airport	OR	7800	
+Aurora	Willamette Aviation Service, LLC	503-678-2252	Aurora State Airport	OR	7800	info@willametteair.com
+Baker City	Baker Aircraft	541-523-5663	Baker City Municipal Airport	OR	1320	Gen@bakeraircraft.com
+Bandon	Bandon Aero Club	541-347-2022	Bandon State Airport	OR	544	
+Bend	Professional Air	541-388-0019	Bend Municipal Airport	OR	11610	info@proairservices.com
+Bend	 Leading Edge Aviation	541-383-8825, 541-598-4630	Bend Municipal Airport	OR	11610	info@flybend.com
+Brookings	Brookings Flying Club	541-412-8682	Brookings Airport	OR	1860	
+Burns	City of Burns (FBO)	541-573-6139, 541-620-4188	Burns Municipal Airport	OR	660	bnoairport@aim.com
+Cave Junction	The Flying Machine	541-660-3176, 541-660-3176	Illinois Valley Airport	OR	460	
+Corvallis	Corvallis Aero Service	541-753-4466	Corvallis Municipal Airport	OR	4290	customerservice@corvallisaero.net
+Cottage Grove	Oregon Department of Aviation (self-serve fuel)	503-378-4880	Cottage Grove State Airport	OR	1380	
+Creswell	Creswell Airport	541-895-2913	Hobby Field Airport	OR	3150	shumble@creswell-or
+Enterprise	Stangel Flight Service	541-426-3562	Enterprise Municipal Airport	OR	372	
+Eugene	Atlantic Aviation	541-688-9291	Mahlon Sweet Field Airport	OR	5070	eugfrontdesk@atlanticaviation.com
+Florence	Florence Airport Volunteer Group	541-997-8069	Florence Municipal Airport	OR	536	
+Gold Beach	Port of Gold Beach	541-247-6269	Gold Beach Municipal Airport	OR	424	
+Grants Pass	 Pacific Aviation Northwest, Inc.	541-479-2230	Grants Pass Airport	OR	2040	fbo@pacificaviationnw.com
+Hermiston	Hermiston Aviation	541-567-3694	Hermiston Municipal Airport	OR	2040	
+Hillsboro	Twin Oaks Airpark	503-451-3480, 503-522-8952	Stark's Twin Oaks Airpark	OR	1830	betty@twinoaksairpark.com
+Hood River	TacAero	541-386-1133	Ken Jernstedt Airfield	OR	1170	
+Hubbard	Lenair Corporation	503-651-2187	Lenhardt Airpark	OR	460	
+Independence	Nutsch Aviation	503-428-7209, 503-428-7210	Independence State Airport	OR	2760	mail@nutsch.com
+Joseph	Oregon Department of Aviation	503-378-4880	Joseph State Airport	OR	296	
+Klamath Falls	Century Aviation Services	541-882-4681	Crater Lake-Klamath Regional Airport	OR	4050	
+La Grande	La Grande/Union County Airport	541-963-6615	La Grande/Union County Airport	OR	1320	ucairport@eoni.com
+Lakeview	Lake County Airport	541-947-4222, 541-951-8883	Lake County Airport	OR	460	
+Lebanon	LebanAir Aviation	541-258-5029	Lebanon State Airport	OR	810	FBO@lebanair.com
+Lexington	Lexington Airport	541-989-9500	Lexington Airport	OR	340	
+Madras	Berg Air LLC	541-475-4899	Madras Municipal Airport	OR	870	bergairllc@yahoo.com
+Malin	City of Malin	541-723-2021, 541-892-1572	Malin Airport	OR	58	
+Mc Minnville	Konect Aviation Oregon, LLC	503-376-0190	Mc Minnville Municipal Airport	OR	5220	mail@konect-aviation
+Medford	Million Air Medford	541-842-2254	Rogue Valley International - Medford Airport	OR	3210	infonow@millionairmfr.com
+Newberg	Sportsman Airpark	503-538-2134	Sportsman Airpark	OR	960	jerry@sportsmanairpark.com
+Newberg	Precision Helicopters	503-537-0108	Chehalem Airpark	OR	1020	
+Newport	Newport Municipal Airport	541-867-7422	Newport Municipal Airport	OR	1650	l.vanderbeck@newportoregon.gov
+North Bend	 Coos Aviation	541-756-5181	Southwest Oregon Regional Airport	OR	1500	coosaviation@frontier.com
+Ontario	Frazier Aviation LLC	541-889-9197	Ontario Municipal Airport	OR	1050	
+Pendleton	Pendleton Aviation	541-276-3313	Eastern Oregon Regional Airport at Pendleton	OR	1020	
+Portland	 Aero Air	503-640-3711	Portland-Hillsboro Airport	OR	20850	frontdesk@aeroair.com
+Portland	Global Aviation	503-648-6403	Portland-Hillsboro Airport	OR	20850	fuel@flyglobalnow.com
+Portland	Hillsboro Aviation	503-648-2831	Portland-Hillsboro Airport	OR	20850	fbo@hillsboroaviation.com
+Portland	Atlantic Aviation	503-331-4220	Portland International Airport	OR	18690	joey.quitugua@atlanticaviation.com
+Portland	Gorge Winds Aviation	503-661-1044	Portland-Troutdale Airport	OR	8640	gorgewinds@gmail.com
+Portland-Mulino	Infinite Air Center, LLC	541-730-3345	Mulino State Airport	OR	1740	thann@infiniteaircenter.com
+Prineville	Prineville Airport	541-416-0805	Prineville Airport	OR	840	kcoffelt@cityofprineville.com
+Redmond	Leading Edge Jet Center	541-504-3848	Roberts Field Airport	OR	3240	info@flyredmond.com
+Roseburg	Western Oregon Flying Services LLC	541-673-4722, 541-430-8339	Roseburg Regional Airport	OR	2610	westernoregonaviation@yahoo.com
+Salem	 Salem Aviation Fueling @ Salem Air Center	503-364-4158, 503-364-0111	McNary Field Airport	OR	2850	info@salemaviation.biz
+Scappoose	Transwestern Aviation	503-543-3121	Scappoose Industrial Airpark	OR	4920	john@transwesternaviation.com
+Sisters	Sisters Eagle Air, Inc	541-719-0602	Sisters Eagle Air Airport	OR	108	
+Sunriver	Sunriver Resort	541-593-4603	Sunriver Airport	OR	472	info@sunriver-resort
+The Dalles	 Gorge Aviation Services, LLC	509-767-0005, 509-767-2272	Columbia Gorge Regional/The Dalles Municipal Airport	OR	1350	rolf@gorgeaviationservices.com
+Tillamook	Tillamook Airport	503-842-7152	Tillamook Airport	OR	2100	jpeak@potb.org

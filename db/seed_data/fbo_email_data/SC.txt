@@ -1,0 +1,57 @@
+Aiken	Aiken Aviation Enterprises	803-648-7803, 803-648-7849	Aiken Municipal Airport	SC	2310	customerservice@aikenaviation.com
+Allendale	Allendale County Airport	803-584-3801	Allendale County Airport	SC	540	
+Anderson	 Anderson Regional Airport	864-964-5656, 864-260-4163	Anderson Regional Airport	SC	2460	lgunning@andersoncountysc.org
+Andrews	Seven Rivers Aviation LLC	843-240-4823	Robert F Swinnie Airport	SC	308	
+Barnwell	Barnwell Regional Airport	803-259-1090	Barnwell Regional Airport	SC	440	barnwellairport@bellsouth.net
+Beaufort	Beaufort County Airport	843-255-2972	Beaufort County Airport	SC	1470	info@beaufortcoairport.com
+Bennettsville	Rare Air Inc.	843-479-4797	Marlboro County Jetport - H E Avent Field	SC	288	
+Bishopville	Lee County (self-serve fuel)	803-484-3296	Lee County Airport-Butters Field	SC	58	
+Camden	Kershaw County (FBO)	803-425-5285	Woodward Field Airport	SC	690	
+Camden	Camden Air Center	803-432-3095	Woodward Field Airport	SC	690	
+Charleston	Signature Flight Support	843-414-9200	Charleston Air Force Base/International Airport	SC	8910	CHS@signatureflight.com
+Charleston	Atlantic Aviation	843-746-7600	Charleston Air Force Base/International Airport	SC	8910	William.Keigans@atlanticaviation.com
+Charleston	Atlantic Aviation	843-559-2401	Charleston Executive Airport	SC	2550	paul.aiken@atlanticaviation.com
+Cheraw	Hall's Aviation	843-537-6423	Cheraw Municipal Airport/Lynch Bellinger Field	SC	476	
+Chester	Chester County Airport	803-385-6664	Chester Catawba Regional Airport	SC	690	
+Clemson	Oconee County Regional Airport	864-882-2959	Oconee County Regional Airport	SC	1740	aeronautics@oconeesc.com
+Columbia	Eagle Aviation	803-822-5569	Columbia Metropolitan Airport	SC	4170	lineservices@eagle-aviation
+Columbia	 Columbia Aviation	803-822-8332	Columbia Metropolitan Airport	SC	4170	fueldesk@bankair.com
+Columbia	Eagle Aviation	803-771-7915	Jim Hamilton L B Owens Airport	SC	2040	proberson@eagle-aviation
+Conway	 Beach Aviation Services	843-397-9111	Conway-Horry County Airport	SC	990	bas@horrycounty.org
+Darlington	Darlington County Jetport	843-393-9928	Darlington County Airport	SC	468	
+Florence	Precision Air	843-667-9627, 843-409-4556	Florence Regional Airport	SC	1620	florence.fbo@prec-air
+Georgetown	Seven Rivers Aviation	843-527-7516	Georgetown County Airport	SC	1260	sevenriversaviation@gmail.com
+Greenville	 Greenville Jet Center	864-232-7100	Greenville Downtown Airport	SC	4020	ali@greenvillejetcenter.com
+Greenville	AvServe	864-299-0314	Donaldson Field Airport	SC	2490	Bill@avserve.com
+Greenville	Stevens Aviation	864-678-6000	Donaldson Field Airport	SC	2490	gyhcustomerservice@stevensaviation.com
+Greenville	Donaldson Jet Center	864-277-8184	Donaldson Field Airport	SC	2490	
+Greenwood	Aeronautical Services of Greenwood	864-942-9634	Greenwood County Airport	SC	990	
+Greer	Cerulean General Aviation	864-655-5221	Greenville Spartanburg International Airport	SC	3840	csr@ceruleanaviation.com
+Hampton	Hampton-Varnville Airport	803-942-2702	Hampton-Varnville Airport	SC	33	
+Hartsville	Hartsville Aviation Group	843-861-8887	Hartsville Regional Airport	SC	408	
+Hilton Head Island	Signature Flight Support	843-689-3200	Hilton Head Airport	SC	3090	HXD@signatureflight.com
+Kingstree	Williamsburg Regional Airport	843-372-1119	Williamsburg Regional Airport	SC	464	
+Lancaster	Lancaster County Airport	803-285-1513	Lancaster County Airport-Mc Whirter Field	SC	750	
+Lancaster	Kirk Air Base	803-286-8800	Kirk Air Base Airport	SC	152	
+Laurens	Laurens County (FBO)	864-682-9620	Laurens County Airport	SC	240	
+Manning	Precision Air	803-478-4764	Santee Cooper Regional Airport	SC	388	
+Marion	Marion County Airport	843-423-8265	Marion County Airport	SC	392	cessnat210@aol.com
+Moncks Corner	Berkeley County Airport	843-899-7711	Berkeley County Airport	SC	660	stacy.thomas@berkeleycountysc.gov
+Mount Pleasant	Charleston County Aviation Authority	843-884-8837	Mount Pleasant Regional Airport-Faison Field	SC	1500	
+Myrtle Beach	 Beach Aviation Services	843-839-6740	Myrtle Beach International Airport	SC	9240	bas@horrycounty.org
+Newberry	Newberry County Airport Commission	803-321-2180	Newberry County Airport	SC	316	
+North Myrtle Beach	 Beach Aviation Services	843-848-7400	Grand Strand Airport	SC	2940	bas@horrycounty.org
+Orangeburg	Orangeburg Municipal Airport	803-534-5545	Orangeburg Municipal Airport	SC	660	
+Orangeburg	Dry Swamp Aviation	803-534-3157	Dry Swamp Airport	SC	192	
+Pageland	Town of Pageland (self-serve fuel)	843-672-7292	Pageland Airport	SC	176	
+Pelion	Lexington County Airport	803-785-8100	Lexington County Airport at Pelion	SC	492	
+Pickens	 Pickens County Airport	864-843-5803	Pickens County Airport	SC	900	airpt@co.pickens
+Ridgeland	AircraftConstructor Inc	843-717-2629	Ridgeland-Claude Dean Airport	SC	690	
+Rock Hill	SkyTech, Inc.	803-366-5108	Rock Hill (York Co) Airport-Bryant Field	SC	2310	msingletary@skytechinc.com
+Saluda	Saluda County Airport	864-445-2529	Saluda County Airport	SC	108	j.warren@saludacounty.sc
+Spartanburg	City of Spartanburg (FBO)	864-574-8552	Spartanburg Downtown Memorial Airport	SC	2730	akehidata@cityofspartanburg.org
+Summerville	Pelican Aviation	843-851-0970	Summerville Airport	SC	750	
+Sumter	 On Eagles' Wings	803-469-4639	Sumter Airport	SC	990	
+Union	Union County Airport	864-429-1680	Union County Airport, Troy Shelton Field	SC	228	
+Walterboro	Lowcountry Regional Airport	843-549-2549	Lowcountry Regional Airport	SC	1050	
+Winnsboro	S&S Aviation	803-635-3086	Fairfield County Airport	SC	600	

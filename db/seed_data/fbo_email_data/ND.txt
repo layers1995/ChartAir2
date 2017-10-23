@@ -1,0 +1,54 @@
+Ashley	Ashley Municipal Airport	701-371-8707	Ashley Municipal Airport	ND	280	
+Beach	Golden Valley Airport Authority	701-872-4617	Beach Airport	ND	124	
+Beulah	Dakota Helicopters	701-873-4100	Beulah Airport	ND	140	
+Bismarck	Bismarck Aero Center	701-223-4754	Bismarck Municipal Airport	ND	4650	shaeh@bismarckaero.com
+Bismarck	Executive Air Taxi Corp.	701-258-5024	Bismarck Municipal Airport	ND	4650	paul@executive-air
+Bottineau	Botno Aircraft Services	701-228-5265	Bottineau Municipal Airport	ND	400	
+Bowman	 Bottom Line Aviation, LLC	701-523-7484, 701-440-7449	Bowman Regional Airport	ND	376	
+Carrington	Carrington Airport	701-652-2911	Carrington Municipal Airport	ND	284	
+Casselton	AIC Maintenance, Inc.	701-347-4680	Casselton Robert Miller Regional Airport	ND	1140	
+Cavalier	Cavalier Municipal Airport Authority	701-265-3186, 701-520-8631	Cavalier Municipal Airport	ND	380	cavalierairport@polarcomm.com
+Cooperstown	Cooperstown Airport Authority	701-797-3613	Cooperstown Municipal Airport	ND	256	
+Crosby	Crosby Municipal Airport	701-965-6512	Crosby Municipal Airport	ND	228	
+Devils Lake	Foss & Meier Flight Service	701-662-3221, 701-351-4082	Devils Lake Regional Airport	ND	1920	
+Devils Lake	DL Aviation	701-739-2618, 701-739-9349	Devils Lake Regional Airport	ND	1920	
+Devils Lake	Devils Lake Aero Service	701-351-5382, 701-520-0229	Devils Lake Regional Airport	ND	1920	dlaero@hotmail.com
+Dickinson	Western Edge Aviation LLC	701-483-4221, 701-264-9966	Dickinson - Theodore Roosevelt Regional Airport	ND	1350	rick@westernedgeaviation.net
+Edgeley	Edgerly Municipal Airport	701-269-2732	Edgeley Municipal Airport	ND	184	
+Enderlin	Enderlin Airport Authority	701-799-6082	Sky Haven Airport	ND	252	
+Fargo	Fargo Jet Center	701-373-8800	Hector International Airport	ND	5460	service@fargojet.com
+Fargo	Delta 54 Aviation	701-371-2655	West Fargo Municipal Airport	ND	1050	robbie@delta54aviation.com
+Garrison	Garrison Municipal Airport	701-337-2303	Garrison Municipal Airport	ND	284	
+Glen Ullin	Glen Ullin Municipal Airport	701-348-3649	Glen Ullin Regional Airport	ND	75	
+Grafton	Agrimax	701-352-0271	Hutson Field Airport	ND	2190	
+Grand Forks	 Avflight Grand Forks	701-772-5504	Grand Forks International Airport	ND	26160	csrgrandforks@avflight.com
+Gwinner	Hoistad Flying Service	701-724-3068	Gwinner Airport-Roger Melroe Field	ND	268	
+Harvey	Harvey Municipal Airport	701-324-2000	Harvey Municipal Airport	ND	132	
+Hazen	Mercer County Regional Airport	701-880-0042	Mercer County Regional Airport	ND	116	mcraa@westriv.com
+Hettinger	Air Dakota Flite	701-567-2069	Hettinger Municipal Airport	ND	404	
+Jamestown	First Class Aviation, Inc.	701-952-1515	Jamestown Regional Airport	ND	3060	
+Kenmare	Kenmare Municipal Airport	701-385-9335	Kenmare Municipal Airport	ND	244	
+Kindred	Kindred/Davenport Regional Airport Authority	701-428-9990	Robert Odegaard Field Airport	ND	464	
+Langdon	Langdon Airport Authority	701-256-3639	Robertson Field Airport	ND	600	
+Linton	North Central Aviation	701-254-5449	Linton Municipal Airport	ND	504	
+Lisbon	Sunrise Spray Service	701-683-5501	Lisbon Municipal Airport	ND	320	
+Mandan	Clear Skies Aviation	701-663-5386, 701-214-0983	Mandan Municipal Airport	ND	2010	info@clearskiesaviationnd.com
+Mandan	City of Mandan (FBO)	701-663-0669, 701-663-3690	Mandan Municipal Airport	ND	2010	manager@mandanairport.com
+Minot	Minot Aero Center	701-857-4738	Minot International Airport	ND	2040	linemanager@minotaerocenter.com
+Mohall	Mohall Municipal Airport Authority	701-263-1008	Mohall Municipal Airport	ND	660	
+Mott	Mott Airport Authority	701-824-2983	Mott Municipal Airport	ND	140	
+Northwood	Northwood Aero Service	701-587-5171	Northwood Municipal Airport-Vince Field	ND	900	
+Oakes	Bear Creek Flying Service	701-742-3145	Oakes Municipal Airport	ND	372	
+Page	Tall Towers Aviation	701-668-2302	Page Regional Airport	ND	324	
+Park River	Park River Airport	701-284-7303	Park River Airport-W C Skjerven Field	ND	408	
+Parshall	Parshall-Hankins Airport	701-862-3125	Parshall-Hankins Airport	ND	112	
+Pembina	Nord Aviation, Inc.	701-825-6615	Pembina Municipal Airport	ND	252	
+Rolla	Rolla Flying Service	701-477-5145	Rolla Municipal Airport	ND	308	
+Rugby	Schneider Aerial Spraying Service	701-776-5171	Rugby Municipal Airport	ND	312	
+Stanley	Stanley Municipal Airport	701-629-0087	Stanley Municipal Airport	ND	360	
+Tioga	Tioga Aero Center	701-664-3012, 701-641-6020	Tioga Municipal Airport	ND	488	tiogaaero@gmail.com
+Valley City	Barnes County Municipal Airport	701-840-5903	Barnes County Municipal Airport	ND	630	
+Wahpeton	TriState Aviation	701-642-5777	Harry Stern Airport	ND	1080	
+Walhalla	Walhalla Aviation	701-549-3500	Walhalla Municipal Airport	ND	224	
+Watford City	Watford AeroService	701-570-2646	Watford City Municipal Airport	ND	600	luke@ltenterprisesnd.com
+Williston	Signature Flight Support	701-774-2300	Sloulin Field International Airport	ND	3540	ISN@signatureflight.com

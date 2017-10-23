@@ -1,0 +1,65 @@
+AZ	Benson	Benson Municipal Airport	E95	 Southwestern Aviation, LLC	520-586-3262	info@swernaviation.com	2010
+AZ	Bisbee	Bisbee Municipal Airport	P04	City of Bisbee	520-432-6030, 520-249-5401		224
+AZ	Buckeye	Buckeye Municipal Airport	KBXK	City of Buckeye	623-349-6880, 623-261-8999	slowe@buckeyeaz.gov	4350
+AZ	Bullhead City	Laughlin/Bullhead International Airport	KIFP	Signature Flight Support	928-754-3020	IFP@signatureflight.com	2190
+AZ	Bullhead City	Sun Valley Airport	A20	Sun Valley Airport	760-315-5096, 928-768-3176	jim@alpha	96
+AZ	Casa Grande	Casa Grande Municipal Airport	KCGZ	Casa Grande Municipal Airport	520-426-3616, 520-251-3366	airportops@casagrandeaz.gov	9840
+AZ	Chandler	Chandler Municipal Airport	KCHD	 Chandler Air Service	480-963-6420	fly@aerobatics.com	17670
+AZ	Chandler	Chandler Municipal Airport	KCHD	Chandler Municipal Airport	480-782-3540	Doug.Whitney@chandleraz.gov	17670
+AZ	Chandler	Stellar Airpark	P19	Stellar Air	480-961-9050		3300
+AZ	Colorado City	Colorado City Municipal Airport	KAZC	Escalade Air	435-616-2871		368
+AZ	Coolidge	Coolidge Municipal Airport	P08	Skyflight Services	480-620-4965		324
+AZ	Cottonwood	Cottonwood Airport	P52	City of Cottonwood	928-340-2777		1560
+AZ	Douglas	Douglas Municipal Airport	KDGL	 City of Douglas (FBO)	520-368-1447		930
+AZ	Douglas/Bisbee	Bisbee Douglas International Airport	KDUG	Bisbee Douglas International Airport	520-364-2771	rsoto@cochise.az	2430
+AZ	Eloy	Eloy Municipal Airport	E60	Eloy Municipal Airport	520-466-4721		2460
+AZ	Flagstaff	Flagstaff Pulliam Airport	KFLG	Wiseman Aviation	928-779-9585	orville@flywise.com	3810
+AZ	Fort Huachuca / Sierra Vista	Sierra Vista Municipal Airport-Libby Army Airfield	KFHU	City of Sierra Vista (FBO)	520-452-7091	svairport@sierravistaaz.gov	9810
+AZ	Gila Bend	Gila Bend Municipal Airport	E63	Imperial Flying Service	760-353-1182		2970
+AZ	Glendale	Glendale Municipal Airport	KGEU	 Glendale Aero Services	623-877-3333	info@gas-az	5340
+AZ	Goodyear	Phoenix Goodyear Airport	KGYR	Lux Air Jet Centers	623-932-1200, 623-932-4550	csrgyr@luxairjetcenters.com	9930
+AZ	Grand Canyon	Valle Airport	40G	Valle Airport	928-635-5280	info@valleairport.com	520
+AZ	Grand Canyon	Grand Canyon National Park Airport	KGCN	Grand Canyon Airlines	928-638-7117		8700
+AZ	Holbrook	Holbrook Municipal Airport	P14	Holbrook Municipal Airport	928-524-6225		284
+AZ	Kingman	Kingman Airport	KIGM	Air'zona Aircraft Service	928-757-7744		2340
+AZ	Lake Havasu City	Lake Havasu City Airport	KHII	Desert Skies Executive Air Terminal	928-764-8000	desertskiesexecutiveair@yahoo.com	3690
+AZ	Lake Havasu City	Lake Havasu City Airport	KHII	Havasu Air Center, LLC	928-764-1999	info@havasuaircenter.com	3690
+AZ	Marana	Marana Regional Airport	KAVQ	 Tucson Aeroservice Center	520-682-2999	customer.service@tucsonaero.com	7410
+AZ	Marana	Pinal Airpark	KMZJ	Marana Aerospace Solution Inc.	520-682-4181	chris.barnard@maranaaerospace.com	4680
+AZ	Maricopa	Ak-Chin Regional Airport	A39	 Ak-Chin Indian Community	520-568-1683, 520-709-8914	tcostello@ak-chin	2610
+AZ	Mesa	Falcon Field Airport	KFFZ	Falcon Executive Aviation, Inc.	480-832-0704	nancy@falconaviation.com	19410
+AZ	Mesa	Falcon Field Airport	KFFZ	 Heliponents, Inc.	480-981-8300	info@heliponentsinc.com	19410
+AZ	Nogales	Nogales International Airport	KOLS	 Tiffin Aviation Services	520-287-9120, 520-761-7880	ltiffin@msn.com	3840
+AZ	Page	Page Municipal Airport	KPGA	Classic Aviation	928-645-5356		1410
+AZ	Page	Page Municipal Airport	KPGA	Lake Powell Jet Center	928-645-2987	info@lakepowelljetcenter.com	1410
+AZ	Page	Page Municipal Airport	KPGA	American Aviation	928-608-1060		1410
+AZ	Parker	Avi Suquilla Airport	P20	CRIT Air	928-669-2168		1230
+AZ	Payson	Payson Airport	KPAN	MPG East, Inc.	928-970-0887	mloldenkamp@gmail.com	2820
+AZ	Peoria	Pleasant Valley Airport	P48	 Pleasant Valley Airport	623-566-5960	royc@pleasantvalleyairport.com	4530
+AZ	Phoenix	Phoenix Sky Harbor International Airport	KPHX	Cutter Aviation	602-273-1237	infophoenix@cutteraviation.com	35970
+AZ	Phoenix	Phoenix Sky Harbor International Airport	KPHX	Swift Aviation	602-273-3770	CustomerService@swiftaviation.com	35970
+AZ	Phoenix	Phoenix Deer Valley Airport	KDVT	Cutter Aviation	623-581-1444	infodvt@cutteraviation.com	28680
+AZ	Phoenix	Phoenix Deer Valley Airport	KDVT	Sibran - Deer Valley	970-231-6114	dan@sibran.com	28680
+AZ	Phoenix	Phoenix-Mesa Gateway Airport	KIWA	Gateway Aviation Services	480-988-7700	gas@gatewayairport.com	20790
+AZ	Prescott	Ernest A Love Field Airport	KPRC	Legend Aviation	928-443-9333, 928-443-1706	info@legendav.com	19920
+AZ	Safford	Safford Regional Airport	KSAD	 Ponderosa Aviation	928-428-7820		1140
+AZ	San Manuel	San Manuel Airport	E77	San Manuel-Ray Blair Airport	520-866-6545		1140
+AZ	Scottsdale	Scottsdale Airport	KSDL	Signature Flight Support	480-951-2525	SDL@signatureflight.com	12540
+AZ	Scottsdale	Scottsdale Airport	KSDL	Ross Aviation	480-948-2400	SDL@rossaviation.com	12540
+AZ	Sedona	Sedona Airport	KSEZ	 Red Rock Aviation	928-282-1046	RedRockAv@sedonaairport.org	2880
+AZ	Show Low	Show Low Regional Airport	KSOW	 Show Low Regional Airport	928-532-4190		1020
+AZ	Springerville	Springerville Municipal Airport	KJTC	Town of Springerville	928-333-5746, 928-245-0151	airport@springervilleaz.gov	244
+AZ	St Johns	St Johns Industrial Air Park	KSJN	St. Johns Industrial Air Park	928-337-4254		1380
+AZ	Taylor	Taylor Airport	KTYL	Ray's Aircraft Services	928-536-4811, 928-536-7366	airport@tayloraz.org	272
+AZ	Tucson	Tucson International Airport	KTUS	Million Air Tucson	520-445-6300	csr@millionair.com	10500
+AZ	Tucson	Tucson International Airport	KTUS	Premier Aviation	520-889-6327	csr@premierfbo.com	10500
+AZ	Tucson	Tucson International Airport	KTUS	Tucson Jet Center	520-746-1411		10500
+AZ	Tucson	Tucson International Airport	KTUS	Atlantic Aviation	520-889-0593	jeff.morse@atlanticaviation.com	10500
+AZ	Tucson	Tucson International Airport	KTUS	 Bombardier Aerospace	520-746-5234, 520-746-5600		10500
+AZ	Tucson	Tucson International Airport	KTUS	 Velocity Air	866-267-5350	info@velocityairinc.com	10500
+AZ	Tucson	Ryan Field Airport	KRYN	 Velocity Air	520-744-7474	info@velocityairinc.com	9000
+AZ	Wickenburg	Wickenburg Municipal Airport	E25	Town of Wickenburg	928-684-0754	sboyle@wickenburgaz.org	2970
+AZ	Willcox	Cochise County Airport	P33	Walden Aviation	520-384-2908		810
+AZ	Williams	H A Clark Memorial Field Airport	KCMR	City of Williams	928-635-4451, 928-635-1278	airport@williamsaz.gov	500
+AZ	Winslow	Winslow-Lindbergh Regional Airport	KINW	Wiseman Aviation, Inc.	928-289-0100	flytowinslow@flywise.com	1740
+AZ	Yuma	Yuma Marine Corps Air Station/Yuma International Airport	KNYL	 Million Air Yuma	928-247-9571		15390

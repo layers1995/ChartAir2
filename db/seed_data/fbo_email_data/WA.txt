@@ -1,0 +1,65 @@
+Anacortes	Port of Anacortes	360-293-3134	Anacortes Airport	WA	750	josh@portofanacortes.com
+Arlington	 Arlington Flight Services, Inc.	360-435-5700	Arlington Municipal Airport	WA	10980	business@arlingtonflightservices.com
+Arlington	Castle & Cooke Aviation Services	425-791-3051	Arlington Municipal Airport	WA	10980	customerservicepae@castlecooke.com
+Auburn	Airport Management Group, LLC	253-333-6821	Auburn Municipal Airport	WA	13500	info@s50wa.com
+Bellingham	Bellingham Aviation Services	360-676-7624	Bellingham International Airport	WA	6750	info@bli-jet
+Bellingham	Command Aviation, Inc.	360-733-3174	Bellingham International Airport	WA	6750	customerservice@commandaviation.net
+Bremerton	Avian Flight Center, Inc.	360-674-2111	Bremerton National Airport	WA	5430	info@avianflight.com
+Camas	Port of Camas/Washougal	360-835-2196	Grove Field Airport	WA	810	david@portcw.com
+Chehalis	 Chehalis-Centralia Airport	360-748-1230	Chehalis-Centralia Airport	WA	3930	dfleckenstein@ci.chehalis
+Chelan	Chelan Municipal Airport	509-682-5976	Lake Chelan Airport	WA	1320	
+College Place	Cheney Aviation	509-522-1847	Martin Field Airport	WA	384	
+Colville	City of Colville (self-serve fuel)	509-685-9056	Colville Municipal Airport	WA	504	
+Davenport	 Davenport Municipal Airport	509-725-4352, 509-725-0152	Davenport Airport	WA	536	
+Deer Park	Deer Park Airport	509-276-3379	Deer Park Airport	WA	3000	
+Eastsound	Aeronautical Services	360-378-2640	Orcas Island Airport	WA	3420	
+Ellensburg	Midstate Aviation	509-962-7850	Bowers Field Airport	WA	4950	
+Ephrata	Port of Ephrata	509-754-3508	Ephrata Municipal Airport	WA	3690	
+Everett	Castle & Cooke Aviation	425-355-6600	Snohomish County Airport (Paine Field)	WA	8730	twilcoxson@castlecooke.com
+Everett	 Regal Air - Crown Avionics	425-353-9123	Snohomish County Airport (Paine Field)	WA	8730	ron.morcom@regalair.com
+Friday Harbor	Aeronautical Services	360-378-2640	Friday Harbor Airport	WA	3690	
+Hoquiam	Port of Grays Harbor	360-533-9544	Bowerman Airport	WA	152	sanderson@portgrays.org
+Kelso	Kelso Aviation Services	360-414-4333, 360-901-1723	Southwest Washington Regional Airport	WA	3360	denny@kelsoaviation.com
+Kent	Crest Airpark	253-631-7100	Norman Grier Field Airport	WA	9360	
+Lynden	 City of Lynden (self-serve fuel)	360-354-3446	Lynden Municipal Airport Jansen Field	WA	540	
+Moses Lake	 Million Air Moses Lake	509-762-2222	Grant County International Airport	WA	6030	lgodden@millionair.com
+Moses Lake	Columbia Pacific Aviation, Inc.	509-762-1016	Grant County International Airport	WA	6030	
+Oak Harbor	AJ Eisenberg Airport	866-429-2132	AJ Eisenberg Airport	WA	1440	
+Okanogan	Okanogan Legion Airport	509-422-3600	Okanogan Legion Airport	WA	312	
+Olympia	Jorgensen Air Service	360-754-4043, 360-705-4300	Olympia Regional Airport	WA	5400	deb@jorgensenair.com
+Olympia	Glacier Jet Center	360-705-3214, 360-753-0943	Olympia Regional Airport	WA	5400	info@helicopterflightschool.com
+Omak	Omak Airport	509-826-6270	Omak Airport	WA	1950	
+Oroville	City of Oroville (self-serve fuel)	509-476-2106	Dorothy Scott Airport	WA	1560	
+Othello	Port of Othello	509-488-2544	Othello Municipal Airport	WA	2820	
+Pasco	Bergstrom Aircraft, Inc.	509-547-6271	Tri-Cities Airport	WA	4530	info@bergstromaircraft.com
+Pasco	 SullinAir Jet Center	509-545-6524	Tri-Cities Airport	WA	4530	
+Port Angeles	Rite Bros. Aviation	360-452-6226	William R Fairchild International Airport	WA	2070	
+Port Townsend	 Tailspin Tommy's Aircraft Repair and Flight School	360-385-1308	Jefferson County International Airport	WA	4770	Tailspintommys@gmail.com
+Prosser	Prosser Airport - Port of Benton	509-786-2053	Prosser Airport	WA	1080	prosserairport@embarqmail.com
+Pullman/Moscow	Inter-State Aviation	509-332-6596	Pullman/Moscow Regional Airport	WA	2400	interstate@pullman.com
+Puyallup	Safety In Motion Flight Center	253-840-5758	Pierce County Airport - Thun Field	WA	8220	info@simflightcenter.com
+Renton	Pro-Flight Aviation	425-228-9510	Renton Municipal Airport	WA	10110	proflightaviationinc@yahoo.com
+Renton	 Rainier Flight Service	425-610-6293	Renton Municipal Airport	WA	10110	admin@rainierflight.com
+Richland	 Sundance Aviation	509-946-2515, 509-947-3650	Richland Airport	WA	2370	info@sundanceaviation.com
+Rosalia	Rosalia Municipal Airport	509-523-5991	Rosalia Municipal Airport	WA	630	
+Seattle	Signature Flight Support	206-763-0350	Boeing Field/King County International Airport	WA	13890	BFI@signatureflight.com
+Seattle	Clay Lacy Aviation	206-762-6000	Boeing Field/King County International Airport	WA	13890	clientservices@bfi.claylacy
+Seattle	Kenmore Aero Services	206-762-6376	Boeing Field/King County International Airport	WA	13890	CSR@kenmorefbo.com
+Seattle	Signature Flight Support	206-433-5481	Seattle-Tacoma International Airport	WA	33840	SEA@signatureflight.com
+Sequim	Sequim Valley Airport	360-683-4444	Sequim Valley Airport	WA	690	sequimairport@gmail.com
+Snohomish	Snohomish Flying Service	360-568-1541	Harvey Field Airport	WA	8220	
+Spanaway	Spanaway Airport	253-847-2266	Spanaway Airport	WA	152	
+Spokane	Signature Flight Support	866-755-5204	Spokane International Airport	WA	5130	GEG@signatureflight.com
+Spokane	Western Aviation	509-534-7371	Felts Field Airport	WA	4500	info@westernaviation.net
+Sunnyside	Port of Sunnyside	509-837-5206	Sunnyside Municipal Airport	WA	1980	
+Tacoma	Tacoma Narrows Aviation	253-853-7742	Tacoma Narrows Airport	WA	4380	
+Tacoma	Pavco Flight Center	253-851-5577	Tacoma Narrows Airport	WA	4380	
+Toledo	Ed Carlson Memorial Field - South Lewis County Airport	360-864-4966, 360-269-6727	Ed Carlson Memorial Field - South Lewis Co Airport	WA	1410	
+Vancouver	Aero Maintenance Flight Center	360-735-9441	Pearson Field Airport	WA	4320	krisgal@aeromt.com
+Walla Walla	SullinAir Jet Center	509-222-9432	Walla Walla Regional Airport	WA	2220	
+Wenatchee	 Pangborn Flight Center	509-886-0233, 509-884-2494	Pangborn Memorial Airport	WA	3630	jake.russell@pangbornairport.com
+Wenatchee	 Executive Flight, Inc.	509-884-1545, 509-670-9304	Pangborn Memorial Airport	WA	3630	mikeo@execflight.com
+Wilbur	Greg's Crop Care Corporation	509-647-2441	Wilbur Airport	WA	436	
+Winthrop	Smokejumper Aviation	509-322-1630, 509-996-4133	Methow Valley State Airport	WA	630	
+Yakima	 McCormick Air Center	509-248-1680	Yakima Air Terminal/McAllister Field	WA	2940	line@mccormickaircenter.com
+Yakima	McAllister Museum of Aviation	509-457-4933	Yakima Air Terminal/McAllister Field	WA	2940	info@mcallistermuseum.org

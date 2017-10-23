@@ -1,0 +1,23 @@
+Beckley	Raleigh County Memorial Airport	304-255-0476	Raleigh County Memorial Airport	WV	1830	
+Bluefield	Mercer County Airport Authority	304-327-5308	Mercer County Airport	WV	1350	
+Buckhannon	Buckhannon Upshur Airport Authority	304-472-9437, 304-613-7989	Upshur County Regional Airport	WV	3300	manager@flyw22.com
+Charleston	Executive Air Terminal	304-343-8818	Yeager Airport	WV	3630	m.slack@executiveair.biz
+Clarksburg	V1 Aviation	304-848-6700	North Central West Virginia Airport	WV	1650	V1Services@flyckb.com
+Elkins	Elkins-Randolph County Airport	304-636-2726	Elkins-Randolph County Airport-Jennings Randolph Field	WV	870	
+Fairmont	Fairmont-Marion County Regional Airport Authority	304-363-1468	Fairmont Municipal Airport-Frankman Field	WV	660	
+Huntington	Huntington Jet Center	304-453-6165	Tri-State Airport/Milton J. Ferguson Field	WV	1050	bbrown@tristateairport.com
+Lewisburg	Greenbrier Valley Airport	304-645-3961	Greenbrier Valley Airport	WV	1470	info@gvairport.com
+Logan	Logan County Airport Authority	304-752-0975	Logan County Airport	WV	484	
+Martinsburg	 Aero-Smith, Inc.	304-262-2507	Eastern WV Regional Airport/Shepherd Field	WV	2160	kbrosius@flyaerosmith.com
+Milton	Ona Airpark	304-710-5650	Ona Airpark	WV	600	
+Morgantown	Morgantown Municipal Airport & FBO	304-296-2359	Morgantown Municipal Airport-Walter L. Bill Hart Field	WV	4200	
+New Cumberland	Herron Airport	304-387-0191	Herron Airport	WV	152	
+Parkersburg	Mid-Ohio Valley Regional Airport	304-464-5115	Mid-Ohio Valley Regional Airport	WV	2400	
+Petersburg	Stahl Flying Services	304-257-4435	Grant County Airport	WV	1200	
+Philippi	Philippi-Barbour County Regional Airport	304-457-1225	Philippi/Barbour County Regional Airport	WV	308	
+Pineville	Kee Field	304-732-9160	Kee Field Airport	WV	168	
+Point Pleasant	Raven Aviation	304-675-7765	Mason County Airport	WV	140	
+Ravenswood	Jackson County Airport	304-273-8114	Jackson County Airport	WV	1020	
+Spencer	Boggs Aviation	304-927-4045	Boggs Field Airport	WV	236	
+Sutton	Braxton County Airport	304-765-0186, 304-542-3311	Braxton County Airport	WV	468	
+Wheeling	Wheeling Ohio County Airport Aviation Center	304-277-3499	Wheeling Ohio County Airport	WV	3840	

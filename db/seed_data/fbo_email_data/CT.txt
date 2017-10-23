@@ -1,20 +1,20 @@
-CT	Bridgeport	Igor I Sikorsky Memorial Airport	KBDR	203-377-1100	3870	maria.tari@atlanticaviation.com
-CT	Bridgeport	Igor I Sikorsky Memorial Airport	KBDR	203-381-6000, 203-380-9151	3870	bciambra@voloaviation.com
-CT	Bridgeport	Igor I Sikorsky Memorial Airport	KBDR	203-375-5795	3870	john@threewing.com
-CT	Chester	Chester Airport	KSNC	860-526-4321	990	
-CT	Danbury	Danbury Municipal Airport	KDXR	203-748-7000	4260	info@businessaircraftcenter.com
-CT	Danbury	Danbury Municipal Airport	KDXR	203-743-5100	4260	laura@reliantair.com
-CT	Danbury	Danbury Municipal Airport	KDXR	203-778-1150, 203-744-5010	4260	joan@arrowaviationllc.com
-CT	Danbury	Danbury Municipal Airport	KDXR	203-826-7893	4260	info@westconnaviation.com
-CT	Danielson	Danielson Airport	KLZD	860-942-1629	1980	
-CT	Ellington	Ellington Airport	7B9	860-871-2054	2220	
-CT	Groton (New London)	Groton-New London Airport	KGON	860-715-8800	3120	sritchotte@mysticjetcenter.com
-CT	Hartford	Hartford-Brainard Airport	KHFD	860-548-9334	3960	csr1@hfdjet.com
-CT	Meriden	Meriden Markham Municipal Airport	KMMK	203-630-2878	1380	
-CT	New Haven	Tweed-New Haven Airport	KHVN	203-467-9555	3300	customerservice@robinsonaviation.com
-CT	Oxford	Waterbury-Oxford Airport	KOXC	203-264-6525	3570	
-CT	Plainville	Robertson Field Airport	4B8	860-747-5519	1740	
-CT	Simsbury	Simsbury Airport	4B9	860-459-1575	1050	
-CT	Warehouse Point	Skylark Airpark	7B6	413-537-5121	1320	
-CT	Windsor Locks	Bradley International Airport	KBDL	860-623-4955	7680	BDL@signatureflight.com
-CT	Windsor Locks	Bradley International Airport	KBDL	860-627-3300	7680	bdlfbo@tacair.com
+Bridgeport	Atlantic Aviation	203-377-1100	Igor I Sikorsky Memorial Airport	CT	3870	maria.tari@atlanticaviation.com
+Bridgeport	 Volo Aviation	203-381-6000, 203-380-9151	Igor I Sikorsky Memorial Airport	CT	3870	bciambra@voloaviation.com
+Bridgeport	 Three Wing Aviation Group LLC	203-375-5795	Igor I Sikorsky Memorial Airport	CT	3870	john@threewing.com
+Chester	Chester Charter Inc	860-526-4321	Chester Airport	CT	990	
+Danbury	Business Aircraft Center	203-748-7000	Danbury Municipal Airport	CT	4260	info@businessaircraftcenter.com
+Danbury	Reliant Air	203-743-5100	Danbury Municipal Airport	CT	4260	laura@reliantair.com
+Danbury	 Executive Air Service	203-778-1150, 203-744-5010	Danbury Municipal Airport	CT	4260	joan@arrowaviationllc.com
+Danbury	 Westconn Aviation	203-826-7893	Danbury Municipal Airport	CT	4260	info@westconnaviation.com
+Danielson	Gaudette Aviation LLC	860-942-1629	Danielson Airport	CT	1980	
+Ellington	Northeast Helicopters	860-871-2054	Ellington Airport	CT	2220	
+Groton (New London)	Mystic Jet Center, LLC.	860-715-8800	Groton-New London Airport	CT	3120	sritchotte@mysticjetcenter.com
+Hartford	Hartford Jet Center	860-548-9334	Hartford-Brainard Airport	CT	3960	csr1@hfdjet.com
+Meriden	City of Meriden	203-630-2878	Meriden Markham Municipal Airport	CT	1380	
+New Haven	 Robinson Aviation	203-467-9555	Tweed-New Haven Airport	CT	3300	customerservice@robinsonaviation.com
+Oxford	Atlantic Aviation	203-264-6525	Waterbury-Oxford Airport	CT	3570	
+Plainville	Interstate Aviation	860-747-5519	Robertson Field Airport	CT	1740	
+Simsbury	Simsbury Flying Club	860-459-1575	Simsbury Airport	CT	1050	
+Warehouse Point	Skylark Airpark	413-537-5121	Skylark Airpark	CT	1320	
+Windsor Locks	Signature Flight Support	860-623-4955	Bradley International Airport	CT	7680	BDL@signatureflight.com
+Windsor Locks	TAC Air	860-627-3300	Bradley International Airport	CT	7680	bdlfbo@tacair.com

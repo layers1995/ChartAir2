@@ -30,6 +30,7 @@ def main
 	addAirports("full_airport_data")
 
 	addFboFolder("fbo_call_data")
+	updateFboEmails("fbo_email_data")
 
 	#addFeesAndUpdateFbos(Rails.root.join("db", "seed_data", "call_sheets", "tx_call_sheet.tsv"))
 	addFeeFolder("call_sheets")
@@ -228,6 +229,51 @@ def addFboFolder(folderName)
 	end
 end
 
+
+# I can't just redo the FBO table because then all of our references would get screwed up. But the way this method works misses a lot of FBOs
+def updateFboEmails(folderName)
+	folderPath = Rails.root.join("db", "seed_data", folderName)
+	count = 0
+	Dir.foreach(folderPath) do |curFile|
+		next if curFile == '.' or curFile == '..' # do work on real items
+		filePath = Rails.root.join("db", "seed_data", folderName, curFile)
+		fbos = open(filePath).read
+		fbos.each_line do |curFbo|
+			curFbo = curFbo.strip.downcase
+			cityName, fboName, phone, airportName, state, numOperations, email = curFbo.split("\t")
+
+			if state != "il" and state != "oh" and state != "mn" and state != "mi" and state != "in" and state != "az" and state != "co" and state != "ky" and state != "mo" and state != "ms" and state!= "nv" and state != "ok" and state != "or" and state != "tx" and state != "ut" and state != "wa" and state != "wv"
+				break
+			end
+			
+			phone1 = phone.split(", ")[0]
+			phone2 = phone.split(", ")[1]
+
+			if phone2.nil?
+				phone2 = ""
+			end
+			curAirport = Airport.find_by( :name => airportName, :state => state )
+			if curAirport.nil?
+				puts airportName
+			else
+				databaseFbo = Fbo.find_by( :airport => curAirport)
+				if databaseFbo.nil?
+					count += 1
+					#printf("%s\t%s\t%s\n", state, fboName, airportName)
+				end
+			end
+
+			databaseFbo = Fbo.find_by( :name => fboName, :phone => phone1, :alternate_phone => phone2 )
+			if databaseFbo.nil?
+				#printf("%s\t%s\t%s\n", state, fboName, airportName)
+			else
+				databaseFbo.update( :email => email )
+			end
+		end
+	end
+	puts count
+end
+
 def addFbos(filePath)
 	fbos = open(filePath).read
 	
@@ -249,7 +295,7 @@ def addFbos(filePath)
 
 		#puts airportName
 
-		curAirport = Airport.find_by(:name => airportName)
+		curAirport = Airport.find_by(:name => airportName, :state => state)
 
 		if curAirport.nil?
 			curAirport = Airport.find_by(:airport_code => airportCode)

@@ -1,0 +1,85 @@
+Akron	 Christian Airmen	716-542-4607	Akron Airport	NY	4170	
+Albany	Million Air Albany	518-242-2444	Albany International Airport	NY	5310	info.alb@millionair.com
+Batavia	 Genesee County Airport	585-344-8534, 585-344-8532	Genesee County Airport	NY	3300	gvq@rochester.twcbc
+Binghamton	FirstAIR	607-644-1062	Greater Binghamton Airport/Edwin A Link Field	NY	1290	sfreeman@firstair.us
+Brockport	Big Fella Enterprises / Ledgedale Airpark	585-637-5050	Ledgedale Airpark	NY	1320	
+Buffalo	Prior Aviation	716-633-1000	Buffalo Niagara International Airport	NY	8010	
+Buffalo	Lindsay Aviation	716-668-4900	Buffalo Airfield	NY	4530	
+Canandaigua	MFC Aviation Services	585-394-4780, 585-396-0584	Canandaigua Airport	NY	1770	
+Cooperstown	BoDee Aviation	607-287-7032	Cooperstown-Westville Airport	NY	184	
+Corning	Costa Flying Service	607-962-0053	Corning-Painted Post Airport	NY	750	
+Dansville	Dansville Aero, Inc	585-330-8840	Dansville Municipal Airport	NY	3960	
+Duanesburg	Duanesburg NuEagle LLC	518-421-8881	Duanesburg Airport	NY	67	duanesburgairport@gmail.com
+East Hampton	Sound Aircraft Services	631-537-2202	East Hampton Airport	NY	2070	info@soundaircraft.com
+East Hampton	Myers Aero Fuels	631-537-3737	East Hampton Airport	NY	2070	
+Ellenville	Town of Wawarsing	845-647-8401	Joseph Y Resnick Airport	NY	452	
+Elmira/Corning	Atlantic Aviation	607-739-3597	Elmira/Corning Regional Airport	NY	1710	theresa.doane@atlanticaviation.com
+Endicott	Village of Endicott	607-785-0467	Tri-Cities Airport	NY	500	
+Farmingdale	Sheltair Farmingdale	631-843-9488	Republic Airport	NY	17250	frg@sheltairaviation.com
+Farmingdale	Republic Jet Center (f/k/a Talon Air FBO)	631-881-9520	Republic Airport	NY	17250	FBO@republicjetcenter.com
+Farmingdale	Atlantic Aviation	631-752-9022	Republic Airport	NY	17250	srose@atlanticaviation.com
+Fulton	Oswego County Airport	315-591-9130	Oswego County Airport	NY	1680	
+Gasport	Tanger-Aire	716-804-6857	Royalton Airport	NY	468	
+Glens Falls	Rich Air	518-798-3091	Floyd Bennett Memorial Airport	NY	2040	dispatch@flyrichair.com
+Gowanda	Gernatt Asphalt Products	716-532-3371	Gowanda Airport	NY	276	
+Hamburg	Hamburg Airport	716-627-2440	Hamburg Inc Airport	NY	990	
+Hamilton	Village of Hamilton	315-824-6681	Hamilton Municipal Airport	NY	1410	
+Hudson	Richmor Aviation	518-828-9461	Columbia County Airport	NY	1590	fbo@richmor.com
+Ithaca	 Taughannock Aviation	607-257-7500	Ithaca Tompkins Regional Airport	NY	2940	fbo@flytac.com
+Jamestown	 Jamestown Aviation Company	716-665-4800	Chautauqua County/Jamestown Airport	NY	2850	flightline@jamestownaviation.com
+Johnstown	The 195 Factory	518-882-6392	Fulton County Airport	NY	930	service@the195factory.com
+Kingston	Richmor Aviation	845-336-8400	Kingston-Ulster Airport	NY	660	llitts@richmor.com
+Lake Placid	Adirondack Flying Service	518-523-2473	Lake Placid Airport	NY	990	
+Lancaster	Lancaster Airport, Inc.	716-860-6044	Buffalo-Lancaster Regional Airport	NY	3690	
+Le Roy	 Le Roy Aviation Services, Inc.	585-768-4560, 585-259-9308	Le Roy Airport	NY	1200	rsdjr1400@aol.com
+Lockport	North Buffalo Suburban Airport	716-625-8111	North Buffalo Suburban Airport	NY	276	
+Malone	Malone-Dufort Airport	518-483-5073	Malone-Dufort Airport	NY	720	
+Massena	Town of Massena (FBO)	315-769-7605	Massena International Airport-Richards Field	NY	750	
+Middletown	Randall Airport	845-343-5965	Randall Airport	NY	1860	
+Millbrook	 HerGin Aviation, Inc.	845-677-5010	Sky Acres Airport	NY	3960	hergin@skyacresairport.com
+Montauk	Montauk Airport	631-668-3738	Montauk Airport	NY	2490	
+Montgomery	 Orange County Airport	845-457-4944, 845-457-4925	Orange County Airport	NY	9870	jpalishen@orangecountygov.com
+New York	Hawthorne Global Aviation Services	631-913-7102	Long Island Mac Arthur Airport	NY	10200	rsherry@hawthorne.aero
+New York	New York Jet / Mid Island Air Service	631-588-4800, 631-588-5400	Long Island Mac Arthur Airport	NY	10200	jim@nyjet.com
+New York	Sheltair Islip	631-588-0303	Long Island Mac Arthur Airport	NY	10200	isp@sheltairaviation.com
+New York	Atlantic Aviation	845-567-9800	Stewart International Airport	NY	3930	mike.carey@atlanticaviation.com
+New York	Signature Flight Support	845-567-2601	Stewart International Airport	NY	3930	SWF@signatureflight.com
+New York	Sheltair JFK	347-566-6620	John F Kennedy International Airport	NY	37680	jfk@sheltairaviation.com
+New York	Sheltair LaGuardia	718-779-4040	LaGuardia Airport	NY	30330	lga@sheltairaviation.com
+Niagara Falls	Calspan Air Services	716-298-9307	Niagara Falls International Airport	NY	1590	customerservice.iag@calspan.com
+Norwich	Chenango County Airport	607-334-9430	LT Warren Eaton Airport	NY	1410	
+Ogdensburg	 Volo Aviation	315-393-4721	Ogdensburg International Airport	NY	136	
+Olean	Cattaraugus County-Olean Airport	716-557-8800	Cattaraugus County-Olean Airport	NY	2100	cdutton@cityofolean.org
+Oneonta	Bentley Aviation	607-431-1076	Oneonta Municipal Airport	NY	1770	
+Penn Yan	Seneca Flight Operations	315-536-4471	Penn Yan Airport	NY	1590	
+Perry	Town of Perry	585-353-4666	Perry-Warsaw Airport	NY	1200	
+Piseco	Piseco Airport	518-548-8794	Piseco Airport	NY	240	
+Plattsburgh	 Volo Aviation	518-324-4300	Plattsburgh International Airport	NY	1080	customerservicepbg@voloaviation.com
+Potsdam	Village of Potsdam	315-265-7480	Potsdam Municipal Airport (Damon Field)	NY	460	
+Poughkeepsie	FlightLevel Dutchess	845-849-3770	Hudson Valley Regional Airport	NY	5550	custservkpou@flightlevelaviation.com
+Rochester	Avflight Rochester	585-235-9040	Greater Rochester International Airport	NY	6360	csrrochester@avflight.com
+Rochester	USAirports Flight Support	585-527-6835	Greater Rochester International Airport	NY	6360	jsantiago@usairports.com
+Rome	Million Air Rome	315-736-9404	Griffiss International Airport	NY	2340	info.rme@millionair.com
+Saranac Lake	Adirondack Regional Airport	518-891-4600	Adirondack Regional Airport	NY	488	
+Saratoga Springs	North American Flight Services	518-885-5470	Saratoga County Airport	NY	3180	jzilka@nafsinc.com
+Schenectady	Richmor Aviation	518-399-8171	Schenectady County Airport	NY	4560	dbuono@richmor.com
+Seneca Falls	Finger Lakes Regional Airport	315-568-0110	Finger Lakes Regional Airport	NY	1050	
+Shirley	 Northeast Airpark/Northeast Aviation Fueling	631-521-7033, 631-399-3348	Brookhaven Airport	NY	3240	contact@northeastairpark.com
+Shirley	Mid-Island Air Service	631-281-5400	Brookhaven Airport	NY	3240	
+Sidney	Sidney Municipal Airport	607-561-2346	Sidney Municipal Airport	NY	630	
+Skaneateles	Skaneateles Airport	800-272-3681	Skaneateles Aero Drome	NY	750	
+South Bethlehem	South Albany Airport Corp.	518-767-9189	South Albany Airport	NY	2340	
+Syracuse	Signature Flight Support	315-455-7951	Syracuse Hancock International Airport	NY	5400	SYR@signatureflight.com
+Ticonderoga	Town of Ticonderoga	518-585-6265, 518-585-6677	Ticonderoga Municipal Airport	NY	930	kjv@townofticonderoga.org
+Utica/Frankfort	Davand Aviation	718-455-6600	Frankfort-Highland Airport	NY	990	
+Warwick	Warwick Municipal Airport	845-986-9544	Warwick Municipal Airport	NY	344	
+Watertown	County of Jefferson (FBO)	315-786-6001	Watertown International Airport	NY	3990	airport@co.jefferson
+Weedsport	Whitford's Airport, LLC	315-834-9950	Whitfords Airport	NY	468	
+Wellsville	Wellsville Municipal Airport	585-593-3350	Wellsville Municipal Airport, Tarantine Field	NY	780	
+Westhampton Beach	Sheltair Westhampton Beach	631-288-9866	Francis S Gabreski Airport	NY	4800	fok@sheltairaviation.com
+White Plains	Signature Flight Support (East)	914-682-7770	Westchester County Airport	NY	12210	hpn@signatureflight.com
+White Plains	Million Air White Plains	914-946-0100	Westchester County Airport	NY	12210	info.hpn@millionair.com
+White Plains	Signature Flight Support (west)	914-428-3730	Westchester County Airport	NY	12210	HPN@signatureflight.com
+White Plains	Ross Aviation (West)	914-328-9800	Westchester County Airport	NY	12210	HPN@rossaviation.com
+White Plains	Ross Aviation (East)	914-761-3000	Westchester County Airport	NY	12210	HPN@rossaviation.com
+Williamson/Sodus	Williamson Flying Club	315-483-6011	Williamson-Sodus Airport	NY	2190	

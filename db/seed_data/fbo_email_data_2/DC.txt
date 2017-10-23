@@ -1,0 +1,10 @@
+DC	Washington	Manassas Regional Airport/Harry P. Davis Field	KHEF	APP Jet Center - Manassas	703-392-5387	hef@appjetcenter.com	11550
+DC	Washington	Manassas Regional Airport/Harry P. Davis Field	KHEF	Dulles Aviation, Inc.	703-361-2171	info@dullesaviation.com	11550
+DC	Washington	Washington Dulles International Airport	KIAD	Signature Flight Support	703-572-0001	IAD@signatureflight.com	24210
+DC	Washington	Washington Dulles International Airport	KIAD	Jet Aviation Washington/Dulles	703-661-0150	jiad@jetaviation.com	24210
+DC	Washington	Ronald Reagan Washington National Airport	KDCA	Signature Flight Support	703-417-3500	DCA@signatureflight.com	24750
+DC	Washington	Manassas Regional Airport/Harry P. Davis Field	KHEF	APP Jet Center - Manassas	703-392-5387	hef@appjetcenter.com	11550
+DC	Washington	Manassas Regional Airport/Harry P. Davis Field	KHEF	Dulles Aviation, Inc.	703-361-2171	info@dullesaviation.com	11550
+DC	Washington	Washington Dulles International Airport	KIAD	Signature Flight Support	703-572-0001	IAD@signatureflight.com	24210
+DC	Washington	Washington Dulles International Airport	KIAD	Jet Aviation Washington/Dulles	703-661-0150	jiad@jetaviation.com	24210
+DC	Washington	Ronald Reagan Washington National Airport	KDCA	Signature Flight Support	703-417-3500	DCA@signatureflight.com	24750
