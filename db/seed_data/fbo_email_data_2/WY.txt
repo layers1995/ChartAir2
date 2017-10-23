@@ -1,0 +1,38 @@
+WY	Afton	Afton Municipal Airport	KAFO	Afton Wyoming Air	307-885-7030	720	info@aftonwyomingair.com
+WY	Alpine	Alpine Airport	46U	Landings Aviation Center	307-713-1313	224	info@tetoncrossing.com
+WY	Alpine	Alpine Airport	46U	Alpine Airpark	701-367-6161	224	
+WY	Alpine	Alpine Airport	46U	Marion Schulte - Real Estate of Star Valley	307-248-2073, 307-654-7725	224	kiwimarion@gmail.com
+WY	Big Piney	Miley Memorial Field Airport	KBPI	Big Piney Marbleton Airport	307-276-4022	200	
+WY	Buffalo	Johnson County Airport	KBYG	Johnson County Aviation Management, Inc.	469-522-2568	404	bruce@jcairportwy.com
+WY	Casper	Casper/Natrona County International Airport	KCPR	Atlantic Aviation	307-472-3400	3420	Jaade.Plante@atlanticaviation.com
+WY	Cheyenne	Cheyenne Regional Airport/Jerry Olson Field	KCYS	 Legend AeroServe	307-634-7079	3720	info@legendfbo.com
+WY	Cody	Yellowstone Regional Airport	KCOD	Choice Aviation, LLC	307-587-9262	2430	csr@choiceaviation.com
+WY	Cowley/Lovell/Byron	North Big Horn County Airport	U68	North Big Horn County Airport	307-548-6236, 307-568-2551	268	
+WY	Dixon	Dixon Airport	KDWX	Carbon County	307-380-8057	96	
+WY	Douglas	Converse County Airport	KDGW	R&G Aircraft Service	307-358-3527	352	
+WY	Dubois	Dubois Municipal Airport	KDUB	Wildlife Air	307-455-2061	132	
+WY	Evanston	Evanston-Uinta County Airport - Burns Field	KEVW	Evanston Aviation	307-789-2256	424	mlasalle@evanstonaviation.com
+WY	Fort Bridger	Fort Bridger Airport	KFBR	Fort Bridger Airport	307-780-5815	268	
+WY	Gillette	Gillette-Campbell County Airport	KGCC	 Flightline, Inc.	307-686-7000	2070	flightline@vcn.com
+WY	Greybull	South Big Horn County Airport	KGEY	South Big Horn County Airport	307-568-2551, 307-765-4656	284	
+WY	Greybull	South Big Horn County Airport	KGEY	B & G Industries, LLC	307-765-9911, 307-765-9912	284	
+WY	Guernsey	Camp Guernsey Airport	KGUR	Town of Guernsey	307-836-2661, 307-836-2335	300	airport@townofguernseywy.us
+WY	Hulett	Hulett Municipal Airport	W43	Hulett Municipal Airport	307-467-5771	192	
+WY	Jackson	Jackson Hole Airport	KJAC	Jackson Hole Aviation, LLC	307-733-4767	2490	csr@jhaviation.com
+WY	Kemmerer	Kemmerer Municipal Airport	KEMM	City of Kemmerer - Municipal Airport	307-828-2370	228	
+WY	Lander	Hunt Field Airport	KLND	Wind River Aviation	307-332-3134	900	
+WY	Laramie	Laramie Regional Airport	KLAR	Cowboy Aviation	307-742-4165	1020	
+WY	Lusk	Lusk Municipal Airport	KLSK	Town of Lusk	307-334-3622	62	
+WY	Newcastle	Mondell Field Airport	KECS	Tuff Air	307-746-4666	372	
+WY	Pine Bluffs	Pine Bluffs Municipal Airport	82V	Town of Pine Bluffs (self-serve fuel)	970-227-9286	156	
+WY	Pinedale	Ralph Wenz Field Airport	KPNA	Emblem Aviation, LLC	877-242-3835, 307-367-2290	304	pna@emblemaviation.com
+WY	Powell	Powell Municipal Airport	KPOY	City of Powell	307-754-5234, 619-518-1233	260	airport@cityofpowell.com
+WY	Rawlins	Rawlins Municipal Airport/Harvey Field	KRWL	Classic Aviation	307-324-2361	328	
+WY	Riverton	Riverton Regional Airport	KRIW	Jim's Aircraft Service	307-856-3599	388	
+WY	Rock Springs	Rock Springs-Sweetwater County Airport	KRKS	Sweetwater Aviation	307-352-6880, 307-350-0723	1380	dbrubaker@rockspringsairport.com
+WY	Saratoga	Shively Field Airport	KSAA	Saratoga Jet Center	307-326-8344	720	info@saratogajetcenter.com
+WY	Sheridan	Sheridan County Airport	KSHR	 Bighorn Airways Inc.	307-672-3421	2580	frontdesk@bighornairways.com
+WY	Sheridan	Sheridan County Airport	KSHR	 Wyoming Aviator	307-751-6694, 307-763-3101	2580	
+WY	Thermopolis	Hot Springs County Airport	KHSG	Owl Creek Aviation LLC	307-867-2027		
+WY	Torrington	Torrington Municipal Airport	KTOR	Torrington Municipal Airport	307-532-8551, 719-963-3669	324	msalyers@torringtonwy.gov
+WY	Worland	Worland Municipal Airport	KWRL	Sky Aviation	307-347-6138	304	

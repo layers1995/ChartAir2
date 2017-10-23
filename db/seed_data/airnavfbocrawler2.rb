@@ -165,6 +165,6 @@ if __FILE__ == $0
 
   #crawl('http://airnav.com/airports/us/AL', "Robbins Field Airport")
 
-  eachState("http://airnav.com/airports/us", 35)
+  eachState("http://airnav.com/airports/us", 47)
 
 end

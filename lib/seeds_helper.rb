@@ -116,18 +116,12 @@ def singleFeeHelper(fee, fbo, feeType, classificationDescription)
 
 # For fees where the plane or category does not influence the price
 # The stuff after the or is for callout fees that have different prices at different times. So far they have all been flat rates
-		elsif fee =~ /\A\$?[0-9.]/
+		elsif fee =~ /\A\$?[0-9.]+/ or fee == "" or fee == "none" or fee == "n/a" or fee == "no"
 			category = Category.find_by( :category_description => "flat rate")
 			classification = Classification.find_by( :classification_description => "flat rate")
 
 		else
 			#puts "no category " + fee
-		end
-
-		if classification.nil?
-			puts "the thing that fucked it up is " + classificationDescription
-		elsif classification.classification_description == "nan"
-			#puts fbo.name + " " + fbo.airport.name + " " + fbo.airport.state + " " + fee
 		end
 
 		if category.nil? or category.category_description.nil?
@@ -187,6 +181,12 @@ def singleFeeHelper(fee, fbo, feeType, classificationDescription)
 		feePrice = feeToNumber(feePrice)
 		feeTimePrice = feeToNumber(feeTimePrice)
 		feeUnitPrice = feeToNumber(feeUnitPrice)
+
+		if classification.nil?
+			#puts "the thing that fucked it up is " + classificationDescription
+		elsif classification.classification_description == "nan"
+			puts fbo.name + " " + fbo.airport.name + " " + fbo.airport.state + ": " + fee
+		end
 
 		feeType = FeeType.find_by( :fee_type_description => feeType )
 
@@ -382,11 +382,11 @@ def singleFeeHelper(fee, fbo, feeType, classificationDescription)
 			# do nothing
 
 		# If the fee isn't there, just return 0.
-		elsif fee.nil? or fee.length == 0
+		elsif fee.nil? or fee.strip.length == 0
 			fee = 0
 
 		# if the fee is 0, change it to the number 0 instead of the string
-		elsif fee == "none" or fee == "no" or fee == "0"
+		elsif fee.strip == "none" or fee.strip == "no" or fee.strip == "0" or fee.strip == "n/a"
 			fee = 0
 		end
 
@@ -395,7 +395,7 @@ def singleFeeHelper(fee, fbo, feeType, classificationDescription)
 
 		# If the fee isn't an integer and isn't nil, then something went wrong.
 		if fee.class != Float and !fee.nil?
-			#puts "get tie down fee: not a number" # just to figure out what broke exactly
+			puts "get tie down fee: not a number" # just to figure out what broke exactly
 			return nil
 		end
 		return fee
