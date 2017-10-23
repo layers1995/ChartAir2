@@ -306,9 +306,7 @@ def addFboFolder(folderName)
 	end
 end
 
-<<<<<<< HEAD
 # Add every fbo in a file to the database
-=======
 
 # I can't just redo the FBO table because then all of our references would get screwed up. But the way this method works misses a lot of FBOs
 def updateFboEmails(folderName)
@@ -354,7 +352,6 @@ def updateFboEmails(folderName)
 	puts count
 end
 
->>>>>>> 1e72a31fcf50c3bf05a7cfd332a0371bd075a10f
 def addFbos(filePath)
 	# open the file
 	fbos = open(filePath).read
@@ -381,12 +378,8 @@ def addFbos(filePath)
 			phone2 = ""
 		end
 
-<<<<<<< HEAD
 		# Try to find the airport by the name and state
-=======
-		#puts airportName
 
->>>>>>> 1e72a31fcf50c3bf05a7cfd332a0371bd075a10f
 		curAirport = Airport.find_by(:name => airportName, :state => state)
 
 		# If it wasn't found, look using the airport code.
