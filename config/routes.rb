@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
 
-
 #used for password reset pages
-  #get 'password_resets/new'
-  #get 'password_resets/edit'
+  get 'password_resets', to: "password_resets#new"
+  get 'edit_password_reset', to: "password_resets#edit"
 
 #routes for reports on trips/fbos
   get '/feedback', to: "report#index"
@@ -23,14 +22,18 @@ Rails.application.routes.draw do
   #get '/fbo_profile', to: "fbo_pages#fbo_profile"
   #get '/fbo_form', to: "fbo_pages#fbo_form"
   #get '/search', to: "fbo_pages#fbo_search"
-  #get '/fbo_confirm', to: "fbo_pages#fbo_confirm_prices"
   #post '/search', to: "fbo_pages#fbo_search_results"
+  #get '/fbo_confirm', to: "fbo_pages#fbo_confirm_prices"
+  
   #get '/fee_update_options', to: "fbo_pages#fbo_update_options"
   #get '/update_with_template', to: "fbo_pages#fbo_update_form"
   #get '/update_with_photo', to: "fbo_pages#fbo_update_photo"
   #get '/update_with_email', to: "fbo_pages#fbo_update_email"
-  #post '/fbo_send_email', to: "fbo_pages#fbo_send_email"
   #get '/update_with_fax', to: "fbo_pages#fbo_update_fax"
+  get '/fbo_email', to: "fbo_pages#fbo_email"
+  post '/fbo_email', to: "fbo_pages#guest_fbo_email"
+  #post '/update_with_email', to: "fbo_pages#fbo_send_email"
+  
   #get '/congrats', to: "fbo_page#congrats"
   #post '/confirm_fees', to: "fbo_pages#confirm_fees"
 

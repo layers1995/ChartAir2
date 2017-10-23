@@ -91,16 +91,40 @@ class FboPagesController < ApplicationController
   
   def fbo_update_email
     @email=""
-    @fbo=params[:fbo]
+    @fbo=Fbo.friendly.find(params[:fbo_id])
+  end
+  
+  def fbo_email
+    @email=""
+  end
+  
+  def guest_fbo_email
+    #information needed for email
+    @airport=params[:airport]
+    @fbo=params[:name]
+    @state=params[:state]
+    @city=params[:city]
+    @employee_name= params[:employee_name]
+    @email=params[:email]
+    
+    #email sent to user
+    UserMailer.guest_fbo_email(@airport, @fbo, @state, @city, @employee_name, @email).deliver_later
+    redirect_to '/landing'
+    
   end
   
   def fbo_send_email
     #information needed for email
     @email= params[:email]
     @fbo = params[:fbo]
-    
-    #email sent to user
-    AdminMailer.fbo_email_fees(@fbo, @email).deliver_later
+    if params[:confirm_fees]=="1"
+      #email sent to user
+      UserMailer.fbo_email_fees(@fbo, @email).deliver_later
+      redirect_to "/profile"
+    else
+      flash[:notice]="Confirm Fees are Correct"
+      render '/update_with_email'
+    end
   end
   
   def fbo_update_form
