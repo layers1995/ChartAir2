@@ -25,16 +25,16 @@ def main
 # Add stuff	
 
 # Add airplane data
-	#addAirplanes("airplane_seed_data")
+	addAirplanes("airplane_seed_data")
 
 # Add fee type data.
-	#addFeeTypes("fee_types")
+	addFeeTypes("fee_types")
 
 # Add classification data
-	#addClassifications("classification_types")
+	addClassifications("classification_types")
 
 # Add category data
-	#addCategories("categories")
+	addCategories("categories")
 
 # NOT CURRENTLTY USED. Add city data
 # This is curently not used because having a lot of cities in the database makes the website run slowly.
@@ -42,10 +42,10 @@ def main
 	#addCities("uscitiesv1.3.csv")
 
 #	Add airport data
-	#addAirports("full_airport_data")
+	addAirports("full_airport_data")
 
 # Add FBO data. This has to come after airports because FBOs make a reference to airports.
-	#addFboFolder("fbo_call_data")
+	addFboFolder("fbo_call_data")
 
 # NOT CURRENTLY USED. This is the method to add fees from a single file. It can be used for testing
 	#addFeesAndUpdateFbos(Rails.root.join("db", "seed_data", "call_sheets", "tx_call_sheet.tsv"))
