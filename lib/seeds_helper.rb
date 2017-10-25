@@ -185,7 +185,7 @@ def singleFeeHelper(fee, fbo, feeType, classificationDescription)
 		if classification.nil?
 			#puts "the thing that fucked it up is " + classificationDescription
 		elsif classification.classification_description == "nan"
-			puts fbo.name + " " + fbo.airport.name + " " + fbo.airport.state + ": " + fee
+			#puts fbo.name + " " + fbo.airport.name + " " + fbo.airport.state + ": " + fee
 		end
 
 		feeType = FeeType.find_by( :fee_type_description => feeType )

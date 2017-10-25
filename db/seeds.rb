@@ -25,16 +25,16 @@ def main
 # Add stuff	
 
 # Add airplane data
-	addAirplanes("airplane_seed_data")
+	#addAirplanes("airplane_seed_data")
 
 # Add fee type data.
-	addFeeTypes("fee_types")
+	#addFeeTypes("fee_types")
 
 # Add classification data
-	addClassifications("classification_types")
+	#addClassifications("classification_types")
 
 # Add category data
-	addCategories("categories")
+	#addCategories("categories")
 
 # NOT CURRENTLTY USED. Add city data
 # This is curently not used because having a lot of cities in the database makes the website run slowly.
@@ -42,14 +42,14 @@ def main
 	#addCities("uscitiesv1.3.csv")
 
 #	Add airport data
-	addAirports("full_airport_data")
+	#addAirports("full_airport_data")
 
 # Add FBO data. This has to come after airports because FBOs make a reference to airports.
-	addFboFolder("fbo_call_data")
-	updateFboEmails("fbo_email_data")
+	#addFboFolder("fbo_call_data")
+	updateFboEmails("fbo_email_data_2")
 
 # NOT CURRENTLY USED. This is the method to add fees from a single file. It can be used for testing
-	#addFeesAndUpdateFbos(Rails.root.join("db", "seed_data", "call_sheets", "tx_call_sheet.tsv"))
+	#addFees(Rails.root.join("db", "seed_data", "call_sheets", "tx_call_sheet.tsv"))
 
 # Add fee information from the call sheets. This has references to most other tables, so it has to come last.
 	addFeeFolder("call_sheets")
@@ -318,30 +318,43 @@ def updateFboEmails(folderName)
 		fbos = open(filePath).read
 		fbos.each_line do |curFbo|
 			curFbo = curFbo.strip.downcase
-			cityName, fboName, phone, airportName, state, numOperations, email = curFbo.split("\t")
+			state, cityName, airportName, airportCode, fboName, phoneNumbers, email, numOperations = curFbo.split("\t")
 
 			if state != "il" and state != "oh" and state != "mn" and state != "mi" and state != "in" and state != "az" and state != "co" and state != "ky" and state != "mo" and state != "ms" and state!= "nv" and state != "ok" and state != "or" and state != "tx" and state != "ut" and state != "wa" and state != "wv"
 				break
 			end
 			
-			phone1 = phone.split(", ")[0]
-			phone2 = phone.split(", ")[1]
+			phone1 = phoneNumbers.split(",")[0]
+			phone2 = phoneNumbers.split(",")[1]
 
 			if phone2.nil?
 				phone2 = ""
 			end
-			curAirport = Airport.find_by( :name => airportName, :state => state )
+
+			curAirport = Airport.find_by( :airport_code => airportCode )
 			if curAirport.nil?
-				puts airportName
+				curAirport = Airport.find_by( :name => airportName, :state => state )
+			end
+
+			if curAirport.nil?
+				#puts airportName
 			else
-				databaseFbo = Fbo.find_by( :airport => curAirport)
+				databaseFbo = Fbo.find_by( :airport => curAirport, :name => fboName)
 				if databaseFbo.nil?
-					count += 1
-					#printf("%s\t%s\t%s\n", state, fboName, airportName)
+					databaseFbo = Fbo.find_by( :airport => curAirport, :phone => phone1 )
+					if databaseFbo.nil?
+						if databaseFbo.nil?
+							databaseFbo = Fbo.find_by( :airport => curAirport )
+							if databaseFbo.nil?
+								count += 1
+								#printf("%s\t%s\t%s\n", state, fboName, airportName)
+							end
+						end
+					end
 				end
 			end
 
-			databaseFbo = Fbo.find_by( :name => fboName, :phone => phone1, :alternate_phone => phone2 )
+			#databaseFbo = Fbo.find_by( :name => fboName, :phone => phone1, :alternate_phone => phone2 )
 			if databaseFbo.nil?
 				#printf("%s\t%s\t%s\n", state, fboName, airportName)
 			else
@@ -405,12 +418,12 @@ def addFeeFolder(folderName)
 	  # Get the file path
 	  filePath = Rails.root.join("db", "seed_data", "call_sheets", curFile)
 	  # Call the fee adding method on the file
-	  addFeesAndUpdateFbos(filePath)
+	  addFees(filePath)
 	end
 end
 
 # Add every fee in a specific call sheet to the database.
-def addFeesAndUpdateFbos(filename)
+def addFees(filename)
 	responseText = open(Rails.root.join("db", "seed_data", filename)).read
 	responseText.each_line do |curRow|
 		curRow = curRow.strip.downcase # get rid of new lines and make everything lowercase

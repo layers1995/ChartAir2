@@ -10,11 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 20171012014206) do
-=======
-ActiveRecord::Schema.define(version: 20171018225508) do
->>>>>>> 1e72a31fcf50c3bf05a7cfd332a0371bd075a10f
+ActiveRecord::Schema.define(version: 20171016150247) do
 
   create_table "airplane_users", force: :cascade do |t|
     t.integer "airplane_id",  null: false
@@ -86,13 +82,8 @@ ActiveRecord::Schema.define(version: 20171018225508) do
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
     t.integer  "airport_id"
-<<<<<<< HEAD
-    t.string   "email"
-=======
-    t.integer  "classification_id"
     t.string   "email"
     t.string   "hash_id"
->>>>>>> 1e72a31fcf50c3bf05a7cfd332a0371bd075a10f
     t.index ["airport_id"], name: "index_fbos_on_airport_id"
   end
 
