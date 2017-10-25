@@ -30,7 +30,10 @@ def singleFeeHelper(fee, fbo, feeType, classificationDescription)
 		classificationDescription = "nan"
 	end
 
+# Strip and downcase the fee to ensure a consistent format
 	fee = fee.strip.downcase
+
+# declare variables since a lot of them are going to be assigned in if statements, and rails doesn't like that.
 	foundFee = false
 
 	feeTimeUnit = nil
@@ -49,6 +52,7 @@ def singleFeeHelper(fee, fbo, feeType, classificationDescription)
 
 	feePrice = nil
 
+# NOTE: Madison doesn't like this so I need to find a new solution
 	category = Category.find_by( :category_description => "nan" )
 	classification = Classification.find_by( :classification_description => "nan" )
 
@@ -73,14 +77,14 @@ def singleFeeHelper(fee, fbo, feeType, classificationDescription)
 				classification = Classification.find_by( :classification_description => "flat rate" )
 
 # Weight range
-			elsif fee =~ /\A[0-9]+\s?-\s?[0-9]+\s?([a-z]+)?:\s?\$?[0-9.]+/
+			elsif fee =~ /\A[0-9]+\s?-\s?[0-9]+\s?([a-z]+)?:\s?\$?[0-9.]+/ # This regex matches the format: lowEnd - highEnd lbs: $cost
 				category = Category.find_by( :category_description => "weight range")
 				classification = Classification.find_by( :classification_description => "weight range")
 				feeUnitMinimum = fee.scan(/[0-9]+/)[0]
 				feeUnitMaximum = fee.scan(/[0-9]+/)[1]
 
 # Weight
-			elsif fee =~ /\$?[0-9.]+\s?per\s?[0-9]+/
+			elsif fee =~ /\$?[0-9.]+\s?per\s?[0-9]+/ # This regex matches the format: $cost per weight
 				category = Category.find_by( :category_description => "weight")
 				classification = Classification.find_by( :classification_description => "weight")
 				feeUnitPrice = fee.match(/[0-9.]+/)[0]
