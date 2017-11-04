@@ -84,6 +84,7 @@ ActiveRecord::Schema.define(version: 20171016150247) do
     t.integer  "airport_id"
     t.string   "email"
     t.string   "hash_id"
+    t.string   "email"
     t.index ["airport_id"], name: "index_fbos_on_airport_id"
   end
 

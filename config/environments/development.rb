@@ -31,7 +31,7 @@ Rails.application.configure do
   ActionMailer::Base.perform_deliveries = true
   ActionMailer::Base.perform_caching = false
   ActionMailer::Base.delivery_method = :smtp
-  config.action_mailer.default_url_options = { :host => ENV["chartair-fuzzykitenz.c9users.io"] }
+  config.action_mailer.default_url_options = { :host => ENV["HOST"] }
   ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.gmail.com',
     :port           => '587',

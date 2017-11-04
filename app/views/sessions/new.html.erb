@@ -19,8 +19,9 @@
         <% end %>
         
         <p class="loginInfo"><%= f.text_field :name, id: "input", :placeholder=>"Username"%></p>
-        <p class="loginInfo"><%= f.password_field :password, id: "input", :placeholder=>"Password"%></p>
+        <p class="loginInfo"><%= f.password_field :password, id: "input", :placeholder=>"Password"%></br><span style="float:left;">&nbsp;<%= link_to "Forgot Password?", new_password_reset_path %></span></p>
         
+        </br>
         <%= f.submit "Log in", class: "loginInfo" %>
         
         <p><%= link_to "Not a member? Click here to join!", new_user_path %></p>

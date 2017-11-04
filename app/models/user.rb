@@ -6,16 +6,15 @@ class User < ApplicationRecord
     before_save { self.email = email.downcase }
     validates :name, presence: true, length: { maximum: 50 }, uniqueness: true
     VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
-    validates :email, presence: true, length: { maximum: 255 },
+    validates :email, presence: true, length: { maximum: 255 }, uniqueness: true,
                     format: { with: VALID_EMAIL_REGEX }
-    validates :password, presence: true, length: {minimum: 6}
+    validates :password, presence: true, length: {minimum: 6}, confirmation: true
     has_secure_password
     
     #make sure that values pop up correctly
-    validate :email_is_confirmed
-    validate :check_beta_key
-    validate :check_user_agreement
-    
+    validate :email, :email_is_confirmed, on: :create
+    validate :betakey, :check_beta_key, on: :create
+    validate :confirm_user_agreement, :check_user_agreement, on: :create
     
     #ownership
     has_and_belongs_to_many :airplanes
@@ -62,11 +61,11 @@ class User < ApplicationRecord
         self.reset_token = User.new_token
         update_attribute(:reset_digest,  User.digest(reset_token))
         update_attribute(:reset_sent_at, Time.zone.now)
+        UserMailer.password_reset(self, self.reset_token).deliver_later
     end
     
-    # Sends password reset email.
-    def send_password_reset_email
-        UserMailer.password_reset(self).deliver_now
+    def password_reset_expired?
+        reset_sent_at < 2.hours.ago
     end
     
     def authenticated?(remember_token)

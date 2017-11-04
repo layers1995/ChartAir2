@@ -84,27 +84,53 @@ class FboPagesController < ApplicationController
     @fbo=Fbo.friendly.find(params[:fbo_id])
   end
   
-  #form where fbo can input all of their data
-  def fbo_form
-    
-  end
-  
   def fbo_update_email
     @email=""
-    @fbo=params[:fbo]
+    @fbo=Fbo.friendly.find(params[:fbo_id])
+  end
+  
+  def fbo_email
+    @email=""
+  end
+  
+  def guest_fbo_email
+    #information needed for email
+    @airport=params[:airport]
+    @fbo=params[:name]
+    @state=params[:state]
+    @city=params[:city]
+    @employee_name= params[:employee_name]
+    @email=params[:email]
+    
+    #email sent to user
+    UserMailer.guest_fbo_email(@airport, @fbo, @state, @city, @employee_name, @email).deliver_later
+    redirect_to '/landing'
   end
   
   def fbo_send_email
     #information needed for email
     @email= params[:email]
     @fbo = params[:fbo]
-    
-    #email sent to user
-    AdminMailer.fbo_email_fees(@fbo, @email).deliver_later
+    if params[:confirm_fees]=="1"
+      #email sent to user
+      UserMailer.fbo_email_fees(@fbo, @email).deliver_later
+      redirect_to "/profile"
+    else
+      flash[:notice]="Confirm Fees are Correct"
+      render '/update_with_email'
+    end
   end
   
+  #set up for multiple fee inputs
   def fbo_update_form
-    @fees=[]
+    @fbo= Fbo.new
+    @fee_types = [1,3,4,2,5]
+    @id= 0
+    @count= 0
+  end
+  
+  #when the user posts fees
+  def fbo_updated_form
   end
   
   def confirm_fees

@@ -1,0 +1,15 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+#sidebar{
+    position: fixed;
+    left: 92.5%;
+    top: 22%;
+    list-style-type: none;
+    background-color: #509BFF;
+    color: white;
+    text-align:center;
+    border-radius: 10px;
+    padding: 1%;
+}

@@ -14,6 +14,7 @@ Rails.application.config.assets.precompile += %w( plan_trip.css )
 Rails.application.config.assets.precompile += %w( plan_trip_results.css )
 Rails.application.config.assets.precompile += %w( landing.css )
 Rails.application.config.assets.precompile += %w( fbo_profile.css )
+Rails.application.config.assets.precompile += %w( feeForm.css )
 
 #images
 Rails.application.config.assets.precompile += %w(sky3.jpg)
@@ -29,6 +30,7 @@ Rails.application.config.assets.precompile += %w(logoBright4.png)
 
 #javascripts
 Rails.application.config.assets.precompile += %w( addPlane.js )
+Rails.application.config.assets.precompile += %w( fboForm.js )
 Rails.application.config.assets.precompile += %w( planTrip.js )
 Rails.application.config.assets.precompile += %w( results.js )
 

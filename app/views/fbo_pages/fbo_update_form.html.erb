@@ -1,33 +1,29 @@
 <%= render 'layouts/header' %>
+<%= javascript_include_tag 'fboForm' %>
 <%= stylesheet_link_tag 'base'%>
+<%= stylesheet_link_tag 'feeForm'%>
 
-<h1>Welcome</h1>
+<h1 class="title">Update your Fees</h1>
 
-<ul>
+<ul id="sidebar">
     <li>Overwhelmed?</li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Click Here</li>
 </ul>
 
-<%= form_for(@fees) do |f| %>
-
-    <h1>Landing Fees</h1>
+<%=form_for @fbo, url: fbo_form_path(@fbo), html: { method: :put } do |f|%>
+  <%@fee_types.each do |id|%>
+    <h2><%=FeeType.find_by(:id => @fee_types[@count]).fee_type_description.titleize%></h2>
     
-    <h1>Ramp Fees</h1>
+    <%=f.fields_for :feilds do |builder|%>
+      <%=render "fee_feilds", f: builder%>
+    <%end%>
+    <%= link_to_add_fields "+", f, :fees %>
     
-    <h1>Facility Fees</h1>
-    
-    <h1>Tie Down Fees</h1>
-    
-    <h1>Call Out Fees</h1>
-    
-    <h1>Other Fees</h1>
-    
-    <h1>Fuel Waiver</h1>
-    
-    <%= f.submit "Create my account", class: "btn btn-primary" %>
-
-<% end %>
-
-
+    <%@count+=1%>
+  <%end%>  
+  
+  </br>
+  </br>
+  <%= f.submit "Submit your Fees", class: "btn btn-primary" %>
+  
+<%end%>

@@ -1,0 +1,53 @@
+<%= render 'layouts/header' %>
+<%= stylesheet_link_tag 'base'%>
+
+<h1 class="title">Be their Next Destination!</h1>
+<%= form_for(@email) do |f| %>
+
+<h3>Which FBO do you represent?</h3>
+<br>
+
+<table style="width: 30%;">
+    <tr>
+        <td>What airport you are located at?</td>
+        <td style="float: right;"><%= f.text_field :airport %></td>
+    </tr>
+    <tr>
+        <td>What is the name of your FBO? </td>
+        <td style="float: right;"><%= f.text_field :name %></td>
+    </tr>   
+    <tr>
+        <td>Which state are you located in?</td>
+        <td style="float: right;"><%= f.text_field :state%></td>
+    </tr>
+    <tr>
+        <td>Which city are you located in? </td>
+        <td style="float: right;"><%= f.text_field :city %></td>
+    </tr>
+    <tr>
+        <td>What is your name?</td>
+        <td style="float: right;"><%= f.text_field :employee_name %></td>
+    </tr>
+</table>
+
+<h3>When writing your email, make sure to answer the following questions so we can accurately present your fees to your customers.</h3>
+
+</br>
+
+<ul>
+    <li>Do you have landing fees? What are your landing fees?</li>
+    <li>Do you have ramp fees? What are your ramp fees?</li>
+    <li>Do you have facility fees? What are your facility fees?</li>
+    <li>Do you have tie-down fees? What are your tie-down fees? Do you charge by the night? By the hour? Or is tie-down a one time fee?</li>
+    <li>Do you have a call-out fee? Is it a flat rate, or does it change by the hour? Does it change depending on what time it is?</li>
+    <li>What are the other fees you have?</li>
+    <li>Are any of the fees waived by fuel purchase? If so, how much fuel do they need to buy?</li>
+</ul>
+    
+    <p class="loginInfo"><%= f.text_area :email, class: 'form-control', size: "30x15" %></p>
+    
+    <%= f.submit "Send Email", class: "submit", data: {confirm: "Confirm and email your fees?"} %>
+    
+<% end %>
+
+
