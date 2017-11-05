@@ -19,23 +19,24 @@ Rails.application.routes.draw do
   post '/emailed_request', to: "admin#emailed_request"
   
 #fbo pages
-  #get '/fbo_profile', to: "fbo_pages#fbo_profile"
-  #get '/fbo_form', to: "fbo_pages#fbo_form"
-  #get '/search', to: "fbo_pages#fbo_search"
-  #post '/search', to: "fbo_pages#fbo_search_results"
-  #get '/fbo_confirm', to: "fbo_pages#fbo_confirm_prices"
+  get '/fbo_profile', to: "fbo_pages#fbo_profile"
+  get '/fbo_form', to: "fbo_pages#fbo_form"
+  get '/search', to: "fbo_pages#fbo_search"
+  post '/search', to: "fbo_pages#fbo_search_results"
+  get '/fbo_confirm', to: "fbo_pages#fbo_confirm_prices"
   
-  #get '/fee_update_options', to: "fbo_pages#fbo_update_options"
-  #get '/update_with_template', to: "fbo_pages#fbo_update_form"
-  #get '/update_with_photo', to: "fbo_pages#fbo_update_photo"
-  #get '/update_with_email', to: "fbo_pages#fbo_update_email"
-  #get '/update_with_fax', to: "fbo_pages#fbo_update_fax"
+  get '/fee_update_options', to: "fbo_pages#fbo_update_options"
+  get '/update_with_template', to: "fbo_pages#fbo_update_form"
+  post '/updated_with_template', to: "fbo_pages#fbo_updated_form"
+  get '/update_with_photo', to: "fbo_pages#fbo_update_photo"
+  get '/update_with_email', to: "fbo_pages#fbo_update_email"
+  get '/update_with_fax', to: "fbo_pages#fbo_update_fax"
   get '/fbo_email', to: "fbo_pages#fbo_email"
   post '/fbo_email', to: "fbo_pages#guest_fbo_email"
-  #post '/update_with_email', to: "fbo_pages#fbo_send_email"
+  post '/update_with_email', to: "fbo_pages#fbo_send_email"
   
-  #get '/congrats', to: "fbo_page#congrats"
-  #post '/confirm_fees', to: "fbo_pages#confirm_fees"
+  get '/congrats', to: "fbo_page#congrats"
+  post '/confirm_fees', to: "fbo_pages#confirm_fees"
 
 #pages for the user to view all of their previous trips
   get '/trips', to: 'trips#index'

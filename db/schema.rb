@@ -82,8 +82,8 @@ ActiveRecord::Schema.define(version: 20171018225508) do
     t.datetime "updated_at",        null: false
     t.integer  "airport_id"
     t.integer  "classification_id"
-    t.string   "email"
     t.string   "hash_id"
+    t.string   "email"
     t.index ["airport_id"], name: "index_fbos_on_airport_id"
     t.index ["classification_id"], name: "index_fbos_on_classification_id"
   end

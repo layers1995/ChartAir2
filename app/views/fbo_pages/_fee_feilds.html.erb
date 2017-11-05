@@ -1,0 +1,47 @@
+<fieldset class=<%=@fee_types[@count].to_s + "feildSet"%>>
+    <div class="field">
+        <%= f.label :categorization%>
+        <%= f.select :category_id, options_from_collection_for_select(Category.all, "id", "category_description"),{},{:class => @fee_types[@count]}%>
+        
+        <%= hidden_field_tag :fee_type_id,:value => @fee_types[@count]%>
+        
+        <!-- Unhidden if the user selects weight -->
+        <%= f.label :price, class: 'byWeight',:id => @fee_types[@count]%>
+        <%= f.number_field :unit_price, class: 'byWeight',:id => @fee_types[@count]%>
+        <%= f.label :per, class: 'byWeight',:id => @fee_types[@count]%>
+        <%= f.number_field :unit_magnitude, class: 'byWeight',:id => @fee_types[@count]%>
+        <%= f.label :pounds, class: 'byWeight',:id => @fee_types[@count]%>
+        
+        <!-- Unhidden if the user selects weight range-->
+        <%= f.label :weight_maximum, class: "byWeightRange", :id => @fee_types[@count]%>
+        <%= f.number_field :unit_maximum, class: 'byWeightRange', :id => @fee_types[@count]%>
+        <%= f.label :weight_minimum, class: 'byWeightRange', :id => @fee_types[@count]%>
+        <%= f.number_field :unit_minimum,  class: 'byWeightRange', :id => @fee_types[@count]%>
+        <%= f.label :price, class: 'byWeightRange', :id => @fee_types[@count]%>
+        <%= f.number_field :price, class: 'byWeightRange', :id => @fee_types[@count]%>
+        
+
+        <%if FeeType.find_by(:id => @fee_types[@count]).fee_type_description.eql?("tie down")%>
+            <%= f.label :time_price%>
+            <%= f.text_field :time_price, class: 'noUnitPrice', :id => @fee_types[@count] %> per
+            
+            <%= f.label :time_unit%>
+            <%= f.select :time_unit, options_for_select([['Day','day'],['Week','week'],['Month','month']], params[:time_unit]), {}, {:class => 'span3 controls controls-row'} %>
+        <%else%>
+        
+            <%if FeeType.find_by(:id => @fee_types[@count]).fee_type_description.eql?("call out")%>
+                <%= f.label :start_time%>
+                <%= f.time_select :start_time %>
+                
+                <%= f.label :end_time%>
+                <%= f.time_select :start_time %>
+            <%end%>
+            
+            <%= f.label :price, class: 'noUnitPrice', :id => @fee_types[@count]%>
+            <%= f.number_field :price, class: 'noUnitPrice', :id => @fee_types[@count] %>
+            
+        <%end%>
+
+        <%= link_to "[remove]", "#", class: "remove_fields"%>
+    </div>
+</fieldset>
