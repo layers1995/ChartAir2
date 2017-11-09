@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171016150247) do
+ActiveRecord::Schema.define(version: 20171104005343) do
 
   create_table "airplane_users", force: :cascade do |t|
     t.integer "airplane_id",  null: false
@@ -84,7 +84,6 @@ ActiveRecord::Schema.define(version: 20171016150247) do
     t.integer  "airport_id"
     t.string   "email"
     t.string   "hash_id"
-    t.string   "email"
     t.index ["airport_id"], name: "index_fbos_on_airport_id"
   end
 
@@ -180,12 +179,18 @@ ActiveRecord::Schema.define(version: 20171016150247) do
   create_table "users", force: :cascade do |t|
     t.string   "name"
     t.string   "email"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.datetime "created_at",          null: false
+    t.datetime "updated_at",          null: false
     t.string   "password_digest"
     t.string   "remember_digest"
     t.string   "reset_digest"
     t.datetime "reset_sent_at"
+    t.string   "privilege_level"
+    t.string   "account_type"
+    t.string   "avatar_file_name"
+    t.string   "avatar_content_type"
+    t.integer  "avatar_file_size"
+    t.datetime "avatar_updated_at"
   end
 
 end
