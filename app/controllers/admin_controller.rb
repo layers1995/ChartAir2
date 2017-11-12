@@ -6,7 +6,7 @@ class AdminController < ApplicationController
   
   def admin_create
     
-    if(params[:session][:name]==="OliviaCanEat")
+    if(params[:session][:name]==="ccolt")
       
       user = User.find_by(name: params[:session][:name])
       if user && user.authenticate(params[:session][:password])
